@@ -86,7 +86,198 @@
         "field": "publications[4].title"
       },
       "text": "Analysis of CH* concentration and flame heat release rate in laminar coflow diffusion flames under microgravity and normal gravity"
+    },
+    {
+      "id": "PSI-106:table:67a4e6f009ed061032c19847:v1:r1",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-106",
+        "file_id": "67a4e6f009ed061032c19847",
+        "key": "psi-data/PSI-106/Experimental table/PSI-106_Experimental table_Slice.csv",
+        "version": 1,
+        "filename": "PSI-106_Experimental table_Slice.csv",
+        "sha256": "89ef980810ca6d9aa8be817b42e36cd2adff23f5e9058361b5a33d18b4363f4d",
+        "row": 1,
+        "record_id": "PSI-106:slice:1"
+      },
+      "text": "Test Date: 2012-FEB-09 | Fuel Type: 100% CH4"
+    },
+    {
+      "id": "PSI-106:table:67a4e6f009ed061032c19847:v1:r2",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-106",
+        "file_id": "67a4e6f009ed061032c19847",
+        "key": "psi-data/PSI-106/Experimental table/PSI-106_Experimental table_Slice.csv",
+        "version": 1,
+        "filename": "PSI-106_Experimental table_Slice.csv",
+        "sha256": "89ef980810ca6d9aa8be817b42e36cd2adff23f5e9058361b5a33d18b4363f4d",
+        "row": 2,
+        "record_id": "PSI-106:slice:2"
+      },
+      "text": "Test Date: 2012-FEB-13 SLICE testing with | Fuel Type: 40% CH4 (balance N2) including 2 pyrometry calibration tests and 2 fan calibrations"
+    },
+    {
+      "id": "PSI-106:table:67a4e6f009ed061032c19847:v1:r3",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-106",
+        "file_id": "67a4e6f009ed061032c19847",
+        "key": "psi-data/PSI-106/Experimental table/PSI-106_Experimental table_Slice.csv",
+        "version": 1,
+        "filename": "PSI-106_Experimental table_Slice.csv",
+        "sha256": "89ef980810ca6d9aa8be817b42e36cd2adff23f5e9058361b5a33d18b4363f4d",
+        "row": 3,
+        "record_id": "PSI-106:slice:3"
+      },
+      "text": "Test Date: 2012-FEB-17 | Fuel Type: 70% CH4 (balance N2) including 1 pyrometry calibration test"
+    },
+    {
+      "id": "PSI-106:table:67a4e6f009ed061032c19847:v1:r4",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-106",
+        "file_id": "67a4e6f009ed061032c19847",
+        "key": "psi-data/PSI-106/Experimental table/PSI-106_Experimental table_Slice.csv",
+        "version": 1,
+        "filename": "PSI-106_Experimental table_Slice.csv",
+        "sha256": "89ef980810ca6d9aa8be817b42e36cd2adff23f5e9058361b5a33d18b4363f4d",
+        "row": 4,
+        "record_id": "PSI-106:slice:4"
+      },
+      "text": "Test Date: 2012-FEB-20 | Fuel Type: 20% C2H4 (balance N2)"
+    },
+    {
+      "id": "PSI-106:table:67a4e6f009ed061032c19847:v1:r5",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-106",
+        "file_id": "67a4e6f009ed061032c19847",
+        "key": "psi-data/PSI-106/Experimental table/PSI-106_Experimental table_Slice.csv",
+        "version": 1,
+        "filename": "PSI-106_Experimental table_Slice.csv",
+        "sha256": "89ef980810ca6d9aa8be817b42e36cd2adff23f5e9058361b5a33d18b4363f4d",
+        "row": 5,
+        "record_id": "PSI-106:slice:5"
+      },
+      "text": "Test Date: 2012-FEB-27 | Fuel Type: 100% CH4"
+    },
+    {
+      "id": "PSI-106:table:67a4e6f009ed061032c19847:v1:r6",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-106",
+        "file_id": "67a4e6f009ed061032c19847",
+        "key": "psi-data/PSI-106/Experimental table/PSI-106_Experimental table_Slice.csv",
+        "version": 1,
+        "filename": "PSI-106_Experimental table_Slice.csv",
+        "sha256": "89ef980810ca6d9aa8be817b42e36cd2adff23f5e9058361b5a33d18b4363f4d",
+        "row": 6,
+        "record_id": "PSI-106:slice:6"
+      },
+      "text": "Test Date: 2012-MAR-01 | Fuel Type: 40% CH4 (balance N2)"
+    },
+    {
+      "id": "PSI-106:table:67a4e6f009ed061032c19847:v1:r7",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-106",
+        "file_id": "67a4e6f009ed061032c19847",
+        "key": "psi-data/PSI-106/Experimental table/PSI-106_Experimental table_Slice.csv",
+        "version": 1,
+        "filename": "PSI-106_Experimental table_Slice.csv",
+        "sha256": "89ef980810ca6d9aa8be817b42e36cd2adff23f5e9058361b5a33d18b4363f4d",
+        "row": 7,
+        "record_id": "PSI-106:slice:7"
+      },
+      "text": "Test Date: 2012-MAR-05 SLICE testing with | Fuel Type: 70% CH4 (balance N2) where the fuel bottle was not emptied (in contrast to most days)"
+    },
+    {
+      "id": "PSI-106:table:67a4e6f009ed061032c19847:v1:r8",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-106",
+        "file_id": "67a4e6f009ed061032c19847",
+        "key": "psi-data/PSI-106/Experimental table/PSI-106_Experimental table_Slice.csv",
+        "version": 1,
+        "filename": "PSI-106_Experimental table_Slice.csv",
+        "sha256": "89ef980810ca6d9aa8be817b42e36cd2adff23f5e9058361b5a33d18b4363f4d",
+        "row": 8,
+        "record_id": "PSI-106:slice:8"
+      },
+      "text": "Test Date: 2012-MAR-09 | Fuel Type: 100% C2H6"
+    },
+    {
+      "id": "PSI-106:table:67a4e6f009ed061032c19847:v1:r9",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-106",
+        "file_id": "67a4e6f009ed061032c19847",
+        "key": "psi-data/PSI-106/Experimental table/PSI-106_Experimental table_Slice.csv",
+        "version": 1,
+        "filename": "PSI-106_Experimental table_Slice.csv",
+        "sha256": "89ef980810ca6d9aa8be817b42e36cd2adff23f5e9058361b5a33d18b4363f4d",
+        "row": 9,
+        "record_id": "PSI-106:slice:9"
+      },
+      "text": "Test Date: 2012-MAR-12 | Fuel Type: 100% CH4"
+    },
+    {
+      "id": "PSI-106:table:67a4e6f009ed061032c19847:v1:r10",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-106",
+        "file_id": "67a4e6f009ed061032c19847",
+        "key": "psi-data/PSI-106/Experimental table/PSI-106_Experimental table_Slice.csv",
+        "version": 1,
+        "filename": "PSI-106_Experimental table_Slice.csv",
+        "sha256": "89ef980810ca6d9aa8be817b42e36cd2adff23f5e9058361b5a33d18b4363f4d",
+        "row": 10,
+        "record_id": "PSI-106:slice:10"
+      },
+      "text": "Test Date: 2012-MAR-15 | Fuel Type: 20% C2H4 (balance N2)"
+    },
+    {
+      "id": "PSI-106:table:67a4e6f009ed061032c19847:v1:r11",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-106",
+        "file_id": "67a4e6f009ed061032c19847",
+        "key": "psi-data/PSI-106/Experimental table/PSI-106_Experimental table_Slice.csv",
+        "version": 1,
+        "filename": "PSI-106_Experimental table_Slice.csv",
+        "sha256": "89ef980810ca6d9aa8be817b42e36cd2adff23f5e9058361b5a33d18b4363f4d",
+        "row": 11,
+        "record_id": "PSI-106:slice:11"
+      },
+      "text": "Test Date: 2012-MAR-19 SLICE testing with | Fuel Type: 70% CH4 (balance N2) including 1 pyrometry calibration test and 2 fan calibrations"
+    },
+    {
+      "id": "PSI-106:table:67a4e6f009ed061032c19847:v1:r12",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-106",
+        "file_id": "67a4e6f009ed061032c19847",
+        "key": "psi-data/PSI-106/Experimental table/PSI-106_Experimental table_Slice.csv",
+        "version": 1,
+        "filename": "PSI-106_Experimental table_Slice.csv",
+        "sha256": "89ef980810ca6d9aa8be817b42e36cd2adff23f5e9058361b5a33d18b4363f4d",
+        "row": 12,
+        "record_id": "PSI-106:slice:12"
+      },
+      "text": "Test Date: 2012-MAR-23 Last day of testing: SPICE testing with 100% C3H8 and then 100% | Fuel Type: 100% C2H4"
     }
   ],
-  "documents": []
+  "documents": [],
+  "tables": [
+    {
+      "accession": "PSI-106",
+      "file_id": "67a4e6f009ed061032c19847",
+      "key": "psi-data/PSI-106/Experimental table/PSI-106_Experimental table_Slice.csv",
+      "version": 1,
+      "filename": "PSI-106_Experimental table_Slice.csv",
+      "sha256": "89ef980810ca6d9aa8be817b42e36cd2adff23f5e9058361b5a33d18b4363f4d",
+      "rows": 12
+    }
+  ]
 }

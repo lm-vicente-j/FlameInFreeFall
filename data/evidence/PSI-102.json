@@ -182,7 +182,138 @@
         "field": "publications[15].title"
       },
       "text": "AN OVERVIEW OF THE MICROGRAVITY SCIENCE GLOVEBOX (MSG) FACILITY, AND THE GRAVITY-DEPENDENT PHENOMENARESEARCH PERFORMED IN THE MSG ON THE INTERNATIONAL SPACE STATION (ISS)"
+    },
+    {
+      "id": "PSI-102:table:6797d223b7b6ff8e65038de3:v1:r1",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-102",
+        "file_id": "6797d223b7b6ff8e65038de3",
+        "key": "psi-data/PSI-102/Experimental table/PSI-102_Experimental table_SAME.csv",
+        "version": 1,
+        "filename": "PSI-102_Experimental table_SAME.csv",
+        "sha256": "268d1e121d2f211b124407dd32b9475617bd269ede2c2d1749441da3e949a2af",
+        "row": 1,
+        "record_id": "PSI-102:same:1"
+      },
+      "text": "Sample #: 1 | Sample Material: Teflon | Air Flow (cm/s): 5 | Weight loss rate (mg/min): 2 | Aging Duration (minutes): 1"
+    },
+    {
+      "id": "PSI-102:table:6797d223b7b6ff8e65038de3:v1:r2",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-102",
+        "file_id": "6797d223b7b6ff8e65038de3",
+        "key": "psi-data/PSI-102/Experimental table/PSI-102_Experimental table_SAME.csv",
+        "version": 1,
+        "filename": "PSI-102_Experimental table_SAME.csv",
+        "sha256": "268d1e121d2f211b124407dd32b9475617bd269ede2c2d1749441da3e949a2af",
+        "row": 2,
+        "record_id": "PSI-102:same:2"
+      },
+      "text": "Sample #: 2 | Sample Material: Teflon | Air Flow (cm/s): 5 | Weight loss rate (mg/min): 1 | Aging Duration (minutes): 1"
+    },
+    {
+      "id": "PSI-102:table:6797d223b7b6ff8e65038de3:v1:r3",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-102",
+        "file_id": "6797d223b7b6ff8e65038de3",
+        "key": "psi-data/PSI-102/Experimental table/PSI-102_Experimental table_SAME.csv",
+        "version": 1,
+        "filename": "PSI-102_Experimental table_SAME.csv",
+        "sha256": "268d1e121d2f211b124407dd32b9475617bd269ede2c2d1749441da3e949a2af",
+        "row": 3,
+        "record_id": "PSI-102:same:3"
+      },
+      "text": "Sample #: 3 | Sample Material: Teflon | Air Flow (cm/s): 5 | Weight loss rate (mg/min): 2 | Aging Duration (minutes): 20"
+    },
+    {
+      "id": "PSI-102:table:6797d223b7b6ff8e65038de3:v1:r4",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-102",
+        "file_id": "6797d223b7b6ff8e65038de3",
+        "key": "psi-data/PSI-102/Experimental table/PSI-102_Experimental table_SAME.csv",
+        "version": 1,
+        "filename": "PSI-102_Experimental table_SAME.csv",
+        "sha256": "268d1e121d2f211b124407dd32b9475617bd269ede2c2d1749441da3e949a2af",
+        "row": 4,
+        "record_id": "PSI-102:same:4"
+      },
+      "text": "Sample #: 4 | Sample Material: Teflon | Air Flow (cm/s): 10 | Weight loss rate (mg/min): 2 | Aging Duration (minutes): 1"
+    },
+    {
+      "id": "PSI-102:table:6797d223b7b6ff8e65038de3:v1:r5",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-102",
+        "file_id": "6797d223b7b6ff8e65038de3",
+        "key": "psi-data/PSI-102/Experimental table/PSI-102_Experimental table_SAME.csv",
+        "version": 1,
+        "filename": "PSI-102_Experimental table_SAME.csv",
+        "sha256": "268d1e121d2f211b124407dd32b9475617bd269ede2c2d1749441da3e949a2af",
+        "row": 5,
+        "record_id": "PSI-102:same:5"
+      },
+      "text": "Sample #: 5 | Sample Material: Kapton: same conditions as 1-4"
+    },
+    {
+      "id": "PSI-102:table:6797d223b7b6ff8e65038de3:v1:r6",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-102",
+        "file_id": "6797d223b7b6ff8e65038de3",
+        "key": "psi-data/PSI-102/Experimental table/PSI-102_Experimental table_SAME.csv",
+        "version": 1,
+        "filename": "PSI-102_Experimental table_SAME.csv",
+        "sha256": "268d1e121d2f211b124407dd32b9475617bd269ede2c2d1749441da3e949a2af",
+        "row": 6,
+        "record_id": "PSI-102:same:6"
+      },
+      "text": "Sample #: 6 | Sample Material: Silicone Rubber: same conditions as 1-4"
+    },
+    {
+      "id": "PSI-102:table:6797d223b7b6ff8e65038de3:v1:r7",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-102",
+        "file_id": "6797d223b7b6ff8e65038de3",
+        "key": "psi-data/PSI-102/Experimental table/PSI-102_Experimental table_SAME.csv",
+        "version": 1,
+        "filename": "PSI-102_Experimental table_SAME.csv",
+        "sha256": "268d1e121d2f211b124407dd32b9475617bd269ede2c2d1749441da3e949a2af",
+        "row": 7,
+        "record_id": "PSI-102:same:7"
+      },
+      "text": "Sample #: 7 | Sample Material: Lampwick: same conditions as 1-4"
+    },
+    {
+      "id": "PSI-102:table:6797d223b7b6ff8e65038de3:v1:r8",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-102",
+        "file_id": "6797d223b7b6ff8e65038de3",
+        "key": "psi-data/PSI-102/Experimental table/PSI-102_Experimental table_SAME.csv",
+        "version": 1,
+        "filename": "PSI-102_Experimental table_SAME.csv",
+        "sha256": "268d1e121d2f211b124407dd32b9475617bd269ede2c2d1749441da3e949a2af",
+        "row": 8,
+        "record_id": "PSI-102:same:8"
+      },
+      "text": "Sample #: 8 | Sample Material: Dibutyl Phthalate: same conditions as 1-4"
     }
   ],
-  "documents": []
+  "documents": [],
+  "tables": [
+    {
+      "accession": "PSI-102",
+      "file_id": "6797d223b7b6ff8e65038de3",
+      "key": "psi-data/PSI-102/Experimental table/PSI-102_Experimental table_SAME.csv",
+      "version": 1,
+      "filename": "PSI-102_Experimental table_SAME.csv",
+      "sha256": "268d1e121d2f211b124407dd32b9475617bd269ede2c2d1749441da3e949a2af",
+      "rows": 8
+    }
+  ]
 }

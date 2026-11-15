@@ -70,7 +70,48 @@
         "field": "publications[1].title"
       },
       "text": "Detection of Smoke from Microgravity Fires"
+    },
+    {
+      "id": "PSI-47:table:679bcae309ed061032c0d4e0:v2:r1",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-47",
+        "file_id": "679bcae309ed061032c0d4e0",
+        "key": "psi-data/PSI-47/Experimental table/PSI-47_Experimental table_DAFT.csv",
+        "version": 2,
+        "filename": "PSI-47_Experimental table_DAFT.csv",
+        "sha256": "d9d1a436c6e7bbc410b433e04575fe7dedaff763b5237d688089929b7393b5c0",
+        "row": 1,
+        "record_id": "PSI-47:daft:1"
+      },
+      "text": "Session Name: D1 | Actual Day: GMT 54 (2005) | Hardware Description: Contained the modified P-Trak with Alcohol Wick and batteries | Sample Material: Arizona Road Dust (ARD Fine) in combination with ISS GN2 to create an aerosol for measurement purposes. | Sampled Location: Sampled air near Express rack 4"
+    },
+    {
+      "id": "PSI-47:table:679bcae309ed061032c0d4e0:v2:r2",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-47",
+        "file_id": "679bcae309ed061032c0d4e0",
+        "key": "psi-data/PSI-47/Experimental table/PSI-47_Experimental table_DAFT.csv",
+        "version": 2,
+        "filename": "PSI-47_Experimental table_DAFT.csv",
+        "sha256": "d9d1a436c6e7bbc410b433e04575fe7dedaff763b5237d688089929b7393b5c0",
+        "row": 2,
+        "record_id": "PSI-47:daft:2"
+      },
+      "text": "Session Name: D2 | Actual Day: GMT 63 (2005) | Hardware Description: Contained DustTrak and batteries | Sample Material: Arizona Road Dust (ARD Fine) in combination with ISS GN2 to create an aerosol for measurement purposes. | Sampled Location: Sampled separated Velcro and the air near Port rack 6 and in Node 1"
     }
   ],
-  "documents": []
+  "documents": [],
+  "tables": [
+    {
+      "accession": "PSI-47",
+      "file_id": "679bcae309ed061032c0d4e0",
+      "key": "psi-data/PSI-47/Experimental table/PSI-47_Experimental table_DAFT.csv",
+      "version": 2,
+      "filename": "PSI-47_Experimental table_DAFT.csv",
+      "sha256": "d9d1a436c6e7bbc410b433e04575fe7dedaff763b5237d688089929b7393b5c0",
+      "rows": 2
+    }
+  ]
 }

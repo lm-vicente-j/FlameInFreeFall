@@ -9,6 +9,13 @@ U+FFFD replacement characters; matching is made robust later by normalization.
 Why documents are listed separately: a selected PDF that yielded no passages
 (not downloaded, unreadable, hash mismatch) must stay visible so a card can state
 what it could not examine.
+
+Experimental-table rows are passages too. PSI's table files are official records
+with measured values, so a row can support a reported observation, and its
+``record_id`` ties the card to the run record built from the same row. Tables are
+read with ``pipeline.runs.tables`` (the reader the run records use), so row
+numbers match the run records exactly. The text of a row is a fixed rendering
+(see ``render_row``) that the schema documents so an auditor can reproduce it.
 """
 import argparse
 import sys
@@ -17,6 +24,7 @@ from pathlib import Path
 from typing import Any
 
 from pipeline import catalog, paths
+from pipeline.runs import registry, tables
 from pipeline.schema import schema_errors
 from pipeline.storage import read_json, write_json_atomic
 
@@ -105,8 +113,70 @@ def _document_entry(
     return record, _document_passages(entry, extracted), None
 
 
+def render_row(row: tables.Row) -> str:
+    """``header: cell`` for each non-empty cell in header order, joined with `` | ``."""
+    parts = [f"{header.strip()}: {cell.strip()}" for header, cell in row.cells.items() if cell.strip()]
+    return " | ".join(parts)
+
+
+def _remote_table(remote_files: list[catalog.RemoteFile], filename: str) -> catalog.RemoteFile:
+    for remote in remote_files:
+        if remote.category == "Experimental table" and remote.filename == filename:
+            return remote
+    raise EvidenceError(
+        f'{filename}: no file in the saved PSI snapshot has category "Experimental table" and this name'
+    )
+
+
+def table_entry_and_passages(
+    path: Path, remote: catalog.RemoteFile
+) -> tuple[dict[str, Any], list[dict[str, Any]]]:
+    """Return the tables[] record and one passage per non-empty row of ``path``."""
+    table = tables.read_table(path)
+    slug = registry.parse_filename(path).slug
+    ref = {"accession": remote.accession, "file_id": remote.file_id, "key": remote.key, "version": remote.version}
+    passages = [
+        {
+            "id": f"{remote.accession}:table:{remote.file_id}:v{remote.version}:r{row.number}",
+            "locator": {
+                "kind": "table",
+                **ref,
+                "filename": path.name,
+                "sha256": table.sha256,
+                "row": row.number,
+                "record_id": f"{remote.accession}:{slug}:{row.number}",
+            },
+            "text": render_row(row),
+        }
+        for row in table.rows
+    ]
+    return {**ref, "filename": path.name, "sha256": table.sha256, "rows": len(passages)}, passages
+
+
+def _table_evidence(
+    res_dir: Path, accession: str, tables_dir: Path | None
+) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
+    if tables_dir is None:
+        return [], []
+    found_paths = sorted(tables_dir.glob(f"{accession}_Experimental table_*.csv"))
+    if not found_paths:
+        return [], []
+    remote_files = catalog.load_files(res_dir, accession)
+    records: list[dict[str, Any]] = []
+    passages: list[dict[str, Any]] = []
+    for path in found_paths:
+        record, found = table_entry_and_passages(path, _remote_table(remote_files, path.name))
+        records.append(record)
+        passages.extend(found)
+    return records, passages
+
+
 def build_packet(
-    res_dir: Path, accession: str, manifest_files: list[dict[str, Any]], extracted_dir: Path
+    res_dir: Path,
+    accession: str,
+    manifest_files: list[dict[str, Any]],
+    extracted_dir: Path,
+    tables_dir: Path | None = None,
 ) -> BuiltPacket:
     metadata = catalog.load_metadata(res_dir, accession)
     passages = metadata_passages(metadata, accession)
@@ -122,6 +192,8 @@ def build_packet(
         pdf_passages += len(found)
         if problem:
             problems.append(problem)
+    table_records, table_passages = _table_evidence(res_dir, accession, tables_dir)
+    passages.extend(table_passages)
     packet = {
         "investigation": accession,
         "title": str(metadata.get("title") or ""),
@@ -132,6 +204,7 @@ def build_packet(
         "coverage": "metadata_and_documents" if pdf_passages else "metadata_only",
         "passages": passages,
         "documents": documents,
+        "tables": table_records,
     }
     errors = schema_errors(packet, "evidence-packet")
     if errors:
@@ -149,12 +222,17 @@ def load_manifest_files(manifest_path: Path) -> list[dict[str, Any]]:
 
 
 def build_all(
-    res_dir: Path, manifest_path: Path, extracted_dir: Path, out_dir: Path, accessions: list[str]
+    res_dir: Path,
+    manifest_path: Path,
+    extracted_dir: Path,
+    out_dir: Path,
+    accessions: list[str],
+    tables_dir: Path | None = None,
 ) -> list[BuiltPacket]:
     files = load_manifest_files(manifest_path)
     built = []
     for accession in accessions:
-        result = build_packet(res_dir, accession, files, extracted_dir)
+        result = build_packet(res_dir, accession, files, extracted_dir, tables_dir)
         write_json_atomic(out_dir / f"{accession}.json", result.packet)
         built.append(result)
     return built
@@ -174,11 +252,12 @@ def main(argv: list[str] | None = None) -> int:
     build.add_argument("--res", type=Path, default=paths.RES)
     build.add_argument("--manifest", type=Path, default=paths.DATA / "sample_manifest.json")
     build.add_argument("--extracted", type=Path, default=paths.EXTRACTED)
+    build.add_argument("--tables", type=Path, default=paths.EXPERIMENTAL_TABLES)
     build.add_argument("--out", type=Path, default=paths.DATA / "evidence")
     args = parser.parse_args(argv)
     try:
         accessions = read_json(args.res / "catalog" / "datasets.json")
-        built = build_all(args.res, args.manifest, args.extracted, args.out, accessions)
+        built = build_all(args.res, args.manifest, args.extracted, args.out, accessions, args.tables)
     except (OSError, ValueError) as error:
         print(f"error: {error}", file=sys.stderr)
         return 1
@@ -186,7 +265,7 @@ def main(argv: list[str] | None = None) -> int:
         packet = result.packet
         print(
             f"{packet['investigation']}: {packet['coverage']}, {len(packet['passages'])} passages, "
-            f"documents: {_status_counts(packet)}"
+            f"documents: {_status_counts(packet)}, tables: {len(packet['tables'])}"
         )
         for problem in result.problems:
             print(f"  warning: {problem}")

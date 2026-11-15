@@ -78,7 +78,48 @@
         "field": "publications[2].title"
       },
       "text": "Operation and Development Status of the Spacecraft Fire Experiments (Saffire), 46th International Conference on Environmental Systems (ICES), July 2016"
+    },
+    {
+      "id": "PSI-100:table:6792d422b7b6ff8e650381da:v1:r1",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-100",
+        "file_id": "6792d422b7b6ff8e650381da",
+        "key": "psi-data/PSI-100/Experimental table/PSI-100_Experimental table_SAFFIRE-3.csv",
+        "version": 1,
+        "filename": "PSI-100_Experimental table_SAFFIRE-3.csv",
+        "sha256": "4d3c717ec20dd0247db670b2784a9fd7d746788bc54a936f80693e48eb8cd117",
+        "row": 1,
+        "record_id": "PSI-100:saffire-3:1"
+      },
+      "text": "Sample Number: S1 | Material: SIBAL Fabric | Sample Thickness: .33 cm | Sample Length: 94 cm | Sample Width: 40.6 cm | Air Flow: 30 cm/s | Direction: Concurrent | Camera 1: S1C1 | Camera 2: S1C2"
+    },
+    {
+      "id": "PSI-100:table:6792d422b7b6ff8e650381da:v1:r2",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-100",
+        "file_id": "6792d422b7b6ff8e650381da",
+        "key": "psi-data/PSI-100/Experimental table/PSI-100_Experimental table_SAFFIRE-3.csv",
+        "version": 1,
+        "filename": "PSI-100_Experimental table_SAFFIRE-3.csv",
+        "sha256": "4d3c717ec20dd0247db670b2784a9fd7d746788bc54a936f80693e48eb8cd117",
+        "row": 2,
+        "record_id": "PSI-100:saffire-3:2"
+      },
+      "text": "Sample Number: S2 | Material: SIBAL Fabric | Sample Thickness: .33 cm | Sample Length: 94 cm | Sample Width: 40.6 cm | Air Flow: 30 cm/s | Direction: Opposed | Camera 1: S2C1 | Camera 2: S2C2"
     }
   ],
-  "documents": []
+  "documents": [],
+  "tables": [
+    {
+      "accession": "PSI-100",
+      "file_id": "6792d422b7b6ff8e650381da",
+      "key": "psi-data/PSI-100/Experimental table/PSI-100_Experimental table_SAFFIRE-3.csv",
+      "version": 1,
+      "filename": "PSI-100_Experimental table_SAFFIRE-3.csv",
+      "sha256": "4d3c717ec20dd0247db670b2784a9fd7d746788bc54a936f80693e48eb8cd117",
+      "rows": 2
+    }
+  ]
 }

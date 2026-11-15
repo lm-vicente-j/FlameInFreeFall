@@ -182,7 +182,288 @@
         "field": "publications[15].title"
       },
       "text": "Theoretical analysis and predictions of burning in microgravity using a burning emulator"
+    },
+    {
+      "id": "PSI-20:table:67900e38b7b6ff8e6502900c:v1:r1",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-20",
+        "file_id": "67900e38b7b6ff8e6502900c",
+        "key": "psi-data/PSI-20/Experimental table/PSI-20_Experimental table_ACME BRE.csv",
+        "version": 1,
+        "filename": "PSI-20_Experimental table_ACME BRE.csv",
+        "sha256": "4aa5d3f98708ceacced5c620d46858b9965f8d4d941b203229f46467d53e5ab7",
+        "row": 1,
+        "record_id": "PSI-20:acme-bre:1"
+      },
+      "text": "Year: 2019 | Month: Feb | Date: 8 | Burner Size (mm): 25 | Fuel Bottle: 100% C2H4 | Oxygen Conc (percent): 21; 26.5; 40 | Flames Ignited: 10 | Notes: Oxygen Conc. (as diluted with nitrogen on a volume basis) was varied between tests where approximate concentrations for tests that ignited are listed. The chamber pressures were also varied but are not identified in this summary table."
+    },
+    {
+      "id": "PSI-20:table:67900e38b7b6ff8e6502900c:v1:r2",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-20",
+        "file_id": "67900e38b7b6ff8e6502900c",
+        "key": "psi-data/PSI-20/Experimental table/PSI-20_Experimental table_ACME BRE.csv",
+        "version": 1,
+        "filename": "PSI-20_Experimental table_ACME BRE.csv",
+        "sha256": "4aa5d3f98708ceacced5c620d46858b9965f8d4d941b203229f46467d53e5ab7",
+        "row": 2,
+        "record_id": "PSI-20:acme-bre:2"
+      },
+      "text": "Year: 2019 | Month: Feb | Date: 20 | Burner Size (mm): 25 | Fuel Bottle: 100% C2H4 | Oxygen Conc (percent): 26.5; 34 | Flames Ignited: 8 | Notes: Flames Ignited is the number ignited on that day (neglecting the day change on ISS)."
+    },
+    {
+      "id": "PSI-20:table:67900e38b7b6ff8e6502900c:v1:r3",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-20",
+        "file_id": "67900e38b7b6ff8e6502900c",
+        "key": "psi-data/PSI-20/Experimental table/PSI-20_Experimental table_ACME BRE.csv",
+        "version": 1,
+        "filename": "PSI-20_Experimental table_ACME BRE.csv",
+        "sha256": "4aa5d3f98708ceacced5c620d46858b9965f8d4d941b203229f46467d53e5ab7",
+        "row": 3,
+        "record_id": "PSI-20:acme-bre:3"
+      },
+      "text": "Year: 2019 | Month: Feb | Date: 25 | Burner Size (mm): 25 | Fuel Bottle: 50% C2H4 | Oxygen Conc (percent): 21; 26.5; 34; 40 | Flames Ignited: 8"
+    },
+    {
+      "id": "PSI-20:table:67900e38b7b6ff8e6502900c:v1:r4",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-20",
+        "file_id": "67900e38b7b6ff8e6502900c",
+        "key": "psi-data/PSI-20/Experimental table/PSI-20_Experimental table_ACME BRE.csv",
+        "version": 1,
+        "filename": "PSI-20_Experimental table_ACME BRE.csv",
+        "sha256": "4aa5d3f98708ceacced5c620d46858b9965f8d4d941b203229f46467d53e5ab7",
+        "row": 4,
+        "record_id": "PSI-20:acme-bre:4"
+      },
+      "text": "Year: 2019 | Month: March | Date: 4 | Burner Size (mm): 25 | Fuel Bottle: 50% C2H4 | Oxygen Conc (percent): 26.5; 40 | Flames Ignited: 6"
+    },
+    {
+      "id": "PSI-20:table:67900e38b7b6ff8e6502900c:v1:r5",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-20",
+        "file_id": "67900e38b7b6ff8e6502900c",
+        "key": "psi-data/PSI-20/Experimental table/PSI-20_Experimental table_ACME BRE.csv",
+        "version": 1,
+        "filename": "PSI-20_Experimental table_ACME BRE.csv",
+        "sha256": "4aa5d3f98708ceacced5c620d46858b9965f8d4d941b203229f46467d53e5ab7",
+        "row": 5,
+        "record_id": "PSI-20:acme-bre:5"
+      },
+      "text": "Year: 2019 | Month: March | Date: 7 | Burner Size (mm): 25 | Fuel Bottle: 50% C2H4 | Oxygen Conc (percent): 3400% | Flames Ignited: 6"
+    },
+    {
+      "id": "PSI-20:table:67900e38b7b6ff8e6502900c:v1:r6",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-20",
+        "file_id": "67900e38b7b6ff8e6502900c",
+        "key": "psi-data/PSI-20/Experimental table/PSI-20_Experimental table_ACME BRE.csv",
+        "version": 1,
+        "filename": "PSI-20_Experimental table_ACME BRE.csv",
+        "sha256": "4aa5d3f98708ceacced5c620d46858b9965f8d4d941b203229f46467d53e5ab7",
+        "row": 6,
+        "record_id": "PSI-20:acme-bre:6"
+      },
+      "text": "Year: 2019 | Month: March | Date: 11 | Burner Size (mm): 25 | Fuel Bottle: 50% C2H4 | Oxygen Conc (percent): 26.5; 34 | Flames Ignited: 7"
+    },
+    {
+      "id": "PSI-20:table:67900e38b7b6ff8e6502900c:v1:r7",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-20",
+        "file_id": "67900e38b7b6ff8e6502900c",
+        "key": "psi-data/PSI-20/Experimental table/PSI-20_Experimental table_ACME BRE.csv",
+        "version": 1,
+        "filename": "PSI-20_Experimental table_ACME BRE.csv",
+        "sha256": "4aa5d3f98708ceacced5c620d46858b9965f8d4d941b203229f46467d53e5ab7",
+        "row": 7,
+        "record_id": "PSI-20:acme-bre:7"
+      },
+      "text": "Year: 2019 | Month: March | Date: 28 | Burner Size (mm): 25 | Fuel Bottle: 100%C2H4 | Oxygen Conc (percent): 26.5; 34 | Flames Ignited: 8"
+    },
+    {
+      "id": "PSI-20:table:67900e38b7b6ff8e6502900c:v1:r8",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-20",
+        "file_id": "67900e38b7b6ff8e6502900c",
+        "key": "psi-data/PSI-20/Experimental table/PSI-20_Experimental table_ACME BRE.csv",
+        "version": 1,
+        "filename": "PSI-20_Experimental table_ACME BRE.csv",
+        "sha256": "4aa5d3f98708ceacced5c620d46858b9965f8d4d941b203229f46467d53e5ab7",
+        "row": 8,
+        "record_id": "PSI-20:acme-bre:8"
+      },
+      "text": "Year: 2019 | Month: April | Date: 1 | Burner Size (mm): 25 | Fuel Bottle: 100%C2H4 | Oxygen Conc (percent): 2100% | Flames Ignited: 0"
+    },
+    {
+      "id": "PSI-20:table:67900e38b7b6ff8e6502900c:v1:r9",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-20",
+        "file_id": "67900e38b7b6ff8e6502900c",
+        "key": "psi-data/PSI-20/Experimental table/PSI-20_Experimental table_ACME BRE.csv",
+        "version": 1,
+        "filename": "PSI-20_Experimental table_ACME BRE.csv",
+        "sha256": "4aa5d3f98708ceacced5c620d46858b9965f8d4d941b203229f46467d53e5ab7",
+        "row": 9,
+        "record_id": "PSI-20:acme-bre:9"
+      },
+      "text": "Year: 2019 | Month: April | Date: 4 | Burner Size (mm): 25 | Fuel Bottle: 100%C2H4 | Oxygen Conc (percent): 21; 26.5; 34 | Flames Ignited: 9"
+    },
+    {
+      "id": "PSI-20:table:67900e38b7b6ff8e6502900c:v1:r10",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-20",
+        "file_id": "67900e38b7b6ff8e6502900c",
+        "key": "psi-data/PSI-20/Experimental table/PSI-20_Experimental table_ACME BRE.csv",
+        "version": 1,
+        "filename": "PSI-20_Experimental table_ACME BRE.csv",
+        "sha256": "4aa5d3f98708ceacced5c620d46858b9965f8d4d941b203229f46467d53e5ab7",
+        "row": 10,
+        "record_id": "PSI-20:acme-bre:10"
+      },
+      "text": "Year: 2020 | Month: Sept | Date: 3 | Burner Size (mm): 50 | Fuel Bottle: 100% C2H4 | Oxygen Conc (percent): 25; 34; 40 | Flames Ignited: 13"
+    },
+    {
+      "id": "PSI-20:table:67900e38b7b6ff8e6502900c:v1:r11",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-20",
+        "file_id": "67900e38b7b6ff8e6502900c",
+        "key": "psi-data/PSI-20/Experimental table/PSI-20_Experimental table_ACME BRE.csv",
+        "version": 1,
+        "filename": "PSI-20_Experimental table_ACME BRE.csv",
+        "sha256": "4aa5d3f98708ceacced5c620d46858b9965f8d4d941b203229f46467d53e5ab7",
+        "row": 11,
+        "record_id": "PSI-20:acme-bre:11"
+      },
+      "text": "Year: 2020 | Month: Oct | Date: 17 | Burner Size (mm): 25 | Fuel Bottle: 100% C2H4 | Oxygen Conc (percent): 26.5; 34 | Flames Ignited: 13"
+    },
+    {
+      "id": "PSI-20:table:67900e38b7b6ff8e6502900c:v1:r12",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-20",
+        "file_id": "67900e38b7b6ff8e6502900c",
+        "key": "psi-data/PSI-20/Experimental table/PSI-20_Experimental table_ACME BRE.csv",
+        "version": 1,
+        "filename": "PSI-20_Experimental table_ACME BRE.csv",
+        "sha256": "4aa5d3f98708ceacced5c620d46858b9965f8d4d941b203229f46467d53e5ab7",
+        "row": 12,
+        "record_id": "PSI-20:acme-bre:12"
+      },
+      "text": "Year: 2020 | Month: Dec | Date: 5 | Burner Size (mm): 25 | Fuel Bottle: 100% CH4 | Oxygen Conc (percent): 25; 34; 40 | Flames Ignited: 21"
+    },
+    {
+      "id": "PSI-20:table:67900e38b7b6ff8e6502900c:v1:r13",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-20",
+        "file_id": "67900e38b7b6ff8e6502900c",
+        "key": "psi-data/PSI-20/Experimental table/PSI-20_Experimental table_ACME BRE.csv",
+        "version": 1,
+        "filename": "PSI-20_Experimental table_ACME BRE.csv",
+        "sha256": "4aa5d3f98708ceacced5c620d46858b9965f8d4d941b203229f46467d53e5ab7",
+        "row": 13,
+        "record_id": "PSI-20:acme-bre:13"
+      },
+      "text": "Year: 2020 | Month: Dec | Date: 4 | Burner Size (mm): 25 | Fuel Bottle: 100% CH4 | Oxygen Conc (percent): 25; 40 | Flames Ignited: 18"
+    },
+    {
+      "id": "PSI-20:table:67900e38b7b6ff8e6502900c:v1:r14",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-20",
+        "file_id": "67900e38b7b6ff8e6502900c",
+        "key": "psi-data/PSI-20/Experimental table/PSI-20_Experimental table_ACME BRE.csv",
+        "version": 1,
+        "filename": "PSI-20_Experimental table_ACME BRE.csv",
+        "sha256": "4aa5d3f98708ceacced5c620d46858b9965f8d4d941b203229f46467d53e5ab7",
+        "row": 14,
+        "record_id": "PSI-20:acme-bre:14"
+      },
+      "text": "Year: 2020 | Month: Dec | Date: 11 | Burner Size (mm): 25 | Fuel Bottle: 50% C2H4 | Oxygen Conc (percent): 25; 40 | Flames Ignited: 12"
+    },
+    {
+      "id": "PSI-20:table:67900e38b7b6ff8e6502900c:v1:r15",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-20",
+        "file_id": "67900e38b7b6ff8e6502900c",
+        "key": "psi-data/PSI-20/Experimental table/PSI-20_Experimental table_ACME BRE.csv",
+        "version": 1,
+        "filename": "PSI-20_Experimental table_ACME BRE.csv",
+        "sha256": "4aa5d3f98708ceacced5c620d46858b9965f8d4d941b203229f46467d53e5ab7",
+        "row": 15,
+        "record_id": "PSI-20:acme-bre:15"
+      },
+      "text": "Year: 2020 | Month: Dec | Date: 17 | Burner Size (mm): 25 | Fuel Bottle: 100% C2H4 | Oxygen Conc (percent): 34; 40 | Flames Ignited: 10"
+    },
+    {
+      "id": "PSI-20:table:67900e38b7b6ff8e6502900c:v1:r16",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-20",
+        "file_id": "67900e38b7b6ff8e6502900c",
+        "key": "psi-data/PSI-20/Experimental table/PSI-20_Experimental table_ACME BRE.csv",
+        "version": 1,
+        "filename": "PSI-20_Experimental table_ACME BRE.csv",
+        "sha256": "4aa5d3f98708ceacced5c620d46858b9965f8d4d941b203229f46467d53e5ab7",
+        "row": 16,
+        "record_id": "PSI-20:acme-bre:16"
+      },
+      "text": "Year: 2020 | Month: Dec | Date: 23 | Burner Size (mm): 25 | Fuel Bottle: 100% C2H4 | Oxygen Conc (percent): 25; 34; 40 | Flames Ignited: 17"
+    },
+    {
+      "id": "PSI-20:table:67900e38b7b6ff8e6502900c:v1:r17",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-20",
+        "file_id": "67900e38b7b6ff8e6502900c",
+        "key": "psi-data/PSI-20/Experimental table/PSI-20_Experimental table_ACME BRE.csv",
+        "version": 1,
+        "filename": "PSI-20_Experimental table_ACME BRE.csv",
+        "sha256": "4aa5d3f98708ceacced5c620d46858b9965f8d4d941b203229f46467d53e5ab7",
+        "row": 17,
+        "record_id": "PSI-20:acme-bre:17"
+      },
+      "text": "Year: 2021 | Month: Jan | Date: 20 | Burner Size (mm): 25 | Fuel Bottle: 100% C2H4 | Oxygen Conc (percent): 21; 26.5; 34 | Flames Ignited: 15"
+    },
+    {
+      "id": "PSI-20:table:67900e38b7b6ff8e6502900c:v1:r18",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-20",
+        "file_id": "67900e38b7b6ff8e6502900c",
+        "key": "psi-data/PSI-20/Experimental table/PSI-20_Experimental table_ACME BRE.csv",
+        "version": 1,
+        "filename": "PSI-20_Experimental table_ACME BRE.csv",
+        "sha256": "4aa5d3f98708ceacced5c620d46858b9965f8d4d941b203229f46467d53e5ab7",
+        "row": 18,
+        "record_id": "PSI-20:acme-bre:18"
+      },
+      "text": "Year: 2021 | Month: Jan | Date: 28 | Burner Size (mm): 50 | Fuel Bottle: 100% C2H4 | Oxygen Conc (percent): 25; 34; 40 | Flames Ignited: 13"
     }
   ],
-  "documents": []
+  "documents": [],
+  "tables": [
+    {
+      "accession": "PSI-20",
+      "file_id": "67900e38b7b6ff8e6502900c",
+      "key": "psi-data/PSI-20/Experimental table/PSI-20_Experimental table_ACME BRE.csv",
+      "version": 1,
+      "filename": "PSI-20_Experimental table_ACME BRE.csv",
+      "sha256": "4aa5d3f98708ceacced5c620d46858b9965f8d4d941b203229f46467d53e5ab7",
+      "rows": 18
+    }
+  ]
 }

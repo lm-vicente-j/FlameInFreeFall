@@ -4,7 +4,7 @@
   "title": "All citable source text for one investigation",
   "description": "Input to the research-card skill. Every card excerpt must occur inside one passage of this packet.",
   "type": "object",
-  "required": ["investigation", "title", "acronym", "metadata_version", "source_url", "snapshot_retrieved_at", "coverage", "passages", "documents"],
+  "required": ["investigation", "title", "acronym", "metadata_version", "source_url", "snapshot_retrieved_at", "coverage", "passages", "documents", "tables"],
   "additionalProperties": false,
   "properties": {
     "investigation": {"$ref": "common.schema.json#/$defs/accession"},
@@ -14,10 +14,25 @@
     "source_url": {"type": "string", "format": "uri"},
     "snapshot_retrieved_at": {"$ref": "common.schema.json#/$defs/timestamp"},
     "coverage": {
-      "description": "metadata_only: no document text was processed for this investigation.",
+      "description": "metadata_only: no document (PDF) text was processed for this investigation. Decided by PDF passages only; experimental-table passages do not change it, because it describes whether report text was read.",
       "enum": ["metadata_only", "metadata_and_documents"]
     },
     "passages": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/passage"}},
+    "tables": {
+      "description": "Every experimental-table CSV whose rows became passages.",
+      "type": "array",
+      "items": {
+        "allOf": [{"$ref": "common.schema.json#/$defs/remoteFile"}],
+        "type": "object",
+        "required": ["filename", "sha256", "rows"],
+        "unevaluatedProperties": false,
+        "properties": {
+          "filename": {"type": "string"},
+          "sha256": {"$ref": "common.schema.json#/$defs/sha256"},
+          "rows": {"type": "integer", "minimum": 0, "description": "Number of passages (non-empty rows)."}
+        }
+      }
+    },
     "documents": {
       "description": "Every selected document, including those that yielded no passages.",
       "type": "array",
@@ -58,6 +73,20 @@
             "sha256": {"$ref": "common.schema.json#/$defs/sha256"},
             "page": {"type": "integer", "minimum": 1}
           }
+        },
+        {
+          "description": "One non-empty row of an official PSI experimental table. The passage text is rendered as: for each column in header order whose cell is non-empty after stripping whitespace, '<header stripped>: <cell stripped, inner whitespace kept>'; the parts are joined with ' | '.",
+          "allOf": [{"$ref": "common.schema.json#/$defs/remoteFile"}],
+          "type": "object",
+          "required": ["kind", "filename", "sha256", "row", "record_id"],
+          "unevaluatedProperties": false,
+          "properties": {
+            "kind": {"const": "table"},
+            "filename": {"type": "string"},
+            "sha256": {"$ref": "common.schema.json#/$defs/sha256"},
+            "row": {"type": "integer", "minimum": 1, "description": "1-based record number after the header, counting empty rows; equals the run record's row."},
+            "record_id": {"type": "string", "pattern": "^PSI-[0-9]+:[a-z0-9-]+:[0-9]+$", "description": "Id of the run record built from this row."}
+          }
         }
       ]
     },
@@ -68,7 +97,7 @@
       "properties": {
         "id": {
           "type": "string",
-          "pattern": "^PSI-[0-9]+:(meta:[A-Za-z]+(\\[[0-9]+\\]\\.[A-Za-z]+)?|pdf:[^:]+:v[0-9]+:p[0-9]+)$",
+          "pattern": "^PSI-[0-9]+:(meta:[A-Za-z]+(\\[[0-9]+\\]\\.[A-Za-z]+)?|pdf:[^:]+:v[0-9]+:p[0-9]+|table:[^:]+:v[0-9]+:r[0-9]+)$",
           "description": "Stable: derived from the locator, never from position in the packet."
         },
         "locator": {"$ref": "#/$defs/locator"},

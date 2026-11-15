@@ -200,6 +200,66 @@
         "page": 1
       },
       "text": "SAFFIRE-I Operations \n \nOperational Requirements and Protocols \n \nThe Saffire experiments are conducted in three consecutive flights of the Cygnus vehicle. Since Cygnus undergoes a \ndestructive re-entry, three Saffire experiment units (Saffire-I, -II, and –III) are constructed and all data must be \ndownlinked. Even with these three flight opportunities, the experiment is very limited in the amount of data and test \nconditions that can be investigated. In Saffire-I and –III, the sample material is a single large sample (approx. 0.4 m \nwide by 0.94 m tall) to demonstrate the development and spread of a large-scale low-gravity fire. Once started, the \nentire burn of each of these samples is recorded, the data compressed, and downlinked. Nine smaller samples are \nburned on Saffire-II each having a dimension of 5 cm wide x 25 cm long. These are burned sequentially with the \ncamera recording images only from the sample being burned. Once started, these experiments run automatically. \nBecause of limitations in time available for downlinking, a maximum of 20 gigabits of data can be downlinked. \n  \nThe Saffire-I experiment begins only after Cygnus is unberthed from the ISS. Prior to unberthing, the crew must \ncheck that the inlet and outlet ends of the flow duct be clear of any stowage bags being deorbited. \n \nSaffire-I mission operations begin when Cygnus unberths from the ISS. The Cygnus Flight Operations Team (FOT) \nestablishes the vehicle in a lower, circular orbit. Based on this new orbit, ground station contact times are calculated \nand the experiment start is confirmed and coordinated with the Saffire FOT. From Cygnus undock until experiment \nstart takes about 1 day. \n  \nThe experiment operations are be conducted in two phases. The first phase consists of turning on power to the \nexperiment avionics, checking the experiment is initialized successfully, starting the experiment run, and recording \nand compressing the resulting data. The second phase consists of downloading all experiment data via downlink \npasses at various ground sites. The data is examined for quality and files are retransmitted if necessary. When a \ncomplete set of data files has been successfully retrieved, or the timeline has reached a predetermined maximum \nduration, the experiment avionics power is switched off and the Cygnus vehicle deorbits. \n  \nCygnus burns up on re-entry into the Earth's atmosphere. Consequently, the flight unit is permanently disposed of \nduring this process. No specific disposal processes are expected if the experiment hardware is burned up upon re-\nentry. "
+    },
+    {
+      "id": "PSI-98:table:6792c46eb7b6ff8e65037f3e:v1:r1",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-98",
+        "file_id": "6792c46eb7b6ff8e65037f3e",
+        "key": "psi-data/PSI-98/Experimental table/PSI-98_Experimental table_SAFFIRE-1.csv",
+        "version": 1,
+        "filename": "PSI-98_Experimental table_SAFFIRE-1.csv",
+        "sha256": "c01f29c62455f0a3b512290ab85e5687ecded326733189f002f580368402308d",
+        "row": 1,
+        "record_id": "PSI-98:saffire-1:1"
+      },
+      "text": "Sample Number: S1 | Material: SIBAL Fabric | Sample Thickness (cm): 0.37 | Sample Length (cm): 40.6 | Sample Width (cm): 94 | Air Flow (cm/s): 20 | Percent O2: 21.5 - 21.7 | Ignition Power (W): 182 | Ignition Time (s): 8 | Burn Time (s): 420 | Flow Direction: Concurrent | Camera 1: S1C1 | Camera 2: S1C2"
+    },
+    {
+      "id": "PSI-98:table:6792c46eb7b6ff8e65037f3e:v1:r2",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-98",
+        "file_id": "6792c46eb7b6ff8e65037f3e",
+        "key": "psi-data/PSI-98/Experimental table/PSI-98_Experimental table_SAFFIRE-1.csv",
+        "version": 1,
+        "filename": "PSI-98_Experimental table_SAFFIRE-1.csv",
+        "sha256": "c01f29c62455f0a3b512290ab85e5687ecded326733189f002f580368402308d",
+        "row": 2,
+        "record_id": "PSI-98:saffire-1:2"
+      },
+      "text": "Sample Number: S2 | Material: SIBAL Fabric | Sample Thickness (cm): 0.37 | Sample Length (cm): 40.6 | Sample Width (cm): 94 | Air Flow (cm/s): 20 | Percent O2: ~ 21.5 | Ignition Power (W): 182 | Ignition Time (s): 8 | Burn Time (s): 70 | Flow Direction: Opposed | Camera 1: S2C1 | Camera 2: S2C2"
+    },
+    {
+      "id": "PSI-98:table:6792c46eb7b6ff8e65037f3e:v1:r3",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-98",
+        "file_id": "6792c46eb7b6ff8e65037f3e",
+        "key": "psi-data/PSI-98/Experimental table/PSI-98_Experimental table_SAFFIRE-1.csv",
+        "version": 1,
+        "filename": "PSI-98_Experimental table_SAFFIRE-1.csv",
+        "sha256": "c01f29c62455f0a3b512290ab85e5687ecded326733189f002f580368402308d",
+        "row": 3,
+        "record_id": "PSI-98:saffire-1:3"
+      },
+      "text": "Sample Number: F1C1/F1C2 | Material: Pre-test flow visulation data for sample 1"
+    },
+    {
+      "id": "PSI-98:table:6792c46eb7b6ff8e65037f3e:v1:r4",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-98",
+        "file_id": "6792c46eb7b6ff8e65037f3e",
+        "key": "psi-data/PSI-98/Experimental table/PSI-98_Experimental table_SAFFIRE-1.csv",
+        "version": 1,
+        "filename": "PSI-98_Experimental table_SAFFIRE-1.csv",
+        "sha256": "c01f29c62455f0a3b512290ab85e5687ecded326733189f002f580368402308d",
+        "row": 4,
+        "record_id": "PSI-98:saffire-1:4"
+      },
+      "text": "Sample Number: F2C1/F2C2 | Material: Pre-test flow visulation data for sample 2"
     }
   ],
   "documents": [
@@ -242,6 +302,17 @@
       "sha256": "e792c665b700656152adbf2594b68bc5d73c3fc0f6711608b4330a9d7535653f",
       "status": "no_text",
       "page_count": 3
+    }
+  ],
+  "tables": [
+    {
+      "accession": "PSI-98",
+      "file_id": "6792c46eb7b6ff8e65037f3e",
+      "key": "psi-data/PSI-98/Experimental table/PSI-98_Experimental table_SAFFIRE-1.csv",
+      "version": 1,
+      "filename": "PSI-98_Experimental table_SAFFIRE-1.csv",
+      "sha256": "c01f29c62455f0a3b512290ab85e5687ecded326733189f002f580368402308d",
+      "rows": 4
     }
   ]
 }

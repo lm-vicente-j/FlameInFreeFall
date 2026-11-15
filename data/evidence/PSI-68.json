@@ -438,7 +438,138 @@
         "field": "publications[47].title"
       },
       "text": "Interpretation of Backlit Droplet Images from ISS Droplet Combustion Experiments"
+    },
+    {
+      "id": "PSI-68:table:67929004b7b6ff8e6502ecd0:v1:r1",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-68",
+        "file_id": "67929004b7b6ff8e6502ecd0",
+        "key": "psi-data/PSI-68/Experimental table/PSI-68_Experimental table_Flex2.csv",
+        "version": 1,
+        "filename": "PSI-68_Experimental table_Flex2.csv",
+        "sha256": "cc57ad1bd9977aa13e7ac6c3aa618303012686e232b36c052c6a9f1a74e5f528",
+        "row": 1,
+        "record_id": "PSI-68:flex2:1"
+      },
+      "text": "Sample (Fuel Type): IsoOctane (pure) | Initial Droplet Diameter (mm): 1.5 - 5 | Ambient Gas Mixture: O2/N2 or O2/He | Oxygen Mole Fraction: 0.17; 0.21;0.25; 0.3 | Ambient Pressure (atm): 0.5; 1.0; 1.5; 2.0; or 3.0 | Ambient Temperature (C): 25 | Flow Velocity (cm/s): 0.1 - 5"
+    },
+    {
+      "id": "PSI-68:table:67929004b7b6ff8e6502ecd0:v1:r2",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-68",
+        "file_id": "67929004b7b6ff8e6502ecd0",
+        "key": "psi-data/PSI-68/Experimental table/PSI-68_Experimental table_Flex2.csv",
+        "version": 1,
+        "filename": "PSI-68_Experimental table_Flex2.csv",
+        "sha256": "cc57ad1bd9977aa13e7ac6c3aa618303012686e232b36c052c6a9f1a74e5f528",
+        "row": 2,
+        "record_id": "PSI-68:flex2:2"
+      },
+      "text": "Sample (Fuel Type): n-Octane (pure) | Initial Droplet Diameter (mm): 1.5 - 5 | Ambient Gas Mixture: O2/N2 or O2/He | Oxygen Mole Fraction: 0.17; 0.21;0.25; 0.3 | Ambient Pressure (atm): 0.5; 1.0; 1.5; 2.0; or 3.0 | Ambient Temperature (C): 25 | Flow Velocity (cm/s): 0.1 - 5"
+    },
+    {
+      "id": "PSI-68:table:67929004b7b6ff8e6502ecd0:v1:r3",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-68",
+        "file_id": "67929004b7b6ff8e6502ecd0",
+        "key": "psi-data/PSI-68/Experimental table/PSI-68_Experimental table_Flex2.csv",
+        "version": 1,
+        "filename": "PSI-68_Experimental table_Flex2.csv",
+        "sha256": "cc57ad1bd9977aa13e7ac6c3aa618303012686e232b36c052c6a9f1a74e5f528",
+        "row": 3,
+        "record_id": "PSI-68:flex2:3"
+      },
+      "text": "Sample (Fuel Type): Heptane (pure) | Initial Droplet Diameter (mm): 1.5 - 5 | Ambient Gas Mixture: O2/N2 or O2/He | Oxygen Mole Fraction: 0.17; 0.21;0.25; 0.3 | Ambient Pressure (atm): 0.5; 1.0; 1.5; 2.0; or 3.0 | Ambient Temperature (C): 25 | Flow Velocity (cm/s): 0.1 - 5"
+    },
+    {
+      "id": "PSI-68:table:67929004b7b6ff8e6502ecd0:v1:r4",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-68",
+        "file_id": "67929004b7b6ff8e6502ecd0",
+        "key": "psi-data/PSI-68/Experimental table/PSI-68_Experimental table_Flex2.csv",
+        "version": 1,
+        "filename": "PSI-68_Experimental table_Flex2.csv",
+        "sha256": "cc57ad1bd9977aa13e7ac6c3aa618303012686e232b36c052c6a9f1a74e5f528",
+        "row": 4,
+        "record_id": "PSI-68:flex2:4"
+      },
+      "text": "Sample (Fuel Type): Decane (pure) | Initial Droplet Diameter (mm): 1.5 - 5 | Ambient Gas Mixture: O2/N2 or O2/He | Oxygen Mole Fraction: 0.17; 0.21;0.25; 0.3 | Ambient Pressure (atm): 0.5; 1.0; 1.5; 2.0; or 3.0 | Ambient Temperature (C): 25 | Flow Velocity (cm/s): 0.1 - 5"
+    },
+    {
+      "id": "PSI-68:table:67929004b7b6ff8e6502ecd0:v1:r5",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-68",
+        "file_id": "67929004b7b6ff8e6502ecd0",
+        "key": "psi-data/PSI-68/Experimental table/PSI-68_Experimental table_Flex2.csv",
+        "version": 1,
+        "filename": "PSI-68_Experimental table_Flex2.csv",
+        "sha256": "cc57ad1bd9977aa13e7ac6c3aa618303012686e232b36c052c6a9f1a74e5f528",
+        "row": 5,
+        "record_id": "PSI-68:flex2:5"
+      },
+      "text": "Sample (Fuel Type): Ethanol (pure) | Initial Droplet Diameter (mm): 1.5 - 5 | Ambient Gas Mixture: O2/N2 or O2/He | Oxygen Mole Fraction: 0.17; 0.21;0.25; 0.3 | Ambient Pressure (atm): 0.5; 1.0; 1.5; 2.0; or 3.0 | Ambient Temperature (C): 25 | Flow Velocity (cm/s): 0.1 - 5"
+    },
+    {
+      "id": "PSI-68:table:67929004b7b6ff8e6502ecd0:v1:r6",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-68",
+        "file_id": "67929004b7b6ff8e6502ecd0",
+        "key": "psi-data/PSI-68/Experimental table/PSI-68_Experimental table_Flex2.csv",
+        "version": 1,
+        "filename": "PSI-68_Experimental table_Flex2.csv",
+        "sha256": "cc57ad1bd9977aa13e7ac6c3aa618303012686e232b36c052c6a9f1a74e5f528",
+        "row": 6,
+        "record_id": "PSI-68:flex2:6"
+      },
+      "text": "Sample (Fuel Type): Propanol (95%) Glycerol (5%) (mixture) | Initial Droplet Diameter (mm): 1.5 - 5 | Ambient Gas Mixture: O2/N2 or O2/He | Oxygen Mole Fraction: 0.17; 0.21;0.25; 0.3 | Ambient Pressure (atm): 0.5; 1.0; 1.5; 2.0; or 3.0 | Ambient Temperature (C): 25 | Flow Velocity (cm/s): 0.1 - 5"
+    },
+    {
+      "id": "PSI-68:table:67929004b7b6ff8e6502ecd0:v1:r7",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-68",
+        "file_id": "67929004b7b6ff8e6502ecd0",
+        "key": "psi-data/PSI-68/Experimental table/PSI-68_Experimental table_Flex2.csv",
+        "version": 1,
+        "filename": "PSI-68_Experimental table_Flex2.csv",
+        "sha256": "cc57ad1bd9977aa13e7ac6c3aa618303012686e232b36c052c6a9f1a74e5f528",
+        "row": 7,
+        "record_id": "PSI-68:flex2:7"
+      },
+      "text": "Sample (Fuel Type): Heptane (50%) IsoOctane (50%) (mixture) | Initial Droplet Diameter (mm): 1.5 - 5 | Ambient Gas Mixture: O2/N2 or O2/He | Oxygen Mole Fraction: 0.17; 0.21;0.25; 0.3 | Ambient Pressure (atm): 0.5; 1.0; 1.5; 2.0; or 3.0 | Ambient Temperature (C): 25 | Flow Velocity (cm/s): 0.1 - 5"
+    },
+    {
+      "id": "PSI-68:table:67929004b7b6ff8e6502ecd0:v1:r8",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-68",
+        "file_id": "67929004b7b6ff8e6502ecd0",
+        "key": "psi-data/PSI-68/Experimental table/PSI-68_Experimental table_Flex2.csv",
+        "version": 1,
+        "filename": "PSI-68_Experimental table_Flex2.csv",
+        "sha256": "cc57ad1bd9977aa13e7ac6c3aa618303012686e232b36c052c6a9f1a74e5f528",
+        "row": 8,
+        "record_id": "PSI-68:flex2:8"
+      },
+      "text": "Sample (Fuel Type): Propanol (80%) Glycerol (20%) (mixture) | Initial Droplet Diameter (mm): 1.5 - 5 | Ambient Gas Mixture: O2/N2 or O2/He | Oxygen Mole Fraction: 0.17; 0.21;0.25; 0.3 | Ambient Pressure (atm): 0.5; 1.0; 1.5; 2.0; or 3.0 | Ambient Temperature (C): 25 | Flow Velocity (cm/s): 0.1 - 5"
     }
   ],
-  "documents": []
+  "documents": [],
+  "tables": [
+    {
+      "accession": "PSI-68",
+      "file_id": "67929004b7b6ff8e6502ecd0",
+      "key": "psi-data/PSI-68/Experimental table/PSI-68_Experimental table_Flex2.csv",
+      "version": 1,
+      "filename": "PSI-68_Experimental table_Flex2.csv",
+      "sha256": "cc57ad1bd9977aa13e7ac6c3aa618303012686e232b36c052c6a9f1a74e5f528",
+      "rows": 8
+    }
+  ]
 }

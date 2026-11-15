@@ -2020,6 +2020,1641 @@
         "page": 33
       },
       "text": "SAME-DOC-007 \n \n 28\nView manufacturer setup \nDisplay # Description Next Button Press or Reaction \n7 Setup menu View Setup \n28 Manufacturer setup Enter \n3 Real-time measurement – Sample \nmenu item chosen \n \n \nRecord data to Log Mode 1 \nDisplay # Description Next Button Press or Reaction \n4 Real-time measurement – Log Mode \n1 menu item chosen \nEnter \n29 Recording data to Log Mode 1 (as \nlong as you like) \nEnter \n3 Real-time measurement – Sample \nmenu item chosen \n \n \n \nRecord data to Log Mode 2 \nDisplay # Description Next Button Press or Reaction \n5 Real-time measurement – Log Mode \n2 menu item chosen \nEnter \n30 Recording data to Log Mode 2 (as \nlong as you like) \nEnter \n3 Real-time measurement – Sample \nmenu item chosen \n \n \n \nRecord data to Log Mode 3 \nDisplay # Description Next Button Press or Reaction \n6 Real-time measurement – Log Mode \n3 menu item chosen \nEnter \n31 Recording data to Log Mode 3(as \nlong as you like) \nEnter \n3 Real-time measurement – Sample \nmenu item chosen \n \n \nRecord data to single point memory \nDisplay # Description Next Button Press or Reaction \n3 Real-time measurement – Sample \nmenu item chosen \nEnter \n34 Countdown from 10 to 0 After 0, goes to next display \n32 Record to single point memory? Up or Down, and Enter.  If no is \nselected next display is 3.  If yes is \nselected, next display is 33. \n33 Edit location name Right, Left, Up and Down to \nchange name.  Enter when done. \n3 Real-time measurement – Sample \nmenu item chosen \n \n "
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r1",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 1,
+        "record_id": "PSI-101:same-r:1"
+      },
+      "text": "Sample Type: Kapton | SAME Test #: 51 | Description: B.L. new formula | Date: 21-Jul | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.38 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): 38"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r2",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 2,
+        "record_id": "PSI-101:same-r:2"
+      },
+      "text": "Sample Type: Kapton | SAME Test #: 51a | Description: B.L. new formula | Date: 22-Jul | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.38 | Duration (sec): 60 | Net aging time (sec): 261"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r3",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 3,
+        "record_id": "PSI-101:same-r:3"
+      },
+      "text": "Sample Type: Kapton | SAME Test #: 61 | Description: Baseline Aging | Date: 2-Aug | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.38 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): 38"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r4",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 4,
+        "record_id": "PSI-101:same-r:4"
+      },
+      "text": "Sample Type: Kapton | SAME Test #: 61a | Description: aged | Date: 2-Aug | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.38 | Net aging time (sec): 807"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r5",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 5,
+        "record_id": "PSI-101:same-r:5"
+      },
+      "text": "Sample Type: Kapton | SAME Test #: 62 | Description: High Temp aging | Date: 2-Aug | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.48 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): 39"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r6",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 6,
+        "record_id": "PSI-101:same-r:6"
+      },
+      "text": "Sample Type: Kapton | SAME Test #: 62a | Description: aged | Date: 2-Aug | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.48 | Net aging time (sec): 808"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r7",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 7,
+        "record_id": "PSI-101:same-r:7"
+      },
+      "text": "Sample Type: Kapton | SAME Test #: 70 | Description: High temp aged STS det | Date: 24-Aug | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.48 | Duration (sec): 60 | Primary aging time (sec): 720 | Primary mixing time (sec): 8 | Net aging time (sec): 747"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r8",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 8,
+        "record_id": "PSI-101:same-r:8"
+      },
+      "text": "Sample Type: Kapton | SAME Test #: 73 | Description: Baseline Aging | Date: 26-Aug | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.38 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): 33"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r9",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 9,
+        "record_id": "PSI-101:same-r:9"
+      },
+      "text": "Sample Type: Kapton | SAME Test #: 73a | Description: aged | Date: 26-Aug | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.38 | Net aging time (sec): 560"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r10",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 10,
+        "record_id": "PSI-101:same-r:10"
+      },
+      "text": "Sample Type: Kapton | SAME Test #: 75 | Description: Mid Temp aging (no Ptrak) | Date: 26-Aug | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.43 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): 32"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r11",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 11,
+        "record_id": "PSI-101:same-r:11"
+      },
+      "text": "Sample Type: Kapton | SAME Test #: 75a | Description: aged | Date: 26-Aug | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.43 | Net aging time (sec): 563"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r12",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 12,
+        "record_id": "PSI-101:same-r:12"
+      },
+      "text": "Sample Type: Kapton | SAME Test #: 77 | Description: High Temp aging | Date: 26-Aug | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.48 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): 31"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r13",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 13,
+        "record_id": "PSI-101:same-r:13"
+      },
+      "text": "Sample Type: Kapton | SAME Test #: 77a | Description: aged | Date: 26-Aug | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.48 | Net aging time (sec): 559"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r14",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 14,
+        "record_id": "PSI-101:same-r:14"
+      },
+      "text": "Sample Type: Kapton | SAME Test #: 85 | Description: Mid Temp aging run. Repeat 75 | Date: 30-Aug | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.43 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): 33"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r15",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 15,
+        "record_id": "PSI-101:same-r:15"
+      },
+      "text": "Sample Type: Kapton | SAME Test #: 85a | Description: aged | Date: 30-Aug | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.43 | Net aging time (sec): 563"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r16",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 16,
+        "record_id": "PSI-101:same-r:16"
+      },
+      "text": "Sample Type: Kapton | SAME Test #: 90 | Description: Mid Temp aging reburn 85 | Date: 30-Aug | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.43 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): 38"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r17",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 17,
+        "record_id": "PSI-101:same-r:17"
+      },
+      "text": "Sample Type: Kapton | SAME Test #: 90a | Description: aged | Date: 30-Aug | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.43 | Net aging time (sec): 569"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r18",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 18,
+        "record_id": "PSI-101:same-r:18"
+      },
+      "text": "Sample Type: Kapton | SAME Test #: 92 | Description: Baseline STS det | Date: 7-Sep | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.38 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): 35"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r19",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 19,
+        "record_id": "PSI-101:same-r:19"
+      },
+      "text": "Sample Type: Kapton | SAME Test #: 93 | Description: Mid Temp aging run 75 repeat | Date: 7-Sep | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.43 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): 36"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r20",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 20,
+        "record_id": "PSI-101:same-r:20"
+      },
+      "text": "Sample Type: Kapton | SAME Test #: 93a | Description: aged | Date: 7-Sep | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.43 | Net aging time (sec): 568"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r21",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 21,
+        "record_id": "PSI-101:same-r:21"
+      },
+      "text": "Sample Type: Kapton | SAME Test #: 94 | Description: Mid Temp aging run mid high | Date: 7-Sep | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.45 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): 42"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r22",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 22,
+        "record_id": "PSI-101:same-r:22"
+      },
+      "text": "Sample Type: Kapton | SAME Test #: 94a | Description: aged | Date: 7-Sep | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.45 | Net aging time (sec): 567"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r23",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 23,
+        "record_id": "PSI-101:same-r:23"
+      },
+      "text": "Sample Type: Kapton | SAME Test #: 101 | Description: No flow run w/ aging | Date: 8-Sep | Inlet velocity (cm/s): 0 | Rt/R0: 1.48 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): 29"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r24",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 24,
+        "record_id": "PSI-101:same-r:24"
+      },
+      "text": "Sample Type: Kapton | SAME Test #: 101a | Description: aged | Date: 8-Sep | Inlet velocity (cm/s): 0 | Rt/R0: 1.48 | Net aging time (sec): 561"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r25",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 25,
+        "record_id": "PSI-101:same-r:25"
+      },
+      "text": "Sample Type: Kapton | SAME Test #: 102 | Description: No flow run w/ aging | Date: 8-Sep | Inlet velocity (cm/s): 0 | Rt/R0: 1.48 | Duration (sec): 120 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): 28"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r26",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 26,
+        "record_id": "PSI-101:same-r:26"
+      },
+      "text": "Sample Type: Kapton | SAME Test #: 102a | Description: aged | Date: 8-Sep | Inlet velocity (cm/s): 0 | Rt/R0: 1.48 | Net aging time (sec): 563"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r27",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 27,
+        "record_id": "PSI-101:same-r:27"
+      },
+      "text": "Sample Type: Kapton | SAME Test #: 108 | Description: Low flow run w/aging | Date: 9-Sep | Inlet velocity (cm/s): 1 | Rt/R0: 1.48 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): 30"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r28",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 28,
+        "record_id": "PSI-101:same-r:28"
+      },
+      "text": "Sample Type: Kapton | SAME Test #: 108a | Description: aged | Date: 9-Sep | Inlet velocity (cm/s): 1 | Rt/R0: 1.48 | Net aging time (sec): 560"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r29",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 29,
+        "record_id": "PSI-101:same-r:29"
+      },
+      "text": "Sample Type: Kapton | SAME Test #: 114 | Description: low flow run w STS no Ptrak | Date: 9-Sep | Inlet velocity (cm/s): 2 | Rt/R0: 1.43 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): 28"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r30",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 30,
+        "record_id": "PSI-101:same-r:30"
+      },
+      "text": "Sample Type: Silicone | SAME Test #: 48 | Description: Low Temp | Date: 16-Jul | Inlet velocity (cm/s): 8 | Rt/R0: 1.304 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): 62"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r31",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 31,
+        "record_id": "PSI-101:same-r:31"
+      },
+      "text": "Sample Type: Silicone | SAME Test #: 53 | Description: HighTemp | Date: 22-Jul | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.35 | Duration (sec): 60 | Primary aging time (sec): 1 | Primary mixing time (sec): 8 | Net aging time (sec): 52"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r32",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 32,
+        "record_id": "PSI-101:same-r:32"
+      },
+      "text": "Sample Type: Silicone | SAME Test #: 59 | Description: baseline aged | Date: 30-Jul | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.327 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): 24"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r33",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 33,
+        "record_id": "PSI-101:same-r:33"
+      },
+      "text": "Sample Type: Silicone | SAME Test #: 59a | Description: aged | Date: 30-Jul | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.327 | Net aging time (sec): 856"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r34",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 34,
+        "record_id": "PSI-101:same-r:34"
+      },
+      "text": "Sample Type: Silicone | SAME Test #: 60 | Description: Htemp ageing | Date: 30-Jul | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.35 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): 49"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r35",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 35,
+        "record_id": "PSI-101:same-r:35"
+      },
+      "text": "Sample Type: Silicone | SAME Test #: 60a | Description: aged | Date: 30-Jul | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.35 | Net aging time (sec): 856"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r36",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 36,
+        "record_id": "PSI-101:same-r:36"
+      },
+      "text": "Sample Type: Silicone | SAME Test #: 65 | Description: Baseline long aging | Date: 23-Aug | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.327 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): 50"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r37",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 37,
+        "record_id": "PSI-101:same-r:37"
+      },
+      "text": "Sample Type: Silicone | SAME Test #: 65a | Description: aged | Date: 23-Aug | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.327 | Net aging time (sec): 1923"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r38",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 38,
+        "record_id": "PSI-101:same-r:38"
+      },
+      "text": "Sample Type: Silicone | SAME Test #: 66 | Description: High T aging | Date: 23-Aug | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.36 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): 42"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r39",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 39,
+        "record_id": "PSI-101:same-r:39"
+      },
+      "text": "Sample Type: Silicone | SAME Test #: 66a | Description: aged | Date: 23-Aug | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.36 | Net aging time (sec): 837"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r40",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 40,
+        "record_id": "PSI-101:same-r:40"
+      },
+      "text": "Sample Type: Silicone | SAME Test #: 67 | Description: High temp aged | Date: 24-Aug | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.35 | Duration (sec): 60 | Primary aging time (sec): 720 | Primary mixing time (sec): 8 | Net aging time (sec): 751"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r41",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 41,
+        "record_id": "PSI-101:same-r:41"
+      },
+      "text": "Sample Type: Silicone | SAME Test #: 72 | Description: Baseline STS det | Date: 25-Aug | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.327 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): 42"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r42",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 42,
+        "record_id": "PSI-101:same-r:42"
+      },
+      "text": "Sample Type: Silicone | SAME Test #: 86 | Description: Mid temp aging | Date: 30-Aug | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.345 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): 50"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r43",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 43,
+        "record_id": "PSI-101:same-r:43"
+      },
+      "text": "Sample Type: Silicone | SAME Test #: 86a | Description: aged | Date: 30-Aug | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.345 | Net aging time (sec): 628"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r44",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 44,
+        "record_id": "PSI-101:same-r:44"
+      },
+      "text": "Sample Type: Silicone | SAME Test #: 91 | Description: Baseline STS det | Date: 7-Sep | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.327 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): 46"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r45",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 45,
+        "record_id": "PSI-101:same-r:45"
+      },
+      "text": "Sample Type: Silicone | SAME Test #: 99 | Description: No flow run w/aging | Date: 8-Sep | Inlet velocity (cm/s): 0 | Rt/R0: 1.35 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): 48"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r46",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 46,
+        "record_id": "PSI-101:same-r:46"
+      },
+      "text": "Sample Type: Silicone | SAME Test #: 99a | Description: aged | Date: 8-Sep | Inlet velocity (cm/s): 0 | Rt/R0: 1.35 | Net aging time (sec): 627"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r47",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 47,
+        "record_id": "PSI-101:same-r:47"
+      },
+      "text": "Sample Type: Silicone | SAME Test #: 103 | Description: low flow run w/ aging | Date: 9-Sep | Inlet velocity (cm/s): 1 | Rt/R0: 1.35 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): 48"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r48",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 48,
+        "record_id": "PSI-101:same-r:48"
+      },
+      "text": "Sample Type: Silicone | SAME Test #: 103a | Description: aged | Date: 9-Sep | Inlet velocity (cm/s): 1 | Rt/R0: 1.35 | Net aging time (sec): 619"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r49",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 49,
+        "record_id": "PSI-101:same-r:49"
+      },
+      "text": "Sample Type: Silicone | SAME Test #: 104 | Description: No flow run w/ aging | Date: 9-Sep | Inlet velocity (cm/s): 0 | Rt/R0: 1.35 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): 51"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r50",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 50,
+        "record_id": "PSI-101:same-r:50"
+      },
+      "text": "Sample Type: Silicone | SAME Test #: 104a | Description: aged | Date: 9-Sep | Inlet velocity (cm/s): 0 | Rt/R0: 1.35 | Net aging time (sec): 636"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r51",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 51,
+        "record_id": "PSI-101:same-r:51"
+      },
+      "text": "Sample Type: Silicone | SAME Test #: 109 | Description: low flow run w STS | Date: 9-Sep | Inlet velocity (cm/s): 2 | Rt/R0: 1.35 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): 28"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r52",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 52,
+        "record_id": "PSI-101:same-r:52"
+      },
+      "text": "Sample Type: Lampwick | SAME Test #: 49 | Description: B.L. High RT/R0 | Date: 19-Jul | Inlet velocity (cm/s): 8 | Rt/R0: 1.251 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): 51"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r53",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 53,
+        "record_id": "PSI-101:same-r:53"
+      },
+      "text": "Sample Type: Lampwick | SAME Test #: 54 | Description: Baseline | Date: 29-Jul | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.245 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): 57"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r54",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 54,
+        "record_id": "PSI-101:same-r:54"
+      },
+      "text": "Sample Type: Lampwick | SAME Test #: 55 | Description: High RT/R0 test aging | Date: 29-Jul | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.245 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): 47"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r55",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 55,
+        "record_id": "PSI-101:same-r:55"
+      },
+      "text": "Sample Type: Lampwick | SAME Test #: 55a | Description: aged | Date: 29-Jul | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.245 | Net aging time (sec): 218"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r56",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 56,
+        "record_id": "PSI-101:same-r:56"
+      },
+      "text": "Sample Type: Lampwick | SAME Test #: 57 | Description: High RT/R0 reburn sample | Date: 29-Jul | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.253 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): n/a"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r57",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 57,
+        "record_id": "PSI-101:same-r:57"
+      },
+      "text": "Sample Type: Lampwick | SAME Test #: 68 | Description: High temp aged STS det | Date: 24-Aug | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.28 | Duration (sec): 60 | Primary aging time (sec): 720 | Primary mixing time (sec): 8 | Net aging time (sec): 747"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r58",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 58,
+        "record_id": "PSI-101:same-r:58"
+      },
+      "text": "Sample Type: Lampwick | SAME Test #: 78 | Description: Baseline aging | Date: 26-Aug | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.245 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): 37"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r59",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 59,
+        "record_id": "PSI-101:same-r:59"
+      },
+      "text": "Sample Type: Lampwick | SAME Test #: 78a | Description: aged | Date: 26-Aug | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.245 | Net aging time (sec): 581"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r60",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 60,
+        "record_id": "PSI-101:same-r:60"
+      },
+      "text": "Sample Type: Lampwick | SAME Test #: 80 | Description: High temp aging | Date: 26-Aug | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.28 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): 40"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r61",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 61,
+        "record_id": "PSI-101:same-r:61"
+      },
+      "text": "Sample Type: Lampwick | SAME Test #: 80a | Description: aged | Date: 26-Aug | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.28 | Net aging time (sec): 580"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r62",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 62,
+        "record_id": "PSI-101:same-r:62"
+      },
+      "text": "Sample Type: Lampwick | SAME Test #: 82 | Description: Mid temp aging | Date: 26-Aug | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.265 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): 39"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r63",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 63,
+        "record_id": "PSI-101:same-r:63"
+      },
+      "text": "Sample Type: Lampwick | SAME Test #: 82a | Description: aged | Date: 27-Aug | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.265 | Net aging time (sec): 579"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r64",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 64,
+        "record_id": "PSI-101:same-r:64"
+      },
+      "text": "Sample Type: Lampwick | SAME Test #: 88 | Description: Baseline STS det | Date: 30-Aug | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.245 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): n/a"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r65",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 65,
+        "record_id": "PSI-101:same-r:65"
+      },
+      "text": "Sample Type: Lampwick | SAME Test #: 96 | Description: No flow run w/aging | Date: 7-Sep | Inlet velocity (cm/s): 0 | Rt/R0: 1.245 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): 34"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r66",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 66,
+        "record_id": "PSI-101:same-r:66"
+      },
+      "text": "Sample Type: Lampwick | SAME Test #: 96a | Description: aged | Date: 7-Sep | Inlet velocity (cm/s): 0 | Rt/R0: 1.245 | Net aging time (sec): 582"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r67",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 67,
+        "record_id": "PSI-101:same-r:67"
+      },
+      "text": "Sample Type: Lampwick | SAME Test #: 98 | Description: No flow run w/aging | Date: 8-Sep | Inlet velocity (cm/s): 0 | Rt/R0: 1.28 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): 37"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r68",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 68,
+        "record_id": "PSI-101:same-r:68"
+      },
+      "text": "Sample Type: Lampwick | SAME Test #: 98a | Description: aged | Date: 8-Sep | Inlet velocity (cm/s): 0 | Rt/R0: 1.28 | Net aging time (sec): 585"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r69",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 69,
+        "record_id": "PSI-101:same-r:69"
+      },
+      "text": "Sample Type: Lampwick | SAME Test #: 106 | Description: No flow run w/aging | Date: 9-Sep | Inlet velocity (cm/s): 0 | Rt/R0: 1.28 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): 30"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r70",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 70,
+        "record_id": "PSI-101:same-r:70"
+      },
+      "text": "Sample Type: Lampwick | SAME Test #: 106a | Description: aged | Date: 9-Sep | Inlet velocity (cm/s): 0 | Rt/R0: 1.28 | Net aging time (sec): 558"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r71",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 71,
+        "record_id": "PSI-101:same-r:71"
+      },
+      "text": "Sample Type: Lampwick | SAME Test #: 110 | Description: low flow run w/STS | Date: 9-Sep | Inlet velocity (cm/s): 2 | Rt/R0: 1.28 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): 21"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r72",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 72,
+        "record_id": "PSI-101:same-r:72"
+      },
+      "text": "Sample Type: Teflon | SAME Test #: 50 | Description: B.L. High RT/R0 | Date: 20-Jul | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.452 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): 33"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r73",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 73,
+        "record_id": "PSI-101:same-r:73"
+      },
+      "text": "Sample Type: Teflon | SAME Test #: 56 | Description: Baseline | Date: 29-Jul | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.445 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): 41"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r74",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 74,
+        "record_id": "PSI-101:same-r:74"
+      },
+      "text": "Sample Type: Teflon | SAME Test #: 57 | Description: High RT/R0 reburn sample | Date: 29-Jul | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.253 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): n/a"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r75",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 75,
+        "record_id": "PSI-101:same-r:75"
+      },
+      "text": "Sample Type: Teflon | SAME Test #: 58 | Description: Baseline aging | Date: 30-Jul | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.445 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): 34"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r76",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 76,
+        "record_id": "PSI-101:same-r:76"
+      },
+      "text": "Sample Type: Teflon | SAME Test #: 58a | Description: aged | Date: 30-Jul | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.445 | Net aging time (sec): 805"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r77",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 77,
+        "record_id": "PSI-101:same-r:77"
+      },
+      "text": "Sample Type: Teflon | SAME Test #: 69 | Description: High temp aged STS det | Date: 24-Aug | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.45 | Duration (sec): 60 | Primary aging time (sec): 720 | Primary mixing time (sec): 8 | Net aging time (sec): 745"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r78",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 78,
+        "record_id": "PSI-101:same-r:78"
+      },
+      "text": "Sample Type: Teflon | SAME Test #: 79 | Description: Baseline aging | Date: 26-Aug | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.445 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): 33"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r79",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 79,
+        "record_id": "PSI-101:same-r:79"
+      },
+      "text": "Sample Type: Teflon | SAME Test #: 79a | Description: aged | Date: 26-Aug | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.445 | Net aging time (sec): 560"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r80",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 80,
+        "record_id": "PSI-101:same-r:80"
+      },
+      "text": "Sample Type: Teflon | SAME Test #: 81 | Description: High temp aging | Date: 26-Aug | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.45 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): 30"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r81",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 81,
+        "record_id": "PSI-101:same-r:81"
+      },
+      "text": "Sample Type: Teflon | SAME Test #: 81a | Description: aged | Date: 27-Aug | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.45 | Net aging time (sec): 559"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r82",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 82,
+        "record_id": "PSI-101:same-r:82"
+      },
+      "text": "Sample Type: Teflon | SAME Test #: 83 | Description: Mid temp aging | Date: 26-Aug | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.448 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): 30"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r83",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 83,
+        "record_id": "PSI-101:same-r:83"
+      },
+      "text": "Sample Type: Teflon | SAME Test #: 83a | Description: aged | Date: 27-Aug | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.448 | Net aging time (sec): 557"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r84",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 84,
+        "record_id": "PSI-101:same-r:84"
+      },
+      "text": "Sample Type: Teflon | SAME Test #: 89 | Description: Baseline STS det | Date: 30-Aug | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.445 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): 31"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r85",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 85,
+        "record_id": "PSI-101:same-r:85"
+      },
+      "text": "Sample Type: Teflon | SAME Test #: 100 | Description: No flow run w/ aging | Date: 8-Sep | Inlet velocity (cm/s): 0 | Rt/R0: 1.45 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): 29"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r86",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 86,
+        "record_id": "PSI-101:same-r:86"
+      },
+      "text": "Sample Type: Teflon | SAME Test #: 100a | Description: aged | Date: 8-Sep | Inlet velocity (cm/s): 0 | Rt/R0: 1.45 | Net aging time (sec): 560"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r87",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 87,
+        "record_id": "PSI-101:same-r:87"
+      },
+      "text": "Sample Type: Teflon | SAME Test #: 105 | Description: No flow run w/ aging | Date: 9-Sep | Inlet velocity (cm/s): 0 | Rt/R0: 1.45 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): 24"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r88",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 88,
+        "record_id": "PSI-101:same-r:88"
+      },
+      "text": "Sample Type: Teflon | SAME Test #: 105a | Description: aged | Date: 9-Sep | Inlet velocity (cm/s): 0 | Rt/R0: 1.45 | Net aging time (sec): 559"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r89",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 89,
+        "record_id": "PSI-101:same-r:89"
+      },
+      "text": "Sample Type: Teflon | SAME Test #: 111 | Description: low flow run w/ STS | Date: 9-Sep | Inlet velocity (cm/s): 2 | Rt/R0: 1.45 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): 43"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r90",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 90,
+        "record_id": "PSI-101:same-r:90"
+      },
+      "text": "Sample Type: Pyrell | SAME Test #: 52 | Description: Baseline | Date: 22-Jul | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.22 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): n/a"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r91",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 91,
+        "record_id": "PSI-101:same-r:91"
+      },
+      "text": "Sample Type: Pyrell | SAME Test #: 63 | Description: Baseline Aging | Date: 23-Aug | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.22 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): 56"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r92",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 92,
+        "record_id": "PSI-101:same-r:92"
+      },
+      "text": "Sample Type: Pyrell | SAME Test #: 63a | Description: aged | Date: 23-Aug | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.22 | Net aging time (sec): 840"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r93",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 93,
+        "record_id": "PSI-101:same-r:93"
+      },
+      "text": "Sample Type: Pyrell | SAME Test #: 64 | Description: High Temp aging | Date: 23-Aug | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.23 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): 47"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r94",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 94,
+        "record_id": "PSI-101:same-r:94"
+      },
+      "text": "Sample Type: Pyrell | SAME Test #: 64a | Description: aged | Date: 23-Aug | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.23 | Net aging time (sec): 842"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r95",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 95,
+        "record_id": "PSI-101:same-r:95"
+      },
+      "text": "Sample Type: Pyrell | SAME Test #: 71 | Description: High temp aged STS det | Date: 24-Aug | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.23 | Duration (sec): 60 | Primary aging time (sec): 720 | Primary mixing time (sec): 8 | Net aging time (sec): 750"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r96",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 96,
+        "record_id": "PSI-101:same-r:96"
+      },
+      "text": "Sample Type: Pyrell | SAME Test #: 74 | Description: Baseline Aging | Date: 26-Aug | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.22 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): 48"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r97",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 97,
+        "record_id": "PSI-101:same-r:97"
+      },
+      "text": "Sample Type: Pyrell | SAME Test #: 74a | Description: aged | Date: 26-Aug | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.22 | Net aging time (sec): 623"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r98",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 98,
+        "record_id": "PSI-101:same-r:98"
+      },
+      "text": "Sample Type: Pyrell | SAME Test #: 76 | Description: High Temp aging | Date: 26-Aug | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.23 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): 51"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r99",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 99,
+        "record_id": "PSI-101:same-r:99"
+      },
+      "text": "Sample Type: Pyrell | SAME Test #: 76a | Description: aged | Date: 26-Aug | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.23 | Net aging time (sec): 625"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r100",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 100,
+        "record_id": "PSI-101:same-r:100"
+      },
+      "text": "Sample Type: Pyrell | SAME Test #: 84 | Description: Mid Temp aging retry | Date: 30-Aug | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.225 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): 53"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r101",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 101,
+        "record_id": "PSI-101:same-r:101"
+      },
+      "text": "Sample Type: Pyrell | SAME Test #: 84a | Description: aged | Date: 30-Aug | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.225 | Net aging time (sec): 632"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r102",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 102,
+        "record_id": "PSI-101:same-r:102"
+      },
+      "text": "Sample Type: Pyrell | SAME Test #: 87 | Description: Baseline STS det | Date: 30-Aug | Inlet velocity (cm/s): 8.1 | Rt/R0: 1.22 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): 45"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r103",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 103,
+        "record_id": "PSI-101:same-r:103"
+      },
+      "text": "Sample Type: Pyrell | SAME Test #: 95 | Description: No flow run w/ aging | Date: 7-Sep | Inlet velocity (cm/s): 0 | Rt/R0: 1.22 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): 38"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r104",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 104,
+        "record_id": "PSI-101:same-r:104"
+      },
+      "text": "Sample Type: Pyrell | SAME Test #: 95a | Description: aged | Date: 7-Sep | Inlet velocity (cm/s): 0 | Rt/R0: 1.22 | Net aging time (sec): n/a"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r105",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 105,
+        "record_id": "PSI-101:same-r:105"
+      },
+      "text": "Sample Type: Pyrell | SAME Test #: 97 | Description: No flow run w/aging | Date: 8-Sep | Inlet velocity (cm/s): 0 | Rt/R0: 1.23 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): 48"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r106",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 106,
+        "record_id": "PSI-101:same-r:106"
+      },
+      "text": "Sample Type: Pyrell | SAME Test #: 97a | Description: aged | Date: 8-Sep | Inlet velocity (cm/s): 0 | Rt/R0: 1.23 | Net aging time (sec): 624"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r107",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 107,
+        "record_id": "PSI-101:same-r:107"
+      },
+      "text": "Sample Type: Pyrell | SAME Test #: 107 | Description: Low flow run w/aging | Date: 9-Sep | Inlet velocity (cm/s): 1 | Rt/R0: 1.23 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): 32"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r108",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 108,
+        "record_id": "PSI-101:same-r:108"
+      },
+      "text": "Sample Type: Pyrell | SAME Test #: 107a | Description: aged | Date: 9-Sep | Inlet velocity (cm/s): 1 | Rt/R0: 1.23 | Net aging time (sec): 559"
+    },
+    {
+      "id": "PSI-101:table:679a9e2209ed061032c0cd23:v1:r109",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-101",
+        "file_id": "679a9e2209ed061032c0cd23",
+        "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+        "version": 1,
+        "filename": "PSI-101_Experimental table_SAME-R.csv",
+        "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+        "row": 109,
+        "record_id": "PSI-101:same-r:109"
+      },
+      "text": "Sample Type: Pyrell | SAME Test #: 113 | Description: low flow run w STS | Date: 9-Sep | Inlet velocity (cm/s): 2 | Rt/R0: 1.23 | Duration (sec): 60 | Primary aging time (sec): 11 | Primary mixing time (sec): 8 | Net aging time (sec): 31"
     }
   ],
   "documents": [
@@ -2052,6 +3687,17 @@
       "sha256": "ac00e24b0f9a0388c3ac5097cca67591112c9992c0c9d40a6810ca5ba7289f36",
       "status": "extracted",
       "page_count": 33
+    }
+  ],
+  "tables": [
+    {
+      "accession": "PSI-101",
+      "file_id": "679a9e2209ed061032c0cd23",
+      "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+      "version": 1,
+      "filename": "PSI-101_Experimental table_SAME-R.csv",
+      "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+      "rows": 109
     }
   ]
 }

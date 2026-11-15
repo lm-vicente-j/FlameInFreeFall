@@ -2388,6 +2388,1941 @@
         "page": 4
       },
       "text": "4\niss038e048844                    12:45:33                     \nGMT 045                          02-14-2014          \n1/8 sec at f / 2.0                    -2 EV                            \nMode: Manual        ISO 1000                          \n(Date/Time is minus 1 day 6 min 9 sec from \nBASS Video Clock)\niss038e048845                    12:45:38                     \nGMT 045                          02-14-2014          \n1/8 sec at f / 2.0                    -2 EV                            \nMode: Manual        ISO 1000                          \n(Date/Time is minus 1 day 6 min 9 sec from \nBASS Video Clock)\niss038e048846                    12:45:41                     \nGMT 045                          02-14-2014          \n1/8 sec at f / 2.0                    -2 EV                            \nMode: Manual        ISO 1000                          \n(Date/Time is minus 1 day 6 min 9 sec from \nBASS Video Clock)\niss038e048847                    12:45:42                     \nGMT 045                          02-14-2014          \n1/8 sec at f / 2.0                    -2 EV                            \nMode: Manual        ISO 1000                          \n(Date/Time is minus 1 day 6 min 9 sec from \nBASS Video Clock)\niss038e048848                    12:45:44                     \nGMT 045                          02-14-2014          \n1/8 sec at f / 2.0                    -2 EV                            \nMode: Manual        ISO 1000                          \n(Date/Time is minus 1 day 6 min 9 sec from \nBASS Video Clock)"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r1",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 1,
+        "record_id": "PSI-25:bass-ii:1"
+      },
+      "text": "PI: Bhattacharjee | Test #: B1 | Date: 2/19/2014 | GMT: 50 | Sample #: 147 | Fuel Sample Material: 100 micron PMMA film   2 cm wide | Flow restrictor: 2 | Fan display: 62 | Air display: 5 | Radiometer gain   (1000   250   50   10): 50 | Total Frames Shot: 57 | Calibrated  initial O2 % by vol: 22.2 | Calibrated final O2 % by vol: 22.2 | Initial CO2 % by vol: 0.44 | Final CO2 % by vol: 0.44 | Initial CO (ppm): 0 | Final CO (ppm): 6"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r2",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 2,
+        "record_id": "PSI-25:bass-ii:2"
+      },
+      "text": "PI: Bhattacharjee | Test #: B2 | Date: 2/19/2014 | GMT: 50 | Sample #: 155 | Fuel Sample Material: 200 micron PMMA film   2 cm wide | Flow restrictor: 2 | Fan display: 62 | Air display: 5 | Radiometer gain   (1000   250   50   10): 50 | Total Frames Shot: none | Calibrated  initial O2 % by vol: 22.2 | Calibrated final O2 % by vol: 1.6 | Initial CO2 % by vol: 0.44 | Initial CO (ppm): 6"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r3",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 3,
+        "record_id": "PSI-25:bass-ii:3"
+      },
+      "text": "PI: Bhattacharjee | Test #: B3 | Date: 2/19/2014 | GMT: 50 | Sample #: 148 | Fuel Sample Material: 100 micron film   2 cm wide | Flow restrictor: 2 | Fan display: 47 | Air display: 2 | Radiometer gain   (1000   250   50   10): 50 | Total Frames Shot: 253 | Calibrated  initial O2 % by vol: 22.2 | Calibrated final O2 % by vol: 21.8 | Initial CO2 % by vol: 0.43 | Final CO2 % by vol: 0.49 | Initial CO (ppm): 12 | Final CO (ppm): 19"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r4",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 4,
+        "record_id": "PSI-25:bass-ii:4"
+      },
+      "text": "PI: Bhattacharjee | Test #: B4 | Date: 2/19/2014 | GMT: 50 | Sample #: 159 | Fuel Sample Material: 300 micron PMMA film   2 cm wide | Flow restrictor: 2 | Fan display: 61 | Air display: 5 | Radiometer gain   (1000   250   50   10): 50 | Total Frames Shot: 137 | Calibrated  initial O2 % by vol: 22.2 | Calibrated final O2 % by vol: 22.2 | Initial CO2 % by vol: 0.44 | Final CO2 % by vol: 0.51 | Initial CO (ppm): -1 | Final CO (ppm): 10"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r5",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 5,
+        "record_id": "PSI-25:bass-ii:5"
+      },
+      "text": "PI: Bhattacharjee | Test #: B5 | Date: 2/19/2014 | GMT: 50 | Sample #: 156 | Fuel Sample Material: 200 micron  2 cm wide | Flow restrictor: 2 | Fan display: 59 | Air display: 5 | Radiometer gain   (1000   250   50   10): 50 | Total Frames Shot: 206 | Calibrated  initial O2 % by vol: 22.2 | Calibrated final O2 % by vol: 21.9 | Initial CO2 % by vol: 0.43 | Final CO2 % by vol: 0.43 | Initial CO (ppm): 0 | Final CO (ppm): 12"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r6",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 6,
+        "record_id": "PSI-25:bass-ii:6"
+      },
+      "text": "PI: Bhattacharjee | Test #: B6 | Date: 7/7/2014 | GMT: 188 | Sample #: 153m | Fuel Sample Material: 2 cm 0.1 mm PMMA film | Flow restrictor: 2 | Fan display: 0.9   1.3   2.75 | Air display: 3   5   approaching 10 | Radiometer gain   (1000   250   50   10): 10 | Total Frames Shot: 80 | Calibrated  initial O2 % by vol: 21 | Calibrated final O2 % by vol: 20.9 | Initial CO2 % by vol: 0.33 | Final CO2 % by vol: 0.41 | Initial CO (ppm): 0 | Final CO (ppm): 0.3"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r7",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 7,
+        "record_id": "PSI-25:bass-ii:7"
+      },
+      "text": "PI: Bhattacharjee | Test #: B7 | Date: 2/19/2014 | GMT: 50 | Sample #: 161 | Fuel Sample Material: 400 micron film   2 cm wide | Flow restrictor: 2 | Fan display: 47 | Air display: 2 | Radiometer gain   (1000   250   50   10): 50 | Total Frames Shot: 84 | Calibrated  initial O2 % by vol: 22.2 | Calibrated final O2 % by vol: 22.1 | Initial CO2 % by vol: 0.45 | Final CO2 % by vol: 0.51 | Initial CO (ppm): 1 | Final CO (ppm): 17"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r8",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 8,
+        "record_id": "PSI-25:bass-ii:8"
+      },
+      "text": "PI: Bhattacharjee | Test #: B8 | Date: 7/7/2014 | GMT: 188 | Sample #: 157m | Fuel Sample Material: 2 cm   0.2 mm PMMA film | Flow restrictor: 0 | Fan display: 1.4    incr to 10.0 | Air display: 10   max | Radiometer gain   (1000   250   50   10): 10 | Total Frames Shot: 226 | Calibrated  initial O2 % by vol: 21 | Calibrated final O2 % by vol: 20.5 | Initial CO2 % by vol: 0.33 | Final CO2 % by vol: 0.58 | Initial CO (ppm): 0 | Final CO (ppm): 131"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r9",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 9,
+        "record_id": "PSI-25:bass-ii:9"
+      },
+      "text": "PI: Bhattacharjee | Test #: B9 | Date: 7/7/2014 | GMT: 188 | Sample #: 154m | Fuel Sample Material: 2 cm   0.1 mm PMMA film | Flow restrictor: 2 | Fan display: 0.6   0.35 | Air display: 2   <1 | Radiometer gain   (1000   250   50   10): 10 | Total Frames Shot: 45 | Calibrated  initial O2 % by vol: 21 | Calibrated final O2 % by vol: 20.9 | Initial CO2 % by vol: 0.33 | Final CO2 % by vol: 0.35 | Initial CO (ppm): 0 | Final CO (ppm): 10"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r10",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 10,
+        "record_id": "PSI-25:bass-ii:10"
+      },
+      "text": "PI: Bhattacharjee | Test #: B10 | Date: 7/7/2014 | GMT: 188 | Sample #: 173m | Fuel Sample Material: 1 cm   0.2 mm PMMA film | Flow restrictor: 2 | Fan display: 1.7 (52)   1.25   0.9   0.6   0.4   0.35 | Air display: 5  4  3  2  1 | Radiometer gain   (1000   250   50   10): 10 | Total Frames Shot: 123 | Calibrated  initial O2 % by vol: 21 | Calibrated final O2 % by vol: 20.8 | Initial CO2 % by vol: 0.33 | Final CO2 % by vol: 0.44 | Initial CO (ppm): 0 | Final CO (ppm): 23"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r11",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 11,
+        "record_id": "PSI-25:bass-ii:11"
+      },
+      "text": "PI: Bhattacharjee | Test #: B11 | Date: 7/7/2014 | GMT: 188 | Sample #: 158m | Fuel Sample Material: 2 cm   0.2 mm PMMA film | Flow restrictor: 2 | Fan display: 2.5 (59)   1.3   0.7   0.5   0.35 | Air display: 5   3   1   <1 | Radiometer gain   (1000   250   50   10): 10 | Total Frames Shot: 131 | Calibrated  initial O2 % by vol: 21 | Calibrated final O2 % by vol: 20.7 | Initial CO2 % by vol: 0.33 | Final CO2 % by vol: 0.47 | Initial CO (ppm): 0 | Final CO (ppm): 46"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r12",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 12,
+        "record_id": "PSI-25:bass-ii:12"
+      },
+      "text": "PI: Bhattacharjee | Test #: B12 | Date: 2/19/2014 | GMT: 50 | Sample #: 160 | Fuel Sample Material: 300 micron film   2 cm wide | Flow restrictor: 2 | Fan display: 46.5 | Air display: 2 | Radiometer gain   (1000   250   50   10): 50 | Total Frames Shot: 160 | Calibrated  initial O2 % by vol: 22.2 | Calibrated final O2 % by vol: 22.1 | Initial CO2 % by vol: 0.51 | Final CO2 % by vol: 0.56 | Initial CO (ppm): 17 | Final CO (ppm): 33"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r13",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 13,
+        "record_id": "PSI-25:bass-ii:13"
+      },
+      "text": "PI: Bhattacharjee | Test #: B13 | Date: 7/7/2014 | GMT: 188 | Sample #: 162m | Fuel Sample Material: 2 cm   0.4 mm thick film | Flow restrictor: 2 | Fan display: 3.5 (68)    1.7   1.25   0.9   0.6   0.4   0.35 | Air display: 10   5  4  3  2  1 | Radiometer gain   (1000   250   50   10): 10 | Total Frames Shot: 311 | Calibrated  initial O2 % by vol: 21 | Calibrated final O2 % by vol: 20.5 | Initial CO2 % by vol: 0.33 | Final CO2 % by vol: 0.65 | Initial CO (ppm): 0 | Final CO (ppm): 61"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r14",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 14,
+        "record_id": "PSI-25:bass-ii:14"
+      },
+      "text": "PI: Bhattacharjee | Test #: B14 | Date: 7/2/2014 | GMT: 183 | Sample #: 174m | Fuel Sample Material: 1 cm wide 200 micron thick PMMA | Flow restrictor: 2 | Fan display: pot 0.9   0.5 and down | Air display: 5  3  2   ext | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 44 | Calibrated  initial O2 % by vol: 15 | Calibrated final O2 % by vol: none | Initial CO2 % by vol: 0 | Final CO2 % by vol: none | Initial CO (ppm): 0.2 | Final CO (ppm): none"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r15",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 15,
+        "record_id": "PSI-25:bass-ii:15"
+      },
+      "text": "PI: Bhattacharjee | Test #: B15 | Date: 7/7/2014 | GMT: 188 | Sample #: 149m | Fuel Sample Material: 2 cm   0.1 mm PMMA film | Flow restrictor: 0 | Fan display: 1.4 (50) incr to 10.0 pot | Air display: 10   max | Radiometer gain   (1000   250   50   10): 10 | Total Frames Shot: 122 | Calibrated  initial O2 % by vol: 21 | Calibrated final O2 % by vol: 20.8 | Initial CO2 % by vol: 0.33 | Final CO2 % by vol: 0.43 | Initial CO (ppm): 0 | Final CO (ppm): 22"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r16",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 16,
+        "record_id": "PSI-25:bass-ii:16"
+      },
+      "text": "PI: Bhattacharjee | Test #: B16 | Date: 7/2/2014 | GMT: 183 | Sample #: 150m | Fuel Sample Material: 2 cm 100 micron thick PMMA | Flow restrictor: 2 | Fan display: 44 (pot 0.68) | Air display: 3  0.5 pot   0.4 pot | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 94 | Calibrated  initial O2 % by vol: 17.3 | Calibrated final O2 % by vol: 17.2 | Initial CO2 % by vol: 0.47 | Final CO2 % by vol: 0.51 | Initial CO (ppm): 103 | Final CO (ppm): 119"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r17",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 17,
+        "record_id": "PSI-25:bass-ii:17"
+      },
+      "text": "PI: Bhattacharjee | Test #: B17 | Date: 7/2/2014 | GMT: 183 | Sample #: 175m | Fuel Sample Material: 1 cm wide 200 micron thick PMMA | Flow restrictor: 2 | Fan display: pot 1.2 (48)    0.9   0.4 | Air display: 5   3    pot 0.4 | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 190 | Calibrated  initial O2 % by vol: 17.5 | Calibrated final O2 % by vol: 17.4 | Initial CO2 % by vol: 0.2 | Final CO2 % by vol: 0.34 | Initial CO (ppm): 0 | Final CO (ppm): 47"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r18",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 18,
+        "record_id": "PSI-25:bass-ii:18"
+      },
+      "text": "PI: Bhattacharjee | Test #: B18 | Date: 7/2/2014 | GMT: 183 | Sample #: 176m | Fuel Sample Material: 1 cm wide 200 micron thick PMMA | Flow restrictor: 0 | Fan display: pot 1.02 (47)   incr to 7.0 | Air display: 10   blowoff | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 152 | Calibrated  initial O2 % by vol: 17.4 | Calibrated final O2 % by vol: 17.4 | Initial CO2 % by vol: 0.34 | Final CO2 % by vol: 0.42 | Initial CO (ppm): 47 | Final CO (ppm): 78"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r19",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 19,
+        "record_id": "PSI-25:bass-ii:19"
+      },
+      "text": "PI: Bhattacharjee | Test #: B19 | Date: 7/2/2014 | GMT: 183 | Sample #: 151m | Fuel Sample Material: 2 cm 100 micron thick PMMA | Flow restrictor: 0 | Fan display: 47 (pot 1.05)   incr to pot 6.0 | Air display: 10   blowoff | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 95 | Calibrated  initial O2 % by vol: 17.3 | Calibrated final O2 % by vol: 17.2 | Initial CO2 % by vol: 0.51 | Final CO2 % by vol: 0.57 | Initial CO (ppm): 119 | Final CO (ppm): 131"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r20",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 20,
+        "record_id": "PSI-25:bass-ii:20"
+      },
+      "text": "PI: Bhattacharjee | Test #: B20 | Date: 7/2/2014 | GMT: 183 | Sample #: 152m | Fuel Sample Material: 2 cm 100 micron thick PMMA | Flow restrictor: 2 | Fan display: 48   pot 0.9   0.5 | Air display: 5   3      pot 0.5 | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 111 | Calibrated  initial O2 % by vol: 17.4 | Calibrated final O2 % by vol: 17.4 | Initial CO2 % by vol: 0.42 | Final CO2 % by vol: 0.47 | Initial CO (ppm): 78 | Final CO (ppm): 103"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r21",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 21,
+        "record_id": "PSI-25:bass-ii:21"
+      },
+      "text": "PI: Bhattacharjee | Test #: B21 | Date: 8/4/2014 | GMT: 216 | Sample #: 174m | Fuel Sample Material: 1 cm wide 200 micron thick PMMA | Flow restrictor: 1 | Fan display: 53   and down | Air display: 5 down to ext | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 88 | Calibrated  initial O2 % by vol: 20.8 | Calibrated final O2 % by vol: 20.6 | Initial CO2 % by vol: 0.36 | Final CO2 % by vol: 0.44 | Initial CO (ppm): -1 | Final CO (ppm): 18"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r22",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 22,
+        "record_id": "PSI-25:bass-ii:22"
+      },
+      "text": "PI: Bhattacharjee | Test #: B22 | Date: 8/4/2014 | GMT: 216 | Sample #: 176m | Fuel Sample Material: 1 cm wide 200 micron thick PMMA | Flow restrictor: 1 | Fan display: 53   42   41   40.5 | Air display: 5   2   0 | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 77 | Calibrated  initial O2 % by vol: 20.7 | Calibrated final O2 % by vol: 20.5 | Initial CO2 % by vol: 0.41 | Final CO2 % by vol: 0.47 | Initial CO (ppm): -1 | Final CO (ppm): 10"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r23",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 23,
+        "record_id": "PSI-25:bass-ii:23"
+      },
+      "text": "PI: Ferkul | Test #: F1 | Date: 2/19/2014 | GMT: 50 | Sample #: 227 | Fuel Sample Material: Nomex natural (nomex III) | Flow restrictor: 2 | Fan display: 82 | Air display: 9.5 | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 208 | Calibrated  initial O2 % by vol: 22.2 | Calibrated final O2 % by vol: 22.2 | Initial CO2 % by vol: 0.46 | Final CO2 % by vol: 0.45 | Initial CO (ppm): 0 | Final CO (ppm): 2"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r24",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 24,
+        "record_id": "PSI-25:bass-ii:24"
+      },
+      "text": "PI: Ferkul | Test #: F2 | Date: 7/28/2014 | GMT: 209 | Sample #: 228m | Fuel Sample Material: Nomex natural (nomex III) | Flow restrictor: 2 | Fan display: 92 | Air display: 15 | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 72 | Calibrated  initial O2 % by vol: 21 | Calibrated final O2 % by vol: 21 | Initial CO2 % by vol: 0.37 | Final CO2 % by vol: 0.39 | Initial CO (ppm): 105 | Final CO (ppm): 82"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r25",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 25,
+        "record_id": "PSI-25:bass-ii:25"
+      },
+      "text": "PI: Ferkul | Test #: F3 | Date: 8/1/2014 | GMT: 213 | Sample #: 229m | Fuel Sample Material: Nomex natural (nomex III) | Flow restrictor: 1 | Fan display: 61 | Air display: 8 | Radiometer gain   (1000   250   50   10): 50 | Total Frames Shot: 46 | Calibrated  initial O2 % by vol: 21.7 | Calibrated final O2 % by vol: none | Initial CO2 % by vol: 0.36 | Final CO2 % by vol: none | Initial CO (ppm): 2 | Final CO (ppm): none"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r26",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 26,
+        "record_id": "PSI-25:bass-ii:26"
+      },
+      "text": "PI: Ferkul | Test #: F4 | Date: 6/24/2014 | GMT: 175 | Sample #: 39M | Fuel Sample Material: Japan Wax candle | Flow restrictor: 2 | Fan display: see notes | Air display: 3 ign | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 270 | Calibrated  initial O2 % by vol: 17.4 | Calibrated final O2 % by vol: 17.4 | Initial CO2 % by vol: 0.38 | Final CO2 % by vol: 0.48 | Initial CO (ppm): 22 | Final CO (ppm): 56"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r27",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 27,
+        "record_id": "PSI-25:bass-ii:27"
+      },
+      "text": "PI: Miller | Test #: M1 | Date: 2/20/2014 | GMT: 51 | Sample #: 222 | Fuel Sample Material: 1 mm thick PMMA   1 sided   2 cm | Flow restrictor: 2 | Fan display: 58   54 | Air display: 10  8 | Radiometer gain   (1000   250   50   10): 50 | Total Frames Shot: 304 | Calibrated  initial O2 % by vol: 22.2 | Calibrated final O2 % by vol: 21.9 | Initial CO2 % by vol: 0.45 | Final CO2 % by vol: 0.61 | Initial CO (ppm): 0 | Final CO (ppm): 60"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r28",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 28,
+        "record_id": "PSI-25:bass-ii:28"
+      },
+      "text": "PI: Miller | Test #: M2 | Date: 2/20/2014 | GMT: 51 | Sample #: 224 | Fuel Sample Material: 3 mm thick PMMA 1 sided    2 cm wide | Flow restrictor: 0 | Fan display: 116 (pot 9.3)    89   80   84 | Air display: 20  15  13   14 | Radiometer gain   (1000   250   50   10): 50 | Total Frames Shot: 262 | Calibrated  initial O2 % by vol: 22.2 | Calibrated final O2 % by vol: 21.2 | Initial CO2 % by vol: 0.46 | Final CO2 % by vol: 1.33 | Initial CO (ppm): 12 | Final CO (ppm): 325"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r29",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 29,
+        "record_id": "PSI-25:bass-ii:29"
+      },
+      "text": "PI: Miller | Test #: M3 | Date: 7/11/2014 | GMT: 192 | Sample #: 226m | Fuel Sample Material: 2 cm wide   5 mm thick 1 sided PMMA | Flow restrictor: 2 | Fan display: 3.0  3.1  3.2  6.4  5.5  5.4 | Air display: 10   20  18 | Radiometer gain   (1000   250   50   10): 250>50>250 | Total Frames Shot: 223 | Calibrated  initial O2 % by vol: 20.8 | Calibrated final O2 % by vol: 19.7 | Initial CO2 % by vol: 0.33 | Final CO2 % by vol: 1.18 | Initial CO (ppm): 11 | Final CO (ppm): 300"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r30",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 30,
+        "record_id": "PSI-25:bass-ii:30"
+      },
+      "text": "PI: Miller | Test #: M4 | Date: 7/31/2014 | GMT: 212 | Sample #: 171m | Fuel Sample Material: 5 mm thick PMMA   2 cm wide | Flow restrictor: 1 | Fan display: 52   47   43 | Air display: 5   4   3 | Radiometer gain   (1000   250   50   10): 250>50 | Total Frames Shot: 262 | Calibrated  initial O2 % by vol: 21.8 | Calibrated final O2 % by vol: 19.8 | Initial CO2 % by vol: 0.42 | Final CO2 % by vol: 2.15 | Initial CO (ppm): 2 | Final CO (ppm): 561"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r31",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 31,
+        "record_id": "PSI-25:bass-ii:31"
+      },
+      "text": "PI: Miller | Test #: M5 | Date: 2/20/2014 | GMT: 51 | Sample #: 167 | Fuel Sample Material: 3 mm thick PMMA   2 sided   2 cm thick | Flow restrictor: 0 | Air display: 20  13  10  8  5 | Radiometer gain   (1000   250   50   10): 50 | Total Frames Shot: 300+   +102 | Calibrated  initial O2 % by vol: 22.2 | Calibrated final O2 % by vol: 19 | Initial CO2 % by vol: 0.44 | Final CO2 % by vol: 3.22 | Initial CO (ppm): 9 | Final CO (ppm): >500"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r32",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 32,
+        "record_id": "PSI-25:bass-ii:32"
+      },
+      "text": "PI: Miller | Test #: M6 | Date: 7/31/2014 | GMT: 212 | Sample #: 163m | Fuel Sample Material: 1 mm thick PMMA   2 cm wide | Flow restrictor: 1 | Fan display: 68   52   47   43   42   41 | Air display: 10   5   3   0 | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 269 | Calibrated  initial O2 % by vol: 21.8 | Calibrated final O2 % by vol: 20.7 | Initial CO2 % by vol: 0.38 | Final CO2 % by vol: 1.27 | Initial CO (ppm): 1 | Final CO (ppm): 345"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r33",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 33,
+        "record_id": "PSI-25:bass-ii:33"
+      },
+      "text": "PI: Miller | Test #: M7 | Date: 7/11/2014 | GMT: 192 | Sample #: 177m | Fuel Sample Material: 1 cm wide PMMA 1 mm thick | Flow restrictor: 2 | Fan display: 2.6   1.3   0.8  0.7  0.6  0.5; 60   49  45  44  43  42 | Air display: 10   6  5  4.5  4  3 | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 217 | Calibrated  initial O2 % by vol: 18.9 | Calibrated final O2 % by vol: 18.4 | Initial CO2 % by vol: 1.42 | Final CO2 % by vol: 1.84 | Initial CO (ppm): 398 | Final CO (ppm): 612"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r34",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 34,
+        "record_id": "PSI-25:bass-ii:34"
+      },
+      "text": "PI: Miller | Test #: M8 | Date: 7/11/2014 | GMT: 192 | Sample #: 178m | Fuel Sample Material: 1 cm wide PMMA 2 mm thick | Flow restrictor: 2 | Fan display: 3.3   1.6  1.0   decr | Air display: 10   5>7  5 decr | Radiometer gain   (1000   250   50   10): 50>250 | Total Frames Shot: 292 | Calibrated  initial O2 % by vol: 19.1 | Calibrated final O2 % by vol: 18.2 | Initial CO2 % by vol: 0.44 | Final CO2 % by vol: 1.28 | Initial CO (ppm): 52 | Final CO (ppm): 467"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r35",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 35,
+        "record_id": "PSI-25:bass-ii:35"
+      },
+      "text": "PI: Miller | Test #: M9 | Date: 7/11/2014 | GMT: 192 | Sample #: 179m | Fuel Sample Material: 1 cm wide PMMA 3 mm thick | Flow restrictor: 2 | Fan display: 3.3   4.8;66  79 | Air display: 10   14 | Radiometer gain   (1000   250   50   10): 50   250 | Total Frames Shot: 156 | Calibrated  initial O2 % by vol: 18 | Calibrated final O2 % by vol: 17.6 | Initial CO2 % by vol: 0.26 | Final CO2 % by vol: 0.54 | Initial CO (ppm): 0 | Final CO (ppm): 191"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r36",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 36,
+        "record_id": "PSI-25:bass-ii:36"
+      },
+      "text": "PI: Miller | Test #: M10 | Date: 7/23/2014 | GMT: 204 | Sample #: 180m | Fuel Sample Material: 4 mm thick   1 cm wide PMMA slab | Flow restrictor: 2 | Fan display: 75   105   94/91   72/69   63/61  (4.4   8.0   6.6/6.3   4.0/3.7   3/0/2.7) | Air display: 10  17  14  10  8 | Radiometer gain   (1000   250   50   10): 250  50  250 | Total Frames Shot: 209 | Calibrated  initial O2 % by vol: 20.1 | Calibrated final O2 % by vol: 18.6 | Initial CO2 % by vol: 0.36 | Final CO2 % by vol: 1.59 | Initial CO (ppm): -1 | Final CO (ppm): 536"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r37",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 37,
+        "record_id": "PSI-25:bass-ii:37"
+      },
+      "text": "PI: Miller | Test #: M11 | Date: 7/11/2014 | GMT: 192 | Sample #: 181m | Fuel Sample Material: 1 cm wide PMMA 5 mm thick | Flow restrictor: 2 | Fan display: 3.9  6.5  4.6  3.3  2.9  2.8; 62.5  93  77  66  63  62 | Air display: 10   20   15  12 | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 247 | Calibrated  initial O2 % by vol: 20 | Calibrated final O2 % by vol: 18.5 | Initial CO2 % by vol: 0.58 | Final CO2 % by vol: 1.68 | Initial CO (ppm): 46 | Final CO (ppm): 577"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r38",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 38,
+        "record_id": "PSI-25:bass-ii:38"
+      },
+      "text": "PI: Miller | Test #: M12 | Date: 7/31/2014 | GMT: 212 | Sample #: 165m | Fuel Sample Material: 2 mm thick PMMA   2 cm wide | Flow restrictor: 1 | Fan display: 41   42   41 | Air display: <1 | Radiometer gain   (1000   250   50   10): 250>50 | Total Frames Shot: 271 | Calibrated  initial O2 % by vol: 21.7 | Calibrated final O2 % by vol: 20.4 | Initial CO2 % by vol: 0.42 | Final CO2 % by vol: 1.42 | Initial CO (ppm): 15 | Final CO (ppm): 443"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r39",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 39,
+        "record_id": "PSI-25:bass-ii:39"
+      },
+      "text": "PI: Miller | Test #: M13 | Date: 7/31/2014 | GMT: 212 | Sample #: 169m | Fuel Sample Material: 4 mm thick PMMA   2 cm wide | Flow restrictor: 1 | Fan display: 52   47   43 | Air display: 6   5   4 | Radiometer gain   (1000   250   50   10): 250>50 | Total Frames Shot: 258 | Calibrated  initial O2 % by vol: 20.8 | Calibrated final O2 % by vol: 19 | Initial CO2 % by vol: 0.36 | Final CO2 % by vol: 1.75 | Initial CO (ppm): 0 | Final CO (ppm): 487"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r40",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 40,
+        "record_id": "PSI-25:bass-ii:40"
+      },
+      "text": "PI: Miller | Test #: M14 | Date: 2/20/2014 | GMT: 51 | Sample #: 223 | Fuel Sample Material: 2mm thick PMMA   1 sided   2 cm wide | Flow restrictor: 2 | Fan display: pot 2.4   1.87  (54) | Air display: 10   ~8 | Radiometer gain   (1000   250   50   10): 50 | Total Frames Shot: 259 | Calibrated  initial O2 % by vol: 22.2 | Calibrated final O2 % by vol: 21.6 | Initial CO2 % by vol: 0.45 | Final CO2 % by vol: 0.98 | Initial CO (ppm): 0 | Final CO (ppm): 198"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r41",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 41,
+        "record_id": "PSI-25:bass-ii:41"
+      },
+      "text": "PI: Miller | Test #: M15 | Date: 7/7/2014 | GMT: 188 | Sample #: 225m | Fuel Sample Material: 2 cm   4 mm 1 sided PMMA slab | Flow restrictor: 2 | Fan display: ignited 10   adjusted down then up to 20   down in incrments to 15 | Air display: 10   8  7  8  10  20  18  16  15 | Radiometer gain   (1000   250   50   10): 10   250 | Total Frames Shot: 153 | Calibrated  initial O2 % by vol: 21 | Calibrated final O2 % by vol: 20 | Initial CO2 % by vol: 0.37 | Final CO2 % by vol: 1.1 | Initial CO (ppm): 1 | Final CO (ppm): 220"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r42",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 42,
+        "record_id": "PSI-25:bass-ii:42"
+      },
+      "text": "PI: Miller | Test #: M16 | Date: 7/23/2014 | GMT: 204 | Sample #: 164m | Fuel Sample Material: 1 mm thick PMMA   2 cm wide | Flow restrictor: 2 | Fan display: 73  57  59  48  45  43  75 (4.2  2.2  2.4  1.2  0.8  0.5  4.4) | Air display: 10  6  3  2  1  10 | Radiometer gain   (1000   250   50   10): 250  50  250 | Total Frames Shot: 299 | Calibrated  initial O2 % by vol: 19.2 | Calibrated final O2 % by vol: 18.7 | Initial CO2 % by vol: 0.95 | Final CO2 % by vol: 1.75 | Initial CO (ppm): 118 | Final CO (ppm): 421"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r43",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 43,
+        "record_id": "PSI-25:bass-ii:43"
+      },
+      "text": "PI: Miller | Test #: M17 | Date: 7/15/2014 | GMT: 196 | Sample #: 166m | Fuel Sample Material: 2 cm wide PMMA 2 mm thick | Flow restrictor: 2 | Fan display: Fan pot 3.7   1.7   1.5   1.3   0.8   0.6   0.5   0.3ext | Air display: 10   5   3   0ext | Radiometer gain   (1000   250   50   10): 250>50>250 | Total Frames Shot: 309 | Calibrated  initial O2 % by vol: 18.8 | Calibrated final O2 % by vol: 17.1 | Initial CO2 % by vol: 0.35 | Final CO2 % by vol: 1.7 | Initial CO (ppm): 4 | Final CO (ppm): 485"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r44",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 44,
+        "record_id": "PSI-25:bass-ii:44"
+      },
+      "text": "PI: Miller | Test #: M18 | Date: 7/15/2014 | GMT: 196 | Sample #: 168m | Fuel Sample Material: 2 cm wide PMMA 3 mm thick | Flow restrictor: 2 | Fan display: Fan pot 3.5   5 (brief)   3  5   2.2 | Air display: 10   15 (brief)   10   8 | Radiometer gain   (1000   250   50   10): 50>250 | Total Frames Shot: 178 | Calibrated  initial O2 % by vol: 17.9 | Calibrated final O2 % by vol: 16.8 | Initial CO2 % by vol: 0.32 | Final CO2 % by vol: 1.31 | Initial CO (ppm): 0 | Final CO (ppm): 335"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r45",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 45,
+        "record_id": "PSI-25:bass-ii:45"
+      },
+      "text": "PI: Miller | Test #: M19 | Date: 7/23/2014 | GMT: 204 | Sample #: 170m | Fuel Sample Material: 4 mm thick   2 cm 2ide PMMA slab | Flow restrictor: 2 | Fan display: 75  105  94  75  77  79  59  61  57  55  53 (4.4  8.0  6.6  4.4  4.6  4.8  2.5  2.7  2.2  2.0  1.8) | Air display: 10  17  14  10  7  5 | Radiometer gain   (1000   250   50   10): 250   50   250 | Total Frames Shot: 201 | Calibrated  initial O2 % by vol: 19 | Calibrated final O2 % by vol: 17.4 | Initial CO2 % by vol: 0.35 | Final CO2 % by vol: 1.6 | Initial CO (ppm): 3 | Final CO (ppm): 357"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r46",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 46,
+        "record_id": "PSI-25:bass-ii:46"
+      },
+      "text": "PI: Miller | Test #: M20 | Date: 8/1/2014 | GMT: 213 | Sample #: 172m | Fuel Sample Material: 5 mm thick PMMA   2 cm wide | Flow restrictor: 1 | Fan display: 67   58 | Air display: 10  8 | Radiometer gain   (1000   250   50   10): 50 | Total Frames Shot: 168 | Calibrated  initial O2 % by vol: 18 | Calibrated final O2 % by vol: 17.4 | Initial CO2 % by vol: 0.3 | Final CO2 % by vol: 0.75 | Initial CO (ppm): 0 | Final CO (ppm): 157"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r47",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 47,
+        "record_id": "PSI-25:bass-ii:47"
+      },
+      "text": "PI: Olson | Test #: O1 | Date: 2/18/2014 | GMT: 49 | Sample #: 207 | Fuel Sample Material: 1/4\" clear rod | Flow restrictor: 2 | Fan display: 89  62  50  41 | Air display: 20  10  5  2  1 | Radiometer gain   (1000   250   50   10): 50 | Total Frames Shot: 62 | Calibrated  initial O2 % by vol: 22.2 | Calibrated final O2 % by vol: 21.7 | Initial CO2 % by vol: 0.44 | Final CO2 % by vol: 0.85 | Initial CO (ppm): -1 | Final CO (ppm): 51"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r48",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 48,
+        "record_id": "PSI-25:bass-ii:48"
+      },
+      "text": "PI: Olson | Test #: O2 | Date: 2/18/2014 | GMT: 49 | Sample #: 204 | Fuel Sample Material: 1/4\" clear rod | Flow restrictor: 2 | Fan display: .54 pot   0.45 pot | Air display: 0 | Radiometer gain   (1000   250   50   10): 50 | Total Frames Shot: 287 | Calibrated  initial O2 % by vol: 22.2 | Calibrated final O2 % by vol: 21.9 | Initial CO2 % by vol: 0.44 | Final CO2 % by vol: 0.59 | Initial CO (ppm): -1 | Final CO (ppm): 23"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r49",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 49,
+        "record_id": "PSI-25:bass-ii:49"
+      },
+      "text": "PI: Olson | Test #: O3a | Date: 6/13/2014 | GMT: 164 | Sample #: 205M | Fuel Sample Material: 1/4\" clear rod | Flow restrictor: 2 | Air display: 5  3 | Radiometer gain   (1000   250   50   10): 1000 | Total Frames Shot: 85 | Calibrated  initial O2 % by vol: 18 | Calibrated final O2 % by vol: 18 | Initial CO2 % by vol: 0.25 | Final CO2 % by vol: 0.28 | Initial CO (ppm): 16 | Final CO (ppm): 22"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r50",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 50,
+        "record_id": "PSI-25:bass-ii:50"
+      },
+      "text": "PI: Olson | Test #: O3b | Date: 6/13/2014 | GMT: 164 | Sample #: 205M | Fuel Sample Material: 1/4\" clear rod | Flow restrictor: 2 | Air display: 5  3  2  1  low | Radiometer gain   (1000   250   50   10): 1000   250 | Total Frames Shot: 306 | Calibrated  initial O2 % by vol: 18 | Calibrated final O2 % by vol: 17.7 | Initial CO2 % by vol: 0.28 | Final CO2 % by vol: 0.53 | Initial CO (ppm): 22 | Final CO (ppm): 116"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r51",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 51,
+        "record_id": "PSI-25:bass-ii:51"
+      },
+      "text": "PI: Olson | Test #: O4 | Date: 7/8/2014 | GMT: 189 | Sample #: 216m | Fuel Sample Material: 3/8\"clear rod | Flow restrictor: 2 | Fan display: 5   0.7   0.5   0.4   0.36 ext | Air display: 5   down to ext | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 249 | Calibrated  initial O2 % by vol: 14.8 | Calibrated final O2 % by vol: 13.6 | Initial CO2 % by vol: 0.72 | Final CO2 % by vol: 1.72 | Initial CO (ppm): 290 | Final CO (ppm): OR"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r52",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 52,
+        "record_id": "PSI-25:bass-ii:52"
+      },
+      "text": "PI: Olson | Test #: O5a | Date: 7/21/2014 | GMT: 202 | Sample #: 220m | Fuel Sample Material: 1/2\" clear PMMA rod | Flow restrictor: 2 | Fan display: 1.3   2.7   1.3   0.7   0.45. 4.0 | Air display: 5  10  5   2   0 (49   62   49   44   42) | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 164 | Calibrated  initial O2 % by vol: 15.1 | Calibrated final O2 % by vol: 14.2 | Initial CO2 % by vol: 0.25 | Final CO2 % by vol: 1.05 | Initial CO (ppm): -2 | Final CO (ppm): 496"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r53",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 53,
+        "record_id": "PSI-25:bass-ii:53"
+      },
+      "text": "PI: Olson | Test #: O5b | Date: 7/21/2014 | GMT: 202 | Sample #: 220m | Fuel Sample Material: 1/2\" clear PMMA rod | Flow restrictor: 2 | Fan display: 1.3 | Air display: 49   5 cm/s | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 2 | Calibrated  initial O2 % by vol: 14.2 | Calibrated final O2 % by vol: 14.1 | Initial CO2 % by vol: 1.05 | Final CO2 % by vol: 1.14 | Initial CO (ppm): 496 | Final CO (ppm): 590"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r54",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 54,
+        "record_id": "PSI-25:bass-ii:54"
+      },
+      "text": "PI: Olson | Test #: O6 | Date: 6/26/2014 | GMT: 177 | Sample #: 206M | Fuel Sample Material: 1/4\" clear rod | Flow restrictor: 2 | Fan display: 5   .36  .32  .31  .305   out .275 | Air display: see fan | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 241 | Calibrated  initial O2 % by vol: 16.7 | Calibrated final O2 % by vol: 16 | Initial CO2 % by vol: 0.32 | Final CO2 % by vol: 0.74 | Initial CO (ppm): 1 | Final CO (ppm): 232"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r55",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 55,
+        "record_id": "PSI-25:bass-ii:55"
+      },
+      "text": "PI: Olson | Test #: O7 | Date: 6/26/2014 | GMT: 177 | Sample #: 214m | Fuel Sample Material: 1/4\" clear rod | Flow restrictor: 2 | Fan display: 5   .36  .32  ..305   blowoff fan max 10 | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 254 | Calibrated  initial O2 % by vol: 16 | Calibrated final O2 % by vol: 15.5 | Initial CO2 % by vol: 0.74 | Final CO2 % by vol: 1.27 | Initial CO (ppm): 232 | Final CO (ppm): 512"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r56",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 56,
+        "record_id": "PSI-25:bass-ii:56"
+      },
+      "text": "PI: Olson | Test #: O8a | Date: 6/26/2014 | GMT: 177 | Sample #: 208m | Fuel Sample Material: 1/4\" clear rod | Flow restrictor: 2 | Fan display: 5   .36  .32  .31   extinguished | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 133 | Calibrated  initial O2 % by vol: 15.7 | Calibrated final O2 % by vol: 15.3 | Initial CO2 % by vol: 1.23 | Final CO2 % by vol: 1.44 | Initial CO (ppm): 436 | Final CO (ppm): 536"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r57",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 57,
+        "record_id": "PSI-25:bass-ii:57"
+      },
+      "text": "PI: Olson | Test #: O8b | Date: 6/26/2014 | GMT: 177 | Sample #: 208m | Fuel Sample Material: 1/4\" clear rod | Flow restrictor: 2 | Fan display: 5  .36  .32  .31 blowoff fan pot 6.0 | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 152 | Calibrated  initial O2 % by vol: 15.5 | Calibrated final O2 % by vol: 15.2 | Initial CO2 % by vol: 1.44 | Final CO2 % by vol: 1.74 | Initial CO (ppm): 536 | Final CO (ppm): 660"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r58",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 58,
+        "record_id": "PSI-25:bass-ii:58"
+      },
+      "text": "PI: Olson | Test #: O9 | Date: 6/26/2014 | GMT: 177 | Sample #: 209m | Fuel Sample Material: 1/4\" clear rod | Flow restrictor: 2 | Fan display: 5   .36  .32 blowoff pt 4.0 | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 154 | Calibrated  initial O2 % by vol: 15 | Calibrated final O2 % by vol: 14.8 | Initial CO2 % by vol: 1.74 | Final CO2 % by vol: 1.96 | Initial CO (ppm): 660 | Final CO (ppm): 794"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r59",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 59,
+        "record_id": "PSI-25:bass-ii:59"
+      },
+      "text": "PI: Olson | Test #: O10 | Date: 7/22/2014 | GMT: 213 | Sample #: 210m | Fuel Sample Material: 1/4\" clear rod | Flow restrictor: 2 | Fan display: 49  44  41   122 (1.3   0.7   0.4   0.36   0.32   10) | Air display: 5  2   0   max | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 172 | Calibrated  initial O2 % by vol: 16.7 | Calibrated final O2 % by vol: 16.1 | Initial CO2 % by vol: 1.61 | Final CO2 % by vol: 2.1 | Initial CO (ppm): 94 | Final CO (ppm): 287"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r60",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 60,
+        "record_id": "PSI-25:bass-ii:60"
+      },
+      "text": "PI: Olson | Test #: O11 | Date: 7/8/2014 | GMT: 189 | Sample #: 184m | Fuel Sample Material: 1/4\" black rod | Flow restrictor: 2 | Fan display: ign 5   0.36   0.32   0.31   0.305   blowoff 6.0 | Air display: 5   down then blowoff | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 271 | Calibrated  initial O2 % by vol: 15.4 | Calibrated final O2 % by vol: 14.8 | Initial CO2 % by vol: 0.27 | Final CO2 % by vol: 0.72 | Initial CO (ppm): 2 | Final CO (ppm): 290"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r61",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 61,
+        "record_id": "PSI-25:bass-ii:61"
+      },
+      "text": "PI: Olson | Test #: O12 | Date: 7/8/2014 | GMT: 189 | Sample #: 217m | Fuel Sample Material: 3/8\" clear rod | Flow restrictor: 2 | Fan display: pots 1.4   3   0.9   0.7 | Air display: no ign at any flow | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 52 | Calibrated  initial O2 % by vol: 13.6 | Calibrated final O2 % by vol: 13.5 | Initial CO2 % by vol: 1.72 | Final CO2 % by vol: 1.71 | Initial CO (ppm): OR | Final CO (ppm): OR"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r62",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 62,
+        "record_id": "PSI-25:bass-ii:62"
+      },
+      "text": "PI: Olson | Test #: O13a | Date: 7/21/2014 | GMT: 202 | Sample #: 221m | Fuel Sample Material: 1/2\" clear PMMA rod | Flow restrictor: 2 | Fan display: 1.3   0.7   0.45   0.36   0.32   0.31 | Air display: 49  44  42  41  41  40.5 (5   2   0) | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 199 | Calibrated  initial O2 % by vol: 15.9 | Calibrated final O2 % by vol: 14.6 | Initial CO2 % by vol: 0.91 | Final CO2 % by vol: 1.85 | Initial CO (ppm): 389 | Final CO (ppm): 950"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r63",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 63,
+        "record_id": "PSI-25:bass-ii:63"
+      },
+      "text": "PI: Olson | Test #: O13b | Date: 7/21/2014 | GMT: 202 | Sample #: 221m | Fuel Sample Material: 1/2\" clear PMMA rod | Flow restrictor: 2 | Fan display: 1.3   0.9 | Air display: 7   4? (49   ?) | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 6 | Calibrated  initial O2 % by vol: 14.6 | Calibrated final O2 % by vol: 14.4 | Initial CO2 % by vol: 1.85 | Final CO2 % by vol: 2.09 | Initial CO (ppm): 950 | Final CO (ppm): over"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r64",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 64,
+        "record_id": "PSI-25:bass-ii:64"
+      },
+      "text": "PI: Olson | Test #: O14 | Date: 8/1/2014 | GMT: 213 | Sample #: 183m | Fuel Sample Material: 1/4\" black rod | Flow restrictor: 1 | Fan display: 52   and down | Air display: 5 down to ext | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 279 | Calibrated  initial O2 % by vol: 16.3 | Calibrated final O2 % by vol: 15.3 | Initial CO2 % by vol: 0.29 | Final CO2 % by vol: 0.86 | Initial CO (ppm): 4 | Final CO (ppm): 352"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r65",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 65,
+        "record_id": "PSI-25:bass-ii:65"
+      },
+      "text": "PI: Olson | Test #: O15a | Date: 7/28/2014 | GMT: 209 | Sample #: 218m | Fuel Sample Material: 3/8\" clear rod | Flow restrictor: 2 | Fan display: 57.5   47   42   41 (2.3   1.0   0.5   0.35   0.32) | Air display: 5  0 | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 124 | Calibrated  initial O2 % by vol: 17.1 | Calibrated final O2 % by vol: 16.7 | Initial CO2 % by vol: 0.27 | Final CO2 % by vol: 0.62 | Initial CO (ppm): 0 | Final CO (ppm): 176"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r66",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 66,
+        "record_id": "PSI-25:bass-ii:66"
+      },
+      "text": "PI: Olson | Test #: O15b | Date: 7/28/2014 | GMT: 209 | Sample #: 218m | Fuel Sample Material: 3/8\" clear rod | Flow restrictor: 2 | Fan display: 57.5   42   41   40 (2.3   0.5   0.35   0.34   0.33   0.32   0.31   0.30   0.29   0.28   0.27) | Air display: 5   0 | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 316 | Calibrated  initial O2 % by vol: 16.7 | Calibrated final O2 % by vol: 15.6 | Initial CO2 % by vol: 0.62 | Final CO2 % by vol: 1.63 | Initial CO (ppm): 176 | Final CO (ppm): 751"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r67",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 67,
+        "record_id": "PSI-25:bass-ii:67"
+      },
+      "text": "PI: Olson | Test #: O16 | Date: 7/29/2014 | GMT: 210 | Sample #: 219m | Fuel Sample Material: 3/8\"clear rod | Flow restrictor: 2 | Fan display: 60 (2.6) | Air display: 5 | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 10 postburn only | Calibrated  initial O2 % by vol: 14.5 | Calibrated final O2 % by vol: 14.5 | Initial CO2 % by vol: 0.27 | Final CO2 % by vol: 0.32 | Initial CO (ppm): 2 | Final CO (ppm): 33"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r68",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 68,
+        "record_id": "PSI-25:bass-ii:68"
+      },
+      "text": "PI: Olson | Test #: O17 | Date: 7/22/2014 | GMT: 203 | Sample #: 211m | Fuel Sample Material: 1/4\" clear rod | Flow restrictor: 2 | Fan display: 49   46.5   44   42  41  72   decr (1.3   1.0   0.7   0.5   0.4   4.0   decr ) | Air display: 3   0   11 | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 174 | Calibrated  initial O2 % by vol: 15.1 | Calibrated final O2 % by vol: 14.3 | Initial CO2 % by vol: 0.31 | Final CO2 % by vol: 0.9 | Initial CO (ppm): 2 | Final CO (ppm): 377"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r69",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 69,
+        "record_id": "PSI-25:bass-ii:69"
+      },
+      "text": "PI: Olson | Test #: O18 | Date: 7/28/2014 | GMT: 209 | Sample #: 212m | Fuel Sample Material: 1/4\" clear rod | Flow restrictor: 2 | Fan display: 57  51  47  72  51  72  51  47 (2.3   1.5   1.0   4.0   1.5   4.0   1.5   1.0) | Air display: 5  2  0  11  2  11  2  0 | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 176 | Calibrated  initial O2 % by vol: 15.2 | Calibrated final O2 % by vol: 14.5 | Initial CO2 % by vol: 1.45 | Final CO2 % by vol: 1.94 | Initial CO (ppm): 523 | Final CO (ppm): 816"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r70",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 70,
+        "record_id": "PSI-25:bass-ii:70"
+      },
+      "text": "PI: Olson | Test #: O19 | Date: 8/1/2014 | GMT: 213 | Sample #: 213m | Fuel Sample Material: 1/4\" clear rod | Flow restrictor: 1 | Fan display: 52   and down | Air display: 5 down to ext | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 266 | Calibrated  initial O2 % by vol: 15.3 | Calibrated final O2 % by vol: 14.6 | Initial CO2 % by vol: 0.86 | Final CO2 % by vol: 1.51 | Initial CO (ppm): 352 | Final CO (ppm): 686"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r71",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 71,
+        "record_id": "PSI-25:bass-ii:71"
+      },
+      "text": "PI: Olson | Test #: O20 | Date: 2/26/2016 | GMT: 57 | Sample #: 204m | Fuel Sample Material: 1/4\" clear rod | Flow restrictor: 0 | Fan display: 49 (1.3 pot)   pots 7   8  9   10 | Air display: 5   8    incr to max 38.5 | Radiometer gain   (1000   250   50   10): 50 | Total Frames Shot: video | Calibrated  initial O2 % by vol: 16.5 | Calibrated final O2 % by vol: 15.9 | Initial CO2 % by vol: 0.2 | Final CO2 % by vol: 0.57 | Initial CO (ppm): -3 | Final CO (ppm): 57"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r72",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 72,
+        "record_id": "PSI-25:bass-ii:72"
+      },
+      "text": "PI: Olson | Test #: O21 | Date: 2/26/2016 | GMT: 57 | Sample #: 219m | Fuel Sample Material: 3/8\" clear rod | Flow restrictor: 0 | Fan display: 46 (pot 0.8)    pot 7   10 | Air display: incr to 28 | Radiometer gain   (1000   250   50   10): 50 | Total Frames Shot: video | Calibrated  initial O2 % by vol: 15.9 | Calibrated final O2 % by vol: 15.4 | Initial CO2 % by vol: 0.53 | Final CO2 % by vol: 0.95 | Initial CO (ppm): 52 | Final CO (ppm): 187"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r73",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 73,
+        "record_id": "PSI-25:bass-ii:73"
+      },
+      "text": "PI: Olson | Test #: O22 | Date: 2/26/2016 | GMT: 57 | Sample #: 220m | Fuel Sample Material: 1/2\" clear rod | Flow restrictor: 0 | Fan display: 49 (pot 1.1)   blowoff pot 5   out at fan 87 | Air display: 4 incr to 26.5 | Radiometer gain   (1000   250   50   10): 50 | Total Frames Shot: video | Calibrated  initial O2 % by vol: 15.4 | Calibrated final O2 % by vol: 14.9 | Initial CO2 % by vol: 0.92 | Final CO2 % by vol: 1.33 | Initial CO (ppm): 185 | Final CO (ppm): 322"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r74",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 74,
+        "record_id": "PSI-25:bass-ii:74"
+      },
+      "text": "PI: Fernandez-Pello | Test #: P1 | Date: 6/16/2014 | GMT: 167 | Sample #: 185M | Fuel Sample Material: 1/4\" black rod | Flow restrictor: 2 | Air display: 5  2   slow decr to ext | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 307 | Calibrated  initial O2 % by vol: 17.7 | Calibrated final O2 % by vol: 17.5 | Initial CO2 % by vol: 0.27 | Final CO2 % by vol: 0.44 | Initial CO (ppm): 1 | Final CO (ppm): 14"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r75",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 75,
+        "record_id": "PSI-25:bass-ii:75"
+      },
+      "text": "PI: Fernandez-Pello | Test #: P2 | Date: 6/16/2014 | GMT: 167 | Sample #: 188M | Fuel Sample Material: 1/4\" black rod | Flow restrictor: 2 | Air display: 5   2.5   2 (pot .9   .5   .35.  .33) | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 303 | Calibrated  initial O2 % by vol: 17.4 | Calibrated final O2 % by vol: 17.2 | Initial CO2 % by vol: 0.44 | Final CO2 % by vol: 0.66 | Initial CO (ppm): 14 | Final CO (ppm): 26"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r76",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 76,
+        "record_id": "PSI-25:bass-ii:76"
+      },
+      "text": "PI: Fernandez-Pello | Test #: P3a | Date: 6/16/2014 | GMT: 167 | Sample #: 215M | Fuel Sample Material: 1/4\" clear rod | Flow restrictor: 2 | Air display: 5   2.5 (1.15   .5   .35   .33. .32   .315   .31   .3) | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 304 | Calibrated  initial O2 % by vol: 17.7 | Calibrated final O2 % by vol: 17.4 | Initial CO2 % by vol: 0.27 | Final CO2 % by vol: 0.51 | Initial CO (ppm): 2 | Final CO (ppm): 33"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r77",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 77,
+        "record_id": "PSI-25:bass-ii:77"
+      },
+      "text": "PI: Fernandez-Pello | Test #: P3b | Date: 6/16/2014 | GMT: 167 | Sample #: 215M | Fuel Sample Material: 1/4 clear rod | Flow restrictor: 2 | Air display: 5   very low (0.85   0.32   0.31   0.305   0.30   0.295) | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 303 | Calibrated  initial O2 % by vol: 17.4 | Calibrated final O2 % by vol: 16.8 | Initial CO2 % by vol: 0.51 | Final CO2 % by vol: none | Initial CO (ppm): 33 | Final CO (ppm): 79"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r78",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 78,
+        "record_id": "PSI-25:bass-ii:78"
+      },
+      "text": "PI: Fernandez-Pello | Test #: P4 | Date: 7/3/2014 | GMT: 184 | Sample #: 197m | Fuel Sample Material: 3/8\" black rod | Flow restrictor: 2 | Fan display: 48   41 | Air display: 5   pots 0.4   0.36   0.32   0.308   .3   off | Radiometer gain   (1000   250   50   10): 50 | Total Frames Shot: 297 | Calibrated  initial O2 % by vol: 18.5 | Calibrated final O2 % by vol: 17.1 | Initial CO2 % by vol: 0.62 | Final CO2 % by vol: 1.8 | Initial CO (ppm): 64 | Final CO (ppm): 493"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r79",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 79,
+        "record_id": "PSI-25:bass-ii:79"
+      },
+      "text": "PI: Fernandez-Pello | Test #: P5 | Date: 7/14/2014 | GMT: 195 | Sample #: 202m | Fuel Sample Material: 0.5\" black rod | Flow restrictor: 2 | Fan display: Fan pot 1.5 (5cm/s)   0.9   0.4   0.36   0.32   0.308   0.3   0.29   0.28   0 ext | Air display: 5 down to ext | Radiometer gain   (1000   250   50   10): 250>50 | Total Frames Shot: 313 | Calibrated  initial O2 % by vol: 19.3 | Calibrated final O2 % by vol: 17.6 | Initial CO2 % by vol: 0.32 | Final CO2 % by vol: 1.67 | Initial CO (ppm): 0 | Final CO (ppm): 525"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r80",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 80,
+        "record_id": "PSI-25:bass-ii:80"
+      },
+      "text": "PI: Fernandez-Pello | Test #: P6 | Date: 7/3/2014 | GMT: 184 | Sample #: 186m | Fuel Sample Material: 1/4\" black rod | Flow restrictor: 2 | Fan display: 48   41 | Air display: 5   pots 0.4   0.36   0.32   0.31   off | Radiometer gain   (1000   250   50   10): 50 | Total Frames Shot: 162 | Calibrated  initial O2 % by vol: 18.9 | Calibrated final O2 % by vol: 18.5 | Initial CO2 % by vol: 0.3 | Final CO2 % by vol: 0.62 | Initial CO (ppm): 0 | Final CO (ppm): 64"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r81",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 81,
+        "record_id": "PSI-25:bass-ii:81"
+      },
+      "text": "PI: Fernandez-Pello | Test #: P8 | Date: 7/3/2014 | GMT: 184 | Sample #: 197m | Fuel Sample Material: 3/8\" black rod | Flow restrictor: 2 | Fan display: 48   62   75 | Air display: 5   would not stay lit   10   15 ibid | Radiometer gain   (1000   250   50   10): 50 | Total Frames Shot: 66 | Calibrated  initial O2 % by vol: 16.4 | Calibrated final O2 % by vol: 16.3 | Initial CO2 % by vol: 0.72 | Final CO2 % by vol: 0.81 | Initial CO (ppm): 44 | Final CO (ppm): 69"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r82",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 82,
+        "record_id": "PSI-25:bass-ii:82"
+      },
+      "text": "PI: Fernandez-Pello | Test #: P9 | Date: 7/14/2014 | GMT: 195 | Sample #: 202m | Fuel Sample Material: 0.5\" black rod | Flow restrictor: 2 | Fan display: Fan pot 1.5 (5cm/s)   0.9   0.4   0.36   0.32   0.3   0.28 ext | Air display: 5 down to ext | Radiometer gain   (1000   250   50   10): 50 | Total Frames Shot: 148 | Calibrated  initial O2 % by vol: 17.6 | Calibrated final O2 % by vol: 17.1 | Initial CO2 % by vol: 1.67 | Final CO2 % by vol: 2.1 | Initial CO (ppm): 525 | Final CO (ppm): 535"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r83",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 83,
+        "record_id": "PSI-25:bass-ii:83"
+      },
+      "text": "PI: Fernandez-Pello | Test #: P10 | Date: 7/3/2014 | GMT: 184 | Sample #: 187m | Fuel Sample Material: 1/4\" black rod | Flow restrictor: 2 | Fan display: 48   41 | Air display: 5   pots 0.4   0.36   0.32   0.31   0.30 extinguished | Radiometer gain   (1000   250   50   10): 50 | Total Frames Shot: 221 | Calibrated  initial O2 % by vol: 17 | Calibrated final O2 % by vol: 16.4 | Initial CO2 % by vol: 0.29 | Final CO2 % by vol: 0.72 | Initial CO (ppm): 2 | Final CO (ppm): 44"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r84",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 84,
+        "record_id": "PSI-25:bass-ii:84"
+      },
+      "text": "PI: Fernandez-Pello | Test #: P12 | Date: 7/29/2014 | GMT: 210 | Sample #: 199m | Fuel Sample Material: 3/8\" black rod | Flow restrictor: 2 | Fan display: 60  52  48  44.5  42  41.5  41 (2.6  1.6  1.2  .75  .5  .4  .36  0.34) | Air display: 5   3  2  1   0.5   lower | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 273 | Calibrated  initial O2 % by vol: 17.5 | Calibrated final O2 % by vol: 16.8 | Initial CO2 % by vol: 0.29 | Final CO2 % by vol: 0.95 | Initial CO (ppm): 2 | Final CO (ppm): 57"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r85",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 85,
+        "record_id": "PSI-25:bass-ii:85"
+      },
+      "text": "PI: Fernandez-Pello | Test #: P13a | Date: 7/14/2014 | GMT: 195 | Sample #: 203m | Fuel Sample Material: 0.5\" black rod | Flow restrictor: 2 | Fan display: Fan pot 1.1 (5cm/s)   0.4   0.36   0.32   0.3   0.28   0.26   0 ext | Air display: 5 down to ext | Radiometer gain   (1000   250   50   10): 50 | Total Frames Shot: 255 | Calibrated  initial O2 % by vol: 20.7 | Calibrated final O2 % by vol: 19.1 | Initial CO2 % by vol: 0.36 | Final CO2 % by vol: 1.63 | Initial CO (ppm): 38 | Final CO (ppm): 450"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r86",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 86,
+        "record_id": "PSI-25:bass-ii:86"
+      },
+      "text": "PI: Fernandez-Pello | Test #: P13b | Date: 7/14/2014 | GMT: 195 | Sample #: 203m | Fuel Sample Material: 0.5\" black rod | Flow restrictor: 2 | Fan display: Fan pot 1.3 (5cm/s)   0.4   0.36   0.32 ext | Air display: 5 down to ext | Radiometer gain   (1000   250   50   10): 50 | Total Frames Shot: 94 | Calibrated  initial O2 % by vol: 20.6 | Calibrated final O2 % by vol: 20.2 | Initial CO2 % by vol: 0.41 | Final CO2 % by vol: 0.62 | Initial CO (ppm): 5 | Final CO (ppm): 72"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r87",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 87,
+        "record_id": "PSI-25:bass-ii:87"
+      },
+      "text": "PI: Fernandez-Pello | Test #: P14 | Date: 6/23/2014 | GMT: 174 | Sample #: 189M | Fuel Sample Material: 1/4 blac rod | Flow restrictor: 2 | Fan display: 46   41 | Air display: 5   low (.85   .4   .32) | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 162 | Calibrated  initial O2 % by vol: 18.4 | Calibrated final O2 % by vol: 18 | Initial CO2 % by vol: 0.34 | Final CO2 % by vol: 0.62 | Initial CO (ppm): 3 | Final CO (ppm): 90"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r88",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 88,
+        "record_id": "PSI-25:bass-ii:88"
+      },
+      "text": "PI: Fernandez-Pello | Test #: P15 | Date: 6/23/2014 | GMT: 174 | Sample #: 190M | Fuel Sample Material: 1/4 black rod | Flow restrictor: 2 | Fan display: 46   41 | Air display: 5   (0.36) | Radiometer gain   (1000   250   50   10): 250   50 | Total Frames Shot: 170 | Calibrated  initial O2 % by vol: 18 | Calibrated final O2 % by vol: 17.5 | Initial CO2 % by vol: 0.62 | Final CO2 % by vol: 1.11 | Initial CO (ppm): 90 | Final CO (ppm): 108"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r89",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 89,
+        "record_id": "PSI-25:bass-ii:89"
+      },
+      "text": "PI: Fernandez-Pello | Test #: P16 | Date: 7/22/2014 | GMT: 203 | Sample #: 191m | Fuel Sample Material: 1/4\" black rod | Flow restrictor: 2 | Fan display: 49  62  44  41.5  41 (pots 1.3   2.8   0.7   0.4   0.36   0.32) | Air display: 5  8  2  low | Radiometer gain   (1000   250   50   10): 250  50 | Total Frames Shot: 129 | Calibrated  initial O2 % by vol: 18.2 | Calibrated final O2 % by vol: 17.4 | Initial CO2 % by vol: 0.3 | Final CO2 % by vol: 0.92 | Initial CO (ppm): 0 | Final CO (ppm): 56"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r90",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 90,
+        "record_id": "PSI-25:bass-ii:90"
+      },
+      "text": "PI: Fernandez-Pello | Test #: P17 | Date: 7/29/2014 | GMT: 210 | Sample #: 192m | Fuel Sample Material: 1/4\"  black rod | Flow restrictor: 2 | Fan display: 60  52  48  233  48  41 (2.6   1.6   1.2   10   1.2   0.36   0.34) | Air display: 5   3   2   22   2   low | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 186 | Calibrated  initial O2 % by vol: 16.8 | Calibrated final O2 % by vol: 16.5 | Initial CO2 % by vol: 0.95 | Final CO2 % by vol: 1.34 | Initial CO (ppm): 57 | Final CO (ppm): 68"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r91",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 91,
+        "record_id": "PSI-25:bass-ii:91"
+      },
+      "text": "PI: Fernandez-Pello | Test #: P18 | Date: 7/30/2014 | GMT: 211 | Sample #: 193m | Fuel Sample Material: 1/4\" black rod | Flow restrictor: 2 | Fan display: 55  47  etc (pot 1  2  1  2   etc) | Air display: 2  0  2  0  etc | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 280 | Calibrated  initial O2 % by vol: 20 | Calibrated final O2 % by vol: 19 | Initial CO2 % by vol: 0.34 | Final CO2 % by vol: 1.2 | Initial CO (ppm): 1 | Final CO (ppm): 26"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r92",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 92,
+        "record_id": "PSI-25:bass-ii:92"
+      },
+      "text": "PI: Fernandez-Pello | Test #: P19 | Date: 7/22/2014 | GMT: 203 | Sample #: 194m | Fuel Sample Material: 1/4\" black rod | Flow restrictor: 2 | Fan display: 49  62  44  41.5  122   41 (pots 1.3   2.8   0.7   0.4   0.36   10.   0.32) | Air display: 5  8  2  max   0 | Radiometer gain   (1000   250   50   10): 250   50 | Total Frames Shot: 279 | Calibrated  initial O2 % by vol: 17.5 | Calibrated final O2 % by vol: 16.7 | Initial CO2 % by vol: 0.9 | Final CO2 % by vol: 1.61 | Initial CO (ppm): 54 | Final CO (ppm): 94"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r93",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 93,
+        "record_id": "PSI-25:bass-ii:93"
+      },
+      "text": "PI: Fernandez-Pello | Test #: P20 | Date: 7/30/2014 | GMT: 211 | Sample #: 195m | Fuel Sample Material: 1/4\" black rod | Flow restrictor: 2 | Fan display: 55  47  etc (pot 1  2  1  2   etc) | Air display: 2  0  2  0  etc | Radiometer gain   (1000   250   50   10): 50 | Total Frames Shot: 311 | Calibrated  initial O2 % by vol: 19 | Calibrated final O2 % by vol: 18.2 | Initial CO2 % by vol: 0.34 | Final CO2 % by vol: 1.05 | Initial CO (ppm): 2 | Final CO (ppm): 78"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r94",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 94,
+        "record_id": "PSI-25:bass-ii:94"
+      },
+      "text": "PI: Fernandez-Pello | Test #: P21a | Date: 6/23/2014 | GMT: 174 | Sample #: 196M | Fuel Sample Material: 1/4 black rod | Flow restrictor: 2 | Fan display: 46 | Air display: 5 | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 57 | Calibrated  initial O2 % by vol: 16.3 | Calibrated final O2 % by vol: 16.3 | Initial CO2 % by vol: 0.96 | Final CO2 % by vol: 1 | Initial CO (ppm): 86 | Final CO (ppm): 94"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r95",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 95,
+        "record_id": "PSI-25:bass-ii:95"
+      },
+      "text": "PI: Fernandez-Pello | Test #: P21b | Date: 6/23/2014 | GMT: 174 | Sample #: 196M | Fuel Sample Material: 1/4\" black rod | Flow restrictor: 2 | Fan display: 46 | Air display: 5 | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 14 | Calibrated  initial O2 % by vol: 16.3 | Calibrated final O2 % by vol: 16.3 | Initial CO2 % by vol: 1 | Final CO2 % by vol: 1.03 | Initial CO (ppm): 94 | Final CO (ppm): 98"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r96",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 96,
+        "record_id": "PSI-25:bass-ii:96"
+      },
+      "text": "PI: Fernandez-Pello | Test #: P22a | Date: 7/8/2014 | GMT: 189 | Sample #: 200m | Fuel Sample Material: 3/8\" black rod | Flow restrictor: 2 | Fan display: 5   0.36   0.32 ext after some time | Air display: 5   down to ext | Radiometer gain   (1000   250   50   10): 250>50 | Total Frames Shot: 83 | Calibrated  initial O2 % by vol: 20.8 | Calibrated final O2 % by vol: 0.6 | Initial CO2 % by vol: 0.32 | Final CO2 % by vol: none | Initial CO (ppm): 4 | Final CO (ppm): none"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r97",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 97,
+        "record_id": "PSI-25:bass-ii:97"
+      },
+      "text": "PI: Fernandez-Pello | Test #: P22b | Date: 7/8/2014 | GMT: 189 | Sample #: 200m | Fuel Sample Material: 3/8\" black rod | Flow restrictor: 2 | Fan display: 5   p.36   0.34   0.33   0.32   0.31 ext | Air display: 5 down to ext | Radiometer gain   (1000   250   50   10): 50 | Total Frames Shot: 155 | Calibrated  initial O2 % by vol: 20 | Calibrated final O2 % by vol: 39.1 | Initial CO2 % by vol: none | Final CO2 % by vol: 1.09 | Initial CO (ppm): none | Final CO (ppm): 239"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r98",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 98,
+        "record_id": "PSI-25:bass-ii:98"
+      },
+      "text": "PI: Fernandez-Pello | Test #: P23 | Date: 7/30/2014 | GMT: 211 | Sample #: 201m | Fuel Sample Material: 3/8\" black rod | Flow restrictor: 2 | Fan display: 55  47  etc (pot 1  2  1  2   etc) | Air display: 2  0  2  0  etc | Radiometer gain   (1000   250   50   10): 50 | Total Frames Shot: 242 | Calibrated  initial O2 % by vol: 18.2 | Calibrated final O2 % by vol: 17 | Initial CO2 % by vol: 1.05 | Final CO2 % by vol: 2.08 | Initial CO (ppm): 78 | Final CO (ppm): 159"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r99",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 99,
+        "record_id": "PSI-25:bass-ii:99"
+      },
+      "text": "PI: Fernandez-Pello | Test #: P24 | Date: 7/30/2014 | GMT: 211 | Sample #: 819L | Fuel Sample Material: 3/8\" black rod | Flow restrictor: 2 | Fan display: 55  47  etc (pot 1  2  1  2   etc) | Air display: 2  0  2  0  etc | Radiometer gain   (1000   250   50   10): 250>50 | Total Frames Shot: 308 | Calibrated  initial O2 % by vol: 19 | Calibrated final O2 % by vol: 17.5 | Initial CO2 % by vol: 1.2 | Final CO2 % by vol: 2.24 | Initial CO (ppm): 26 | Final CO (ppm): 260"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r100",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 100,
+        "record_id": "PSI-25:bass-ii:100"
+      },
+      "text": "PI: Fernandez-Pello | Test #: P25 | Date: 7/8/2014 | GMT: 189 | Sample #: 217m | Fuel Sample Material: 3/8\" clear rod | Flow restrictor: 2 | Fan display: 5   p.36   0.34   0.33   0.32   0.31 ext | Air display: 5 down to ext | Radiometer gain   (1000   250   50   10): 50 | Total Frames Shot: 246 | Calibrated  initial O2 % by vol: 20.9 | Calibrated final O2 % by vol: 20.2 | Initial CO2 % by vol: 0.38 | Final CO2 % by vol: 1 | Initial CO (ppm): 43 | Final CO (ppm): 205"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r101",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 101,
+        "record_id": "PSI-25:bass-ii:101"
+      },
+      "text": "PI: T'ien | Test #: T1 | Date: 2/14/2014 | GMT: 45 | Sample #: 128 | Fuel Sample Material: 2 cm SIBAL | Flow restrictor: 2 | Fan display: 80 | Air display: 10 | Radiometer gain   (1000   250   50   10): 50 | Total Frames Shot: 85 | Calibrated  initial O2 % by vol: 18.5 | Calibrated final O2 % by vol: 18.5 | Initial CO2 % by vol: 0.35 | Final CO2 % by vol: 0.41 | Initial CO (ppm): 0 | Final CO (ppm): 40"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r102",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 102,
+        "record_id": "PSI-25:bass-ii:102"
+      },
+      "text": "PI: T'ien | Test #: T2 | Date: 2/14/2014 | GMT: 45 | Sample #: 129 | Fuel Sample Material: 2 cm SIBAL | Flow restrictor: 2 | Fan display: 80   59   55 | Air display: 9   5   4 | Radiometer gain   (1000   250   50   10): 50 | Total Frames Shot: 100 | Calibrated  initial O2 % by vol: 18.5 | Calibrated final O2 % by vol: 18.5 | Initial CO2 % by vol: 0.41 | Final CO2 % by vol: 0.45 | Initial CO (ppm): 40 | Final CO (ppm): 78"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r103",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 103,
+        "record_id": "PSI-25:bass-ii:103"
+      },
+      "text": "PI: T'ien | Test #: T3 | Date: 6/27/2014 | GMT: 178 | Sample #: 182m | Fuel Sample Material: 4 cm spherical section | Flow restrictor: 2 | Fan display: 63 | Air display: 10 | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 166 | Calibrated  initial O2 % by vol: 17.2 | Calibrated final O2 % by vol: 16.8 | Initial CO2 % by vol: 0.42 | Final CO2 % by vol: 0.7 | Initial CO (ppm): 45 | Final CO (ppm): 113"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r104",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 104,
+        "record_id": "PSI-25:bass-ii:104"
+      },
+      "text": "PI: T'ien | Test #: T4 | Date: 2/14/2014 | GMT: 45 | Sample #: 130 | Fuel Sample Material: 2 cm SIBAL | Flow restrictor: 2 | Fan display: 80   46 | Air display: 9  1 | Radiometer gain   (1000   250   50   10): 50 | Total Frames Shot: 97 | Calibrated  initial O2 % by vol: 18.7 | Calibrated final O2 % by vol: 18.7 | Initial CO2 % by vol: 0.44 | Final CO2 % by vol: 0.45 | Initial CO (ppm): 59 | Final CO (ppm): 72"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r105",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 105,
+        "record_id": "PSI-25:bass-ii:105"
+      },
+      "text": "PI: T'ien | Test #: T5 | Date: 4/10/2014 | GMT: 100 | Sample #: 131 | Fuel Sample Material: 2 cm SIBAL | Flow restrictor: 2 | Fan display: 2.72   0.50   0.42 | Air display: 10   2   1 | Radiometer gain   (1000   250   50   10): 50 | Total Frames Shot: 100 | Calibrated  initial O2 % by vol: 18.8 | Calibrated final O2 % by vol: 18.9 | Initial CO2 % by vol: 0.2 | Final CO2 % by vol: 0.25 | Initial CO (ppm): 2 | Final CO (ppm): 41"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r106",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 106,
+        "record_id": "PSI-25:bass-ii:106"
+      },
+      "text": "PI: T'ien | Test #: T6 | Date: 4/10/2014 | GMT: 100 | Sample #: 132 | Fuel Sample Material: 2 cm SIBAL | Flow restrictor: 2 | Air display: 5  2  1   <1 | Radiometer gain   (1000   250   50   10): 50 | Total Frames Shot: 117 | Calibrated  initial O2 % by vol: 18.8 | Calibrated final O2 % by vol: 18.8 | Initial CO2 % by vol: 0.24 | Final CO2 % by vol: 0.28 | Initial CO (ppm): 39 | Final CO (ppm): 77"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r107",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 107,
+        "record_id": "PSI-25:bass-ii:107"
+      },
+      "text": "PI: T'ien | Test #: T7 | Date: 7/9/2014 | GMT: 190 | Sample #: 182m | Fuel Sample Material: 4 cm spherical section | Flow restrictor: 2 | Fan display: 3.4   67 | Air display: 10   5  3  1   decr | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 299 | Calibrated  initial O2 % by vol: 17.3 | Calibrated final O2 % by vol: 17.1 | Initial CO2 % by vol: 0.32 | Final CO2 % by vol: 0.59 | Initial CO (ppm): 49 | Final CO (ppm): 140"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r108",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 108,
+        "record_id": "PSI-25:bass-ii:108"
+      },
+      "text": "PI: T'ien | Test #: T9 | Date: 6/24/2018 | GMT: 175 | Sample #: 133M | Fuel Sample Material: 2 cm SIBAL | Flow restrictor: 2 | Fan display: pot 2.5 | Air display: 10 | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 48 | Calibrated  initial O2 % by vol: 16.4 | Calibrated final O2 % by vol: 16.4 | Initial CO2 % by vol: 0.3 | Final CO2 % by vol: 0.31 | Initial CO (ppm): 0 | Final CO (ppm): 9"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r109",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 109,
+        "record_id": "PSI-25:bass-ii:109"
+      },
+      "text": "PI: T'ien | Test #: T10 | Date: 6/24/2014 | GMT: 175 | Sample #: 134M | Fuel Sample Material: 2 cm SIBAL | Flow restrictor: 2 | Fan display: pot 1.1 | Air display: 5 | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 43 | Calibrated  initial O2 % by vol: 16.4 | Calibrated final O2 % by vol: 16.5 | Initial CO2 % by vol: 0.31 | Final CO2 % by vol: 0.33 | Initial CO (ppm): 9 | Final CO (ppm): 14"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r110",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 110,
+        "record_id": "PSI-25:bass-ii:110"
+      },
+      "text": "PI: T'ien | Test #: T11 | Date: 6/27/2014 | GMT: 178 | Sample #: 135m | Fuel Sample Material: 2 cm SIBAL | Flow restrictor: 2 | Fan display: 48 | Air display: 5 | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 109 | Calibrated  initial O2 % by vol: 17.1 | Calibrated final O2 % by vol: 17 | Initial CO2 % by vol: 0.35 | Final CO2 % by vol: 0.39 | Initial CO (ppm): 1 | Final CO (ppm): 45"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r111",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 111,
+        "record_id": "PSI-25:bass-ii:111"
+      },
+      "text": "PI: T'ien | Test #: T12 | Date: 6/27/2014 | GMT: 178 | Sample #: 136m | Fuel Sample Material: 2 cm SIBAL | Flow restrictor: 2 | Fan display: pot 1.1 | Air display: 5 | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 39 | Calibrated  initial O2 % by vol: 16.8 | Calibrated final O2 % by vol: 16.9 | Initial CO2 % by vol: 0.7 | Final CO2 % by vol: 0.7 | Initial CO (ppm): 113 | Final CO (ppm): 117"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r112",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 112,
+        "record_id": "PSI-25:bass-ii:112"
+      },
+      "text": "PI: T'ien | Test #: T13 | Date: 4/10/2014 | GMT: 100 | Sample #: 137 | Fuel Sample Material: 2 cm SIBAL | Flow restrictor: 2 | Air display: 5  1 | Radiometer gain   (1000   250   50   10): 50 | Total Frames Shot: 55 | Calibrated  initial O2 % by vol: 17.5 | Calibrated final O2 % by vol: 17.6 | Initial CO2 % by vol: 0.19 | Final CO2 % by vol: 0.2 | Initial CO (ppm): 2 | Final CO (ppm): 12"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r113",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 113,
+        "record_id": "PSI-25:bass-ii:113"
+      },
+      "text": "PI: T'ien | Test #: T14 | Date: 6/27/2014 | GMT: 178 | Sample #: 140m | Fuel Sample Material: 2 cm SIBAL | Flow restrictor: 2 | Air display: 5  3 | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 119 | Calibrated  initial O2 % by vol: 16.9 | Calibrated final O2 % by vol: 16.9 | Initial CO2 % by vol: 0.7 | Final CO2 % by vol: 0.72 | Initial CO (ppm): 117 | Final CO (ppm): 152"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r114",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 114,
+        "record_id": "PSI-25:bass-ii:114"
+      },
+      "text": "PI: T'ien | Test #: T15 | Date: 2/14/2014 | GMT: 45 | Sample #: 138 | Fuel Sample Material: 2 cm SIBAL | Flow restrictor: 0 | Fan display: 80122 | Air display: 9   29 | Radiometer gain   (1000   250   50   10): 50 | Total Frames Shot: 46 | Calibrated  initial O2 % by vol: 18.7 | Calibrated final O2 % by vol: 18.7 | Initial CO2 % by vol: 0.45 | Final CO2 % by vol: 0.51 | Initial CO (ppm): 72 | Final CO (ppm): 102"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r115",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 115,
+        "record_id": "PSI-25:bass-ii:115"
+      },
+      "text": "PI: T'ien | Test #: T16 | Date: 4/10/2014 | GMT: 100 | Sample #: 139 | Fuel Sample Material: 2 cm SIBAL | Flow restrictor: 2 | Air display: 5  3 | Radiometer gain   (1000   250   50   10): 50 | Total Frames Shot: 100 | Calibrated  initial O2 % by vol: 17.6 | Calibrated final O2 % by vol: 17.5 | Initial CO2 % by vol: 0.21 | Final CO2 % by vol: 0.21 | Initial CO (ppm): 17 | Final CO (ppm): 41"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r116",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 116,
+        "record_id": "PSI-25:bass-ii:116"
+      },
+      "text": "PI: T'ien | Test #: T17 | Date: 6/27/2014 | GMT: 178 | Sample #: 142m | Fuel Sample Material: 2 cm SIBAL | Flow restrictor: 0 | Air display: 6   53 | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 83 | Calibrated  initial O2 % by vol: 16.9 | Calibrated final O2 % by vol: 16.9 | Initial CO2 % by vol: 0.72 | Final CO2 % by vol: 0.75 | Initial CO (ppm): 152 | Final CO (ppm): 190"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r117",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 117,
+        "record_id": "PSI-25:bass-ii:117"
+      },
+      "text": "PI: T'ien | Test #: T18 | Date: 6/24/2018 | GMT: 175 | Sample #: 141M | Fuel Sample Material: 2 cm SIBAL | Flow restrictor: 2 | Air display: 5  2 | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 49 | Calibrated  initial O2 % by vol: 17.4 | Calibrated final O2 % by vol: 17.4 | Initial CO2 % by vol: 0.36 | Final CO2 % by vol: 0.38 | Initial CO (ppm): 2 | Final CO (ppm): 22"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r118",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 118,
+        "record_id": "PSI-25:bass-ii:118"
+      },
+      "text": "PI: T'ien | Test #: T19 | Date: 7/9/2014 | GMT: 190 | Sample #: 143m | Fuel Sample Material: 1 cm SIBAL | Flow restrictor: 2 | Fan display: 68.5   pot 3.6 | Air display: 11 | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 73 | Calibrated  initial O2 % by vol: 17.2 | Calibrated final O2 % by vol: 17.2 | Initial CO2 % by vol: 0.29 | Final CO2 % by vol: 0.31 | Initial CO (ppm): 1 | Final CO (ppm): 20"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r119",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 119,
+        "record_id": "PSI-25:bass-ii:119"
+      },
+      "text": "PI: T'ien | Test #: T20 | Date: 7/9/2014 | GMT: 190 | Sample #: 144m | Fuel Sample Material: 1 cm SIBAL | Flow restrictor: 2 | Fan display: 3.6   0.9 | Air display: 11   3 | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 117 | Calibrated  initial O2 % by vol: 17.2 | Calibrated final O2 % by vol: 17.2 | Initial CO2 % by vol: 0.31 | Final CO2 % by vol: 0.31 | Initial CO (ppm): 20 | Final CO (ppm): 34"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r120",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 120,
+        "record_id": "PSI-25:bass-ii:120"
+      },
+      "text": "PI: T'ien | Test #: T21 | Date: 7/9/2014 | GMT: 190 | Sample #: 145m | Fuel Sample Material: 1 cm SIBAL | Flow restrictor: 0 | Fan display: 1.6 pot   52 | Air display: 11   max(47) | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 151 | Calibrated  initial O2 % by vol: 17.2 | Calibrated final O2 % by vol: 17.2 | Initial CO2 % by vol: 0.31 | Final CO2 % by vol: 0.32 | Initial CO (ppm): 34 | Final CO (ppm): 45"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r121",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 121,
+        "record_id": "PSI-25:bass-ii:121"
+      },
+      "text": "PI: T'ien | Test #: T22 | Date: 7/9/2014 | GMT: 190 | Sample #: 146m | Fuel Sample Material: 1 cm SIBAL | Flow restrictor: 2 | Fan display: 3.4   1.7 | Air display: 10   5 | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 38 | Calibrated  initial O2 % by vol: 17.1 | Calibrated final O2 % by vol: 17 | Initial CO2 % by vol: 0.59 | Final CO2 % by vol: 0.62 | Initial CO (ppm): 140 | Final CO (ppm): 162"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r122",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 122,
+        "record_id": "PSI-25:bass-ii:122"
+      },
+      "text": "PI: T'ien | Test #: T23 | Date: 7/9/2014 | GMT: 190 | Sample #: 133m | Fuel Sample Material: 2 cm Sibal   moved igniter | Flow restrictor: 2 | Fan display: 3.3   66 | Air display: 10 | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 203 | Calibrated  initial O2 % by vol: 17.2 | Calibrated final O2 % by vol: 17.3 | Initial CO2 % by vol: 0.32 | Final CO2 % by vol: 0.32 | Initial CO (ppm): 45 | Final CO (ppm): 49"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r123",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 123,
+        "record_id": "PSI-25:bass-ii:123"
+      },
+      "text": "PI: T'ien | Test #: T24 | Date: 7/9/2014 | GMT: 190 | Sample #: 133m | Fuel Sample Material: 1 cm SIBAL   top side ign | Flow restrictor: 2 | Fan display: 3.3 66 | Air display: 10 | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 130 | Calibrated  initial O2 % by vol: 18.2 | Calibrated final O2 % by vol: 18.2 | Initial CO2 % by vol: 0.51 | Final CO2 % by vol: 0.53 | Initial CO (ppm): 85 | Final CO (ppm): 107"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r124",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 124,
+        "record_id": "PSI-25:bass-ii:124"
+      },
+      "text": "PI: T'ien | Test #: T25 | Date: 8/4/2014 | GMT: 216 | Sample #: 138m | Fuel Sample Material: 2 cm SIBAL | Flow restrictor: 1 | Fan display: 53   45 | Air display: 5   2.5 | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 75 | Calibrated  initial O2 % by vol: 20.8 | Calibrated final O2 % by vol: 20.7 | Initial CO2 % by vol: 0.36 | Final CO2 % by vol: 0.39 | Initial CO (ppm): -1 | Final CO (ppm): 17"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r125",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 125,
+        "record_id": "PSI-25:bass-ii:125"
+      },
+      "text": "PI: T'ien | Test #: T26 | Date: 8/4/2014 | GMT: 216 | Sample #: 137m | Fuel Sample Material: 2 cm SIBAL | Flow restrictor: 1 | Fan display: 53   45 | Air display: 5   2.5 | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 87 | Calibrated  initial O2 % by vol: 20.8 | Calibrated final O2 % by vol: 20.7 | Initial CO2 % by vol: 0.36 | Final CO2 % by vol: 0.43 | Initial CO (ppm): -1 | Final CO (ppm): 24"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r126",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 126,
+        "record_id": "PSI-25:bass-ii:126"
+      },
+      "text": "PI: T'ien | Test #: T27 | Date: 8/4/2014 | GMT: 216 | Sample #: 146m | Fuel Sample Material: 1 cm SIBAL | Flow restrictor: 1 | Fan display: 53   45 | Air display: 5   2 | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 58 | Calibrated  initial O2 % by vol: 20.7 | Calibrated final O2 % by vol: 20.6 | Initial CO2 % by vol: 0.41 | Final CO2 % by vol: 0.42 | Initial CO (ppm): -1 | Final CO (ppm): 9"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r127",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 127,
+        "record_id": "PSI-25:bass-ii:127"
+      },
+      "text": "PI: T'ien | Test #: T28a | Date: 8/4/2014 | GMT: 216 | Sample #: 144m | Fuel Sample Material: 1 cm SIBAL | Flow restrictor: 1 | Fan display: 53 | Air display: 5 | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 19 | Calibrated  initial O2 % by vol: 20.7 | Calibrated final O2 % by vol: 0.9 | Initial CO2 % by vol: 0.41 | Final CO2 % by vol: none | Initial CO (ppm): -1 | Final CO (ppm): none"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r128",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 128,
+        "record_id": "PSI-25:bass-ii:128"
+      },
+      "text": "PI: T'ien | Test #: T28b | Date: 8/4/2014 | GMT: 216 | Sample #: 144m | Fuel Sample Material: 1 cm SIBAL | Flow restrictor: 1 | Fan display: 53 | Air display: 5 | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 27 | Calibrated  initial O2 % by vol: 20.7 | Calibrated final O2 % by vol: 40.4 | Initial CO2 % by vol: none | Final CO2 % by vol: 0.42 | Initial CO (ppm): none | Final CO (ppm): 2"
+    },
+    {
+      "id": "PSI-25:table:67a3a17b09ed061032c19775:v1:r129",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-25",
+        "file_id": "67a3a17b09ed061032c19775",
+        "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+        "version": 1,
+        "filename": "PSI-25_Experimental table_BASS-II.csv",
+        "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+        "row": 129,
+        "record_id": "PSI-25:bass-ii:129"
+      },
+      "text": "PI: T'ien | Test #: T29 | Date: 8/4/2014 | GMT: 216 | Sample #: 145m | Fuel Sample Material: 1 cm SIBAL | Flow restrictor: 1 | Fan display: 53   43 | Air display: 5   2(?) | Radiometer gain   (1000   250   50   10): 250 | Total Frames Shot: 60 | Calibrated  initial O2 % by vol: 20.7 | Calibrated final O2 % by vol: 20.5 | Initial CO2 % by vol: 0.41 | Final CO2 % by vol: 0.44 | Initial CO (ppm): -1 | Final CO (ppm): 10"
     }
   ],
   "documents": [
@@ -2420,6 +4355,17 @@
       "sha256": "66ae000f7bf3faf4c14b730c998dc9014c77c7717f096577afb0a7fa22bb3dc2",
       "status": "extracted",
       "page_count": 4
+    }
+  ],
+  "tables": [
+    {
+      "accession": "PSI-25",
+      "file_id": "67a3a17b09ed061032c19775",
+      "key": "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv",
+      "version": 1,
+      "filename": "PSI-25_Experimental table_BASS-II.csv",
+      "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+      "rows": 129
     }
   ]
 }
