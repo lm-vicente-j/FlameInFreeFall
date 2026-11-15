@@ -18,7 +18,9 @@
       "sha256": "5ffa911fd9b6356f204646003fb9342e341810dcdfdf5cb15756e7f01ec5f770",
       "local_path": "res/samples/PSI-25/PSI-25_Reports_BASS-II Summary Report.pdf",
       "retrieved_at": "2026-11-15T01:35:37+00:00",
-      "error": null
+      "error": null,
+      "source_url": "https://psi.nasa.gov/geode-py/ws/studies/PSI-25/download?file=PSI-25_Reports_BASS-II+Summary+Report.pdf&version=2&redirect=false",
+      "investigation_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-25"
     },
     {
       "accession": "PSI-25",
@@ -35,7 +37,9 @@
       "sha256": "d00a763d60719bc14004264e216452b44c3c1bf4b0c629e9d307c8abf9568e75",
       "local_path": "res/samples/PSI-25/PSI-25_Science Documents_BASS-II_SRD.pdf",
       "retrieved_at": "2026-11-15T01:35:40+00:00",
-      "error": null
+      "error": null,
+      "source_url": "https://psi.nasa.gov/geode-py/ws/studies/PSI-25/download?file=PSI-25_Science+Documents_BASS-II_SRD.pdf&version=2&redirect=false",
+      "investigation_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-25"
     },
     {
       "accession": "PSI-25",
@@ -52,7 +56,9 @@
       "sha256": "66ae000f7bf3faf4c14b730c998dc9014c77c7717f096577afb0a7fa22bb3dc2",
       "local_path": "res/samples/PSI-25/PSI-25_Raw Data_GMT2014_045_BASS_S128_TPT1_ProofSheet.pdf",
       "retrieved_at": "2026-11-15T01:35:43+00:00",
-      "error": null
+      "error": null,
+      "source_url": "https://psi.nasa.gov/geode-py/ws/studies/PSI-25/download?file=PSI-25_Raw+Data_GMT2014_045_BASS_S128_TPT1_ProofSheet.pdf&version=2&redirect=false",
+      "investigation_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-25"
     },
     {
       "accession": "PSI-25",
@@ -69,7 +75,9 @@
       "sha256": "bc0dca3efdef44a7774d8dd37aebc0cedae8d67d7bae8c9cbde9590014a3c983",
       "local_path": "res/samples/PSI-25/PSI-25_Reference Data_Fan calibration data.xlsx",
       "retrieved_at": "2026-11-15T01:35:50+00:00",
-      "error": null
+      "error": null,
+      "source_url": "https://psi.nasa.gov/geode-py/ws/studies/PSI-25/download?file=PSI-25_Reference+Data_Fan+calibration+data.xlsx&version=2&redirect=false",
+      "investigation_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-25"
     },
     {
       "accession": "PSI-98",
@@ -86,7 +94,9 @@
       "sha256": "6cff0b55b8f1416f5b5b768b7fd22ae31991791ef633865471b72ff19ff4159b",
       "local_path": "res/samples/PSI-98/PSI-98_Science Documents_SAFFIRE Objectives, Development and Status.pdf",
       "retrieved_at": "2026-11-15T01:35:53+00:00",
-      "error": null
+      "error": null,
+      "source_url": "https://psi.nasa.gov/geode-py/ws/studies/PSI-98/download?file=PSI-98_Science+Documents_SAFFIRE+Objectives%2C+Development+and+Status.pdf&version=1&redirect=false",
+      "investigation_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-98"
     },
     {
       "accession": "PSI-98",
@@ -103,7 +113,9 @@
       "sha256": "01f812143679acbd31d7013404e3a8b8752ad554cf93b40a96845ebf37ffe882",
       "local_path": "res/samples/PSI-98/PSI-98_Engineering Documents_SAFFIRE-I Operations.pdf",
       "retrieved_at": "2026-11-15T01:35:56+00:00",
-      "error": null
+      "error": null,
+      "source_url": "https://psi.nasa.gov/geode-py/ws/studies/PSI-98/download?file=PSI-98_Engineering+Documents_SAFFIRE-I+Operations.pdf&version=1&redirect=false",
+      "investigation_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-98"
     },
     {
       "accession": "PSI-98",
@@ -120,7 +132,9 @@
       "sha256": null,
       "local_path": null,
       "retrieved_at": null,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "source_url": "https://psi.nasa.gov/geode-py/ws/studies/PSI-98/download?file=PSI-98_Engineering+Documents_SAFFIRE+Offgassing+Testing+Strategy.pdf&version=1&redirect=false",
+      "investigation_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-98"
     },
     {
       "accession": "PSI-98",
@@ -137,7 +151,9 @@
       "sha256": "e792c665b700656152adbf2594b68bc5d73c3fc0f6711608b4330a9d7535653f",
       "local_path": "res/samples/PSI-98/PSI-98_Raw Data_SFSDP-VIS-0295_Saffire 1 and 3_Thermocouple Placement.pdf",
       "retrieved_at": "2026-11-15T01:37:04+00:00",
-      "error": null
+      "error": null,
+      "source_url": "https://psi.nasa.gov/geode-py/ws/studies/PSI-98/download?file=PSI-98_Raw+Data_SFSDP-VIS-0295_Saffire+1+and+3_Thermocouple+Placement.pdf&version=1&redirect=false",
+      "investigation_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-98"
     },
     {
       "accession": "PSI-101",
@@ -154,7 +170,9 @@
       "sha256": "65381e2715eb7379113dd1b9c550baaa5fa5a247dba00419123143aa98ef80d6",
       "local_path": "res/samples/PSI-101/PSI-101_Reports_SAME-R_Final Report.pdf",
       "retrieved_at": "2026-11-15T01:36:02+00:00",
-      "error": null
+      "error": null,
+      "source_url": "https://psi.nasa.gov/geode-py/ws/studies/PSI-101/download?file=PSI-101_Reports_SAME-R_Final+Report.pdf&version=1&redirect=false",
+      "investigation_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-101"
     },
     {
       "accession": "PSI-101",
@@ -171,7 +189,9 @@
       "sha256": "3eed4b7ecd71f9e37a3f7a78d7e7a011ff636bb24ec8bcc72ff97a8ac41b598a",
       "local_path": "res/samples/PSI-101/PSI-101_Science Documents_SAME_Baseline Concept Description Document_001 Rev A.pdf",
       "retrieved_at": "2026-11-15T01:36:05+00:00",
-      "error": null
+      "error": null,
+      "source_url": "https://psi.nasa.gov/geode-py/ws/studies/PSI-101/download?file=PSI-101_Science+Documents_SAME_Baseline+Concept+Description+Document_001+Rev+A.pdf&version=1&redirect=false",
+      "investigation_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-101"
     },
     {
       "accession": "PSI-101",
@@ -188,7 +208,9 @@
       "sha256": "ac00e24b0f9a0388c3ac5097cca67591112c9992c0c9d40a6810ca5ba7289f36",
       "local_path": "res/samples/PSI-101/PSI-101_Science Documents_SAME_Operations Manual_007.pdf",
       "retrieved_at": "2026-11-15T01:36:08+00:00",
-      "error": null
+      "error": null,
+      "source_url": "https://psi.nasa.gov/geode-py/ws/studies/PSI-101/download?file=PSI-101_Science+Documents_SAME_Operations+Manual_007.pdf&version=1&redirect=false",
+      "investigation_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-101"
     },
     {
       "accession": "PSI-69",
@@ -205,7 +227,9 @@
       "sha256": "0af43477a04b05e3c44558b22c16a69cfda837a6a17fa94178ce1f9fce361dc5",
       "local_path": "res/samples/PSI-69/PSI-69_Science Documents_FLEX_Test_Plan.pdf",
       "retrieved_at": "2026-11-15T01:36:21+00:00",
-      "error": null
+      "error": null,
+      "source_url": "https://psi.nasa.gov/geode-py/ws/studies/PSI-69/download?file=PSI-69_Science+Documents_FLEX_Test_Plan.pdf&version=1&redirect=false",
+      "investigation_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-69"
     },
     {
       "accession": "PSI-69",
@@ -222,7 +246,9 @@
       "sha256": "56e69491fe8af3a31e2f2e1732b0133d769b4de356815419d41c85651d0479d1",
       "local_path": "res/samples/PSI-69/PSI-69_Presentations_20130010979.pdf",
       "retrieved_at": "2026-11-15T01:36:24+00:00",
-      "error": null
+      "error": null,
+      "source_url": "https://psi.nasa.gov/geode-py/ws/studies/PSI-69/download?file=PSI-69_Presentations_20130010979.pdf&version=1&redirect=false",
+      "investigation_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-69"
     },
     {
       "accession": "PSI-69",
@@ -239,7 +265,40 @@
       "sha256": "a96a47878d2d9e4451f3d889f742571aa2d89c48ba9e9d84b6c698a4cb39486c",
       "local_path": "res/samples/PSI-69/PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
       "retrieved_at": "2026-11-15T01:36:27+00:00",
-      "error": null
+      "error": null,
+      "source_url": "https://psi.nasa.gov/geode-py/ws/studies/PSI-69/download?file=PSI-69_Engineering+Documents_FLEX+Engineering+Requirements+Document.pdf&version=1&redirect=false",
+      "investigation_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-69"
     }
-  ]
+  ],
+  "snapshots": [
+    {
+      "accession": "PSI-101",
+      "metadata_version": 4,
+      "retrieved_at": "2026-11-14T18:18:39.944723+00:00",
+      "metadata_sha256": "e0aa75d015705a5943b51dbb4a8ba52751a35e4cafc2307d9201d77ebed711a5",
+      "files_sha256": "23cd526829753017dc742e58c120b4e16a0da143b8b9da7983ef553ddd8a7b8e"
+    },
+    {
+      "accession": "PSI-25",
+      "metadata_version": 4,
+      "retrieved_at": "2026-11-14T18:18:26.173346+00:00",
+      "metadata_sha256": "b9234754db5da651ad27d888af082b889d07210b018e543369662f065b4ec2da",
+      "files_sha256": "5a05f22b397fdecc4ff0a26356c64b87b086f0c2cc86b9ba21e531a461703e16"
+    },
+    {
+      "accession": "PSI-69",
+      "metadata_version": 5,
+      "retrieved_at": "2026-11-14T18:18:37.171311+00:00",
+      "metadata_sha256": "a2d8ec5d0e9ad1060f6ecc7a850598634cc5519c373ae70462bf76c31fc8731c",
+      "files_sha256": "5cca53f5d693a85dd73706de2060d25e1b42b9cbff400641336a7375a6eaa3bf"
+    },
+    {
+      "accession": "PSI-98",
+      "metadata_version": 4,
+      "retrieved_at": "2026-11-14T18:18:37.150257+00:00",
+      "metadata_sha256": "501b5f625733e29c0c6ff0c12b3de1a3e960a159a8c8f8a21ba5c5803afe0570",
+      "files_sha256": "437d406a93a2b6075373e684b01a47dd427869830395b26d4f292afba6e9ee5f"
+    }
+  ],
+  "budget_history_complete": false
 }

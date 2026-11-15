@@ -198,6 +198,10 @@ def _bass_ii(records: Sequence[Record], files: Sequence[RemoteFile]) -> Iterator
         sample_match, test_match = _token(sample_pattern), _token(test_pattern)
         for file in files:
             by_sample, by_test = sample_match.search(file.filename), test_match.search(file.filename)
+            other_test = _token(r"(?:TEST[ _-]?|TP)[A-Za-z]+0*\d+[a-z]?").search(file.filename)
+            other_sample = _token(r"(?:SAMPLE[ _-]?|S)0*\d+[A-Za-z]?").search(file.filename)
+            if (by_sample and not by_test and other_test) or (by_test and not by_sample and other_sample):
+                continue
             if by_sample and by_test:
                 basis = (
                     f'sample {sample} ("{by_sample.group(0)}") and test {test} ("{by_test.group(0)}") in the file name'

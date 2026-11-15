@@ -58,6 +58,7 @@ from pipeline.runs.values import (
     unknown_category,
     unknown_quantity,
 )
+from pipeline.storage import sha256_file
 
 MATRIX_FILENAME = "PSI-26_Science Documents_As Run_Test Matrix.xlsx"
 
@@ -156,11 +157,9 @@ def _bass_pressure(source: MatrixRow, matrix: Matrix) -> Quantity:
 
 def _bass_flow(source: MatrixRow, matrix: Matrix) -> Quantity:
     column, origin = _origin(source, matrix, AIR_DISPLAY)
-    flow = flow_from_air_display(source.text(AIR_DISPLAY), column)
-    if flow.minimum is None:
-        return flow
-    note = f"{origin}; {flow.provenance.note}"
-    return parsed_quantity(flow.minimum, flow.maximum or flow.minimum, "cm/s", None, (column,), note)
+    return unknown_quantity(
+        "cm/s", f"{origin}; 2014 SPICE calibration is not verified for BASS 2012-2013; raw display retained", (column,)
+    )
 
 
 def _bass_conditions(context: Context, row: Row, join: Join, matrix: Matrix | None) -> Conditions:
@@ -209,7 +208,13 @@ def _bass_records(context: Context) -> tuple[list[Record], dict[str, list[QueueC
             if collapse(observation):
                 queues[BASS_OBSERVATIONS].append(QueueCell(record_id, column_label(OBSERVATIONS), observation))
         conditions = _bass_conditions(context, row, join, matrix)
-        records.append(Record(record_id, "run", row.number, dict(row.cells), conditions, ()))
+        original = dict(row.cells)
+        if join.row is not None and matrix is not None and context.tables_dir is not None:
+            original.update({column_label(header): cell_text(value) for header, value in join.row.cells.items()})
+            original.update(join.row.original)
+            original[f"{matrix.filename}!@row"] = str(join.row.sheet_row)
+            original[f"{matrix.filename}!@sha256"] = sha256_file(context.tables_dir / MATRIX_FILENAME)
+        records.append(Record(record_id, "run", row.number, original, conditions, ()))
     return records, queues
 
 

@@ -22,7 +22,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:8",
@@ -38,7 +39,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:8",
@@ -54,7 +56,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:9",
@@ -70,7 +73,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:10",
@@ -86,7 +90,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:11",
@@ -102,7 +107,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:11",
@@ -118,7 +124,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:13",
@@ -134,7 +141,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:14",
@@ -150,7 +158,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:14",
@@ -183,7 +192,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:15",
@@ -199,7 +209,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:15",
@@ -215,7 +226,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:16",
@@ -238,7 +250,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:16",
@@ -254,7 +267,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:17",
@@ -270,7 +284,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:17",
@@ -286,7 +301,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:18",
@@ -302,7 +318,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:18",
@@ -328,7 +345,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:19",
@@ -351,7 +369,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:19",
@@ -377,7 +396,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:20",
@@ -393,7 +413,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:20",
@@ -409,7 +430,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:21",
@@ -425,7 +447,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:21",
@@ -451,7 +474,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:26",
@@ -467,7 +491,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:26",
@@ -490,7 +515,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:28",
@@ -513,7 +539,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:34",
@@ -529,7 +556,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:34",
@@ -545,7 +573,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:36",
@@ -568,7 +597,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:38",
@@ -584,7 +614,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:40",
@@ -600,7 +631,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:40",
@@ -623,7 +655,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:41",
@@ -639,7 +672,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:42",
@@ -662,7 +696,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:43",
@@ -688,7 +723,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:43",
@@ -721,7 +757,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:44",
@@ -737,7 +774,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:44",
@@ -760,7 +798,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:45",
@@ -783,7 +822,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:48",
@@ -799,7 +839,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:50",
@@ -815,7 +856,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:51",
@@ -841,7 +883,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:51",
@@ -867,7 +910,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:52",
@@ -883,7 +927,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:52",
@@ -906,7 +951,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:53",
@@ -922,7 +968,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:54",
@@ -938,7 +985,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:54",
@@ -954,7 +1002,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:55",
@@ -980,7 +1029,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:56",
@@ -1006,7 +1056,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:57",
@@ -1032,7 +1083,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:58",
@@ -1058,7 +1110,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:59",
@@ -1081,7 +1134,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:59",
@@ -1097,7 +1151,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:60",
@@ -1123,7 +1178,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:60",
@@ -1149,7 +1205,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:61",
@@ -1165,7 +1222,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:61",
@@ -1181,7 +1239,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:62",
@@ -1197,7 +1256,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:63",
@@ -1213,7 +1273,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:64",
@@ -1229,7 +1290,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:64",
@@ -1255,7 +1317,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:65",
@@ -1278,7 +1341,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:66",
@@ -1301,7 +1365,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:67",
@@ -1324,7 +1389,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:68",
@@ -1340,7 +1406,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:69",
@@ -1363,7 +1430,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:70",
@@ -1379,7 +1447,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:70",
@@ -1405,7 +1474,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:71",
@@ -1428,7 +1498,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:71",
@@ -1451,7 +1522,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:72",
@@ -1474,7 +1546,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:72",
@@ -1490,7 +1563,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:73",
@@ -1523,7 +1597,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:73",
@@ -1546,7 +1621,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:74",
@@ -1572,7 +1648,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:75",
@@ -1595,7 +1672,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:76",
@@ -1611,7 +1689,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:77",
@@ -1627,7 +1706,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:78",
@@ -1643,7 +1723,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:79",
@@ -1669,7 +1750,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:79",
@@ -1695,7 +1777,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:80",
@@ -1711,7 +1794,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:81",
@@ -1734,7 +1818,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:82",
@@ -1760,7 +1845,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:82",
@@ -1786,7 +1872,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:83",
@@ -1812,7 +1899,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:84",
@@ -1835,7 +1923,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:84",
@@ -1851,7 +1940,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:85",
@@ -1877,7 +1967,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:85",
@@ -1903,7 +1994,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:86",
@@ -1929,7 +2021,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:86",
@@ -1955,7 +2048,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:87",
@@ -1971,7 +2065,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:88",
@@ -1987,7 +2082,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:89",
@@ -2010,7 +2106,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:89",
@@ -2026,7 +2123,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:90",
@@ -2049,7 +2147,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:90",
@@ -2065,7 +2164,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:91",
@@ -2081,7 +2181,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:91",
@@ -2104,7 +2205,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:92",
@@ -2127,7 +2229,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:92",
@@ -2143,7 +2246,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:93",
@@ -2159,7 +2263,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:93",
@@ -2182,7 +2287,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:96",
@@ -2208,7 +2314,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:96",
@@ -2234,7 +2341,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:97",
@@ -2260,7 +2368,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:97",
@@ -2286,7 +2395,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:98",
@@ -2302,7 +2412,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:98",
@@ -2325,7 +2436,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:99",
@@ -2341,7 +2453,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:99",
@@ -2364,7 +2477,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:100",
@@ -2390,7 +2504,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:100",
@@ -2416,7 +2531,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:106",
@@ -2432,7 +2548,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:107",
@@ -2448,7 +2565,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:108",
@@ -2464,7 +2582,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:109",
@@ -2480,7 +2599,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:111",
@@ -2496,7 +2616,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:118",
@@ -2519,7 +2640,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:120",
@@ -2542,7 +2664,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Fan display"
     },
     {
       "record_id": "PSI-25:bass-ii:120",
@@ -2558,7 +2681,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     },
     {
       "record_id": "PSI-25:bass-ii:129",
@@ -2574,7 +2698,8 @@
         "reviewer": null,
         "reviewed_at": null,
         "notes": ""
-      }
+      },
+      "column": "Air display"
     }
   ]
 }

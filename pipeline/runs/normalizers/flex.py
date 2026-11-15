@@ -96,14 +96,10 @@ def _outcomes(row: Row) -> tuple[Outcome, ...]:
         outcome_from_cell(
             row.cells[EXTINCTION_DIAMETER], EXTINCTION_DIAMETER, "extinction_diameter", "microgravity", "mm"
         ),
-        outcome_from_cell(
-            row.cells[BURNING_RATE],
-            BURNING_RATE,
-            "burning_rate",
-            "microgravity",
-            "mm",
-            extra_note="unit as written in source header",
-        ),
+        Outcome("burning_rate", "microgravity", unknown_quantity(
+            "unknown", "Source header 'Burning rate; mm' does not establish a rate unit; original cell retained",
+            (BURNING_RATE,),
+        )),
         outcome_from_cell(row.cells[BURN_TIME], BURN_TIME, "burn_time", "microgravity", "s"),
     )
     outcomes = [outcome for outcome in candidates if outcome is not None]

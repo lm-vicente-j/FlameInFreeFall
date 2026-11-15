@@ -7,7 +7,24 @@
   "additionalProperties": false,
   "properties": {
     "generated_at": {"$ref": "common.schema.json#/$defs/timestamp"},
-    "budget_bytes": {"type": "integer", "minimum": 1},
+    "budget_bytes": {"type": "integer", "minimum": 1, "maximum": 250000000},
+    "cumulative_transferred_bytes": {"type": "integer", "minimum": 0, "maximum": 250000000},
+    "budget_history_complete": {"type": "boolean", "description": "False for legacy manifests without a cumulative ledger; cached files remain usable but further network transfers are disabled."},
+    "snapshots": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["accession", "metadata_version", "retrieved_at", "metadata_sha256", "files_sha256"],
+        "additionalProperties": false,
+        "properties": {
+          "accession": {"$ref": "common.schema.json#/$defs/accession"},
+          "metadata_version": {"type": "integer", "minimum": 1},
+          "retrieved_at": {"$ref": "common.schema.json#/$defs/timestamp"},
+          "metadata_sha256": {"$ref": "common.schema.json#/$defs/sha256"},
+          "files_sha256": {"$ref": "common.schema.json#/$defs/sha256"}
+        }
+      }
+    },
     "transferred_bytes": {"type": "integer", "minimum": 0},
     "files": {
       "type": "array",
@@ -30,7 +47,9 @@
           "sha256": {"oneOf": [{"$ref": "common.schema.json#/$defs/sha256"}, {"type": "null"}]},
           "local_path": {"type": ["string", "null"], "description": "POSIX path relative to the repository root."},
           "retrieved_at": {"oneOf": [{"$ref": "common.schema.json#/$defs/timestamp"}, {"type": "null"}]},
-          "error": {"type": ["string", "null"]}
+          "error": {"type": ["string", "null"]},
+          "source_url": {"type": "string", "format": "uri"},
+          "investigation_url": {"type": "string", "format": "uri"}
         }
       }
     }

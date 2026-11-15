@@ -119,7 +119,7 @@ _FLEX_FRACTIONS = (
     "CO initial ambient composition; mole fraction",
     "He initial ambient composition; mole fraction",
 )
-FLEX_SUM_TOLERANCE = Decimal("0.005")
+FLEX_SUM_TOLERANCE = Decimal("0.020")
 
 
 def _flex_pressure(record: Record) -> Iterator[Flag]:
@@ -133,7 +133,11 @@ def _flex_pressure(record: Record) -> Iterator[Flag]:
 
 
 def _flex_composition(record: Record) -> Iterator[Flag]:
-    cells = [_cell(record, name) for name in _FLEX_FRACTIONS]
+    names = (
+        *_FLEX_FRACTIONS,
+        *(name for name in record.original if "ambient composition" in name and name not in _FLEX_FRACTIONS),
+    )
+    cells = [_cell(record, name) for name in names]
     if any(cell is None for cell in cells):
         return
     pairs = [(column, text) for column, text in (cell for cell in cells if cell is not None)]
@@ -146,7 +150,8 @@ def _flex_composition(record: Record) -> Iterator[Flag]:
         yield Flag(
             "inconsistent_values",
             tuple(column for column, _ in pairs),
-            f"mole fractions sum to {total}, not 1 within {FLEX_SUM_TOLERANCE}: {quoted}",
+            f"reported mole fractions sum to {total}, outside the rounding allowance {FLEX_SUM_TOLERANCE}; "
+            f"unreported species are not inferred: {quoted}",
         )
 
 

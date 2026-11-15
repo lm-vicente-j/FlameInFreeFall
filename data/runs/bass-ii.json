@@ -2377,42 +2377,6 @@
           "target": {
             "kind": "file",
             "accession": "PSI-25",
-            "file_id": "6924805a7f6aa6a83021061b",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT216_SAMPLE_174_TEST_B21 original videos.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT216_SAMPLE_174_TEST_B21 original videos.zip"
-          },
-          "basis": "only sample 174m (\"SAMPLE_174\") is in the file name; test B14 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480517f6aa6a830210580",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT216_SAMPLE_174_TEST_B21.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT216_SAMPLE_174_TEST_B21.mp4"
-          },
-          "basis": "only sample 174m (\"SAMPLE_174\") is in the file name; test B14 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480517f6aa6a830210581",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT216_SAMPLE_174_TEST_B21_2ND_VIEW.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT216_SAMPLE_174_TEST_B21_2ND_VIEW.mp4"
-          },
-          "basis": "only sample 174m (\"SAMPLE_174\") is in the file name; test B14 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
             "file_id": "692480517f6aa6a830210575",
             "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_183_BASS_S174M_TPB14_ProofSheet.pdf",
             "version": 2,
@@ -2420,30 +2384,6 @@
           },
           "basis": "sample 174m (\"S174M\") and test B14 (\"TPB14\") in the file name",
           "status": "confirmed"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480407f6aa6a83021043b",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_216_BASS_S174M_TPB21.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_216_BASS_S174M_TPB21.zip"
-          },
-          "basis": "only sample 174m (\"S174M\") is in the file name; test B14 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480517f6aa6a83021057f",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_216_BASS_S174M_TPB21_ProofSheet.pdf",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_216_BASS_S174M_TPB21_ProofSheet.pdf"
-          },
-          "basis": "only sample 174m (\"S174M\") is in the file name; test B14 is not",
-          "status": "ambiguous"
         }
       ],
       "review_status": "pending"
@@ -2560,42 +2500,6 @@
       "outcomes": [],
       "flags": [],
       "links": [
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480597f6aa6a83021060f",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT183_SAMPLE_175_TESTB15 original videos.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT183_SAMPLE_175_TESTB15 original videos.zip"
-          },
-          "basis": "only test B15 (\"TESTB15\") is in the file name; sample 149m is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924803b7f6aa6a8302103e1",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT183_SAMPLE_175_TESTB15.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT183_SAMPLE_175_TESTB15.mp4"
-          },
-          "basis": "only test B15 (\"TESTB15\") is in the file name; sample 149m is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924803b7f6aa6a8302103e2",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT183_SAMPLE_175_TESTB15_2ND_VIEW.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT183_SAMPLE_175_TESTB15_2ND_VIEW.mp4"
-          },
-          "basis": "only test B15 (\"TESTB15\") is in the file name; sample 149m is not",
-          "status": "ambiguous"
-        },
         {
           "target": {
             "kind": "file",
@@ -2938,42 +2842,6 @@
           "target": {
             "kind": "file",
             "accession": "PSI-25",
-            "file_id": "692480597f6aa6a83021060f",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT183_SAMPLE_175_TESTB15 original videos.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT183_SAMPLE_175_TESTB15 original videos.zip"
-          },
-          "basis": "only sample 175m (\"SAMPLE_175\") is in the file name; test B17 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924803b7f6aa6a8302103e1",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT183_SAMPLE_175_TESTB15.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT183_SAMPLE_175_TESTB15.mp4"
-          },
-          "basis": "only sample 175m (\"SAMPLE_175\") is in the file name; test B17 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924803b7f6aa6a8302103e2",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT183_SAMPLE_175_TESTB15_2ND_VIEW.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT183_SAMPLE_175_TESTB15_2ND_VIEW.mp4"
-          },
-          "basis": "only sample 175m (\"SAMPLE_175\") is in the file name; test B17 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
             "file_id": "692480517f6aa6a830210576",
             "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_183_BASS_S175M_TPB17_ProofSheet.pdf",
             "version": 2,
@@ -3164,42 +3032,6 @@
           "target": {
             "kind": "file",
             "accession": "PSI-25",
-            "file_id": "6924805a7f6aa6a83021061c",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT216_SAMPLE_176_TEST_B22 original videos.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT216_SAMPLE_176_TEST_B22 original videos.zip"
-          },
-          "basis": "only sample 176m (\"SAMPLE_176\") is in the file name; test B18 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924803c7f6aa6a8302103f7",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT216_SAMPLE_176_TEST_B22.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT216_SAMPLE_176_TEST_B22.mp4"
-          },
-          "basis": "only sample 176m (\"SAMPLE_176\") is in the file name; test B18 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924803c7f6aa6a8302103f8",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT216_SAMPLE_176_TEST_B22_2ND_VIEW.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT216_SAMPLE_176_TEST_B22_2ND_VIEW.mp4"
-          },
-          "basis": "only sample 176m (\"SAMPLE_176\") is in the file name; test B18 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
             "file_id": "692480517f6aa6a830210577",
             "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_183_BASS_S176M_TPB18_ProofSheet.pdf",
             "version": 2,
@@ -3207,30 +3039,6 @@
           },
           "basis": "sample 176m (\"S176M\") and test B18 (\"TPB18\") in the file name",
           "status": "confirmed"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480407f6aa6a83021043f",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_216_BASS_S176M_TPB22.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_216_BASS_S176M_TPB22.zip"
-          },
-          "basis": "only sample 176m (\"S176M\") is in the file name; test B18 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480517f6aa6a830210584",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_216_BASS_S176M_TPB22_ProofSheet.pdf",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_216_BASS_S176M_TPB22_ProofSheet.pdf"
-          },
-          "basis": "only sample 176m (\"S176M\") is in the file name; test B18 is not",
-          "status": "ambiguous"
         }
       ],
       "review_status": "pending"
@@ -3731,42 +3539,6 @@
           "target": {
             "kind": "file",
             "accession": "PSI-25",
-            "file_id": "692480597f6aa6a83021060d",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT183_SAMPLE_174_TESTB14 original videos.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT183_SAMPLE_174_TESTB14 original videos.zip"
-          },
-          "basis": "only sample 174m (\"SAMPLE_174\") is in the file name; test B21 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480597f6aa6a83021060e",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT183_SAMPLE_174_TESTB14.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT183_SAMPLE_174_TESTB14.mp4"
-          },
-          "basis": "only sample 174m (\"SAMPLE_174\") is in the file name; test B21 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924803b7f6aa6a8302103e0",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT183_SAMPLE_174_TESTB14_2ND_VIEW.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT183_SAMPLE_174_TESTB14_2ND_VIEW.mp4"
-          },
-          "basis": "only sample 174m (\"SAMPLE_174\") is in the file name; test B21 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
             "file_id": "6924805a7f6aa6a83021061b",
             "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT216_SAMPLE_174_TEST_B21 original videos.zip",
             "version": 2,
@@ -3798,18 +3570,6 @@
           },
           "basis": "sample 174m (\"SAMPLE_174\") and test B21 (\"TEST_B21\") in the file name",
           "status": "confirmed"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480517f6aa6a830210575",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_183_BASS_S174M_TPB14_ProofSheet.pdf",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_183_BASS_S174M_TPB14_ProofSheet.pdf"
-          },
-          "basis": "only sample 174m (\"S174M\") is in the file name; test B21 is not",
-          "status": "ambiguous"
         },
         {
           "target": {
@@ -3954,54 +3714,6 @@
           "target": {
             "kind": "file",
             "accession": "PSI-25",
-            "file_id": "692480597f6aa6a830210610",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT183_SAMPLE_176_TESTB18 original videos.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT183_SAMPLE_176_TESTB18 original videos.zip"
-          },
-          "basis": "only sample 176m (\"SAMPLE_176\") is in the file name; test B22 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924803b7f6aa6a8302103e3",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT183_SAMPLE_176_TESTB18.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT183_SAMPLE_176_TESTB18.mp4"
-          },
-          "basis": "only sample 176m (\"SAMPLE_176\") is in the file name; test B22 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924803b7f6aa6a8302103e5",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT183_SAMPLE_176_TESTB18_2ND_VIEW.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT183_SAMPLE_176_TESTB18_2ND_VIEW.mp4"
-          },
-          "basis": "only sample 176m (\"SAMPLE_176\") is in the file name; test B22 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924803b7f6aa6a8302103e4",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT183_SAMPLE_176_TESTB18_Still_Sequence.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT183_SAMPLE_176_TESTB18_Still_Sequence.mp4"
-          },
-          "basis": "only sample 176m (\"SAMPLE_176\") is in the file name; test B22 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
             "file_id": "6924805a7f6aa6a83021061c",
             "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT216_SAMPLE_176_TEST_B22 original videos.zip",
             "version": 2,
@@ -4033,18 +3745,6 @@
           },
           "basis": "sample 176m (\"SAMPLE_176\") and test B22 (\"TEST_B22\") in the file name",
           "status": "confirmed"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480517f6aa6a830210577",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_183_BASS_S176M_TPB18_ProofSheet.pdf",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_183_BASS_S176M_TPB18_ProofSheet.pdf"
-          },
-          "basis": "only sample 176m (\"S176M\") is in the file name; test B22 is not",
-          "status": "ambiguous"
         },
         {
           "target": {
@@ -8683,42 +8383,6 @@
           "target": {
             "kind": "file",
             "accession": "PSI-25",
-            "file_id": "692480467f6aa6a8302104af",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT164_SAMPLE_205_TEST_O3b.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT164_SAMPLE_205_TEST_O3b.mp4"
-          },
-          "basis": "only sample 205M (\"SAMPLE_205\") is in the file name; test O3a is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480467f6aa6a8302104b1",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT164_SAMPLE_205_TEST_O3b_2ND_VIEW.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT164_SAMPLE_205_TEST_O3b_2ND_VIEW.mp4"
-          },
-          "basis": "only sample 205M (\"SAMPLE_205\") is in the file name; test O3a is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480467f6aa6a8302104b0",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT164_SAMPLE_205_TEST_O3b_Still_Sequence.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT164_SAMPLE_205_TEST_O3b_Still_Sequence.mp4"
-          },
-          "basis": "only sample 205M (\"SAMPLE_205\") is in the file name; test O3a is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
             "file_id": "692480557f6aa6a8302105c6",
             "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_164_BASS_S205M_TPO3a_ProofSheet.pdf",
             "version": 2,
@@ -8726,18 +8390,6 @@
           },
           "basis": "sample 205M (\"S205M\") and test O3a (\"TPO3a\") in the file name",
           "status": "confirmed"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480557f6aa6a8302105c7",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_164_BASS_S205M_TPO3b_ProofSheet.pdf",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_164_BASS_S205M_TPO3b_ProofSheet.pdf"
-          },
-          "basis": "only sample 205M (\"S205M\") is in the file name; test O3a is not",
-          "status": "ambiguous"
         }
       ],
       "review_status": "pending"
@@ -8858,42 +8510,6 @@
           "target": {
             "kind": "file",
             "accession": "PSI-25",
-            "file_id": "6924805c7f6aa6a83021064f",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT164_SAMPLE_205_TEST_O3a original videos.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT164_SAMPLE_205_TEST_O3a original videos.zip"
-          },
-          "basis": "only sample 205M (\"SAMPLE_205\") is in the file name; test O3b is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480467f6aa6a8302104ad",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT164_SAMPLE_205_TEST_O3a.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT164_SAMPLE_205_TEST_O3a.mp4"
-          },
-          "basis": "only sample 205M (\"SAMPLE_205\") is in the file name; test O3b is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480467f6aa6a8302104ae",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT164_SAMPLE_205_TEST_O3a_2ND_VIEW.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT164_SAMPLE_205_TEST_O3a_2ND_VIEW.mp4"
-          },
-          "basis": "only sample 205M (\"SAMPLE_205\") is in the file name; test O3b is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
             "file_id": "692480467f6aa6a8302104af",
             "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT164_SAMPLE_205_TEST_O3b.mp4",
             "version": 2,
@@ -8925,18 +8541,6 @@
           },
           "basis": "sample 205M (\"SAMPLE_205\") and test O3b (\"TEST_O3b\") in the file name",
           "status": "confirmed"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480557f6aa6a8302105c6",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_164_BASS_S205M_TPO3a_ProofSheet.pdf",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_164_BASS_S205M_TPO3a_ProofSheet.pdf"
-          },
-          "basis": "only sample 205M (\"S205M\") is in the file name; test O3b is not",
-          "status": "ambiguous"
         },
         {
           "target": {
@@ -9333,30 +8937,6 @@
           "target": {
             "kind": "file",
             "accession": "PSI-25",
-            "file_id": "692480477f6aa6a8302104c7",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT202_SAMPLE_220_TEST_O5b.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT202_SAMPLE_220_TEST_O5b.mp4"
-          },
-          "basis": "only sample 220m (\"SAMPLE_220\") is in the file name; test O5a is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480487f6aa6a8302104c8",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT202_SAMPLE_220_TEST_O5b_Still_Sequence.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT202_SAMPLE_220_TEST_O5b_Still_Sequence.mp4"
-          },
-          "basis": "only sample 220m (\"SAMPLE_220\") is in the file name; test O5a is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
             "file_id": "6924804a7f6aa6a8302104f7",
             "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_202_BASS_S220M_TPO5a.zip",
             "version": 2,
@@ -9376,30 +8956,6 @@
           },
           "basis": "sample 220m (\"S220M\") and test O5a (\"TPO5a\") in the file name",
           "status": "confirmed"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804a7f6aa6a8302104f8",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_202_BASS_S220M_TPO5b.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_202_BASS_S220M_TPO5b.zip"
-          },
-          "basis": "only sample 220m (\"S220M\") is in the file name; test O5a is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480567f6aa6a8302105d4",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_202_BASS_S220M_TPO5b_ProofSheet.pdf",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_202_BASS_S220M_TPO5b_ProofSheet.pdf"
-          },
-          "basis": "only sample 220m (\"S220M\") is in the file name; test O5a is not",
-          "status": "ambiguous"
         }
       ],
       "review_status": "pending"
@@ -9520,78 +9076,6 @@
           "target": {
             "kind": "file",
             "accession": "PSI-25",
-            "file_id": "6924805d7f6aa6a830210657",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT202_SAMPLE_220_TEST_O5a original videos.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT202_SAMPLE_220_TEST_O5a original videos.zip"
-          },
-          "basis": "only sample 220m (\"SAMPLE_220\") is in the file name; test O5b is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480477f6aa6a8302104c2",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT202_SAMPLE_220_TEST_O5a_Part-1.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT202_SAMPLE_220_TEST_O5a_Part-1.mp4"
-          },
-          "basis": "only sample 220m (\"SAMPLE_220\") is in the file name; test O5b is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480477f6aa6a8302104c3",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT202_SAMPLE_220_TEST_O5a_Part-1_2ND_VIEW.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT202_SAMPLE_220_TEST_O5a_Part-1_2ND_VIEW.mp4"
-          },
-          "basis": "only sample 220m (\"SAMPLE_220\") is in the file name; test O5b is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480477f6aa6a8302104c4",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT202_SAMPLE_220_TEST_O5a_Part-2.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT202_SAMPLE_220_TEST_O5a_Part-2.mp4"
-          },
-          "basis": "only sample 220m (\"SAMPLE_220\") is in the file name; test O5b is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480477f6aa6a8302104c6",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT202_SAMPLE_220_TEST_O5a_Part-2_2ND_VIEW.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT202_SAMPLE_220_TEST_O5a_Part-2_2ND_VIEW.mp4"
-          },
-          "basis": "only sample 220m (\"SAMPLE_220\") is in the file name; test O5b is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480477f6aa6a8302104c5",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT202_SAMPLE_220_TEST_O5a_Part-2_Still_Sequence.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT202_SAMPLE_220_TEST_O5a_Part-2_Still_Sequence.mp4"
-          },
-          "basis": "only sample 220m (\"SAMPLE_220\") is in the file name; test O5b is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
             "file_id": "692480477f6aa6a8302104c7",
             "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT202_SAMPLE_220_TEST_O5b.mp4",
             "version": 2,
@@ -9611,30 +9095,6 @@
           },
           "basis": "sample 220m (\"SAMPLE_220\") and test O5b (\"TEST_O5b\") in the file name",
           "status": "confirmed"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804a7f6aa6a8302104f7",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_202_BASS_S220M_TPO5a.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_202_BASS_S220M_TPO5a.zip"
-          },
-          "basis": "only sample 220m (\"S220M\") is in the file name; test O5b is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480567f6aa6a8302105d3",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_202_BASS_S220M_TPO5a_ProofSheet.pdf",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_202_BASS_S220M_TPO5a_ProofSheet.pdf"
-          },
-          "basis": "only sample 220m (\"S220M\") is in the file name; test O5b is not",
-          "status": "ambiguous"
         },
         {
           "target": {
@@ -10183,30 +9643,6 @@
           "target": {
             "kind": "file",
             "accession": "PSI-25",
-            "file_id": "692480477f6aa6a8302104b6",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT177_SAMPLE_208_TEST_O8b.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT177_SAMPLE_208_TEST_O8b.mp4"
-          },
-          "basis": "only sample 208m (\"SAMPLE_208\") is in the file name; test O8a is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480477f6aa6a8302104b7",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT177_SAMPLE_208_TEST_O8b_2ND_VIEW.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT177_SAMPLE_208_TEST_O8b_2ND_VIEW.mp4"
-          },
-          "basis": "only sample 208m (\"SAMPLE_208\") is in the file name; test O8a is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
             "file_id": "692480557f6aa6a8302105c9",
             "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_177_BASS_S208M_TP08a_ProofSheet.pdf",
             "version": 2,
@@ -10357,42 +9793,6 @@
       ],
       "flags": [],
       "links": [
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924805c7f6aa6a830210651",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT177_SAMPLE_208_TEST_O8a original videos.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT177_SAMPLE_208_TEST_O8a original videos.zip"
-          },
-          "basis": "only sample 208m (\"SAMPLE_208\") is in the file name; test O8b is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480467f6aa6a8302104b4",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT177_SAMPLE_208_TEST_O8a.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT177_SAMPLE_208_TEST_O8a.mp4"
-          },
-          "basis": "only sample 208m (\"SAMPLE_208\") is in the file name; test O8b is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480467f6aa6a8302104b5",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT177_SAMPLE_208_TEST_O8a_2ND_VIEW.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT177_SAMPLE_208_TEST_O8a_2ND_VIEW.mp4"
-          },
-          "basis": "only sample 208m (\"SAMPLE_208\") is in the file name; test O8b is not",
-          "status": "ambiguous"
-        },
         {
           "target": {
             "kind": "file",
@@ -11150,42 +10550,6 @@
           "target": {
             "kind": "file",
             "accession": "PSI-25",
-            "file_id": "6924805a7f6aa6a830210629",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT189_SAMPLE_217_TEST_P25 original videos.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT189_SAMPLE_217_TEST_P25 original videos.zip"
-          },
-          "basis": "only sample 217m (\"SAMPLE_217\") is in the file name; test O12 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924803e7f6aa6a830210422",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT189_SAMPLE_217_TEST_P25.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT189_SAMPLE_217_TEST_P25.mp4"
-          },
-          "basis": "only sample 217m (\"SAMPLE_217\") is in the file name; test O12 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924803e7f6aa6a830210423",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT189_SAMPLE_217_TEST_P25_2ND_VIEW.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT189_SAMPLE_217_TEST_P25_2ND_VIEW.mp4"
-          },
-          "basis": "only sample 217m (\"SAMPLE_217\") is in the file name; test O12 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
             "file_id": "692480567f6aa6a8302105d2",
             "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_189_BASS_S217M_TPO12_ProofSheet.pdf",
             "version": 2,
@@ -11193,18 +10557,6 @@
           },
           "basis": "sample 217m (\"S217M\") and test O12 (\"TPO12\") in the file name",
           "status": "confirmed"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480537f6aa6a83021059d",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_189_BASS_S217M_TPP25_ProofSheet.pdf",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_189_BASS_S217M_TPP25_ProofSheet.pdf"
-          },
-          "basis": "only sample 217m (\"S217M\") is in the file name; test O12 is not",
-          "status": "ambiguous"
         }
       ],
       "review_status": "pending"
@@ -11385,30 +10737,6 @@
           "target": {
             "kind": "file",
             "accession": "PSI-25",
-            "file_id": "692480487f6aa6a8302104cc",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT202_SAMPLE_221_TEST_O13b.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT202_SAMPLE_221_TEST_O13b.mp4"
-          },
-          "basis": "only sample 221m (\"SAMPLE_221\") is in the file name; test O13a is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480487f6aa6a8302104ce",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT202_SAMPLE_221_TEST_O13b_Still_Sequence.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT202_SAMPLE_221_TEST_O13b_Still_Sequence.mp4"
-          },
-          "basis": "only sample 221m (\"SAMPLE_221\") is in the file name; test O13a is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
             "file_id": "6924804a7f6aa6a8302104f9",
             "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_202_BASS_S221M_TPO13a.zip",
             "version": 2,
@@ -11428,30 +10756,6 @@
           },
           "basis": "sample 221m (\"S221M\") and test O13a (\"TPO13a\") in the file name",
           "status": "confirmed"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804a7f6aa6a8302104fa",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_202_BASS_S221M_TPO13b.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_202_BASS_S221M_TPO13b.zip"
-          },
-          "basis": "only sample 221m (\"S221M\") is in the file name; test O13a is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480567f6aa6a8302105d6",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_202_BASS_S221M_TPO13b_ProofSheet.pdf",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_202_BASS_S221M_TPO13b_ProofSheet.pdf"
-          },
-          "basis": "only sample 221m (\"S221M\") is in the file name; test O13a is not",
-          "status": "ambiguous"
         }
       ],
       "review_status": "pending"
@@ -11572,66 +10876,6 @@
           "target": {
             "kind": "file",
             "accession": "PSI-25",
-            "file_id": "6924805d7f6aa6a830210658",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT202_SAMPLE_221_TEST_O13a original videos.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT202_SAMPLE_221_TEST_O13a original videos.zip"
-          },
-          "basis": "only sample 221m (\"SAMPLE_221\") is in the file name; test O13b is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480487f6aa6a8302104cb",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT202_SAMPLE_221_TEST_O13a.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT202_SAMPLE_221_TEST_O13a.mp4"
-          },
-          "basis": "only sample 221m (\"SAMPLE_221\") is in the file name; test O13b is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480487f6aa6a8302104c9",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT202_SAMPLE_221_TEST_O13a_LOS_Portion_1741-1743.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT202_SAMPLE_221_TEST_O13a_LOS_Portion_1741-1743.mp4"
-          },
-          "basis": "only sample 221m (\"SAMPLE_221\") is in the file name; test O13b is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480487f6aa6a8302104ca",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT202_SAMPLE_221_TEST_O13a_LOS_Portion_1741-1743_2ND_VIEW.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT202_SAMPLE_221_TEST_O13a_LOS_Portion_1741-1743_2ND_VIEW.mp4"
-          },
-          "basis": "only sample 221m (\"SAMPLE_221\") is in the file name; test O13b is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480487f6aa6a8302104cd",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT202_SAMPLE_221_TEST_O13a_Still_Sequence.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT202_SAMPLE_221_TEST_O13a_Still_Sequence.mp4"
-          },
-          "basis": "only sample 221m (\"SAMPLE_221\") is in the file name; test O13b is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
             "file_id": "692480487f6aa6a8302104cc",
             "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT202_SAMPLE_221_TEST_O13b.mp4",
             "version": 2,
@@ -11651,30 +10895,6 @@
           },
           "basis": "sample 221m (\"SAMPLE_221\") and test O13b (\"TEST_O13b\") in the file name",
           "status": "confirmed"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804a7f6aa6a8302104f9",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_202_BASS_S221M_TPO13a.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_202_BASS_S221M_TPO13a.zip"
-          },
-          "basis": "only sample 221m (\"S221M\") is in the file name; test O13b is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480567f6aa6a8302105d5",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_202_BASS_S221M_TPO13a_ProofSheet.pdf",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_202_BASS_S221M_TPO13a_ProofSheet.pdf"
-          },
-          "basis": "only sample 221m (\"S221M\") is in the file name; test O13b is not",
-          "status": "ambiguous"
         },
         {
           "target": {
@@ -12045,30 +11265,6 @@
           "target": {
             "kind": "file",
             "accession": "PSI-25",
-            "file_id": "692480487f6aa6a8302104d8",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT209_SAMPLE_218_TEST_O15b.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT209_SAMPLE_218_TEST_O15b.mp4"
-          },
-          "basis": "only sample 218m (\"SAMPLE_218\") is in the file name; test O15a is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480487f6aa6a8302104d9",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT209_SAMPLE_218_TEST_O15b_2ND_VIEW.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT209_SAMPLE_218_TEST_O15b_2ND_VIEW.mp4"
-          },
-          "basis": "only sample 218m (\"SAMPLE_218\") is in the file name; test O15a is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
             "file_id": "692480567f6aa6a8302105da",
             "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_209_BASS_S218M_TPO15a_ProofSheet.pdf",
             "version": 2,
@@ -12076,18 +11272,6 @@
           },
           "basis": "sample 218m (\"S218M\") and test O15a (\"TPO15a\") in the file name",
           "status": "confirmed"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480567f6aa6a8302105db",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_209_BASS_S218M_TPO15b_ProofSheet.pdf",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_209_BASS_S218M_TPO15b_ProofSheet.pdf"
-          },
-          "basis": "only sample 218m (\"S218M\") is in the file name; test O15a is not",
-          "status": "ambiguous"
         }
       ],
       "review_status": "pending"
@@ -12208,42 +11392,6 @@
           "target": {
             "kind": "file",
             "accession": "PSI-25",
-            "file_id": "6924805d7f6aa6a83021065c",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT209_SAMPLE_218_TEST_O15a original videos.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT209_SAMPLE_218_TEST_O15a original videos.zip"
-          },
-          "basis": "only sample 218m (\"SAMPLE_218\") is in the file name; test O15b is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480487f6aa6a8302104d6",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT209_SAMPLE_218_TEST_O15a.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT209_SAMPLE_218_TEST_O15a.mp4"
-          },
-          "basis": "only sample 218m (\"SAMPLE_218\") is in the file name; test O15b is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480487f6aa6a8302104d7",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT209_SAMPLE_218_TEST_O15a_2ND_VIEW.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT209_SAMPLE_218_TEST_O15a_2ND_VIEW.mp4"
-          },
-          "basis": "only sample 218m (\"SAMPLE_218\") is in the file name; test O15b is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
             "file_id": "692480487f6aa6a8302104d8",
             "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT209_SAMPLE_218_TEST_O15b.mp4",
             "version": 2,
@@ -12263,18 +11411,6 @@
           },
           "basis": "sample 218m (\"SAMPLE_218\") and test O15b (\"TEST_O15b\") in the file name",
           "status": "confirmed"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480567f6aa6a8302105da",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_209_BASS_S218M_TPO15a_ProofSheet.pdf",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_209_BASS_S218M_TPO15a_ProofSheet.pdf"
-          },
-          "basis": "only sample 218m (\"S218M\") is in the file name; test O15b is not",
-          "status": "ambiguous"
         },
         {
           "target": {
@@ -12474,18 +11610,6 @@
           },
           "basis": "sample 219m (\"S219\") and test O16 (\"TPO16\") in the file name",
           "status": "confirmed"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480567f6aa6a8302105dd",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_210_BASS_S219_TPP16.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_210_BASS_S219_TPP16.zip"
-          },
-          "basis": "only sample 219m (\"S219\") is in the file name; test O16 is not",
-          "status": "ambiguous"
         }
       ],
       "review_status": "pending"
@@ -13141,56 +12265,7 @@
       },
       "outcomes": [],
       "flags": [],
-      "links": [
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924805c7f6aa6a83021064d",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT49_SAMPLE_204_TEST_O2 original videos.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT49_SAMPLE_204_TEST_O2 original videos.zip"
-          },
-          "basis": "only sample 204m (\"SAMPLE_204\") is in the file name; test O20 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480467f6aa6a8302104a6",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT49_SAMPLE_204_TEST_O2.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT49_SAMPLE_204_TEST_O2.mp4"
-          },
-          "basis": "only sample 204m (\"SAMPLE_204\") is in the file name; test O20 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480467f6aa6a8302104a5",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT49_SAMPLE_204_TEST_O2_Still_Sequence.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT49_SAMPLE_204_TEST_O2_Still_Sequence.mp4"
-          },
-          "basis": "only sample 204m (\"SAMPLE_204\") is in the file name; test O20 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480557f6aa6a8302105c4",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_049_BASS_S204_TPO2_ProofSheet.pdf",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_049_BASS_S204_TPO2_ProofSheet.pdf"
-          },
-          "basis": "only sample 204m (\"S204\") is in the file name; test O20 is not",
-          "status": "ambiguous"
-        }
-      ],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -13304,92 +12379,7 @@
       },
       "outcomes": [],
       "flags": [],
-      "links": [
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924805d7f6aa6a83021065d",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT210_SAMPLE_219_TEST_O16_First_Ignition_Attempt original videos.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT210_SAMPLE_219_TEST_O16_First_Ignition_Attempt original videos.zip"
-          },
-          "basis": "only sample 219m (\"SAMPLE_219\") is in the file name; test O21 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804b7f6aa6a830210506",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT210_SAMPLE_219_TEST_O16_First_Ignition_Attempt.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT210_SAMPLE_219_TEST_O16_First_Ignition_Attempt.mp4"
-          },
-          "basis": "only sample 219m (\"SAMPLE_219\") is in the file name; test O21 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804b7f6aa6a830210507",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT210_SAMPLE_219_TEST_O16_First_Ignition_Attempt_2ND_VIEW.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT210_SAMPLE_219_TEST_O16_First_Ignition_Attempt_2ND_VIEW.mp4"
-          },
-          "basis": "only sample 219m (\"SAMPLE_219\") is in the file name; test O21 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804b7f6aa6a830210504",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT210_SAMPLE_219_TEST_O16_Second_Ignition_Attempt.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT210_SAMPLE_219_TEST_O16_Second_Ignition_Attempt.mp4"
-          },
-          "basis": "only sample 219m (\"SAMPLE_219\") is in the file name; test O21 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804b7f6aa6a830210505",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT210_SAMPLE_219_TEST_O16_Second_Ignition_Attempt_2ND_VIEW.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT210_SAMPLE_219_TEST_O16_Second_Ignition_Attempt_2ND_VIEW.mp4"
-          },
-          "basis": "only sample 219m (\"SAMPLE_219\") is in the file name; test O21 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480567f6aa6a8302105dc",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_210_BASS_S219_TPO16_ProofSheet.pdf",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_210_BASS_S219_TPO16_ProofSheet.pdf"
-          },
-          "basis": "only sample 219m (\"S219\") is in the file name; test O21 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480567f6aa6a8302105dd",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_210_BASS_S219_TPP16.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_210_BASS_S219_TPP16.zip"
-          },
-          "basis": "only sample 219m (\"S219\") is in the file name; test O21 is not",
-          "status": "ambiguous"
-        }
-      ],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -13518,152 +12508,7 @@
         }
       ],
       "flags": [],
-      "links": [
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924805d7f6aa6a830210657",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT202_SAMPLE_220_TEST_O5a original videos.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT202_SAMPLE_220_TEST_O5a original videos.zip"
-          },
-          "basis": "only sample 220m (\"SAMPLE_220\") is in the file name; test O22 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480477f6aa6a8302104c2",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT202_SAMPLE_220_TEST_O5a_Part-1.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT202_SAMPLE_220_TEST_O5a_Part-1.mp4"
-          },
-          "basis": "only sample 220m (\"SAMPLE_220\") is in the file name; test O22 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480477f6aa6a8302104c3",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT202_SAMPLE_220_TEST_O5a_Part-1_2ND_VIEW.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT202_SAMPLE_220_TEST_O5a_Part-1_2ND_VIEW.mp4"
-          },
-          "basis": "only sample 220m (\"SAMPLE_220\") is in the file name; test O22 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480477f6aa6a8302104c4",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT202_SAMPLE_220_TEST_O5a_Part-2.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT202_SAMPLE_220_TEST_O5a_Part-2.mp4"
-          },
-          "basis": "only sample 220m (\"SAMPLE_220\") is in the file name; test O22 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480477f6aa6a8302104c6",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT202_SAMPLE_220_TEST_O5a_Part-2_2ND_VIEW.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT202_SAMPLE_220_TEST_O5a_Part-2_2ND_VIEW.mp4"
-          },
-          "basis": "only sample 220m (\"SAMPLE_220\") is in the file name; test O22 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480477f6aa6a8302104c5",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT202_SAMPLE_220_TEST_O5a_Part-2_Still_Sequence.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT202_SAMPLE_220_TEST_O5a_Part-2_Still_Sequence.mp4"
-          },
-          "basis": "only sample 220m (\"SAMPLE_220\") is in the file name; test O22 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480477f6aa6a8302104c7",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT202_SAMPLE_220_TEST_O5b.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT202_SAMPLE_220_TEST_O5b.mp4"
-          },
-          "basis": "only sample 220m (\"SAMPLE_220\") is in the file name; test O22 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480487f6aa6a8302104c8",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT202_SAMPLE_220_TEST_O5b_Still_Sequence.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT202_SAMPLE_220_TEST_O5b_Still_Sequence.mp4"
-          },
-          "basis": "only sample 220m (\"SAMPLE_220\") is in the file name; test O22 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804a7f6aa6a8302104f7",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_202_BASS_S220M_TPO5a.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_202_BASS_S220M_TPO5a.zip"
-          },
-          "basis": "only sample 220m (\"S220M\") is in the file name; test O22 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480567f6aa6a8302105d3",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_202_BASS_S220M_TPO5a_ProofSheet.pdf",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_202_BASS_S220M_TPO5a_ProofSheet.pdf"
-          },
-          "basis": "only sample 220m (\"S220M\") is in the file name; test O22 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804a7f6aa6a8302104f8",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_202_BASS_S220M_TPO5b.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_202_BASS_S220M_TPO5b.zip"
-          },
-          "basis": "only sample 220m (\"S220M\") is in the file name; test O22 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480567f6aa6a8302105d4",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_202_BASS_S220M_TPO5b_ProofSheet.pdf",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_202_BASS_S220M_TPO5b_ProofSheet.pdf"
-          },
-          "basis": "only sample 220m (\"S220M\") is in the file name; test O22 is not",
-          "status": "ambiguous"
-        }
-      ],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -14195,30 +13040,6 @@
           "target": {
             "kind": "file",
             "accession": "PSI-25",
-            "file_id": "6924803d7f6aa6a830210410",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT167_SAMPLE_215_TEST_P3b.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT167_SAMPLE_215_TEST_P3b.mp4"
-          },
-          "basis": "only sample 215M (\"SAMPLE_215\") is in the file name; test P3a is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924803d7f6aa6a830210411",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT167_SAMPLE_215_TEST_P3b_2ND_VIEW.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT167_SAMPLE_215_TEST_P3b_2ND_VIEW.mp4"
-          },
-          "basis": "only sample 215M (\"SAMPLE_215\") is in the file name; test P3a is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
             "file_id": "692480527f6aa6a83021058d",
             "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_167_BASS_S215M_TPP3a_ProofSheet.pdf",
             "version": 2,
@@ -14226,18 +13047,6 @@
           },
           "basis": "sample 215M (\"S215M\") and test P3a (\"TPP3a\") in the file name",
           "status": "confirmed"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480527f6aa6a83021058e",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_167_BASS_S215M_TPP3b_ProofSheet.pdf",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_167_BASS_S215M_TPP3b_ProofSheet.pdf"
-          },
-          "basis": "only sample 215M (\"S215M\") is in the file name; test P3a is not",
-          "status": "ambiguous"
         }
       ],
       "review_status": "pending"
@@ -14358,54 +13167,6 @@
           "target": {
             "kind": "file",
             "accession": "PSI-25",
-            "file_id": "6924805a7f6aa6a830210622",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT167_SAMPLE_215_TEST_P3a original videos.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT167_SAMPLE_215_TEST_P3a original videos.zip"
-          },
-          "basis": "only sample 215M (\"SAMPLE_215\") is in the file name; test P3b is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924803d7f6aa6a83021040d",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT167_SAMPLE_215_TEST_P3a.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT167_SAMPLE_215_TEST_P3a.mp4"
-          },
-          "basis": "only sample 215M (\"SAMPLE_215\") is in the file name; test P3b is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924803d7f6aa6a83021040f",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT167_SAMPLE_215_TEST_P3a_2ND_VIEW.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT167_SAMPLE_215_TEST_P3a_2ND_VIEW.mp4"
-          },
-          "basis": "only sample 215M (\"SAMPLE_215\") is in the file name; test P3b is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924803d7f6aa6a83021040e",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT167_SAMPLE_215_TEST_P3a_Still_Sequence.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT167_SAMPLE_215_TEST_P3a_Still_Sequence.mp4"
-          },
-          "basis": "only sample 215M (\"SAMPLE_215\") is in the file name; test P3b is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
             "file_id": "6924803d7f6aa6a830210410",
             "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT167_SAMPLE_215_TEST_P3b.mp4",
             "version": 2,
@@ -14425,18 +13186,6 @@
           },
           "basis": "sample 215M (\"SAMPLE_215\") and test P3b (\"TEST_P3b\") in the file name",
           "status": "confirmed"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480527f6aa6a83021058d",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_167_BASS_S215M_TPP3a_ProofSheet.pdf",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_167_BASS_S215M_TPP3a_ProofSheet.pdf"
-          },
-          "basis": "only sample 215M (\"S215M\") is in the file name; test P3b is not",
-          "status": "ambiguous"
         },
         {
           "target": {
@@ -14797,30 +13546,6 @@
           "target": {
             "kind": "file",
             "accession": "PSI-25",
-            "file_id": "6924803e7f6aa6a830210424",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT195_SAMPLE_202_TEST_P9.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT195_SAMPLE_202_TEST_P9.mp4"
-          },
-          "basis": "only sample 202m (\"SAMPLE_202\") is in the file name; test P5 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924803e7f6aa6a830210425",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT195_SAMPLE_202_TEST_P9_2ND_VIEW.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT195_SAMPLE_202_TEST_P9_2ND_VIEW.mp4"
-          },
-          "basis": "only sample 202m (\"SAMPLE_202\") is in the file name; test P5 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
             "file_id": "692480437f6aa6a83021046a",
             "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_195_BASS_S202M_TPP5.zip",
             "version": 2,
@@ -14840,30 +13565,6 @@
           },
           "basis": "sample 202m (\"S202M\") and test P5 (\"TPP5\") in the file name",
           "status": "confirmed"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480437f6aa6a83021046b",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_195_BASS_S202M_TPP9.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_195_BASS_S202M_TPP9.zip"
-          },
-          "basis": "only sample 202m (\"S202M\") is in the file name; test P5 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480537f6aa6a8302105a2",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_195_BASS_S202M_TPP9_ProofSheet.pdf",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_195_BASS_S202M_TPP9_ProofSheet.pdf"
-          },
-          "basis": "only sample 202m (\"S202M\") is in the file name; test P5 is not",
-          "status": "ambiguous"
         }
       ],
       "review_status": "pending"
@@ -15130,56 +13831,7 @@
       },
       "outcomes": [],
       "flags": [],
-      "links": [
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924805a7f6aa6a830210627",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT184_SAMPLE_197_TESTP4 original videos.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT184_SAMPLE_197_TESTP4 original videos.zip"
-          },
-          "basis": "only sample 197m (\"SAMPLE_197\") is in the file name; test P8 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924803e7f6aa6a830210420",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT184_SAMPLE_197_TESTP4.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT184_SAMPLE_197_TESTP4.mp4"
-          },
-          "basis": "only sample 197m (\"SAMPLE_197\") is in the file name; test P8 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480527f6aa6a830210595",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_184_BASS_S197M_TPP4_ProofSheet.pdf",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_184_BASS_S197M_TPP4_ProofSheet.pdf"
-          },
-          "basis": "only sample 197m (\"S197M\") is in the file name; test P8 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480527f6aa6a830210596",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_184_BASS_S198M_TPP8_ProofSheet.pdf",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_184_BASS_S198M_TPP8_ProofSheet.pdf"
-          },
-          "basis": "only test P8 (\"TPP8\") is in the file name; sample 197m is not",
-          "status": "ambiguous"
-        }
-      ],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -15327,54 +13979,6 @@
           "target": {
             "kind": "file",
             "accession": "PSI-25",
-            "file_id": "6924805a7f6aa6a83021062a",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT195_SAMPLE_202_TEST_P5 original videos.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT195_SAMPLE_202_TEST_P5 original videos.zip"
-          },
-          "basis": "only sample 202m (\"SAMPLE_202\") is in the file name; test P9 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480537f6aa6a83021059f",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT195_SAMPLE_202_TEST_P5-LOS-portion.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT195_SAMPLE_202_TEST_P5-LOS-portion.mp4"
-          },
-          "basis": "only sample 202m (\"SAMPLE_202\") is in the file name; test P9 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480537f6aa6a83021059e",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT195_SAMPLE_202_TEST_P5.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT195_SAMPLE_202_TEST_P5.mp4"
-          },
-          "basis": "only sample 202m (\"SAMPLE_202\") is in the file name; test P9 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480537f6aa6a8302105a0",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT195_SAMPLE_202_TEST_P5_2ND_VIEW.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT195_SAMPLE_202_TEST_P5_2ND_VIEW.mp4"
-          },
-          "basis": "only sample 202m (\"SAMPLE_202\") is in the file name; test P9 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
             "file_id": "6924803e7f6aa6a830210424",
             "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT195_SAMPLE_202_TEST_P9.mp4",
             "version": 2,
@@ -15394,30 +13998,6 @@
           },
           "basis": "sample 202m (\"SAMPLE_202\") and test P9 (\"TEST_P9\") in the file name",
           "status": "confirmed"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480437f6aa6a83021046a",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_195_BASS_S202M_TPP5.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_195_BASS_S202M_TPP5.zip"
-          },
-          "basis": "only sample 202m (\"S202M\") is in the file name; test P9 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480537f6aa6a8302105a1",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_195_BASS_S202M_TPP5_ProofSheet.pdf",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_195_BASS_S202M_TPP5_ProofSheet.pdf"
-          },
-          "basis": "only sample 202m (\"S202M\") is in the file name; test P9 is not",
-          "status": "ambiguous"
         },
         {
           "target": {
@@ -15980,18 +14560,6 @@
           "target": {
             "kind": "file",
             "accession": "PSI-25",
-            "file_id": "692480537f6aa6a8302105a3",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT195_SAMPLE_203_TEST_P13b.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT195_SAMPLE_203_TEST_P13b.mp4"
-          },
-          "basis": "only sample 203m (\"SAMPLE_203\") is in the file name; test P13a is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
             "file_id": "692480437f6aa6a83021046e",
             "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_195_BASS_S203M_TPP13a.zip",
             "version": 2,
@@ -16011,30 +14579,6 @@
           },
           "basis": "sample 203m (\"S203M\") and test P13a (\"TPP13a\") in the file name",
           "status": "confirmed"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480437f6aa6a83021046f",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_195_BASS_S203M_TPP13b.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_195_BASS_S203M_TPP13b.zip"
-          },
-          "basis": "only sample 203m (\"S203M\") is in the file name; test P13a is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480537f6aa6a8302105a7",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_195_BASS_S203M_TPP13b_ProofSheet.pdf",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_195_BASS_S203M_TPP13b_ProofSheet.pdf"
-          },
-          "basis": "only sample 203m (\"S203M\") is in the file name; test P13a is not",
-          "status": "ambiguous"
         }
       ],
       "review_status": "pending"
@@ -16184,42 +14728,6 @@
           "target": {
             "kind": "file",
             "accession": "PSI-25",
-            "file_id": "6924805a7f6aa6a83021062b",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT195_SAMPLE_203_TEST_P13a original videos.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT195_SAMPLE_203_TEST_P13a original videos.zip"
-          },
-          "basis": "only sample 203m (\"SAMPLE_203\") is in the file name; test P13b is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480537f6aa6a8302105a5",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT195_SAMPLE_203_TEST_P13a.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT195_SAMPLE_203_TEST_P13a.mp4"
-          },
-          "basis": "only sample 203m (\"SAMPLE_203\") is in the file name; test P13b is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480537f6aa6a8302105a4",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT195_SAMPLE_203_TEST_P13a_2ND_VIEW.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT195_SAMPLE_203_TEST_P13a_2ND_VIEW.mp4"
-          },
-          "basis": "only sample 203m (\"SAMPLE_203\") is in the file name; test P13b is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
             "file_id": "692480537f6aa6a8302105a3",
             "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT195_SAMPLE_203_TEST_P13b.mp4",
             "version": 2,
@@ -16227,30 +14735,6 @@
           },
           "basis": "sample 203m (\"SAMPLE_203\") and test P13b (\"TEST_P13b\") in the file name",
           "status": "confirmed"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480437f6aa6a83021046e",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_195_BASS_S203M_TPP13a.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_195_BASS_S203M_TPP13a.zip"
-          },
-          "basis": "only sample 203m (\"S203M\") is in the file name; test P13b is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480537f6aa6a8302105a6",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_195_BASS_S203M_TPP13a_ProofSheet.pdf",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_195_BASS_S203M_TPP13a_ProofSheet.pdf"
-          },
-          "basis": "only sample 203m (\"S203M\") is in the file name; test P13b is not",
-          "status": "ambiguous"
         },
         {
           "target": {
@@ -16788,18 +15272,6 @@
           },
           "basis": "sample 191m (\"S191M\") and test P16 (\"TPP16\") in the file name",
           "status": "confirmed"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480567f6aa6a8302105dd",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_210_BASS_S219_TPP16.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_210_BASS_S219_TPP16.zip"
-          },
-          "basis": "only test P16 (\"TPP16\") is in the file name; sample 191m is not",
-          "status": "ambiguous"
         }
       ],
       "review_status": "pending"
@@ -17704,30 +16176,6 @@
           "target": {
             "kind": "file",
             "accession": "PSI-25",
-            "file_id": "6924803e7f6aa6a83021041d",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT174_SAMPLE_196_TEST_P21b.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT174_SAMPLE_196_TEST_P21b.mp4"
-          },
-          "basis": "only sample 196M (\"SAMPLE_196\") is in the file name; test P21a is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924803e7f6aa6a83021041e",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT174_SAMPLE_196_TEST_P21b_2ND_VIEW.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT174_SAMPLE_196_TEST_P21b_2ND_VIEW.mp4"
-          },
-          "basis": "only sample 196M (\"SAMPLE_196\") is in the file name; test P21a is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
             "file_id": "692480527f6aa6a830210591",
             "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_174_BASS_S196M_TPP21a_ProofSheet.pdf",
             "version": 2,
@@ -17735,18 +16183,6 @@
           },
           "basis": "sample 196M (\"S196M\") and test P21a (\"TPP21a\") in the file name",
           "status": "confirmed"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480527f6aa6a830210592",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_174_BASS_S196M_TPP21b_ProofSheet.pdf",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_174_BASS_S196M_TPP21b_ProofSheet.pdf"
-          },
-          "basis": "only sample 196M (\"S196M\") is in the file name; test P21a is not",
-          "status": "ambiguous"
         }
       ],
       "review_status": "pending"
@@ -17867,42 +16303,6 @@
           "target": {
             "kind": "file",
             "accession": "PSI-25",
-            "file_id": "6924805a7f6aa6a830210625",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT174_SAMPLE_196_TEST_P21a original videos.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT174_SAMPLE_196_TEST_P21a original videos.zip"
-          },
-          "basis": "only sample 196M (\"SAMPLE_196\") is in the file name; test P21b is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924803e7f6aa6a83021041b",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT174_SAMPLE_196_TEST_P21a.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT174_SAMPLE_196_TEST_P21a.mp4"
-          },
-          "basis": "only sample 196M (\"SAMPLE_196\") is in the file name; test P21b is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924803e7f6aa6a83021041c",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT174_SAMPLE_196_TEST_P21a_2ND_VIEW.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT174_SAMPLE_196_TEST_P21a_2ND_VIEW.mp4"
-          },
-          "basis": "only sample 196M (\"SAMPLE_196\") is in the file name; test P21b is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
             "file_id": "6924803e7f6aa6a83021041d",
             "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT174_SAMPLE_196_TEST_P21b.mp4",
             "version": 2,
@@ -17922,18 +16322,6 @@
           },
           "basis": "sample 196M (\"SAMPLE_196\") and test P21b (\"TEST_P21b\") in the file name",
           "status": "confirmed"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480527f6aa6a830210591",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_174_BASS_S196M_TPP21a_ProofSheet.pdf",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_174_BASS_S196M_TPP21a_ProofSheet.pdf"
-          },
-          "basis": "only sample 196M (\"S196M\") is in the file name; test P21b is not",
-          "status": "ambiguous"
         },
         {
           "target": {
@@ -18140,30 +16528,6 @@
           "target": {
             "kind": "file",
             "accession": "PSI-25",
-            "file_id": "692480537f6aa6a830210599",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT189_SAMPLE_200_TEST_P22b.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT189_SAMPLE_200_TEST_P22b.mp4"
-          },
-          "basis": "only sample 200m (\"SAMPLE_200\") is in the file name; test P22a is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480537f6aa6a83021059a",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT189_SAMPLE_200_TEST_P22b_2ND_VIEW.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT189_SAMPLE_200_TEST_P22b_2ND_VIEW.mp4"
-          },
-          "basis": "only sample 200m (\"SAMPLE_200\") is in the file name; test P22a is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
             "file_id": "692480537f6aa6a83021059b",
             "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_189_BASS_S200M_TPP22a_ProofSheet.pdf",
             "version": 2,
@@ -18171,18 +16535,6 @@
           },
           "basis": "sample 200m (\"S200M\") and test P22a (\"TPP22a\") in the file name",
           "status": "confirmed"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480537f6aa6a83021059c",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_189_BASS_S200M_TPP22b_ProofSheet.pdf",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_189_BASS_S200M_TPP22b_ProofSheet.pdf"
-          },
-          "basis": "only sample 200m (\"S200M\") is in the file name; test P22a is not",
-          "status": "ambiguous"
         }
       ],
       "review_status": "pending"
@@ -18341,42 +16693,6 @@
           "target": {
             "kind": "file",
             "accession": "PSI-25",
-            "file_id": "6924805a7f6aa6a830210628",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT189_SAMPLE_200_TEST_P22a original videos.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT189_SAMPLE_200_TEST_P22a original videos.zip"
-          },
-          "basis": "only sample 200m (\"SAMPLE_200\") is in the file name; test P22b is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480537f6aa6a830210597",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT189_SAMPLE_200_TEST_P22a.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT189_SAMPLE_200_TEST_P22a.mp4"
-          },
-          "basis": "only sample 200m (\"SAMPLE_200\") is in the file name; test P22b is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480537f6aa6a830210598",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT189_SAMPLE_200_TEST_P22a_2ND_VIEW.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT189_SAMPLE_200_TEST_P22a_2ND_VIEW.mp4"
-          },
-          "basis": "only sample 200m (\"SAMPLE_200\") is in the file name; test P22b is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
             "file_id": "692480537f6aa6a830210599",
             "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT189_SAMPLE_200_TEST_P22b.mp4",
             "version": 2,
@@ -18396,18 +16712,6 @@
           },
           "basis": "sample 200m (\"SAMPLE_200\") and test P22b (\"TEST_P22b\") in the file name",
           "status": "confirmed"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480537f6aa6a83021059b",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_189_BASS_S200M_TPP22a_ProofSheet.pdf",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_189_BASS_S200M_TPP22a_ProofSheet.pdf"
-          },
-          "basis": "only sample 200m (\"S200M\") is in the file name; test P22b is not",
-          "status": "ambiguous"
         },
         {
           "target": {
@@ -18943,42 +17247,6 @@
           "target": {
             "kind": "file",
             "accession": "PSI-25",
-            "file_id": "6924805d7f6aa6a830210656",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT189_SAMPLE_217_TEST_O12 original videos.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT189_SAMPLE_217_TEST_O12 original videos.zip"
-          },
-          "basis": "only sample 217m (\"SAMPLE_217\") is in the file name; test P25 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480477f6aa6a8302104c0",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT189_SAMPLE_217_TEST_O12.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT189_SAMPLE_217_TEST_O12.mp4"
-          },
-          "basis": "only sample 217m (\"SAMPLE_217\") is in the file name; test P25 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480477f6aa6a8302104c1",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT189_SAMPLE_217_TEST_O12_2ND_VIEW.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT189_SAMPLE_217_TEST_O12_2ND_VIEW.mp4"
-          },
-          "basis": "only sample 217m (\"SAMPLE_217\") is in the file name; test P25 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
             "file_id": "6924805a7f6aa6a830210629",
             "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT189_SAMPLE_217_TEST_P25 original videos.zip",
             "version": 2,
@@ -19010,18 +17278,6 @@
           },
           "basis": "sample 217m (\"SAMPLE_217\") and test P25 (\"TEST_P25\") in the file name",
           "status": "confirmed"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480567f6aa6a8302105d2",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_189_BASS_S217M_TPO12_ProofSheet.pdf",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_189_BASS_S217M_TPO12_ProofSheet.pdf"
-          },
-          "basis": "only sample 217m (\"S217M\") is in the file name; test P25 is not",
-          "status": "ambiguous"
         },
         {
           "target": {
@@ -19552,78 +17808,6 @@
           "target": {
             "kind": "file",
             "accession": "PSI-25",
-            "file_id": "6924805e7f6aa6a830210675",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT190_SAMPLE_182_TEST_T7_First_Ignition_Attempts original videos.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT190_SAMPLE_182_TEST_T7_First_Ignition_Attempts original videos.zip"
-          },
-          "basis": "only sample 182m (\"SAMPLE_182\") is in the file name; test T3 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804e7f6aa6a830210542",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT190_SAMPLE_182_TEST_T7_First_Ignition_Attempts.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT190_SAMPLE_182_TEST_T7_First_Ignition_Attempts.mp4"
-          },
-          "basis": "only sample 182m (\"SAMPLE_182\") is in the file name; test T3 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804e7f6aa6a830210543",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT190_SAMPLE_182_TEST_T7_First_Ignition_Attempts_2ND_VIEW.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT190_SAMPLE_182_TEST_T7_First_Ignition_Attempts_2ND_VIEW.mp4"
-          },
-          "basis": "only sample 182m (\"SAMPLE_182\") is in the file name; test T3 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804e7f6aa6a830210544",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT190_SAMPLE_182_TEST_T7_Second_Ignition_Attempts.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT190_SAMPLE_182_TEST_T7_Second_Ignition_Attempts.mp4"
-          },
-          "basis": "only sample 182m (\"SAMPLE_182\") is in the file name; test T3 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804e7f6aa6a830210546",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT190_SAMPLE_182_TEST_T7_Second_Ignition_Attempts_2ND_VIEW.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT190_SAMPLE_182_TEST_T7_Second_Ignition_Attempts_2ND_VIEW.mp4"
-          },
-          "basis": "only sample 182m (\"SAMPLE_182\") is in the file name; test T3 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804e7f6aa6a830210545",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT190_SAMPLE_182_TEST_T7_Second_Ignition_Attempts_Still_Sequence.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT190_SAMPLE_182_TEST_T7_Second_Ignition_Attempts_Still_Sequence.mp4"
-          },
-          "basis": "only sample 182m (\"SAMPLE_182\") is in the file name; test T3 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
             "file_id": "692480577f6aa6a8302105f2",
             "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_178_BASS_S182M_TPT03_ProofSheet.pdf",
             "version": 2,
@@ -19631,30 +17815,6 @@
           },
           "basis": "sample 182m (\"S182M\") and test T3 (\"TPT03\") in the file name",
           "status": "confirmed"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804f7f6aa6a830210551",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_190_BASS_S182M_TPT7.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_190_BASS_S182M_TPT7.zip"
-          },
-          "basis": "only sample 182m (\"S182M\") is in the file name; test T3 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480587f6aa6a8302105f9",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_190_BASS_S182M_TPT7_ProofSheet.pdf",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_190_BASS_S182M_TPT7_ProofSheet.pdf"
-          },
-          "basis": "only sample 182m (\"S182M\") is in the file name; test T3 is not",
-          "status": "ambiguous"
         }
       ],
       "review_status": "pending"
@@ -20252,78 +18412,6 @@
           "target": {
             "kind": "file",
             "accession": "PSI-25",
-            "file_id": "6924805e7f6aa6a83021066f",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT178_SAMPLE_182_TEST_T3 original videos.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT178_SAMPLE_182_TEST_T3 original videos.zip"
-          },
-          "basis": "only sample 182m (\"SAMPLE_182\") is in the file name; test T7 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804d7f6aa6a83021052d",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT178_SAMPLE_182_TEST_T3.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT178_SAMPLE_182_TEST_T3.mp4"
-          },
-          "basis": "only sample 182m (\"SAMPLE_182\") is in the file name; test T7 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804d7f6aa6a83021052e",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT178_SAMPLE_182_TEST_T3_2ND_VIEW.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT178_SAMPLE_182_TEST_T3_2ND_VIEW.mp4"
-          },
-          "basis": "only sample 182m (\"SAMPLE_182\") is in the file name; test T7 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804d7f6aa6a83021052f",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT178_SAMPLE_182_TEST_T3_First_Ignition_Attempts.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT178_SAMPLE_182_TEST_T3_First_Ignition_Attempts.mp4"
-          },
-          "basis": "only sample 182m (\"SAMPLE_182\") is in the file name; test T7 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804d7f6aa6a830210531",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT178_SAMPLE_182_TEST_T3_First_Ignition_Attempts_2ND_VIEW.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT178_SAMPLE_182_TEST_T3_First_Ignition_Attempts_2ND_VIEW.mp4"
-          },
-          "basis": "only sample 182m (\"SAMPLE_182\") is in the file name; test T7 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804d7f6aa6a830210530",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT178_SAMPLE_182_TEST_T3_Still_Sequence.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT178_SAMPLE_182_TEST_T3_Still_Sequence.mp4"
-          },
-          "basis": "only sample 182m (\"SAMPLE_182\") is in the file name; test T7 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
             "file_id": "6924805e7f6aa6a830210675",
             "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT190_SAMPLE_182_TEST_T7_First_Ignition_Attempts original videos.zip",
             "version": 2,
@@ -20391,18 +18479,6 @@
           },
           "basis": "sample 182m (\"SAMPLE_182\") and test T7 (\"TEST_T7\") in the file name",
           "status": "confirmed"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480577f6aa6a8302105f2",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_178_BASS_S182M_TPT03_ProofSheet.pdf",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_178_BASS_S182M_TPT03_ProofSheet.pdf"
-          },
-          "basis": "only sample 182m (\"S182M\") is in the file name; test T7 is not",
-          "status": "ambiguous"
         },
         {
           "target": {
@@ -20579,90 +18655,6 @@
           "target": {
             "kind": "file",
             "accession": "PSI-25",
-            "file_id": "6924805e7f6aa6a830210670",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT190_SAMPLE_133_TEST_T23 original videos.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT190_SAMPLE_133_TEST_T23 original videos.zip"
-          },
-          "basis": "only sample 133M (\"SAMPLE_133\") is in the file name; test T9 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804d7f6aa6a830210532",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT190_SAMPLE_133_TEST_T23.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT190_SAMPLE_133_TEST_T23.mp4"
-          },
-          "basis": "only sample 133M (\"SAMPLE_133\") is in the file name; test T9 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804d7f6aa6a830210534",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT190_SAMPLE_133_TEST_T23_2ND_VIEW.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT190_SAMPLE_133_TEST_T23_2ND_VIEW.mp4"
-          },
-          "basis": "only sample 133M (\"SAMPLE_133\") is in the file name; test T9 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804d7f6aa6a830210533",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT190_SAMPLE_133_TEST_T23_Still_Sequence.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT190_SAMPLE_133_TEST_T23_Still_Sequence.mp4"
-          },
-          "basis": "only sample 133M (\"SAMPLE_133\") is in the file name; test T9 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804d7f6aa6a830210535",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT190_SAMPLE_133_TEST_T24.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT190_SAMPLE_133_TEST_T24.mp4"
-          },
-          "basis": "only sample 133M (\"SAMPLE_133\") is in the file name; test T9 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804d7f6aa6a830210537",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT190_SAMPLE_133_TEST_T24_2ND_VIEW.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT190_SAMPLE_133_TEST_T24_2ND_VIEW.mp4"
-          },
-          "basis": "only sample 133M (\"SAMPLE_133\") is in the file name; test T9 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804d7f6aa6a830210536",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT190_SAMPLE_133_TEST_T24_Still_Sequence.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT190_SAMPLE_133_TEST_T24_Still_Sequence.mp4"
-          },
-          "basis": "only sample 133M (\"SAMPLE_133\") is in the file name; test T9 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
             "file_id": "692480577f6aa6a8302105e9",
             "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_175_BASS_S133M_TPT09_ProofSheet.pdf",
             "version": 2,
@@ -20670,54 +18662,6 @@
           },
           "basis": "sample 133M (\"S133M\") and test T9 (\"TPT09\") in the file name",
           "status": "confirmed"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804e7f6aa6a83021054b",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_190_BASS_S133M_TPT23.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_190_BASS_S133M_TPT23.zip"
-          },
-          "basis": "only sample 133M (\"S133M\") is in the file name; test T9 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480577f6aa6a8302105f3",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_190_BASS_S133M_TPT23_ProofSheet.pdf",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_190_BASS_S133M_TPT23_ProofSheet.pdf"
-          },
-          "basis": "only sample 133M (\"S133M\") is in the file name; test T9 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804e7f6aa6a83021054c",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_190_BASS_S133M_TPT24.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_190_BASS_S133M_TPT24.zip"
-          },
-          "basis": "only sample 133M (\"S133M\") is in the file name; test T9 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480577f6aa6a8302105f4",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_190_BASS_S133M_TPT24_ProofSheet.pdf",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_190_BASS_S133M_TPT24_ProofSheet.pdf"
-          },
-          "basis": "only sample 133M (\"S133M\") is in the file name; test T9 is not",
-          "status": "ambiguous"
         }
       ],
       "review_status": "pending"
@@ -21351,42 +19295,6 @@
           "target": {
             "kind": "file",
             "accession": "PSI-25",
-            "file_id": "6924805e7f6aa6a830210676",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT216_SAMPLE_137_TEST_T26 original videos.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT216_SAMPLE_137_TEST_T26 original videos.zip"
-          },
-          "basis": "only sample 137 (\"SAMPLE_137\") is in the file name; test T13 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804f7f6aa6a830210552",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT216_SAMPLE_137_TEST_T26.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT216_SAMPLE_137_TEST_T26.mp4"
-          },
-          "basis": "only sample 137 (\"SAMPLE_137\") is in the file name; test T13 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804f7f6aa6a830210553",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT216_SAMPLE_137_TEST_T26_2ND_VIEW.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT216_SAMPLE_137_TEST_T26_2ND_VIEW.mp4"
-          },
-          "basis": "only sample 137 (\"SAMPLE_137\") is in the file name; test T13 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
             "file_id": "692480497f6aa6a8302104e2",
             "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT_100_sample137_test T13.mp4",
             "version": 2,
@@ -21406,30 +19314,6 @@
           },
           "basis": "sample 137 (\"S137M\") and test T13 (\"TPT13\") in the file name",
           "status": "confirmed"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804f7f6aa6a83021055f",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_216_BASS_D300sGMT2014_216_BASS_S137M_TPT26.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_216_BASS_D300sGMT2014_216_BASS_S137M_TPT26.zip"
-          },
-          "basis": "only sample 137 (\"S137M\") is in the file name; test T13 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480587f6aa6a8302105fa",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_216_BASS_S137M_TPT26_ProofSheet.pdf",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_216_BASS_S137M_TPT26_ProofSheet.pdf"
-          },
-          "basis": "only sample 137 (\"S137M\") is in the file name; test T13 is not",
-          "status": "ambiguous"
         }
       ],
       "review_status": "pending"
@@ -21733,54 +19617,6 @@
           "target": {
             "kind": "file",
             "accession": "PSI-25",
-            "file_id": "6924805e7f6aa6a830210677",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT216_SAMPLE_138_TEST_T25 original videos.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT216_SAMPLE_138_TEST_T25 original videos.zip"
-          },
-          "basis": "only sample 138 (\"SAMPLE_138\") is in the file name; test T15 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804f7f6aa6a830210554",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT216_SAMPLE_138_TEST_T25.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT216_SAMPLE_138_TEST_T25.mp4"
-          },
-          "basis": "only sample 138 (\"SAMPLE_138\") is in the file name; test T15 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804f7f6aa6a830210555",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT216_SAMPLE_138_TEST_T25_2ND_VIEW.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT216_SAMPLE_138_TEST_T25_2ND_VIEW.mp4"
-          },
-          "basis": "only sample 138 (\"SAMPLE_138\") is in the file name; test T15 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804f7f6aa6a830210556",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT216_SAMPLE_138_TEST_T25_Still_Sequence.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT216_SAMPLE_138_TEST_T25_Still_Sequence.mp4"
-          },
-          "basis": "only sample 138 (\"SAMPLE_138\") is in the file name; test T15 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
             "file_id": "6924805d7f6aa6a830210663",
             "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT45_SAMPLE_138_TEST_T15 original videos.zip",
             "version": 2,
@@ -21824,30 +19660,6 @@
           },
           "basis": "sample 138 (\"S138\") and test T15 (\"TPT15\") in the file name",
           "status": "confirmed"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480507f6aa6a830210560",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_216_BASS_S138M_TPT25.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_216_BASS_S138M_TPT25.zip"
-          },
-          "basis": "only sample 138 (\"S138M\") is in the file name; test T15 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480587f6aa6a8302105fb",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_216_BASS_S138M_TPT25_ProofSheet.pdf",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_216_BASS_S138M_TPT25_ProofSheet.pdf"
-          },
-          "basis": "only sample 138 (\"S138M\") is in the file name; test T15 is not",
-          "status": "ambiguous"
         }
       ],
       "review_status": "pending"
@@ -22676,78 +20488,6 @@
           "target": {
             "kind": "file",
             "accession": "PSI-25",
-            "file_id": "6924805e7f6aa6a830210678",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT216_SAMPLE_144_TEST_T28a original videos.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT216_SAMPLE_144_TEST_T28a original videos.zip"
-          },
-          "basis": "only sample 144m (\"SAMPLE_144\") is in the file name; test T20 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804f7f6aa6a830210557",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT216_SAMPLE_144_TEST_T28a.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT216_SAMPLE_144_TEST_T28a.mp4"
-          },
-          "basis": "only sample 144m (\"SAMPLE_144\") is in the file name; test T20 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804f7f6aa6a830210558",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT216_SAMPLE_144_TEST_T28a_2ND_VIEW.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT216_SAMPLE_144_TEST_T28a_2ND_VIEW.mp4"
-          },
-          "basis": "only sample 144m (\"SAMPLE_144\") is in the file name; test T20 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924805f7f6aa6a830210679",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT216_SAMPLE_144_TEST_T28b original videos.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT216_SAMPLE_144_TEST_T28b original videos.zip"
-          },
-          "basis": "only sample 144m (\"SAMPLE_144\") is in the file name; test T20 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804f7f6aa6a830210559",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT216_SAMPLE_144_TEST_T28b.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT216_SAMPLE_144_TEST_T28b.mp4"
-          },
-          "basis": "only sample 144m (\"SAMPLE_144\") is in the file name; test T20 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804f7f6aa6a83021055a",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT216_SAMPLE_144_TEST_T28b_2ND_VIEW.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT216_SAMPLE_144_TEST_T28b_2ND_VIEW.mp4"
-          },
-          "basis": "only sample 144m (\"SAMPLE_144\") is in the file name; test T20 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
             "file_id": "6924804f7f6aa6a83021054e",
             "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_190_BASS_S144M_TPT20.zip",
             "version": 2,
@@ -22767,54 +20507,6 @@
           },
           "basis": "sample 144m (\"S144M\") and test T20 (\"TPT20\") in the file name",
           "status": "confirmed"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480507f6aa6a830210561",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_216_BASS_D300sGMT2014_216_BASS_S144M_TPT28a.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_216_BASS_D300sGMT2014_216_BASS_S144M_TPT28a.zip"
-          },
-          "basis": "only sample 144m (\"S144M\") is in the file name; test T20 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480507f6aa6a830210562",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_216_BASS_D300sGMT2014_216_BASS_S144M_TPT28b.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_216_BASS_D300sGMT2014_216_BASS_S144M_TPT28b.zip"
-          },
-          "basis": "only sample 144m (\"S144M\") is in the file name; test T20 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480587f6aa6a8302105fc",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_216_BASS_S144M_TPT28a_ProofSheet.pdf",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_216_BASS_S144M_TPT28a_ProofSheet.pdf"
-          },
-          "basis": "only sample 144m (\"S144M\") is in the file name; test T20 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480587f6aa6a8302105fd",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_216_BASS_S144M_TPT28b_ProofSheet.pdf",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_216_BASS_S144M_TPT28b_ProofSheet.pdf"
-          },
-          "basis": "only sample 144m (\"S144M\") is in the file name; test T20 is not",
-          "status": "ambiguous"
         }
       ],
       "review_status": "pending"
@@ -22983,42 +20675,6 @@
           "target": {
             "kind": "file",
             "accession": "PSI-25",
-            "file_id": "6924805f7f6aa6a83021067a",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT216_SAMPLE_145_TEST_T29 original videos.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT216_SAMPLE_145_TEST_T29 original videos.zip"
-          },
-          "basis": "only sample 145m (\"SAMPLE_145\") is in the file name; test T21 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804f7f6aa6a83021055b",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT216_SAMPLE_145_TEST_T29.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT216_SAMPLE_145_TEST_T29.mp4"
-          },
-          "basis": "only sample 145m (\"SAMPLE_145\") is in the file name; test T21 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804f7f6aa6a83021055c",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT216_SAMPLE_145_TEST_T29_2ND_VIEW.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT216_SAMPLE_145_TEST_T29_2ND_VIEW.mp4"
-          },
-          "basis": "only sample 145m (\"SAMPLE_145\") is in the file name; test T21 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
             "file_id": "6924804f7f6aa6a83021054f",
             "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_190_BASS_S145M_TPT21.zip",
             "version": 2,
@@ -23038,30 +20694,6 @@
           },
           "basis": "sample 145m (\"S145M\") and test T21 (\"TPT21\") in the file name",
           "status": "confirmed"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480507f6aa6a830210563",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_216_BASS_D300sGMT2014_216_BASS_S145M_TPT29.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_216_BASS_D300sGMT2014_216_BASS_S145M_TPT29.zip"
-          },
-          "basis": "only sample 145m (\"S145M\") is in the file name; test T21 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480587f6aa6a8302105fe",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_216_BASS_S145M_TPT29_ProofSheet.pdf",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_216_BASS_S145M_TPT29_ProofSheet.pdf"
-          },
-          "basis": "only sample 145m (\"S145M\") is in the file name; test T21 is not",
-          "status": "ambiguous"
         },
         {
           "target": {
@@ -23266,42 +20898,6 @@
           "target": {
             "kind": "file",
             "accession": "PSI-25",
-            "file_id": "6924805f7f6aa6a83021067b",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT216_SAMPLE_146_TEST_T27 original videos.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT216_SAMPLE_146_TEST_T27 original videos.zip"
-          },
-          "basis": "only sample 146m (\"SAMPLE_146\") is in the file name; test T22 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804f7f6aa6a83021055d",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT216_SAMPLE_146_TEST_T27.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT216_SAMPLE_146_TEST_T27.mp4"
-          },
-          "basis": "only sample 146m (\"SAMPLE_146\") is in the file name; test T22 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804f7f6aa6a83021055e",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT216_SAMPLE_146_TEST_T27_2ND_VIEW.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT216_SAMPLE_146_TEST_T27_2ND_VIEW.mp4"
-          },
-          "basis": "only sample 146m (\"SAMPLE_146\") is in the file name; test T22 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
             "file_id": "6924804f7f6aa6a830210550",
             "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_190_BASS_S146M_TPT22.zip",
             "version": 2,
@@ -23321,30 +20917,6 @@
           },
           "basis": "sample 146m (\"S146M\") and test T22 (\"TPT22\") in the file name",
           "status": "confirmed"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480507f6aa6a830210564",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_216_BASS_D300sGMT2014_216_BASS_S146M_TPT27.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_216_BASS_D300sGMT2014_216_BASS_S146M_TPT27.zip"
-          },
-          "basis": "only sample 146m (\"S146M\") is in the file name; test T22 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480587f6aa6a8302105ff",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_216_BASS_S146M_TPT27_ProofSheet.pdf",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_216_BASS_S146M_TPT27_ProofSheet.pdf"
-          },
-          "basis": "only sample 146m (\"S146M\") is in the file name; test T22 is not",
-          "status": "ambiguous"
         }
       ],
       "review_status": "pending"
@@ -23465,30 +21037,6 @@
           "target": {
             "kind": "file",
             "accession": "PSI-25",
-            "file_id": "6924805e7f6aa6a830210668",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT175_SAMPLE_133_TEST_T9 original videos.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT175_SAMPLE_133_TEST_T9 original videos.zip"
-          },
-          "basis": "only sample 133m (\"SAMPLE_133\") is in the file name; test T23 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480577f6aa6a8302105e8",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT175_SAMPLE_133_TEST_T9.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT175_SAMPLE_133_TEST_T9.mp4"
-          },
-          "basis": "only sample 133m (\"SAMPLE_133\") is in the file name; test T23 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
             "file_id": "6924805e7f6aa6a830210670",
             "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT190_SAMPLE_133_TEST_T23 original videos.zip",
             "version": 2,
@@ -23537,54 +21085,6 @@
           "target": {
             "kind": "file",
             "accession": "PSI-25",
-            "file_id": "6924804d7f6aa6a830210535",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT190_SAMPLE_133_TEST_T24.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT190_SAMPLE_133_TEST_T24.mp4"
-          },
-          "basis": "only sample 133m (\"SAMPLE_133\") is in the file name; test T23 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804d7f6aa6a830210537",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT190_SAMPLE_133_TEST_T24_2ND_VIEW.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT190_SAMPLE_133_TEST_T24_2ND_VIEW.mp4"
-          },
-          "basis": "only sample 133m (\"SAMPLE_133\") is in the file name; test T23 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804d7f6aa6a830210536",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT190_SAMPLE_133_TEST_T24_Still_Sequence.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT190_SAMPLE_133_TEST_T24_Still_Sequence.mp4"
-          },
-          "basis": "only sample 133m (\"SAMPLE_133\") is in the file name; test T23 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480577f6aa6a8302105e9",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_175_BASS_S133M_TPT09_ProofSheet.pdf",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_175_BASS_S133M_TPT09_ProofSheet.pdf"
-          },
-          "basis": "only sample 133m (\"S133M\") is in the file name; test T23 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
             "file_id": "6924804e7f6aa6a83021054b",
             "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_190_BASS_S133M_TPT23.zip",
             "version": 2,
@@ -23604,30 +21104,6 @@
           },
           "basis": "sample 133m (\"S133M\") and test T23 (\"TPT23\") in the file name",
           "status": "confirmed"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804e7f6aa6a83021054c",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_190_BASS_S133M_TPT24.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_190_BASS_S133M_TPT24.zip"
-          },
-          "basis": "only sample 133m (\"S133M\") is in the file name; test T23 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480577f6aa6a8302105f4",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_190_BASS_S133M_TPT24_ProofSheet.pdf",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_190_BASS_S133M_TPT24_ProofSheet.pdf"
-          },
-          "basis": "only sample 133m (\"S133M\") is in the file name; test T23 is not",
-          "status": "ambiguous"
         }
       ],
       "review_status": "pending"
@@ -23748,78 +21224,6 @@
           "target": {
             "kind": "file",
             "accession": "PSI-25",
-            "file_id": "6924805e7f6aa6a830210668",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT175_SAMPLE_133_TEST_T9 original videos.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT175_SAMPLE_133_TEST_T9 original videos.zip"
-          },
-          "basis": "only sample 133m (\"SAMPLE_133\") is in the file name; test T24 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480577f6aa6a8302105e8",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT175_SAMPLE_133_TEST_T9.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT175_SAMPLE_133_TEST_T9.mp4"
-          },
-          "basis": "only sample 133m (\"SAMPLE_133\") is in the file name; test T24 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924805e7f6aa6a830210670",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT190_SAMPLE_133_TEST_T23 original videos.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT190_SAMPLE_133_TEST_T23 original videos.zip"
-          },
-          "basis": "only sample 133m (\"SAMPLE_133\") is in the file name; test T24 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804d7f6aa6a830210532",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT190_SAMPLE_133_TEST_T23.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT190_SAMPLE_133_TEST_T23.mp4"
-          },
-          "basis": "only sample 133m (\"SAMPLE_133\") is in the file name; test T24 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804d7f6aa6a830210534",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT190_SAMPLE_133_TEST_T23_2ND_VIEW.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT190_SAMPLE_133_TEST_T23_2ND_VIEW.mp4"
-          },
-          "basis": "only sample 133m (\"SAMPLE_133\") is in the file name; test T24 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804d7f6aa6a830210533",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT190_SAMPLE_133_TEST_T23_Still_Sequence.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT190_SAMPLE_133_TEST_T23_Still_Sequence.mp4"
-          },
-          "basis": "only sample 133m (\"SAMPLE_133\") is in the file name; test T24 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
             "file_id": "6924804d7f6aa6a830210535",
             "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT190_SAMPLE_133_TEST_T24.mp4",
             "version": 2,
@@ -23851,42 +21255,6 @@
           },
           "basis": "sample 133m (\"SAMPLE_133\") and test T24 (\"TEST_T24\") in the file name",
           "status": "confirmed"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480577f6aa6a8302105e9",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_175_BASS_S133M_TPT09_ProofSheet.pdf",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_175_BASS_S133M_TPT09_ProofSheet.pdf"
-          },
-          "basis": "only sample 133m (\"S133M\") is in the file name; test T24 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804e7f6aa6a83021054b",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_190_BASS_S133M_TPT23.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_190_BASS_S133M_TPT23.zip"
-          },
-          "basis": "only sample 133m (\"S133M\") is in the file name; test T24 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480577f6aa6a8302105f3",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_190_BASS_S133M_TPT23_ProofSheet.pdf",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_190_BASS_S133M_TPT23_ProofSheet.pdf"
-          },
-          "basis": "only sample 133m (\"S133M\") is in the file name; test T24 is not",
-          "status": "ambiguous"
         },
         {
           "target": {
@@ -24079,54 +21447,6 @@
           "target": {
             "kind": "file",
             "accession": "PSI-25",
-            "file_id": "6924805d7f6aa6a830210663",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT45_SAMPLE_138_TEST_T15 original videos.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT45_SAMPLE_138_TEST_T15 original videos.zip"
-          },
-          "basis": "only sample 138m (\"SAMPLE_138\") is in the file name; test T25 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804b7f6aa6a830210511",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT45_SAMPLE_138_TEST_T15.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT45_SAMPLE_138_TEST_T15.mp4"
-          },
-          "basis": "only sample 138m (\"SAMPLE_138\") is in the file name; test T25 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804b7f6aa6a830210510",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT45_SAMPLE_138_TEST_T15_Still_Sequence.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT45_SAMPLE_138_TEST_T15_Still_Sequence.mp4"
-          },
-          "basis": "only sample 138m (\"SAMPLE_138\") is in the file name; test T25 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480577f6aa6a8302105e3",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_045_BASS_S138_TPT15_ProofSheet.pdf",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_045_BASS_S138_TPT15_ProofSheet.pdf"
-          },
-          "basis": "only sample 138m (\"S138\") is in the file name; test T25 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
             "file_id": "692480507f6aa6a830210560",
             "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_216_BASS_S138M_TPT25.zip",
             "version": 2,
@@ -24266,18 +21586,6 @@
           "target": {
             "kind": "file",
             "accession": "PSI-25",
-            "file_id": "6924805e7f6aa6a830210666",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT100_SAMPLE_137_TEST_T13 original videos.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT100_SAMPLE_137_TEST_T13 original videos.zip"
-          },
-          "basis": "only sample 137m (\"SAMPLE_137\") is in the file name; test T26 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
             "file_id": "6924805e7f6aa6a830210676",
             "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT216_SAMPLE_137_TEST_T26 original videos.zip",
             "version": 2,
@@ -24309,30 +21617,6 @@
           },
           "basis": "sample 137m (\"SAMPLE_137\") and test T26 (\"TEST_T26\") in the file name",
           "status": "confirmed"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480497f6aa6a8302104e2",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT_100_sample137_test T13.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT_100_sample137_test T13.mp4"
-          },
-          "basis": "only sample 137m (\"sample137\") is in the file name; test T26 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480577f6aa6a8302105e6",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_100_BASS_S137M_TPT13_ProofSheet.pdf",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_100_BASS_S137M_TPT13_ProofSheet.pdf"
-          },
-          "basis": "only sample 137m (\"S137M\") is in the file name; test T26 is not",
-          "status": "ambiguous"
         },
         {
           "target": {
@@ -24477,54 +21761,6 @@
           "target": {
             "kind": "file",
             "accession": "PSI-25",
-            "file_id": "6924805e7f6aa6a830210674",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT190_SAMPLE_146_TEST_T22 original videos.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT190_SAMPLE_146_TEST_T22 original videos.zip"
-          },
-          "basis": "only sample 146m (\"SAMPLE_146\") is in the file name; test T27 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804e7f6aa6a83021053f",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT190_SAMPLE_146_TEST_T22.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT190_SAMPLE_146_TEST_T22.mp4"
-          },
-          "basis": "only sample 146m (\"SAMPLE_146\") is in the file name; test T27 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804e7f6aa6a830210541",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT190_SAMPLE_146_TEST_T22_2ND_VIEW.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT190_SAMPLE_146_TEST_T22_2ND_VIEW.mp4"
-          },
-          "basis": "only sample 146m (\"SAMPLE_146\") is in the file name; test T27 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804e7f6aa6a830210540",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT190_SAMPLE_146_TEST_T22_Still_Sequence.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT190_SAMPLE_146_TEST_T22_Still_Sequence.mp4"
-          },
-          "basis": "only sample 146m (\"SAMPLE_146\") is in the file name; test T27 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
             "file_id": "6924805f7f6aa6a83021067b",
             "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT216_SAMPLE_146_TEST_T27 original videos.zip",
             "version": 2,
@@ -24556,30 +21792,6 @@
           },
           "basis": "sample 146m (\"SAMPLE_146\") and test T27 (\"TEST_T27\") in the file name",
           "status": "confirmed"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804f7f6aa6a830210550",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_190_BASS_S146M_TPT22.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_190_BASS_S146M_TPT22.zip"
-          },
-          "basis": "only sample 146m (\"S146M\") is in the file name; test T27 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480587f6aa6a8302105f8",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_190_BASS_S146M_TPT22_ProofSheet.pdf",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_190_BASS_S146M_TPT22_ProofSheet.pdf"
-          },
-          "basis": "only sample 146m (\"S146M\") is in the file name; test T27 is not",
-          "status": "ambiguous"
         },
         {
           "target": {
@@ -24733,42 +21945,6 @@
           "target": {
             "kind": "file",
             "accession": "PSI-25",
-            "file_id": "6924805e7f6aa6a830210672",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT190_SAMPLE_144_TEST_T20 original videos.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT190_SAMPLE_144_TEST_T20 original videos.zip"
-          },
-          "basis": "only sample 144m (\"SAMPLE_144\") is in the file name; test T28a is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804e7f6aa6a83021053b",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT190_SAMPLE_144_TEST_T20_2ND_VIEW.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT190_SAMPLE_144_TEST_T20_2ND_VIEW.mp4"
-          },
-          "basis": "only sample 144m (\"SAMPLE_144\") is in the file name; test T28a is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804e7f6aa6a83021053a",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT190_SAMPLE_144_TEST_T20_Still_Sequence.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT190_SAMPLE_144_TEST_T20_Still_Sequence.mp4"
-          },
-          "basis": "only sample 144m (\"SAMPLE_144\") is in the file name; test T28a is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
             "file_id": "6924805e7f6aa6a830210678",
             "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT216_SAMPLE_144_TEST_T28a original videos.zip",
             "version": 2,
@@ -24805,66 +21981,6 @@
           "target": {
             "kind": "file",
             "accession": "PSI-25",
-            "file_id": "6924805f7f6aa6a830210679",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT216_SAMPLE_144_TEST_T28b original videos.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT216_SAMPLE_144_TEST_T28b original videos.zip"
-          },
-          "basis": "only sample 144m (\"SAMPLE_144\") is in the file name; test T28a is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804f7f6aa6a830210559",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT216_SAMPLE_144_TEST_T28b.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT216_SAMPLE_144_TEST_T28b.mp4"
-          },
-          "basis": "only sample 144m (\"SAMPLE_144\") is in the file name; test T28a is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804f7f6aa6a83021055a",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT216_SAMPLE_144_TEST_T28b_2ND_VIEW.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT216_SAMPLE_144_TEST_T28b_2ND_VIEW.mp4"
-          },
-          "basis": "only sample 144m (\"SAMPLE_144\") is in the file name; test T28a is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804f7f6aa6a83021054e",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_190_BASS_S144M_TPT20.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_190_BASS_S144M_TPT20.zip"
-          },
-          "basis": "only sample 144m (\"S144M\") is in the file name; test T28a is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480587f6aa6a8302105f6",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_190_BASS_S144M_TPT20_ProofSheet.pdf",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_190_BASS_S144M_TPT20_ProofSheet.pdf"
-          },
-          "basis": "only sample 144m (\"S144M\") is in the file name; test T28a is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
             "file_id": "692480507f6aa6a830210561",
             "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_216_BASS_D300sGMT2014_216_BASS_S144M_TPT28a.zip",
             "version": 2,
@@ -24877,18 +21993,6 @@
           "target": {
             "kind": "file",
             "accession": "PSI-25",
-            "file_id": "692480507f6aa6a830210562",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_216_BASS_D300sGMT2014_216_BASS_S144M_TPT28b.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_216_BASS_D300sGMT2014_216_BASS_S144M_TPT28b.zip"
-          },
-          "basis": "only sample 144m (\"S144M\") is in the file name; test T28a is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
             "file_id": "692480587f6aa6a8302105fc",
             "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_216_BASS_S144M_TPT28a_ProofSheet.pdf",
             "version": 2,
@@ -24896,18 +22000,6 @@
           },
           "basis": "sample 144m (\"S144M\") and test T28a (\"TPT28a\") in the file name",
           "status": "confirmed"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480587f6aa6a8302105fd",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_216_BASS_S144M_TPT28b_ProofSheet.pdf",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_216_BASS_S144M_TPT28b_ProofSheet.pdf"
-          },
-          "basis": "only sample 144m (\"S144M\") is in the file name; test T28a is not",
-          "status": "ambiguous"
         }
       ],
       "review_status": "pending"
@@ -25037,78 +22129,6 @@
           "target": {
             "kind": "file",
             "accession": "PSI-25",
-            "file_id": "6924805e7f6aa6a830210672",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT190_SAMPLE_144_TEST_T20 original videos.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT190_SAMPLE_144_TEST_T20 original videos.zip"
-          },
-          "basis": "only sample 144m (\"SAMPLE_144\") is in the file name; test T28b is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804e7f6aa6a83021053b",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT190_SAMPLE_144_TEST_T20_2ND_VIEW.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT190_SAMPLE_144_TEST_T20_2ND_VIEW.mp4"
-          },
-          "basis": "only sample 144m (\"SAMPLE_144\") is in the file name; test T28b is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804e7f6aa6a83021053a",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT190_SAMPLE_144_TEST_T20_Still_Sequence.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT190_SAMPLE_144_TEST_T20_Still_Sequence.mp4"
-          },
-          "basis": "only sample 144m (\"SAMPLE_144\") is in the file name; test T28b is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924805e7f6aa6a830210678",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT216_SAMPLE_144_TEST_T28a original videos.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT216_SAMPLE_144_TEST_T28a original videos.zip"
-          },
-          "basis": "only sample 144m (\"SAMPLE_144\") is in the file name; test T28b is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804f7f6aa6a830210557",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT216_SAMPLE_144_TEST_T28a.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT216_SAMPLE_144_TEST_T28a.mp4"
-          },
-          "basis": "only sample 144m (\"SAMPLE_144\") is in the file name; test T28b is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804f7f6aa6a830210558",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT216_SAMPLE_144_TEST_T28a_2ND_VIEW.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT216_SAMPLE_144_TEST_T28a_2ND_VIEW.mp4"
-          },
-          "basis": "only sample 144m (\"SAMPLE_144\") is in the file name; test T28b is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
             "file_id": "6924805f7f6aa6a830210679",
             "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT216_SAMPLE_144_TEST_T28b original videos.zip",
             "version": 2,
@@ -25145,42 +22165,6 @@
           "target": {
             "kind": "file",
             "accession": "PSI-25",
-            "file_id": "6924804f7f6aa6a83021054e",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_190_BASS_S144M_TPT20.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_190_BASS_S144M_TPT20.zip"
-          },
-          "basis": "only sample 144m (\"S144M\") is in the file name; test T28b is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480587f6aa6a8302105f6",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_190_BASS_S144M_TPT20_ProofSheet.pdf",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_190_BASS_S144M_TPT20_ProofSheet.pdf"
-          },
-          "basis": "only sample 144m (\"S144M\") is in the file name; test T28b is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480507f6aa6a830210561",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_216_BASS_D300sGMT2014_216_BASS_S144M_TPT28a.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_216_BASS_D300sGMT2014_216_BASS_S144M_TPT28a.zip"
-          },
-          "basis": "only sample 144m (\"S144M\") is in the file name; test T28b is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
             "file_id": "692480507f6aa6a830210562",
             "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_216_BASS_D300sGMT2014_216_BASS_S144M_TPT28b.zip",
             "version": 2,
@@ -25188,18 +22172,6 @@
           },
           "basis": "sample 144m (\"S144M\") and test T28b (\"TPT28b\") in the file name",
           "status": "confirmed"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480587f6aa6a8302105fc",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_216_BASS_S144M_TPT28a_ProofSheet.pdf",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_216_BASS_S144M_TPT28a_ProofSheet.pdf"
-          },
-          "basis": "only sample 144m (\"S144M\") is in the file name; test T28b is not",
-          "status": "ambiguous"
         },
         {
           "target": {
@@ -25332,54 +22304,6 @@
           "target": {
             "kind": "file",
             "accession": "PSI-25",
-            "file_id": "6924805e7f6aa6a830210673",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT190_SAMPLE_145_TEST_T21 original videos.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT190_SAMPLE_145_TEST_T21 original videos.zip"
-          },
-          "basis": "only sample 145m (\"SAMPLE_145\") is in the file name; test T29 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804e7f6aa6a83021053c",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT190_SAMPLE_145_TEST_T21.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT190_SAMPLE_145_TEST_T21.mp4"
-          },
-          "basis": "only sample 145m (\"SAMPLE_145\") is in the file name; test T29 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804e7f6aa6a83021053e",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT190_SAMPLE_145_TEST_T21_2ND_VIEW.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT190_SAMPLE_145_TEST_T21_2ND_VIEW.mp4"
-          },
-          "basis": "only sample 145m (\"SAMPLE_145\") is in the file name; test T29 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "6924804e7f6aa6a83021053d",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT190_SAMPLE_145_TEST_T21_Still_Sequence.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_BASS_GMT190_SAMPLE_145_TEST_T21_Still_Sequence.mp4"
-          },
-          "basis": "only sample 145m (\"SAMPLE_145\") is in the file name; test T29 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
             "file_id": "6924805f7f6aa6a83021067a",
             "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_BASS_GMT216_SAMPLE_145_TEST_T29 original videos.zip",
             "version": 2,
@@ -25416,30 +22340,6 @@
           "target": {
             "kind": "file",
             "accession": "PSI-25",
-            "file_id": "6924804f7f6aa6a83021054f",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_190_BASS_S145M_TPT21.zip",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_190_BASS_S145M_TPT21.zip"
-          },
-          "basis": "only sample 145m (\"S145M\") is in the file name; test T29 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480587f6aa6a8302105f7",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_190_BASS_S145M_TPT21_ProofSheet.pdf",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_GMT2014_190_BASS_S145M_TPT21_ProofSheet.pdf"
-          },
-          "basis": "only sample 145m (\"S145M\") is in the file name; test T29 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
             "file_id": "692480507f6aa6a830210563",
             "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_216_BASS_D300sGMT2014_216_BASS_S145M_TPT29.zip",
             "version": 2,
@@ -25459,42 +22359,6 @@
           },
           "basis": "sample 145m (\"S145M\") and test T29 (\"TPT29\") in the file name",
           "status": "confirmed"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480507f6aa6a830210568",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_vlc-record-2014-12-05-17h06m58s-BASS_GMT190_SAMPLE_145_TEST_T21.ts-.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_vlc-record-2014-12-05-17h06m58s-BASS_GMT190_SAMPLE_145_TEST_T21.ts-.mp4"
-          },
-          "basis": "only sample 145m (\"SAMPLE_145\") is in the file name; test T29 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480507f6aa6a830210569",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_vlc-record-2014-12-05-17h07m02s-BASS_GMT190_SAMPLE_145_TEST_T21.ts-.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_vlc-record-2014-12-05-17h07m02s-BASS_GMT190_SAMPLE_145_TEST_T21.ts-.mp4"
-          },
-          "basis": "only sample 145m (\"SAMPLE_145\") is in the file name; test T29 is not",
-          "status": "ambiguous"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-25",
-            "file_id": "692480507f6aa6a83021056a",
-            "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_vlc-record-2015-06-04-17h20m14s-BASS_GMT190_SAMPLE_145_TEST_T21.ts-.mp4",
-            "version": 2,
-            "filename": "PSI-25_Raw Data_vlc-record-2015-06-04-17h20m14s-BASS_GMT190_SAMPLE_145_TEST_T21.ts-.mp4"
-          },
-          "basis": "only sample 145m (\"SAMPLE_145\") is in the file name; test T29 is not",
-          "status": "ambiguous"
         }
       ],
       "review_status": "pending"

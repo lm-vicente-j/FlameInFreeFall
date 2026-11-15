@@ -21,13 +21,18 @@ from collections.abc import Callable
 from contextlib import AbstractContextManager
 from dataclasses import dataclass
 from datetime import UTC, datetime
+from http.client import InvalidURL
 from pathlib import Path
 from types import TracebackType
 from typing import Any
+from urllib.error import HTTPError
+from urllib.parse import urlencode
 
 from pipeline import paths
 from pipeline.catalog import RemoteFile, load_files
 from pipeline.psi import (
+    API,
+    ATTEMPTS,
     BudgetExceededError,
     Opener,
     Readable,
@@ -45,6 +50,7 @@ ARCHIVE_EXTENSIONS = frozenset({".zip", ".tar", ".gz", ".tgz", ".bz2", ".xz", ".
 VIDEO_EXTENSIONS = frozenset({".mp4", ".avi", ".mov", ".mkv", ".wmv", ".mpg", ".mpeg", ".m4v", ".webm", ".flv"})
 
 MAX_PDFS = 20
+MAX_BUDGET_BYTES = 250_000_000
 """PLAN.md: up to 20 readable PDFs. Human review time, not storage, is the limit."""
 
 TIMEOUT_SECONDS = 120.0
@@ -112,6 +118,8 @@ def _file_problems(entry: dict[str, Any], remote: RemoteFile | None) -> list[str
 
 def plan(selection: dict[str, Any], res_dir: Path) -> list[PlannedItem]:
     """Check every entry against the snapshot; raise one error listing all problems."""
+    if not 0 < selection["budget_bytes"] <= MAX_BUDGET_BYTES:
+        raise SelectionError("The total sample budget must be between 1 and 250000000 bytes")
     snapshots: dict[str, dict[str, RemoteFile]] = {}
     items: list[PlannedItem] = []
     problems: list[str] = []
@@ -147,23 +155,41 @@ def plan(selection: dict[str, Any], res_dir: Path) -> list[PlannedItem]:
 
 
 class _CountingResponse:
-    def __init__(self, inner: Readable, counter: list[int]) -> None:
+    def __init__(self, inner: Readable, counter: list[int], allowance: int, deadline: float) -> None:
         self._inner = inner
         self._counter = counter
+        self._allowance = allowance
+        self._deadline = deadline
 
     def read(self, size: int = -1, /) -> bytes:
-        chunk = self._inner.read(size)
+        remaining = self._allowance - self._counter[0]
+        seconds = self._deadline - time.monotonic()
+        if seconds <= 0:
+            raise TimeoutError("The overall file-download deadline expired")
+        if remaining <= 0:
+            raise BudgetExceededError("The cumulative sample download budget is exhausted")
+        raw = getattr(getattr(self._inner, "fp", None), "raw", None)
+        socket = getattr(raw, "_sock", None)
+        if socket is not None:
+            socket.settimeout(seconds)
+        chunk = self._inner.read(min(size if size >= 0 else remaining, remaining))
         self._counter[0] += len(chunk)
+        if time.monotonic() > self._deadline:
+            raise TimeoutError("The overall file-download deadline expired")
         return chunk
 
 
 class _CountingContext:
-    def __init__(self, inner: AbstractContextManager[Readable], counter: list[int]) -> None:
+    def __init__(
+        self, inner: AbstractContextManager[Readable], counter: list[int], allowance: int, deadline: float
+    ) -> None:
         self._inner = inner
         self._counter = counter
+        self._allowance = allowance
+        self._deadline = deadline
 
     def __enter__(self) -> _CountingResponse:
-        return _CountingResponse(self._inner.__enter__(), self._counter)
+        return _CountingResponse(self._inner.__enter__(), self._counter, self._allowance, self._deadline)
 
     def __exit__(
         self,
@@ -213,6 +239,10 @@ def _record(
         "local_path": local_path,
         "retrieved_at": retrieved_at,
         "error": error,
+        "source_url": f"{API}/{file.accession}/download?" + urlencode(
+            {"file": file.filename, "version": file.version, "redirect": "false"}
+        ),
+        "investigation_url": f"https://psi.nasa.gov/physci/repo/data/investigations/{file.accession}",
     }
 
 
@@ -242,6 +272,14 @@ def run(
     items = plan(selection, res_dir)
     budget: int = selection["budget_bytes"]
     previous = _previous_records(previous_manifest)
+    cumulative = 0 if previous_manifest is None else previous_manifest.get(
+        "cumulative_transferred_bytes", previous_manifest["transferred_bytes"]
+    )
+    history_complete = previous_manifest is None or previous_manifest.get(
+        "budget_history_complete", "cumulative_transferred_bytes" in previous_manifest
+    )
+    if cumulative > budget:
+        raise SelectionError("The new budget is below the transfer total already recorded")
     transferred = 0
     records: list[dict[str, Any]] = []
     for item in items:
@@ -255,27 +293,56 @@ def run(
             when = old["retrieved_at"] or _timestamp(now())
             records.append(_record(item, "cached", cached, local_path, when, None))
             continue
-        remaining = budget - transferred
+        remaining = budget - cumulative - transferred if history_complete else 0
         counter = [0]
+        deadline = time.monotonic() + timeout
 
-        def counting(target: str, seconds: float, _counter: list[int] = counter) -> _CountingContext:
-            return _CountingContext(opener(target, seconds), _counter)
+        def counting(
+            target: str, seconds: float, _counter: list[int] = counter,
+            _remaining: int = remaining, _deadline: float = deadline,
+        ) -> _CountingContext:
+            left = _deadline - time.monotonic()
+            if left <= 0:
+                raise TimeoutError("The overall file-download deadline expired")
+            return _CountingContext(opener(target, min(seconds, left)), _counter, _remaining, _deadline)
 
         try:
             if declared > remaining:
                 raise BudgetExceededError(
                     f"{file.filename}: {declared} declared bytes exceed the {remaining} bytes left in the budget"
                 )
-            url = resolve_signed_url(file.accession, file.filename, file.version, opener, timeout, sleep)
-            _, digest = download_to(url, destination, declared, min(declared, remaining), counting, timeout)
+            url = resolve_signed_url(file.accession, file.filename, file.version, counting, timeout, sleep)
+            for attempt in range(ATTEMPTS):
+                try:
+                    allowance = remaining - counter[0]
+                    if declared > allowance:
+                        raise BudgetExceededError("Insufficient cumulative budget after API responses or retries")
+                    _, digest = download_to(url, destination, declared, allowance, counting, timeout)
+                    break
+                except (OSError, SizeMismatchError) as error:
+                    if (isinstance(error, HTTPError) and 400 <= error.code < 500) or attempt == ATTEMPTS - 1:
+                        raise
+                    sleep(min(2**attempt, max(0, deadline - time.monotonic())))
             records.append(_record(item, "downloaded", digest, local_path, _timestamp(now()), None))
-        except (OSError, UntrustedUrlError, BudgetExceededError, SizeMismatchError) as error:
+        except (OSError, InvalidURL, UnicodeError, UntrustedUrlError, BudgetExceededError, SizeMismatchError) as error:
             records.append(_record(item, "failed", None, None, None, f"{type(error).__name__}: {error}"))
         transferred += counter[0]
     manifest = {
         "generated_at": _timestamp(now()),
         "budget_bytes": budget,
         "transferred_bytes": transferred,
+        "cumulative_transferred_bytes": cumulative + transferred,
+        "budget_history_complete": history_complete,
+        "snapshots": [
+            {
+                "accession": accession,
+                "metadata_version": read_json(res_dir / accession / "metadata.json")["version"],
+                "retrieved_at": read_json(res_dir / accession / "provenance.json")[0]["retrieved_at"],
+                "metadata_sha256": sha256_file(res_dir / accession / "metadata.json"),
+                "files_sha256": sha256_file(res_dir / accession / "files.json"),
+            }
+            for accession in sorted({item.file.accession for item in items})
+        ],
         "files": records,
     }
     errors = schema_errors(manifest, "sample-manifest")
@@ -307,7 +374,7 @@ def main(argv: list[str] | None = None) -> int:
             return 0
         previous = read_json(args.manifest) if args.manifest.is_file() else None
         if previous is not None and schema_errors(previous, "sample-manifest"):
-            previous = None  # An unusable old manifest only disables the cache.
+            raise SelectionError("Existing manifest is invalid; refusing to reset its cumulative budget")
         manifest = run(
             selection, args.res, args.samples, paths.ROOT, previous, default_opener,
             lambda: datetime.now(UTC),

@@ -10,11 +10,12 @@ also matches; with one candidate they must match as well, so a wrong row is neve
 silently. Unmatched rows keep their values unknown with the reason.
 """
 
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
 
 import openpyxl
+from openpyxl.utils import get_column_letter
 
 from pipeline.runs.tables import Row, TableError, collapse
 
@@ -57,6 +58,7 @@ class MatrixRow:
     sample_number: str
     cells: dict[str, Any]
     """Raw cell values keyed by collapsed header."""
+    original: dict[str, str] = field(default_factory=dict)
 
     def text(self, header: str) -> str:
         return cell_text(self.cells[header])
@@ -115,6 +117,8 @@ def read_matrix(path: Path) -> Matrix:
                 collapse(cell_text(values[TEST_NUMBER])),
                 collapse(cell_text(values[SAMPLE_NUMBER])),
                 values,
+                {f"{SHEET}!{get_column_letter(index)}{offset}": cell_text(value)
+                 for index, value in enumerate(cells, 1)},
             )
         )
     return Matrix(path.name, tuple(rows))

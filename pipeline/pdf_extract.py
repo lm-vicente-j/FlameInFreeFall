@@ -184,7 +184,7 @@ def main(argv: list[str] | None = None) -> int:
         counts[item.status] = counts.get(item.status, 0) + 1
     detail = ", ".join(f"{count} {status}" for status, count in sorted(counts.items())) or "nothing to extract"
     print(f"{len(summaries)} PDFs: {detail}")
-    return 0
+    return 1 if any(item.status in ("failed", "timeout") or item.error for item in summaries) else 0
 
 
 if __name__ == "__main__":
