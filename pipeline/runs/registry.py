@@ -10,11 +10,13 @@ from dataclasses import dataclass
 from pathlib import Path
 
 from pipeline.runs.common import Normalizer
-from pipeline.runs.normalizers import flex, generic, saffire
+from pipeline.runs.normalizers import bass, flex, generic, saffire
 
 _FILENAME = re.compile(r"^(?P<accession>PSI-\d+)_Experimental table_(?P<name>.+)\.csv$")
 
 NORMALIZERS: dict[str, Normalizer] = {
+    "bass": bass.BASS_NORMALIZER,
+    "bass-ii": bass.BASS_II_NORMALIZER,
     "flex": flex.NORMALIZER,
     "saffire-1": saffire.NORMALIZER,
     "saffire-2": saffire.NORMALIZER,

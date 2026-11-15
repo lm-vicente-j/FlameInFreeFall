@@ -1,0 +1,607 @@
+[
+  {
+    "record_id": "PSI-26:bass:1",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "Nice symmetric burn, some soot at 10 cm/s,  Steady spreading, flame seems to reach a steady length.  Decreasing flow shrinks flame and changes to mostly blue, but still spreading.  Gets very dim near end of sample as it shrinks and extinguishes at burnout.  Don noted the fiberglass matrix was still intact after the burn."
+  },
+  {
+    "record_id": "PSI-26:bass:2",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "Don noted significant vapor jetting.   Flame not very long , but very sooty.  Don set up a 2nd still camera taking pictures 1/s at F7, Aperture priority, spot metering on center of sphere in brackets of 3. Don noted equatorial division between 'charred' front like coating on meterorites,  and matt black sooty rear hemispheres.  Broke igniter.  2 minute burn."
+  },
+  {
+    "record_id": "PSI-26:bass:3",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "Very bright sooty ball.   Lots of vapor jetting.   N2 on at 1 minute.   Blew off stagnation region but N2 did not extinguish wake,  even with air flow off.  Don turned off air, then N2 after some seconds.  Wake flame sooty and wind-blown.  Only extinguishes when all flow stops.  N2 is entraining air to flame zone.  Don noted that there was no soot on the sphere, just the 'char layer'.  ~ 2 minute total burn.  "
+  },
+  {
+    "record_id": "PSI-26:bass:4",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "~ 40 s burn, Don asked if images were too saturated, Paul said OK. Don set up 2nd still camera for additional images."
+  },
+  {
+    "record_id": "PSI-26:bass:5",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "~ 60 s burn,   Don  said he like to watch solid samples burn in space and it makes him appreciate that he wouldn't want to be be there in a real fire - it wouldn't be pretty."
+  },
+  {
+    "record_id": "PSI-26:bass:6",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "same sphere as previous.   Did not remove soot.   Don again has 2nd still camera set up.  Picked -4 ev for next test based on a quick scroll of these images."
+  },
+  {
+    "record_id": "PSI-26:bass:7",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "Filter on test.  Don didn't reset the camera trigger, so only got 100 frames."
+  },
+  {
+    "record_id": "PSI-26:bass:8",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "No filter on this test.  Don didn't reset the camera trigger, so only got 100 frames.  Very low flows possible (AIR reading 0) at FAN 42.  Apparent at end with N2 extinguishment.  Flame doesn't go out until fan goes to 38."
+  },
+  {
+    "record_id": "PSI-26:bass:9",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "sample 18 and 19 mix up on names.  Logging actual sample barcode used here.  Grew from blue flame to sooty envelope flame.  To extinguish, turned  flow off,  and flame turned to blue sphere expanding upwind with a few soot particles."
+  },
+  {
+    "record_id": "PSI-26:bass:10",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "Still a sooty flame even at 1 cm/s.  Turned blue and extinguished when fan off, lots of vapor jetting during extinguishment.  Lots of fuel vapor flushed out of duct when extinguished."
+  },
+  {
+    "record_id": "PSI-26:bass:11",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "Burning laminar but sooty at 42, turned down very slowly to 41 and flame started to turn blue and vapor jet.  Turned fan to max, and flame did not blow off stagnation region.  Burning rate incredibly fast.  Turned off flow right when fuel completely ran out.  Don examined igniter and there is one thin spot, so may not last much longer."
+  },
+  {
+    "record_id": "PSI-26:bass:12",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "Originally identified sample as 7, but 7 was last one left on GMT 222. Don commented on blue outer zone noted with yellow inside. Don asked about a flash right after ignition.  He checked igniter and it was still intact.  Burned sample on video at 14:59.  Long flame, probably not a steady size.  No recirculation zone formed downstream of sample.  26 s burn."
+  },
+  {
+    "record_id": "PSI-26:bass:13",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "Huge ignition kernel, then rest of video very dim.  1 cm wide sample.  Don noted a flash on the top side late in test."
+  },
+  {
+    "record_id": "PSI-26:bass:14",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "Ignited and burned for only 2 s.  Died when igniter turned off.  Repeated re-ignition attempts failed.  Don didn't want it to burn since their flight suits are made of this stuff.  He felt like he should have left the igniter on longer.  Fan cal and GN2 cal  at ~16:00"
+  },
+  {
+    "record_id": "PSI-26:bass:15",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "No Don camera.  Wake flame very dim on video, all blue, spread very slowly upwind.  Ignited GBX time 16:14:44,  N2 on at 16:17:18,  did not extinguish, increased to pot 10, at 16:18:37,  N2 off at 16:19:19.  Accidentaly turned fan up briefly instead of N2.  Fan turned to 40 at 16:19:22, flame and flame went out at 16:19:34.  All times GBX."
+  },
+  {
+    "record_id": "PSI-26:bass:16",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "difficult to ignite,very dim blue, got some soot at 16:33:51 gbx time,   N2 on at 34:18,    soot faded a bit, still have a pimple of soot,  N2 off at 34:48, fan 42:35:04, all blue flame again, like blue crescent moon.  Fan off at 35:30 ish.  Flame extinuishes right away.  Don noted no soot deposition on the sphere.  Just has bubbles."
+  },
+  {
+    "record_id": "PSI-26:bass:17",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "Adjusted igniter closer.  LOS  after fan change, 17:36 fan to 43. (MSG time). Came back at 17:39:40 or so.  Don described it as flame was taking off growing around sphere,  LE blue, trailing soot.  Illuminating circumference of sphere.  Vapor jetting just starting to do that when turned off fan, and it extinguished right away.  MSG playback started at 17:37 during session (1:27 into downlink video)."
+  },
+  {
+    "record_id": "PSI-26:bass:18",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "readjusted igniter again.  Fan 41 at 17:54:20 ish.   Very dim blue flame. When he turned flow down to 40.5ish flame extinguished."
+  },
+  {
+    "record_id": "PSI-26:bass:19",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "bonus test.  LOS partway through burn. Don instructed to let it burn about 2 minutes then turn fan off.  Did not get playback during session.   Requested it. Fan cal done at end of session.   Playback occurred GMT 181:11:12. Started out all blue, got a pimple of soot.     Long sooty tail at high flow.  Extinguished when flow turned off."
+  },
+  {
+    "record_id": "PSI-26:bass:20",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "new 1 cm sphere. Got sooty quickly,  overexposed still images on main SLR camera.  Don has 2nd bonus camera set up too.,   Burned about 3 min.   Turbulent vapor jetting, quite sooty.  Change camera settings for next test."
+  },
+  {
+    "record_id": "PSI-26:bass:21",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "ignited within 15 s (still hot?),   sooting by 35 s, fully engulfed by ~ 1 min.   Extinguished when pot ~ 39.  Camera settings much better."
+  },
+  {
+    "record_id": "PSI-26:bass:22",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "Don says sphere is ~ 0.7 cm.   Igniter has hot spot. Bar code 015M.  Nice images.  All blue sphere just before extinction."
+  },
+  {
+    "record_id": "PSI-26:bass:23",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "Igniter too far away 2st attempt 15:48. Igniter broke on 2nd attempt 15:51.   New igiter.  Ignited at 16:05 turned flow down to ~40.5 ish, and flame got very spherical, alternating blue and orange?(filter on)"
+  },
+  {
+    "record_id": "PSI-26:bass:24",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "preheated by briefly heating igniter wire then hitting it full,   did not ignite but smoked .  He said it popped up about 1 mm due to residueal spring tension.  Will readjust it again."
+  },
+  {
+    "record_id": "PSI-26:bass:25",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "12 pulses and then on, no joy. Not even much smoke."
+  },
+  {
+    "record_id": "PSI-26:bass:26",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "sphere closer to nozzle. New igniter.  1st ign, flame died when turned down to 41, flickering to 40.   2nd ignition flame stabilized at 42 then 41.  grew to stokes flow envelope flame, N2 blew out stag region but flame remained side stabilized,   long burn , extinguished when flow is turned off.  Mostly blue, strenthening near end.  Still images have stag region out of fov, and only part of sample was burning?  Don commented on unusual soot pattern - waje still pristine, stagnation zone has discrete large opaque bubbles."
+  },
+  {
+    "record_id": "PSI-26:bass:27",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "moved sphere 1 cm downstream, readjusted igniter.  Repeat of previous test.  (Flame from GMT 15:05:30 to 15:10:50) Don adjusted sphere by sliding 1 cm downstream so the camera could capture the entire flame.  \nIgnition at 9 cm/s (FAN 60), reduced FAN indication to 42, then slowly to 41.  Turned nitrogen on full; flame opened up and became side stabilized.  Turned nitrogen off to allow flame to spread back to stagnation point.  Then slowly turned off flow.  Flame had only minimal amounts of soot, coinciding with bubble jetting.\n"
+  },
+  {
+    "record_id": "PSI-26:bass:28",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": " Flame from GMT 15:30:00 to 15:33:00) Ignition at 9 cm/s (FAN 60) then set FAN to 42, then slowly to 41.  After several minutes, shut flow off.  Fan was nice and blue and fairly stable.  Unfortunately, Don did not trigger the 35mm camera properly so there were no top images. But he did say he got images with his side view camera.\n\n"
+  },
+  {
+    "record_id": "PSI-26:bass:29",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "(Flame from GMT 15:44:30 to 15:47:10) Ignition at 9 cm/s (FAN 60) then set FAN to 42, then slowly to 41.  After several minutes, shut flow off.  Flame became very dim blue before extinguishing.  Don’s observation: “There was a swelling action with the PMMA in which the fuel vapor coming from the sphere makes the flame swell.”"
+  },
+  {
+    "record_id": "PSI-26:bass:30",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "Joe 1st day, ignited at 9.75 cm/s,  flame mostly envelope by end of ignition, turned flow slowly to 42, so lots of vapor jetting and soot.   At fan off, flame turns blue, and oscilates before extinction."
+  },
+  {
+    "record_id": "PSI-26:bass:31",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "ignited at 10 cm/s, fan to 42,   less vapor jetting noted, bullet shaped flame, sooty.   Fan to 41, similar, slightly smaller flame.    Fan off flame all blue and pulses a few times before extinguished.  Jay saw cloud go by when he turned on fan at GMT 17:12 ish."
+  },
+  {
+    "record_id": "PSI-26:bass:32",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "adjusted igniter, start at 60, ignite, fan to 42, N2 on max, did not blow out even leading edge, N2 and air off, turned all blue, he turned lights on before flame completely out.  42 digital images, last one shows blue spherical flame with finger of soot through it.   Oly about 1 mm x 3 mm left around rod. "
+  },
+  {
+    "record_id": "PSI-26:bass:33",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": " adjusted igniter, ignited at 43,  he started to turn fan down when fuel ran out and flame extinguished."
+  },
+  {
+    "record_id": "PSI-26:bass:34",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "Joe, multiops procedures.  Nice over the shoulder view.  Ignited quickly, all blue, spread slowly upstream.  Got sooty at 3.5 minutes, burned for ~ 4.75 min.  Not wrapped all the way."
+  },
+  {
+    "record_id": "PSI-26:bass:35",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "sooty at 1:15 , 4 minute burn, got long sooty tail, didn't quite wrap around to stag zone,  nice symmetric flame, over the shoulder view shows nice image of flame through msg window."
+  },
+  {
+    "record_id": "PSI-26:bass:36",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "started all blue, got sooty tail , wrapped all the way around to stagnation region/envelope flame  at ~6 minutes, then flow off goes out.  Nice long test. Could see it in over the shoulder view once it got sooty."
+  },
+  {
+    "record_id": "PSI-26:bass:37",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "Ignited and turned flow down, then N2 on while flame was small and blue.    Flame did not go out completely, but only seemed to spread on the top side of the video view.  It wrapped around quite far on top, but not quite to stag. Region.  Turned N2 off and flame grew and got sottier.  Extinguished with flow off at6.75 minutes or so.  Joe asked about why N2 didn't put out flame."
+  },
+  {
+    "record_id": "PSI-26:bass:38",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "ignite at 5 cm/s, reduce to 3, 1.5, 1.  Extinguished at fan 41, became circular at extinction, sphere shrank to extinction.  About 2.5 cm left, could use for an opposed flow test.  Sample 9 used instead of sample 8.  Playback of stills."
+  },
+  {
+    "record_id": "PSI-26:bass:39",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "ignited and left igniter on until flame spread away.    Flame propagated to ~ 1 cm of end.   Don showed  image of it, spread only in center of sample, maybe 1 cm wide, and got narrower once igniter was off.   Don says he saw smoke stream (laminar) from igniter diverts upward around flame and comes back down downstream.  Showed image at GMT 16:41.  Playback of stills."
+  },
+  {
+    "record_id": "PSI-26:bass:40",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "Ignition was very quick, and very sooty.  Flame wrapped around stagnation zone,   Lots of vapor jetting.  Turned flow to 46, turned all blue and vapor jetting fades away.  Flame seems to reach a ss size, and propagates very slowly downstream (base burnout).     Flame extinguished all by itself.   Top view image playback showed nearly spherical blue flame.  SAmple has sooty streak downstream all along sample.  Don examined sample,  2-3 mm of material completely consumed,   Circular burnout base, and then depression (like fingernail scrape) about 12-13 mm downstream before full cross section of fuel."
+  },
+  {
+    "record_id": "PSI-26:bass:41",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "Igniter seems to have broken prior to ignition.  No, 1 ohm resistance is still there.  Don trying again.  No go. A different igniter works, so igniter is broken.  No useful digital stills."
+  },
+  {
+    "record_id": "PSI-26:bass:42",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "Ign at low flow (41.5 fan, ~ 1 cm/s).  Quite spread by end of ignition, very dim blue.   Became sooty and then vapor jetting very strongly, creating large dark particulate blobs that drift very slwoly downstream.  Once fuel heated, vapor jetting was reduced.  N2 on and flame brightened and stabilized, extinction when air flow off.  Don played back videos and commented on vortex rings during vapor jetting at these low flows."
+  },
+  {
+    "record_id": "PSI-26:bass:43",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "long ignition, fully engulfed by the end.  Very slow flow, not much vapor jetting.   Burned out completely."
+  },
+  {
+    "record_id": "PSI-26:bass:44",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "just smoked slightly, no ignition."
+  },
+  {
+    "record_id": "PSI-26:bass:45",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "Using preburned sample in opposed flow config to see if flame will spread upstream.  Ignited and spread a bit on top side only,  seemed to quench 5 mm from the end.  Curved flame leading edge.   Don's last run.   He had some nice words about the hands-on features of these combustion experiments."
+  },
+  {
+    "record_id": "PSI-26:bass:46",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "opposed flow flame test,  steady spread at 9 cm/s! started turning down flow late, but didn't complete change before burned out whole sample.  This doesn't burn in 1g like this."
+  },
+  {
+    "record_id": "PSI-26:bass:47",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "1st candle test!  Bracketing,    very sooty flame,   18 brackets.  Flame extinguished when fan set to 40.  All blue briefly before that. "
+  },
+  {
+    "record_id": "PSI-26:bass:48",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "BG-7 filter on camera for bracketing set.  Smaller flame,  no problem re-igniting.   Out at 40 again.   1 shy of 13 brackets"
+  },
+  {
+    "record_id": "PSI-26:bass:49",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "same candle, no filter, changed iso.  Burned to completion.  Frayed wick glowing in flame zone (fuel drying out)"
+  },
+  {
+    "record_id": "PSI-26:bass:50",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "re-ignite slightly downstream where black and transparent meet. Tiny blue flame.   Self-extinguished."
+  },
+  {
+    "record_id": "PSI-26:bass:51",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "igniter 15-1 broke during setup, put in 15-5.   Tried igniting at least 5 x,   got a brief flame a few times, but went out.  He is moving sample upstream to get igniter over more fuel.  Igniter is broken again.  Moving on to next sample.   Interesting note:   radiometer spikes each time he turns on the igniter, even when it is broken.   Ground loop?"
+  },
+  {
+    "record_id": "PSI-26:bass:52",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "ignited on 3rd try,   started getting sooty, then turned on N2.   weakened briefly then got sooty again.   Slowly turned up GN2 to max, and flame got weak and all blue, flashed a bit and got smaller.   Then it strengthened again and got sooty.   Turned off GN2 and flame strengthened, then turned off air flow and flame went out."
+  },
+  {
+    "record_id": "PSI-26:bass:53",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "ignited after a few tries,   turned N2 on 5.0 pot, flame still very sooty but only on top half of sphere in video,   fan to 42, still sooty but dimmer, fan 41, similar.  Leading edge all the way to the post,   N2 Off,  soot moves upstream,   air off, flame out,   6 minute burn!"
+  },
+  {
+    "record_id": "PSI-26:bass:54",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "ignited at 62, fan up to 87 then 100,   got long sooty tail, comet.   Envelope flame, very bright and sooty,   then fan to 42, blue LE and sooty tail.   Fan 41, slightly dimmer but still sooty tail.   Joe turned pot to 0.32 (read after) to get minimum flame (very dim blue LE only),    GN2 on max did not blow it out right away, but did eventually extinguish it.  LE blew off and ring flame stabilized for a number of s.   Card full on still camera.  Didn't seem to get the GN2 on the digital stills.  Leaving igniter in msg.  Still fuel left."
+  },
+  {
+    "record_id": "PSI-26:bass:55",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "N2 repress going on during this ops ~ 3 mm Hg.  Joe helping out.  Did not blow out.  Fan increased a bit slowly, so only got to max flow near end."
+  },
+  {
+    "record_id": "PSI-26:bass:56",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "Did not blow out.  Got smaller at max flow,  still images show one half of flame (maybe both sides) went out."
+  },
+  {
+    "record_id": "PSI-26:bass:57",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "leave igniter on entire test to provide additional heat to flame.  Did not ignite.  Not even any smoke.  Flow too high?"
+  },
+  {
+    "record_id": "PSI-26:bass:58",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "brief ignition and extinguished in ~ 3 s.  No spread."
+  },
+  {
+    "record_id": "PSI-26:bass:59",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "brief ignition and extinguished after 4 seconds.  No spread."
+  },
+  {
+    "record_id": "PSI-26:bass:60",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "igniter broke before ignition.  No stills taken."
+  },
+  {
+    "record_id": "PSI-26:bass:61",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "igniter 2-6 unstowed as broken, so no more std size igniters. 1 ea of short and long left.  Ignition was prolonged, and so flame was strong when flow turned up.   Did not blow out either at high flow or with GN2 although stagnation region blew out."
+  },
+  {
+    "record_id": "PSI-26:bass:62",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "try blowing out the flame with GN2. blew out bottom half, but not top half.  Could see where the leading edge gradually blew out with incre GN2"
+  },
+  {
+    "record_id": "PSI-26:bass:63",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "flame did blow out with GN2 at about a pot 6.   "
+  },
+  {
+    "record_id": "PSI-26:bass:64",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "1,2,3,3.5,5, 6, 10 pot on GN2.  Stag blew out at 3.5,  flame strong enough did not blow out at 10."
+  },
+  {
+    "record_id": "PSI-26:bass:65",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "Igniter is broken!   Igniter inventory done.  2 good ones left.  No images taken"
+  },
+  {
+    "record_id": "PSI-26:bass:67",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "nice burn, left igniter on a bit long and then on again.     Camera set to GMT, not MSG.  Appeared to reach a ss size ~ 3 cm long."
+  },
+  {
+    "record_id": "PSI-26:bass:68",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "sample 7 apparently not used.   (Don supposedly used on 5/10),   flame kept going.  At lowest flows shrank but kept going to end of sample.  Became oval away from edges at lowest flows."
+  },
+  {
+    "record_id": "PSI-26:bass:69",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "spice igniter, sample 22, trying to see if it works.  Worked like a charm!  Slightly non-symmetric ignition point. Ss velocity for Makoto's model."
+  },
+  {
+    "record_id": "PSI-26:bass:70",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "Over the shoulder view.  iso auto control on, max sensitivity 3200 iso, min shutter 1/4s, shutter hold 5 s. new igniter, have to bend it into shape.  Did not ignite first 2 attempts. Haze on window? wax deposits?  LOS  wider coils on igniter, windows clean, ignited and was all blue initially, then got soot spot,  decreased flow but soot persisted until 0.32 pot when soot disappeared then flame went out."
+  },
+  {
+    "record_id": "PSI-26:bass:71",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "realigned crooked candle, cleaned windows, spread out coil loops.  Ignited very quickly on 2nd try, and was sooty immediately.  Decreased flow gradually, took 11 brackets.  Got very low flows."
+  },
+  {
+    "record_id": "PSI-26:bass:72",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "same candle, 3rd test,  trying for longer time at low flow. Burned out all wax, only 2 brackets.  Flame got smaller quickly flow rates due to lack of wax."
+  },
+  {
+    "record_id": "PSI-26:bass:73",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "P mode is auto-everything. Very long burn (~ 10 min), waited at every flow condition,   steady radiometer at 0.32 pot  ~ 2.2 (lowest for flame).  Consistenly goes out at pot 0.31"
+  },
+  {
+    "record_id": "PSI-26:bass:74",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "A mode.   Trying to heat and then step to low flow immediately.  But running out of wax.   Extinguished/burned out at 0.31"
+  },
+  {
+    "record_id": "PSI-26:bass:75",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": " Last one with over the shoulder view on this session.    Got hot then stepped to 0 flow, went out."
+  },
+  {
+    "record_id": "PSI-26:bass:76",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "Turned on N2 at each flow setting starting at 0.35, not at 0.31.   At 0.31, flame persisted for a long time, went out when fan off (38).  All blue and dim.   2 frames shy of 13 brackets/"
+  },
+  {
+    "record_id": "PSI-26:bass:77",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "higher flow test, but ran out of fuel too quickly."
+  },
+  {
+    "record_id": "PSI-26:bass:78",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "ignited well and had initial sooty flame wrapped around leading edge of sample.  Reduced flow to 7 cm/s and flame turned all blue -Emmons shape.  Reached a steady size and spread downstream very slowly, all blue flame.  Top stills look like about 1 cm long flame with curved base and slightly curved tail, mostly oval.   All blue with intermittent yellow streaks.   Very stable.  Spread maybe 1 cm?"
+  },
+  {
+    "record_id": "PSI-26:bass:79",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "igniter didn't work, must have burned out.  Replaced with long igniter.  Ignited and got immediate dim blue flame.  Let it burn for 8 minutes, got 294 images all blue lopsided oval, longer than previous run.  Spread maybe 1 cm"
+  },
+  {
+    "record_id": "PSI-26:bass:80",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "first wax slab test.   Ignited nicely.  Very sooty flame wrapped around leading edge.  Turned flow down to 3 cm/s.  Flame sooty for a while, then as it burned out leading edge it got dimmer, shorter and eventully  all blue.  Shrank slowly and extinguished by itself.  "
+  },
+  {
+    "record_id": "PSI-26:bass:81",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "tried igniting at 6 cm/s.  Flame went out when igniter was retracted, with a puff of smoke.  Tried a 2nd time, same effect.  3rd try igniter  broke/failed.  Sample showed blackened spot around mid-sample in over the shoulder view at 15:15 GMT.  Stowed igniters in bag.  Last run until January when we get new igniters up."
+  },
+  {
+    "record_id": "PSI-26:bass:82",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "1st vititation test with CSA-CP.  N2 on at 495 from 12:34:15 with fan 122 =31 cm/s,    N2 off at msg 14:28:20..  Calc 17.07% O2 ,   nice ignition, blue leading edge, some soot later in tail.    All still frames black because lens cap still on."
+  },
+  {
+    "record_id": "PSI-26:bass:83",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "same atmosphere.  Re-igntion after removing lens cap.   Good burn,  sooty tail.    Extinguished at very low flow.  Pictures look  sooty,  166 images."
+  },
+  {
+    "record_id": "PSI-26:bass:84",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "wake ign,  3/3 initial frames before bracket.   Still camera only took initial and final set of pics, he didn't repress camera at call, he unlocked it 'reset'.  Igniter failed after this test."
+  },
+  {
+    "record_id": "PSI-26:bass:85",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "wake ign,    dim flame propagates upstream, some soot late in burn,  slightly non-symmetric with top spreading faster than bottom"
+  },
+  {
+    "record_id": "PSI-26:bass:86",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "wake ign,     fan pot to 0.5 (42), started getting soot before we put it out (air off) 125 frames this test"
+  },
+  {
+    "record_id": "PSI-26:bass:87",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "wake ign   too far away, needed to go in and readjust igniter,  ignition started again at 10:50 gmt. Flame spread all the way upstream.  Went out at 0.32 pot,  got spherical and flashed out."
+  },
+  {
+    "record_id": "PSI-26:bass:88",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "increased flow to 20 cm/s, got a very sooty tail.  After turning flow back to 8 cm/s, soot tail remained.   Even down to 1 cm/s flame had sooty tail.   Sphere down to about 1 cm, smooth after this last burn."
+  },
+  {
+    "record_id": "PSI-26:bass:89",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "sample is actually down to about 1 cm,  GN2 pot actually set to 8, reading 397,  flow start 12:41    flow stop 14:44:30,   final O2 is 17.3%.   Had Chris anneal the igniter before ignition.  We lost video during ignition for a minute or two.    Chris didn't press shutter until Paul told him we lost video.   So images start late.     Will need to schedule playback of this test.    Flame went out when fan set to 39.  Playback attempted 15:47 but it was streaky."
+  },
+  {
+    "record_id": "PSI-26:bass:90",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "new candle,   started GN2 at 15:26 00 gmt 15:31:10 msg  stopped gmt 17:20:20, O2 16.8%.   Bracketing images 7 s hold.  Filled up card with bracket images.   Chris noted the flame was not moving at all, unlike the 'contamination' of the acrylic shape.   At 42 (pot 0.5) was all blue initially, but had soot after a bit.   At 41 (pot 0.4), flame was steady all blue."
+  },
+  {
+    "record_id": "PSI-26:bass:91",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "changed out card for unknown card, 1 handed with glove on!  Hopefully it wasn't #6!  We still don't have that data.     Got sooty pretty quickly,   turned up accidentally to 43 pot, tnen down to 41.   went out on its own at 18:04:30 ish.  He described it as being the side of a pencil eraser, with the back end open. "
+  },
+  {
+    "record_id": "PSI-26:bass:92",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "new sphere,  issue with numbers,  sample 20 is a stump, completely gone.  LOS for setup/GN2 start   Gn2 on 10:44 pff 12:26 ,  vitiation to 17.3 % o2.  Lots of vapor jetting at low flow. At 0.33 pot flame got all blue just around stagnation region.   Last pic still had a flame~3:15 burn"
+  },
+  {
+    "record_id": "PSI-26:bass:93",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "Gn2 start, max, at msg 13:07:40,  off 14:54:55, O2 17.1% O2.  Igniter broke, he replaced it 1 handed!  Igniton at 62 then turned down to 41.5 then 41 (0.35 pot),  stable at 0.35 pot.  Out when fan off."
+  },
+  {
+    "record_id": "PSI-26:bass:94",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "Igniter too far away readjusted 1 handed.  Over the shoulder view, out of focus a bit.  Burned out sample.  Held up sample to camera view, just crunchy bits on the end. "
+  },
+  {
+    "record_id": "PSI-26:bass:95",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "LONG candle burn at very low flow rates.  Sooty at 2 cm/s and then at 1 cm/s.   All blue at fan41.  Candle  out at flow change."
+  },
+  {
+    "record_id": "PSI-26:bass:96",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "Ign took 3 min.  Only spread top half of video initially.  Wrapped some later.  All blue.   Extinguished on last flow change pot 0.35-0.32, shrank to leading edge"
+  },
+  {
+    "record_id": "PSI-26:bass:97",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "Ign took 2 min, flame on top half.  Used GN2 to try and blow out at low flow.  No joy even at max GN2.  Extinguished when flow off."
+  },
+  {
+    "record_id": "PSI-26:bass:98",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "Ign in 1 min.  Symmetric growth.  Gets sooty, even when flow reduced to 41.  Gets all blue at 18:38, out at 18:40 at finite extremely low flow."
+  },
+  {
+    "record_id": "PSI-26:bass:99",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "repeated ignition attempts, no luck at 52,  brief flame at 62 but also 'flamed out'.   Chris says 1/3 of sphere is gone from wake region.  Need to readjust igniter wire."
+  },
+  {
+    "record_id": "PSI-26:bass:100",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "took about 3 min to ignite, repeated attempts.  Got blue flame that was 1/2 way or mor around top.   Turned fan down in increments:12:10:20 0.6 (43); 11:15 0.5 (42); 11:50 0.35 (41) and 12:35 0.32 (41)   flame self-extinguished."
+  },
+  {
+    "record_id": "PSI-26:bass:101",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "flame lit on 2nd try,  quickly turned sooty, spread around small remaining sphere.  All blue at lower flows, burned out fuel.  Very nice over the shoulder zoomed in view of flame.  Better than expt video!"
+  },
+  {
+    "record_id": "PSI-26:bass:102",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "repeated ignition attempts, no luck keeping the flame sustained.  After igniter retract, the blue flame leading edge shrinks back, the tail shrinks, the flame becomes parallel to the fuel surface, and then winks out.    Apparently not flammable in opposed flow for the same concurrent flow.  Heat losses are different though, due to the metal holder around the back end of sample but not on front edge."
+  },
+  {
+    "record_id": "PSI-26:bass:103",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "moved igniter upstream of 'crater' we created on last test.   Got a flame briefly, but did not sustain for any spread, shrank and winked out after maybe 15 s or so. Broke the igniter trying to re-ignite."
+  },
+  {
+    "record_id": "PSI-26:bass:104",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "broke 2 igniters on this trying to get it to ignite. 3rd one was suspect, and didn't work.  2nd vitiation, got it ignited, burned just on forward stagnation region, minimal spread.  Went out at finite flow.  Post burn shape was crater and protrusion on lower half."
+  },
+  {
+    "record_id": "PSI-26:bass:105",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "started igniting the protrusion and then went LOS for a minute.  Came back and sample bump is gone,  pot down to flow of 2 cm/s, radiometer increased so still growing flame.  Pot to 0.4 and flame still growing fan 41.5,  pot 0.33 radiometer drops to 0.7,  fan 41,  down to 0.3 but camera ran out and we shut off flow to put flame out.  Sample shape much more spherical."
+  },
+  {
+    "record_id": "PSI-26:bass:106",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "ignited 'concurrent' or stagnation.17:45 - 0.5; 18:30-0.4; 19:20-0.35; 20:20-0.33; 21:30-0.32;  out 14:22:50"
+  },
+  {
+    "record_id": "PSI-26:bass:107",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "no ignition, despite prolonged attempted ignition.  No pictures were taken. Candle out of wax?"
+  },
+  {
+    "record_id": "PSI-26:bass:108",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "nice blue flame with inner soot until low flows.  At extinction, the  stag zone opened up before the flame goes out (out of wax)."
+  },
+  {
+    "record_id": "PSI-26:bass:109",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "new sample. Blue flame wrapped around leading edge,  didn't propagate at all.  Went out on its own at a flow of 0.4 after 75 seconds"
+  },
+  {
+    "record_id": "PSI-26:bass:110",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "new sphere,  took 4 min to ignite with repeated tries and brief flames .  All blue to start, grew to wrap past 90 degrees .   Short burn about 2 minutes."
+  },
+  {
+    "record_id": "PSI-26:bass:111",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "broke igniter just before it was going to stay lit.  New igniter trying again.  Repeat of test 50.  takes 4 min to ignite sphere at this O2.  blue flame.  Post-burn sample had large amounts of soot on it that had to be wiped off."
+  },
+  {
+    "record_id": "PSI-26:bass:112",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "broke igniter.    All blue with intermittent soot balls streaking back.  Might be able to get flow measurements from those.  Lab view zoomed in on flame also."
+  },
+  {
+    "record_id": "PSI-26:bass:113",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "broke  2 igniters.   No ignition on this test.  No stills.  Record for the day - broke 4 igniters!"
+  },
+  {
+    "record_id": "PSI-26:bass:114",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "new igniter, anneal it.  3 min to ignite,  turned flow to 7 cm/s, let it wrap around sphere, then reduced flow to < 1 cm/s.   All blue flame.  Nice video from the over the shoulder view.    Sphere is very flat on front,w ith blackened bubble layer extending past 90 degreees on the sphere.  Back ~40% of sphere still fairly pristine."
+  },
+  {
+    "record_id": "PSI-26:bass:115",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "nice over the shoulder view, very hard to see dim flame in expt video.  Ignition in 1.5 min.   "
+  },
+  {
+    "record_id": "PSI-26:bass:116",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "stills during ignition.flame ignited over lower part of sphere, wrapped around and then decreased flow to near limit flow, flame shrank forward and oscillated slightly at pot 0.35,  went out when pot turned down to 0.29."
+  },
+  {
+    "record_id": "PSI-26:bass:117",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "got dim flame with stills during ignition, then had Chris do incr and decr flow flame got very long soot tail at  around 10 cm/s and dim blue spherical flame at really low flows.  Flame went out at pot 0.27, with oscillations and a big flash at extinction."
+  },
+  {
+    "record_id": "PSI-26:bass:118",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "igniter 20-11 wass reported broken when he was getting it ready.  Tested 20-132 and it was fine.  Sample ignited briefly - blue curving around leading edge, but went out.  Couldn't get it ignited again at leading edge.   Adjusted igniter dcownstream.  No luck.  No stills taken."
+  },
+  {
+    "record_id": "PSI-26:bass:119",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "tried igniting in air at 10 cm/s.  Not enough fuel in forward patch on sample.  No flame.  So readjusted igniter to downstream patch (~ 1/2 of sample).  Igniter 20-13 broken,  installing 20-12, uncoiled."
+  },
+  {
+    "record_id": "PSI-26:bass:120",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "tried to ignite,  no joy, just a puff of smoke each time."
+  },
+  {
+    "record_id": "PSI-26:bass:121",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "stagnation ignition in air.  Dynamic flow changes planned after igntion.  Good ignition, good dynamics from dim blue to sooty tail.  Bracketing was on  - 2 brackets plus dark frames."
+  },
+  {
+    "record_id": "PSI-26:bass:122",
+    "column": "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)",
+    "source_text": "same as previous, with continuous pictures.  Dropped out los for test, got playback of expt video but lost over theshoulder view for most of test.  Up to fan 73 down to 39.  Limit pot setting about 0.28.  149 total pics -27-2extras for camera check."
+  }
+]

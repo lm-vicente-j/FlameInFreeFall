@@ -6,12 +6,17 @@ from pathlib import Path
 from pipeline.paths import DATA, EXPERIMENTAL_TABLES
 from pipeline.runs.aliases import AliasError, add_proposals
 from pipeline.runs.build import BuildError, build_all, collect_sources, missing_aliases
+from pipeline.runs.normalizers import bass_common
+from pipeline.runs.normalizers.bass_extractions import ExtractionError
 from pipeline.runs.proposals import MATERIAL_PROPOSALS
 from pipeline.runs.registry import RegistryError
 from pipeline.runs.tables import TableError
 from pipeline.storage import write_json_atomic
 
-_PROPOSALS = {"materials": MATERIAL_PROPOSALS}
+_PROPOSALS = {
+    "materials": {**MATERIAL_PROPOSALS, **bass_common.MATERIAL_PROPOSALS},
+    "geometries": bass_common.GEOMETRY_PROPOSALS,
+}
 
 
 def _parser() -> argparse.ArgumentParser:
@@ -27,11 +32,17 @@ def _parser() -> argparse.ArgumentParser:
         command.add_argument("--aliases", type=Path, default=DATA / "aliases")
         if name == "build":
             command.add_argument("--out", type=Path, default=DATA / "runs")
+            command.add_argument(
+                "--extractions",
+                type=Path,
+                default=DATA / "extractions",
+                help="reviewed extraction results to apply; extraction queues are written here",
+            )
     return parser
 
 
 def _build(args: argparse.Namespace) -> int:
-    summaries = build_all(args.tables, args.aliases, args.out)
+    summaries = build_all(args.tables, args.aliases, args.out, args.extractions)
     for summary in summaries:
         print(
             f"{summary.slug}: runs={summary.runs} notes={summary.notes} empty_rows_skipped={summary.empty_rows_skipped}"
@@ -64,7 +75,7 @@ def main(argv: list[str] | None = None) -> int:
     handlers = {"build": _build, "missing-aliases": _missing, "propose-aliases": _propose}
     try:
         return handlers[args.command](args)
-    except (TableError, RegistryError, AliasError, BuildError) as error:
+    except (TableError, RegistryError, AliasError, BuildError, ExtractionError) as error:
         print(f"error: {error}")
         return 1
 

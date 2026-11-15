@@ -2,6 +2,578 @@
   "name": "materials",
   "entries": [
     {
+      "source": "0.5\" black rod",
+      "canonical": "pmma (black)",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "1 cm 0.2 mm PMMA film",
+      "canonical": "pmma",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "1 cm SIBAL",
+      "canonical": "cotton-fiberglass fabric (sibal)",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "1 cm SIBAL top side ign",
+      "canonical": "cotton-fiberglass fabric (sibal)",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "1 cm sphere",
+      "canonical": "pmma",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "1 cm sphere wake",
+      "canonical": "pmma",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "1 cm wake sphere",
+      "canonical": "pmma",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "1 cm wide 200 micron thick PMMA",
+      "canonical": "pmma",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "1 cm wide PMMA 1 mm thick",
+      "canonical": "pmma",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "1 cm wide PMMA 2 mm thick",
+      "canonical": "pmma",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "1 cm wide PMMA 3 mm thick",
+      "canonical": "pmma",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "1 cm wide PMMA 5 mm thick",
+      "canonical": "pmma",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "1 mm thick PMMA 1 sided 2 cm",
+      "canonical": "pmma",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "1 mm thick PMMA 2 cm wide",
+      "canonical": "pmma",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "1/2\" clear PMMA rod",
+      "canonical": "pmma",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "1/2\" clear rod",
+      "canonical": "pmma",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "1/4 blac rod",
+      "canonical": "pmma (black)",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "1/4 black rod",
+      "canonical": "pmma (black)",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "1/4 clear rod",
+      "canonical": "pmma",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "1/4\" black rod",
+      "canonical": "pmma (black)",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "1/4\" clear rod",
+      "canonical": "pmma",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "100 micron PMMA film 2 cm wide",
+      "canonical": "pmma",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "100 micron film 2 cm wide",
+      "canonical": "pmma",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "2 cm 0.1 mm PMMA film",
+      "canonical": "pmma",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "2 cm 0.2 mm PMMA film",
+      "canonical": "pmma",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "2 cm 0.4 mm thick film",
+      "canonical": "pmma",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "2 cm 100 micron thick PMMA",
+      "canonical": "pmma",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "2 cm 4 mm 1 sided PMMA slab",
+      "canonical": "pmma",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "2 cm SIBAL",
+      "canonical": "cotton-fiberglass fabric (sibal)",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "2 cm Sibal moved igniter",
+      "canonical": "cotton-fiberglass fabric (sibal)",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "2 cm pmma sphere",
+      "canonical": "pmma",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "2 cm sphere",
+      "canonical": "pmma",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "2 cm sphere wake ign",
+      "canonical": "pmma",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "2 cm wide 5 mm thick 1 sided PMMA",
+      "canonical": "pmma",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "2 cm wide PMMA 2 mm thick",
+      "canonical": "pmma",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "2 cm wide PMMA 3 mm thick",
+      "canonical": "pmma",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "2 mm thick PMMA 2 cm wide",
+      "canonical": "pmma",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "200 micron 2 cm wide",
+      "canonical": "pmma",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "200 micron PMMA film 2 cm wide",
+      "canonical": "pmma",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "2mm thick PMMA 1 sided 2 cm wide",
+      "canonical": "pmma",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "3 mm thick PMMA 1 sided 2 cm wide",
+      "canonical": "pmma",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "3 mm thick PMMA 2 sided 2 cm thick",
+      "canonical": "pmma",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "3/8\" black rod",
+      "canonical": "pmma (black)",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "3/8\" clear rod",
+      "canonical": "pmma",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "3/8\"clear rod",
+      "canonical": "pmma",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "300 micron PMMA film 2 cm wide",
+      "canonical": "pmma",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "300 micron film 2 cm wide",
+      "canonical": "pmma",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "4 mm thick 1 cm wide PMMA slab",
+      "canonical": "pmma",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "4 mm thick 2 cm 2ide PMMA slab",
+      "canonical": "pmma",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "4 mm thick PMMA 2 cm wide",
+      "canonical": "pmma",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "400 micron film 2 cm wide",
+      "canonical": "pmma",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "5 mm thick PMMA 2 cm wide",
+      "canonical": "pmma",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
       "source": "Cotton-Fiberglass (SIBAL)",
       "canonical": "cotton-fiberglass fabric (sibal)",
       "proposed_by": "llm",
@@ -24,8 +596,63 @@
       }
     },
     {
+      "source": "Japan Wax Candle wake",
+      "canonical": "japan wax",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "Japan Wax candle",
+      "canonical": "japan wax",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
       "source": "Methanol",
       "canonical": "methanol",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "Nomex III Natural",
+      "canonical": "nomex",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "Nomex blend 2 cm",
+      "canonical": "nomex blend",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "Nomex natural (nomex III)",
+      "canonical": "nomex",
       "proposed_by": "llm",
       "review": {
         "status": "pending",
@@ -57,6 +684,94 @@
       }
     },
     {
+      "source": "PMMA 1 cm",
+      "canonical": "pmma",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "PMMA 2 cm",
+      "canonical": "pmma",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "PMMA slab",
+      "canonical": "pmma",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "PMMA sphere 1 cm",
+      "canonical": "pmma",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "PMMA sphere 2 cm",
+      "canonical": "pmma",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "SIBAL 1 cm",
+      "canonical": "cotton-fiberglass fabric (sibal)",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "SIBAL 2 cm",
+      "canonical": "cotton-fiberglass fabric (sibal)",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "SIBAL 2 cm opposed flow",
+      "canonical": "cotton-fiberglass fabric (sibal)",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
       "source": "SIBAL Fabric",
       "canonical": "cotton-fiberglass fabric (sibal)",
       "proposed_by": "llm",
@@ -70,6 +785,160 @@
     {
       "source": "Silicone",
       "canonical": "silicone",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "candle Japan wax",
+      "canonical": "japan wax",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "candle paraffin wake",
+      "canonical": "paraffin wax",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "nomex natural III",
+      "canonical": "nomex",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "paraffin wax candle",
+      "canonical": "paraffin wax",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "paraffin wax slab",
+      "canonical": "paraffin wax",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "parrafin wax candle",
+      "canonical": "paraffin wax",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "parrafin wax slab",
+      "canonical": "paraffin wax",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "pmma 1 cm",
+      "canonical": "pmma",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "pmma 2 cm",
+      "canonical": "pmma",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "pmma slab",
+      "canonical": "pmma",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "pmma slab opposed",
+      "canonical": "pmma",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "pmma slab oppsed",
+      "canonical": "pmma",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "pmma sphere",
+      "canonical": "pmma",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "ultem sheet",
+      "canonical": "ultem",
       "proposed_by": "llm",
       "review": {
         "status": "pending",

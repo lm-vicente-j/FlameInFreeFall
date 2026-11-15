@@ -7,6 +7,7 @@ always kept.
 
 from collections.abc import Callable
 from dataclasses import dataclass
+from pathlib import Path
 
 from pipeline.runs.aliases import AliasSet
 from pipeline.runs.cells import NotNumber, NullCell, parse_cell
@@ -34,9 +35,17 @@ class Context:
     slug: str
     table: Table
     aliases: AliasSet
+    tables_dir: Path | None = None
+    """Directory holding the experimental tables; BASS reads its as-run workbook from here."""
+    extractions_dir: Path | None = None
+    """Directory with reviewed extraction results (``<name>.json``); None means none are applied."""
 
     def record_id(self, row: Row) -> str:
         return f"{self.accession}:{self.slug}:{row.number}"
+
+
+QueueItem = dict[str, str]
+"""One free-text cell awaiting reviewed extraction: record_id, column, source_text."""
 
 
 @dataclass(frozen=True)
@@ -44,6 +53,8 @@ class Normalizer:
     normalize: Callable[[Context], list[Record]]
     alias_sources: Callable[[Table], dict[str, list[str]]]
     """Source strings per alias dictionary name; used to find aliases still missing."""
+    queues: Callable[[Context], dict[str, list[QueueItem]]] | None = None
+    """Extraction queues per queue name; build writes them to ``<name>.queue.json``."""
 
 
 def no_alias_sources(table: Table) -> dict[str, list[str]]:
