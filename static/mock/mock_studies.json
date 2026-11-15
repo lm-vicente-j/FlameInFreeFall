@@ -1,0 +1,16 @@
+[
+  {
+    "accession": "PSI-25",
+    "titulo": "BASS-II",
+    "resumen_preparado": "Se probaron telas en microgravedad...",
+    "categorias_seguridad": ["prevencion"],
+    "evidencia_id": "ev-1"
+  },
+  {
+    "accession": "PSI-69",
+    "titulo": "FLEX",
+    "resumen_preparado": "Extinción de gotas de metanol...",
+    "categorias_seguridad": ["supresion"],
+    "evidencia_id": "ev-2"
+  }
+]

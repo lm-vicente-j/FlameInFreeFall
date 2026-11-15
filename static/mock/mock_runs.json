@@ -1,0 +1,20 @@
+[
+  {
+    "id": "run-1",
+    "investigacion": "FLEX",
+    "clase_combustible": "liquido",
+    "material": "Metanol",
+    "o2_porcentaje": 30.5,
+    "presion_kpa": 80.0,
+    "resultado": "Extinción exitosa"
+  },
+  {
+    "id": "run-2",
+    "investigacion": "BASS-II",
+    "clase_combustible": "solido",
+    "material": "Algodón",
+    "o2_porcentaje": 21.0,
+    "presion_kpa": 101.3,
+    "resultado": "Combustión completa"
+  }
+]
