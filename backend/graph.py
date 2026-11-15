@@ -5,6 +5,7 @@ from __future__ import annotations
 import copy
 import json
 import math
+import threading
 from collections import Counter, defaultdict
 from decimal import Decimal
 from functools import cache
@@ -16,6 +17,7 @@ from urllib.parse import quote
 from jsonschema import Draft202012Validator
 from rdflib import Graph, Literal, Namespace, URIRef, Variable
 from rdflib.namespace import DCTERMS, PROV, RDF, RDFS, SKOS, XSD
+from rdflib.plugins.sparql import prepareQuery
 from referencing import Registry, Resource
 
 from pipeline.paths import SCHEMAS
@@ -63,6 +65,11 @@ SELECT DISTINCT ?row WHERE {
   ?observation sosa:hasFeatureOfInterest ?row ; sosa:observedProperty ?wanted .
 }
 """
+# rdflib parses SPARQL with a shared pyparsing grammar that is not thread-safe: two requests parsing
+# at once can corrupt it for the life of the process. Parse each fixed query once, at import, and
+# evaluate under a lock because Flask serves requests on several threads.
+_PREPARED = {text: prepareQuery(text) for text in (CATEGORY_QUERY, NUMERIC_QUERY, OUTCOME_QUERY)}
+_QUERY_LOCK = threading.Lock()
 
 
 def _json(value: Any) -> str:
@@ -321,8 +328,9 @@ class RunGraph:
         if "outcome" in filters:
             queries.append((OUTCOME_QUERY, {"wanted": VOCAB[f"outcome/{quote(filters['outcome'], safe='')}"]}))
         for query, bindings in queries:
-            matches = {self._uris[str(result[Variable("row")])]
-                       for result in self.graph.query(query, initBindings=bindings).bindings}
+            with _QUERY_LOCK:
+                rows = self.graph.query(_PREPARED[query], initBindings=bindings).bindings
+            matches = {self._uris[str(result[Variable("row")])] for result in rows}
             selected.intersection_update(matches)
             if not selected:
                 return []

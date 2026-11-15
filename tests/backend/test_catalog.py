@@ -239,5 +239,58 @@ class CatalogTests(unittest.TestCase):
             catalog.files("PSI-47", extension="csv")
 
 
+    def test_source_summary_has_citation_fields_without_contact_details(self):
+        self.build()
+        catalog = Catalog(self.db)
+        for accession in ACCESSIONS:
+            metadata = read(self.res / accession / "metadata.json")
+            source = catalog.source(accession)
+            self.assertEqual(source["accession"], accession)
+            self.assertEqual(source["doi"], metadata["doi"] or None)
+            if metadata["doi"]:
+                self.assertEqual(source["doi_url"], "https://doi.org/" + metadata["doi"])
+            self.assertEqual(source["title"], metadata["title"])
+            self.assertEqual(source["start_date"], metadata["investigationStartDate"] or None)
+            self.assertTrue(source["psi_url"].startswith("https://psi.nasa.gov/"))
+            self.assertTrue(source["psi_url"].endswith(accession))
+            self.assertEqual(len(source["investigators"]), len(metadata["contacts"]))
+            self.assertEqual(len(source["publications"]), len(metadata.get("publications") or []))
+            text = json.dumps(source)
+            for contact in metadata["contacts"]:
+                for key in ("email", "phone", "fax", "address"):
+                    if contact.get(key):
+                        self.assertNotIn(contact[key], text)
+            self.assertNotIn("@", text)
+        self.assertIsNone(catalog.source("PSI-999"))
+        self.assertEqual(catalog.study("PSI-47"), read(self.data / "cards" / "PSI-47.json"))
+
+    def test_source_summary_nulls_missing_values_and_keeps_order(self):
+        def mutate(metadata):
+            metadata["doi"] = ""
+            metadata["licenseName"] = None
+            metadata["contacts"] = [
+                {"firstName": "Ada", "midInitials": "B", "lastName": "Lovelace", "email": "a@example.org",
+                 "phone": "555", "affiliation": "", "roles": []},
+                {"firstName": "", "midInitials": "", "lastName": "Hopper", "roles": [
+                    {"annotationValue": "Principal Investigator (PI)"}]},
+                {"firstName": "", "lastName": ""},
+            ]
+            metadata["publications"][0].update(authorList="", doi="", status={})
+
+        self.alter_source("PSI-47", "metadata.json", mutate)
+        self.build()
+        source = Catalog(self.db).source("PSI-47")
+        self.assertIsNone(source["doi"])
+        self.assertIsNone(source["doi_url"])
+        self.assertIsNone(source["license"])
+        self.assertEqual(source["investigators"], [
+            {"name": "Ada B. Lovelace", "roles": [], "affiliation": None},
+            {"name": "Hopper", "roles": ["Principal Investigator (PI)"], "affiliation": None}])
+        first = source["publications"][0]
+        self.assertEqual({key: first[key] for key in ("authors", "doi", "status")},
+                         {"authors": None, "doi": None, "status": None})
+        self.assertIsNotNone(first["title"])
+
+
 if __name__ == "__main__":
     unittest.main()

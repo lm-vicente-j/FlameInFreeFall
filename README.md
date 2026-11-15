@@ -6,7 +6,7 @@ See [APPROACH.md](docs/APPROACH.md) for the proposal and data findings, and [PLA
 
 ## System overview
 
-NASA PSI sources pass through collection, preparation and review before local storage and API queries. The local interface supports investigation search, evidence inspection and file browsing. See [FRONTEND.md](docs/FRONTEND.md) for startup, checks and remaining features.
+NASA PSI sources pass through collection, preparation and review before local storage and API queries. The local research interface supports investigation search, cited records with evidence inspection and citations, side-by-side comparison, a condition explorer with an oxygen–pressure coverage map and traceable run records, and file browsing. See [FRONTEND.md](docs/FRONTEND.md) for startup, checks and remaining features.
 
 ![System overview: NASA PSI sources, collection, preparation, local storage, backend and research interface](docs/sistema-general.png)
 

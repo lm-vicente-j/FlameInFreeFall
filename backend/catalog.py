@@ -233,6 +233,60 @@ def _prepared(
     return prepared
 
 
+def _text(value: Any) -> str | None:
+    return value.strip() or None if isinstance(value, str) else None
+
+
+def _person_name(contact: dict[str, Any]) -> str | None:
+    middle = _text(contact.get("midInitials"))
+    if middle and len(middle) == 1 and middle.isalpha():
+        middle += "."
+    parts = [_text(contact.get("firstName")), middle, _text(contact.get("lastName"))]
+    return " ".join(part for part in parts if part) or None
+
+
+def _source_summary(accession: str, investigation: dict[str, Any], metadata: dict[str, Any]) -> dict[str, Any]:
+    """Copy only citation fields; contact details (email, phone, fax, address) are never read."""
+    doi = _text(metadata.get("doi"))
+    investigators = []
+    for contact in metadata.get("contacts") or []:
+        name = _person_name(contact) if isinstance(contact, dict) else None
+        if name is None:
+            continue
+        roles = [
+            role for item in contact.get("roles") or []
+            if isinstance(item, dict) and (role := _text(item.get("annotationValue")))
+        ]
+        investigators.append({"name": name, "roles": roles, "affiliation": _text(contact.get("affiliation"))})
+    publications = []
+    for item in metadata.get("publications") or []:
+        if not isinstance(item, dict):
+            continue
+        status = item.get("status")
+        publications.append({
+            "title": _text(item.get("title")),
+            "authors": _text(item.get("authorList")),
+            "doi": _text(item.get("doi")),
+            "status": _text(status.get("annotationValue")) if isinstance(status, dict) else None,
+        })
+    return {
+        "accession": accession,
+        "title": _text(metadata.get("title")),
+        "acronym": _text(metadata.get("investigationAcronym")),
+        "version": metadata.get("version") if type(metadata.get("version")) is int else None,
+        "doi": doi,
+        "doi_url": f"https://doi.org/{doi}" if doi else None,
+        "psi_url": investigation.get("source_url"),
+        "license": _text(metadata.get("licenseName")),
+        "start_date": _text(metadata.get("investigationStartDate")),
+        "end_date": _text(metadata.get("investigationEndDate")),
+        "project_type": _text(metadata.get("projectType")),
+        "retrieved_at": investigation.get("snapshot_retrieved_at"),
+        "investigators": investigators,
+        "publications": publications,
+    }
+
+
 def _search_content(card: dict[str, Any]) -> str:
     texts = [text for _, text, ids in statements(card) if ids]
     texts.extend(item["excerpt"] for item in card["evidence"])
@@ -469,6 +523,16 @@ class Catalog:
 
     def study(self, accession: str) -> dict[str, Any] | None:
         return self._record("cards", "accession", accession)
+
+    def source(self, accession: str) -> dict[str, Any] | None:
+        """Citation-oriented source metadata for one study, or None when it is not stored."""
+        investigation = self._record("investigations", "accession", accession)
+        if investigation is None:
+            return None
+        metadata = investigation.get("scientific_metadata")
+        if not isinstance(metadata, dict):
+            return None
+        return _source_summary(accession, investigation, metadata)
 
     def evidence(self, id: str) -> dict[str, Any] | None:
         return self._record("evidence", "id", id)
