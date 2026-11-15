@@ -1,0 +1,260 @@
+{
+  "accession": "PSI-26",
+  "source_version": 4,
+  "title": "Burning and Suppression of Solids",
+  "acronym": "BASS",
+  "coverage": "metadata_only",
+  "summary": {
+    "text": "BASS aims to relate normal-gravity material flammability testing to flames burning in microgravity aboard the ISS, and to assess an inert gaseous extinguishing agent over different materials, geometries, preheating and flow.",
+    "evidence_ids": [
+      "PSI-26:meta:objective#77e0f47f52d8",
+      "PSI-26:meta:objective#8d72db014550",
+      "PSI-26:meta:approach#75f19d89b329"
+    ]
+  },
+  "safety_categories": [
+    {
+      "category": "suppression",
+      "evidence_ids": [
+        "PSI-26:meta:researchImpacts#16322ab0f494"
+      ]
+    }
+  ],
+  "comparison": {
+    "fuels": {
+      "text": "Fabric samples of 75% cotton and 25% fiberglass (by mass), Nomex fabric and Ultem.",
+      "evidence_ids": [
+        "PSI-26:meta:approach#6b9c2b722ebe"
+      ]
+    },
+    "geometry": {
+      "text": "Fabric samples in a 76 mm x 76 mm cross-section flow duct; other sample shapes included spheres and cylinders.",
+      "evidence_ids": [
+        "PSI-26:meta:approach#dcb99fedfdea",
+        "PSI-26:meta:approach#23bec0ecbba8"
+      ]
+    },
+    "oxygen": null,
+    "pressure": null,
+    "flow": {
+      "text": "Variable speed fan, airflow speeds up to 40 cm/s, in opposed or concurrent direction relative to flame spread.",
+      "evidence_ids": [
+        "PSI-26:meta:approach#a1676fe90034",
+        "PSI-26:meta:approach#e50f402645c7"
+      ]
+    },
+    "gravity": null,
+    "measurements": {
+      "text": "Flame size, shape, color, spread rate and potential flame quenching, observed in top and edge profiles.",
+      "evidence_ids": [
+        "PSI-26:meta:approach#a71c0024697e"
+      ]
+    },
+    "hardware": {
+      "text": "Microgravity Science Glovebox aboard the International Space Station.",
+      "evidence_ids": [
+        "PSI-26:meta:approach#75f19d89b329",
+        "PSI-26:meta:experimentHardware#7f3265e734a1"
+      ]
+    }
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "type": "objective",
+      "text": "BASS aims to begin to bridge the gap between the normal gravity NASA-STD-6001 Test#1 method, ground-based microgravity tests, and actual material flammability in microgravity.",
+      "evidence_ids": [
+        "PSI-26:meta:objective#8d72db014550"
+      ]
+    },
+    {
+      "id": "C2",
+      "type": "objective",
+      "text": "BASS aims to assess the effectiveness of an inert, gaseous extinguishing agent (similar to that used on ISS) in putting out flames over different materials, geometries, preheating, and flow.",
+      "evidence_ids": [
+        "PSI-26:meta:objective#77e0f47f52d8"
+      ]
+    },
+    {
+      "id": "C3",
+      "type": "hypothesis",
+      "text": "BASS hypothesizes that materials in microgravity, with adequate ventilation, burn as well if not better than the same material in normal gravity.",
+      "evidence_ids": [
+        "PSI-26:meta:hypothesis#c9b0873d36b7"
+      ]
+    }
+  ],
+  "findings": [],
+  "limitations": [
+    {
+      "text": "The metadata describes the objectives, hypothesis and approach but states no measured result, so no observation is recorded on this card.",
+      "basis": "source",
+      "evidence_ids": [
+        "PSI-26:meta:hypothesis#c9b0873d36b7",
+        "PSI-26:meta:approach#a71c0024697e"
+      ]
+    },
+    {
+      "text": "Only PSI metadata was examined and no document text was processed.",
+      "basis": "coverage",
+      "evidence_ids": []
+    }
+  ],
+  "modeling_resources": [
+    {
+      "description": "Experimental table for BASS listed in the PSI file inventory; flame size, shape, spread rate and quenching were collected according to the approach.",
+      "file_keys": [
+        "psi-data/PSI-26/Experimental table/PSI-26_Experimental table_BASS.csv"
+      ],
+      "evidence_ids": [
+        "PSI-26:meta:approach#a71c0024697e"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "PSI-26:meta:objective#77e0f47f52d8",
+      "passage_id": "PSI-26:meta:objective",
+      "investigation": "PSI-26",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-26",
+      "locator": {
+        "kind": "metadata",
+        "field": "objective"
+      },
+      "excerpt": "Assess the effectiveness of an inert, gaseous extinguishing agent (similar to that used on ISS) in putting out flames over different materials, geometries, preheating, and flow."
+    },
+    {
+      "id": "PSI-26:meta:objective#8d72db014550",
+      "passage_id": "PSI-26:meta:objective",
+      "investigation": "PSI-26",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-26",
+      "locator": {
+        "kind": "metadata",
+        "field": "objective"
+      },
+      "excerpt": "Begin to bridge the gap between the normal gravity NASA-STD-6001 Test#1 method, ground-based microgravity tests, and actual material flammability in microgravity."
+    },
+    {
+      "id": "PSI-26:meta:researchImpacts#16322ab0f494",
+      "passage_id": "PSI-26:meta:researchImpacts",
+      "investigation": "PSI-26",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-26",
+      "locator": {
+        "kind": "metadata",
+        "field": "researchImpacts"
+      },
+      "excerpt": "Using nitrogen as a flame suppressant in microgravity provides a direct link to current and planned extinguishment techniques."
+    },
+    {
+      "id": "PSI-26:meta:approach#6b9c2b722ebe",
+      "passage_id": "PSI-26:meta:approach",
+      "investigation": "PSI-26",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-26",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "excerpt": "Custom-made fabric samples consisting of 75% cotton and 25% fiberglass (by mass) measuring were used as a fuel source as well as Nomex fabric and Ultem."
+    },
+    {
+      "id": "PSI-26:meta:approach#a1676fe90034",
+      "passage_id": "PSI-26:meta:approach",
+      "investigation": "PSI-26",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-26",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "excerpt": "Airflow was controlled using a variable speed fan, with airflow speeds reaching as high as 40 cm/s."
+    },
+    {
+      "id": "PSI-26:meta:approach#dcb99fedfdea",
+      "passage_id": "PSI-26:meta:approach",
+      "investigation": "PSI-26",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-26",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "excerpt": "The samples were placed in a small flow duct (76 mm x 76 mm cross section) that allowed for airflow across the fabric."
+    },
+    {
+      "id": "PSI-26:meta:approach#23bec0ecbba8",
+      "passage_id": "PSI-26:meta:approach",
+      "investigation": "PSI-26",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-26",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "excerpt": "Other sample shapes were utilized as well including spheres and cylinders."
+    },
+    {
+      "id": "PSI-26:meta:approach#e50f402645c7",
+      "passage_id": "PSI-26:meta:approach",
+      "investigation": "PSI-26",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-26",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "excerpt": "The airflow was directed along the fuel surface in either the opposed or concurrent direction."
+    },
+    {
+      "id": "PSI-26:meta:approach#75f19d89b329",
+      "passage_id": "PSI-26:meta:approach",
+      "investigation": "PSI-26",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-26",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "excerpt": "The experiment was conducted aboard the International Space Station (ISS) inside the Microgravity Glove Box (MSG)."
+    },
+    {
+      "id": "PSI-26:meta:approach#a71c0024697e",
+      "passage_id": "PSI-26:meta:approach",
+      "investigation": "PSI-26",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-26",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "excerpt": "Flames were observed in the top and edge profiles and data was collected on flame size, shape, color, spread rate, and potential flame quenching."
+    },
+    {
+      "id": "PSI-26:meta:experimentHardware#7f3265e734a1",
+      "passage_id": "PSI-26:meta:experimentHardware",
+      "investigation": "PSI-26",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-26",
+      "locator": {
+        "kind": "metadata",
+        "field": "experimentHardware"
+      },
+      "excerpt": "Microgravity Science Glovebox"
+    },
+    {
+      "id": "PSI-26:meta:hypothesis#c9b0873d36b7",
+      "passage_id": "PSI-26:meta:hypothesis",
+      "investigation": "PSI-26",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-26",
+      "locator": {
+        "kind": "metadata",
+        "field": "hypothesis"
+      },
+      "excerpt": "BASS experiments were based on the hypothesis that materials in microgravity, with adequate ventilation, burn as well if not better than the same material in normal gravity"
+    }
+  ],
+  "generation": {
+    "method": "skill",
+    "skill": "research-card",
+    "model": "claude-sonnet-5-5",
+    "generated_at": "2026-11-15T01:50:31+00:00"
+  },
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "notes": ""
+  }
+}

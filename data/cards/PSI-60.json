@@ -1,0 +1,177 @@
+{
+  "accession": "PSI-60",
+  "source_version": 1,
+  "title": "Computational and Experimental Analysis of SPICE Data Sets",
+  "acronym": "",
+  "coverage": "metadata_only",
+  "summary": {
+    "text": "A ground investigation that aims to integrate computational and experimental methods to derive temperature distributions and soot volume fractions from existing SPICE data, to improve understanding of soot formation in normal gravity and microgravity flames.",
+    "evidence_ids": [
+      "PSI-60:meta:objective#3902ffcd3e6c",
+      "PSI-60:meta:objective#771c9d633cb6"
+    ]
+  },
+  "safety_categories": [
+    {
+      "category": "detection",
+      "evidence_ids": [
+        "PSI-60:meta:researchImpacts#54b938cd4f82"
+      ]
+    },
+    {
+      "category": "suppression",
+      "evidence_ids": [
+        "PSI-60:meta:researchImpacts#54b938cd4f82"
+      ]
+    }
+  ],
+  "comparison": {
+    "fuels": null,
+    "geometry": {
+      "text": "Simulations for Yale and ACME burner configurations.",
+      "evidence_ids": [
+        "PSI-60:meta:approach#fb5be6148903"
+      ]
+    },
+    "oxygen": null,
+    "pressure": null,
+    "flow": null,
+    "gravity": {
+      "text": "Normal gravity and microgravity conditions.",
+      "evidence_ids": [
+        "PSI-60:meta:approach#fb5be6148903"
+      ]
+    },
+    "measurements": {
+      "text": "Soot temperature fields from color-ratio pyrometry of raw Nikon NEF images, and soot volume fractions.",
+      "evidence_ids": [
+        "PSI-60:meta:approach#b165dff59297",
+        "PSI-60:meta:objective#3902ffcd3e6c"
+      ]
+    },
+    "hardware": null
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "type": "objective",
+      "text": "The investigation aims to integrate computational and experimental methods to derive temperature distributions and soot volume fractions from the Smoke Point in Coflow Experiment (SPICE) data available in PSI.",
+      "evidence_ids": [
+        "PSI-60:meta:objective#3902ffcd3e6c"
+      ]
+    },
+    {
+      "id": "C2",
+      "type": "objective",
+      "text": "The investigation aims to reconcile microgravity and normal gravity flame behavior and identify key physical and chemical processes influencing smoke point development.",
+      "evidence_ids": [
+        "PSI-60:meta:objective#771c9d633cb6"
+      ]
+    },
+    {
+      "id": "C3",
+      "type": "hypothesis",
+      "text": "The investigation hypothesizes that microgravity conditions would produce longer, more diffuse flames with lower temperatures and increased soot concentrations compared to normal gravity, and that integrating experimental temperature fields into the simulations would reduce discrepancies between measured and predicted soot distributions.",
+      "evidence_ids": [
+        "PSI-60:meta:hypothesis#c889c953ae27"
+      ]
+    }
+  ],
+  "findings": [],
+  "limitations": [
+    {
+      "text": "The investigation works from existing SPICE data available in PSI, and the metadata states no measured or computed result.",
+      "basis": "source",
+      "evidence_ids": [
+        "PSI-60:meta:objective#3902ffcd3e6c",
+        "PSI-60:meta:hypothesis#c889c953ae27"
+      ]
+    },
+    {
+      "text": "Only PSI metadata was examined and no document text was processed.",
+      "basis": "coverage",
+      "evidence_ids": []
+    }
+  ],
+  "modeling_resources": [],
+  "evidence": [
+    {
+      "id": "PSI-60:meta:objective#3902ffcd3e6c",
+      "passage_id": "PSI-60:meta:objective",
+      "investigation": "PSI-60",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-60",
+      "locator": {
+        "kind": "metadata",
+        "field": "objective"
+      },
+      "excerpt": "derive temperature distributions and soot volume fractions from the Smoke Point in Coflow Experiment (SPICE) data available in PSI."
+    },
+    {
+      "id": "PSI-60:meta:objective#771c9d633cb6",
+      "passage_id": "PSI-60:meta:objective",
+      "investigation": "PSI-60",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-60",
+      "locator": {
+        "kind": "metadata",
+        "field": "objective"
+      },
+      "excerpt": "The work further aimed to reconcile microgravity and normal gravity flame behavior, identify key physical and chemical processes influencing smoke point development"
+    },
+    {
+      "id": "PSI-60:meta:hypothesis#c889c953ae27",
+      "passage_id": "PSI-60:meta:hypothesis",
+      "investigation": "PSI-60",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-60",
+      "locator": {
+        "kind": "metadata",
+        "field": "hypothesis"
+      },
+      "excerpt": "Microgravity conditions would produce longer, more diffuse flames with lower temperatures and increased soot concentrations compared to normal gravity, and that careful integration of experimental temperature fields into the simulations would reduce discrepancies between measured and predicted soot distributions."
+    },
+    {
+      "id": "PSI-60:meta:approach#b165dff59297",
+      "passage_id": "PSI-60:meta:approach",
+      "investigation": "PSI-60",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-60",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "excerpt": "Raw Nikon NEF images were decoded into three color channels and analyzed using color-ratio pyrometry to extract soot temperature fields."
+    },
+    {
+      "id": "PSI-60:meta:approach#fb5be6148903",
+      "passage_id": "PSI-60:meta:approach",
+      "investigation": "PSI-60",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-60",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "excerpt": "Simulations were performed for both Yale and ACME burner configurations under normal and microgravity conditions."
+    },
+    {
+      "id": "PSI-60:meta:researchImpacts#54b938cd4f82",
+      "passage_id": "PSI-60:meta:researchImpacts",
+      "investigation": "PSI-60",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-60",
+      "locator": {
+        "kind": "metadata",
+        "field": "researchImpacts"
+      },
+      "excerpt": "For space applications, the results support safer fire detection, suppression, and cleaner combustion technologies critical for long-duration missions."
+    }
+  ],
+  "generation": {
+    "method": "skill",
+    "skill": "research-card",
+    "model": "claude-sonnet-5-5",
+    "generated_at": "2026-11-15T01:50:33+00:00"
+  },
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "notes": ""
+  }
+}

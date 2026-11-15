@@ -1,0 +1,270 @@
+{
+  "accession": "PSI-39",
+  "source_version": 4,
+  "title": "Cool Flames Investigation",
+  "acronym": "CFI",
+  "coverage": "metadata_only",
+  "summary": {
+    "text": "The Cool Flames Investigation aims to examine droplet combustion of n-dodecane and n-dodecane/iso-dodecane mixtures, including helium dilution and the relation between droplet size, pressure and extinction, using the Multi-User Droplet Combustion Apparatus in the Combustion Integrated Rack.",
+    "evidence_ids": [
+      "PSI-39:meta:objective#474d006cf9b9",
+      "PSI-39:meta:objective#e58e2c12e703",
+      "PSI-39:meta:objective#52065a57411b",
+      "PSI-39:meta:approach#c4d5dc679455"
+    ]
+  },
+  "safety_categories": [],
+  "comparison": {
+    "fuels": {
+      "text": "n-dodecane, farnesane, and mixtures of n-dodecane/iso-dodecane.",
+      "evidence_ids": [
+        "PSI-39:meta:approach#9780fb22ed13"
+      ]
+    },
+    "geometry": {
+      "text": "Fuel droplets suspended between hypodermic needles or tethered using silicon-carbide fibers.",
+      "evidence_ids": [
+        "PSI-39:meta:approach#06410b555c76"
+      ]
+    },
+    "oxygen": {
+      "text": "Fuels diluted with molecular oxygen, atomic nitrogen, and helium; no concentrations stated.",
+      "evidence_ids": [
+        "PSI-39:meta:approach#b92b8b60f0a3"
+      ]
+    },
+    "pressure": {
+      "text": "Pressures from 0.25 atm to 5 atm stated as an objective; the approach states a gas mixture delivered at 0.25 to 0.5 atm.",
+      "evidence_ids": [
+        "PSI-39:meta:objective#474d006cf9b9",
+        "PSI-39:meta:approach#3d0c95392d89"
+      ]
+    },
+    "flow": null,
+    "gravity": null,
+    "measurements": {
+      "text": "Droplet size by black-and-white camera, OH* radical emissions and flame size by UV camera, and flame radiation by narrow-band and wide-band radiometers.",
+      "evidence_ids": [
+        "PSI-39:meta:approach#be152c38b51e",
+        "PSI-39:meta:approach#67b7bf936ab7",
+        "PSI-39:meta:approach#309c35361274"
+      ]
+    },
+    "hardware": {
+      "text": "Multi-User Droplet Combustion Apparatus (MDCA) in the Combustion Integrated Rack (CIR).",
+      "evidence_ids": [
+        "PSI-39:meta:approach#c4d5dc679455"
+      ]
+    }
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "type": "objective",
+      "text": "The investigation aims to examine the combustion behavior of n-dodecane and mixtures of n-dodecane/iso-dodecane at pressures ranging from 0.25 atm to 5 atm.",
+      "evidence_ids": [
+        "PSI-39:meta:objective#474d006cf9b9"
+      ]
+    },
+    {
+      "id": "C2",
+      "type": "objective",
+      "text": "The investigation aims to analyze the effects of helium dilution on cool flame behavior.",
+      "evidence_ids": [
+        "PSI-39:meta:objective#e58e2c12e703"
+      ]
+    },
+    {
+      "id": "C3",
+      "type": "objective",
+      "text": "The investigation aims to investigate the relationship between droplet size, pressure, and flame extinction.",
+      "evidence_ids": [
+        "PSI-39:meta:objective#52065a57411b"
+      ]
+    },
+    {
+      "id": "C4",
+      "type": "hypothesis",
+      "text": "The investigation hypothesizes that combustion of liquid hydrocarbon fuels in microgravity can provide insights into low-temperature chemical kinetics, revealing critical parameters like droplet extinction diameters and flame dynamics that are not observable on Earth.",
+      "evidence_ids": [
+        "PSI-39:meta:hypothesis#acce82a21f06"
+      ]
+    }
+  ],
+  "findings": [],
+  "limitations": [
+    {
+      "text": "The metadata gives two different pressure ranges (0.25 atm to 5 atm in the objectives, 0.25 to 0.5 atm in the approach) and no measured result.",
+      "basis": "source",
+      "evidence_ids": [
+        "PSI-39:meta:objective#474d006cf9b9",
+        "PSI-39:meta:approach#3d0c95392d89"
+      ]
+    },
+    {
+      "text": "Only PSI metadata was examined and no document text was processed.",
+      "basis": "coverage",
+      "evidence_ids": []
+    }
+  ],
+  "modeling_resources": [
+    {
+      "description": "Analyzed-data summary files for CFI dodecane flights listed in the PSI file inventory; the approach states droplet size and flame size were measured by camera.",
+      "file_keys": [
+        "psi-data/PSI-39/Analyzed Data/PSI-39_Analyzed Data_FLEX-1206_Summary.pdf",
+        "psi-data/PSI-39/Analyzed Data/PSI-39_Analyzed Data_FLEX-1207_Summary.pdf",
+        "psi-data/PSI-39/Analyzed Data/PSI-39_Analyzed Data_FLEX-1208_Summary.pdf"
+      ],
+      "evidence_ids": [
+        "PSI-39:meta:approach#be152c38b51e",
+        "PSI-39:meta:approach#67b7bf936ab7"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "PSI-39:meta:objective#474d006cf9b9",
+      "passage_id": "PSI-39:meta:objective",
+      "investigation": "PSI-39",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-39",
+      "locator": {
+        "kind": "metadata",
+        "field": "objective"
+      },
+      "excerpt": "Examine the combustion behavior of n-dodecane and mixtures of n-dodecane/iso-dodecane at pressures ranging from 0.25 atm to 5 atm."
+    },
+    {
+      "id": "PSI-39:meta:objective#e58e2c12e703",
+      "passage_id": "PSI-39:meta:objective",
+      "investigation": "PSI-39",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-39",
+      "locator": {
+        "kind": "metadata",
+        "field": "objective"
+      },
+      "excerpt": "Analyze the effects of helium dilution on cool flame behavior."
+    },
+    {
+      "id": "PSI-39:meta:objective#52065a57411b",
+      "passage_id": "PSI-39:meta:objective",
+      "investigation": "PSI-39",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-39",
+      "locator": {
+        "kind": "metadata",
+        "field": "objective"
+      },
+      "excerpt": "Investigate the relationship between droplet size, pressure, and flame extinction"
+    },
+    {
+      "id": "PSI-39:meta:approach#67b7bf936ab7",
+      "passage_id": "PSI-39:meta:approach",
+      "investigation": "PSI-39",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-39",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "excerpt": "A UV camera was used for capturing the OH* radical emissions and flame size."
+    },
+    {
+      "id": "PSI-39:meta:approach#9780fb22ed13",
+      "passage_id": "PSI-39:meta:approach",
+      "investigation": "PSI-39",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-39",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "excerpt": "Fuels observed include n-dodecane, farnesane, and mixtures of n-dodecane/iso-dodecane."
+    },
+    {
+      "id": "PSI-39:meta:approach#c4d5dc679455",
+      "passage_id": "PSI-39:meta:approach",
+      "investigation": "PSI-39",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-39",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "excerpt": "The Combustion Integrated Rack (CIR) contains the Multi-User Droplet Combustion Apparatus (MDCA) which facilitates the controlled combustion of fuel droplets."
+    },
+    {
+      "id": "PSI-39:meta:approach#3d0c95392d89",
+      "passage_id": "PSI-39:meta:approach",
+      "investigation": "PSI-39",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-39",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "excerpt": "A system of gas bottles and fuel syringes delivers the desired gas mixture to the combustion chamber ranging from 0.25 to 0.5 atm."
+    },
+    {
+      "id": "PSI-39:meta:approach#be152c38b51e",
+      "passage_id": "PSI-39:meta:approach",
+      "investigation": "PSI-39",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-39",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "excerpt": "Flames were observed with a black-and-white camera for droplet size measurements."
+    },
+    {
+      "id": "PSI-39:meta:approach#06410b555c76",
+      "passage_id": "PSI-39:meta:approach",
+      "investigation": "PSI-39",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-39",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "excerpt": "Droplets of fuel are dispensed and suspended between hypodermic needles or tethered using silicon-carbide fibers."
+    },
+    {
+      "id": "PSI-39:meta:approach#b92b8b60f0a3",
+      "passage_id": "PSI-39:meta:approach",
+      "investigation": "PSI-39",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-39",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "excerpt": "Fuels diluted with molecular oxygen, atomic nitrogen, and helium to study the influence on flame extinction and dynamics."
+    },
+    {
+      "id": "PSI-39:meta:approach#309c35361274",
+      "passage_id": "PSI-39:meta:approach",
+      "investigation": "PSI-39",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-39",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "excerpt": "Narrow-band and wide-band radiometers for analyzed flame radiation."
+    },
+    {
+      "id": "PSI-39:meta:hypothesis#acce82a21f06",
+      "passage_id": "PSI-39:meta:hypothesis",
+      "investigation": "PSI-39",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-39",
+      "locator": {
+        "kind": "metadata",
+        "field": "hypothesis"
+      },
+      "excerpt": "can provide insights into low-temperature chemical kinetics, revealing critical parameters like droplet extinction diameters and flame dynamics that are not observable on Earth."
+    }
+  ],
+  "generation": {
+    "method": "skill",
+    "skill": "research-card",
+    "model": "claude-sonnet-5-5",
+    "generated_at": "2026-11-15T01:50:32+00:00"
+  },
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "notes": ""
+  }
+}

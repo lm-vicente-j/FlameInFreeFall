@@ -1,0 +1,262 @@
+{
+  "accession": "PSI-22",
+  "source_version": 7,
+  "title": "Advanced Combustion via Microgravity Experiments Electric-Field Effects on Laminar Diffusion Flames",
+  "acronym": "ACME E-FIELD Flames",
+  "coverage": "metadata_only",
+  "summary": {
+    "text": "The E-FIELD Flames investigation studies how electric fields influence laminar diffusion flames of methane and ethylene in microgravity, in the combustion integrated rack.",
+    "evidence_ids": [
+      "PSI-22:meta:approach#0d464d3848d9",
+      "PSI-22:meta:approach#8072adc986ee",
+      "PSI-22:meta:approach#dd3ab4ca9c5c"
+    ]
+  },
+  "safety_categories": [],
+  "comparison": {
+    "fuels": {
+      "text": "Methane and ethylene, diluted with nitrogen.",
+      "evidence_ids": [
+        "PSI-22:meta:approach#8072adc986ee"
+      ]
+    },
+    "geometry": {
+      "text": "Gas-fueled flames with and without a coflow of air, with a high voltage (up to 10 kV) between the burner and a mesh downstream.",
+      "evidence_ids": [
+        "PSI-22:meta:approach#670039b121ad",
+        "PSI-22:meta:approach#b5040129f822"
+      ]
+    },
+    "oxygen": null,
+    "pressure": null,
+    "flow": {
+      "text": "Fuel flow rate and coflow velocity were varied.",
+      "evidence_ids": [
+        "PSI-22:meta:approach#4b8577945b3e"
+      ]
+    },
+    "gravity": {
+      "text": "Microgravity.",
+      "evidence_ids": [
+        "PSI-22:meta:approach#0d464d3848d9"
+      ]
+    },
+    "measurements": {
+      "text": "Voltage-current curves, spectral imaging of chemiluminescence and soot volume fraction, and thermopile radiant emission.",
+      "evidence_ids": [
+        "PSI-22:meta:approach#c09af9a8a4c1",
+        "PSI-22:meta:approach#c280067340b5",
+        "PSI-22:meta:approach#db49cb6f94ce"
+      ]
+    },
+    "hardware": {
+      "text": "Combustion Integrated Rack (CIR) and ACME.",
+      "evidence_ids": [
+        "PSI-22:meta:experimentHardware#d0db0f02f378"
+      ]
+    }
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "type": "objective",
+      "text": "The investigation aims to better understand the relationship between electric field voltage and chemi-ion current, analyze the dynamic response of flames to electric field changes, evaluate soot formation, and characterize stabilized near-limit lifted flames.",
+      "evidence_ids": [
+        "PSI-22:meta:objective#070a22e57b33"
+      ]
+    },
+    {
+      "id": "C2",
+      "type": "hypothesis",
+      "text": "The investigation hypothesizes that the application of electric fields in microgravity environments will significantly influence laminar diffusion flames.",
+      "evidence_ids": [
+        "PSI-22:meta:hypothesis#0d33f96454b7"
+      ]
+    }
+  ],
+  "findings": [],
+  "limitations": [
+    {
+      "text": "The source states the research is not being conducted to serve any space applications.",
+      "basis": "source",
+      "evidence_ids": [
+        "PSI-22:meta:researchImpacts#2e8692bf3c1b"
+      ]
+    },
+    {
+      "text": "Only PSI metadata was examined; no document text was processed.",
+      "basis": "coverage",
+      "evidence_ids": []
+    }
+  ],
+  "modeling_resources": [
+    {
+      "description": "Experimental table for the E-FIELD Flames investigation, relevant to voltage-current, imaging and radiant emission measurements.",
+      "file_keys": [
+        "psi-data/PSI-22/Experimental table/PSI-22_Experimental table_ACME E-FIELD Flames.csv"
+      ],
+      "evidence_ids": [
+        "PSI-22:meta:approach#c09af9a8a4c1",
+        "PSI-22:meta:approach#c280067340b5",
+        "PSI-22:meta:approach#db49cb6f94ce"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "PSI-22:meta:objective#070a22e57b33",
+      "passage_id": "PSI-22:meta:objective",
+      "investigation": "PSI-22",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-22",
+      "locator": {
+        "kind": "metadata",
+        "field": "objective"
+      },
+      "excerpt": "The objective of this investigation is to better understand the relationship between electric field voltage and chemi-ion current, analyze the dynamic response of flames to electric field changes, evaluate soot formation, and characterize stabilized near-limit lifted flames."
+    },
+    {
+      "id": "PSI-22:meta:hypothesis#0d33f96454b7",
+      "passage_id": "PSI-22:meta:hypothesis",
+      "investigation": "PSI-22",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-22",
+      "locator": {
+        "kind": "metadata",
+        "field": "hypothesis"
+      },
+      "excerpt": "The application of electric fields in microgravity environments will significantly influence laminar diffusion flames"
+    },
+    {
+      "id": "PSI-22:meta:approach#670039b121ad",
+      "passage_id": "PSI-22:meta:approach",
+      "investigation": "PSI-22",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-22",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "excerpt": "The experiment is conducted with gas-fueled flames, both with and without a coflow of air."
+    },
+    {
+      "id": "PSI-22:meta:approach#b5040129f822",
+      "passage_id": "PSI-22:meta:approach",
+      "investigation": "PSI-22",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-22",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "excerpt": "An electric field is generated by creating a high voltage (up to 10 kV) differential between the burner and a flat circular mesh suspended above (i.e., downstream of) the burner."
+    },
+    {
+      "id": "PSI-22:meta:approach#8072adc986ee",
+      "passage_id": "PSI-22:meta:approach",
+      "investigation": "PSI-22",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-22",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "excerpt": "Methane and ethylene were used as fuels and diluted with nitrogen to control flame strength."
+    },
+    {
+      "id": "PSI-22:meta:approach#dd3ab4ca9c5c",
+      "passage_id": "PSI-22:meta:approach",
+      "investigation": "PSI-22",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-22",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "excerpt": "All experiments were conducted in the combustion integrated rack (CIR)."
+    },
+    {
+      "id": "PSI-22:meta:approach#c280067340b5",
+      "passage_id": "PSI-22:meta:approach",
+      "investigation": "PSI-22",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-22",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "excerpt": "Spectral imaging with filters measures chemiluminescent emissions and soot volume fraction."
+    },
+    {
+      "id": "PSI-22:meta:approach#db49cb6f94ce",
+      "passage_id": "PSI-22:meta:approach",
+      "investigation": "PSI-22",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-22",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "excerpt": "There were thermopile detectors to measure flame radiant emissions."
+    },
+    {
+      "id": "PSI-22:meta:researchImpacts#2e8692bf3c1b",
+      "passage_id": "PSI-22:meta:researchImpacts",
+      "investigation": "PSI-22",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-22",
+      "locator": {
+        "kind": "metadata",
+        "field": "researchImpacts"
+      },
+      "excerpt": "The E-FIELD Flames research is not being conducted to serve any space applications"
+    },
+    {
+      "id": "PSI-22:meta:approach#0d464d3848d9",
+      "passage_id": "PSI-22:meta:approach",
+      "investigation": "PSI-22",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-22",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "excerpt": "The E-FIELD flames experiment investigates how electric fields influence the behavior of laminar diffusion flames in microgravity."
+    },
+    {
+      "id": "PSI-22:meta:approach#4b8577945b3e",
+      "passage_id": "PSI-22:meta:approach",
+      "investigation": "PSI-22",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-22",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "excerpt": "Parameters such as fuel flow rate, coflow velocity, and field polarity are were varied"
+    },
+    {
+      "id": "PSI-22:meta:approach#c09af9a8a4c1",
+      "passage_id": "PSI-22:meta:approach",
+      "investigation": "PSI-22",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-22",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "excerpt": "Voltage-current curves were recorded to assess the relationship between electric field strength and chemi-ion current"
+    },
+    {
+      "id": "PSI-22:meta:experimentHardware#d0db0f02f378",
+      "passage_id": "PSI-22:meta:experimentHardware",
+      "investigation": "PSI-22",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-22",
+      "locator": {
+        "kind": "metadata",
+        "field": "experimentHardware"
+      },
+      "excerpt": "Combustion Integrated Rack (CIR), ACME"
+    }
+  ],
+  "generation": {
+    "method": "skill",
+    "skill": "research-card",
+    "model": "claude-sonnet-5-5",
+    "generated_at": "2026-11-15T01:50:29+00:00"
+  },
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "notes": ""
+  }
+}

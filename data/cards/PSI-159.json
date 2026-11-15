@@ -1,0 +1,206 @@
+{
+  "accession": "PSI-159",
+  "source_version": 1,
+  "title": "Advanced Combustion via Microgravity Experiments / Cool Flames Investigation with Gases",
+  "acronym": "ACME CFI-G",
+  "coverage": "metadata_only",
+  "summary": {
+    "text": "This investigation aims to determine the conditions under which cool diffusion flames occur for propane, n-butane, and n-pentane in normal and inverse configurations, through spherical diffusion flame tests aboard the ISS.",
+    "evidence_ids": [
+      "PSI-159:meta:objective#22f15649f406",
+      "PSI-159:meta:approach#2c4c68221a35"
+    ]
+  },
+  "safety_categories": [],
+  "comparison": {
+    "fuels": {
+      "text": "Propane, n-butane, and n-pentane.",
+      "evidence_ids": [
+        "PSI-159:meta:objective#22f15649f406"
+      ]
+    },
+    "geometry": {
+      "text": "Spherical diffusion flames; spherical porous burners are hypothesized.",
+      "evidence_ids": [
+        "PSI-159:meta:approach#2c4c68221a35",
+        "PSI-159:meta:hypothesis#65ffe9819643"
+      ]
+    },
+    "oxygen": null,
+    "pressure": {
+      "text": "A range of pressures is considered.",
+      "evidence_ids": [
+        "PSI-159:meta:approach#f67f6fefd0ef"
+      ]
+    },
+    "flow": {
+      "text": "A range of flow rates, with normal and inverse convection directions.",
+      "evidence_ids": [
+        "PSI-159:meta:approach#f67f6fefd0ef"
+      ]
+    },
+    "gravity": null,
+    "measurements": {
+      "text": "Cameras, radiometers, photomultiplier tubes, and thermocouples.",
+      "evidence_ids": [
+        "PSI-159:meta:approach#5643469da841"
+      ]
+    },
+    "hardware": {
+      "text": "ACME, Combustion Integrated Rack (CIR).",
+      "evidence_ids": [
+        "PSI-159:meta:experimentHardware#feb477402c84"
+      ]
+    }
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "type": "objective",
+      "text": "The investigation aims to determine the conditions for which cool diffusion flames occur for propane, n-butane, and n-pentane, for normal and inverse flames.",
+      "evidence_ids": [
+        "PSI-159:meta:objective#22f15649f406"
+      ]
+    },
+    {
+      "id": "C2",
+      "type": "hypothesis",
+      "text": "The investigation hypothesizes that ISS testing can demonstrate, for the first time, steady-state cool diffusion flames on spherical porous burners and inverse cool diffusion flames.",
+      "evidence_ids": [
+        "PSI-159:meta:hypothesis#56f8a7f4e7ee",
+        "PSI-159:meta:hypothesis#65ffe9819643",
+        "PSI-159:meta:hypothesis#45d952e25138"
+      ]
+    }
+  ],
+  "findings": [],
+  "limitations": [
+    {
+      "text": "The metadata states objectives, hypotheses and approach but no measured result, so no reported observation or finding is recorded.",
+      "basis": "source",
+      "evidence_ids": [
+        "PSI-159:meta:objective#22f15649f406",
+        "PSI-159:meta:hypothesis#56f8a7f4e7ee"
+      ]
+    },
+    {
+      "text": "Only PSI metadata was examined; no document text was processed, so statements are limited to what the metadata fields say.",
+      "basis": "coverage",
+      "evidence_ids": []
+    }
+  ],
+  "modeling_resources": [
+    {
+      "description": "Candidate data for modeling: normal-flame and inverse-flame experimental tables from the ISS tests, measured with the listed instruments. No model is claimed.",
+      "file_keys": [
+        "psi-data/PSI-159/Experimental table/PSI-159_Experimental table_CFI-G_Inverse Flames.csv",
+        "psi-data/PSI-159/Experimental table/PSI-159_Experimental table_CFI-G_Normal Flames.csv"
+      ],
+      "evidence_ids": [
+        "PSI-159:meta:approach#5643469da841"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "PSI-159:meta:objective#22f15649f406",
+      "passage_id": "PSI-159:meta:objective",
+      "investigation": "PSI-159",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-159",
+      "locator": {
+        "kind": "metadata",
+        "field": "objective"
+      },
+      "excerpt": "Determine the conditions for which cool diffusion flames occur for propane, n-butane, and n-pentane; normal and inverse flames"
+    },
+    {
+      "id": "PSI-159:meta:hypothesis#56f8a7f4e7ee",
+      "passage_id": "PSI-159:meta:hypothesis",
+      "investigation": "PSI-159",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-159",
+      "locator": {
+        "kind": "metadata",
+        "field": "hypothesis"
+      },
+      "excerpt": "The hypotheses of this research are that testing aboard the ISS can demonstrate the following for the first time"
+    },
+    {
+      "id": "PSI-159:meta:hypothesis#65ffe9819643",
+      "passage_id": "PSI-159:meta:hypothesis",
+      "investigation": "PSI-159",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-159",
+      "locator": {
+        "kind": "metadata",
+        "field": "hypothesis"
+      },
+      "excerpt": "Steady-state cool diffusion flames on spherical porous burners."
+    },
+    {
+      "id": "PSI-159:meta:hypothesis#45d952e25138",
+      "passage_id": "PSI-159:meta:hypothesis",
+      "investigation": "PSI-159",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-159",
+      "locator": {
+        "kind": "metadata",
+        "field": "hypothesis"
+      },
+      "excerpt": "Inverse cool diffusion flames."
+    },
+    {
+      "id": "PSI-159:meta:approach#2c4c68221a35",
+      "passage_id": "PSI-159:meta:approach",
+      "investigation": "PSI-159",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-159",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "excerpt": "Perform spherical diffusion flame tests aboard the International Space Station."
+    },
+    {
+      "id": "PSI-159:meta:approach#f67f6fefd0ef",
+      "passage_id": "PSI-159:meta:approach",
+      "investigation": "PSI-159",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-159",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "excerpt": "Consider multiple fuels, a range of reactant dilutions, flow rates, and pressures for normal and inverse convection directions."
+    },
+    {
+      "id": "PSI-159:meta:approach#5643469da841",
+      "passage_id": "PSI-159:meta:approach",
+      "investigation": "PSI-159",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-159",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "excerpt": "Observe the flames with a broad suite of cameras, radiometers, photomultiplier tubes, and thermocouples."
+    },
+    {
+      "id": "PSI-159:meta:experimentHardware#feb477402c84",
+      "passage_id": "PSI-159:meta:experimentHardware",
+      "investigation": "PSI-159",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-159",
+      "locator": {
+        "kind": "metadata",
+        "field": "experimentHardware"
+      },
+      "excerpt": "ACME, Combustion Integrated Rack (CIR)"
+    }
+  ],
+  "generation": {
+    "method": "skill",
+    "skill": "research-card",
+    "model": "claude-sonnet-5-5",
+    "generated_at": "2026-11-15T01:49:58+00:00"
+  },
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "notes": ""
+  }
+}

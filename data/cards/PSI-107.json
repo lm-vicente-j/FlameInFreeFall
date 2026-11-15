@@ -1,0 +1,201 @@
+{
+  "accession": "PSI-107",
+  "source_version": 4,
+  "title": "Smoke Point In Co-flow Experiment",
+  "acronym": "SPICE",
+  "coverage": "metadata_only",
+  "summary": {
+    "text": "SPICE aims to better understand combustion by observing flames in microgravity aboard the ISS, and hypothesizes that non-buoyant jet diffusion flames allow study of laminar smoke-point properties.",
+    "evidence_ids": [
+      "PSI-107:meta:objective#295b4ba74d9a",
+      "PSI-107:meta:hypothesis#0d525ace2983"
+    ]
+  },
+  "safety_categories": [],
+  "comparison": {
+    "fuels": {
+      "text": "Methane, ethylene, propane, propylene, and propylene mixtures were tested.",
+      "evidence_ids": [
+        "PSI-107:meta:approach#f427a4c3665a"
+      ]
+    },
+    "geometry": {
+      "text": "Burner diameters of 0.41 mm, 0.76 mm, and 1.6 mm.",
+      "evidence_ids": [
+        "PSI-107:meta:approach#5e77fe0d2962"
+      ]
+    },
+    "oxygen": null,
+    "pressure": null,
+    "flow": {
+      "text": "Co-flow velocities ranging from 5.4 cm/s to 65 cm/s.",
+      "evidence_ids": [
+        "PSI-107:meta:approach#5e77fe0d2962"
+      ]
+    },
+    "gravity": {
+      "text": "Flames are observed in a microgravity environment aboard the ISS.",
+      "evidence_ids": [
+        "PSI-107:meta:objective#295b4ba74d9a"
+      ]
+    },
+    "measurements": {
+      "text": "Measurements included flame height, radiative heat losses, and co-flow air velocity distributions.",
+      "evidence_ids": [
+        "PSI-107:meta:approach#e9112d8b8f39"
+      ]
+    },
+    "hardware": {
+      "text": "Microgravity Science Glovebox (MSG).",
+      "evidence_ids": [
+        "PSI-107:meta:experimentHardware#4129335e38aa"
+      ]
+    }
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "type": "objective",
+      "text": "SPICE aims to better understand combustion by observing flames in a microgravity environment aboard the ISS.",
+      "evidence_ids": [
+        "PSI-107:meta:objective#295b4ba74d9a"
+      ]
+    },
+    {
+      "id": "C2",
+      "type": "hypothesis",
+      "text": "The research hypothesizes that minimizing gravity-driven transport allows study of the laminar smoke-point properties of non-buoyant jet diffusion flames.",
+      "evidence_ids": [
+        "PSI-107:meta:hypothesis#0d525ace2983"
+      ]
+    },
+    {
+      "id": "C3",
+      "type": "potential_application",
+      "text": "The metadata states the research could help design safer spacecraft environments (stated as a research impact, not as a result).",
+      "evidence_ids": [
+        "PSI-107:meta:researchImpacts#5e71cd22d5e8"
+      ]
+    }
+  ],
+  "findings": [],
+  "limitations": [
+    {
+      "text": "The metadata states objectives, hypothesis and impacts but no measured result, so no reported observation or finding is recorded.",
+      "basis": "source",
+      "evidence_ids": [
+        "PSI-107:meta:objective#295b4ba74d9a",
+        "PSI-107:meta:hypothesis#0d525ace2983"
+      ]
+    },
+    {
+      "text": "Only PSI metadata was examined; no document text was processed, so statements are limited to what the metadata fields say.",
+      "basis": "coverage",
+      "evidence_ids": []
+    }
+  ],
+  "modeling_resources": [
+    {
+      "description": "Candidate data for modeling: SPICE experimental table and numeric raw data files for the measurements listed in the approach (flame height, radiative heat losses, co-flow velocity distributions). No model is claimed.",
+      "file_keys": [
+        "psi-data/PSI-107/Experimental table/PSI-107_Experimental table_Spice.csv",
+        "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_045_SPICE_DSC_num.txt",
+        "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_048_SPICE_num.txt"
+      ],
+      "evidence_ids": [
+        "PSI-107:meta:approach#e9112d8b8f39"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "PSI-107:meta:objective#295b4ba74d9a",
+      "passage_id": "PSI-107:meta:objective",
+      "investigation": "PSI-107",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-107",
+      "locator": {
+        "kind": "metadata",
+        "field": "objective"
+      },
+      "excerpt": "The objective of SPICE is to better understand the complex process of combustion by observing flames in a microgravity environment aboard the International Space Station (ISS)"
+    },
+    {
+      "id": "PSI-107:meta:hypothesis#0d525ace2983",
+      "passage_id": "PSI-107:meta:hypothesis",
+      "investigation": "PSI-107",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-107",
+      "locator": {
+        "kind": "metadata",
+        "field": "hypothesis"
+      },
+      "excerpt": "The research hypothesizes that by minimizing gravity-driven transport phenomena scientists can study the laminar smoke-point properties of non-buoyant jet diffusion flames."
+    },
+    {
+      "id": "PSI-107:meta:approach#f427a4c3665a",
+      "passage_id": "PSI-107:meta:approach",
+      "investigation": "PSI-107",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-107",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "excerpt": "Fuels tested included methane, ethylene, propane, propylene, and propylene mixtures."
+    },
+    {
+      "id": "PSI-107:meta:approach#5e77fe0d2962",
+      "passage_id": "PSI-107:meta:approach",
+      "investigation": "PSI-107",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-107",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "excerpt": "burner diameters of 0.41 mm, 0.76 mm, and 1.6 mm and co-flow velocities ranging from 5.4 cm/s to 65 cm/s"
+    },
+    {
+      "id": "PSI-107:meta:experimentHardware#4129335e38aa",
+      "passage_id": "PSI-107:meta:experimentHardware",
+      "investigation": "PSI-107",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-107",
+      "locator": {
+        "kind": "metadata",
+        "field": "experimentHardware"
+      },
+      "excerpt": "Microgravity Science Glovebox (MSG)"
+    },
+    {
+      "id": "PSI-107:meta:approach#e9112d8b8f39",
+      "passage_id": "PSI-107:meta:approach",
+      "investigation": "PSI-107",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-107",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "excerpt": "Measurements included flame height, radiative heat losses, and co-flow air velocity distributions."
+    },
+    {
+      "id": "PSI-107:meta:researchImpacts#5e71cd22d5e8",
+      "passage_id": "PSI-107:meta:researchImpacts",
+      "investigation": "PSI-107",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-107",
+      "locator": {
+        "kind": "metadata",
+        "field": "researchImpacts"
+      },
+      "excerpt": "help design safer spacecraft environments"
+    }
+  ],
+  "generation": {
+    "method": "skill",
+    "skill": "research-card",
+    "model": "claude-sonnet-5-5",
+    "generated_at": "2026-11-15T01:49:55+00:00"
+  },
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "notes": ""
+  }
+}

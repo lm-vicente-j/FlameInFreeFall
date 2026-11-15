@@ -1,0 +1,265 @@
+{
+  "accession": "PSI-20",
+  "source_version": 4,
+  "title": "Advanced Combustion via Microgravity Experiments - Burning Rate Emulator",
+  "acronym": "ACME BRE",
+  "coverage": "metadata_only",
+  "summary": {
+    "text": "The BRE flight program plans to observe burning of CH4/N2 and C2H4/N2 mixtures on porous circular burners in long-duration microgravity, under several O2/N2 atmospheres.",
+    "evidence_ids": [
+      "PSI-20:meta:objective#36317ec0c27a",
+      "PSI-20:meta:objective#15c40194255f"
+    ]
+  },
+  "safety_categories": [],
+  "comparison": {
+    "fuels": {
+      "text": "CH4/N2 and C2H4/N2 mixtures.",
+      "evidence_ids": [
+        "PSI-20:meta:objective#36317ec0c27a"
+      ]
+    },
+    "geometry": {
+      "text": "Porous circular burners of 25 and 50 mm diameter.",
+      "evidence_ids": [
+        "PSI-20:meta:objective#36317ec0c27a"
+      ]
+    },
+    "oxygen": {
+      "text": "Atmospheres to be examined include 21 % oxygen, 26.5 % and 34 % oxygen.",
+      "evidence_ids": [
+        "PSI-20:meta:objective#15c40194255f"
+      ]
+    },
+    "pressure": {
+      "text": "Atmospheres to be examined include 14.7 psia, 10.2 psia and 8.2 psia.",
+      "evidence_ids": [
+        "PSI-20:meta:objective#15c40194255f"
+      ]
+    },
+    "flow": {
+      "text": "Fuel flow rate is to be reduced in small increments until extinction is observed.",
+      "evidence_ids": [
+        "PSI-20:meta:approach#c5dfd06dfb12"
+      ]
+    },
+    "gravity": {
+      "text": "Long-duration microgravity; ignition limit tests are to be explored under normal gravity.",
+      "evidence_ids": [
+        "PSI-20:meta:objective#36317ec0c27a",
+        "PSI-20:meta:approach#8b43a40163fb"
+      ]
+    },
+    "measurements": {
+      "text": "Burner surface temperature and heat flux.",
+      "evidence_ids": [
+        "PSI-20:meta:approach#cb76f1c4393f"
+      ]
+    },
+    "hardware": {
+      "text": "Combustion Integrated Rack (CIR) and ACME.",
+      "evidence_ids": [
+        "PSI-20:meta:experimentHardware#d0db0f02f378"
+      ]
+    }
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "type": "objective",
+      "text": "The investigation aims to observe burning behavior in long-duration microgravity for CH4/N2 and C2H4/N2 mixtures on porous circular burners of 25 and 50 mm diameter.",
+      "evidence_ids": [
+        "PSI-20:meta:objective#36317ec0c27a"
+      ]
+    },
+    {
+      "id": "C2",
+      "type": "objective",
+      "text": "The investigation aims to examine atmospheres of 14.7 psia with 21 % oxygen, 10.2 psia with 26.5 % oxygen, and 8.2 psia with 34 % oxygen.",
+      "evidence_ids": [
+        "PSI-20:meta:objective#15c40194255f"
+      ]
+    },
+    {
+      "id": "C3",
+      "type": "objective",
+      "text": "The investigation aims to consider these conditions for extinction limits.",
+      "evidence_ids": [
+        "PSI-20:meta:objective#a8eccc02b057"
+      ]
+    },
+    {
+      "id": "C4",
+      "type": "hypothesis",
+      "text": "The BRE investigation hypothesizes that there can exist a regime of quasi-steady burning in microgravity as a function of materials properties.",
+      "evidence_ids": [
+        "PSI-20:meta:hypothesis#051b6c3e6ae6"
+      ]
+    },
+    {
+      "id": "C5",
+      "type": "hypothesis",
+      "text": "The source also states that steady burning may never be achieved and that only slowly changing unsteady flames may be possible.",
+      "evidence_ids": [
+        "PSI-20:meta:hypothesis#c1052322af6f"
+      ]
+    }
+  ],
+  "findings": [],
+  "limitations": [
+    {
+      "text": "Ignition limit tests are not proposed for microgravity.",
+      "basis": "source",
+      "evidence_ids": [
+        "PSI-20:meta:approach#8b43a40163fb"
+      ]
+    },
+    {
+      "text": "The source describes its own results as preliminary; this card records no result from them.",
+      "basis": "source",
+      "evidence_ids": [
+        "PSI-20:meta:researchImpacts#2c82f58de2d2"
+      ]
+    },
+    {
+      "text": "Only PSI metadata was examined; no document text was processed.",
+      "basis": "coverage",
+      "evidence_ids": []
+    }
+  ],
+  "modeling_resources": [
+    {
+      "description": "Experimental table for the BRE investigation, relevant to burner surface temperature and heat flux measurements.",
+      "file_keys": [
+        "psi-data/PSI-20/Experimental table/PSI-20_Experimental table_ACME BRE.csv"
+      ],
+      "evidence_ids": [
+        "PSI-20:meta:approach#cb76f1c4393f"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "PSI-20:meta:objective#36317ec0c27a",
+      "passage_id": "PSI-20:meta:objective",
+      "investigation": "PSI-20",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-20",
+      "locator": {
+        "kind": "metadata",
+        "field": "objective"
+      },
+      "excerpt": "Observe burning behavior in long-duration microgravity for CH4/N2 and C2H4/N2mixtures on porous circular burners of 25 and 50 mm diameter."
+    },
+    {
+      "id": "PSI-20:meta:objective#15c40194255f",
+      "passage_id": "PSI-20:meta:objective",
+      "investigation": "PSI-20",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-20",
+      "locator": {
+        "kind": "metadata",
+        "field": "objective"
+      },
+      "excerpt": "NASA - considered atmosphere for human space missions will be examined: 14.7 psia, 21 % oxygen: 10.2 psia, 26.5 %; and 8.2 psia, 34 % oxygen."
+    },
+    {
+      "id": "PSI-20:meta:objective#a8eccc02b057",
+      "passage_id": "PSI-20:meta:objective",
+      "investigation": "PSI-20",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-20",
+      "locator": {
+        "kind": "metadata",
+        "field": "objective"
+      },
+      "excerpt": "Consider the conditions of Objectives 1 – 2 for extinction limits."
+    },
+    {
+      "id": "PSI-20:meta:hypothesis#051b6c3e6ae6",
+      "passage_id": "PSI-20:meta:hypothesis",
+      "investigation": "PSI-20",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-20",
+      "locator": {
+        "kind": "metadata",
+        "field": "hypothesis"
+      },
+      "excerpt": "The BRE investigation hypothesizes that there can exist a regime of quasi-steady burning in microgravity as a function of materials properties."
+    },
+    {
+      "id": "PSI-20:meta:approach#8b43a40163fb",
+      "passage_id": "PSI-20:meta:approach",
+      "investigation": "PSI-20",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-20",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "excerpt": "Ignition limit tests are not proposed for microgravity, but we will explore these under normal gravity."
+    },
+    {
+      "id": "PSI-20:meta:approach#c5dfd06dfb12",
+      "passage_id": "PSI-20:meta:approach",
+      "investigation": "PSI-20",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-20",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "excerpt": "At that state, the flow rate can be reduced in small increments, until extinction is observed and the flow rate shut off."
+    },
+    {
+      "id": "PSI-20:meta:experimentHardware#d0db0f02f378",
+      "passage_id": "PSI-20:meta:experimentHardware",
+      "investigation": "PSI-20",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-20",
+      "locator": {
+        "kind": "metadata",
+        "field": "experimentHardware"
+      },
+      "excerpt": "Combustion Integrated Rack (CIR), ACME"
+    },
+    {
+      "id": "PSI-20:meta:researchImpacts#2c82f58de2d2",
+      "passage_id": "PSI-20:meta:researchImpacts",
+      "investigation": "PSI-20",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-20",
+      "locator": {
+        "kind": "metadata",
+        "field": "researchImpacts"
+      },
+      "excerpt": "While BRE’s results are still preliminary"
+    },
+    {
+      "id": "PSI-20:meta:approach#cb76f1c4393f",
+      "passage_id": "PSI-20:meta:approach",
+      "investigation": "PSI-20",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-20",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "excerpt": "Because burner surface temperature and heat flux will vary, this will allow a broad range of conditions to be observed during a single test."
+    },
+    {
+      "id": "PSI-20:meta:hypothesis#c1052322af6f",
+      "passage_id": "PSI-20:meta:hypothesis",
+      "investigation": "PSI-20",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-20",
+      "locator": {
+        "kind": "metadata",
+        "field": "hypothesis"
+      },
+      "excerpt": "Steady burning may never be achieved, and only slowly changing unsteady flames are possible."
+    }
+  ],
+  "generation": {
+    "method": "skill",
+    "skill": "research-card",
+    "model": "claude-sonnet-5-5",
+    "generated_at": "2026-11-15T01:50:26+00:00"
+  },
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "notes": ""
+  }
+}

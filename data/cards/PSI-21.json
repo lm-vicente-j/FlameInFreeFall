@@ -1,0 +1,263 @@
+{
+  "accession": "PSI-21",
+  "source_version": 4,
+  "title": "Advanced Combustion via Microgravity Experiments / Coflow Laminar Diffusion Flame",
+  "acronym": "ACME CLD Flame",
+  "coverage": "metadata_only",
+  "summary": {
+    "text": "The Coflow Laminar Diffusion Flame investigation aims to characterize weak coflow methane and ethylene diffusion flames and their sooting tendencies to provide data for testing computational models.",
+    "evidence_ids": [
+      "PSI-21:meta:objective#2bfdffdd2eff",
+      "PSI-21:meta:objective#f7fe7c34722e",
+      "PSI-21:meta:objective#d2bf3fbc4baa"
+    ]
+  },
+  "safety_categories": [
+    {
+      "category": "suppression",
+      "evidence_ids": [
+        "PSI-21:meta:researchImpacts#81bce8fba393"
+      ]
+    }
+  ],
+  "comparison": {
+    "fuels": {
+      "text": "Methane and ethylene diffusion flames.",
+      "evidence_ids": [
+        "PSI-21:meta:approach#7bdb15f5b8a3"
+      ]
+    },
+    "geometry": {
+      "text": "Weak coflow diffusion flames.",
+      "evidence_ids": [
+        "PSI-21:meta:objective#2bfdffdd2eff"
+      ]
+    },
+    "oxygen": null,
+    "pressure": null,
+    "flow": {
+      "text": "Coflow velocity and fuel dilution are listed as varied parameters; no values are given.",
+      "evidence_ids": [
+        "PSI-21:meta:objective#2bfdffdd2eff"
+      ]
+    },
+    "gravity": {
+      "text": "Microgravity environment.",
+      "evidence_ids": [
+        "PSI-21:meta:approach#3cbf1ca865df"
+      ]
+    },
+    "measurements": {
+      "text": "Thin-filament pyrometry, OH* and CH* chemiluminescence, soot luminosity and laser extinction.",
+      "evidence_ids": [
+        "PSI-21:meta:approach#954235144933",
+        "PSI-21:meta:approach#9766dd6e05a6",
+        "PSI-21:meta:approach#1048a707bb09"
+      ]
+    },
+    "hardware": {
+      "text": "Combustion Integrated Rack (CIR) and ACME.",
+      "evidence_ids": [
+        "PSI-21:meta:experimentHardware#d0db0f02f378"
+      ]
+    }
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "type": "objective",
+      "text": "The investigation aims to characterize the behavior of weak coflow diffusion flames of methane and ethylene as a function of velocity and fuel dilution, to provide experimental data for rigorous testing of computational models.",
+      "evidence_ids": [
+        "PSI-21:meta:objective#2bfdffdd2eff",
+        "PSI-21:meta:objective#d2bf3fbc4baa"
+      ]
+    },
+    {
+      "id": "C2",
+      "type": "objective",
+      "text": "The investigation aims to characterize the sooting tendencies of diffusion flames with long residence times, as a function of velocity and fuel dilution.",
+      "evidence_ids": [
+        "PSI-21:meta:objective#f7fe7c34722e"
+      ]
+    },
+    {
+      "id": "C3",
+      "type": "hypothesis",
+      "text": "The source states that the investigation was focused on gathering bench mark data to validate computation models, rather than stating a testable hypothesis of its own.",
+      "evidence_ids": [
+        "PSI-21:meta:hypothesis#f84b3491f9d7"
+      ]
+    },
+    {
+      "id": "C4",
+      "type": "potential_application",
+      "text": "The source states that understanding the factors that affect flame extinction in diffusion flames is critical in the suppression of fires.",
+      "evidence_ids": [
+        "PSI-21:meta:researchImpacts#81bce8fba393"
+      ]
+    }
+  ],
+  "findings": [],
+  "limitations": [
+    {
+      "text": "The hypothesis field refers to publications for details and does not itself state a hypothesis.",
+      "basis": "source",
+      "evidence_ids": [
+        "PSI-21:meta:hypothesis#f84b3491f9d7"
+      ]
+    },
+    {
+      "text": "Only PSI metadata was examined; no document text was processed.",
+      "basis": "coverage",
+      "evidence_ids": []
+    }
+  ],
+  "modeling_resources": [
+    {
+      "description": "Experimental table for the CLD Flame investigation, relevant to flame temperature, chemiluminescence and soot measurements.",
+      "file_keys": [
+        "psi-data/PSI-21/Experimental table/PSI-21_Experimental table_CLD Flame.csv"
+      ],
+      "evidence_ids": [
+        "PSI-21:meta:approach#954235144933",
+        "PSI-21:meta:approach#9766dd6e05a6",
+        "PSI-21:meta:approach#1048a707bb09"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "PSI-21:meta:objective#2bfdffdd2eff",
+      "passage_id": "PSI-21:meta:objective",
+      "investigation": "PSI-21",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-21",
+      "locator": {
+        "kind": "metadata",
+        "field": "objective"
+      },
+      "excerpt": "Characterize the behavior of weak coflow diffusion flames of methane and ethylene, as a function of velocity and fuel dilution"
+    },
+    {
+      "id": "PSI-21:meta:objective#f7fe7c34722e",
+      "passage_id": "PSI-21:meta:objective",
+      "investigation": "PSI-21",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-21",
+      "locator": {
+        "kind": "metadata",
+        "field": "objective"
+      },
+      "excerpt": "Characterize the sooting tendencies of diffusion flames with long residence times, as a function of velocity and fuel dilution"
+    },
+    {
+      "id": "PSI-21:meta:hypothesis#f84b3491f9d7",
+      "passage_id": "PSI-21:meta:hypothesis",
+      "investigation": "PSI-21",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-21",
+      "locator": {
+        "kind": "metadata",
+        "field": "hypothesis"
+      },
+      "excerpt": "This investigation was focused on gathering bench mark data to validate the hypothesis of computation models"
+    },
+    {
+      "id": "PSI-21:meta:approach#954235144933",
+      "passage_id": "PSI-21:meta:approach",
+      "investigation": "PSI-21",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-21",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "excerpt": "Flame temperatures in non-sooting regions will be measured using thin-filament pyrometry."
+    },
+    {
+      "id": "PSI-21:meta:approach#9766dd6e05a6",
+      "passage_id": "PSI-21:meta:approach",
+      "investigation": "PSI-21",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-21",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "excerpt": "The sooting tendencies of the more fuel-rich flames will be investigated using soot luminosity and laser extinction measurements to determine soot temperatures and soot volume fractions."
+    },
+    {
+      "id": "PSI-21:meta:approach#1048a707bb09",
+      "passage_id": "PSI-21:meta:approach",
+      "investigation": "PSI-21",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-21",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "excerpt": "measurements will be made of flame chemiluminesence of OH* and CH* to observe variations in lift-off height and flame shape as extinction limits are approached."
+    },
+    {
+      "id": "PSI-21:meta:researchImpacts#81bce8fba393",
+      "passage_id": "PSI-21:meta:researchImpacts",
+      "investigation": "PSI-21",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-21",
+      "locator": {
+        "kind": "metadata",
+        "field": "researchImpacts"
+      },
+      "excerpt": "an understanding of those factors that affect flame extinction in diffusion flames is critical in the suppression of fires"
+    },
+    {
+      "id": "PSI-21:meta:experimentHardware#d0db0f02f378",
+      "passage_id": "PSI-21:meta:experimentHardware",
+      "investigation": "PSI-21",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-21",
+      "locator": {
+        "kind": "metadata",
+        "field": "experimentHardware"
+      },
+      "excerpt": "Combustion Integrated Rack (CIR), ACME"
+    },
+    {
+      "id": "PSI-21:meta:objective#d2bf3fbc4baa",
+      "passage_id": "PSI-21:meta:objective",
+      "investigation": "PSI-21",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-21",
+      "locator": {
+        "kind": "metadata",
+        "field": "objective"
+      },
+      "excerpt": "In order to provide the experimental data needed to allow rigorous testing of computational models at the extremes of the fuel dilution spectrum"
+    },
+    {
+      "id": "PSI-21:meta:approach#3cbf1ca865df",
+      "passage_id": "PSI-21:meta:approach",
+      "investigation": "PSI-21",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-21",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "excerpt": "The enhanced time and spatial scales in a microgravity environment will be important for achieving both goals."
+    },
+    {
+      "id": "PSI-21:meta:approach#7bdb15f5b8a3",
+      "passage_id": "PSI-21:meta:approach",
+      "investigation": "PSI-21",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-21",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "excerpt": "we plan to study methane and ethylene diffusion flames over a wide range of test conditions."
+    }
+  ],
+  "generation": {
+    "method": "skill",
+    "skill": "research-card",
+    "model": "claude-sonnet-5-5",
+    "generated_at": "2026-11-15T01:50:28+00:00"
+  },
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "notes": ""
+  }
+}

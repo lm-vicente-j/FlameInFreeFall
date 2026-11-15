@@ -1,0 +1,190 @@
+{
+  "accession": "PSI-115",
+  "source_version": 3,
+  "title": "Utilization of the Smoke Aerosol Measurement Experiment Data for Advanced Modeling and Simulation of Smoke Generation in Micro-Gravity",
+  "acronym": "",
+  "coverage": "metadata_only",
+  "summary": {
+    "text": "This investigation aims to use numerical simulation to explore how gravity influences pyrolysis smoke growth, simulating dibutyl-phthalate (DBP) particles in Earth gravity and microgravity.",
+    "evidence_ids": [
+      "PSI-115:meta:objective#151ee00a35e2",
+      "PSI-115:meta:approach#ef8e1836b503"
+    ]
+  },
+  "safety_categories": [
+    {
+      "category": "detection",
+      "evidence_ids": [
+        "PSI-115:meta:researchImpacts#45eedcce2952"
+      ]
+    },
+    {
+      "category": "prevention",
+      "evidence_ids": [
+        "PSI-115:meta:researchImpacts#45eedcce2952"
+      ]
+    }
+  ],
+  "comparison": {
+    "fuels": null,
+    "geometry": {
+      "text": "Geometry is similar to that considered in the SAME experiments.",
+      "evidence_ids": [
+        "PSI-115:meta:approach#d6f3cd7121cd"
+      ]
+    },
+    "oxygen": null,
+    "pressure": null,
+    "flow": {
+      "text": "Two cross-flow velocities were considered, low enough that buoyancy cannot be neglected in the presence of gravity.",
+      "evidence_ids": [
+        "PSI-115:meta:approach#8c2c45005827"
+      ]
+    },
+    "gravity": {
+      "text": "Earth gravity and microgravity were simulated.",
+      "evidence_ids": [
+        "PSI-115:meta:approach#ef8e1836b503"
+      ]
+    },
+    "measurements": null,
+    "hardware": null
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "type": "objective",
+      "text": "The investigation aims to use numerical simulation to explore the influence of gravity on pyrolysis smoke growth.",
+      "evidence_ids": [
+        "PSI-115:meta:objective#151ee00a35e2"
+      ]
+    },
+    {
+      "id": "C2",
+      "type": "hypothesis",
+      "text": "The investigation proposes that without buoyancy, mixing and heat transfer are reduced.",
+      "evidence_ids": [
+        "PSI-115:meta:hypothesis#8002a917dcdd"
+      ]
+    },
+    {
+      "id": "C3",
+      "type": "potential_application",
+      "text": "The metadata states that models and tools characterizing smoke particles could lead to better smoke detection devices and help prevent fires (stated as a research impact, not as a result).",
+      "evidence_ids": [
+        "PSI-115:meta:researchImpacts#45eedcce2952"
+      ]
+    }
+  ],
+  "findings": [],
+  "limitations": [
+    {
+      "text": "The work is a numerical simulation study; the metadata describes the simulations but states no simulation result.",
+      "basis": "source",
+      "evidence_ids": [
+        "PSI-115:meta:approach#ef8e1836b503"
+      ]
+    },
+    {
+      "text": "Only PSI metadata was examined; no document text was processed, so statements are limited to what the metadata fields say.",
+      "basis": "coverage",
+      "evidence_ids": []
+    }
+  ],
+  "modeling_resources": [
+    {
+      "description": "Simulation output files comparing Earth-gravity and microgravity particle size distributions and number density. No model validation is claimed.",
+      "file_keys": [
+        "psi-data/PSI-115/Analyzed Data/PSI-115_Analyzed Data_8cmGravityPSD.dat",
+        "psi-data/PSI-115/Analyzed Data/PSI-115_Analyzed Data_8cmGravityNumDen.dat",
+        "psi-data/PSI-115/Analyzed Data/PSI-115_Analyzed Data_10cmGravityPSD.dat",
+        "psi-data/PSI-115/Analyzed Data/PSI-115_Analyzed Data_10cmNoGravityPSD.dat",
+        "psi-data/PSI-115/Analyzed Data/PSI-115_Analyzed Data_10cmGravityNumDen.dat",
+        "psi-data/PSI-115/Analyzed Data/PSI-115_Analyzed Data_10cmNoGravityNumDen.dat"
+      ],
+      "evidence_ids": [
+        "PSI-115:meta:approach#ef8e1836b503"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "PSI-115:meta:objective#151ee00a35e2",
+      "passage_id": "PSI-115:meta:objective",
+      "investigation": "PSI-115",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-115",
+      "locator": {
+        "kind": "metadata",
+        "field": "objective"
+      },
+      "excerpt": "to use numerical simulation to explore the influence of gravity on pyrolysis smoke growth from a fundamental perspective"
+    },
+    {
+      "id": "PSI-115:meta:approach#ef8e1836b503",
+      "passage_id": "PSI-115:meta:approach",
+      "investigation": "PSI-115",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-115",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "excerpt": "The formation and growth of dibutyl-phthalate (DBP) particles in Earth gravity and microgravity environments was simulated."
+    },
+    {
+      "id": "PSI-115:meta:hypothesis#8002a917dcdd",
+      "passage_id": "PSI-115:meta:hypothesis",
+      "investigation": "PSI-115",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-115",
+      "locator": {
+        "kind": "metadata",
+        "field": "hypothesis"
+      },
+      "excerpt": "Without buoyancy, mixing and heat transfer are reduced"
+    },
+    {
+      "id": "PSI-115:meta:researchImpacts#45eedcce2952",
+      "passage_id": "PSI-115:meta:researchImpacts",
+      "investigation": "PSI-115",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-115",
+      "locator": {
+        "kind": "metadata",
+        "field": "researchImpacts"
+      },
+      "excerpt": "This would directly lead to better smoke detection devices and prevent fires"
+    },
+    {
+      "id": "PSI-115:meta:approach#8c2c45005827",
+      "passage_id": "PSI-115:meta:approach",
+      "investigation": "PSI-115",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-115",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "excerpt": "This study considered two cross-flow velocities of sufficiently low speed that buoyancy cannot be neglected in the presence of gravity."
+    },
+    {
+      "id": "PSI-115:meta:approach#d6f3cd7121cd",
+      "passage_id": "PSI-115:meta:approach",
+      "investigation": "PSI-115",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-115",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "excerpt": "in a geometry similar to that considered in the SAME experiments"
+    }
+  ],
+  "generation": {
+    "method": "skill",
+    "skill": "research-card",
+    "model": "claude-sonnet-5-5",
+    "generated_at": "2026-11-15T01:49:56+00:00"
+  },
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "notes": ""
+  }
+}
