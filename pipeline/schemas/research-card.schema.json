@@ -1,0 +1,148 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://flameinfreefall.local/schemas/research-card.schema.json",
+  "title": "Reviewed summary of one PSI investigation",
+  "description": "Every statement cites evidence. A null comparison attribute means the evidence does not document it.",
+  "type": "object",
+  "required": ["accession", "source_version", "title", "acronym", "coverage", "summary", "safety_categories", "comparison", "claims", "findings", "limitations", "modeling_resources", "evidence", "generation", "review"],
+  "additionalProperties": false,
+  "properties": {
+    "accession": {"$ref": "common.schema.json#/$defs/accession"},
+    "source_version": {"type": "integer", "minimum": 1, "description": "PSI metadata version the evidence was taken from."},
+    "title": {"$ref": "common.schema.json#/$defs/nonEmptyText"},
+    "acronym": {"type": "string"},
+    "coverage": {"enum": ["metadata_only", "metadata_and_documents"]},
+    "summary": {"$ref": "#/$defs/citedText"},
+    "safety_categories": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["category", "evidence_ids"],
+        "additionalProperties": false,
+        "properties": {
+          "category": {"$ref": "#/$defs/safetyCategory"},
+          "evidence_ids": {"$ref": "#/$defs/evidenceIds"}
+        }
+      }
+    },
+    "comparison": {
+      "type": "object",
+      "required": ["fuels", "geometry", "oxygen", "pressure", "flow", "gravity", "measurements", "hardware"],
+      "additionalProperties": false,
+      "properties": {
+        "fuels": {"$ref": "#/$defs/attribute"},
+        "geometry": {"$ref": "#/$defs/attribute"},
+        "oxygen": {"$ref": "#/$defs/attribute"},
+        "pressure": {"$ref": "#/$defs/attribute"},
+        "flow": {"$ref": "#/$defs/attribute"},
+        "gravity": {"$ref": "#/$defs/attribute"},
+        "measurements": {"$ref": "#/$defs/attribute"},
+        "hardware": {"$ref": "#/$defs/attribute"}
+      }
+    },
+    "claims": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "type", "text", "evidence_ids"],
+        "additionalProperties": false,
+        "properties": {
+          "id": {"type": "string", "pattern": "^C[0-9]+$"},
+          "type": {
+            "description": "objective and hypothesis restate intent; only reported_observation states a result.",
+            "enum": ["objective", "hypothesis", "reported_observation", "potential_application"]
+          },
+          "text": {"$ref": "common.schema.json#/$defs/nonEmptyText"},
+          "evidence_ids": {"$ref": "#/$defs/evidenceIds"}
+        }
+      }
+    },
+    "findings": {
+      "description": "Links a reported observation to its conditions and a supported safety implication.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["observation", "conditions", "implication", "category"],
+        "additionalProperties": false,
+        "properties": {
+          "observation": {"type": "string", "pattern": "^C[0-9]+$", "description": "Claim of type reported_observation."},
+          "conditions": {"$ref": "#/$defs/citedText"},
+          "implication": {"type": "string", "pattern": "^C[0-9]+$", "description": "Claim of type potential_application."},
+          "category": {"$ref": "#/$defs/safetyCategory"}
+        }
+      }
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["text", "basis", "evidence_ids"],
+        "additionalProperties": false,
+        "properties": {
+          "text": {"$ref": "common.schema.json#/$defs/nonEmptyText"},
+          "basis": {
+            "description": "source: stated by the evidence. coverage: a statement about what this card could not examine.",
+            "enum": ["source", "coverage"]
+          },
+          "evidence_ids": {"type": "array", "items": {"$ref": "#/$defs/evidenceId"}, "uniqueItems": true}
+        }
+      }
+    },
+    "modeling_resources": {
+      "description": "Measurements and remote files that could support future predictive modeling. Not a validated model.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["description", "file_keys", "evidence_ids"],
+        "additionalProperties": false,
+        "properties": {
+          "description": {"$ref": "common.schema.json#/$defs/nonEmptyText"},
+          "file_keys": {"type": "array", "items": {"type": "string", "pattern": "^psi-data/PSI-[0-9]+/.+"}, "uniqueItems": true},
+          "evidence_ids": {"$ref": "#/$defs/evidenceIds"}
+        }
+      }
+    },
+    "evidence": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/evidence"}},
+    "generation": {
+      "type": "object",
+      "required": ["method", "skill", "model", "generated_at"],
+      "additionalProperties": false,
+      "properties": {
+        "method": {"enum": ["skill", "manual"]},
+        "skill": {"type": ["string", "null"]},
+        "model": {"type": ["string", "null"]},
+        "generated_at": {"$ref": "common.schema.json#/$defs/timestamp"}
+      }
+    },
+    "review": {"$ref": "common.schema.json#/$defs/review"}
+  },
+  "$defs": {
+    "safetyCategory": {"enum": ["prevention", "detection", "suppression"]},
+    "evidenceId": {"type": "string", "pattern": "^PSI-[0-9]+:[^#]+#[0-9a-f]{12}$"},
+    "evidenceIds": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"$ref": "#/$defs/evidenceId"}},
+    "citedText": {
+      "type": "object",
+      "required": ["text", "evidence_ids"],
+      "additionalProperties": false,
+      "properties": {
+        "text": {"$ref": "common.schema.json#/$defs/nonEmptyText"},
+        "evidence_ids": {"$ref": "#/$defs/evidenceIds"}
+      }
+    },
+    "attribute": {"oneOf": [{"$ref": "#/$defs/citedText"}, {"type": "null"}]},
+    "evidence": {
+      "type": "object",
+      "required": ["id", "passage_id", "investigation", "source_url", "locator", "excerpt"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {"$ref": "#/$defs/evidenceId", "description": "passage_id + '#' + first 12 hex of SHA-256 of the whitespace-normalized excerpt."},
+        "passage_id": {"type": "string"},
+        "investigation": {"$ref": "common.schema.json#/$defs/accession"},
+        "source_url": {"type": "string", "format": "uri"},
+        "locator": {"$ref": "evidence-packet.schema.json#/$defs/locator"},
+        "excerpt": {"$ref": "common.schema.json#/$defs/nonEmptyText"}
+      }
+    }
+  }
+}

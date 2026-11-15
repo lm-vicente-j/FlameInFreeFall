@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://flameinfreefall.local/schemas/extracted-document.schema.json",
+  "title": "Text extracted from one PDF, page by page",
+  "allOf": [{"$ref": "common.schema.json#/$defs/remoteFile"}],
+  "type": "object",
+  "required": ["sha256", "extractor", "status", "error", "page_count", "pages"],
+  "unevaluatedProperties": false,
+  "properties": {
+    "sha256": {"$ref": "common.schema.json#/$defs/sha256"},
+    "extractor": {
+      "type": "object",
+      "required": ["name", "version"],
+      "additionalProperties": false,
+      "properties": {"name": {"const": "pypdf"}, "version": {"type": "string"}}
+    },
+    "status": {
+      "description": "extracted: text found. no_text: readable but no text layer (OCR is out of scope). failed: the parser raised an error. timeout: the worker exceeded its time limit.",
+      "enum": ["extracted", "no_text", "failed", "timeout"]
+    },
+    "error": {"type": ["string", "null"]},
+    "page_count": {"type": ["integer", "null"], "minimum": 0},
+    "pages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["number", "text"],
+        "additionalProperties": false,
+        "properties": {
+          "number": {"type": "integer", "minimum": 1, "description": "1-based physical page index."},
+          "text": {"type": "string"}
+        }
+      }
+    }
+  }
+}

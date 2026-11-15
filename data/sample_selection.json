@@ -1,0 +1,109 @@
+{
+  "budget_bytes": 250000000,
+  "files": [
+    {
+      "accession": "PSI-25",
+      "file_id": "6924805f7f6aa6a83021067c",
+      "key": "psi-data/PSI-25/Reports/PSI-25_Reports_BASS-II Summary Report.pdf",
+      "version": 2,
+      "purpose": "evidence",
+      "reason": "BASS-II summary report: the investigation's main scientific report of results across PIs."
+    },
+    {
+      "accession": "PSI-25",
+      "file_id": "6924805f7f6aa6a83021067d",
+      "key": "psi-data/PSI-25/Science Documents/PSI-25_Science Documents_BASS-II_SRD.pdf",
+      "version": 2,
+      "purpose": "evidence",
+      "reason": "BASS-II science requirements document: objectives, variables, and test conditions."
+    },
+    {
+      "accession": "PSI-25",
+      "file_id": "692480567f6aa6a8302105e0",
+      "key": "psi-data/PSI-25/Raw Data/PSI-25_Raw Data_GMT2014_045_BASS_S128_TPT1_ProofSheet.pdf",
+      "version": 2,
+      "purpose": "evidence",
+      "reason": "One per-test ProofSheet, to check whether the 125 ProofSheet PDFs carry extractable text before relying on them."
+    },
+    {
+      "accession": "PSI-25",
+      "file_id": "692480587f6aa6a830210600",
+      "key": "psi-data/PSI-25/Reference Data/PSI-25_Reference Data_Fan calibration data.xlsx",
+      "version": 2,
+      "purpose": "run-normalization",
+      "reason": "Fan calibration reference needed to convert BASS and BASS-II fan display readings to flow velocity."
+    },
+    {
+      "accession": "PSI-98",
+      "file_id": "683f4a57746db1c87dcebee8",
+      "key": "psi-data/PSI-98/Science Documents/PSI-98_Science Documents_SAFFIRE Objectives, Development and Status.pdf",
+      "version": 1,
+      "purpose": "evidence",
+      "reason": "Saffire objectives, development and status: scientific objectives and results context."
+    },
+    {
+      "accession": "PSI-98",
+      "file_id": "683f4a58746db1c87dcebeea",
+      "key": "psi-data/PSI-98/Engineering Documents/PSI-98_Engineering Documents_SAFFIRE-I Operations.pdf",
+      "version": 1,
+      "purpose": "evidence",
+      "reason": "Saffire-I operations: as-flown experiment conditions."
+    },
+    {
+      "accession": "PSI-98",
+      "file_id": "683f4a51746db1c87dcebea1",
+      "key": "psi-data/PSI-98/Engineering Documents/PSI-98_Engineering Documents_SAFFIRE Offgassing Testing Strategy.pdf",
+      "version": 1,
+      "purpose": "evidence",
+      "reason": "Saffire offgassing testing strategy: material safety testing rationale relevant to prevention."
+    },
+    {
+      "accession": "PSI-101",
+      "file_id": "683dc530b8656d2315bf508c",
+      "key": "psi-data/PSI-101/Reports/PSI-101_Reports_SAME-R_Final Report.pdf",
+      "version": 1,
+      "purpose": "evidence",
+      "reason": "SAME-R final report: the investigation's main report of smoke particle results."
+    },
+    {
+      "accession": "PSI-101",
+      "file_id": "683dc54db8656d2315bf51dd",
+      "key": "psi-data/PSI-101/Science Documents/PSI-101_Science Documents_SAME_Baseline Concept Description Document_001 Rev A.pdf",
+      "version": 1,
+      "purpose": "evidence",
+      "reason": "SAME baseline concept description: objectives and measurement approach for smoke detection."
+    },
+    {
+      "accession": "PSI-101",
+      "file_id": "683dc54db8656d2315bf51de",
+      "key": "psi-data/PSI-101/Science Documents/PSI-101_Science Documents_SAME_Operations Manual_007.pdf",
+      "version": 1,
+      "purpose": "evidence",
+      "reason": "SAME operations manual: as-run procedures, samples, and conditions."
+    },
+    {
+      "accession": "PSI-69",
+      "file_id": "684347459e44646b74028a01",
+      "key": "psi-data/PSI-69/Science Documents/PSI-69_Science Documents_FLEX_Test_Plan.pdf",
+      "version": 1,
+      "purpose": "evidence",
+      "reason": "FLEX test plan: planned fuels, atmospheres, and suppressant conditions."
+    },
+    {
+      "accession": "PSI-69",
+      "file_id": "684344b89e44646b7402706b",
+      "key": "psi-data/PSI-69/Presentations/PSI-69_Presentations_20130010979.pdf",
+      "version": 1,
+      "purpose": "evidence",
+      "reason": "FLEX NASA technical presentation (NTRS 20130010979) reporting droplet extinction results."
+    },
+    {
+      "accession": "PSI-69",
+      "file_id": "684347449e44646b740289fe",
+      "key": "psi-data/PSI-69/Engineering Documents/PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+      "version": 1,
+      "purpose": "evidence",
+      "reason": "FLEX engineering requirements document: hardware and environmental conditions."
+    }
+  ]
+}
