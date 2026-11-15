@@ -1,6 +1,6 @@
 # Local backend
 
-The Flask application reads prepared PSI cards, evidence, the saved file catalog and normalized run tables. It serves eight JSON endpoints and the integrated frontend at `/`. The interface uses real API responses and a local copy of Chart.js. See [FRONTEND.md](FRONTEND.md) for workflows, tests and remaining features.
+The Flask application reads prepared PSI cards, evidence, the saved file catalog and normalized run tables. It serves eight JSON endpoints and the research interface at `/`, which uses real API responses and no external assets. See [FRONTEND.md](FRONTEND.md) for workflows, tests and remaining features.
 
 ## Install
 
@@ -36,7 +36,7 @@ The local server listens on `http://127.0.0.1:5000`. `create_app(config)` accept
 | GET route | Result |
 | --- | --- |
 | `/api/studies` | Literal scientific search and optional cited safety category |
-| `/api/studies/{accession}` | Unmodified study card and evidence availability |
+| `/api/studies/{accession}` | Unmodified study card, evidence availability and `meta.source` citation metadata (DOI, investigators, publications; no contact details; `null` if unavailable) |
 | `/api/studies/{accession}/files` | Saved remote file inventory with filename, category and extension filters |
 | `/api/evidence/{id}` | Exact evidence record; encode `#` as `%23` in the path |
 | `/api/runs` | Unmodified source rows with typed condition and outcome filters |

@@ -29,6 +29,8 @@ class HttpTests(unittest.TestCase):
         self.catalog.study.side_effect = lambda accession: self.card if accession == "PSI-69" else None
         self.catalog.evidence.side_effect = lambda identifier: self.evidence if identifier == self.evidence_id else None
         self.catalog.files.return_value = ([], {"total": 0, "limit": 20, "offset": 0})
+        self.source_summary = {"accession": "PSI-69", "doi": "10.60555/mbq8-0451"}
+        self.catalog.source.side_effect = lambda accession: self.source_summary if accession == "PSI-69" else None
         self.graph = Mock()
         self.graph.health.return_value = {"run_record_count": 6, "verified_run_count": 0,
                                           "snapshot_date": "2026-11-15"}
@@ -123,9 +125,18 @@ class HttpTests(unittest.TestCase):
         self.catalog.evidence.return_value = None
         client = self.make_app().test_client()
         response = client.get("/api/studies/PSI-69")
-        self.assertEqual(response.json, {"data": self.card, "meta": {"evidence_state": "unavailable"}})
+        self.assertEqual(response.json, {"data": self.card, "meta": {"evidence_state": "unavailable",
+                                                                       "source": self.source_summary}})
         self.assert_error(client.get("/api/evidence/" + quote(self.evidence_id, safe="")),
                           503, "data_unavailable", "evidence_unavailable")
+
+    def test_study_detail_adds_source_beside_unchanged_card(self):
+        client = self.make_app().test_client()
+        response = client.get("/api/studies/PSI-69")
+        self.assertEqual(response.json["data"], self.card)
+        self.assertEqual(response.json["meta"], {"evidence_state": "available", "source": self.source_summary})
+        self.source_summary = None
+        self.assertIsNone(client.get("/api/studies/PSI-69").json["meta"]["source"])
 
     def test_files_use_parent_lookup_and_normalized_extension(self):
         client = self.make_app().test_client()

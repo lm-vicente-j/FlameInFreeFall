@@ -1,10 +1,12 @@
-# Frontend integration
+# Research interface
 
-The interface from Emmanuel's `feature-frontend-ui` delivery runs at `/` on the existing Flask server. Only its HTML, JavaScript and CSS were imported; the current backend, schemas and prepared data remain authoritative. The dark theme and existing views are preserved.
+The interface at `/` is an offline evidence explorer for academic and research users. It is plain HTML, CSS and JavaScript served by the existing Flask application, with no build step, no runtime dependencies and no requests outside the local server. External links to PSI and DOI landing pages are the only network use, and only when followed.
+
+It replaces the first integrated dashboard (Spanish, `static/app.js`, Chart.js). That version's regressions were ported to the module tests below. The language is English, as PLAN.md specifies.
 
 ## Start locally
 
-Run from the repository root after preparing the PSI sources:
+From the repository root, after preparing the PSI sources:
 
 ```powershell
 python -m venv .venv
@@ -13,44 +15,57 @@ python -m venv .venv
 .venv\Scripts\python.exe app.py
 ```
 
-Open `http://127.0.0.1:5000/`. The build uses saved inputs without downloading them. It preserves review states and reports 24 investigations, 261 evidence items, 60,866 catalog entries and 2,009 source rows in the current snapshot. After PR #45, 506 rows meet the backend's verified-run criteria. These counts describe prepared records, not a new scientific review.
+Open `http://127.0.0.1:5000/`. Startup loads the catalog and run graph and takes about 35 s.
 
-## Available workflows
+## Workflows
 
-- Search the scientific index, filter by safety category and page through all investigations. Cards show relevance rank, matching excerpts and their actual review state. The header reports the source snapshot date and active counts.
-- Open study details to inspect the summary, source version, comparison attributes, typed claims and limitations. Evidence buttons resolve the corresponding citation IDs through the API, including IDs containing `#`.
-- Inspect exact evidence text with its metadata field, PDF page or table-row locator and source link. Missing evidence produces an explicit error. The evidence contract has no author field; the viewer directs readers to the original source instead of inventing attribution.
-- Browse files for any investigation. Filename, exact category and extension filters combine with pagination. Version, size, access state, source key and download-hash availability remain distinct from content processing. Source links open the investigation in PSI; the API does not supply direct download URLs.
-- Page through source rows and their oxygen/pressure values, extraction methods, review state and per-outcome gravity. Normal-gravity results retain the label `1 g ground test`. Intervals stay intervals; missing values stay unknown. The chart plots known point values from the visible page and the three crew-atmosphere references.
+Every view keeps its state in the URL hash, so a search, a comparison, a filtered set of runs or an open run record can be bookmarked or shared.
 
-API failures stay visible. The application does not silently replace missing data with mock records. Existing mock assets remain available for historical reference but are not loaded by this interface.
+| View | Route | What a researcher can do |
+| --- | --- | --- |
+| Investigations | `#/studies?q=&category=` | Full-text search (FTS5/BM25) over cited evidence, filter by safety category, see matching excerpts with highlighted terms and their relevance rank (labelled as not a risk measure), and pick two investigations to compare. |
+| Investigation record | `#/study/PSI-69` | Read the cited summary, safety categories, comparison attributes, claims grouped by type (reported observations kept apart from objectives, hypotheses, expected impacts and applications), findings, limitations and modeling resources. Citation markers open the exact excerpt with its locator, and a numbered reference list closes the page. Shows the review state, reviewer and drafting method, the PSI investigators, DOI, licence and publications. Offers **Cite** (plain text and BibTeX, built only from PSI metadata) and **Export card (JSON)** (#28). |
+| Evidence viewer | dialog | Exact excerpt, metadata field, PDF page or table row locator, evidence ID, source link, and attribution to the PSI-listed investigators, noting that the cited document's own authorship may differ (#25). |
+| Compare | `#/compare/PSI-69/PSI-99` | Two records' cited statements side by side, grouped into overview, aims, results, experimental conditions, methods, limitations and modeling resources. Nothing is normalized or differenced; missing content reads "Not stated in this card". Applies the D3 rule and can be downloaded as CSV (#26). |
+| Condition explorer | `#/conditions?fuel_class=solid&o2_min=21` | Filter by fuel class, material, geometry and flow direction, then O₂, pressure (kPa, atm or psia), flow and outcome (#29). Shows coverage counts and status from `/api/coverage`, an SVG oxygen–pressure map of every matching record with the three crew-atmosphere references and the active filter window, condition groups with their D3 compatibility, and the gap message, which applies only to the saved PSI snapshot. Filtered records download as CSV or JSON. |
+| Runs table and record | in the explorer, `&run=<id>` | Sortable table with client-side pagination; unknowns sort last. Values extracted by AI and uncalibrated flow display readings are marked. The record dialog shows every condition and outcome with method, review state, source columns, source text and notes, the original row cells verbatim, flags, and confirmed or ambiguous file links. Gravity stays on each outcome, and normal gravity reads "1 g ground test" (#30). |
+| Files | `#/files/PSI-69?category=Experimental%20table` | Browse the PSI file inventory by filename, category and extension. Catalogued files are distinguished from verified downloads, and the filtered list exports as CSV. |
+| About the data | `#/about` | Preparation method, review states, count basis, comparison and gap rules, exclusions, API endpoints for programmatic access, and citation guidance. |
 
-## Offline chart
+API failures stay visible as errors; there is no fallback to mock data.
 
-Chart.js was already used by the supplied frontend. Version 4.6.1 is now stored at `static/vendor/chart.umd.min.js` with its MIT license, so opening the application needs no CDN request. SHA-256: `87364cc2b2a76a6684929e7d6b80b18a897794db38400caff1fcf1791c6925d2`.
+## Structure
 
-Source: `https://cdn.jsdelivr.net/npm/chart.js@4.6.1/dist/chart.umd.min.js`.
+| File | Role |
+| --- | --- |
+| `static/index.html` | Shell: header with snapshot status, navigation, main view, footer. |
+| `static/js/core.js` | Shared `FF` namespace: safe DOM builder, API client, quantity formatting, labels, hash routing, CSV and download helpers. |
+| `static/js/main.js` | Health status, navigation and routing. |
+| `static/js/studies.js` | Investigation search, record page, citations and `FF.evidence`. |
+| `static/js/compare.js`, `files.js`, `conditions.js`, `runs.js`, `about.js` | One module per view; `runs.js` provides `FF.runs` to the explorer. |
+| `static/css/base.css` | Design tokens (light and dark), typography, tables, forms and print styles. Each view adds a small stylesheet. |
+
+Text is rendered with `textContent` only. External links are restricted to http(s). Evidence and run identifiers are percent-encoded in request paths.
+
+## Backend additions
+
+- `GET /api/studies/{accession}` adds `meta.source`: DOI, PSI URL, licence, investigation dates, investigators (name, roles, affiliation; never contact details) and publications, all copied from saved PSI metadata. It is `null` when that metadata is unavailable. The card in `data` is unchanged. See [API.md](contracts/API.md).
+- The run graph parses its three fixed SPARQL queries once at import and evaluates them under a lock. rdflib's parser is not thread-safe: concurrent filtered requests on the threaded Flask server had corrupted it and made every later filtered request return HTTP 500 until restart. `tests/backend/test_graph.py` reproduces the race.
 
 ## Verification
 
 ```powershell
-node --check static/app.js
-node --test tests/frontend/test_app.cjs
+node --test tests/frontend/test_*.cjs
 .venv\Scripts\python.exe -m unittest discover -s tests/backend -v
+node tests/frontend/smoke_browser.cjs   # with the server running; Node 22+
 ```
 
-The 12 frontend regressions cover server search, pagination, encoded evidence IDs, unavailable-data states, per-outcome gravity, unknowns, intervals, valid zero values, safe text rendering, file filters and local chart assets. All 45 backend tests pass. Three stale test expectations were updated for PR #45: pending review is now explicit in temporary fixtures, modified fixture cards lose their approval, and the current run fixture contains eight verified records. Production review data was not changed.
+On Node 24 pass the test files explicitly; a bare directory argument fails. The unit tests load each module in a small fake DOM (`tests/frontend/harness.cjs`). The browser check drives headless Edge through the DevTools protocol against the full prepared snapshot. It rejects JavaScript exceptions and any non-local request, emulates a 390 px phone to check for horizontal overflow on every view, and saves screenshots under ignored `res/smoke/`. Set `BROWSER_PATH` or `FRONTEND_URL` to use another Chromium or server.
 
-The current [30-query benchmark](../data/benchmarks/frontend-integration-2026-11-15.json) passes with p95 **387.16 ms** and maximum **387.71 ms**. All eight API smoke routes return 200. Startup takes **33.62 s** and is excluded from request timing. Reproduce it with `.venv\Scripts\python.exe -m scripts.benchmark_backend --output res/frontend-integration-benchmark.json`.
+## Known limits
 
-With the Flask server running and Node 22 or later, run the real-data browser check:
-
-```powershell
-node tests/frontend/smoke_browser.cjs
-```
-
-It launches headless Edge with a separate temporary profile. Set `BROWSER_PATH` to another Chromium executable or `FRONTEND_URL` to another local server if needed. The check requires the full prepared snapshot. It verifies study pagination, search, details, exact evidence, file selection, pagination, all three file filters, empty states, simulated HTTP 503 recovery, mobile overflow, and local chart loading. It rejects JavaScript exceptions and external page requests. The screenshot is saved to ignored `res/frontend-smoke.png`; temporary browser profiles are separate from the user's profile.
-
-## Remaining work
-
-The supplied delivery did not include two-investigation comparison (#26), card JSON export (#28), synchronized condition filters and coverage mapping (#29), or sortable run details and gap states (#30). The chart represents the visible page, not the full condition space. Full frontend demonstration acceptance (#31) and shared contract sign-off (#6) remain open. Evidence author attribution in #25 needs source data beyond the current API record. No interface code approves scientific content or infers safety from an empty query.
+- Under concurrent load the Flask development server on Windows occasionally ends a large response early while logging HTTP 200. `FF.api` retries idempotent GETs twice after a connection failure or a truncated body, but never after an HTTP error or an abort. A shared or public deployment should run behind a production WSGI server.
+- The PSI metadata gives no dataset publication year, so citations omit the year and give the snapshot access date.
+- The condition explorer fetches every matching record (up to 2,009, about 10 MB) to keep the map, counts and table in agreement. This is fast locally. A public deployment should add a compact endpoint or precomputed files.
+- PLAN.md's initial finding that no solid-fuel run exceeds 22.2% O₂ does not hold exactly in the current records: 20 BASS (PSI-26) rows record 22.22–22.72% O₂. No solid-fuel record falls below about 0.97 atm. The data was not changed; the finding needs scientific review.
+- Scientific review of cards, aliases and extractions is separate from interface acceptance; the interface shows each record's review state and does not approve content.

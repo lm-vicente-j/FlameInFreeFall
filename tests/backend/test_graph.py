@@ -3,6 +3,7 @@
 import copy
 import json
 import tempfile
+import threading
 import unittest
 from pathlib import Path
 from urllib.parse import quote
@@ -101,6 +102,28 @@ class RunGraphTests(unittest.TestCase):
                         {"flow_min": 5, "flow_max": 1}, {"gravity": "normal"}):
             with self.assertRaises(ValueError):
                 graph.runs(filters)
+
+    def test_concurrent_filtered_queries_do_not_corrupt_the_parser(self) -> None:
+        # Flask serves on several threads; concurrent SPARQL parsing once broke every later filtered query.
+        graph = self.load([record(1), record(2, material="paper")])
+        filters = [{"material": "cotton"}, {"o2_min": 21.0}, {"outcome": "burn_time"}, {"flow_max": 3.0}] * 4
+        results: list[int] = []
+        errors: list[BaseException] = []
+
+        def query(selected: dict) -> None:
+            try:
+                results.append(graph.runs(selected)[1]["total"])
+            except BaseException as error:  # noqa: BLE001 - collected for the assertion below
+                errors.append(error)
+
+        threads = [threading.Thread(target=query, args=(item,)) for item in filters]
+        for thread in threads:
+            thread.start()
+        for thread in threads:
+            thread.join()
+        self.assertEqual(errors, [])
+        self.assertEqual(sorted(results), sorted([1, 2, 2, 2] * 4))
+        self.assertEqual(graph.runs({"material": "cotton"})[1]["total"], 1)
 
     def test_unknowns_have_provenance_without_fabricated_measurements(self) -> None:
         item = record(1, material=None)

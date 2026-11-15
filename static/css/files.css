@@ -1,0 +1,21 @@
+/* File inventory view. */
+.files-filters { margin-bottom: var(--space-3); }
+.files-filters .field-row + .field-row { margin-top: var(--space-3); }
+.files-apply { flex: 0 0 auto; }
+.files-heading { margin: var(--space-4) 0 var(--space-2); }
+.files-heading .status { font-family: var(--serif); font-size: var(--step-1); color: var(--ink); }
+.files-heading .status-error { color: var(--bad); }
+.files-note { margin-top: var(--space-2); }
+.files-table td { overflow-wrap: anywhere; }
+.files-table .files-name { min-width: 14rem; }
+.files-key { display: none; white-space: normal; overflow-wrap: anywhere; margin-top: var(--space-1); color: var(--muted); }
+.field .hint.error { color: var(--bad); }
+input[aria-invalid="true"] { border-color: var(--bad); }
+@media (max-width: 40rem) { .files-key { display: block; } }
+@media print { .files-key { display: block; } }
+.files-filters { max-width: none; }
+.files-filters .field-row { align-items: flex-start; }
+.files-filters .field-row > .field { flex: 1 1 16rem; }
+.files-filters .files-apply { flex: 0 0 auto; padding-top: 1.45rem; }
+.files-filters .files-apply button { align-self: flex-start; }
+.files-table td:not(.files-name) { overflow-wrap: normal; }

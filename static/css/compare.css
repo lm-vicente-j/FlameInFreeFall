@@ -1,0 +1,49 @@
+/* Comparison view: side-by-side ruled table; stacked per attribute on narrow screens. */
+.cmp-controls { margin-bottom: var(--space-4); }
+.cmp-controls .field-row > .field { flex: 1 1 16rem; }
+.cmp-controls .cmp-swap { flex: 0 0 auto; }
+.cmp-notice { max-width: var(--measure); }
+
+/* Sticky header needs an ancestor without overflow, so the wrapper does not scroll here. */
+.cmp-wrap { overflow: visible; }
+.cmp-table { table-layout: fixed; }
+.cmp-table thead th { white-space: normal; position: sticky; top: 0; z-index: 2; background: var(--surface); vertical-align: top; }
+.cmp-table .cmp-corner, .cmp-table .cmp-attr { width: 11rem; }
+.cmp-table .cmp-attr { font-weight: 600; color: var(--ink); }
+.cmp-table td { overflow-wrap: anywhere; }
+.cmp-table tbody tr:hover { background: transparent; }
+.cmp-title { font-family: var(--serif); font-size: var(--step-0); font-weight: 600; margin-bottom: var(--space-1); }
+.cmp-meta { margin-bottom: var(--space-1); }
+.cmp-note { font-weight: 400; margin-top: var(--space-1); }
+.cmp-table tr.cmp-group th { background: var(--sunken); font-family: var(--serif); font-size: var(--step-0); padding-top: var(--space-3); border-top: 1px solid var(--rule-strong); }
+.cmp-group-note { font-family: var(--sans); font-size: var(--step--1); font-weight: 400; color: var(--muted); }
+.cmp-item + .cmp-item { margin-top: var(--space-3); padding-top: var(--space-2); border-top: 1px dotted var(--rule); }
+.cmp-part { margin: var(--space-1) 0 0; }
+.cmp-part-label { color: var(--muted); font-weight: 600; }
+.cmp-files { margin: var(--space-2) 0 0; padding-left: var(--space-4); }
+.cmp-files a { overflow-wrap: anywhere; }
+
+@media (max-width: 40rem) {
+    .cmp-table, .cmp-table thead, .cmp-table tbody, .cmp-table tr, .cmp-table th, .cmp-table td { display: block; width: 100%; }
+    .cmp-table { table-layout: auto; }
+    .cmp-table thead th { position: static; }
+    .cmp-table thead .cmp-corner { display: none; }
+    .cmp-table thead th.cmp-col { border-bottom: 1px solid var(--rule); }
+    .cmp-table .cmp-attr { width: 100%; padding-bottom: 0; }
+    .cmp-table tbody tr + tr td { border-top: 0; }
+    .cmp-table td { padding-top: var(--space-2); }
+    .cmp-table td::before { content: attr(data-label); display: block; font-size: var(--step--1); color: var(--muted); font-weight: 600; margin-bottom: var(--space-1); }
+    .cmp-table tr.cmp-group th { display: block; }
+}
+
+@media print {
+    .cmp-table thead th { position: static; }
+    .cmp-table tr { break-inside: avoid; }
+}
+
+/* Controls and citation markers (scoped so base button chrome does not apply to markers). */
+.cmp-controls { max-width: none; }
+.cmp-controls .field-row { align-items: flex-end; }
+.cmp-controls .field-row > .field { flex: 1 1 20rem; }
+.cmp-controls .cmp-swap { flex: 0 0 auto; }
+.cmp-controls .cmp-swap button { align-self: flex-start; }

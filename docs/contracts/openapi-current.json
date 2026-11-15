@@ -1799,6 +1799,56 @@
         ],
         "additionalProperties": false
       },
+      "StudySource": {
+        "type": "object",
+        "description": "Citation metadata copied from the saved PSI metadata snapshot. Missing values are null. Contact emails, phones, fax numbers and addresses are never included.",
+        "properties": {
+          "accession": {"type": "string"},
+          "title": {"type": ["string", "null"]},
+          "acronym": {"type": ["string", "null"]},
+          "version": {"type": ["integer", "null"]},
+          "doi": {"type": ["string", "null"]},
+          "doi_url": {"type": ["string", "null"]},
+          "psi_url": {"type": ["string", "null"]},
+          "license": {"type": ["string", "null"]},
+          "start_date": {"type": ["string", "null"]},
+          "end_date": {"type": ["string", "null"]},
+          "project_type": {"type": ["string", "null"]},
+          "retrieved_at": {"type": ["string", "null"]},
+          "investigators": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {"type": "string"},
+                "roles": {"type": "array", "items": {"type": "string"}},
+                "affiliation": {"type": ["string", "null"]}
+              },
+              "required": ["name", "roles", "affiliation"],
+              "additionalProperties": false
+            }
+          },
+          "publications": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "title": {"type": ["string", "null"]},
+                "authors": {"type": ["string", "null"]},
+                "doi": {"type": ["string", "null"]},
+                "status": {"type": ["string", "null"]}
+              },
+              "required": ["title", "authors", "doi", "status"],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "accession", "title", "acronym", "version", "doi", "doi_url", "psi_url", "license",
+          "start_date", "end_date", "project_type", "retrieved_at", "investigators", "publications"
+        ],
+        "additionalProperties": false
+      },
       "StudyDetail": {
         "type": "object",
         "properties": {
@@ -1813,10 +1863,21 @@
                   "available",
                   "unavailable"
                 ]
+              },
+              "source": {
+                "oneOf": [
+                  {
+                    "$ref": "#/components/schemas/StudySource"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
               }
             },
             "required": [
-              "evidence_state"
+              "evidence_state",
+              "source"
             ],
             "additionalProperties": false
           }

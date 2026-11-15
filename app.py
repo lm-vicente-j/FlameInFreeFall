@@ -217,7 +217,9 @@ def create_app(config: dict[str, Any] | None = None) -> Flask:
         if data is None:
             missing(accession)
         available = all(catalog.evidence(item["id"]) is not None for item in data.get("evidence", []))
-        return jsonify(data=data, meta={"evidence_state": "available" if available else "unavailable"})
+        meta = {"evidence_state": "available" if available else "unavailable",
+                "source": catalog.source(accession)}
+        return jsonify(data=data, meta=meta)
 
     @app.get("/api/evidence/<path:evidence_id>")
     def evidence(evidence_id: str) -> Any:

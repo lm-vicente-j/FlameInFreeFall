@@ -1,97 +1,43 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FireSafe Explorer - NASA</title>
-    <link rel="stylesheet" href="/static/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Flame in Freefall</title>
+    <meta name="description" content="Evidence explorer for NASA Physical Sciences Informatics (PSI) microgravity combustion investigations: cited research summaries, run-level conditions and coverage gaps.">
+    <link rel="stylesheet" href="/static/css/base.css">
+    <link rel="stylesheet" href="/static/css/studies.css">
+    <link rel="stylesheet" href="/static/css/compare.css">
+    <link rel="stylesheet" href="/static/css/conditions.css">
+    <link rel="stylesheet" href="/static/css/runs.css">
+    <link rel="stylesheet" href="/static/css/files.css">
 </head>
 <body>
-    <header>
-        <h1>🔥 FireSafe Explorer</h1>
-        <p>Panel de seguridad contra incendios en el espacio</p>
-        <p class="aviso">Fichas preparadas con IA. El estado de revisión se indica en cada ficha.
-            La relevancia de búsqueda no representa riesgo de incendio.</p>
-        <p id="estado-sistema" role="status">Consultando el estado de los datos…</p>
+    <a class="skip-link" href="#view">Skip to content</a>
+    <header class="site-header">
+        <div class="wrap">
+            <div class="masthead">
+                <p class="site-title"><a href="#/studies">Flame in Freefall</a></p>
+                <p class="site-subtitle">Evidence explorer for NASA PSI microgravity combustion investigations</p>
+            </div>
+            <p id="snapshot-status" class="snapshot" role="status">Loading data status…</p>
+            <nav id="site-nav" class="site-nav" aria-label="Sections"></nav>
+        </div>
     </header>
-    <main>
-        <section class="busqueda" aria-label="Buscar investigaciones">
-            <label for="buscador">Buscar investigaciones</label>
-            <input type="search" id="buscador" maxlength="200" placeholder="Buscar en el índice científico (ej. FLEX, fire)…">
-            <div class="controles">
-                <button class="btn-filtro" data-categoria="prevention" aria-pressed="false">Prevención</button>
-                <button class="btn-filtro" data-categoria="detection" aria-pressed="false">Detección</button>
-                <button class="btn-filtro" data-categoria="suppression" aria-pressed="false">Supresión</button>
-                <button id="btn-limpiar">Limpiar</button>
-            </div>
-        </section>
-        <section>
-            <h2>Investigaciones</h2>
-            <p id="estado-estudios" role="status"></p>
-            <div id="contenedor-tarjetas"></div>
-            <nav id="paginacion-estudios" class="paginacion" aria-label="Páginas de investigaciones"></nav>
-        </section>
-        <section>
-            <h2>Condition Explorer (Oxígeno vs Presión)</h2>
-            <p>El gráfico representa los valores puntuales conocidos de la página de registros actual.
-                Los intervalos y valores desconocidos se conservan en la tabla.
-                Los marcadores atmosféricos son referencias, no resultados experimentales.</p>
-            <div class="grafico"><canvas id="graficoRuns" role="img" aria-label="Oxígeno frente a presión de los registros visibles"></canvas></div>
-            <p id="estado-grafico" role="status"></p>
-        </section>
-        <section>
-            <h2>Registros extraídos</h2>
-            <p>Se cuentan filas fuente, no experimentos verificados. La gravedad pertenece a cada resultado.</p>
-            <p id="estado-runs" role="status"></p>
-            <div class="tabla-scroll">
-                <table>
-                    <thead><tr>
-                        <th>ID del registro</th><th>Tipo</th><th>Oxígeno (%)</th><th>Presión (kPa)</th>
-                        <th>Método O₂ / presión</th><th>Gravedad por resultado</th><th>Revisión</th>
-                    </tr></thead>
-                    <tbody id="tabla-runs-body"></tbody>
-                </table>
-            </div>
-            <nav id="paginacion-runs" class="paginacion" aria-label="Páginas de registros"></nav>
-        </section>
-        <section id="explorador-archivos">
-            <h2>Explorador de archivos de la NASA</h2>
-            <p>Un archivo catalogado no implica que su contenido haya sido procesado.
-                Un hash de descarga solo indica que los bytes se verificaron.</p>
-            <form id="filtros-archivos" class="controles">
-                <label>Investigación <select id="investigacion-archivos" required><option value="">Cargando…</option></select></label>
-                <label>Nombre <input id="nombre-archivo" maxlength="200" placeholder="Parte del nombre"></label>
-                <label>Categoría <input id="categoria-archivo" placeholder="Ej. Experimental table"></label>
-                <label>Extensión <input id="extension-archivo" placeholder=".csv" pattern="\.[A-Za-z0-9]+"></label>
-                <button type="submit">Filtrar archivos</button>
-            </form>
-            <p id="estado-archivos" role="status"></p>
-            <div class="tabla-scroll">
-                <table>
-                    <thead><tr><th>Nombre del archivo</th><th>Categoría</th><th>Extensión</th>
-                        <th>Tamaño</th><th>Acceso</th><th>Descarga verificada</th><th>Fuente</th></tr></thead>
-                    <tbody id="tabla-archivos-body"></tbody>
-                </table>
-            </div>
-            <nav id="paginacion-archivos" class="paginacion" aria-label="Páginas de archivos"></nav>
-        </section>
-        <dialog id="modal-study" aria-labelledby="titulo-estudio">
-            <h2 id="titulo-estudio">Detalle de investigación</h2>
-            <div id="detalle-estudio"></div>
-            <button id="btn-cerrar-estudio">Cerrar</button>
-        </dialog>
-        <dialog id="modal-evidence" aria-labelledby="titulo-evidence">
-            <h2 id="titulo-evidence">Fuente original</h2>
-            <label>Cita <select id="selector-evidence"></select></label>
-            <p id="evidence-context"></p>
-            <blockquote id="evidence-text"></blockquote>
-            <p id="evidence-locator"></p>
-            <p id="evidence-authors"></p>
-            <a id="evidence-source" target="_blank" rel="noopener noreferrer" hidden>Abrir fuente original</a>
-            <div class="controles"><button id="btn-cerrar-modal">Cerrar</button></div>
-        </dialog>
-    </main>
-    <script src="/static/vendor/chart.umd.min.js"></script>
-    <script src="/static/app.js"></script>
+    <main id="view" class="wrap" tabindex="-1"></main>
+    <footer class="site-footer">
+        <div class="wrap">
+            <p>Source data: NASA Physical Sciences Informatics (PSI), saved snapshot <span id="footer-snapshot">—</span>. This is an independent research tool; it is not affiliated with or endorsed by NASA.</p>
+            <p>Investigation summaries were drafted with AI from cited PSI evidence and carry their human review state. Search relevance is not a measure of fire risk, and gaps apply only to the saved PSI tables. See <a href="#/about">About the data</a>.</p>
+        </div>
+    </footer>
+    <script src="/static/js/core.js"></script>
+    <script src="/static/js/studies.js"></script>
+    <script src="/static/js/compare.js"></script>
+    <script src="/static/js/conditions.js"></script>
+    <script src="/static/js/runs.js"></script>
+    <script src="/static/js/files.js"></script>
+    <script src="/static/js/about.js"></script>
+    <script src="/static/js/main.js"></script>
 </body>
 </html>
