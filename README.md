@@ -4,6 +4,18 @@ A proposed dashboard for exploring NASA's Physical Sciences Informatics (PSI) co
 
 See [APPROACH.md](docs/APPROACH.md) for the proposal and data findings, and [PLAN.md](PLAN.md) for implementation details. The [accepted decisions](PLAN.md#accepted-decisions) define normalization priorities, gravity display, report scope, and limits on external coverage. Flow sweeps and cross-hardware comparisons remain under review. The repository provides metadata collection, inventories, and an experimental-table downloader.
 
+## System overview
+
+NASA PSI sources pass through collection, preparation and review before local storage and API queries. The research interface is pending integration.
+
+![System overview: NASA PSI sources, collection, preparation, local storage, backend and research interface](docs/sistema-general.png)
+
+## Ontology model
+
+The RDF model links source rows to investigations, conditions and reported outcomes. SOSA/SSN describes observations, QUDT represents quantities, and PROV preserves extraction provenance. The diagram shows resource roles and types, without dataset instances.
+
+![Ontology model: resource types and RDF relationships for conditions, observations, results and provenance](docs/mapa-conocimiento-ontologia-simple.png)
+
 ## Objectives
 
 - Make combustion research easier to find, compare, and understand.
