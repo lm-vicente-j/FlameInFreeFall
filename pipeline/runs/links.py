@@ -3,7 +3,10 @@
 A link is made only from an identifier the table records (a sample and test id, a FLEX
 test number, a camera id) found in a file name of the saved PSI file list. Matching is
 case-insensitive and token-bounded: the identifier must not touch another letter or digit,
-so test ``T1`` never matches ``T12``. Nothing is inferred beyond that.
+so test ``T1`` never matches ``T12``. An underscore is a boundary, so ``21196M2_data`` is test
+``21196M2``; but when another row of the table records a longer identifier that contains it
+(``21196M2_1``), a file name that spells the longer one belongs to that row only. Nothing is inferred
+beyond that.
 
 Status. ``confirmed``: every identifier the rule looks for matched and, where the table has
 the identifier in several rows, it still points at one row. ``ambiguous``: only one of two
@@ -66,11 +69,46 @@ def _flex_number(value: str) -> str | None:
     return rf"FLEX[-_]0*{int(value)}" if value.isdigit() else None
 
 
+def _enclosed_values(spellings: dict[str, re.Pattern[str]], filename: str) -> set[str]:
+    """Values whose spelling in the file name lies inside the spelling of another, longer value.
+
+    ``21196M2`` is inside ``21196M2_1`` in ``..._21196M2_1_data.csv``: the file is test ``21196M2_1``'s.
+    """
+    spans = {value: [m.span() for m in pattern.finditer(filename)] for value, pattern in spellings.items()}
+    return {
+        value
+        for value, inner in spans.items()
+        if inner
+        and any(
+            all(
+                any(start <= a and b <= end and (b - a) < (end - start) for start, end in outer)
+                for a, b in inner
+            )
+            for other, outer in spans.items()
+            if other != value
+        )
+    }
+
+
 def _identifier_matcher(identifiers: Sequence[Identifier]) -> Matcher:
     def match(records: Sequence[Record], files: Sequence[RemoteFile]) -> Iterator[tuple[str, FileLink]]:
         tests = [record for record in records if record.kind != "note"]
         sharing = {
             identifier.label: Counter(_cell(record, *identifier.columns) for record in tests)
+            for identifier in identifiers
+        }
+        spellings = {
+            identifier.label: {
+                value: _token(pattern)
+                for value in sharing[identifier.label]
+                if (pattern := identifier.pattern(value)) is not None
+            }
+            for identifier in identifiers
+        }
+        enclosed = {
+            identifier.label: {
+                file.file_id: _enclosed_values(spellings[identifier.label], file.filename) for file in files
+            }
             for identifier in identifiers
         }
         for record in tests:
@@ -84,7 +122,7 @@ def _identifier_matcher(identifiers: Sequence[Identifier]) -> Matcher:
                 bounded = _token(pattern)
                 for file in files:
                     hit = bounded.search(file.filename)
-                    if hit is None:
+                    if hit is None or value in enclosed[identifier.label][file.file_id]:
                         continue
                     basis = f'{identifier.label} {value} matches "{hit.group(0)}" in the file name'
                     if status == "ambiguous":

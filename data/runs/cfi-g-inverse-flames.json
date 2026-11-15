@@ -3311,78 +3311,6 @@
           "target": {
             "kind": "file",
             "accession": "PSI-159",
-            "file_id": "691f7ea317f78b371b26fd93",
-            "key": "psi-data/PSI-159/Raw Data/PSI-159_Raw Data_21196M2_1_ACME.zip",
-            "version": 1,
-            "filename": "PSI-159_Raw Data_21196M2_1_ACME.zip"
-          },
-          "basis": "Test 21196 M2 matches \"21196M2\" in the file name",
-          "status": "confirmed"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-159",
-            "file_id": "691f7ea317f78b371b26fd92",
-            "key": "psi-data/PSI-159/Raw Data/PSI-159_Raw Data_21196M2_1_ACME_Converted.zip",
-            "version": 1,
-            "filename": "PSI-159_Raw Data_21196M2_1_ACME_Converted.zip"
-          },
-          "basis": "Test 21196 M2 matches \"21196M2\" in the file name",
-          "status": "confirmed"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-159",
-            "file_id": "691f7ea317f78b371b26fd8f",
-            "key": "psi-data/PSI-159/Raw Data/PSI-159_Raw Data_21196M2_1_Comments.txt",
-            "version": 1,
-            "filename": "PSI-159_Raw Data_21196M2_1_Comments.txt"
-          },
-          "basis": "Test 21196 M2 matches \"21196M2\" in the file name",
-          "status": "confirmed"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-159",
-            "file_id": "691f7ea317f78b371b26fd8d",
-            "key": "psi-data/PSI-159/Raw Data/PSI-159_Raw Data_21196M2_1_TP.txt",
-            "version": 1,
-            "filename": "PSI-159_Raw Data_21196M2_1_TP.txt"
-          },
-          "basis": "Test 21196 M2 matches \"21196M2\" in the file name",
-          "status": "confirmed"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-159",
-            "file_id": "691f7ea317f78b371b26fd8b",
-            "key": "psi-data/PSI-159/Raw Data/PSI-159_Raw Data_21196M2_1_data.csv",
-            "version": 1,
-            "filename": "PSI-159_Raw Data_21196M2_1_data.csv"
-          },
-          "basis": "Test 21196 M2 matches \"21196M2\" in the file name",
-          "status": "confirmed"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-159",
-            "file_id": "691f7ea317f78b371b26fd89",
-            "key": "psi-data/PSI-159/Raw Data/PSI-159_Raw Data_21196M2_1_mfcSetpoints.csv",
-            "version": 1,
-            "filename": "PSI-159_Raw Data_21196M2_1_mfcSetpoints.csv"
-          },
-          "basis": "Test 21196 M2 matches \"21196M2\" in the file name",
-          "status": "confirmed"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-159",
             "file_id": "691f7ea317f78b371b26fd95",
             "key": "psi-data/PSI-159/Raw Data/PSI-159_Raw Data_21196M2_ACME.zip",
             "version": 1,
@@ -3479,18 +3407,6 @@
           "target": {
             "kind": "file",
             "accession": "PSI-159",
-            "file_id": "691f7ea317f78b371b26fd87",
-            "key": "psi-data/PSI-159/Raw Data/PSI-159_Raw Data_ACME_21196M2_1.mdipsug",
-            "version": 1,
-            "filename": "PSI-159_Raw Data_ACME_21196M2_1.mdipsug"
-          },
-          "basis": "Test 21196 M2 matches \"21196M2\" in the file name",
-          "status": "confirmed"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-159",
             "file_id": "691f7ea317f78b371b26fd7c",
             "key": "psi-data/PSI-159/Raw Data/PSI-159_Raw Data_INTNS_21196M2.mdipsug",
             "version": 1,
@@ -3503,34 +3419,10 @@
           "target": {
             "kind": "file",
             "accession": "PSI-159",
-            "file_id": "691f7ea317f78b371b26fd85",
-            "key": "psi-data/PSI-159/Raw Data/PSI-159_Raw Data_INTNS_21196M2_1.mdipsug",
-            "version": 1,
-            "filename": "PSI-159_Raw Data_INTNS_21196M2_1.mdipsug"
-          },
-          "basis": "Test 21196 M2 matches \"21196M2\" in the file name",
-          "status": "confirmed"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-159",
             "file_id": "691f7ea317f78b371b26fd78",
             "key": "psi-data/PSI-159/Raw Data/PSI-159_Raw Data_vlc-record-2021-07-15-21h45m43s-udp____21196M2.ts",
             "version": 1,
             "filename": "PSI-159_Raw Data_vlc-record-2021-07-15-21h45m43s-udp____21196M2.ts"
-          },
-          "basis": "Test 21196 M2 matches \"21196M2\" in the file name",
-          "status": "confirmed"
-        },
-        {
-          "target": {
-            "kind": "file",
-            "accession": "PSI-159",
-            "file_id": "691f7ea317f78b371b26fd7f",
-            "key": "psi-data/PSI-159/Raw Data/PSI-159_Raw Data_vlc-record-2021-07-15-22h05m35s-udp____21196M2_1.ts",
-            "version": 1,
-            "filename": "PSI-159_Raw Data_vlc-record-2021-07-15-22h05m35s-udp____21196M2_1.ts"
           },
           "basis": "Test 21196 M2 matches \"21196M2\" in the file name",
           "status": "confirmed"
