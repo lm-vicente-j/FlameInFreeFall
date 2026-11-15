@@ -6,7 +6,7 @@ input of the extraction step; ``source_text`` is the cell exactly as written. Qu
 rewritten by every build and carry no review state.
 
 Result files. ``data/extractions/<name>.json`` follows ``llm-extraction.schema.json``
-and is produced by a model and reviewed by a person. When it exists, the build applies
+and is produced by a model; a person sets each item's review status. When it exists, the build applies
 it and stops with an ``ExtractionError`` naming the record when anything does not hold:
 the file fails the schema, its name differs, a record id does not exist, ``source_text``
 is not the current cell text (the source changed), a quote is not an exact substring of
@@ -15,7 +15,8 @@ for a record whose flow is already established.
 
 Application. An item with review status "approved" or "pending" adds its outcomes to
 its record with method "llm", the item's review status, the quote and the source column;
-"pending" values keep the record's own status pending, so they are visible but flagged.
+"pending" values keep the record's own status pending, so they are visible but flagged: a consumer
+must not present them as reviewed.
 "rejected" items add nothing. Readings of instrument ``air_display`` set flow_cm_s to the
 min/max of the readings x 1.0066 (the fan calibration factor) with method "llm". Readings
 of ``fan_display`` are validated but not converted: there is no calibration for them.

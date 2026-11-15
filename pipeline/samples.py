@@ -20,7 +20,7 @@ import time
 from collections.abc import Callable
 from contextlib import AbstractContextManager
 from dataclasses import dataclass
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
 from types import TracebackType
 from typing import Any
@@ -175,7 +175,7 @@ class _CountingContext:
 
 
 def _timestamp(moment: datetime) -> str:
-    return moment.astimezone(timezone.utc).isoformat(timespec="seconds")
+    return moment.astimezone(UTC).isoformat(timespec="seconds")
 
 
 def _previous_records(previous: dict[str, Any] | None) -> dict[tuple[str, int], dict[str, Any]]:
@@ -310,7 +310,7 @@ def main(argv: list[str] | None = None) -> int:
             previous = None  # An unusable old manifest only disables the cache.
         manifest = run(
             selection, args.res, args.samples, paths.ROOT, previous, default_opener,
-            lambda: datetime.now(timezone.utc),
+            lambda: datetime.now(UTC),
         )
     except (SelectionError, FileNotFoundError, ValueError) as error:
         print(f"Error: {error}", file=sys.stderr)

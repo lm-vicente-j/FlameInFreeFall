@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://flameinfreefall.local/schemas/llm-extraction.schema.json",
   "title": "Model-proposed values from free-text cells, each awaiting human review",
-  "description": "Every proposed value quotes an exact substring of its source cell. Only items a person approved reach the run records.",
+  "description": "Every proposed value quotes an exact substring of its source cell. Items with review status approved or pending reach the run records, carrying that status (pending values are unreviewed and must not be presented as reviewed). Items with status rejected never reach them.",
   "type": "object",
   "required": ["name", "task", "source", "items"],
   "additionalProperties": false,

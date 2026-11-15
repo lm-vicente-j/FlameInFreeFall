@@ -38,7 +38,7 @@
   "$defs": {
     "slug": {"type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"},
     "method": {
-      "description": "parsed: read directly from a cell. mapped: through a reviewed alias dictionary. llm: proposed by a language model and reviewed. manual: entered by a person. unknown: not recorded.",
+      "description": "parsed: read directly from a cell. mapped: through a reviewed alias dictionary. llm: proposed by a language model; review_status is pending until a person approves it, so a consumer must not present a pending llm value as reviewed (rejected proposals are never in a record). manual: entered by a person. unknown: not recorded.",
       "enum": ["parsed", "mapped", "llm", "manual", "unknown"]
     },
     "provenance": {
@@ -50,7 +50,26 @@
         "review_status": {"$ref": "common.schema.json#/$defs/reviewStatus"},
         "quote": {"type": ["string", "null"], "description": "Exact source text an llm or manual value is based on."},
         "note": {"type": ["string", "null"]}
-      }
+      },
+      "allOf": [
+        {
+          "description": "An llm value quotes its source text and is either pending or approved; rejected proposals are not applied and not_required would present it as a plain parse.",
+          "if": {"properties": {"method": {"const": "llm"}}, "required": ["method"]},
+          "then": {
+            "properties": {"quote": {"type": "string", "minLength": 1}, "review_status": {"enum": ["pending", "approved"]}}
+          }
+        },
+        {
+          "description": "A direct parse needs no review.",
+          "if": {"properties": {"method": {"const": "parsed"}}, "required": ["method"]},
+          "then": {"properties": {"review_status": {"const": "not_required"}}}
+        },
+        {
+          "description": "A value mapped through an alias dictionary is pending or approved, never not_required.",
+          "if": {"properties": {"method": {"const": "mapped"}}, "required": ["method"]},
+          "then": {"properties": {"review_status": {"enum": ["pending", "approved"]}}}
+        }
+      ]
     },
     "category": {
       "allOf": [{"$ref": "#/$defs/provenance"}],
