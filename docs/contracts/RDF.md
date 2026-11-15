@@ -41,7 +41,7 @@ Outcomes retain upstream array order. Changing that order regenerates outcome re
 | Known `material` | Row `dct:subject` a `project:material/{encoded exact value}` SKOS concept with the exact source label. A row-specific condition provenance entity records the category extraction details. No synonym or hierarchy is inferred. |
 | Reviewed `fuel_class` | Row `dct:subject` `project:fuel/solid`, `project:fuel/droplet` or `project:fuel/gas`. These fixture values are unknown, so no fuel-class triple is present. |
 | Known outcome | One `sosa:Observation` per recorded outcome, `sosa:hasFeatureOfInterest` the row entity, `sosa:observedProperty` `project:outcome/{type}` (a `sosa:ObservableProperty`), `sosa:hasResult` the result resource. This describes a reported outcome, not an experiment census. |
-| Outcome `gravity` | Observation `dct:description` literal `gravity=microgravity` or `gravity=normal`. Keep each paired result separate. No run-level gravity is inferred. This descriptive encoding does not settle #35 filtering. |
+| Outcome `gravity` | Observation `dct:description` literal `gravity=microgravity` or `gravity=normal`. Keep each paired result separate. The accepted #35 decision omits a gravity filter from the MVP; the interface labels `normal` as "1 g ground test". No run-level gravity is inferred. |
 | Quantity point (`min == max`) | Result/condition `qudt:QuantityValue`, `qudt:numericValue` as `xsd:decimal`, and `qudt:unit`. |
 | Quantity interval (`min != max`) | Parent `qudt:QuantityValue` with unit, and `dct:hasPart` two QuantityValues at `/min` and `/max`, each with matching `dct:identifier`, unit and numeric value. No parent point value or midpoint. This retains bounds; sweep/filter interpretation remains provisional. |
 | Qualifier `approximate` | Quantity `dct:description` literal `qualifier=approximate`. It does not specify a statistical uncertainty. |
@@ -49,6 +49,8 @@ Outcomes retain upstream array order. Changing that order regenerates outcome re
 | Value provenance | `prov:wasDerivedFrom` the row; `prov:wasGeneratedBy` the method activity; `prov:value` is the complete value JSON with method, columns, quote, note and review status. JSON literals use sorted keys and ASCII escapes. |
 
 Each outcome also carries the description “Source-reported outcome; review pending; individual-experiment classification unresolved.” This label and the JSON provenance keep structural extraction separate from scientific review. No reviewer, observation time, sensor, procedure, calibration or approval is invented. Extraction activities describe preparation methods, not the physical experiment.
+
+The [accepted scope decisions](../../PLAN.md#accepted-decisions) do not approve these fixture values or their source interpretation. Pending proposals may remain visible for development and review, but cannot support reviewed findings or verified coverage. Coverage claims are limited to the saved PSI snapshot; Saffire-IV–VI and SoFIE coverage outside PSI remains explicitly unverified.
 
 ## Units and unknowns
 
@@ -73,7 +75,7 @@ The fixture retains known oxygen, pressure, flow, material, burn time, extinctio
 - Fuel-class aliases, material synonyms/hierarchies, geometry, flow direction and diluent vocabulary alignment: preserve JSON and original text until reviewed mappings exist. Null fields generate no facts.
 - FLEX burning rate: `Burning rate; mm` does not establish the rate unit.
 - Saffire-II `?-g Spread Length`: selected cells report mm/s despite the length header. Do not silently reclassify them.
-- Flow calibration, flow-sweep time steps, cross-hardware equivalence, gravity filtering, coverage bins and empty-region assertions: blocked by schema gaps and #33–#35.
+- Flow calibration, flow-sweep time steps, cross-hardware equivalence, coverage bins and empty-region assertions: blocked by schema gaps and the open decisions in #33 and #34. Gravity filtering is excluded from the MVP by the accepted #35 decision.
 - Automatic approval of extraction results, safety conclusions or individual experiments. Metadata-only cards support objectives; they do not establish findings.
 
 The saved Saffire-II `?-g` header and shared burn-time gravity interpretation are tentative and await Alan's review. Their pending state is recorded in the fixture manifest, JSON values and RDF provenance.

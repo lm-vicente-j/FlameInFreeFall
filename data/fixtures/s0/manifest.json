@@ -93,7 +93,7 @@
   "artifacts": [
     {
       "path": "expected/http.json",
-      "sha256": "58c93fa6afe3e6283e7ab59d4873df04df5896d377d240682dc442e160d25a30"
+      "sha256": "423a7472d90ad0d7fe8bf0ca6eb52a48ea40a0b88aa9e1dc3bc508c9bb048a4f"
     },
     {
       "path": "expected/runs.ttl",
