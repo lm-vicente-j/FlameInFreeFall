@@ -58,6 +58,14 @@
       "reason": "Saffire offgassing testing strategy: material safety testing rationale relevant to prevention."
     },
     {
+      "accession": "PSI-98",
+      "file_id": "683f4a53746db1c87dcebeb7",
+      "key": "psi-data/PSI-98/Raw Data/PSI-98_Raw Data_SFSDP-VIS-0295_Saffire 1 and 3_Thermocouple Placement.pdf",
+      "version": 1,
+      "purpose": "evidence",
+      "reason": "Saffire-I and -III thermocouple placement: documents the measurements available for modeling; replaces the offgassing strategy, whose stored object is missing at PSI (HTTP 404)."
+    },
+    {
       "accession": "PSI-101",
       "file_id": "683dc530b8656d2315bf508c",
       "key": "psi-data/PSI-101/Reports/PSI-101_Reports_SAME-R_Final Report.pdf",

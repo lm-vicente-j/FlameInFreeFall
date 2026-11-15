@@ -313,7 +313,7 @@ def main(argv: list[str] | None = None) -> int:
     failed = 0
     for record in manifest["files"]:
         suffix = f"\t{record['error']}" if record["error"] else ""
-        print(f"{record['status']:<10}{record['accession']}\t{record['filename']}{suffix}")
+        print(f"{record['status']:<11}{record['accession']}\t{record['filename']}{suffix}")
         failed += record["status"] == "failed"
     print(
         f"{len(manifest['files']) - failed} ok, {failed} failed; transferred "
