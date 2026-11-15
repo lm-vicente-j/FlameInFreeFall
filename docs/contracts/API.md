@@ -2,6 +2,8 @@
 
 [openapi.json](openapi.json) defines all eight proposed GET endpoints. Embedded cards, evidence and run records reference Alan's unchanged schemas. The contract freezes supported behavior for backend development; it remains subject to shared S0 review.
 
+The [accepted decisions in PLAN.md](../../PLAN.md#accepted-decisions) set normalization priorities, gravity display, report scope, and external-coverage limits. They do not change the pinned schemas or approve the development fixtures. Pending proposals may appear in development responses with their review status; they cannot support reviewed findings or verified coverage.
+
 | Endpoint | Result | Status |
 | --- | --- | --- |
 | `/api/studies` | Complete cards with matching evidence in metadata | Supported |
@@ -58,9 +60,11 @@ Run list/detail `data` retains the exact `run-table.record` structure. `meta.sou
 
 Unfiltered pagination counts source records, including notes, and uses accession number, table slug and numeric row order. `meta.count_basis=source_records` and `provisional=true` prevent interpreting `total` as individual experiments. Fixtures contain selected rows only; their total is six, not the total of the source tables.
 
-The proposed typed filters are `fuel_class`, `material`, `geometry`, `flow_direction`, `o2_min`, `o2_max` (percent), `pressure_min`, `pressure_max` (kPa), `flow_min`, `flow_max` (cm/s) and `outcome`. Parameter names/types are available for review; matching ranges/sweeps, comparing hardware and associating gravity remain unresolved in #33–#35. There is no frozen gravity parameter. Do not implement these unresolved filters by assuming overlap, containment, missing-value substitution or cross-hardware equivalence. Requests using a provisional filter return 503 with `details.state=contract_pending` until its semantics are agreed; malformed values still return 400.
+The proposed typed filters are `fuel_class`, `material`, `geometry`, `flow_direction`, `o2_min`, `o2_max` (percent), `pressure_min`, `pressure_max` (kPa), `flow_min`, `flow_max` (cm/s) and `outcome`. Parameter names/types are available for review; range/sweep matching and cross-hardware comparison remain unresolved in #33 and #34. Do not implement these unresolved filters by assuming overlap, containment, missing-value substitution or cross-hardware equivalence. Requests using a provisional filter return 503 with `details.state=contract_pending` until its semantics are agreed; malformed values still return 400.
 
-Coverage returns 200 with `data.state=provisional`, `verified_run_count=null`, `regions=null` and the blocker IDs when the graph is available. Null regions are not empty regions and must not display as “not in PSI.” Region bounds, bins, denominator, duplicate handling, comparison groups and empty-region labels remain unfrozen. A missing graph returns 503. Filtering a provisional coverage request follows the same `contract_pending` rule.
+The accepted #35 decision excludes a gravity filter from the MVP. Run responses preserve `microgravity` and `normal` on each outcome, including paired Saffire-II results. The interface labels `normal` as "1 g ground test". A `gravity` query parameter is unsupported and returns 400 under the unknown-parameter rule; it is not a contract-pending filter.
+
+Coverage returns 200 with `data.state=provisional`, `verified_run_count=null`, `regions=null` and the remaining blocker IDs (`row-classification`, `#33`, `#34`) when the graph is available. Null regions are not empty regions and must not display as “not in PSI.” Region bounds, bins, denominator, duplicate handling, comparison groups and empty-region labels remain unfrozen. A missing graph returns 503. Filtering a provisional coverage request follows the same `contract_pending` rule. Any later coverage or gap message applies only to the saved PSI snapshot; Saffire-IV–VI and SoFIE coverage outside PSI remains unverified.
 
 ## Health
 
@@ -74,4 +78,4 @@ Run `python docs/contracts/validate.py` from the repository root with Python 3.1
 
 Validation passes for eight unchanged pinned schemas, the OpenAPI 3.1 document, two investigation/catalog records, two cards, two evidence packets, six selected source rows, 37 HTTP cases and 426 RDF triples. It also rejects six altered fixtures. Checks cover source/artifact hashes, evidence references, original cells, units and supported RDF assertions. The Turtle check covers the fixture's N-Triples subset; it is not a general RDF parser or an integration test of a backend.
 
-Scientific review remains pending. Range/session/duplicate classification, dedicated initial/final fields and per-run file/evidence links require upstream schema agreement. Flow sweeps, comparisons and gravity filters remain unresolved in #33–#35. Alan must review the representative data and Emmanuel must review requests and display requirements before S0 #6 can close.
+Scientific review remains pending. Range/session/duplicate classification, dedicated initial/final fields and per-run file/evidence links require upstream schema agreement. Flow sweeps and comparisons remain unresolved in #33 and #34; gravity display follows the accepted #35 decision. Alan must review the representative data and Emmanuel must review requests and display requirements before S0 #6 can close.

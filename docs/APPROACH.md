@@ -1,6 +1,6 @@
 # Proposed Approach: Explore by Experimental Condition
 
-Status: proposal under review. It adds a run-level layer to [PLAN.md](../PLAN.md) and does not replace it until the team agrees.
+Status: proposal with four scope decisions accepted in [PLAN.md](../PLAN.md#accepted-decisions) on 2026-11-15. It supplies the rationale for the plan's run-level layer. Flow-sweep behavior, calibration applicability, and cross-hardware comparison rules remain under review.
 
 ## The Argument
 
@@ -58,14 +58,21 @@ Data-quality notes:
 - **BASS and BASS-II record flow as instrument readings, not velocities.** Converting them requires the `Fan calibration data.xlsx` reference file, which is organized by test date and by number of flow restrictors.
 - **Saffire-II directly compares 1 g and microgravity burning** for the same materials. Thin silicone burned completely at 1 g and did not burn in microgravity. This is the kind of evidence NASA says it needs.
 - **FLEX holds suppression evidence.** Its runs with CO2 and helium record extinction, which supports the challenge goal on suppression equipment.
-- **Outcomes are often missing from the tables.** BASS-II and SAME-R outcomes live in videos and reports. The 127 PDFs in BASS-II are mostly per-test `ProofSheet` files, and we have not checked whether they contain extractable text. Report text extraction (keyword search or RAG) complements the condition tables rather than replacing them.
+- **Outcomes are often missing from the tables.** Reports can supply outcomes absent from the BASS-II and SAME-R tables. The sampled BASS-II ProofSheet contains camera metadata and no outcomes; collecting the remaining 124 is outside the accepted scope. Use the selected reports and citable experimental-table rows, record failures and missing text layers, and leave unsupported outcomes unknown.
 - **Runs link to files.** BASS-II filenames include sample and test numbers, for example `SAMPLE_205_TEST_O3a`, which match the table columns.
+
+## Accepted Decisions
+
+The [decision register in PLAN.md](../PLAN.md#accepted-decisions) records acceptance of #32, #35, #36, and #37, with links to their proposals:
+
+- Normalize FLEX and Saffire-II first, then BASS and BASS-II. Prepare supported conditions and outcomes for these four investigations; preserve the remaining tables row by row. Pending proposals may remain visible in development records but cannot support reviewed findings or verified coverage.
+- Preserve gravity per outcome and omit a gravity filter from the MVP. Show Saffire-II's normal-gravity results with a visible "1 g ground test" label beside its microgravity results.
+- Use the existing 12-PDF sample, three per core investigation; 11 have a text layer. Retain the 250 MB total budget, 20-PDF maximum, hour-12 cutoff, and no-OCR rule. Do not expand collection to the remaining BASS-II ProofSheets. Use table evidence where supported and document unmet evidence requirements.
+- Keep Saffire-IV–VI and SoFIE coverage outside PSI explicitly unverified. The MVP does not add verification of that research. A gap in the saved PSI snapshot does not establish that the research is absent elsewhere.
+
+These decisions set the MVP scope. They do not approve scientific results or complete the shared schema and fixture agreement.
 
 ## Open Questions
 
-- Which investigations to normalize first. FLEX, BASS (as-run XLSX), and Saffire-II have the most usable outcomes. BASS-II has the most conditions but no outcome column.
-- How to show a flow sweep: as a range per run, or as one point per step.
-- Whether later NASA work (Saffire-IV to VI, SoFIE) already covers the enriched-oxygen gap for solids and is simply absent from PSI. We have not verified this.
-- How to compare runs with different hardware, fuels, and flow definitions without misleading users.
-- Whether gravity should be a variable when almost every run is at microgravity and no partial-gravity data exists.
-- How much report extraction is needed to fill missing outcomes within the hackathon.
+- #33: how to represent and display flow sweeps, handle unknown endpoints, and match ranges to filters. Confirm calibration applicability before using the 2014 conversion for BASS's 2012–2013 readings.
+- #34: how to compare runs with different hardware, fuels, geometry, and flow definitions, and how to display incompatible or unknown conditions.

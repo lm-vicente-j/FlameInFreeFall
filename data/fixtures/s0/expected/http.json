@@ -2635,8 +2635,7 @@
           "blockers": [
             "row-classification",
             "#33",
-            "#34",
-            "#35"
+            "#34"
           ]
         }
       },

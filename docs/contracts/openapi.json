@@ -3,7 +3,7 @@
   "info": {
     "title": "Flame in Freefall S0 backend contract",
     "version": "0.1.0",
-    "description": "Contract handoff for review. Supported interfaces are frozen for development; S0 #6 remains open."
+    "description": "Contract handoff for review. Scope decisions #32, #35, #36 and #37 are accepted in PLAN.md. The MVP preserves outcome-level gravity and has no gravity filter. Shared schema and fixture agreement in S0 #6 remains open."
   },
   "jsonSchemaDialect": "https://json-schema.org/draft/2020-12/schema",
   "paths": {
@@ -792,7 +792,7 @@
             "name": "outcome",
             "in": "query",
             "required": false,
-            "description": "Provisional outcome type filter; gravity behavior pending #35.",
+            "description": "Provisional outcome type filter. Preserve gravity per outcome; the accepted #35 decision excludes a gravity filter from the MVP.",
             "schema": {
               "enum": [
                 "burn_time",
@@ -1189,7 +1189,7 @@
             "name": "outcome",
             "in": "query",
             "required": false,
-            "description": "Provisional outcome type filter; gravity behavior pending #35.",
+            "description": "Provisional outcome type filter. Preserve gravity per outcome; the accepted #35 decision excludes a gravity filter from the MVP.",
             "schema": {
               "enum": [
                 "burn_time",
@@ -2115,8 +2115,7 @@
                   "enum": [
                     "row-classification",
                     "#33",
-                    "#34",
-                    "#35"
+                    "#34"
                   ]
                 }
               }

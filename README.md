@@ -2,7 +2,7 @@
 
 A proposed dashboard for exploring NASA's Physical Sciences Informatics (PSI) combustion research and its relevance to spacecraft fire safety. Research cards summarize and compare investigations. A condition explorer shows which experimental runs cover a scenario, their recorded outcomes, and gaps in the saved PSI tables.
 
-See [APPROACH.md](docs/APPROACH.md) for the proposal and data findings, and [PLAN.md](PLAN.md) for implementation details. The proposal remains under review. The repository provides metadata collection, inventories, and an experimental-table downloader.
+See [APPROACH.md](docs/APPROACH.md) for the proposal and data findings, and [PLAN.md](PLAN.md) for implementation details. The [accepted decisions](PLAN.md#accepted-decisions) define normalization priorities, gravity display, report scope, and limits on external coverage. Flow sweeps and cross-hardware comparisons remain under review. The repository provides metadata collection, inventories, and an experimental-table downloader.
 
 ## Objectives
 
@@ -47,7 +47,7 @@ Challenge sources: [Details](https://www.spaceappschallenge.org/2026/challenges/
 
 Build a local research explorer with keyword search, investigation comparisons, cited insights, and a condition explorer. Use Python, Flask, SQLite FTS5/BM25, rdflib, pypdf, HTML, CSS, and vanilla JavaScript. Store cards, evidence, and the file catalog in SQLite. Store run conditions and outcomes in an in-memory RDF graph, queried with SPARQL through rdflib.
 
-A skill generates research-card JSON from evidence packets during preparation. Review and validate the cards before import. Convert experimental tables to shared column names and units, reviewing text mappings and extracted observations. Preserve each record's source file, row, and original text. The application displays prepared content without generating answers at runtime.
+A skill generates research-card JSON from evidence packets during preparation. Validate records before import. Development records may retain clearly labeled pending cards, text mappings, and extracted observations; review them before using them as scientific results or verified coverage. Convert experimental tables to shared column names and units while preserving each record's source file, row, and original text. The application displays prepared content without generating answers at runtime.
 
 ```text
 Investigation layer                         Run layer
@@ -68,7 +68,7 @@ PSI metadata + selected documents           Experimental tables + BASS test matr
 
 Start with the saved metadata for all 24 investigations. All have objective, approach, hypothesis, and research-impact fields. These fields, titles, and acronyms total about 81,000 characters in the saved snapshot.
 
-Select up to 20 readable PDFs across BASS-II, Saffire-I, SAME-R, and FLEX, targeting three per investigation and limiting downloads to 250 MB. This is a planned document sample, not an existing download. The metadata collector does not download these documents.
+Use the existing sample of 12 PDFs across BASS-II, Saffire-I, SAME-R, and FLEX, three per investigation; 11 have a text layer. Keep the 250 MB total budget, 20-PDF maximum, and hour-12 collection cutoff. The sampled BASS-II ProofSheet contains camera metadata and no outcomes, so do not collect the remaining 124. Preserve download failures and missing text layers, use citable experimental-table rows where supported, and state missing evidence as a limitation. The metadata collector does not download these documents.
 
 For each core investigation, verify at least one documented finding, its conditions, and a supported fire safety implication. Keep hypotheses and expected impacts labeled as such. A file appearing in the catalog does not mean its contents have been analyzed.
 
@@ -88,7 +88,9 @@ The initial review found no solid-fuel run above 22.2% O2 or below about 0.97 at
 
 BASS and BASS-II record flow as instrument readings. Converting them to velocity requires calibration for the test date and number of flow restrictors. Many BASS-II runs vary flow during the test. Reports may supply outcomes missing from the tables; unsupported outcomes remain unknown.
 
-The current plan starts normalization with FLEX and Saffire-II, followed by BASS and BASS-II. APPROACH.md leaves the order, flow-sweep display, comparisons across hardware, gravity controls, report-extraction scope, and coverage in later NASA work open for review.
+The accepted normalization order is FLEX and Saffire-II, followed by BASS and BASS-II. These four investigations are the minimum preparation target; preserve the other tables row by row and leave unsupported conditions unknown. If review time runs out, retain BASS/BASS-II proposals as pending rather than confirmed observations.
+
+The MVP has no gravity filter. Preserve gravity per outcome and show Saffire-II's normal-gravity results with a visible "1 g ground test" label. Saffire-IV–VI and SoFIE coverage outside the saved PSI snapshot remains explicitly unverified and is outside the MVP verification scope. Flow-sweep behavior, calibration applicability, and cross-hardware comparison rules still require agreement. See the [accepted decisions and remaining questions](PLAN.md#accepted-decisions).
 
 
 ## Implementation Team
@@ -184,7 +186,7 @@ After the pipeline is available, structural validation uses `pipeline.schema.sch
 
 The current run schema allows only `kind: run` or `kind: note`, with `counts.runs`, `counts.notes` and `counts.empty_rows_skipped`. It does not explicitly distinguish the ranges, session summaries and duplicates required by [PLAN.md](PLAN.md#shared-contracts), or provide dedicated fields for initial/final conditions, run-to-file links and supporting evidence IDs. Retain source data and coordinate these additions before implementing affected graph or coverage behavior.
 
-These schemas define pipeline data. The [HTTP contract](docs/contracts/API.md), [storage contract](docs/contracts/STORAGE.md) and [RDF mapping](docs/contracts/RDF.md) define the backend interfaces, with shared FLEX/Saffire-II development fixtures. Alan and Emmanuel still need to review the contracts and fixtures before closing [S0 #6](https://github.com/lm-vicente-j/FlameInFreeFall/issues/6). Flow sweeps, comparison rules and gravity filtering remain tracked in #33-#35.
+These schemas define pipeline data. The [HTTP contract](docs/contracts/API.md), [storage contract](docs/contracts/STORAGE.md) and [RDF mapping](docs/contracts/RDF.md) define the backend interfaces, with shared FLEX/Saffire-II development fixtures. Alan and Emmanuel still need to review the contracts and fixtures before closing [S0 #6](https://github.com/lm-vicente-j/FlameInFreeFall/issues/6). Flow sweeps and comparison rules remain open in #33 and #34. The accepted #35 decision preserves outcome-level gravity and omits a gravity filter from the MVP.
 
 ### S0 handoff and backend readiness
 
