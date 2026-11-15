@@ -1,0 +1,13 @@
+{
+  "description": "Search aliases accepted by the user on 2026-11-15.",
+  "entries": [
+    {
+      "terms": ["suppression", "extinguishment"],
+      "review": {"status": "approved", "reviewer": "lm-vicente-j", "reviewed_at": "2026-11-15"}
+    },
+    {
+      "terms": ["detection", "smoke sensing"],
+      "review": {"status": "approved", "reviewer": "lm-vicente-j", "reviewed_at": "2026-11-15"}
+    }
+  ]
+}

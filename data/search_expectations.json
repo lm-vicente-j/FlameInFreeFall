@@ -1,0 +1,24 @@
+{
+  "description": "Title/acronym expectations fixed before ranking measurement. These are retrieval checks, not scientific approval.",
+  "review": {"status": "approved", "reviewer": "lm-vicente-j", "reviewed_at": "2026-11-15"},
+  "metric": "At least one expected accession among the first three results for each supported query; unsupported queries return no results.",
+  "queries": [
+    {"question": "Which saved study is FLEX?", "query": "FLEX", "expected_top3": ["PSI-69"]},
+    {"question": "Which study is BASS-II?", "query": "BASS-II", "expected_top3": ["PSI-25"]},
+    {"question": "Which study is SAFFIRE-II?", "query": "SAFFIRE-II", "expected_top3": ["PSI-99"]},
+    {"question": "Which study is the SAME reflight?", "query": "SAME-R", "expected_top3": ["PSI-101"]},
+    {"question": "Which study is DAFT?", "query": "DAFT", "expected_top3": ["PSI-47"]},
+    {"question": "Which study investigates cool flames?", "query": "Cool Flames Investigation", "expected_top3": ["PSI-39"]},
+    {"question": "Which study addresses coflow laminar diffusion flames?", "query": "Coflow Laminar Diffusion Flame", "expected_top3": ["PSI-21"]},
+    {"question": "Which study addresses electric-field effects?", "query": "Electric-Field Effects", "expected_top3": ["PSI-22"]},
+    {"question": "Which study uses a burning rate emulator?", "query": "Burning Rate Emulator", "expected_top3": ["PSI-20"]},
+    {"question": "Which study addresses flame structure and liftoff?", "query": "Structure Liftoff", "expected_top3": ["PSI-106"]},
+    {"question": "Which study measures smoke point?", "query": "Smoke Point", "expected_top3": ["PSI-107"]},
+    {"question": "Which study addresses flame design?", "query": "Flame Design", "expected_top3": ["PSI-10"]}
+  ],
+  "unsupported_queries": [
+    {"question": "What results establish rocket propellant detonation limits?", "query": "rocket propellant detonation", "expected": []},
+    {"question": "What results establish lunar methane tank explosion limits?", "query": "lunar methane tank explosion", "expected": []},
+    {"question": "What results establish ignition by a Mars dust storm?", "query": "Mars dust storm ignition", "expected": []}
+  ]
+}
