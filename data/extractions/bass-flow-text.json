@@ -1,0 +1,1054 @@
+{
+  "name": "bass-flow-text",
+  "task": "Propose structured values from free-text flow cells for human review: air display readings (min and max of the stated settings, only when both ends are stated) from Air display cells, fan display readings from Fan display cells, and extinction or blowoff outcomes when the cell states them, each with an exact quote and nothing inferred from other rows, calibration data or general knowledge.",
+  "source": {
+    "filename": "PSI-26_Science Documents_As Run_Test Matrix.xlsx",
+    "sha256": "850910541fc9c802d00aa9de14758205103642184249b419c09868df2fbea6e8",
+    "sheet": "as run matrix",
+    "column": "Fan display / Air display"
+  },
+  "items": [
+    {
+      "record_id": "PSI-26:bass:3",
+      "source_text": "10, 3-4",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": [
+          {
+            "instrument": "air_display",
+            "min": 3,
+            "max": 10,
+            "quote": "10, 3-4"
+          }
+        ]
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "record_id": "PSI-26:bass:6",
+      "source_text": "66 ign, 52 burn",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": [
+          {
+            "instrument": "fan_display",
+            "min": 52,
+            "max": 66,
+            "quote": "66 ign, 52 burn"
+          }
+        ]
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "record_id": "PSI-26:bass:7",
+      "source_text": "66 ign, 46 burn",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": [
+          {
+            "instrument": "fan_display",
+            "min": 46,
+            "max": 66,
+            "quote": "66 ign, 46 burn"
+          }
+        ]
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "record_id": "PSI-26:bass:7",
+      "source_text": "10,2-3",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": [
+          {
+            "instrument": "air_display",
+            "min": 2,
+            "max": 10,
+            "quote": "10,2-3"
+          }
+        ]
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "record_id": "PSI-26:bass:8",
+      "source_text": "10, 1-2",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": [
+          {
+            "instrument": "air_display",
+            "min": 1,
+            "max": 10,
+            "quote": "10, 1-2"
+          }
+        ]
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "record_id": "PSI-26:bass:10",
+      "source_text": "6, 3-2, 1-0",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": [
+          {
+            "instrument": "air_display",
+            "min": 0,
+            "max": 6,
+            "quote": "6, 3-2, 1-0"
+          }
+        ]
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "record_id": "PSI-26:bass:11",
+      "source_text": "42 > 41, max, off",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "record_id": "PSI-26:bass:11",
+      "source_text": "1 , 0.5?, 26?",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "record_id": "PSI-26:bass:15",
+      "source_text": "61, 40 late",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": [
+          {
+            "instrument": "fan_display",
+            "min": 40,
+            "max": 61,
+            "quote": "61, 40 late"
+          }
+        ]
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "record_id": "PSI-26:bass:18",
+      "source_text": "7,  0 (slow)",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": [
+          {
+            "instrument": "air_display",
+            "min": 0,
+            "max": 7,
+            "quote": "7,  0 (slow)"
+          }
+        ]
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "record_id": "PSI-26:bass:23",
+      "source_text": "49, 41>40.5ish",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": [
+          {
+            "instrument": "fan_display",
+            "min": 40.5,
+            "max": 49,
+            "quote": "49, 41>40.5ish"
+          }
+        ]
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "record_id": "PSI-26:bass:41",
+      "source_text": "left vm and resent message",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "record_id": "PSI-26:bass:47",
+      "source_text": "10, etc",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "record_id": "PSI-26:bass:48",
+      "source_text": "7, etc",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "record_id": "PSI-26:bass:55",
+      "source_text": "51, then max",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "record_id": "PSI-26:bass:56",
+      "source_text": "51, 71, max",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "record_id": "PSI-26:bass:61",
+      "source_text": "53, max",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "record_id": "PSI-26:bass:70",
+      "source_text": "pot 0.53, .45,.4, .35, 0.32 (out)",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "record_id": "PSI-26:bass:71",
+      "source_text": "pot 0.53, .45,.4, .35, 0.32, 0.31 (out)",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "record_id": "PSI-26:bass:72",
+      "source_text": "Pot 0.53, 0.45,  incr to 0.55 (did not complete before extinction",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [
+          {
+            "type": "extinction",
+            "gravity": "microgravity",
+            "result": {
+              "kind": "category",
+              "value": "extinction at end of flow sweep"
+            },
+            "quote": "extinction"
+          }
+        ],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "record_id": "PSI-26:bass:73",
+      "source_text": "0.53, 0.45, 0.4, 0.35, 0.33, 0.32, 0.31 (extinguished)",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [
+          {
+            "type": "extinction",
+            "gravity": "microgravity",
+            "result": {
+              "kind": "category",
+              "value": "extinction at end of flow sweep"
+            },
+            "quote": "extinguished"
+          }
+        ],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "record_id": "PSI-26:bass:75",
+      "source_text": "0.53, 0.40, 0.35, 0.31 (out)",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "record_id": "PSI-26:bass:76",
+      "source_text": "0.53, 0.4, 0.35, 0.32, 0.31, off (out)",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "record_id": "PSI-26:bass:77",
+      "source_text": "1-0",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": [
+          {
+            "instrument": "air_display",
+            "min": 0,
+            "max": 1,
+            "quote": "1-0"
+          }
+        ]
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "record_id": "PSI-26:bass:83",
+      "source_text": "68, 51,  slowly to zero",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": [
+          {
+            "instrument": "fan_display",
+            "min": 51,
+            "max": 68,
+            "quote": "68, 51"
+          }
+        ]
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "record_id": "PSI-26:bass:87",
+      "source_text": "62, 0.4, 0.38, 0.32 pot",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": [
+          {
+            "instrument": "fan_display",
+            "min": 62,
+            "max": 62,
+            "quote": "62"
+          }
+        ]
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "record_id": "PSI-26:bass:87",
+      "source_text": "8, <1 flow",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "record_id": "PSI-26:bass:88",
+      "source_text": "62,  98, 62, 42, off",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": [
+          {
+            "instrument": "fan_display",
+            "min": 42,
+            "max": 98,
+            "quote": "62,  98, 62, 42"
+          }
+        ]
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "record_id": "PSI-26:bass:91",
+      "source_text": "3,?, 0",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": [
+          {
+            "instrument": "air_display",
+            "min": 0,
+            "max": 3,
+            "quote": "3,?, 0"
+          }
+        ]
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "record_id": "PSI-26:bass:92",
+      "source_text": " ign at 62, then pots:  0.5, 0.45, 0.40, 0.39, 0.33",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": [
+          {
+            "instrument": "fan_display",
+            "min": 62,
+            "max": 62,
+            "quote": "62"
+          }
+        ]
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "record_id": "PSI-26:bass:93",
+      "source_text": "62, pot 0.4, 0.35, , off",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": [
+          {
+            "instrument": "fan_display",
+            "min": 62,
+            "max": 62,
+            "quote": "62"
+          }
+        ]
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "record_id": "PSI-26:bass:94",
+      "source_text": "52, pot 0.4, 0.35 ",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": [
+          {
+            "instrument": "fan_display",
+            "min": 52,
+            "max": 52,
+            "quote": "52"
+          }
+        ]
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "record_id": "PSI-26:bass:97",
+      "source_text": "5,2,1, <1",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "record_id": "PSI-26:bass:98",
+      "source_text": "5,1, <1",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "record_id": "PSI-26:bass:104",
+      "source_text": "pot 3, 1, 0.32",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "record_id": "PSI-26:bass:104",
+      "source_text": "8,4,<1",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "record_id": "PSI-26:bass:105",
+      "source_text": "pot 3, pot 0.67, 0.33, 0.3, 0",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "record_id": "PSI-26:bass:105",
+      "source_text": "8, 2, <1",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "record_id": "PSI-26:bass:106",
+      "source_text": "51, pots 0.5, 0.4, 0.35, 0.33, 0.32",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": [
+          {
+            "instrument": "fan_display",
+            "min": 51,
+            "max": 51,
+            "quote": "51"
+          }
+        ]
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "record_id": "PSI-26:bass:106",
+      "source_text": "5, 2, 1.5, etc",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "record_id": "PSI-26:bass:107",
+      "source_text": "pot 1.5 ign, 3.5",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "record_id": "PSI-26:bass:108",
+      "source_text": "Pots 1.5, 1 0.5, 0.4",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "record_id": "PSI-26:bass:108",
+      "source_text": "5,3, 2, etc",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "record_id": "PSI-26:bass:109",
+      "source_text": "Pots 1.5, 1 0.5, 0.4",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "record_id": "PSI-26:bass:112",
+      "source_text": "pots 3.4 for ign, 1.5, then 0.5",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "record_id": "PSI-26:bass:113",
+      "source_text": "pot 3.4",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "record_id": "PSI-26:bass:114",
+      "source_text": "pots 4.0, 2.6, 0.5, 0",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "record_id": "PSI-26:bass:114",
+      "source_text": "10, 7, <1",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "record_id": "PSI-26:bass:115",
+      "source_text": "pots 4.0, 1.0, 0.4, 0",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "record_id": "PSI-26:bass:116",
+      "source_text": "pots 4.0, 2.6, 0.35, 0.29",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "record_id": "PSI-26:bass:117",
+      "source_text": "pots, 4.0, 1.0, 0.4, 0.35, then oscillating high low for a few times.  Then turn down until it goes out, very slowly.",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "record_id": "PSI-26:bass:118",
+      "source_text": "pot 3.4",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "record_id": "PSI-26:bass:119",
+      "source_text": "pot 3.4",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "record_id": "PSI-26:bass:120",
+      "source_text": "pot 3.4",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "record_id": "PSI-26:bass:121",
+      "source_text": " pot 3, then variable",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "record_id": "PSI-26:bass:122",
+      "source_text": "pot 3 then variable",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    }
+  ]
+}

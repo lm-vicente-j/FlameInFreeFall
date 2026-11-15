@@ -15,7 +15,10 @@
   },
   "counts": {
     "runs": 8,
+    "ranges": 0,
+    "sessions": 0,
     "notes": 0,
+    "duplicate_rows": 0,
     "empty_rows_skipped": 0
   },
   "records": [
@@ -106,6 +109,8 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
@@ -195,6 +200,8 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
@@ -284,6 +291,8 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
@@ -373,6 +382,8 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
@@ -462,6 +473,16 @@
         }
       },
       "outcomes": [],
+      "flags": [
+        {
+          "code": "references_other_rows",
+          "columns": [
+            "Sample Material  "
+          ],
+          "detail": "cell \"Kapton: same conditions as 1-4\" defers to other rows"
+        }
+      ],
+      "links": [],
       "review_status": "not_required"
     },
     {
@@ -551,6 +572,16 @@
         }
       },
       "outcomes": [],
+      "flags": [
+        {
+          "code": "references_other_rows",
+          "columns": [
+            "Sample Material  "
+          ],
+          "detail": "cell \"Silicone Rubber: same conditions as 1-4\" defers to other rows"
+        }
+      ],
+      "links": [],
       "review_status": "not_required"
     },
     {
@@ -640,6 +671,16 @@
         }
       },
       "outcomes": [],
+      "flags": [
+        {
+          "code": "references_other_rows",
+          "columns": [
+            "Sample Material  "
+          ],
+          "detail": "cell \"Lampwick: same conditions as 1-4\" defers to other rows"
+        }
+      ],
+      "links": [],
       "review_status": "not_required"
     },
     {
@@ -729,6 +770,16 @@
         }
       },
       "outcomes": [],
+      "flags": [
+        {
+          "code": "references_other_rows",
+          "columns": [
+            "Sample Material  "
+          ],
+          "detail": "cell \"Dibutyl Phthalate: same conditions as 1-4\" defers to other rows"
+        }
+      ],
+      "links": [],
       "review_status": "not_required"
     }
   ]

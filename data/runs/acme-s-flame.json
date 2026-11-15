@@ -18,14 +18,17 @@
     ]
   },
   "counts": {
-    "runs": 18,
+    "runs": 0,
+    "ranges": 0,
+    "sessions": 18,
     "notes": 0,
+    "duplicate_rows": 0,
     "empty_rows_skipped": 0
   },
   "records": [
     {
       "id": "PSI-23:acme-s-flame:1",
-      "kind": "run",
+      "kind": "session",
       "row": 1,
       "original": {
         "Test Type": "First round of tests with nitrogen-diluted fuel and oxygen",
@@ -114,11 +117,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-23:acme-s-flame:2",
-      "kind": "run",
+      "kind": "session",
       "row": 2,
       "original": {
         "Test Type": "First round of tests with nitrogen-diluted fuel and oxygen",
@@ -207,11 +212,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-23:acme-s-flame:3",
-      "kind": "run",
+      "kind": "session",
       "row": 3,
       "original": {
         "Test Type": "First round of tests with nitrogen-diluted fuel and oxygen",
@@ -300,11 +307,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-23:acme-s-flame:4",
-      "kind": "run",
+      "kind": "session",
       "row": 4,
       "original": {
         "Test Type": "First round of tests with nitrogen-diluted fuel and oxygen",
@@ -393,11 +402,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-23:acme-s-flame:5",
-      "kind": "run",
+      "kind": "session",
       "row": 5,
       "original": {
         "Test Type": "First round of tests with nitrogen-diluted fuel and oxygen",
@@ -486,11 +497,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-23:acme-s-flame:6",
-      "kind": "run",
+      "kind": "session",
       "row": 6,
       "original": {
         "Test Type": "First round of tests with nitrogen-diluted fuel and oxygen",
@@ -579,11 +592,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-23:acme-s-flame:7",
-      "kind": "run",
+      "kind": "session",
       "row": 7,
       "original": {
         "Test Type": "First round of tests with nitrogen-diluted fuel and oxygen",
@@ -672,11 +687,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-23:acme-s-flame:8",
-      "kind": "run",
+      "kind": "session",
       "row": 8,
       "original": {
         "Test Type": "First round of tests with nitrogen-diluted fuel and oxygen",
@@ -765,11 +782,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-23:acme-s-flame:9",
-      "kind": "run",
+      "kind": "session",
       "row": 9,
       "original": {
         "Test Type": "First round of tests with nitrogen-diluted fuel and oxygen",
@@ -858,11 +877,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-23:acme-s-flame:10",
-      "kind": "run",
+      "kind": "session",
       "row": 10,
       "original": {
         "Test Type": "First round of tests with nitrogen-diluted fuel and oxygen",
@@ -951,11 +972,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-23:acme-s-flame:11",
-      "kind": "run",
+      "kind": "session",
       "row": 11,
       "original": {
         "Test Type": "Second round of tests with helium-diluted fuel and oxygen",
@@ -1044,11 +1067,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-23:acme-s-flame:12",
-      "kind": "run",
+      "kind": "session",
       "row": 12,
       "original": {
         "Test Type": "Second round of tests with helium-diluted fuel and oxygen",
@@ -1137,11 +1162,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-23:acme-s-flame:13",
-      "kind": "run",
+      "kind": "session",
       "row": 13,
       "original": {
         "Test Type": "Second round of tests with helium-diluted fuel and oxygen",
@@ -1230,11 +1257,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-23:acme-s-flame:14",
-      "kind": "run",
+      "kind": "session",
       "row": 14,
       "original": {
         "Test Type": "Second round of tests with helium-diluted fuel and oxygen",
@@ -1323,11 +1352,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-23:acme-s-flame:15",
-      "kind": "run",
+      "kind": "session",
       "row": 15,
       "original": {
         "Test Type": "Second round of tests with helium-diluted fuel and oxygen",
@@ -1416,11 +1447,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-23:acme-s-flame:16",
-      "kind": "run",
+      "kind": "session",
       "row": 16,
       "original": {
         "Test Type": "Second round of tests with helium-diluted fuel and oxygen",
@@ -1509,11 +1542,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-23:acme-s-flame:17",
-      "kind": "run",
+      "kind": "session",
       "row": 17,
       "original": {
         "Test Type": "Second round of tests with helium-diluted fuel and oxygen",
@@ -1602,11 +1637,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-23:acme-s-flame:18",
-      "kind": "run",
+      "kind": "session",
       "row": 18,
       "original": {
         "Test Type": "Second round of tests with helium-diluted fuel and oxygen",
@@ -1695,6 +1732,8 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     }
   ]

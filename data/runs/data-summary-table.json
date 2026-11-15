@@ -13,14 +13,17 @@
     ]
   },
   "counts": {
-    "runs": 8,
-    "notes": 0,
+    "runs": 0,
+    "ranges": 0,
+    "sessions": 0,
+    "notes": 8,
+    "duplicate_rows": 0,
     "empty_rows_skipped": 0
   },
   "records": [
     {
       "id": "PSI-142:data-summary-table:1",
-      "kind": "run",
+      "kind": "note",
       "row": 1,
       "original": {
         "Data ID": "1",
@@ -104,11 +107,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-142:data-summary-table:2",
-      "kind": "run",
+      "kind": "note",
       "row": 2,
       "original": {
         "Data ID": "2",
@@ -192,11 +197,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-142:data-summary-table:3",
-      "kind": "run",
+      "kind": "note",
       "row": 3,
       "original": {
         "Data ID": "3",
@@ -280,11 +287,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-142:data-summary-table:4",
-      "kind": "run",
+      "kind": "note",
       "row": 4,
       "original": {
         "Data ID": "4",
@@ -368,11 +377,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-142:data-summary-table:5",
-      "kind": "run",
+      "kind": "note",
       "row": 5,
       "original": {
         "Data ID": "5",
@@ -456,11 +467,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-142:data-summary-table:6",
-      "kind": "run",
+      "kind": "note",
       "row": 6,
       "original": {
         "Data ID": "6",
@@ -544,11 +557,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-142:data-summary-table:7",
-      "kind": "run",
+      "kind": "note",
       "row": 7,
       "original": {
         "Data ID": "7",
@@ -632,11 +647,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-142:data-summary-table:8",
-      "kind": "run",
+      "kind": "note",
       "row": 8,
       "original": {
         "Data ID": "8",
@@ -720,6 +737,8 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     }
   ]

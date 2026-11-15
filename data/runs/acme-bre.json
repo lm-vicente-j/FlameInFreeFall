@@ -17,14 +17,17 @@
     ]
   },
   "counts": {
-    "runs": 18,
+    "runs": 0,
+    "ranges": 0,
+    "sessions": 18,
     "notes": 0,
+    "duplicate_rows": 0,
     "empty_rows_skipped": 0
   },
   "records": [
     {
       "id": "PSI-20:acme-bre:1",
-      "kind": "run",
+      "kind": "session",
       "row": 1,
       "original": {
         "Year": "2019",
@@ -112,11 +115,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-20:acme-bre:2",
-      "kind": "run",
+      "kind": "session",
       "row": 2,
       "original": {
         "Year": "2019",
@@ -204,11 +209,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-20:acme-bre:3",
-      "kind": "run",
+      "kind": "session",
       "row": 3,
       "original": {
         "Year": "2019",
@@ -296,11 +303,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-20:acme-bre:4",
-      "kind": "run",
+      "kind": "session",
       "row": 4,
       "original": {
         "Year": "2019",
@@ -388,11 +397,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-20:acme-bre:5",
-      "kind": "run",
+      "kind": "session",
       "row": 5,
       "original": {
         "Year": "2019",
@@ -480,11 +491,21 @@
         }
       },
       "outcomes": [],
+      "flags": [
+        {
+          "code": "invalid_reading",
+          "columns": [
+            "Oxygen Conc (percent)"
+          ],
+          "detail": "cell \"3400%\": 3400 is above the maximum possible percent of 100 for oxygen"
+        }
+      ],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-20:acme-bre:6",
-      "kind": "run",
+      "kind": "session",
       "row": 6,
       "original": {
         "Year": "2019",
@@ -572,11 +593,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-20:acme-bre:7",
-      "kind": "run",
+      "kind": "session",
       "row": 7,
       "original": {
         "Year": "2019",
@@ -664,11 +687,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-20:acme-bre:8",
-      "kind": "run",
+      "kind": "session",
       "row": 8,
       "original": {
         "Year": "2019",
@@ -756,11 +781,21 @@
         }
       },
       "outcomes": [],
+      "flags": [
+        {
+          "code": "invalid_reading",
+          "columns": [
+            "Oxygen Conc (percent)"
+          ],
+          "detail": "cell \"2100%\": 2100 is above the maximum possible percent of 100 for oxygen"
+        }
+      ],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-20:acme-bre:9",
-      "kind": "run",
+      "kind": "session",
       "row": 9,
       "original": {
         "Year": "2019",
@@ -848,11 +883,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-20:acme-bre:10",
-      "kind": "run",
+      "kind": "session",
       "row": 10,
       "original": {
         "Year": "2020",
@@ -940,11 +977,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-20:acme-bre:11",
-      "kind": "run",
+      "kind": "session",
       "row": 11,
       "original": {
         "Year": "2020",
@@ -1032,11 +1071,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-20:acme-bre:12",
-      "kind": "run",
+      "kind": "session",
       "row": 12,
       "original": {
         "Year": "2020",
@@ -1124,11 +1165,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-20:acme-bre:13",
-      "kind": "run",
+      "kind": "session",
       "row": 13,
       "original": {
         "Year": "2020",
@@ -1216,11 +1259,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-20:acme-bre:14",
-      "kind": "run",
+      "kind": "session",
       "row": 14,
       "original": {
         "Year": "2020",
@@ -1308,11 +1353,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-20:acme-bre:15",
-      "kind": "run",
+      "kind": "session",
       "row": 15,
       "original": {
         "Year": "2020",
@@ -1400,11 +1447,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-20:acme-bre:16",
-      "kind": "run",
+      "kind": "session",
       "row": 16,
       "original": {
         "Year": "2020",
@@ -1492,11 +1541,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-20:acme-bre:17",
-      "kind": "run",
+      "kind": "session",
       "row": 17,
       "original": {
         "Year": "2021",
@@ -1584,11 +1635,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-20:acme-bre:18",
-      "kind": "run",
+      "kind": "session",
       "row": 18,
       "original": {
         "Year": "2021",
@@ -1676,6 +1729,8 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     }
   ]

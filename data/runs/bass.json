@@ -16,7 +16,10 @@
   },
   "counts": {
     "runs": 121,
+    "ranges": 0,
+    "sessions": 0,
     "notes": 1,
+    "duplicate_rows": 0,
     "empty_rows_skipped": 0
   },
   "records": [
@@ -117,7 +120,24 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "extinction",
+          "gravity": "microgravity",
+          "result": {
+            "value": "extinguishes at burnout",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "extinguishes at burnout",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -217,7 +237,27 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "burn_time",
+          "gravity": "microgravity",
+          "result": {
+            "min": 120.0,
+            "max": 120.0,
+            "unit": "s",
+            "qualifier": null,
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "2 minute burn",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -288,17 +328,17 @@
           "note": "as-run matrix row 6 of PSI-26_Science Documents_As Run_Test Matrix.xlsx (As run test no. 3); atm x 101.325"
         },
         "flow_cm_s": {
-          "min": null,
-          "max": null,
+          "min": 3.0198,
+          "max": 10.066,
           "unit": "cm/s",
           "qualifier": null,
-          "method": "unknown",
+          "method": "llm",
           "columns": [
             "as run matrix!Air display"
           ],
-          "review_status": "not_required",
-          "quote": null,
-          "note": "free text; queued for reviewed extraction"
+          "review_status": "pending",
+          "quote": "10, 3-4",
+          "note": "velocity = 1.0066 x air display, from the footnote '*U =1.0066(AIR)' of the PSI-25 workbook 'Fan calibration data.xlsx' (SPICE fan calibration at 56 mm downstream, 36 mm from bottom, centerline) (x 1.0066); a sweep is recorded as the min and max of its readings; air display readings proposed by model"
         },
         "flow_direction": {
           "value": null,
@@ -317,7 +357,41 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "blowoff",
+          "gravity": "microgravity",
+          "result": {
+            "value": "stagnation region blew off",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "Blew off stagnation region",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        },
+        {
+          "type": "burn_time",
+          "gravity": "microgravity",
+          "result": {
+            "min": 120.0,
+            "max": 120.0,
+            "unit": "s",
+            "qualifier": "approximate",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "~ 2 minute total burn",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -417,7 +491,27 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "burn_time",
+          "gravity": "microgravity",
+          "result": {
+            "min": 40.0,
+            "max": 40.0,
+            "unit": "s",
+            "qualifier": "approximate",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "~ 40 s burn",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -517,7 +611,27 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "burn_time",
+          "gravity": "microgravity",
+          "result": {
+            "min": 60.0,
+            "max": 60.0,
+            "unit": "s",
+            "qualifier": "approximate",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "~ 60 s burn",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -618,6 +732,8 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -688,17 +804,17 @@
           "note": "as-run matrix row 10 of PSI-26_Science Documents_As Run_Test Matrix.xlsx (As run test no. 7); atm x 101.325"
         },
         "flow_cm_s": {
-          "min": null,
-          "max": null,
+          "min": 2.0132,
+          "max": 10.066,
           "unit": "cm/s",
           "qualifier": null,
-          "method": "unknown",
+          "method": "llm",
           "columns": [
             "as run matrix!Air display"
           ],
-          "review_status": "not_required",
-          "quote": null,
-          "note": "free text; queued for reviewed extraction"
+          "review_status": "pending",
+          "quote": "10,2-3",
+          "note": "velocity = 1.0066 x air display, from the footnote '*U =1.0066(AIR)' of the PSI-25 workbook 'Fan calibration data.xlsx' (SPICE fan calibration at 56 mm downstream, 36 mm from bottom, centerline) (x 1.0066); a sweep is recorded as the min and max of its readings; air display readings proposed by model"
         },
         "flow_direction": {
           "value": null,
@@ -718,6 +834,8 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -788,17 +906,17 @@
           "note": "as-run matrix row 11 of PSI-26_Science Documents_As Run_Test Matrix.xlsx (As run test no. 8); atm x 101.325"
         },
         "flow_cm_s": {
-          "min": null,
-          "max": null,
+          "min": 1.0066,
+          "max": 10.066,
           "unit": "cm/s",
           "qualifier": null,
-          "method": "unknown",
+          "method": "llm",
           "columns": [
             "as run matrix!Air display"
           ],
-          "review_status": "not_required",
-          "quote": null,
-          "note": "free text; queued for reviewed extraction"
+          "review_status": "pending",
+          "quote": "10, 1-2",
+          "note": "velocity = 1.0066 x air display, from the footnote '*U =1.0066(AIR)' of the PSI-25 workbook 'Fan calibration data.xlsx' (SPICE fan calibration at 56 mm downstream, 36 mm from bottom, centerline) (x 1.0066); a sweep is recorded as the min and max of its readings; air display readings proposed by model"
         },
         "flow_direction": {
           "value": null,
@@ -817,7 +935,24 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "extinction",
+          "gravity": "microgravity",
+          "result": {
+            "value": "Flame doesn't go out until fan goes to 38",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "Flame doesn't go out until fan goes to 38",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -917,7 +1052,24 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "extinction",
+          "gravity": "microgravity",
+          "result": {
+            "value": "extinguished by turning flow off",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "To extinguish, turned  flow off",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -988,17 +1140,17 @@
           "note": "as-run matrix row 13 of PSI-26_Science Documents_As Run_Test Matrix.xlsx (As run test no. 10); atm x 101.325"
         },
         "flow_cm_s": {
-          "min": null,
-          "max": null,
+          "min": 0.0,
+          "max": 6.0396,
           "unit": "cm/s",
           "qualifier": null,
-          "method": "unknown",
+          "method": "llm",
           "columns": [
             "as run matrix!Air display"
           ],
-          "review_status": "not_required",
-          "quote": null,
-          "note": "free text; queued for reviewed extraction"
+          "review_status": "pending",
+          "quote": "6, 3-2, 1-0",
+          "note": "velocity = 1.0066 x air display, from the footnote '*U =1.0066(AIR)' of the PSI-25 workbook 'Fan calibration data.xlsx' (SPICE fan calibration at 56 mm downstream, 36 mm from bottom, centerline) (x 1.0066); a sweep is recorded as the min and max of its readings; air display readings proposed by model"
         },
         "flow_direction": {
           "value": null,
@@ -1017,7 +1169,24 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "extinction",
+          "gravity": "microgravity",
+          "result": {
+            "value": "extinguished when fan off",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "extinguished when fan off",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -1117,7 +1286,24 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "blowoff",
+          "gravity": "microgravity",
+          "result": {
+            "value": "did not blow off stagnation region",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "flame did not blow off stagnation region",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -1217,7 +1403,27 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "burn_time",
+          "gravity": "microgravity",
+          "result": {
+            "min": 26.0,
+            "max": 26.0,
+            "unit": "s",
+            "qualifier": null,
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "26 s burn",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -1318,6 +1524,8 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -1417,7 +1625,55 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "ignition",
+          "gravity": "microgravity",
+          "result": {
+            "value": "ignited",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "Ignited and burned for only 2 s",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        },
+        {
+          "type": "burn_time",
+          "gravity": "microgravity",
+          "result": {
+            "min": 2.0,
+            "max": 2.0,
+            "unit": "s",
+            "qualifier": null,
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "burned for only 2 s",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        },
+        {
+          "type": "extinction",
+          "gravity": "microgravity",
+          "result": {
+            "value": "died when igniter turned off",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "Died when igniter turned off",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -1517,7 +1773,38 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "ignition",
+          "gravity": "microgravity",
+          "result": {
+            "value": "ignited",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "Ignited GBX",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        },
+        {
+          "type": "extinction",
+          "gravity": "microgravity",
+          "result": {
+            "value": "flame went out",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "flame went out",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -1617,7 +1904,24 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "extinction",
+          "gravity": "microgravity",
+          "result": {
+            "value": "Flame extinuishes right away",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "Flame extinuishes right away",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -1717,7 +2021,24 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "extinction",
+          "gravity": "microgravity",
+          "result": {
+            "value": "it extinguished right away",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "it extinguished right away",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -1788,17 +2109,17 @@
           "note": "as-run matrix row 21 of PSI-26_Science Documents_As Run_Test Matrix.xlsx (As run test no. 18); atm x 101.325"
         },
         "flow_cm_s": {
-          "min": null,
-          "max": null,
+          "min": 0.0,
+          "max": 7.0462,
           "unit": "cm/s",
           "qualifier": null,
-          "method": "unknown",
+          "method": "llm",
           "columns": [
             "as run matrix!Air display"
           ],
-          "review_status": "not_required",
-          "quote": null,
-          "note": "free text; queued for reviewed extraction"
+          "review_status": "pending",
+          "quote": "7,  0 (slow)",
+          "note": "velocity = 1.0066 x air display, from the footnote '*U =1.0066(AIR)' of the PSI-25 workbook 'Fan calibration data.xlsx' (SPICE fan calibration at 56 mm downstream, 36 mm from bottom, centerline) (x 1.0066); a sweep is recorded as the min and max of its readings; air display readings proposed by model"
         },
         "flow_direction": {
           "value": null,
@@ -1817,7 +2138,24 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "extinction",
+          "gravity": "microgravity",
+          "result": {
+            "value": "flame extinguished",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "flame extinguished",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -1917,7 +2255,24 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "extinction",
+          "gravity": "microgravity",
+          "result": {
+            "value": "Extinguished when flow turned off",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "Extinguished when flow turned off",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -2017,7 +2372,27 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "burn_time",
+          "gravity": "microgravity",
+          "result": {
+            "min": 180.0,
+            "max": 180.0,
+            "unit": "s",
+            "qualifier": "approximate",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "Burned about 3 min",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -2117,7 +2492,38 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "ignition",
+          "gravity": "microgravity",
+          "result": {
+            "value": "ignited",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "ignited within 15 s",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        },
+        {
+          "type": "extinction",
+          "gravity": "microgravity",
+          "result": {
+            "value": "Extinguished when pot ~ 39",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "Extinguished when pot ~ 39",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -2218,6 +2624,8 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -2317,7 +2725,24 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "ignition",
+          "gravity": "microgravity",
+          "result": {
+            "value": "ignited",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "Ignited at 16:05",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -2417,7 +2842,24 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "ignition",
+          "gravity": "microgravity",
+          "result": {
+            "value": "no ignition",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "did not ignite",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -2518,6 +2960,8 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -2617,7 +3061,38 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "extinction",
+          "gravity": "microgravity",
+          "result": {
+            "value": "extinguished when flow is turned off",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "extinguished when flow is turned off",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        },
+        {
+          "type": "blowoff",
+          "gravity": "microgravity",
+          "result": {
+            "value": "N2 blew out stag region",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "N2 blew out stag region",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -2718,6 +3193,8 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -2818,6 +3295,8 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -2917,7 +3396,24 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "extinction",
+          "gravity": "microgravity",
+          "result": {
+            "value": "extinguishing",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "extinguishing",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -3017,7 +3513,24 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "ignition",
+          "gravity": "microgravity",
+          "result": {
+            "value": "ignited",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "ignited at 9.75 cm/s",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -3117,7 +3630,38 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "ignition",
+          "gravity": "microgravity",
+          "result": {
+            "value": "ignited",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "ignited at 10 cm/s",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        },
+        {
+          "type": "extinction",
+          "gravity": "microgravity",
+          "result": {
+            "value": "extinguished",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "extinguished",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -3217,7 +3761,24 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "blowoff",
+          "gravity": "microgravity",
+          "result": {
+            "value": "did not blow out",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "did not blow out even leading edge",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -3317,7 +3878,38 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "ignition",
+          "gravity": "microgravity",
+          "result": {
+            "value": "ignited",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "ignited at 43",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        },
+        {
+          "type": "extinction",
+          "gravity": "microgravity",
+          "result": {
+            "value": "flame extinguished",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "flame extinguished",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -3417,7 +4009,41 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "ignition",
+          "gravity": "microgravity",
+          "result": {
+            "value": "ignited",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "Ignited quickly",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        },
+        {
+          "type": "burn_time",
+          "gravity": "microgravity",
+          "result": {
+            "min": 285.0,
+            "max": 285.0,
+            "unit": "s",
+            "qualifier": "approximate",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "burned for ~ 4.75 min",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -3517,7 +4143,27 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "burn_time",
+          "gravity": "microgravity",
+          "result": {
+            "min": 240.0,
+            "max": 240.0,
+            "unit": "s",
+            "qualifier": null,
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "4 minute burn",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -3617,7 +4263,24 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "extinction",
+          "gravity": "microgravity",
+          "result": {
+            "value": "flow off goes out",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "flow off goes out",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -3717,7 +4380,38 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "ignition",
+          "gravity": "microgravity",
+          "result": {
+            "value": "ignited",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "Ignited and turned flow down",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        },
+        {
+          "type": "extinction",
+          "gravity": "microgravity",
+          "result": {
+            "value": "Extinguished with flow off",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "Extinguished with flow off",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -3817,7 +4511,24 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "extinction",
+          "gravity": "microgravity",
+          "result": {
+            "value": "Extinguished at fan 41",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "Extinguished at fan 41",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -3917,7 +4628,24 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "ignition",
+          "gravity": "microgravity",
+          "result": {
+            "value": "ignited",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "ignited and left igniter on",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -4017,7 +4745,24 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "extinction",
+          "gravity": "microgravity",
+          "result": {
+            "value": "Flame extinguished all by itself",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "Flame extinguished all by itself",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -4118,6 +4863,8 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -4217,7 +4964,24 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "extinction",
+          "gravity": "microgravity",
+          "result": {
+            "value": "extinction when air flow off",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "extinction when air flow off",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -4318,6 +5082,8 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -4417,7 +5183,24 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "ignition",
+          "gravity": "microgravity",
+          "result": {
+            "value": "no ignition",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "no ignition",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -4517,7 +5300,24 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "ignition",
+          "gravity": "microgravity",
+          "result": {
+            "value": "ignited",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "Ignited and spread a bit",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -4618,6 +5418,8 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -4717,7 +5519,24 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "extinction",
+          "gravity": "microgravity",
+          "result": {
+            "value": "Flame extinguished when fan set to 40",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "Flame extinguished when fan set to 40",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -4817,7 +5636,24 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "extinction",
+          "gravity": "microgravity",
+          "result": {
+            "value": "Out at 40",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "Out at 40",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -4918,6 +5754,8 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -5017,7 +5855,24 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "extinction",
+          "gravity": "microgravity",
+          "result": {
+            "value": "Self-extinguished",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "Self-extinguished",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -5117,7 +5972,24 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "extinction",
+          "gravity": "microgravity",
+          "result": {
+            "value": "went out",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "but went out",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -5217,7 +6089,38 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "ignition",
+          "gravity": "microgravity",
+          "result": {
+            "value": "ignited",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "ignited on 3rd try",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        },
+        {
+          "type": "extinction",
+          "gravity": "microgravity",
+          "result": {
+            "value": "flame went out",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "flame went out",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -5317,7 +6220,55 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "ignition",
+          "gravity": "microgravity",
+          "result": {
+            "value": "ignited",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "ignited after a few tries",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        },
+        {
+          "type": "extinction",
+          "gravity": "microgravity",
+          "result": {
+            "value": "flame out",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "flame out",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        },
+        {
+          "type": "burn_time",
+          "gravity": "microgravity",
+          "result": {
+            "min": 360.0,
+            "max": 360.0,
+            "unit": "s",
+            "qualifier": null,
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "6 minute burn",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -5417,7 +6368,38 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "ignition",
+          "gravity": "microgravity",
+          "result": {
+            "value": "ignited",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "ignited at 62",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        },
+        {
+          "type": "extinction",
+          "gravity": "microgravity",
+          "result": {
+            "value": "did eventually extinguish it",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "did eventually extinguish it",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -5517,7 +6499,24 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "blowoff",
+          "gravity": "microgravity",
+          "result": {
+            "value": "Did not blow out",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "Did not blow out",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -5617,7 +6616,24 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "blowoff",
+          "gravity": "microgravity",
+          "result": {
+            "value": "Did not blow out",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "Did not blow out",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -5717,7 +6733,24 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "ignition",
+          "gravity": "microgravity",
+          "result": {
+            "value": "no ignition",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "Did not ignite",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -5817,7 +6850,55 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "ignition",
+          "gravity": "microgravity",
+          "result": {
+            "value": "ignited",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "brief ignition",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        },
+        {
+          "type": "extinction",
+          "gravity": "microgravity",
+          "result": {
+            "value": "extinguished in ~ 3 s",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "extinguished in ~ 3 s",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        },
+        {
+          "type": "burn_time",
+          "gravity": "microgravity",
+          "result": {
+            "min": 3.0,
+            "max": 3.0,
+            "unit": "s",
+            "qualifier": "approximate",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "~ 3 s",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -5917,7 +6998,55 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "ignition",
+          "gravity": "microgravity",
+          "result": {
+            "value": "ignited",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "brief ignition",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        },
+        {
+          "type": "extinction",
+          "gravity": "microgravity",
+          "result": {
+            "value": "extinguished after 4 seconds",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "extinguished after 4 seconds",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        },
+        {
+          "type": "burn_time",
+          "gravity": "microgravity",
+          "result": {
+            "min": 4.0,
+            "max": 4.0,
+            "unit": "s",
+            "qualifier": null,
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "4 seconds",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -6018,6 +7147,8 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -6117,7 +7248,38 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "blowoff",
+          "gravity": "microgravity",
+          "result": {
+            "value": "Did not blow out either at high flow or with GN2",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "Did not blow out either at high flow or with GN2",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        },
+        {
+          "type": "blowoff",
+          "gravity": "microgravity",
+          "result": {
+            "value": "stagnation region blew out",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "stagnation region blew out",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -6217,7 +7379,24 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "blowoff",
+          "gravity": "microgravity",
+          "result": {
+            "value": "blew out bottom half, but not top half",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "blew out bottom half, but not top half",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -6317,7 +7496,24 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "blowoff",
+          "gravity": "microgravity",
+          "result": {
+            "value": "flame did blow out with GN2",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "flame did blow out with GN2",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -6417,7 +7613,38 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "blowoff",
+          "gravity": "microgravity",
+          "result": {
+            "value": "Stag blew out at 3.5",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "Stag blew out at 3.5",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        },
+        {
+          "type": "blowoff",
+          "gravity": "microgravity",
+          "result": {
+            "value": "did not blow out at 10",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "did not blow out at 10",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -6518,6 +7745,8 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -6608,6 +7837,8 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
@@ -6708,6 +7939,8 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -6808,6 +8041,8 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -6908,6 +8143,8 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -7007,7 +8244,38 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "ignition",
+          "gravity": "microgravity",
+          "result": {
+            "value": "ignited",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "ignited and was all blue",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        },
+        {
+          "type": "extinction",
+          "gravity": "microgravity",
+          "result": {
+            "value": "flame went out",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "flame went out",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -7107,7 +8375,24 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "ignition",
+          "gravity": "microgravity",
+          "result": {
+            "value": "ignited",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "Ignited very quickly",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -7207,7 +8492,24 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "extinction",
+          "gravity": "microgravity",
+          "result": {
+            "value": "extinction at end of flow sweep",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Fan display"
+            ],
+            "review_status": "pending",
+            "quote": "extinction",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -7307,7 +8609,55 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "burn_time",
+          "gravity": "microgravity",
+          "result": {
+            "min": 600.0,
+            "max": 600.0,
+            "unit": "s",
+            "qualifier": "approximate",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "~ 10 min",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        },
+        {
+          "type": "extinction",
+          "gravity": "microgravity",
+          "result": {
+            "value": "goes out at pot 0.31",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "goes out at pot 0.31",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        },
+        {
+          "type": "extinction",
+          "gravity": "microgravity",
+          "result": {
+            "value": "extinction at end of flow sweep",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Fan display"
+            ],
+            "review_status": "pending",
+            "quote": "extinguished",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -7407,7 +8757,24 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "extinction",
+          "gravity": "microgravity",
+          "result": {
+            "value": "Extinguished/burned out at 0.31",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "Extinguished/burned out at 0.31",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -7507,7 +8874,24 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "extinction",
+          "gravity": "microgravity",
+          "result": {
+            "value": "went out",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "went out",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -7607,7 +8991,24 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "extinction",
+          "gravity": "microgravity",
+          "result": {
+            "value": "went out when fan off",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "went out when fan off",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -7678,17 +9079,17 @@
           "note": "as-run matrix row 80 of PSI-26_Science Documents_As Run_Test Matrix.xlsx (As run test no. 75); atm x 101.325"
         },
         "flow_cm_s": {
-          "min": null,
-          "max": null,
+          "min": 0.0,
+          "max": 1.0066,
           "unit": "cm/s",
           "qualifier": null,
-          "method": "unknown",
+          "method": "llm",
           "columns": [
             "as run matrix!Air display"
           ],
-          "review_status": "not_required",
-          "quote": null,
-          "note": "free text; queued for reviewed extraction"
+          "review_status": "pending",
+          "quote": "1-0",
+          "note": "velocity = 1.0066 x air display, from the footnote '*U =1.0066(AIR)' of the PSI-25 workbook 'Fan calibration data.xlsx' (SPICE fan calibration at 56 mm downstream, 36 mm from bottom, centerline) (x 1.0066); a sweep is recorded as the min and max of its readings; air display readings proposed by model"
         },
         "flow_direction": {
           "value": null,
@@ -7708,6 +9109,8 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -7807,7 +9210,24 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "ignition",
+          "gravity": "microgravity",
+          "result": {
+            "value": "ignited",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "ignited well",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -7907,7 +9327,41 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "ignition",
+          "gravity": "microgravity",
+          "result": {
+            "value": "ignited",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "Ignited and got immediate dim blue flame",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        },
+        {
+          "type": "burn_time",
+          "gravity": "microgravity",
+          "result": {
+            "min": 480.0,
+            "max": 480.0,
+            "unit": "s",
+            "qualifier": null,
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "burn for 8 minutes",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -8007,7 +9461,38 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "ignition",
+          "gravity": "microgravity",
+          "result": {
+            "value": "ignited",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "Ignited nicely",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        },
+        {
+          "type": "extinction",
+          "gravity": "microgravity",
+          "result": {
+            "value": "extinguished by itself",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "extinguished by itself",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -8107,7 +9592,24 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "extinction",
+          "gravity": "microgravity",
+          "result": {
+            "value": "Flame went out when igniter was retracted",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "Flame went out when igniter was retracted",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -8208,6 +9710,8 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -8307,7 +9811,24 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "extinction",
+          "gravity": "microgravity",
+          "result": {
+            "value": "Extinguished at very low flow",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "Extinguished at very low flow",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -8408,6 +9929,8 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -8508,6 +10031,8 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -8608,6 +10133,8 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -8707,7 +10234,24 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "extinction",
+          "gravity": "microgravity",
+          "result": {
+            "value": "Went out at 0.32 pot",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "Went out at 0.32 pot",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -8808,6 +10352,8 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -8907,7 +10453,24 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "extinction",
+          "gravity": "microgravity",
+          "result": {
+            "value": "Flame went out when fan set to 39",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "Flame went out when fan set to 39",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -9008,6 +10571,8 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -9078,17 +10643,17 @@
           "note": "as-run matrix row 98 of PSI-26_Science Documents_As Run_Test Matrix.xlsx (As run test no. 88); atm x 101.325"
         },
         "flow_cm_s": {
-          "min": null,
-          "max": null,
+          "min": 0.0,
+          "max": 3.0198,
           "unit": "cm/s",
           "qualifier": null,
-          "method": "unknown",
+          "method": "llm",
           "columns": [
             "as run matrix!Air display"
           ],
-          "review_status": "not_required",
-          "quote": null,
-          "note": "free text; queued for reviewed extraction"
+          "review_status": "pending",
+          "quote": "3,?, 0",
+          "note": "velocity = 1.0066 x air display, from the footnote '*U =1.0066(AIR)' of the PSI-25 workbook 'Fan calibration data.xlsx' (SPICE fan calibration at 56 mm downstream, 36 mm from bottom, centerline) (x 1.0066); a sweep is recorded as the min and max of its readings; air display readings proposed by model"
         },
         "flow_direction": {
           "value": null,
@@ -9107,7 +10672,24 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "extinction",
+          "gravity": "microgravity",
+          "result": {
+            "value": "went out on its own",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "went out on its own",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -9208,6 +10790,8 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -9307,7 +10891,24 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "extinction",
+          "gravity": "microgravity",
+          "result": {
+            "value": "Out when fan off",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "Out when fan off",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -9408,6 +11009,8 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -9507,7 +11110,24 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "extinction",
+          "gravity": "microgravity",
+          "result": {
+            "value": "out at flow change",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "out at flow change",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -9607,7 +11227,24 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "extinction",
+          "gravity": "microgravity",
+          "result": {
+            "value": "Extinguished on last flow change",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "Extinguished on last flow change",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -9707,7 +11344,24 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "extinction",
+          "gravity": "microgravity",
+          "result": {
+            "value": "Extinguished when flow off",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "Extinguished when flow off",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -9807,7 +11461,24 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "extinction",
+          "gravity": "microgravity",
+          "result": {
+            "value": "out at 18:40",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "out at 18:40",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -9908,6 +11579,8 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -10007,7 +11680,24 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "extinction",
+          "gravity": "microgravity",
+          "result": {
+            "value": "flame self-extinguished",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "flame self-extinguished",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -10107,7 +11797,24 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "ignition",
+          "gravity": "microgravity",
+          "result": {
+            "value": "ignited",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "flame lit on 2nd try",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -10207,7 +11914,24 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "extinction",
+          "gravity": "microgravity",
+          "result": {
+            "value": "winks out",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "winks out",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -10307,7 +12031,24 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "extinction",
+          "gravity": "microgravity",
+          "result": {
+            "value": "winked out",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "winked out",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -10407,7 +12148,38 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "ignition",
+          "gravity": "microgravity",
+          "result": {
+            "value": "ignited",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "got it ignited",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        },
+        {
+          "type": "extinction",
+          "gravity": "microgravity",
+          "result": {
+            "value": "Went out at finite flow",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "Went out at finite flow",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -10507,7 +12279,24 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "extinction",
+          "gravity": "microgravity",
+          "result": {
+            "value": "shut off flow to put flame out",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "shut off flow to put flame out",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -10607,7 +12396,38 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "ignition",
+          "gravity": "microgravity",
+          "result": {
+            "value": "ignited",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "ignited 'concurrent'",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        },
+        {
+          "type": "extinction",
+          "gravity": "microgravity",
+          "result": {
+            "value": "out 14:22:50",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "out 14:22:50",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -10707,7 +12527,24 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "ignition",
+          "gravity": "microgravity",
+          "result": {
+            "value": "no ignition",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "no ignition",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -10807,7 +12644,24 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "extinction",
+          "gravity": "microgravity",
+          "result": {
+            "value": "the flame goes out",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "the flame goes out",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -10907,7 +12761,41 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "extinction",
+          "gravity": "microgravity",
+          "result": {
+            "value": "Went out on its own",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "Went out on its own",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        },
+        {
+          "type": "burn_time",
+          "gravity": "microgravity",
+          "result": {
+            "min": 75.0,
+            "max": 75.0,
+            "unit": "s",
+            "qualifier": null,
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "after 75 seconds",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -11007,7 +12895,27 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "burn_time",
+          "gravity": "microgravity",
+          "result": {
+            "min": 120.0,
+            "max": 120.0,
+            "unit": "s",
+            "qualifier": "approximate",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "Short burn about 2 minutes",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -11108,6 +13016,8 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -11208,6 +13118,8 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -11307,7 +13219,24 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "ignition",
+          "gravity": "microgravity",
+          "result": {
+            "value": "no ignition",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "No ignition",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -11408,6 +13337,8 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -11508,6 +13439,8 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -11607,7 +13540,24 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "extinction",
+          "gravity": "microgravity",
+          "result": {
+            "value": "went out when pot turned down to 0.29",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "went out when pot turned down to 0.29",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -11707,7 +13657,24 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "extinction",
+          "gravity": "microgravity",
+          "result": {
+            "value": "Flame went out at pot 0.27",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "Flame went out at pot 0.27",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -11807,7 +13774,38 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "ignition",
+          "gravity": "microgravity",
+          "result": {
+            "value": "ignited",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "Sample ignited briefly",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        },
+        {
+          "type": "extinction",
+          "gravity": "microgravity",
+          "result": {
+            "value": "went out",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "but went out",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -11908,6 +13906,8 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -12008,6 +14008,8 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -12107,7 +14109,24 @@
           "note": "diluent not recorded in this table"
         }
       },
-      "outcomes": [],
+      "outcomes": [
+        {
+          "type": "ignition",
+          "gravity": "microgravity",
+          "result": {
+            "value": "ignited",
+            "method": "llm",
+            "columns": [
+              "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
+            ],
+            "review_status": "pending",
+            "quote": "Good ignition",
+            "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     },
     {
@@ -12208,6 +14227,8 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "pending"
     }
   ]

@@ -14,14 +14,17 @@
     ]
   },
   "counts": {
-    "runs": 2,
+    "runs": 0,
+    "ranges": 0,
+    "sessions": 2,
     "notes": 0,
+    "duplicate_rows": 0,
     "empty_rows_skipped": 0
   },
   "records": [
     {
       "id": "PSI-47:daft:1",
-      "kind": "run",
+      "kind": "session",
       "row": 1,
       "original": {
         "Session Name": "D1",
@@ -106,11 +109,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-47:daft:2",
-      "kind": "run",
+      "kind": "session",
       "row": 2,
       "original": {
         "Session Name": "D2",
@@ -195,6 +200,8 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     }
   ]

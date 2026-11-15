@@ -17,14 +17,17 @@
     ]
   },
   "counts": {
-    "runs": 32,
+    "runs": 0,
+    "ranges": 0,
+    "sessions": 32,
     "notes": 0,
+    "duplicate_rows": 0,
     "empty_rows_skipped": 0
   },
   "records": [
     {
       "id": "PSI-21:cld-flame:1",
-      "kind": "run",
+      "kind": "session",
       "row": 1,
       "original": {
         "Test Type": "Methane based test",
@@ -112,11 +115,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-21:cld-flame:2",
-      "kind": "run",
+      "kind": "session",
       "row": 2,
       "original": {
         "Test Type": "Methane based test",
@@ -204,11 +209,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-21:cld-flame:3",
-      "kind": "run",
+      "kind": "session",
       "row": 3,
       "original": {
         "Test Type": "Methane based test",
@@ -296,11 +303,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-21:cld-flame:4",
-      "kind": "run",
+      "kind": "session",
       "row": 4,
       "original": {
         "Test Type": "Methane based test",
@@ -388,11 +397,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-21:cld-flame:5",
-      "kind": "run",
+      "kind": "session",
       "row": 5,
       "original": {
         "Test Type": "Methane based test",
@@ -480,11 +491,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-21:cld-flame:6",
-      "kind": "run",
+      "kind": "session",
       "row": 6,
       "original": {
         "Test Type": "Methane based test",
@@ -572,11 +585,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-21:cld-flame:7",
-      "kind": "run",
+      "kind": "session",
       "row": 7,
       "original": {
         "Test Type": "Methane based test",
@@ -664,11 +679,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-21:cld-flame:8",
-      "kind": "run",
+      "kind": "session",
       "row": 8,
       "original": {
         "Test Type": "Methane based test",
@@ -756,11 +773,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-21:cld-flame:9",
-      "kind": "run",
+      "kind": "session",
       "row": 9,
       "original": {
         "Test Type": "Methane based test",
@@ -848,11 +867,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-21:cld-flame:10",
-      "kind": "run",
+      "kind": "session",
       "row": 10,
       "original": {
         "Test Type": "Methane based test",
@@ -940,11 +961,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-21:cld-flame:11",
-      "kind": "run",
+      "kind": "session",
       "row": 11,
       "original": {
         "Test Type": "Methane based test",
@@ -1032,11 +1055,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-21:cld-flame:12",
-      "kind": "run",
+      "kind": "session",
       "row": 12,
       "original": {
         "Test Type": "Methane based test",
@@ -1124,11 +1149,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-21:cld-flame:13",
-      "kind": "run",
+      "kind": "session",
       "row": 13,
       "original": {
         "Test Type": "Methane based test",
@@ -1216,11 +1243,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-21:cld-flame:14",
-      "kind": "run",
+      "kind": "session",
       "row": 14,
       "original": {
         "Test Type": "Methane based test",
@@ -1308,11 +1337,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-21:cld-flame:15",
-      "kind": "run",
+      "kind": "session",
       "row": 15,
       "original": {
         "Test Type": "Ethylene based test",
@@ -1400,11 +1431,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-21:cld-flame:16",
-      "kind": "run",
+      "kind": "session",
       "row": 16,
       "original": {
         "Test Type": "Ethylene based test",
@@ -1492,11 +1525,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-21:cld-flame:17",
-      "kind": "run",
+      "kind": "session",
       "row": 17,
       "original": {
         "Test Type": "Ethylene based test",
@@ -1584,11 +1619,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-21:cld-flame:18",
-      "kind": "run",
+      "kind": "session",
       "row": 18,
       "original": {
         "Test Type": "Ethylene based test",
@@ -1676,11 +1713,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-21:cld-flame:19",
-      "kind": "run",
+      "kind": "session",
       "row": 19,
       "original": {
         "Test Type": "Ethylene based test",
@@ -1768,11 +1807,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-21:cld-flame:20",
-      "kind": "run",
+      "kind": "session",
       "row": 20,
       "original": {
         "Test Type": "Ethylene based test",
@@ -1860,11 +1901,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-21:cld-flame:21",
-      "kind": "run",
+      "kind": "session",
       "row": 21,
       "original": {
         "Test Type": "Ethylene based test",
@@ -1952,11 +1995,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-21:cld-flame:22",
-      "kind": "run",
+      "kind": "session",
       "row": 22,
       "original": {
         "Test Type": "Ethylene based test",
@@ -2044,11 +2089,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-21:cld-flame:23",
-      "kind": "run",
+      "kind": "session",
       "row": 23,
       "original": {
         "Test Type": "Ethylene based test",
@@ -2136,11 +2183,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-21:cld-flame:24",
-      "kind": "run",
+      "kind": "session",
       "row": 24,
       "original": {
         "Test Type": "Ethylene based test",
@@ -2228,11 +2277,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-21:cld-flame:25",
-      "kind": "run",
+      "kind": "session",
       "row": 25,
       "original": {
         "Test Type": "Ethylene based test",
@@ -2320,11 +2371,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-21:cld-flame:26",
-      "kind": "run",
+      "kind": "session",
       "row": 26,
       "original": {
         "Test Type": "Ethylene based test",
@@ -2412,11 +2465,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-21:cld-flame:27",
-      "kind": "run",
+      "kind": "session",
       "row": 27,
       "original": {
         "Test Type": "Ethylene based test",
@@ -2504,11 +2559,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-21:cld-flame:28",
-      "kind": "run",
+      "kind": "session",
       "row": 28,
       "original": {
         "Test Type": "Ethylene based test",
@@ -2596,11 +2653,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-21:cld-flame:29",
-      "kind": "run",
+      "kind": "session",
       "row": 29,
       "original": {
         "Test Type": "Improved coflow tests",
@@ -2688,11 +2747,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-21:cld-flame:30",
-      "kind": "run",
+      "kind": "session",
       "row": 30,
       "original": {
         "Test Type": "Improved coflow tests",
@@ -2780,11 +2841,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-21:cld-flame:31",
-      "kind": "run",
+      "kind": "session",
       "row": 31,
       "original": {
         "Test Type": "Improved coflow tests",
@@ -2872,11 +2935,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-21:cld-flame:32",
-      "kind": "run",
+      "kind": "session",
       "row": 32,
       "original": {
         "Test Type": "Improved coflow tests",
@@ -2964,6 +3029,8 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     }
   ]

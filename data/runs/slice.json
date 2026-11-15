@@ -11,14 +11,17 @@
     ]
   },
   "counts": {
-    "runs": 12,
+    "runs": 0,
+    "ranges": 0,
+    "sessions": 12,
     "notes": 0,
+    "duplicate_rows": 0,
     "empty_rows_skipped": 0
   },
   "records": [
     {
       "id": "PSI-106:slice:1",
-      "kind": "run",
+      "kind": "session",
       "row": 1,
       "original": {
         "Test Date": "2012-FEB-09",
@@ -100,11 +103,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-106:slice:2",
-      "kind": "run",
+      "kind": "session",
       "row": 2,
       "original": {
         "Test Date": "2012-FEB-13 SLICE testing with ",
@@ -186,11 +191,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-106:slice:3",
-      "kind": "run",
+      "kind": "session",
       "row": 3,
       "original": {
         "Test Date": "2012-FEB-17",
@@ -272,11 +279,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-106:slice:4",
-      "kind": "run",
+      "kind": "session",
       "row": 4,
       "original": {
         "Test Date": "2012-FEB-20 ",
@@ -358,11 +367,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-106:slice:5",
-      "kind": "run",
+      "kind": "session",
       "row": 5,
       "original": {
         "Test Date": "2012-FEB-27 ",
@@ -444,11 +455,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-106:slice:6",
-      "kind": "run",
+      "kind": "session",
       "row": 6,
       "original": {
         "Test Date": "2012-MAR-01",
@@ -530,11 +543,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-106:slice:7",
-      "kind": "run",
+      "kind": "session",
       "row": 7,
       "original": {
         "Test Date": "2012-MAR-05 SLICE testing with ",
@@ -616,11 +631,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-106:slice:8",
-      "kind": "run",
+      "kind": "session",
       "row": 8,
       "original": {
         "Test Date": "2012-MAR-09  ",
@@ -702,11 +719,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-106:slice:9",
-      "kind": "run",
+      "kind": "session",
       "row": 9,
       "original": {
         "Test Date": "2012-MAR-12 ",
@@ -788,11 +807,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-106:slice:10",
-      "kind": "run",
+      "kind": "session",
       "row": 10,
       "original": {
         "Test Date": "2012-MAR-15 ",
@@ -874,11 +895,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-106:slice:11",
-      "kind": "run",
+      "kind": "session",
       "row": 11,
       "original": {
         "Test Date": "2012-MAR-19 SLICE testing with ",
@@ -960,11 +983,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-106:slice:12",
-      "kind": "run",
+      "kind": "session",
       "row": 12,
       "original": {
         "Test Date": "2012-MAR-23 Last day of testing: SPICE testing with 100% C3H8 and then 100%",
@@ -1046,6 +1071,8 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     }
   ]

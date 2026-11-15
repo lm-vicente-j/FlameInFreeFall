@@ -16,14 +16,17 @@
     ]
   },
   "counts": {
-    "runs": 8,
+    "runs": 0,
+    "ranges": 8,
+    "sessions": 0,
     "notes": 0,
+    "duplicate_rows": 0,
     "empty_rows_skipped": 0
   },
   "records": [
     {
       "id": "PSI-68:flex2:1",
-      "kind": "run",
+      "kind": "range",
       "row": 1,
       "original": {
         "Sample (Fuel Type)": "IsoOctane (pure)",
@@ -110,11 +113,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-68:flex2:2",
-      "kind": "run",
+      "kind": "range",
       "row": 2,
       "original": {
         "Sample (Fuel Type)": "n-Octane (pure)",
@@ -201,11 +206,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-68:flex2:3",
-      "kind": "run",
+      "kind": "range",
       "row": 3,
       "original": {
         "Sample (Fuel Type)": "Heptane (pure)",
@@ -292,11 +299,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-68:flex2:4",
-      "kind": "run",
+      "kind": "range",
       "row": 4,
       "original": {
         "Sample (Fuel Type)": "Decane (pure)",
@@ -383,11 +392,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-68:flex2:5",
-      "kind": "run",
+      "kind": "range",
       "row": 5,
       "original": {
         "Sample (Fuel Type)": "Ethanol (pure)",
@@ -474,11 +485,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-68:flex2:6",
-      "kind": "run",
+      "kind": "range",
       "row": 6,
       "original": {
         "Sample (Fuel Type)": "Propanol (95%) Glycerol (5%) (mixture)",
@@ -565,11 +578,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-68:flex2:7",
-      "kind": "run",
+      "kind": "range",
       "row": 7,
       "original": {
         "Sample (Fuel Type)": "Heptane (50%) IsoOctane (50%) (mixture)",
@@ -656,11 +671,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-68:flex2:8",
-      "kind": "run",
+      "kind": "range",
       "row": 8,
       "original": {
         "Sample (Fuel Type)": "Propanol (80%) Glycerol (20%) (mixture)",
@@ -747,6 +764,8 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     }
   ]

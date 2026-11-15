@@ -19,7 +19,10 @@
   },
   "counts": {
     "runs": 2,
+    "ranges": 0,
+    "sessions": 0,
     "notes": 0,
+    "duplicate_rows": 0,
     "empty_rows_skipped": 0
   },
   "records": [
@@ -120,6 +123,393 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-100",
+            "file_id": "6841ac3d8970fb41b9cebb6c",
+            "key": "psi-data/PSI-100/Raw Data/PSI-100_Raw Data_SAFFIRE-III_S1C1_BIT_jpeg.zip",
+            "version": 1,
+            "filename": "PSI-100_Raw Data_SAFFIRE-III_S1C1_BIT_jpeg.zip"
+          },
+          "basis": "Camera 1 S1C1 matches \"S1C1\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-100",
+            "file_id": "6841ac3d8970fb41b9cebb6d",
+            "key": "psi-data/PSI-100/Raw Data/PSI-100_Raw Data_SAFFIRE-III_S1C1_RAW2TIFF.zip",
+            "version": 1,
+            "filename": "PSI-100_Raw Data_SAFFIRE-III_S1C1_RAW2TIFF.zip"
+          },
+          "basis": "Camera 1 S1C1 matches \"S1C1\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-100",
+            "file_id": "6841ac3e8970fb41b9cebb6f",
+            "key": "psi-data/PSI-100/Raw Data/PSI-100_Raw Data_SAFFIRE-III_S1C1_Raw2TIFF_Map_icmad.zip",
+            "version": 1,
+            "filename": "PSI-100_Raw Data_SAFFIRE-III_S1C1_Raw2TIFF_Map_icmad.zip"
+          },
+          "basis": "Camera 1 S1C1 matches \"S1C1\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-100",
+            "file_id": "6841ac3e8970fb41b9cebb6e",
+            "key": "psi-data/PSI-100/Raw Data/PSI-100_Raw Data_SAFFIRE-III_S1C1_Raw2TIFF_Mapped.zip",
+            "version": 1,
+            "filename": "PSI-100_Raw Data_SAFFIRE-III_S1C1_Raw2TIFF_Mapped.zip"
+          },
+          "basis": "Camera 1 S1C1 matches \"S1C1\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-100",
+            "file_id": "6841ac3e8970fb41b9cebb70",
+            "key": "psi-data/PSI-100/Raw Data/PSI-100_Raw Data_SAFFIRE-III_S1C2_BIT_jpeg.zip",
+            "version": 1,
+            "filename": "PSI-100_Raw Data_SAFFIRE-III_S1C2_BIT_jpeg.zip"
+          },
+          "basis": "Camera 2 S1C2 matches \"S1C2\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-100",
+            "file_id": "6841ac3e8970fb41b9cebb71",
+            "key": "psi-data/PSI-100/Raw Data/PSI-100_Raw Data_SAFFIRE-III_S1C2_RAW2TIFF.zip",
+            "version": 1,
+            "filename": "PSI-100_Raw Data_SAFFIRE-III_S1C2_RAW2TIFF.zip"
+          },
+          "basis": "Camera 2 S1C2 matches \"S1C2\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-100",
+            "file_id": "6841ac3e8970fb41b9cebb73",
+            "key": "psi-data/PSI-100/Raw Data/PSI-100_Raw Data_SAFFIRE-III_S1C2_Raw2TIFF_Map_icmad.zip",
+            "version": 1,
+            "filename": "PSI-100_Raw Data_SAFFIRE-III_S1C2_Raw2TIFF_Map_icmad.zip"
+          },
+          "basis": "Camera 2 S1C2 matches \"S1C2\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-100",
+            "file_id": "6841ac3e8970fb41b9cebb72",
+            "key": "psi-data/PSI-100/Raw Data/PSI-100_Raw Data_SAFFIRE-III_S1C2_Raw2TIFF_mapped.zip",
+            "version": 1,
+            "filename": "PSI-100_Raw Data_SAFFIRE-III_S1C2_Raw2TIFF_mapped.zip"
+          },
+          "basis": "Camera 2 S1C2 matches \"S1C2\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-100",
+            "file_id": "6841ac3f8970fb41b9cebb80",
+            "key": "psi-data/PSI-100/Raw Data/PSI-100_Raw Data_SAFFIRE_III_S1C1_JPEG_Mapped_part1.zip",
+            "version": 1,
+            "filename": "PSI-100_Raw Data_SAFFIRE_III_S1C1_JPEG_Mapped_part1.zip"
+          },
+          "basis": "Camera 1 S1C1 matches \"S1C1\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-100",
+            "file_id": "6841ac3f8970fb41b9cebb81",
+            "key": "psi-data/PSI-100/Raw Data/PSI-100_Raw Data_SAFFIRE_III_S1C1_JPEG_Mapped_part2.zip",
+            "version": 1,
+            "filename": "PSI-100_Raw Data_SAFFIRE_III_S1C1_JPEG_Mapped_part2.zip"
+          },
+          "basis": "Camera 1 S1C1 matches \"S1C1\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-100",
+            "file_id": "6841ac3f8970fb41b9cebb7e",
+            "key": "psi-data/PSI-100/Raw Data/PSI-100_Raw Data_SAFFIRE_III_S1C1_JPEG_Mapped_part3.zip",
+            "version": 1,
+            "filename": "PSI-100_Raw Data_SAFFIRE_III_S1C1_JPEG_Mapped_part3.zip"
+          },
+          "basis": "Camera 1 S1C1 matches \"S1C1\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-100",
+            "file_id": "6841ac3f8970fb41b9cebb7f",
+            "key": "psi-data/PSI-100/Raw Data/PSI-100_Raw Data_SAFFIRE_III_S1C1_JPEG_Mapped_part4.zip",
+            "version": 1,
+            "filename": "PSI-100_Raw Data_SAFFIRE_III_S1C1_JPEG_Mapped_part4.zip"
+          },
+          "basis": "Camera 1 S1C1 matches \"S1C1\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-100",
+            "file_id": "6841ac3f8970fb41b9cebb83",
+            "key": "psi-data/PSI-100/Raw Data/PSI-100_Raw Data_SAFFIRE_III_S1C1_jpeg2png_part1.zip",
+            "version": 1,
+            "filename": "PSI-100_Raw Data_SAFFIRE_III_S1C1_jpeg2png_part1.zip"
+          },
+          "basis": "Camera 1 S1C1 matches \"S1C1\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-100",
+            "file_id": "6841ac408970fb41b9cebb84",
+            "key": "psi-data/PSI-100/Raw Data/PSI-100_Raw Data_SAFFIRE_III_S1C1_jpeg2png_part2.zip",
+            "version": 1,
+            "filename": "PSI-100_Raw Data_SAFFIRE_III_S1C1_jpeg2png_part2.zip"
+          },
+          "basis": "Camera 1 S1C1 matches \"S1C1\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-100",
+            "file_id": "6841ac408970fb41b9cebb85",
+            "key": "psi-data/PSI-100/Raw Data/PSI-100_Raw Data_SAFFIRE_III_S1C1_jpeg2png_part3.zip",
+            "version": 1,
+            "filename": "PSI-100_Raw Data_SAFFIRE_III_S1C1_jpeg2png_part3.zip"
+          },
+          "basis": "Camera 1 S1C1 matches \"S1C1\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-100",
+            "file_id": "6841ac3f8970fb41b9cebb82",
+            "key": "psi-data/PSI-100/Raw Data/PSI-100_Raw Data_SAFFIRE_III_S1C1_jpeg2png_part4.zip",
+            "version": 1,
+            "filename": "PSI-100_Raw Data_SAFFIRE_III_S1C1_jpeg2png_part4.zip"
+          },
+          "basis": "Camera 1 S1C1 matches \"S1C1\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-100",
+            "file_id": "6841ac408970fb41b9cebb8c",
+            "key": "psi-data/PSI-100/Raw Data/PSI-100_Raw Data_SAFFIRE_III_S1C1_jpeg_part1.zip",
+            "version": 1,
+            "filename": "PSI-100_Raw Data_SAFFIRE_III_S1C1_jpeg_part1.zip"
+          },
+          "basis": "Camera 1 S1C1 matches \"S1C1\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-100",
+            "file_id": "6841ac408970fb41b9cebb8b",
+            "key": "psi-data/PSI-100/Raw Data/PSI-100_Raw Data_SAFFIRE_III_S1C1_jpeg_part2.zip",
+            "version": 1,
+            "filename": "PSI-100_Raw Data_SAFFIRE_III_S1C1_jpeg_part2.zip"
+          },
+          "basis": "Camera 1 S1C1 matches \"S1C1\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-100",
+            "file_id": "6841ac408970fb41b9cebb8a",
+            "key": "psi-data/PSI-100/Raw Data/PSI-100_Raw Data_SAFFIRE_III_S1C1_jpeg_part3.zip",
+            "version": 1,
+            "filename": "PSI-100_Raw Data_SAFFIRE_III_S1C1_jpeg_part3.zip"
+          },
+          "basis": "Camera 1 S1C1 matches \"S1C1\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-100",
+            "file_id": "6841ac408970fb41b9cebb8d",
+            "key": "psi-data/PSI-100/Raw Data/PSI-100_Raw Data_SAFFIRE_III_S1C1_jpeg_part4.zip",
+            "version": 1,
+            "filename": "PSI-100_Raw Data_SAFFIRE_III_S1C1_jpeg_part4.zip"
+          },
+          "basis": "Camera 1 S1C1 matches \"S1C1\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-100",
+            "file_id": "6841ac418970fb41b9cebb8e",
+            "key": "psi-data/PSI-100/Raw Data/PSI-100_Raw Data_SAFFIRE_III_S1C2_JPEG_Mapped_Part2.zip",
+            "version": 1,
+            "filename": "PSI-100_Raw Data_SAFFIRE_III_S1C2_JPEG_Mapped_Part2.zip"
+          },
+          "basis": "Camera 2 S1C2 matches \"S1C2\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-100",
+            "file_id": "6841ac418970fb41b9cebb91",
+            "key": "psi-data/PSI-100/Raw Data/PSI-100_Raw Data_SAFFIRE_III_S1C2_JPEG_Mapped_Part3.zip",
+            "version": 1,
+            "filename": "PSI-100_Raw Data_SAFFIRE_III_S1C2_JPEG_Mapped_Part3.zip"
+          },
+          "basis": "Camera 2 S1C2 matches \"S1C2\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-100",
+            "file_id": "6841ac418970fb41b9cebb90",
+            "key": "psi-data/PSI-100/Raw Data/PSI-100_Raw Data_SAFFIRE_III_S1C2_JPEG_Mapped_Part4.zip",
+            "version": 1,
+            "filename": "PSI-100_Raw Data_SAFFIRE_III_S1C2_JPEG_Mapped_Part4.zip"
+          },
+          "basis": "Camera 2 S1C2 matches \"S1C2\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-100",
+            "file_id": "6841ac418970fb41b9cebb8f",
+            "key": "psi-data/PSI-100/Raw Data/PSI-100_Raw Data_SAFFIRE_III_S1C2_JPEG_Mapped_part1.zip",
+            "version": 1,
+            "filename": "PSI-100_Raw Data_SAFFIRE_III_S1C2_JPEG_Mapped_part1.zip"
+          },
+          "basis": "Camera 2 S1C2 matches \"S1C2\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-100",
+            "file_id": "6841ac418970fb41b9cebb93",
+            "key": "psi-data/PSI-100/Raw Data/PSI-100_Raw Data_SAFFIRE_III_S1C2_jpeg2png_part1.zip",
+            "version": 1,
+            "filename": "PSI-100_Raw Data_SAFFIRE_III_S1C2_jpeg2png_part1.zip"
+          },
+          "basis": "Camera 2 S1C2 matches \"S1C2\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-100",
+            "file_id": "6841ac418970fb41b9cebb94",
+            "key": "psi-data/PSI-100/Raw Data/PSI-100_Raw Data_SAFFIRE_III_S1C2_jpeg2png_part2.zip",
+            "version": 1,
+            "filename": "PSI-100_Raw Data_SAFFIRE_III_S1C2_jpeg2png_part2.zip"
+          },
+          "basis": "Camera 2 S1C2 matches \"S1C2\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-100",
+            "file_id": "6841ac418970fb41b9cebb92",
+            "key": "psi-data/PSI-100/Raw Data/PSI-100_Raw Data_SAFFIRE_III_S1C2_jpeg2png_part3.zip",
+            "version": 1,
+            "filename": "PSI-100_Raw Data_SAFFIRE_III_S1C2_jpeg2png_part3.zip"
+          },
+          "basis": "Camera 2 S1C2 matches \"S1C2\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-100",
+            "file_id": "6841ac418970fb41b9cebb95",
+            "key": "psi-data/PSI-100/Raw Data/PSI-100_Raw Data_SAFFIRE_III_S1C2_jpeg2png_part4.zip",
+            "version": 1,
+            "filename": "PSI-100_Raw Data_SAFFIRE_III_S1C2_jpeg2png_part4.zip"
+          },
+          "basis": "Camera 2 S1C2 matches \"S1C2\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-100",
+            "file_id": "6841ac408970fb41b9cebb87",
+            "key": "psi-data/PSI-100/Raw Data/PSI-100_Raw Data_SAFFIRE_III_S1C2_jpeg_part1.zip",
+            "version": 1,
+            "filename": "PSI-100_Raw Data_SAFFIRE_III_S1C2_jpeg_part1.zip"
+          },
+          "basis": "Camera 2 S1C2 matches \"S1C2\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-100",
+            "file_id": "6841ac408970fb41b9cebb86",
+            "key": "psi-data/PSI-100/Raw Data/PSI-100_Raw Data_SAFFIRE_III_S1C2_jpeg_part2.zip",
+            "version": 1,
+            "filename": "PSI-100_Raw Data_SAFFIRE_III_S1C2_jpeg_part2.zip"
+          },
+          "basis": "Camera 2 S1C2 matches \"S1C2\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-100",
+            "file_id": "6841ac408970fb41b9cebb89",
+            "key": "psi-data/PSI-100/Raw Data/PSI-100_Raw Data_SAFFIRE_III_S1C2_jpeg_part3.zip",
+            "version": 1,
+            "filename": "PSI-100_Raw Data_SAFFIRE_III_S1C2_jpeg_part3.zip"
+          },
+          "basis": "Camera 2 S1C2 matches \"S1C2\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-100",
+            "file_id": "6841ac408970fb41b9cebb88",
+            "key": "psi-data/PSI-100/Raw Data/PSI-100_Raw Data_SAFFIRE_III_S1C2_jpeg_part4.zip",
+            "version": 1,
+            "filename": "PSI-100_Raw Data_SAFFIRE_III_S1C2_jpeg_part4.zip"
+          },
+          "basis": "Camera 2 S1C2 matches \"S1C2\" in the file name",
+          "status": "confirmed"
+        }
+      ],
       "review_status": "pending"
     },
     {
@@ -219,6 +609,117 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-100",
+            "file_id": "6841ac418970fb41b9cebb97",
+            "key": "psi-data/PSI-100/Raw Data/PSI-100_Raw Data_SAFFIRE-III_S2C1_JPEG_Mapped.zip",
+            "version": 1,
+            "filename": "PSI-100_Raw Data_SAFFIRE-III_S2C1_JPEG_Mapped.zip"
+          },
+          "basis": "Camera 1 S2C1 matches \"S2C1\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-100",
+            "file_id": "6841ac418970fb41b9cebb96",
+            "key": "psi-data/PSI-100/Raw Data/PSI-100_Raw Data_SAFFIRE-III_S2C1_S2_jpeg.zip",
+            "version": 1,
+            "filename": "PSI-100_Raw Data_SAFFIRE-III_S2C1_S2_jpeg.zip"
+          },
+          "basis": "Camera 1 S2C1 matches \"S2C1\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-100",
+            "file_id": "6841ac418970fb41b9cebb98",
+            "key": "psi-data/PSI-100/Raw Data/PSI-100_Raw Data_SAFFIRE-III_S2C1_jpeg2png.zip",
+            "version": 1,
+            "filename": "PSI-100_Raw Data_SAFFIRE-III_S2C1_jpeg2png.zip"
+          },
+          "basis": "Camera 1 S2C1 matches \"S2C1\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-100",
+            "file_id": "6841ac428970fb41b9cebb9a",
+            "key": "psi-data/PSI-100/Raw Data/PSI-100_Raw Data_SAFFIRE-III_S2C2_JPEG_Mapped.zip",
+            "version": 1,
+            "filename": "PSI-100_Raw Data_SAFFIRE-III_S2C2_JPEG_Mapped.zip"
+          },
+          "basis": "Camera 2 S2C2 matches \"S2C2\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-100",
+            "file_id": "6841ac3e8970fb41b9cebb74",
+            "key": "psi-data/PSI-100/Raw Data/PSI-100_Raw Data_SAFFIRE-III_S2C2_RAW2TIFF.zip",
+            "version": 1,
+            "filename": "PSI-100_Raw Data_SAFFIRE-III_S2C2_RAW2TIFF.zip"
+          },
+          "basis": "Camera 2 S2C2 matches \"S2C2\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-100",
+            "file_id": "6841ac3e8970fb41b9cebb75",
+            "key": "psi-data/PSI-100/Raw Data/PSI-100_Raw Data_SAFFIRE-III_S2C2_Raw2TIFF_Map_icmad.zip",
+            "version": 1,
+            "filename": "PSI-100_Raw Data_SAFFIRE-III_S2C2_Raw2TIFF_Map_icmad.zip"
+          },
+          "basis": "Camera 2 S2C2 matches \"S2C2\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-100",
+            "file_id": "6841ac428970fb41b9cebb9c",
+            "key": "psi-data/PSI-100/Raw Data/PSI-100_Raw Data_SAFFIRE-III_S2C2_Raw2TIFF_Mapped.zip",
+            "version": 1,
+            "filename": "PSI-100_Raw Data_SAFFIRE-III_S2C2_Raw2TIFF_Mapped.zip"
+          },
+          "basis": "Camera 2 S2C2 matches \"S2C2\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-100",
+            "file_id": "6841ac428970fb41b9cebb99",
+            "key": "psi-data/PSI-100/Raw Data/PSI-100_Raw Data_SAFFIRE-III_S2C2_S2_jpeg.zip",
+            "version": 1,
+            "filename": "PSI-100_Raw Data_SAFFIRE-III_S2C2_S2_jpeg.zip"
+          },
+          "basis": "Camera 2 S2C2 matches \"S2C2\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-100",
+            "file_id": "6841ac428970fb41b9cebb9b",
+            "key": "psi-data/PSI-100/Raw Data/PSI-100_Raw Data_SAFFIRE-III_S2C2_jpeg2png.zip",
+            "version": 1,
+            "filename": "PSI-100_Raw Data_SAFFIRE-III_S2C2_jpeg2png.zip"
+          },
+          "basis": "Camera 2 S2C2 matches \"S2C2\" in the file name",
+          "status": "confirmed"
+        }
+      ],
       "review_status": "pending"
     }
   ]

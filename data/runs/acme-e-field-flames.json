@@ -19,14 +19,17 @@
     ]
   },
   "counts": {
-    "runs": 32,
-    "notes": 0,
+    "runs": 0,
+    "ranges": 0,
+    "sessions": 21,
+    "notes": 11,
+    "duplicate_rows": 1,
     "empty_rows_skipped": 0
   },
   "records": [
     {
       "id": "PSI-22:acme-e-field-flames:1",
-      "kind": "run",
+      "kind": "session",
       "row": 1,
       "original": {
         "Test Type": "First round of tests with coflow burner",
@@ -116,11 +119,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-22:acme-e-field-flames:2",
-      "kind": "run",
+      "kind": "session",
       "row": 2,
       "original": {
         "Test Type": "First round of tests with coflow burner",
@@ -210,11 +215,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-22:acme-e-field-flames:3",
-      "kind": "run",
+      "kind": "note",
       "row": 3,
       "original": {
         "Test Type": "",
@@ -304,11 +311,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-22:acme-e-field-flames:4",
-      "kind": "run",
+      "kind": "session",
       "row": 4,
       "original": {
         "Test Type": "First round of tests with coflow burner",
@@ -398,11 +407,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-22:acme-e-field-flames:5",
-      "kind": "run",
+      "kind": "session",
       "row": 5,
       "original": {
         "Test Type": "First round of tests with coflow burner",
@@ -492,11 +503,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-22:acme-e-field-flames:6",
-      "kind": "run",
+      "kind": "note",
       "row": 6,
       "original": {
         "Test Type": "",
@@ -586,11 +599,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-22:acme-e-field-flames:7",
-      "kind": "run",
+      "kind": "session",
       "row": 7,
       "original": {
         "Test Type": "First round of tests with coflow burner",
@@ -680,11 +695,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-22:acme-e-field-flames:8",
-      "kind": "run",
+      "kind": "session",
       "row": 8,
       "original": {
         "Test Type": "First round of tests with coflow burner",
@@ -774,11 +791,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-22:acme-e-field-flames:9",
-      "kind": "run",
+      "kind": "session",
       "row": 9,
       "original": {
         "Test Type": "First round of tests with coflow burner",
@@ -868,11 +887,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-22:acme-e-field-flames:10",
-      "kind": "run",
+      "kind": "session",
       "row": 10,
       "original": {
         "Test Type": "First round of tests with coflow burner",
@@ -962,11 +983,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-22:acme-e-field-flames:11",
-      "kind": "run",
+      "kind": "session",
       "row": 11,
       "original": {
         "Test Type": "First round of tests with coflow burner",
@@ -1056,11 +1079,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-22:acme-e-field-flames:12",
-      "kind": "run",
+      "kind": "session",
       "row": 12,
       "original": {
         "Test Type": "First round of tests with coflow burner",
@@ -1150,11 +1175,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-22:acme-e-field-flames:13",
-      "kind": "run",
+      "kind": "session",
       "row": 13,
       "original": {
         "Test Type": "First round of tests with coflow burner",
@@ -1244,11 +1271,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-22:acme-e-field-flames:14",
-      "kind": "run",
+      "kind": "note",
       "row": 14,
       "original": {
         "Test Type": "",
@@ -1338,11 +1367,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-22:acme-e-field-flames:15",
-      "kind": "run",
+      "kind": "session",
       "row": 15,
       "original": {
         "Test Type": "Second round of tests with gas-jet burner",
@@ -1432,11 +1463,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-22:acme-e-field-flames:16",
-      "kind": "run",
+      "kind": "session",
       "row": 16,
       "original": {
         "Test Type": "Second round of tests with gas-jet burner",
@@ -1526,11 +1559,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-22:acme-e-field-flames:17",
-      "kind": "run",
+      "kind": "session",
       "row": 17,
       "original": {
         "Test Type": "Second round of tests with gas-jet burner",
@@ -1620,11 +1655,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-22:acme-e-field-flames:18",
-      "kind": "run",
+      "kind": "note",
       "row": 18,
       "original": {
         "Test Type": "",
@@ -1714,11 +1751,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-22:acme-e-field-flames:19",
-      "kind": "run",
+      "kind": "session",
       "row": 19,
       "original": {
         "Test Type": "Second round of tests with gas-jet burner",
@@ -1808,11 +1847,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-22:acme-e-field-flames:20",
-      "kind": "run",
+      "kind": "session",
       "row": 20,
       "original": {
         "Test Type": "Second round of tests with gas-jet burner",
@@ -1902,11 +1943,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-22:acme-e-field-flames:21",
-      "kind": "run",
+      "kind": "session",
       "row": 21,
       "original": {
         "Test Type": "Second round of tests with gas-jet burner",
@@ -1996,11 +2039,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-22:acme-e-field-flames:22",
-      "kind": "run",
+      "kind": "session",
       "row": 22,
       "original": {
         "Test Type": "Second round of tests with gas-jet burner",
@@ -2090,11 +2135,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-22:acme-e-field-flames:23",
-      "kind": "run",
+      "kind": "session",
       "row": 23,
       "original": {
         "Test Type": "Second round of tests with gas-jet burner",
@@ -2184,11 +2231,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-22:acme-e-field-flames:24",
-      "kind": "run",
+      "kind": "note",
       "row": 24,
       "original": {
         "Test Type": "",
@@ -2278,11 +2327,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-22:acme-e-field-flames:25",
-      "kind": "run",
+      "kind": "session",
       "row": 25,
       "original": {
         "Test Type": "Second round of tests with gas-jet burner",
@@ -2372,11 +2423,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-22:acme-e-field-flames:26",
-      "kind": "run",
+      "kind": "note",
       "row": 26,
       "original": {
         "Test Type": "",
@@ -2466,11 +2519,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-22:acme-e-field-flames:27",
-      "kind": "run",
+      "kind": "note",
       "row": 27,
       "original": {
         "Test Type": "",
@@ -2560,11 +2615,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-22:acme-e-field-flames:28",
-      "kind": "run",
+      "kind": "note",
       "row": 28,
       "original": {
         "Test Type": "",
@@ -2654,11 +2711,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-22:acme-e-field-flames:29",
-      "kind": "run",
+      "kind": "session",
       "row": 29,
       "original": {
         "Test Type": "Second round of tests with gas-jet burner",
@@ -2748,11 +2807,30 @@
         }
       },
       "outcomes": [],
+      "flags": [
+        {
+          "code": "duplicate_row",
+          "columns": [
+            "Test Type",
+            "Test Day",
+            "Year",
+            "Month",
+            "Date",
+            "Mesh Polarity",
+            "Fuel Bottle",
+            "Fuel Conc",
+            "Flames Ignited",
+            "Notes"
+          ],
+          "detail": "every cell equals row 25 (PSI-22:acme-e-field-flames:25)"
+        }
+      ],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-22:acme-e-field-flames:30",
-      "kind": "run",
+      "kind": "note",
       "row": 30,
       "original": {
         "Test Type": "",
@@ -2842,11 +2920,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-22:acme-e-field-flames:31",
-      "kind": "run",
+      "kind": "note",
       "row": 31,
       "original": {
         "Test Type": "",
@@ -2936,11 +3016,13 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     },
     {
       "id": "PSI-22:acme-e-field-flames:32",
-      "kind": "run",
+      "kind": "note",
       "row": 32,
       "original": {
         "Test Type": "",
@@ -3030,6 +3112,8 @@
         }
       },
       "outcomes": [],
+      "flags": [],
+      "links": [],
       "review_status": "not_required"
     }
   ]
