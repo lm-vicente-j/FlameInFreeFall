@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://flameinfreefall.local/schemas/common.schema.json",
+  "title": "Shared definitions",
+  "$defs": {
+    "accession": {"type": "string", "pattern": "^PSI-[0-9]+$"},
+    "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "timestamp": {"type": "string", "format": "date-time"},
+    "nonEmptyText": {"type": "string", "minLength": 1},
+    "remoteFile": {
+      "description": "A file as listed by PSI. Together, file_id and version identify the exact content.",
+      "type": "object",
+      "required": ["accession", "file_id", "key", "version"],
+      "properties": {
+        "accession": {"$ref": "#/$defs/accession"},
+        "file_id": {"$ref": "#/$defs/nonEmptyText"},
+        "key": {"type": "string", "pattern": "^psi-data/PSI-[0-9]+/.+"},
+        "version": {"type": "integer", "minimum": 1}
+      }
+    },
+    "reviewStatus": {
+      "description": "not_required: deterministic parse. pending: awaiting a person. approved/rejected: decided by a person.",
+      "enum": ["not_required", "pending", "approved", "rejected"]
+    },
+    "review": {
+      "type": "object",
+      "required": ["status", "reviewer", "reviewed_at", "notes"],
+      "additionalProperties": false,
+      "properties": {
+        "status": {"$ref": "#/$defs/reviewStatus"},
+        "reviewer": {"type": ["string", "null"]},
+        "reviewed_at": {"oneOf": [{"$ref": "#/$defs/timestamp"}, {"type": "null"}]},
+        "notes": {"type": "string"}
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://flameinfreefall.local/contracts/storage-input.schema.json",
+  "title": "S0 storage adapter inputs",
+  "$defs": {
+    "investigation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["accession", "metadata_version", "snapshot_retrieved_at", "metadata_sha256", "metadata_path", "source_url", "scientific_metadata"],
+      "properties": {
+        "accession": {"$ref": "schemas/common.schema.json#/$defs/accession"},
+        "metadata_version": {"type": "integer", "minimum": 1},
+        "snapshot_retrieved_at": {"$ref": "schemas/common.schema.json#/$defs/timestamp"},
+        "metadata_sha256": {"$ref": "schemas/common.schema.json#/$defs/sha256"},
+        "metadata_path": {"type": "string", "pattern": "^sources/PSI-[0-9]+-metadata\\.json$"},
+        "source_url": {"type": "string", "format": "uri"},
+        "scientific_metadata": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["title", "investigationAcronym", "objective", "approach", "hypothesis", "researchImpacts", "experimentHardware"],
+          "properties": {
+            "title": {"type": "string"},
+            "investigationAcronym": {"type": "string"},
+            "objective": {"type": "string"},
+            "approach": {"type": "string"},
+            "hypothesis": {"type": "string"},
+            "researchImpacts": {"type": "string"},
+            "experimentHardware": {"type": "string"}
+          }
+        }
+      }
+    },
+    "investigations": {"type": "array", "items": {"$ref": "#/$defs/investigation"}},
+    "remoteFiles": {"type": "array", "items": {"$ref": "openapi.json#/components/schemas/RemoteFile"}}
+  }
+}

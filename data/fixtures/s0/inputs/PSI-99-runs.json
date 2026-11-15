@@ -1,0 +1,545 @@
+{
+  "table": "saffire-ii",
+  "investigation": "PSI-99",
+  "source": {
+    "filename": "PSI-99_Experimental table_SAFFIRE-2.csv",
+    "sha256": "3c24390b9ef86f3d1ebaab911a1a3cc95a8759aebf42062371370e6d4b31b8ac",
+    "encoding": "utf-8-sig",
+    "columns": [
+      "Sample Number",
+      "Material",
+      "Samle Thickness ",
+      "Sample Length ",
+      "Sample Width (cm)",
+      "Air Flow (cm/s)",
+      "Percent O2 (Note 1)",
+      "Ignition Power (W)",
+      "Ignition Time (s)",
+      "Burn Time (s)",
+      "Flow Direction",
+      "?-g Burn Length",
+      "?-g Spread Length",
+      "1-g Burn Length",
+      "1-g Spread Rate",
+      "Camera 1",
+      "Camera 2"
+    ]
+  },
+  "counts": {
+    "runs": 3,
+    "notes": 0,
+    "empty_rows_skipped": 0
+  },
+  "records": [
+    {
+      "id": "PSI-99:saffire-ii:2",
+      "kind": "run",
+      "row": 2,
+      "original": {
+        "Sample Number": "2-2",
+        "Material": "Silicone",
+        "Samle Thickness ": "0.61 mm",
+        "Sample Length ": "29 cm",
+        "Sample Width (cm)": "5 cm",
+        "Air Flow (cm/s)": "20 cm/s",
+        "Percent O2 (Note 1)": "~ 22.1",
+        "Ignition Power (W)": "80 W",
+        "Ignition Time (s)": "9.2 s",
+        "Burn Time (s)": "Insignificant",
+        "Flow Direction": "Concurrent",
+        "?-g Burn Length": "~ 0",
+        "?-g Spread Length": "n/a",
+        "1-g Burn Length": "7.6 cm",
+        "1-g Spread Rate": "1.2 mm/s",
+        "Camera 1": "n/a",
+        "Camera 2": "S2C2"
+      },
+      "conditions": {
+        "fuel_class": {
+          "method": "unknown",
+          "columns": [],
+          "review_status": "pending",
+          "quote": null,
+          "note": null,
+          "value": null
+        },
+        "material": {
+          "method": "parsed",
+          "columns": [
+            "Material"
+          ],
+          "review_status": "pending",
+          "quote": "Silicone",
+          "note": "Blank cells are not filled from preceding rows.",
+          "value": "Silicone"
+        },
+        "geometry": {
+          "method": "unknown",
+          "columns": [],
+          "review_status": "pending",
+          "quote": null,
+          "note": null,
+          "value": null
+        },
+        "flow_direction": {
+          "method": "unknown",
+          "columns": [],
+          "review_status": "pending",
+          "quote": null,
+          "note": null,
+          "value": null
+        },
+        "diluent": {
+          "method": "unknown",
+          "columns": [],
+          "review_status": "pending",
+          "quote": null,
+          "note": null,
+          "value": null
+        },
+        "o2_percent": {
+          "method": "parsed",
+          "columns": [
+            "Percent O2 (Note 1)"
+          ],
+          "review_status": "pending",
+          "quote": "~ 22.1",
+          "note": null,
+          "min": 22.1,
+          "max": 22.1,
+          "unit": "percent",
+          "qualifier": "approximate"
+        },
+        "pressure_kpa": {
+          "method": "unknown",
+          "columns": [],
+          "review_status": "pending",
+          "quote": null,
+          "note": null,
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null
+        },
+        "flow_cm_s": {
+          "method": "parsed",
+          "columns": [
+            "Air Flow (cm/s)"
+          ],
+          "review_status": "pending",
+          "quote": "20 cm/s",
+          "note": null,
+          "min": 20.0,
+          "max": 20.0,
+          "unit": "cm/s",
+          "qualifier": null
+        }
+      },
+      "outcomes": [
+        {
+          "type": "burn_time",
+          "gravity": "microgravity",
+          "result": {
+            "method": "parsed",
+            "columns": [
+              "Burn Time (s)"
+            ],
+            "review_status": "pending",
+            "quote": "Insignificant",
+            "note": "Preserved source label; no numeric measurement inferred.",
+            "value": "Insignificant"
+          }
+        },
+        {
+          "type": "burn_length",
+          "gravity": "microgravity",
+          "result": {
+            "method": "parsed",
+            "columns": [
+              "?-g Burn Length"
+            ],
+            "review_status": "pending",
+            "quote": "~ 0",
+            "note": "Preserved source label; no numeric measurement inferred.",
+            "value": "~ 0"
+          }
+        },
+        {
+          "type": "burn_length",
+          "gravity": "normal",
+          "result": {
+            "method": "parsed",
+            "columns": [
+              "1-g Burn Length"
+            ],
+            "review_status": "pending",
+            "quote": "7.6 cm",
+            "note": null,
+            "min": 7.6,
+            "max": 7.6,
+            "unit": "cm",
+            "qualifier": null
+          }
+        },
+        {
+          "type": "spread_rate",
+          "gravity": "normal",
+          "result": {
+            "method": "parsed",
+            "columns": [
+              "1-g Spread Rate"
+            ],
+            "review_status": "pending",
+            "quote": "1.2 mm/s",
+            "note": null,
+            "min": 1.2,
+            "max": 1.2,
+            "unit": "mm/s",
+            "qualifier": null
+          }
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "PSI-99:saffire-ii:5",
+      "kind": "run",
+      "row": 5,
+      "original": {
+        "Sample Number": "2-5",
+        "Material": "Cotton-Fiberglass (SIBAL)",
+        "Samle Thickness ": "037 mm",
+        "Sample Length ": "29 cm",
+        "Sample Width (cm)": "5 cm",
+        "Air Flow (cm/s)": "20 cm/s",
+        "Percent O2 (Note 1)": "~ 22.1",
+        "Ignition Power (W)": "80 W",
+        "Ignition Time (s)": "9.2 s",
+        "Burn Time (s)": "145 s",
+        "Flow Direction": "Concurrent",
+        "?-g Burn Length": "29 cm",
+        "?-g Spread Length": "2.1 mm/s",
+        "1-g Burn Length": "Complete",
+        "1-g Spread Rate": "Acceleratory",
+        "Camera 1": "S5C1",
+        "Camera 2": "S5C2"
+      },
+      "conditions": {
+        "fuel_class": {
+          "method": "unknown",
+          "columns": [],
+          "review_status": "pending",
+          "quote": null,
+          "note": null,
+          "value": null
+        },
+        "material": {
+          "method": "parsed",
+          "columns": [
+            "Material"
+          ],
+          "review_status": "pending",
+          "quote": "Cotton-Fiberglass (SIBAL)",
+          "note": "Blank cells are not filled from preceding rows.",
+          "value": "Cotton-Fiberglass (SIBAL)"
+        },
+        "geometry": {
+          "method": "unknown",
+          "columns": [],
+          "review_status": "pending",
+          "quote": null,
+          "note": null,
+          "value": null
+        },
+        "flow_direction": {
+          "method": "unknown",
+          "columns": [],
+          "review_status": "pending",
+          "quote": null,
+          "note": null,
+          "value": null
+        },
+        "diluent": {
+          "method": "unknown",
+          "columns": [],
+          "review_status": "pending",
+          "quote": null,
+          "note": null,
+          "value": null
+        },
+        "o2_percent": {
+          "method": "parsed",
+          "columns": [
+            "Percent O2 (Note 1)"
+          ],
+          "review_status": "pending",
+          "quote": "~ 22.1",
+          "note": null,
+          "min": 22.1,
+          "max": 22.1,
+          "unit": "percent",
+          "qualifier": "approximate"
+        },
+        "pressure_kpa": {
+          "method": "unknown",
+          "columns": [],
+          "review_status": "pending",
+          "quote": null,
+          "note": null,
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null
+        },
+        "flow_cm_s": {
+          "method": "parsed",
+          "columns": [
+            "Air Flow (cm/s)"
+          ],
+          "review_status": "pending",
+          "quote": "20 cm/s",
+          "note": null,
+          "min": 20.0,
+          "max": 20.0,
+          "unit": "cm/s",
+          "qualifier": null
+        }
+      },
+      "outcomes": [
+        {
+          "type": "burn_time",
+          "gravity": "microgravity",
+          "result": {
+            "method": "parsed",
+            "columns": [
+              "Burn Time (s)"
+            ],
+            "review_status": "pending",
+            "quote": "145 s",
+            "note": null,
+            "min": 145.0,
+            "max": 145.0,
+            "unit": "s",
+            "qualifier": null
+          }
+        },
+        {
+          "type": "burn_length",
+          "gravity": "microgravity",
+          "result": {
+            "method": "parsed",
+            "columns": [
+              "?-g Burn Length"
+            ],
+            "review_status": "pending",
+            "quote": "29 cm",
+            "note": null,
+            "min": 29.0,
+            "max": 29.0,
+            "unit": "cm",
+            "qualifier": null
+          }
+        },
+        {
+          "type": "burn_length",
+          "gravity": "normal",
+          "result": {
+            "method": "parsed",
+            "columns": [
+              "1-g Burn Length"
+            ],
+            "review_status": "pending",
+            "quote": "Complete",
+            "note": "Preserved source label; no numeric measurement inferred.",
+            "value": "Complete"
+          }
+        },
+        {
+          "type": "spread_rate",
+          "gravity": "normal",
+          "result": {
+            "method": "parsed",
+            "columns": [
+              "1-g Spread Rate"
+            ],
+            "review_status": "pending",
+            "quote": "Acceleratory",
+            "note": "Preserved source label; no numeric measurement inferred.",
+            "value": "Acceleratory"
+          }
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "PSI-99:saffire-ii:6",
+      "kind": "run",
+      "row": 6,
+      "original": {
+        "Sample Number": "2-6",
+        "Material": "",
+        "Samle Thickness ": "037 mm",
+        "Sample Length ": "29 cm",
+        "Sample Width (cm)": "5 cm",
+        "Air Flow (cm/s)": "20 cm/s",
+        "Percent O2 (Note 1)": "~ 22.1",
+        "Ignition Power (W)": "80 W",
+        "Ignition Time (s)": "9.2 s",
+        "Burn Time (s)": "115 s",
+        "Flow Direction": "Concurrent",
+        "?-g Burn Length": "29 cm",
+        "?-g Spread Length": "2.6 mm/s",
+        "1-g Burn Length": "Complete",
+        "1-g Spread Rate": "Acceleratory",
+        "Camera 1": "S6C1",
+        "Camera 2": "S56C2"
+      },
+      "conditions": {
+        "fuel_class": {
+          "method": "unknown",
+          "columns": [],
+          "review_status": "pending",
+          "quote": null,
+          "note": null,
+          "value": null
+        },
+        "material": {
+          "method": "unknown",
+          "columns": [
+            "Material"
+          ],
+          "review_status": "pending",
+          "quote": "",
+          "note": "Blank cells are not filled from preceding rows.",
+          "value": null
+        },
+        "geometry": {
+          "method": "unknown",
+          "columns": [],
+          "review_status": "pending",
+          "quote": null,
+          "note": null,
+          "value": null
+        },
+        "flow_direction": {
+          "method": "unknown",
+          "columns": [],
+          "review_status": "pending",
+          "quote": null,
+          "note": null,
+          "value": null
+        },
+        "diluent": {
+          "method": "unknown",
+          "columns": [],
+          "review_status": "pending",
+          "quote": null,
+          "note": null,
+          "value": null
+        },
+        "o2_percent": {
+          "method": "parsed",
+          "columns": [
+            "Percent O2 (Note 1)"
+          ],
+          "review_status": "pending",
+          "quote": "~ 22.1",
+          "note": null,
+          "min": 22.1,
+          "max": 22.1,
+          "unit": "percent",
+          "qualifier": "approximate"
+        },
+        "pressure_kpa": {
+          "method": "unknown",
+          "columns": [],
+          "review_status": "pending",
+          "quote": null,
+          "note": null,
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null
+        },
+        "flow_cm_s": {
+          "method": "parsed",
+          "columns": [
+            "Air Flow (cm/s)"
+          ],
+          "review_status": "pending",
+          "quote": "20 cm/s",
+          "note": null,
+          "min": 20.0,
+          "max": 20.0,
+          "unit": "cm/s",
+          "qualifier": null
+        }
+      },
+      "outcomes": [
+        {
+          "type": "burn_time",
+          "gravity": "microgravity",
+          "result": {
+            "method": "parsed",
+            "columns": [
+              "Burn Time (s)"
+            ],
+            "review_status": "pending",
+            "quote": "115 s",
+            "note": null,
+            "min": 115.0,
+            "max": 115.0,
+            "unit": "s",
+            "qualifier": null
+          }
+        },
+        {
+          "type": "burn_length",
+          "gravity": "microgravity",
+          "result": {
+            "method": "parsed",
+            "columns": [
+              "?-g Burn Length"
+            ],
+            "review_status": "pending",
+            "quote": "29 cm",
+            "note": null,
+            "min": 29.0,
+            "max": 29.0,
+            "unit": "cm",
+            "qualifier": null
+          }
+        },
+        {
+          "type": "burn_length",
+          "gravity": "normal",
+          "result": {
+            "method": "parsed",
+            "columns": [
+              "1-g Burn Length"
+            ],
+            "review_status": "pending",
+            "quote": "Complete",
+            "note": "Preserved source label; no numeric measurement inferred.",
+            "value": "Complete"
+          }
+        },
+        {
+          "type": "spread_rate",
+          "gravity": "normal",
+          "result": {
+            "method": "parsed",
+            "columns": [
+              "1-g Spread Rate"
+            ],
+            "review_status": "pending",
+            "quote": "Acceleratory",
+            "note": "Preserved source label; no numeric measurement inferred.",
+            "value": "Acceleratory"
+          }
+        }
+      ],
+      "review_status": "pending"
+    }
+  ]
+}
