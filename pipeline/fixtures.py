@@ -9,8 +9,14 @@ written:
   Saffire-II (PSI-99, metadata-only), each with its card and a packet trimmed to
   the passages the card cites;
 - run tables: a FLEX subset covering each diluent mix, the invalid 0 mmHg
-  reading, and approximate values, plus the complete Saffire-II table with its
-  note rows and its 1 g versus microgravity outcomes.
+  reading, approximate values and every run the fixture card cites as a table
+  row (so a card citation and its run record can be followed in the fixtures),
+  plus the complete Saffire-II table with its note rows and its 1 g versus
+  microgravity outcomes.
+
+A trimmed packet keeps the ``documents`` and ``tables`` lists of the full packet,
+so ``tables[].rows`` and ``documents[].page_count`` describe the source files, not
+the number of passages kept.
 
     python -m pipeline.fixtures [--data data] [--out data/fixtures]
 """
@@ -40,8 +46,18 @@ def trim_packet(packet: dict[str, Any], card: dict[str, Any]) -> dict[str, Any]:
     return {**packet, "passages": [p for p in packet["passages"] if p["id"] in cited]}
 
 
-def _flex_rows(records: list[dict[str, Any]]) -> set[int]:
+def cited_record_ids(card: dict[str, Any]) -> set[str]:
+    """Run record ids the card cites through table-row evidence."""
+    return {
+        item["locator"]["record_id"]
+        for item in card["evidence"]
+        if item["locator"]["kind"] == "table" and "record_id" in item["locator"]
+    }
+
+
+def _flex_rows(records: list[dict[str, Any]], cited: set[str]) -> set[int]:
     chosen: set[int] = set(FLEX_EXTRA_ROWS)
+    chosen.update(record["row"] for record in records if record["id"] in cited)
     per_diluent: dict[str, int] = {}
     for record in records:
         diluent = record["conditions"]["diluent"]["value"] or "unknown"
@@ -79,13 +95,18 @@ def build(data_dir: Path) -> dict[str, Any]:
         outputs[f"evidence/{accession}.json"] = packet
 
     flex = read_json(data_dir / "runs" / "flex.json")
-    rows = _flex_rows(flex["records"])
+    rows = _flex_rows(flex["records"], cited_record_ids(outputs["cards/PSI-69.json"]))
     outputs["runs/flex.json"] = subset_table(flex, lambda record: record["row"] in rows)
     outputs["runs/saffire-2.json"] = read_json(data_dir / "runs" / "saffire-2.json")
     for name in ("runs/flex.json", "runs/saffire-2.json"):
         problems = schema_errors(outputs[name], "run-table")
         if problems:
             raise FixtureError(f"{name}: " + "; ".join(problems))
+    present = {record["id"] for name in ("runs/flex.json", "runs/saffire-2.json") for record in outputs[name]["records"]}
+    for accession in INVESTIGATIONS:
+        missing = sorted(cited_record_ids(outputs[f"cards/{accession}.json"]) - present)
+        if missing:
+            raise FixtureError(f"{accession}: the card cites runs that are not in the run fixtures: {', '.join(missing)}")
     return outputs
 
 

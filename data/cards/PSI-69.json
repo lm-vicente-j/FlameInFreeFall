@@ -34,10 +34,12 @@
       ]
     },
     "oxygen": {
-      "text": "Reported FLEX testing used O2 concentrations from 13% to 21% with CO2 / N2 diluent mixtures. Test point FLEX-145 used 20% O2.",
+      "text": "Test point FLEX-145 used 20% O2 / 75% CO2 / 5% N2. A presentation describes recent FLEX testing with O2 concentrations from 13% to 21% with CO2 / N2 diluent mixtures; that sentence describes recent testing only and is not stated as the range of the whole FLEX table. In the experimental table, test #226 records an O initial ambient composition of 0.18 mole fraction. Test #94 records 0.24 mole fraction.",
       "evidence_ids": [
         "PSI-69:pdf:684344b89e44646b7402706b:v1:p9#f5989ce99b46",
-        "PSI-69:pdf:684344b89e44646b7402706b:v1:p11#5f9c3c2010e4"
+        "PSI-69:pdf:684344b89e44646b7402706b:v1:p11#5f9c3c2010e4",
+        "PSI-69:table:6792be99b7b6ff8e65037e3a:v1:r226#e7fbbb4c6b46",
+        "PSI-69:table:6792be99b7b6ff8e65037e3a:v1:r94#87b010373304"
       ]
     },
     "pressure": {
@@ -110,7 +112,7 @@
     {
       "id": "C5",
       "type": "potential_application",
-      "text": "The test plan states that for fire safety the goal of an agent in a total flooding application is to reduce the oxygen concentration below the LOI, so extinction data of this kind could inform suppression design.",
+      "text": "The test plan states that for fire safety the goal of the agent in a total flooding application is to reduce the oxygen concentration below the LOI.",
       "evidence_ids": [
         "PSI-69:pdf:684347459e44646b74028a01:v1:p2#7fce5d925a72"
       ]
@@ -136,32 +138,9 @@
     {
       "observation": "C3",
       "conditions": {
-        "text": "Methanol droplet at 1.0 atm in 20% O2 / 75% CO2 / 5% N2. It is part of FLEX testing with O2 from 13% to 21% in CO2 / N2 mixtures.",
+        "text": "Methanol droplet at 1.0 atm in 20% O2 / 75% CO2 / 5% N2 (test point FLEX-145).",
         "evidence_ids": [
-          "PSI-69:pdf:684344b89e44646b7402706b:v1:p9#f5989ce99b46",
-          "PSI-69:pdf:684344b89e44646b7402706b:v1:p11#5f9c3c2010e4"
-        ]
-      },
-      "implication": "C5",
-      "category": "suppression"
-    },
-    {
-      "observation": "C6",
-      "conditions": {
-        "text": "Methanol droplet at 759.2 mmHg with 0.18 O, 0.67 N and 0.15 He mole fractions (FLEX test #226).",
-        "evidence_ids": [
-          "PSI-69:table:6792be99b7b6ff8e65037e3a:v1:r226#e7fbbb4c6b46"
-        ]
-      },
-      "implication": "C5",
-      "category": "suppression"
-    },
-    {
-      "observation": "C7",
-      "conditions": {
-        "text": "Heptane droplet at 533.6 mmHg with 0.24 O, 0.56 N and 0.2 in the CO-labeled column (FLEX test #94).",
-        "evidence_ids": [
-          "PSI-69:table:6792be99b7b6ff8e65037e3a:v1:r94#87b010373304"
+          "PSI-69:pdf:684344b89e44646b7402706b:v1:p9#f5989ce99b46"
         ]
       },
       "implication": "C5",
@@ -170,13 +149,22 @@
   ],
   "limitations": [
     {
-      "text": "The presentation's extinction result covers one methanol test point in CO2/N2; the presentation lists extending the analysis to the full range of FLEX methanol data as future work. The table row for FLEX test #226 is a single recorded run. The row for FLEX test #94 is likewise a single recorded run; no trend across runs is stated or claimed.",
+      "text": "The presentation's extinction result covers one methanol test point in CO2/N2; the presentation lists extending the analysis to the full range of FLEX methanol data as future work. The table row for FLEX test #226 is a single recorded run. The row for FLEX test #94 is likewise a single recorded run; no trend across runs is stated or claimed. A table row ending in Extinction records how that test ended; the source does not state it as evidence of an agent effect.",
       "basis": "source",
       "evidence_ids": [
         "PSI-69:pdf:684344b89e44646b7402706b:v1:p9#f5989ce99b46",
         "PSI-69:pdf:684344b89e44646b7402706b:v1:p15#8704ccab71a5",
         "PSI-69:table:6792be99b7b6ff8e65037e3a:v1:r226#e7fbbb4c6b46",
         "PSI-69:table:6792be99b7b6ff8e65037e3a:v1:r94#87b010373304"
+      ]
+    },
+    {
+      "text": "The suppression category rests on the investigation objective to measure the effectiveness of gaseous fire suppressants such as CO2, He, and SF6, and on the test plan's total flooding goal. The presentation of the FLEX-145 point does not itself state a suppression conclusion.",
+      "basis": "source",
+      "evidence_ids": [
+        "PSI-69:meta:objective#f4c7ee946a30",
+        "PSI-69:pdf:684347459e44646b74028a01:v1:p2#7fce5d925a72",
+        "PSI-69:pdf:684344b89e44646b7402706b:v1:p9#f5989ce99b46"
       ]
     },
     {
@@ -498,7 +486,7 @@
     "method": "skill",
     "skill": "research-card",
     "model": "claude-sonnet-5-5",
-    "generated_at": "2026-11-15T18:13:55+00:00"
+    "generated_at": "2026-11-15T18:16:43+00:00"
   },
   "review": {
     "status": "pending",
