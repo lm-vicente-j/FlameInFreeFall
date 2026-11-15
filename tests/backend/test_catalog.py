@@ -117,6 +117,11 @@ class CatalogTests(unittest.TestCase):
 
     def test_source_hash_failure_and_pending_release_gate(self):
         self.build()
+        card_path = self.data / "cards" / "PSI-47.json"
+        card = read(card_path)
+        # Exercise the pending gate explicitly, independent of source review updates.
+        card["review"] = {"status": "pending", "reviewer": None, "reviewed_at": None, "notes": ""}
+        write(card_path, card)
         with self.assertRaises(CatalogError):
             self.build(allow_pending=False)
         with (self.res / "PSI-47" / "metadata.json").open("ab") as output:
@@ -193,6 +198,8 @@ class CatalogTests(unittest.TestCase):
         card_path = self.data / "cards" / "PSI-47.json"
         card = read(card_path)
         card["source_version"] += 1
+        # A changed source version invalidates this temporary card's approval.
+        card["review"] = {"status": "pending", "reviewer": None, "reviewed_at": None, "notes": ""}
         write(card_path, card)
         packet_path = self.data / "evidence" / "PSI-47.json"
         packet = read(packet_path)

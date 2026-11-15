@@ -8,11 +8,11 @@ D2 (#33) and D3 (#34) are accepted. Numeric run filters use inclusive interval o
 
 Coverage reports requested oxygen/pressure bounds, counts by row kind, duplicate and quality exclusions, review states, condition groups and pairwise compatibility. It invents no bins. States distinguish `covered`, `pending_review`, `unknown_conditions` and `not_in_PSI`. Pending or unknown context prevents a false absence claim. Gaps apply only to the saved PSI snapshot; Saffire-IV–VI and SoFIE outside PSI remain unverified.
 
-Health reports actual active counts: 24 investigations and 2,009 source records after a full build. Verified run count is zero while scientific approval remains pending. Zero means an available empty set; null means unavailable. Service readiness does not certify scientific validity.
+Health reports actual active counts: 24 investigations and 2,009 source records after a full build. Verified run count follows the loaded review states; the build after PR #45 reports 506. Zero means an available empty set; null means unavailable. Service readiness does not certify scientific validity.
 
 The user approved the fixed 12 search questions, three unsupported questions and two synonym pairs on 2026-11-15. FTS5/BM25 returns 11/12 expected investigations in the first three results and no matches for all three unsupported queries. The failed Cool Flames Investigation expectation is retained. Reviewed synonyms are active; relevance is not risk.
 
-The complete saved file catalog has 60,866 entries. Cataloging does not establish that contents were downloaded or processed. Root `/` reports frontend unavailable while `static/index.html` is absent. Shared frontend contract agreement (#6) and end-to-end frontend integration (#23) remain separate acceptance requirements.
+The complete saved file catalog has 60,866 entries. Cataloging does not establish that contents were downloaded or processed. Root `/` serves the integrated frontend. It retains an explicit unavailable response if `static/index.html` is missing. [FRONTEND.md](../FRONTEND.md) records integration checks and remaining frontend requirements; shared contract sign-off (#6) remains separate.
 
 Current contract tests validate Flask responses against `openapi-current.json`. The material below, `openapi.json`, pinned schemas and `data/fixtures/s0/` retain the historical S0 handoff and its original unresolved states. `python docs/contracts/validate.py` validates that historical bundle; current decisions above supersede its provisional filter/coverage descriptions.
 

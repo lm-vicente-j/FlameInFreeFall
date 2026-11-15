@@ -1,0 +1,84 @@
+body {
+    background-color: #0b0f19; /* Fondo espacial */
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    border-bottom: 2px solid #ff5722;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+#contenedor-tarjetas {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.tarjeta {
+    background-color: #1a2233;
+    border: 1px solid #2a3550;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+.tarjeta h3 {
+    color: #00e5ff;
+    margin-top: 0;
+}
+
+.tag {
+    background-color: #ff5722;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 5px;
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-right: 5px;
+}
+main { max-width: 1440px; margin: auto; }
+section { margin: 30px 0 45px; }
+h2 { border-bottom: 2px solid #333; padding-bottom: 10px; }
+p, blockquote { line-height: 1.6; }
+input, select, button { font: inherit; border-radius: 6px; padding: 9px 12px; }
+input, select { color: white; background: #1a2233; border: 1px solid #2a3550; max-width: 100%; box-sizing: border-box; }
+button { background: #1a2233; color: white; border: 1px solid #00e5ff; cursor: pointer; }
+button:disabled { opacity: .45; cursor: default; }
+button:hover:not(:disabled), button[aria-pressed="true"] { background: #2a3550; }
+a { color: #00e5ff; overflow-wrap: anywhere; }
+label { display: flex; flex-direction: column; gap: 6px; }
+.busqueda { text-align: center; }
+#buscador { width: min(800px, 100%); margin: 10px 0; }
+.controles, .paginacion { display: flex; flex-wrap: wrap; align-items: end; gap: 12px; margin: 16px 0; }
+.busqueda .controles { justify-content: center; }
+.btn-filtro[data-categoria="prevention"] { border-color: #ff5722; }
+.btn-filtro[data-categoria="suppression"] { border-color: #ffc107; }
+.aviso { display: inline-block; padding: 8px 16px; border: 1px solid #ff5722; border-radius: 12px; background: #ff572222; }
+.nota, #estado-sistema { color: #bfc8d7; font-size: .9rem; }
+.error { color: #ff997c; }
+.tarjeta { width: 300px; flex: 1 1 280px; min-width: 0; }
+.tarjeta p { color: #ccc; font-size: 14px; }
+.tarjeta blockquote { margin: 12px 0; font-size: 14px; border-left: 3px solid #ff5722; padding-left: 10px; }
+.tarjeta .controles { align-items: stretch; }
+.grafico { height: 400px; padding: 16px; background: white; border-radius: 10px; }
+.tabla-scroll { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; text-align: left; }
+thead { background: #1a2233; border-bottom: 2px solid #00e5ff; }
+td, th { padding: 12px; border-bottom: 1px solid #333; }
+td { overflow-wrap: anywhere; }
+dialog { box-sizing: border-box; background: #1a2233; color: white; border: 1px solid #00e5ff; border-radius: 10px; padding: 25px; width: min(900px, 94%); max-height: 90vh; }
+dialog::backdrop { background: #000a; }
+dialog blockquote { margin: 15px 0; padding: 15px; background: #0b0f19; border-left: 4px solid #ff5722; white-space: pre-wrap; }
+dialog select { width: 100%; }
+@media (max-width: 600px) {
+    body { padding: 12px; }
+    .tarjeta { width: auto; }
+    .grafico { height: 300px; padding: 8px; }
+    .controles label { width: 100%; }
+}

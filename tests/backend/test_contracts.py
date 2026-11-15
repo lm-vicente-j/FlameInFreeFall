@@ -143,7 +143,8 @@ class ActiveContractTests(unittest.TestCase):
             with self.subTest(url=url):
                 self.assert_contract(self.client.get(url), path)
         health = self.assert_contract(self.client.get("/api/health"), "/api/health")
-        self.assertEqual(health["data"]["verified_run_count"], 0)
+        # The current FLEX/Saffire fixture contains eight approved run records.
+        self.assertEqual(health["data"]["verified_run_count"], 8)
         self.assertEqual(health["data"]["graph"], "loaded")
         self.assertFalse(health["meta"]["coverage_counts_provisional"])
 

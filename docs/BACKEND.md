@@ -1,6 +1,6 @@
 # Local backend
 
-The Flask application reads prepared PSI cards, evidence, the saved file catalog and normalized run tables. It serves eight JSON endpoints and any frontend assets already present in `static/`. The repository currently has mock assets but no `static/index.html`; `/` therefore returns an explicit `frontend_unavailable` response.
+The Flask application reads prepared PSI cards, evidence, the saved file catalog and normalized run tables. It serves eight JSON endpoints and the integrated frontend at `/`. The interface uses real API responses and a local copy of Chart.js. See [FRONTEND.md](FRONTEND.md) for workflows, tests and remaining features.
 
 ## Install
 

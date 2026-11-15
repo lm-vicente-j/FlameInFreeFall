@@ -98,11 +98,11 @@ box((740, 740, 1260, 1080), 5, "Backend and API", [
     "Model: SOSA/SSN · QUDT · PROV",
 ], "#eaf6f3")
 box((80, 740, 600, 1080), 6, "Research interface", [
-    "Investigation search",
-    "Comparison and evidence views",
-    "Condition and file exploration",
-    "For researchers and students",
-], "#fff5e6", status="Planned · Integration pending")
+    "Investigation search and details",
+    "Evidence and file browsing",
+    "Condition plot and source rows",
+    "Comparison and export pending",
+], "#fff5e6", status="Local frontend integrated")
 
 arrow([(1400, 910), (1260, 910)], "read", (1330, 880))
 arrow([(740, 910), (600, 910)], "HTTP / JSON", (670, 880))
