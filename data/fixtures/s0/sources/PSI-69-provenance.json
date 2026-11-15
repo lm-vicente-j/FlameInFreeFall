@@ -1,0 +1,26 @@
+[
+  {
+    "url": "https://psi.nasa.gov/geode-py/ws/repo/investigations/PSI-69",
+    "method": "GET",
+    "request_body": null,
+    "retrieved_at": "2026-11-14T18:18:37.171311+00:00",
+    "response_bytes": 31770,
+    "sha256": "a2d8ec5d0e9ad1060f6ecc7a850598634cc5519c373ae70462bf76c31fc8731c",
+    "file": "metadata.json"
+  },
+  {
+    "url": "https://psi.nasa.gov/geode-py/ws/files/v2",
+    "method": "POST",
+    "request_body": {
+      "folder": "PSI-69/",
+      "fileType": "study",
+      "studyId": "PSI-69",
+      "version": 5,
+      "obfuscationcode": ""
+    },
+    "retrieved_at": "2026-11-14T18:18:46.610779+00:00",
+    "response_bytes": 3015936,
+    "sha256": "5cca53f5d693a85dd73706de2060d25e1b42b9cbff400641336a7375a6eaa3bf",
+    "file": "files.json"
+  }
+]

@@ -1,0 +1,114 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://flameinfreefall.local/schemas/run-table.schema.json",
+  "title": "Normalized records for every non-empty row of one PSI experimental table",
+  "description": "Each value states how it was obtained. Unknown values are null with method 'unknown'; nothing is inferred silently.",
+  "type": "object",
+  "required": ["table", "investigation", "source", "counts", "records"],
+  "additionalProperties": false,
+  "properties": {
+    "table": {"$ref": "#/$defs/slug"},
+    "investigation": {"$ref": "common.schema.json#/$defs/accession"},
+    "source": {
+      "type": "object",
+      "required": ["filename", "sha256", "encoding", "columns"],
+      "additionalProperties": false,
+      "properties": {
+        "filename": {"$ref": "common.schema.json#/$defs/nonEmptyText"},
+        "sha256": {"$ref": "common.schema.json#/$defs/sha256"},
+        "encoding": {"enum": ["utf-8", "utf-8-sig", "cp1252"]},
+        "columns": {"type": "array", "items": {"type": "string"}, "description": "Header cells exactly as written in the source."}
+      }
+    },
+    "counts": {
+      "type": "object",
+      "required": ["runs", "notes", "empty_rows_skipped"],
+      "additionalProperties": false,
+      "properties": {
+        "runs": {"type": "integer", "minimum": 0},
+        "notes": {"type": "integer", "minimum": 0},
+        "empty_rows_skipped": {"type": "integer", "minimum": 0}
+      }
+    },
+    "records": {"type": "array", "items": {"$ref": "#/$defs/record"}}
+  },
+  "$defs": {
+    "slug": {"type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"},
+    "method": {
+      "description": "parsed: read directly from a cell. mapped: through a reviewed alias dictionary. llm: proposed by a language model and reviewed. manual: entered by a person. unknown: not recorded.",
+      "enum": ["parsed", "mapped", "llm", "manual", "unknown"]
+    },
+    "provenance": {
+      "type": "object",
+      "required": ["method", "columns", "review_status", "quote", "note"],
+      "properties": {
+        "method": {"$ref": "#/$defs/method"},
+        "columns": {"type": "array", "items": {"type": "string"}, "uniqueItems": true, "description": "Source columns the value came from."},
+        "review_status": {"$ref": "common.schema.json#/$defs/reviewStatus"},
+        "quote": {"type": ["string", "null"], "description": "Exact source text an llm or manual value is based on."},
+        "note": {"type": ["string", "null"]}
+      }
+    },
+    "category": {
+      "allOf": [{"$ref": "#/$defs/provenance"}],
+      "type": "object",
+      "required": ["value"],
+      "unevaluatedProperties": false,
+      "properties": {"value": {"type": ["string", "null"]}}
+    },
+    "quantity": {
+      "description": "A point when min equals max; a range or sweep otherwise.",
+      "allOf": [{"$ref": "#/$defs/provenance"}],
+      "type": "object",
+      "required": ["min", "max", "unit", "qualifier"],
+      "unevaluatedProperties": false,
+      "properties": {
+        "min": {"type": ["number", "null"]},
+        "max": {"type": ["number", "null"]},
+        "unit": {"type": "string"},
+        "qualifier": {"enum": [null, "approximate"]}
+      }
+    },
+    "conditions": {
+      "type": "object",
+      "required": ["fuel_class", "material", "geometry", "o2_percent", "pressure_kpa", "flow_cm_s", "flow_direction", "diluent"],
+      "additionalProperties": false,
+      "properties": {
+        "fuel_class": {"allOf": [{"$ref": "#/$defs/category"}], "properties": {"value": {"enum": ["solid", "droplet", "gas", null]}}},
+        "material": {"$ref": "#/$defs/category"},
+        "geometry": {"$ref": "#/$defs/category"},
+        "o2_percent": {"allOf": [{"$ref": "#/$defs/quantity"}], "properties": {"unit": {"const": "percent"}}},
+        "pressure_kpa": {"allOf": [{"$ref": "#/$defs/quantity"}], "properties": {"unit": {"const": "kPa"}}},
+        "flow_cm_s": {"allOf": [{"$ref": "#/$defs/quantity"}], "properties": {"unit": {"const": "cm/s"}}},
+        "flow_direction": {"allOf": [{"$ref": "#/$defs/category"}], "properties": {"value": {"enum": ["concurrent", "opposed", "quiescent", null]}}},
+        "diluent": {"$ref": "#/$defs/category"}
+      }
+    },
+    "outcome": {
+      "type": "object",
+      "required": ["type", "gravity", "result"],
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "enum": ["burn_time", "burning_rate", "extinction_diameter", "test_end", "burn_length", "spread_length", "spread_rate", "ignition", "extinction", "blowoff", "weight_loss_rate", "flames_ignited", "observation"]
+        },
+        "gravity": {"enum": ["microgravity", "normal"], "description": "normal marks 1 g ground comparison tests reported next to flight runs."},
+        "result": {"oneOf": [{"$ref": "#/$defs/quantity"}, {"$ref": "#/$defs/category"}]}
+      }
+    },
+    "record": {
+      "type": "object",
+      "required": ["id", "kind", "row", "original", "conditions", "outcomes", "review_status"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {"type": "string", "pattern": "^PSI-[0-9]+:[a-z0-9]+(-[a-z0-9]+)*:[0-9]+$", "description": "accession:table:row."},
+        "kind": {"enum": ["run", "note"], "description": "note: a source row that annotates other rows instead of describing a run."},
+        "row": {"type": "integer", "minimum": 1, "description": "1-based data row, counting from the first row after the header."},
+        "original": {"type": "object", "additionalProperties": {"type": "string"}, "description": "Every cell of the row, keyed by its exact header."},
+        "conditions": {"$ref": "#/$defs/conditions"},
+        "outcomes": {"type": "array", "items": {"$ref": "#/$defs/outcome"}},
+        "review_status": {"$ref": "common.schema.json#/$defs/reviewStatus", "description": "Least-reviewed status across all values in the record."}
+      }
+    }
+  }
+}

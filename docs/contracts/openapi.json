@@ -1,0 +1,2163 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Flame in Freefall S0 backend contract",
+    "version": "0.1.0",
+    "description": "Contract handoff for review. Scope decisions #32, #35, #36 and #37 are accepted in PLAN.md. The MVP preserves outcome-level gravity and has no gravity filter. Shared schema and fixture agreement in S0 #6 remains open."
+  },
+  "jsonSchemaDialect": "https://json-schema.org/draft/2020-12/schema",
+  "paths": {
+    "/api/studies": {
+      "get": {
+        "operationId": "listStudies",
+        "summary": "Search prepared study cards",
+        "description": "See API.md for ordering, validation and availability rules.",
+        "x-contract-status": "supported",
+        "parameters": [
+          {
+            "name": "limit",
+            "in": "query",
+            "required": false,
+            "description": "Page size.",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 100,
+              "default": 20
+            },
+            "example": 20
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "required": false,
+            "description": "Number of matching records to skip.",
+            "schema": {
+              "type": "integer",
+              "minimum": 0,
+              "default": 0
+            },
+            "example": 0
+          },
+          {
+            "name": "q",
+            "in": "query",
+            "required": false,
+            "description": "Literal search terms; never raw FTS syntax.",
+            "schema": {
+              "type": "string",
+              "maxLength": 200,
+              "default": ""
+            },
+            "example": "droplet"
+          },
+          {
+            "name": "safety_category",
+            "in": "query",
+            "required": false,
+            "description": "One cited category; exact match.",
+            "schema": {
+              "enum": [
+                "prevention",
+                "detection",
+                "suppression"
+              ]
+            },
+            "example": "suppression"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Prepared response; empty supported lists remain 200.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StudyList"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "invalid_parameters",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Error"
+                    },
+                    {
+                      "properties": {
+                        "error": {
+                          "properties": {
+                            "code": {
+                              "const": "invalid_parameters"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "not_found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Error"
+                    },
+                    {
+                      "properties": {
+                        "error": {
+                          "properties": {
+                            "code": {
+                              "const": "not_found"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "data_unavailable",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Error"
+                    },
+                    {
+                      "properties": {
+                        "error": {
+                          "properties": {
+                            "code": {
+                              "const": "data_unavailable"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "internal_error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Error"
+                    },
+                    {
+                      "properties": {
+                        "error": {
+                          "properties": {
+                            "code": {
+                              "const": "internal_error"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/studies/{accession}": {
+      "get": {
+        "operationId": "getStudy",
+        "summary": "Get a complete prepared card",
+        "description": "See API.md for ordering, validation and availability rules.",
+        "x-contract-status": "supported",
+        "parameters": [
+          {
+            "name": "accession",
+            "in": "path",
+            "required": true,
+            "description": "Exact investigation accession.",
+            "schema": {
+              "type": "string",
+              "pattern": "^PSI-[0-9]+$"
+            },
+            "example": "PSI-69"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Prepared response; empty supported lists remain 200.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StudyDetail"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "invalid_parameters",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Error"
+                    },
+                    {
+                      "properties": {
+                        "error": {
+                          "properties": {
+                            "code": {
+                              "const": "invalid_parameters"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "not_found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Error"
+                    },
+                    {
+                      "properties": {
+                        "error": {
+                          "properties": {
+                            "code": {
+                              "const": "not_found"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "data_unavailable",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Error"
+                    },
+                    {
+                      "properties": {
+                        "error": {
+                          "properties": {
+                            "code": {
+                              "const": "data_unavailable"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "internal_error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Error"
+                    },
+                    {
+                      "properties": {
+                        "error": {
+                          "properties": {
+                            "code": {
+                              "const": "internal_error"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/studies/{accession}/files": {
+      "get": {
+        "operationId": "listFiles",
+        "summary": "Browse the saved remote-file catalog",
+        "description": "See API.md for ordering, validation and availability rules.",
+        "x-contract-status": "supported",
+        "parameters": [
+          {
+            "name": "accession",
+            "in": "path",
+            "required": true,
+            "description": "Exact investigation accession.",
+            "schema": {
+              "type": "string",
+              "pattern": "^PSI-[0-9]+$"
+            },
+            "example": "PSI-69"
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "required": false,
+            "description": "Page size.",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 100,
+              "default": 20
+            },
+            "example": 20
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "required": false,
+            "description": "Number of matching records to skip.",
+            "schema": {
+              "type": "integer",
+              "minimum": 0,
+              "default": 0
+            },
+            "example": 0
+          },
+          {
+            "name": "filename",
+            "in": "query",
+            "required": false,
+            "description": "Case-insensitive literal filename substring.",
+            "schema": {
+              "type": "string",
+              "maxLength": 200,
+              "default": ""
+            },
+            "example": "FLEX"
+          },
+          {
+            "name": "category",
+            "in": "query",
+            "required": false,
+            "description": "Case-insensitive exact category.",
+            "schema": {
+              "type": "string",
+              "minLength": 1
+            },
+            "example": "Experimental table"
+          },
+          {
+            "name": "extension",
+            "in": "query",
+            "required": false,
+            "description": "Extension with leading dot; case-insensitive exact match.",
+            "schema": {
+              "type": "string",
+              "pattern": "^\\.[A-Za-z0-9]+$"
+            },
+            "example": ".csv"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Prepared response; empty supported lists remain 200.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/FileList"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "invalid_parameters",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Error"
+                    },
+                    {
+                      "properties": {
+                        "error": {
+                          "properties": {
+                            "code": {
+                              "const": "invalid_parameters"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "not_found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Error"
+                    },
+                    {
+                      "properties": {
+                        "error": {
+                          "properties": {
+                            "code": {
+                              "const": "not_found"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "data_unavailable",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Error"
+                    },
+                    {
+                      "properties": {
+                        "error": {
+                          "properties": {
+                            "code": {
+                              "const": "data_unavailable"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "internal_error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Error"
+                    },
+                    {
+                      "properties": {
+                        "error": {
+                          "properties": {
+                            "code": {
+                              "const": "internal_error"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/evidence/{id}": {
+      "get": {
+        "operationId": "getEvidence",
+        "summary": "Get an exact cited excerpt",
+        "description": "See API.md for ordering, validation and availability rules.",
+        "x-contract-status": "supported",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "description": "Percent-encode the whole identifier, including # as %23.",
+            "schema": {
+              "type": "string",
+              "pattern": "^PSI-[0-9]+:[^#]+#[0-9a-f]{12}$"
+            },
+            "example": "PSI-69:meta:objective#0693c364c63b"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Prepared response; empty supported lists remain 200.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/EvidenceDetail"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "invalid_parameters",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Error"
+                    },
+                    {
+                      "properties": {
+                        "error": {
+                          "properties": {
+                            "code": {
+                              "const": "invalid_parameters"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "not_found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Error"
+                    },
+                    {
+                      "properties": {
+                        "error": {
+                          "properties": {
+                            "code": {
+                              "const": "not_found"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "data_unavailable",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Error"
+                    },
+                    {
+                      "properties": {
+                        "error": {
+                          "properties": {
+                            "code": {
+                              "const": "data_unavailable"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "internal_error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Error"
+                    },
+                    {
+                      "properties": {
+                        "error": {
+                          "properties": {
+                            "code": {
+                              "const": "internal_error"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/runs": {
+      "get": {
+        "operationId": "listRuns",
+        "summary": "List source records (provisional filters)",
+        "description": "See API.md for ordering, validation and availability rules. Unresolved behavior is provisional; do not implement the blocked filter semantics.",
+        "x-contract-status": "provisional",
+        "parameters": [
+          {
+            "name": "limit",
+            "in": "query",
+            "required": false,
+            "description": "Page size.",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 100,
+              "default": 20
+            },
+            "example": 20
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "required": false,
+            "description": "Number of matching records to skip.",
+            "schema": {
+              "type": "integer",
+              "minimum": 0,
+              "default": 0
+            },
+            "example": 0
+          },
+          {
+            "name": "material",
+            "in": "query",
+            "required": false,
+            "description": "Provisional exact source value; interpretation requires team agreement.",
+            "schema": {
+              "type": "string",
+              "minLength": 1
+            },
+            "example": "Methanol"
+          },
+          {
+            "name": "geometry",
+            "in": "query",
+            "required": false,
+            "description": "Provisional exact source value; interpretation requires team agreement.",
+            "schema": {
+              "type": "string",
+              "minLength": 1
+            },
+            "example": "droplet"
+          },
+          {
+            "name": "fuel_class",
+            "in": "query",
+            "required": false,
+            "description": "Provisional reviewed class filter.",
+            "schema": {
+              "enum": [
+                "solid",
+                "droplet",
+                "gas"
+              ]
+            },
+            "example": "droplet"
+          },
+          {
+            "name": "flow_direction",
+            "in": "query",
+            "required": false,
+            "description": "Provisional reviewed direction filter.",
+            "schema": {
+              "enum": [
+                "concurrent",
+                "opposed",
+                "quiescent"
+              ]
+            },
+            "example": "concurrent"
+          },
+          {
+            "name": "o2_min",
+            "in": "query",
+            "required": false,
+            "description": "Provisional bound in percent; sweep overlap semantics pending #33-#34.",
+            "schema": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "example": 20
+          },
+          {
+            "name": "o2_max",
+            "in": "query",
+            "required": false,
+            "description": "Provisional bound in percent; sweep overlap semantics pending #33-#34.",
+            "schema": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "example": 23
+          },
+          {
+            "name": "pressure_min",
+            "in": "query",
+            "required": false,
+            "description": "Provisional bound in kPa; sweep overlap semantics pending #33-#34.",
+            "schema": {
+              "type": "number",
+              "minimum": 0
+            },
+            "example": 90
+          },
+          {
+            "name": "pressure_max",
+            "in": "query",
+            "required": false,
+            "description": "Provisional bound in kPa; sweep overlap semantics pending #33-#34.",
+            "schema": {
+              "type": "number",
+              "minimum": 0
+            },
+            "example": 110
+          },
+          {
+            "name": "flow_min",
+            "in": "query",
+            "required": false,
+            "description": "Provisional bound in cm/s; sweep overlap semantics pending #33-#34.",
+            "schema": {
+              "type": "number",
+              "minimum": 0
+            },
+            "example": 0
+          },
+          {
+            "name": "flow_max",
+            "in": "query",
+            "required": false,
+            "description": "Provisional bound in cm/s; sweep overlap semantics pending #33-#34.",
+            "schema": {
+              "type": "number",
+              "minimum": 0
+            },
+            "example": 20
+          },
+          {
+            "name": "outcome",
+            "in": "query",
+            "required": false,
+            "description": "Provisional outcome type filter. Preserve gravity per outcome; the accepted #35 decision excludes a gravity filter from the MVP.",
+            "schema": {
+              "enum": [
+                "burn_time",
+                "burning_rate",
+                "extinction_diameter",
+                "test_end",
+                "burn_length",
+                "spread_length",
+                "spread_rate",
+                "ignition",
+                "extinction",
+                "blowoff",
+                "weight_loss_rate",
+                "flames_ignited",
+                "observation"
+              ]
+            },
+            "example": "burn_time"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Prepared response; empty supported lists remain 200.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RunList"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "invalid_parameters",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Error"
+                    },
+                    {
+                      "properties": {
+                        "error": {
+                          "properties": {
+                            "code": {
+                              "const": "invalid_parameters"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "not_found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Error"
+                    },
+                    {
+                      "properties": {
+                        "error": {
+                          "properties": {
+                            "code": {
+                              "const": "not_found"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "data_unavailable",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Error"
+                    },
+                    {
+                      "properties": {
+                        "error": {
+                          "properties": {
+                            "code": {
+                              "const": "data_unavailable"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "internal_error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Error"
+                    },
+                    {
+                      "properties": {
+                        "error": {
+                          "properties": {
+                            "code": {
+                              "const": "internal_error"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/runs/{id}": {
+      "get": {
+        "operationId": "getRun",
+        "summary": "Get a source row (provisional graph semantics)",
+        "description": "See API.md for ordering, validation and availability rules. Unresolved behavior is provisional; do not implement the blocked filter semantics.",
+        "x-contract-status": "provisional",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "description": "Percent-encode upstream record ID.",
+            "schema": {
+              "type": "string",
+              "pattern": "^PSI-[0-9]+:[a-z0-9]+(-[a-z0-9]+)*:[0-9]+$"
+            },
+            "example": "PSI-69:flex:1"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Prepared response; empty supported lists remain 200.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RunDetail"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "invalid_parameters",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Error"
+                    },
+                    {
+                      "properties": {
+                        "error": {
+                          "properties": {
+                            "code": {
+                              "const": "invalid_parameters"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "not_found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Error"
+                    },
+                    {
+                      "properties": {
+                        "error": {
+                          "properties": {
+                            "code": {
+                              "const": "not_found"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "data_unavailable",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Error"
+                    },
+                    {
+                      "properties": {
+                        "error": {
+                          "properties": {
+                            "code": {
+                              "const": "data_unavailable"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "internal_error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Error"
+                    },
+                    {
+                      "properties": {
+                        "error": {
+                          "properties": {
+                            "code": {
+                              "const": "internal_error"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/coverage": {
+      "get": {
+        "operationId": "getCoverage",
+        "summary": "Report the provisional coverage state",
+        "description": "See API.md for ordering, validation and availability rules. Unresolved behavior is provisional; do not implement the blocked filter semantics.",
+        "x-contract-status": "provisional",
+        "parameters": [
+          {
+            "name": "material",
+            "in": "query",
+            "required": false,
+            "description": "Provisional exact source value; interpretation requires team agreement.",
+            "schema": {
+              "type": "string",
+              "minLength": 1
+            },
+            "example": "Methanol"
+          },
+          {
+            "name": "geometry",
+            "in": "query",
+            "required": false,
+            "description": "Provisional exact source value; interpretation requires team agreement.",
+            "schema": {
+              "type": "string",
+              "minLength": 1
+            },
+            "example": "droplet"
+          },
+          {
+            "name": "fuel_class",
+            "in": "query",
+            "required": false,
+            "description": "Provisional reviewed class filter.",
+            "schema": {
+              "enum": [
+                "solid",
+                "droplet",
+                "gas"
+              ]
+            },
+            "example": "droplet"
+          },
+          {
+            "name": "flow_direction",
+            "in": "query",
+            "required": false,
+            "description": "Provisional reviewed direction filter.",
+            "schema": {
+              "enum": [
+                "concurrent",
+                "opposed",
+                "quiescent"
+              ]
+            },
+            "example": "concurrent"
+          },
+          {
+            "name": "o2_min",
+            "in": "query",
+            "required": false,
+            "description": "Provisional bound in percent; sweep overlap semantics pending #33-#34.",
+            "schema": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "example": 20
+          },
+          {
+            "name": "o2_max",
+            "in": "query",
+            "required": false,
+            "description": "Provisional bound in percent; sweep overlap semantics pending #33-#34.",
+            "schema": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "example": 23
+          },
+          {
+            "name": "pressure_min",
+            "in": "query",
+            "required": false,
+            "description": "Provisional bound in kPa; sweep overlap semantics pending #33-#34.",
+            "schema": {
+              "type": "number",
+              "minimum": 0
+            },
+            "example": 90
+          },
+          {
+            "name": "pressure_max",
+            "in": "query",
+            "required": false,
+            "description": "Provisional bound in kPa; sweep overlap semantics pending #33-#34.",
+            "schema": {
+              "type": "number",
+              "minimum": 0
+            },
+            "example": 110
+          },
+          {
+            "name": "flow_min",
+            "in": "query",
+            "required": false,
+            "description": "Provisional bound in cm/s; sweep overlap semantics pending #33-#34.",
+            "schema": {
+              "type": "number",
+              "minimum": 0
+            },
+            "example": 0
+          },
+          {
+            "name": "flow_max",
+            "in": "query",
+            "required": false,
+            "description": "Provisional bound in cm/s; sweep overlap semantics pending #33-#34.",
+            "schema": {
+              "type": "number",
+              "minimum": 0
+            },
+            "example": 20
+          },
+          {
+            "name": "outcome",
+            "in": "query",
+            "required": false,
+            "description": "Provisional outcome type filter. Preserve gravity per outcome; the accepted #35 decision excludes a gravity filter from the MVP.",
+            "schema": {
+              "enum": [
+                "burn_time",
+                "burning_rate",
+                "extinction_diameter",
+                "test_end",
+                "burn_length",
+                "spread_length",
+                "spread_rate",
+                "ignition",
+                "extinction",
+                "blowoff",
+                "weight_loss_rate",
+                "flames_ignited",
+                "observation"
+              ]
+            },
+            "example": "burn_time"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Prepared response; empty supported lists remain 200.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Coverage"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "invalid_parameters",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Error"
+                    },
+                    {
+                      "properties": {
+                        "error": {
+                          "properties": {
+                            "code": {
+                              "const": "invalid_parameters"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "not_found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Error"
+                    },
+                    {
+                      "properties": {
+                        "error": {
+                          "properties": {
+                            "code": {
+                              "const": "not_found"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "data_unavailable",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Error"
+                    },
+                    {
+                      "properties": {
+                        "error": {
+                          "properties": {
+                            "code": {
+                              "const": "data_unavailable"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "internal_error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Error"
+                    },
+                    {
+                      "properties": {
+                        "error": {
+                          "properties": {
+                            "code": {
+                              "const": "internal_error"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/health": {
+      "get": {
+        "operationId": "getHealth",
+        "summary": "Report prepared-data readiness and loaded counts",
+        "description": "See API.md for ordering, validation and availability rules.",
+        "x-contract-status": "supported",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Prepared response; empty supported lists remain 200.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HealthResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "invalid_parameters",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Error"
+                    },
+                    {
+                      "properties": {
+                        "error": {
+                          "properties": {
+                            "code": {
+                              "const": "invalid_parameters"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "not_found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Error"
+                    },
+                    {
+                      "properties": {
+                        "error": {
+                          "properties": {
+                            "code": {
+                              "const": "not_found"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "data_unavailable",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Error"
+                    },
+                    {
+                      "properties": {
+                        "error": {
+                          "properties": {
+                            "code": {
+                              "const": "data_unavailable"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "internal_error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Error"
+                    },
+                    {
+                      "properties": {
+                        "error": {
+                          "properties": {
+                            "code": {
+                              "const": "internal_error"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Card": {
+        "$ref": "schemas/research-card.schema.json"
+      },
+      "Evidence": {
+        "$ref": "schemas/research-card.schema.json#/$defs/evidence"
+      },
+      "Run": {
+        "$ref": "schemas/run-table.schema.json#/$defs/record"
+      },
+      "RemoteFile": {
+        "allOf": [
+          {
+            "$ref": "schemas/common.schema.json#/$defs/remoteFile"
+          }
+        ],
+        "type": "object",
+        "required": [
+          "filename",
+          "category",
+          "extension",
+          "bytes",
+          "access",
+          "download_sha256"
+        ],
+        "unevaluatedProperties": false,
+        "properties": {
+          "filename": {
+            "type": "string",
+            "minLength": 1
+          },
+          "category": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "extension": {
+            "type": "string",
+            "pattern": "^\\.[a-z0-9]+$"
+          },
+          "bytes": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "access": {
+            "enum": [
+              "public",
+              "restricted",
+              "hidden"
+            ]
+          },
+          "download_sha256": {
+            "oneOf": [
+              {
+                "$ref": "schemas/common.schema.json#/$defs/sha256"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        }
+      },
+      "Health": {
+        "type": "object",
+        "properties": {
+          "readiness": {
+            "enum": [
+              "ready",
+              "degraded",
+              "unavailable"
+            ]
+          },
+          "snapshot_date": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date"
+          },
+          "catalog": {
+            "enum": [
+              "loaded",
+              "unavailable"
+            ]
+          },
+          "graph": {
+            "enum": [
+              "loaded",
+              "unavailable"
+            ]
+          },
+          "investigation_count": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "run_record_count": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "verified_run_count": {
+            "type": "null"
+          }
+        },
+        "required": [
+          "readiness",
+          "snapshot_date",
+          "catalog",
+          "graph",
+          "investigation_count",
+          "run_record_count",
+          "verified_run_count"
+        ],
+        "additionalProperties": false,
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "catalog": {
+                  "const": "loaded"
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "investigation_count": {
+                  "type": "integer",
+                  "minimum": 0
+                }
+              }
+            },
+            "else": {
+              "properties": {
+                "investigation_count": {
+                  "type": "null"
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "graph": {
+                  "const": "loaded"
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "run_record_count": {
+                  "type": "integer",
+                  "minimum": 0
+                }
+              }
+            },
+            "else": {
+              "properties": {
+                "run_record_count": {
+                  "type": "null"
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "readiness": {
+                  "const": "ready"
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "catalog": {
+                  "const": "loaded"
+                },
+                "graph": {
+                  "const": "loaded"
+                },
+                "snapshot_date": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "readiness": {
+                  "const": "degraded"
+                }
+              }
+            },
+            "then": {
+              "oneOf": [
+                {
+                  "properties": {
+                    "catalog": {
+                      "const": "loaded"
+                    },
+                    "graph": {
+                      "const": "unavailable"
+                    }
+                  }
+                },
+                {
+                  "properties": {
+                    "catalog": {
+                      "const": "unavailable"
+                    },
+                    "graph": {
+                      "const": "loaded"
+                    }
+                  }
+                }
+              ],
+              "properties": {
+                "snapshot_date": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "readiness": {
+                  "const": "unavailable"
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "catalog": {
+                  "const": "unavailable"
+                },
+                "graph": {
+                  "const": "unavailable"
+                },
+                "snapshot_date": {
+                  "type": "null"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "Error": {
+        "type": "object",
+        "properties": {
+          "error": {
+            "type": "object",
+            "properties": {
+              "code": {
+                "enum": [
+                  "invalid_parameters",
+                  "not_found",
+                  "data_unavailable",
+                  "internal_error"
+                ]
+              },
+              "message": {
+                "type": "string",
+                "minLength": 1
+              },
+              "details": {
+                "type": "object",
+                "properties": {
+                  "state": {
+                    "type": "string"
+                  },
+                  "resource": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "parameters": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "health": {
+                    "oneOf": [
+                      {
+                        "$ref": "#/components/schemas/Health"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  }
+                },
+                "required": [
+                  "state",
+                  "resource",
+                  "parameters",
+                  "health"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "code",
+              "message",
+              "details"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "error"
+        ],
+        "additionalProperties": false
+      },
+      "RunSource": {
+        "type": "object",
+        "properties": {
+          "investigation": {
+            "$ref": "schemas/common.schema.json#/$defs/accession"
+          },
+          "table": {
+            "type": "string"
+          },
+          "source": {
+            "$ref": "schemas/run-table.schema.json#/properties/source"
+          }
+        },
+        "required": [
+          "investigation",
+          "table",
+          "source"
+        ],
+        "additionalProperties": false
+      },
+      "StudyDetail": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "$ref": "#/components/schemas/Card"
+          },
+          "meta": {
+            "type": "object",
+            "properties": {
+              "evidence_state": {
+                "enum": [
+                  "available",
+                  "unavailable"
+                ]
+              }
+            },
+            "required": [
+              "evidence_state"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "data",
+          "meta"
+        ],
+        "additionalProperties": false
+      },
+      "StudyList": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Card"
+            }
+          },
+          "meta": {
+            "type": "object",
+            "properties": {
+              "total": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "limit": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 100
+              },
+              "offset": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "query": {
+                "type": "string"
+              },
+              "safety_category": {
+                "enum": [
+                  null,
+                  "prevention",
+                  "detection",
+                  "suppression"
+                ]
+              },
+              "matches": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "accession": {
+                      "type": "string"
+                    },
+                    "rank": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "score": {
+                      "type": [
+                        "number",
+                        "null"
+                      ]
+                    },
+                    "evidence": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/components/schemas/Evidence"
+                      }
+                    }
+                  },
+                  "required": [
+                    "accession",
+                    "rank",
+                    "score",
+                    "evidence"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            },
+            "required": [
+              "total",
+              "limit",
+              "offset",
+              "query",
+              "safety_category",
+              "matches"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "data",
+          "meta"
+        ],
+        "additionalProperties": false
+      },
+      "FileList": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/RemoteFile"
+            }
+          },
+          "meta": {
+            "type": "object",
+            "properties": {
+              "total": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "limit": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 100
+              },
+              "offset": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "accession": {
+                "type": "string"
+              },
+              "filename": {
+                "type": "string"
+              },
+              "category": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "extension": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "required": [
+              "total",
+              "limit",
+              "offset",
+              "accession",
+              "filename",
+              "category",
+              "extension"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "data",
+          "meta"
+        ],
+        "additionalProperties": false
+      },
+      "EvidenceDetail": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "$ref": "#/components/schemas/Evidence"
+          },
+          "meta": {
+            "type": "object",
+            "properties": {
+              "state": {
+                "const": "available"
+              }
+            },
+            "required": [
+              "state"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "data",
+          "meta"
+        ],
+        "additionalProperties": false
+      },
+      "RunDetail": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "$ref": "#/components/schemas/Run"
+          },
+          "meta": {
+            "type": "object",
+            "properties": {
+              "provisional": {
+                "const": true
+              },
+              "source": {
+                "$ref": "#/components/schemas/RunSource"
+              }
+            },
+            "required": [
+              "provisional",
+              "source"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "data",
+          "meta"
+        ],
+        "additionalProperties": false
+      },
+      "RunList": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Run"
+            }
+          },
+          "meta": {
+            "type": "object",
+            "properties": {
+              "total": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "limit": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 100
+              },
+              "offset": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "provisional": {
+                "const": true
+              },
+              "count_basis": {
+                "const": "source_records"
+              },
+              "sources": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/RunSource"
+                }
+              }
+            },
+            "required": [
+              "total",
+              "limit",
+              "offset",
+              "provisional",
+              "count_basis",
+              "sources"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "data",
+          "meta"
+        ],
+        "additionalProperties": false
+      },
+      "Coverage": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "type": "object",
+            "properties": {
+              "state": {
+                "const": "provisional"
+              },
+              "verified_run_count": {
+                "type": "null"
+              },
+              "regions": {
+                "type": "null"
+              }
+            },
+            "required": [
+              "state",
+              "verified_run_count",
+              "regions"
+            ],
+            "additionalProperties": false
+          },
+          "meta": {
+            "type": "object",
+            "properties": {
+              "provisional": {
+                "const": true
+              },
+              "blockers": {
+                "type": "array",
+                "items": {
+                  "enum": [
+                    "row-classification",
+                    "#33",
+                    "#34"
+                  ]
+                }
+              }
+            },
+            "required": [
+              "provisional",
+              "blockers"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "data",
+          "meta"
+        ],
+        "additionalProperties": false
+      },
+      "HealthResponse": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "$ref": "#/components/schemas/Health"
+          },
+          "meta": {
+            "type": "object",
+            "properties": {
+              "coverage_counts_provisional": {
+                "const": true
+              }
+            },
+            "required": [
+              "coverage_counts_provisional"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "data",
+          "meta"
+        ],
+        "additionalProperties": false
+      }
+    }
+  }
+}
