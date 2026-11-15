@@ -1,6 +1,8 @@
 # Flame in Freefall: SI-Powered Fire Safety Insights from Microgravity Combustion Data
 
-A proposed interactive web dashboard that uses NASA's Physical Sciences Informatics (PSI) repository to find, rank, compare, and explain combustion research relevant to spacecraft fire safety.
+A proposed dashboard for exploring NASA's Physical Sciences Informatics (PSI) combustion research and its relevance to spacecraft fire safety. Research cards summarize and compare investigations. A condition explorer shows which experimental runs cover a scenario, their recorded outcomes, and gaps in the saved PSI tables.
+
+See [APPROACH.md](docs/APPROACH.md) for the proposal and data findings, and [PLAN.md](PLAN.md) for implementation details. The proposal remains under review. The repository provides metadata collection, inventories, and an experimental-table downloader. The dashboard and analysis pipelines remain to be implemented.
 
 
 ## Objectives
@@ -8,20 +10,21 @@ A proposed interactive web dashboard that uses NASA's Physical Sciences Informat
 - Make combustion research easier to find, compare, and understand.
 - Identify research relevant to crewed spacecraft, stations, lunar and Martian bases, and pressurized rovers.
 - Extract data to support predictive models of flammability and fire scenarios.
+- Explore runs by oxygen, pressure, airflow, and material, with source links and explicit coverage gaps.
 - Highlight research that informs fire prevention, detection, and suppression systems.
 - Explore fire safety applications on Earth as an optional extension.
 
 ## Challenge Coverage
 
-Coverage below describes planned work, not completed features.
+The table below describes planned work.
 
 | Challenge objective | Plan coverage | What needs attention |
 | --- | --- | --- |
-| Interactive dashboard | Planned: search, filters, comparisons, and evidence views | Complete and test the integrated workflow. |
+| Interactive dashboard | Planned: search, filters, comparisons, evidence views, and a condition explorer | Complete and test the integrated workflow. |
 | Summarize investigations | Planned: 24 skill-generated, reviewed research cards | Cite summaries and distinguish objectives, hypotheses, and findings. |
 | Rank relevant investigations | Planned: local keyword search and relevance ranking | Explain matching evidence; do not present relevance as fire risk. |
 | Interpret findings for fire safety | Planned: findings linked to experimental conditions and safety implications | Verify at least one finding for each core investigation. |
-| Support predictive modeling | Planned: identify useful measurements, conditions, and remote files | Describe available evidence without claiming a validated predictive model. |
+| Support predictive modeling | Planned: normalize experimental tables, map condition coverage, and link runs to measurements and remote files | Preserve source conditions and missing outcomes without claiming a validated predictive model. |
 | Highlight improved safety controls | Planned: connect findings to prevention, detection, or suppression | Support each connection with evidence and distinguish proposed applications. |
 
 ## Considerations
@@ -43,22 +46,25 @@ Challenge sources: [Details](https://www.spaceappschallenge.org/2026/challenges/
 
 ## 48-Hour MVP
 
-Build a local research explorer with keyword search, investigation comparisons, and prepared insights linked to source evidence. Use Python, Flask, SQLite FTS5/BM25, pypdf, HTML, CSS, and vanilla JavaScript.
+Build a local research explorer with keyword search, investigation comparisons, cited insights, and a condition explorer. Use Python, Flask, SQLite FTS5/BM25, rdflib, pypdf, HTML, CSS, and vanilla JavaScript. Store cards, evidence, and the file catalog in SQLite. Store run conditions and outcomes in an in-memory RDF graph, queried with SPARQL through rdflib.
 
-A skill reads evidence packets during preparation and generates research-card JSON. Review and validate those cards before importing them. The application retrieves and displays prepared summaries and matching passages.
+A skill generates research-card JSON from evidence packets during preparation. Review and validate the cards before import. Convert experimental tables to shared column names and units, reviewing text mappings and extracted observations. Preserve each record's source file, row, and original text. The application displays prepared content without generating answers at runtime.
 
 ```text
-PSI metadata + selected documents
-    -> extracted evidence
-    -> skill-generated and reviewed research-card JSON
-    -> SQLite catalog and keyword index
-    -> dashboard, comparisons, and cited insights
+Investigation layer                         Run layer
+PSI metadata + selected documents           Experimental tables + BASS test matrices
+    -> extracted evidence                      -> parsing and reviewed normalization
+    -> reviewed research-card JSON             -> records with source provenance
+    -> SQLite catalog and keyword index        -> in-memory RDF graph / SPARQL
+                   \                             /
+                    -> dashboard: cards, comparisons, evidence, conditions, coverage gaps
 ```
 
 | Component | Content | Purpose |
 | --- | --- | --- |
 | Research cards | Cited summaries, findings, safety implications, comparison attributes, and limitations | Explain each investigation using reviewed evidence. |
 | Scientific index | Objectives, approach, hypotheses, research impacts, and selected document passages | Rank investigations and show matching evidence. |
+| Run graph | Conditions, recorded outcomes, source links, and extraction/review status | Filter comparable records and map coverage without a run-distance score. |
 | File catalog | Investigation, filename, category, format, version, size, and source reference | Browse remote files without downloading the full collection. |
 
 Start with the saved metadata for all 24 investigations. All have objective, approach, hypothesis, and research-impact fields. These fields, titles, and acronyms total about 81,000 characters in the saved snapshot.
@@ -67,14 +73,32 @@ Select up to 20 readable PDFs across BASS-II, Saffire-I, SAME-R, and FLEX, targe
 
 For each core investigation, verify at least one documented finding, its conditions, and a supported fire safety implication. Keep hypotheses and expected impacts labeled as such. A file appearing in the catalog does not mean its contents have been analyzed.
 
+### Explore by experimental condition
+
+The 2026-11-14 review in [APPROACH.md](docs/APPROACH.md) covers 22 experimental-table CSVs totaling about 230 KB and 2,010 non-empty rows, plus BASS test-matrix spreadsheets. The rows include individual runs, ranges, session summaries, and notes. Preserve these distinctions when counting tests. Four modeling-only investigations publish no experimental table.
+
+The planned workflow is to:
+
+1. Normalize recorded conditions and outcomes while preserving unknowns, original values, units, and provenance.
+2. Filter by fuel class, material, geometry, and flow direction before comparing oxygen, pressure, and airflow.
+3. Plot oxygen against pressure alongside a sortable runs table. Mark the three crew-atmosphere references: 14.7 psia at 21% O2, 10.2 psia at 26.5%, and 8.2 psia at 34%.
+4. Show coverage gaps for the active filters. Label them "not in PSI"; they do not establish whether a scenario has been studied elsewhere or whether it is safe.
+5. Link runs to source files and cited report passages. Show the authors' conclusions without adding our own.
+
+The initial review found no solid-fuel run above 22.2% O2 or below about 0.97 atm in these tables. FLEX includes reduced-pressure, oxygen-enriched droplet tests; these do not establish coverage for solids.
+
+BASS and BASS-II record flow as instrument readings. Converting them to velocity requires calibration for the test date and number of flow restrictors. Many BASS-II runs vary flow during the test. Reports may supply outcomes missing from the tables; unsupported outcomes remain unknown.
+
+The current plan starts normalization with FLEX and Saffire-II, followed by BASS and BASS-II. APPROACH.md leaves the order, flow-sweep display, comparisons across hardware, gravity controls, report-extraction scope, and coverage in later NASA work open for review.
+
 
 ## Implementation Team
 
 | GitHub user | Code ownership |
 | --- | --- |
-| `alan-pv` | Sample downloader, PDF extraction, evidence packets, research-card skill, and card validation |
-| `lm-vicente-j` | SQLite import, keyword ranking, backend endpoints, and integration commands |
-| `EmmanuelRamiro23` | Search interface, comparisons, evidence viewer, file browser, and JSON export |
+| `alan-pv` | Sample downloader, PDF extraction, evidence packets, research-card skill, card validation, and run normalization |
+| `lm-vicente-j` | SQLite import, keyword ranking, RDF run graph, SPARQL queries, backend endpoints, and integration commands |
+| `EmmanuelRamiro23` | Search interface, comparisons, evidence viewer, file browser, condition explorer, runs table, and JSON export |
 
 ## Growth and Limits
 
@@ -86,7 +110,7 @@ The remote collection already exceeds 13 TB. Keep large experimental files with 
 - Use structured queries for numerical tables.
 - Expand ingestion and search infrastructure when measured throughput or latency requires it.
 
-The MVP excludes embeddings, live answer generation, simulation, predictive fire-risk scores, OCR, and video analysis. Modeling support means identifying relevant measurements and files, rather than implementing a predictive model.
+The MVP excludes live answer generation, simulation, predictive fire-risk scores, distance-based run ranking, OCR, video analysis, and a triple-store server. Embeddings are optional after the core workflow works and a reviewed evaluation shows that they improve keyword search. Modeling support consists of conditions, outcomes, coverage gaps, and source files for future models. The MVP does not include a validated predictive model.
 
 ## Official Resources
 
@@ -109,7 +133,7 @@ The MVP excludes embeddings, live answer generation, simulation, predictive fire
 NASA PSI lists 24 combustion investigations with 60,866 files.
 Their reported dataset sizes total 13.50 TB (13,496,771,103,733 bytes; 0 datasets have no reported total).
 The current file listings sum to 13.47 TB (13,471,850,126,356 known bytes; 0 files have no reported size).
-Only metadata is stored locally. Sizes below describe remote experimental files, not local downloads.
+The inventory stores metadata locally; the separate table downloader retrieves selected small tabular files. Sizes below describe the full remote collection, not local downloads.
 
 Titles, versions, file counts, and sizes come from PSI's API. Sizes use decimal units. Each inventory lists individual file sizes and preserves any difference between PSI's dataset total and file-size sum.
 
@@ -167,3 +191,13 @@ python scripts/download_metadata.py --offline
 The script does not edit the README. The dataset table is a snapshot and must be refreshed manually.
 
 <!-- PSI-INVENTORY:END -->
+
+### Fetch experimental tables
+
+After refreshing metadata and inventories, download all files categorized as `Experimental table` and the BASS test-matrix spreadsheets:
+
+```bash
+python scripts/fetch_experimental_tables.py
+```
+
+The script saves source tables to `res/experimental-tables/` by default. Use `--out <directory>` to choose another location. Normalization, flow calibration, report extraction, and graph construction remain planned work.
