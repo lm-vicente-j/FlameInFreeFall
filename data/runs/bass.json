@@ -112,9 +112,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "SIBAL 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "fabric sheet",
@@ -122,9 +122,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "SIBAL 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 22.1,
@@ -192,7 +192,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "extinguishes at burnout",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -200,7 +200,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:2",
@@ -291,9 +291,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "PMMA sphere 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sphere",
@@ -301,9 +301,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "PMMA sphere 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 22.1,
@@ -374,7 +374,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "2 minute burn",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -382,7 +382,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:3",
@@ -473,9 +473,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "PMMA sphere 1 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sphere",
@@ -483,9 +483,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "PMMA sphere 1 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 22.1,
@@ -553,7 +553,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "Blew off stagnation region",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -570,7 +570,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "~ 2 minute total burn",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -578,7 +578,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:4",
@@ -669,9 +669,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "SIBAL 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "fabric sheet",
@@ -679,9 +679,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "SIBAL 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.9,
@@ -752,7 +752,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "~ 40 s burn",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -760,7 +760,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:5",
@@ -851,9 +851,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "SIBAL 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "fabric sheet",
@@ -861,9 +861,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "SIBAL 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.9,
@@ -934,7 +934,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "~ 60 s burn",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -942,7 +942,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:6",
@@ -1033,9 +1033,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "PMMA sphere 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sphere",
@@ -1043,9 +1043,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "PMMA sphere 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.7,
@@ -1106,7 +1106,7 @@
       "outcomes": [],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:7",
@@ -1197,9 +1197,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "PMMA sphere 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sphere",
@@ -1207,9 +1207,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "PMMA sphere 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.7,
@@ -1270,7 +1270,7 @@
       "outcomes": [],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:8",
@@ -1361,9 +1361,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "PMMA sphere 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sphere",
@@ -1371,9 +1371,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "PMMA sphere 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.7,
@@ -1441,7 +1441,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "Flame doesn't go out until fan goes to 38",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -1449,7 +1449,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:9",
@@ -1540,9 +1540,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "PMMA sphere 1 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sphere",
@@ -1550,9 +1550,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "PMMA sphere 1 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.887043,
@@ -1620,7 +1620,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "To extinguish, turned  flow off",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -1628,7 +1628,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:10",
@@ -1719,9 +1719,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "PMMA sphere 1 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sphere",
@@ -1729,9 +1729,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "PMMA sphere 1 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.887043,
@@ -1799,7 +1799,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "extinguished when fan off",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -1807,7 +1807,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:11",
@@ -1898,9 +1898,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "PMMA sphere 1 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sphere",
@@ -1908,9 +1908,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "PMMA sphere 1 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.887043,
@@ -1978,7 +1978,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "flame did not blow off stagnation region",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -1986,7 +1986,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:12",
@@ -2077,9 +2077,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "SIBAL 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "fabric sheet",
@@ -2087,9 +2087,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "SIBAL 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.629213,
@@ -2160,7 +2160,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "26 s burn",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -2168,7 +2168,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:13",
@@ -2259,9 +2259,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "SIBAL 1 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "fabric sheet",
@@ -2269,9 +2269,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "SIBAL 1 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.629213,
@@ -2332,7 +2332,7 @@
       "outcomes": [],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:14",
@@ -2423,9 +2423,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "Nomex blend 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "fabric sheet",
@@ -2433,9 +2433,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "Nomex blend 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.629213,
@@ -2503,7 +2503,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "Ignited and burned for only 2 s",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -2520,7 +2520,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "burned for only 2 s",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -2534,7 +2534,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "Died when igniter turned off",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -2542,7 +2542,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:15",
@@ -2633,19 +2633,19 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "PMMA 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
-          "value": null,
-          "method": "unknown",
+          "value": "sphere",
+          "method": "mapped",
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
-          "quote": null,
-          "note": "no alias entry in \"geometries\" for source text \"PMMA 2 cm\""
+          "review_status": "approved",
+          "quote": "PMMA 2 cm",
+          "note": null
         },
         "o2_percent": {
           "min": 21.7,
@@ -2713,7 +2713,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "Ignited GBX",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -2727,7 +2727,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "flame went out",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -2735,7 +2735,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:16",
@@ -2826,19 +2826,19 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "PMMA 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
-          "value": null,
-          "method": "unknown",
+          "value": "sphere",
+          "method": "mapped",
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
-          "quote": null,
-          "note": "no alias entry in \"geometries\" for source text \"PMMA 2 cm\""
+          "review_status": "approved",
+          "quote": "PMMA 2 cm",
+          "note": null
         },
         "o2_percent": {
           "min": 21.7,
@@ -2906,7 +2906,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "Flame extinuishes right away",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -2914,7 +2914,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:17",
@@ -3005,19 +3005,19 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "PMMA 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
-          "value": null,
-          "method": "unknown",
+          "value": "sphere",
+          "method": "mapped",
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
-          "quote": null,
-          "note": "no alias entry in \"geometries\" for source text \"PMMA 2 cm\""
+          "review_status": "approved",
+          "quote": "PMMA 2 cm",
+          "note": null
         },
         "o2_percent": {
           "min": 21.7,
@@ -3085,7 +3085,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "it extinguished right away",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -3093,7 +3093,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:18",
@@ -3184,19 +3184,19 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "PMMA 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
-          "value": null,
-          "method": "unknown",
+          "value": "sphere",
+          "method": "mapped",
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
-          "quote": null,
-          "note": "no alias entry in \"geometries\" for source text \"PMMA 2 cm\""
+          "review_status": "approved",
+          "quote": "PMMA 2 cm",
+          "note": null
         },
         "o2_percent": {
           "min": 21.7,
@@ -3264,7 +3264,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "flame extinguished",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -3272,7 +3272,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:19",
@@ -3363,19 +3363,19 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "PMMA 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
-          "value": null,
-          "method": "unknown",
+          "value": "sphere",
+          "method": "mapped",
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
-          "quote": null,
-          "note": "no alias entry in \"geometries\" for source text \"PMMA 2 cm\""
+          "review_status": "approved",
+          "quote": "PMMA 2 cm",
+          "note": null
         },
         "o2_percent": {
           "min": 21.7,
@@ -3443,7 +3443,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "Extinguished when flow turned off",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -3451,7 +3451,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:20",
@@ -3542,9 +3542,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "PMMA 1 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": null,
@@ -3625,7 +3625,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "Burned about 3 min",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -3724,9 +3724,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "PMMA 1 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": null,
@@ -3804,7 +3804,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "ignited within 15 s",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -3818,7 +3818,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "Extinguished when pot ~ 39",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -3917,9 +3917,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "PMMA 1 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": null,
@@ -4081,9 +4081,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "PMMA 1 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": null,
@@ -4161,7 +4161,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "Ignited at 16:05",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -4260,9 +4260,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "Nomex blend 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "fabric sheet",
@@ -4270,9 +4270,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "Nomex blend 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.172171,
@@ -4340,7 +4340,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "did not ignite",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -4348,7 +4348,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:25",
@@ -4439,9 +4439,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "Nomex blend 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "fabric sheet",
@@ -4449,9 +4449,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "Nomex blend 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.172171,
@@ -4512,7 +4512,7 @@
       "outcomes": [],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:26",
@@ -4603,9 +4603,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sphere",
@@ -4613,9 +4613,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.184054,
@@ -4683,7 +4683,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "extinguished when flow is turned off",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -4697,7 +4697,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "N2 blew out stag region",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -4705,7 +4705,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:27",
@@ -4796,9 +4796,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sphere",
@@ -4806,9 +4806,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.184054,
@@ -4869,7 +4869,7 @@
       "outcomes": [],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:28",
@@ -4960,9 +4960,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sphere",
@@ -4970,9 +4970,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.184054,
@@ -5033,7 +5033,7 @@
       "outcomes": [],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:29",
@@ -5124,9 +5124,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sphere",
@@ -5134,9 +5134,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.184054,
@@ -5204,7 +5204,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "extinguishing",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -5212,7 +5212,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:30",
@@ -5303,9 +5303,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 cm sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sphere",
@@ -5313,9 +5313,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 cm sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 20.889599,
@@ -5383,7 +5383,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "ignited at 9.75 cm/s",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -5391,7 +5391,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:31",
@@ -5482,9 +5482,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 cm sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sphere",
@@ -5492,9 +5492,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 cm sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 20.889599,
@@ -5562,7 +5562,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "ignited at 10 cm/s",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -5576,7 +5576,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "extinguished",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -5584,7 +5584,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:32",
@@ -5675,9 +5675,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 cm sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sphere",
@@ -5685,9 +5685,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 cm sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 20.889599,
@@ -5755,7 +5755,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "did not blow out even leading edge",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -5763,7 +5763,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:33",
@@ -5854,9 +5854,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 cm sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sphere",
@@ -5864,9 +5864,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 cm sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 20.889599,
@@ -5934,7 +5934,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "ignited at 43",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -5948,7 +5948,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "flame extinguished",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -5956,7 +5956,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:34",
@@ -6047,9 +6047,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sphere",
@@ -6057,9 +6057,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.748625,
@@ -6127,7 +6127,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "Ignited quickly",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -6144,7 +6144,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "burned for ~ 4.75 min",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -6152,7 +6152,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:35",
@@ -6243,9 +6243,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sphere",
@@ -6253,9 +6253,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.748625,
@@ -6326,7 +6326,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "4 minute burn",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -6334,7 +6334,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:36",
@@ -6425,9 +6425,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sphere",
@@ -6435,9 +6435,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.748625,
@@ -6505,7 +6505,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "flow off goes out",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -6513,7 +6513,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:37",
@@ -6604,9 +6604,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sphere",
@@ -6614,9 +6614,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.748625,
@@ -6684,7 +6684,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "Ignited and turned flow down",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -6698,7 +6698,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "Extinguished with flow off",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -6706,7 +6706,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:38",
@@ -6797,9 +6797,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "SIBAL 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "fabric sheet",
@@ -6807,9 +6807,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "SIBAL 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.983427,
@@ -6877,7 +6877,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "Extinguished at fan 41",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -6885,7 +6885,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:39",
@@ -6976,9 +6976,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "Nomex III Natural",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "fabric sheet",
@@ -6986,9 +6986,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "Nomex III Natural",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.983427,
@@ -7056,7 +7056,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "ignited and left igniter on",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -7064,7 +7064,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:40",
@@ -7155,9 +7155,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "PMMA slab",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "slab",
@@ -7165,9 +7165,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "PMMA slab",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.983427,
@@ -7235,7 +7235,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "Flame extinguished all by itself",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -7243,7 +7243,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:41",
@@ -7334,9 +7334,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "PMMA slab",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "slab",
@@ -7344,9 +7344,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "PMMA slab",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.983427,
@@ -7407,7 +7407,7 @@
       "outcomes": [],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:42",
@@ -7498,9 +7498,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 cm sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sphere",
@@ -7508,9 +7508,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 cm sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.894414,
@@ -7578,7 +7578,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "extinction when air flow off",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -7586,7 +7586,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:43",
@@ -7677,9 +7677,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 cm sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sphere",
@@ -7687,9 +7687,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 cm sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.894414,
@@ -7750,7 +7750,7 @@
       "outcomes": [],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:44",
@@ -7841,9 +7841,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "ultem sheet",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sheet",
@@ -7851,9 +7851,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "ultem sheet",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.894414,
@@ -7921,7 +7921,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "no ignition",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -7929,7 +7929,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:45",
@@ -8020,9 +8020,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "SIBAL 2 cm opposed flow",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "fabric sheet",
@@ -8030,9 +8030,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "SIBAL 2 cm opposed flow",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.894414,
@@ -8100,7 +8100,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "Ignited and spread a bit",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -8108,7 +8108,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:46",
@@ -8199,9 +8199,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "SIBAL 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "fabric sheet",
@@ -8209,9 +8209,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "SIBAL 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 22.219853,
@@ -8272,7 +8272,7 @@
       "outcomes": [],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:47",
@@ -8373,9 +8373,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "candle",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 22.219853,
@@ -8443,7 +8443,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "Flame extinguished when fan set to 40",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -8552,9 +8552,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "candle",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 22.219853,
@@ -8622,7 +8622,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "Out at 40",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -8731,9 +8731,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "candle",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 22.219853,
@@ -8885,9 +8885,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "pmma slab",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "slab",
@@ -8895,9 +8895,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "pmma slab",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 22.219853,
@@ -8965,7 +8965,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "Self-extinguished",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -8973,7 +8973,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:51",
@@ -9064,9 +9064,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "pmma slab",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "slab",
@@ -9074,9 +9074,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "pmma slab",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 22.383806,
@@ -9144,7 +9144,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "but went out",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -9152,7 +9152,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:52",
@@ -9243,9 +9243,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm sphere wake ign",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sphere",
@@ -9253,9 +9253,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm sphere wake ign",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 22.383806,
@@ -9323,7 +9323,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "ignited on 3rd try",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -9337,7 +9337,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "flame went out",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -9345,7 +9345,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:53",
@@ -9436,9 +9436,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm sphere wake ign",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sphere",
@@ -9446,9 +9446,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm sphere wake ign",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 22.383806,
@@ -9516,7 +9516,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "ignited after a few tries",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -9530,7 +9530,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "flame out",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -9547,7 +9547,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "6 minute burn",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -9555,7 +9555,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:54",
@@ -9646,9 +9646,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm sphere wake ign",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sphere",
@@ -9656,9 +9656,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm sphere wake ign",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 22.383806,
@@ -9726,7 +9726,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "ignited at 62",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -9740,7 +9740,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "did eventually extinguish it",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -9748,7 +9748,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:55",
@@ -9839,9 +9839,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "SIBAL 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "fabric sheet",
@@ -9849,9 +9849,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "SIBAL 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 22.721983,
@@ -9919,7 +9919,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "Did not blow out",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -9927,7 +9927,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:56",
@@ -10018,9 +10018,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "SIBAL 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "fabric sheet",
@@ -10028,9 +10028,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "SIBAL 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 22.673657,
@@ -10098,7 +10098,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "Did not blow out",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -10106,7 +10106,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:57",
@@ -10197,9 +10197,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "nomex natural III",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "fabric sheet",
@@ -10207,9 +10207,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "nomex natural III",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 22.525464,
@@ -10277,7 +10277,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "Did not ignite",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -10285,7 +10285,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:58",
@@ -10376,9 +10376,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "Nomex blend 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "fabric sheet",
@@ -10386,9 +10386,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "Nomex blend 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 22.525464,
@@ -10456,7 +10456,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "brief ignition",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -10470,7 +10470,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "extinguished in ~ 3 s",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -10487,7 +10487,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "~ 3 s",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -10495,7 +10495,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:59",
@@ -10586,9 +10586,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "ultem sheet",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sheet",
@@ -10596,9 +10596,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "ultem sheet",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 22.525464,
@@ -10666,7 +10666,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "brief ignition",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -10680,7 +10680,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "extinguished after 4 seconds",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -10697,7 +10697,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "4 seconds",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -10705,7 +10705,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:60",
@@ -10796,9 +10796,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "pmma sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sphere",
@@ -10806,9 +10806,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "pmma sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 22.507182,
@@ -10869,7 +10869,7 @@
       "outcomes": [],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:61",
@@ -10960,9 +10960,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "PMMA sphere 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sphere",
@@ -10970,9 +10970,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "PMMA sphere 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 22.583549,
@@ -11040,7 +11040,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "Did not blow out either at high flow or with GN2",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -11054,7 +11054,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "stagnation region blew out",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -11062,7 +11062,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:62",
@@ -11153,9 +11153,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "PMMA sphere 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sphere",
@@ -11163,9 +11163,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "PMMA sphere 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 22.583549,
@@ -11233,7 +11233,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "blew out bottom half, but not top half",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -11241,7 +11241,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:63",
@@ -11332,9 +11332,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "PMMA sphere 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sphere",
@@ -11342,9 +11342,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "PMMA sphere 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 22.583549,
@@ -11412,7 +11412,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "flame did blow out with GN2",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -11420,7 +11420,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:64",
@@ -11511,9 +11511,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "PMMA sphere 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sphere",
@@ -11521,9 +11521,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "PMMA sphere 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 22.583549,
@@ -11591,7 +11591,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "Stag blew out at 3.5",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -11605,7 +11605,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "did not blow out at 10",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -11613,7 +11613,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:65",
@@ -11704,9 +11704,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "PMMA sphere 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sphere",
@@ -11714,9 +11714,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "PMMA sphere 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 22.583549,
@@ -11777,7 +11777,7 @@
       "outcomes": [],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:66",
@@ -11960,9 +11960,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "SIBAL 1 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "fabric sheet",
@@ -11970,9 +11970,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "SIBAL 1 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.51623,
@@ -12033,7 +12033,7 @@
       "outcomes": [],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:68",
@@ -12124,9 +12124,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "SIBAL 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "fabric sheet",
@@ -12134,9 +12134,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "SIBAL 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.579227,
@@ -12197,7 +12197,7 @@
       "outcomes": [],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:69",
@@ -12288,9 +12288,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "PMMA sphere 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sphere",
@@ -12298,9 +12298,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "PMMA sphere 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.579227,
@@ -12361,7 +12361,7 @@
       "outcomes": [],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:70",
@@ -12452,9 +12452,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "Japan Wax Candle wake",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "candle",
@@ -12462,9 +12462,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "Japan Wax Candle wake",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.244926,
@@ -12532,7 +12532,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "ignited and was all blue",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -12546,7 +12546,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "flame went out",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -12554,7 +12554,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:71",
@@ -12645,9 +12645,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "Japan Wax Candle wake",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "candle",
@@ -12655,9 +12655,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "Japan Wax Candle wake",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.244926,
@@ -12725,7 +12725,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "Ignited very quickly",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -12733,7 +12733,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:72",
@@ -12824,9 +12824,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "Japan Wax Candle wake",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "candle",
@@ -12834,9 +12834,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "Japan Wax Candle wake",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.244926,
@@ -12904,7 +12904,7 @@
             "columns": [
               "as run matrix!Fan display"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "extinction",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -12912,7 +12912,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:73",
@@ -13003,9 +13003,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "Japan Wax Candle wake",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "candle",
@@ -13013,9 +13013,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "Japan Wax Candle wake",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.244926,
@@ -13086,7 +13086,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "~ 10 min",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -13100,7 +13100,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "goes out at pot 0.31",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -13114,7 +13114,7 @@
             "columns": [
               "as run matrix!Fan display"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "extinguished",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -13122,7 +13122,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:74",
@@ -13213,9 +13213,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "Japan Wax Candle wake",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "candle",
@@ -13223,9 +13223,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "Japan Wax Candle wake",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.244926,
@@ -13293,7 +13293,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "Extinguished/burned out at 0.31",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -13301,7 +13301,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:75",
@@ -13392,9 +13392,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "Japan Wax Candle wake",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "candle",
@@ -13402,9 +13402,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "Japan Wax Candle wake",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.244926,
@@ -13472,7 +13472,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "went out",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -13480,7 +13480,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:76",
@@ -13571,9 +13571,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "Japan Wax Candle wake",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "candle",
@@ -13581,9 +13581,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "Japan Wax Candle wake",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.244926,
@@ -13651,7 +13651,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "went out when fan off",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -13659,7 +13659,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:77",
@@ -13750,9 +13750,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "Japan Wax Candle wake",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "candle",
@@ -13760,9 +13760,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "Japan Wax Candle wake",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.244926,
@@ -13823,7 +13823,7 @@
       "outcomes": [],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:78",
@@ -13914,9 +13914,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "PMMA slab",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "slab",
@@ -13924,9 +13924,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "PMMA slab",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.93393,
@@ -13994,7 +13994,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "ignited well",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -14002,7 +14002,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:79",
@@ -14093,9 +14093,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "PMMA slab",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "slab",
@@ -14103,9 +14103,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "PMMA slab",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.93393,
@@ -14173,7 +14173,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "Ignited and got immediate dim blue flame",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -14190,7 +14190,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "burn for 8 minutes",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -14198,7 +14198,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:80",
@@ -14289,9 +14289,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "paraffin wax slab",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "slab",
@@ -14299,9 +14299,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "paraffin wax slab",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.93393,
@@ -14369,7 +14369,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "Ignited nicely",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -14383,7 +14383,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "extinguished by itself",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -14391,7 +14391,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:81",
@@ -14482,9 +14482,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "parrafin wax slab",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "slab",
@@ -14492,9 +14492,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "parrafin wax slab",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.93393,
@@ -14562,7 +14562,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "Flame went out when igniter was retracted",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -14570,7 +14570,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:82",
@@ -14661,19 +14661,19 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "PMMA 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
-          "value": null,
-          "method": "unknown",
+          "value": "sphere",
+          "method": "mapped",
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
-          "quote": null,
-          "note": "no alias entry in \"geometries\" for source text \"PMMA 2 cm\""
+          "review_status": "approved",
+          "quote": "PMMA 2 cm",
+          "note": null
         },
         "o2_percent": {
           "min": 17.07,
@@ -14734,7 +14734,7 @@
       "outcomes": [],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:83",
@@ -14825,19 +14825,19 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "PMMA 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
-          "value": null,
-          "method": "unknown",
+          "value": "sphere",
+          "method": "mapped",
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
-          "quote": null,
-          "note": "no alias entry in \"geometries\" for source text \"PMMA 2 cm\""
+          "review_status": "approved",
+          "quote": "PMMA 2 cm",
+          "note": null
         },
         "o2_percent": {
           "min": 17.07,
@@ -14905,7 +14905,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "Extinguished at very low flow",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -14913,7 +14913,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:84",
@@ -15004,19 +15004,19 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "PMMA 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
-          "value": null,
-          "method": "unknown",
+          "value": "sphere",
+          "method": "mapped",
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
-          "quote": null,
-          "note": "no alias entry in \"geometries\" for source text \"PMMA 2 cm\""
+          "review_status": "approved",
+          "quote": "PMMA 2 cm",
+          "note": null
         },
         "o2_percent": {
           "min": 21.1,
@@ -15077,7 +15077,7 @@
       "outcomes": [],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:85",
@@ -15168,19 +15168,19 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "pmma 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
-          "value": null,
-          "method": "unknown",
+          "value": "sphere",
+          "method": "mapped",
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
-          "quote": null,
-          "note": "no alias entry in \"geometries\" for source text \"pmma 2 cm\""
+          "review_status": "approved",
+          "quote": "pmma 2 cm",
+          "note": null
         },
         "o2_percent": {
           "min": 21.1,
@@ -15241,7 +15241,7 @@
       "outcomes": [],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:86",
@@ -15332,19 +15332,19 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "pmma 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
-          "value": null,
-          "method": "unknown",
+          "value": "sphere",
+          "method": "mapped",
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
-          "quote": null,
-          "note": "no alias entry in \"geometries\" for source text \"pmma 2 cm\""
+          "review_status": "approved",
+          "quote": "pmma 2 cm",
+          "note": null
         },
         "o2_percent": {
           "min": 21.1,
@@ -15405,7 +15405,7 @@
       "outcomes": [],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:87",
@@ -15496,19 +15496,19 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "pmma 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
-          "value": null,
-          "method": "unknown",
+          "value": "sphere",
+          "method": "mapped",
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
-          "quote": null,
-          "note": "no alias entry in \"geometries\" for source text \"pmma 2 cm\""
+          "review_status": "approved",
+          "quote": "pmma 2 cm",
+          "note": null
         },
         "o2_percent": {
           "min": 21.1,
@@ -15576,7 +15576,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "Went out at 0.32 pot",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -15584,7 +15584,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:88",
@@ -15675,19 +15675,19 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "pmma 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
-          "value": null,
-          "method": "unknown",
+          "value": "sphere",
+          "method": "mapped",
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
-          "quote": null,
-          "note": "no alias entry in \"geometries\" for source text \"pmma 2 cm\""
+          "review_status": "approved",
+          "quote": "pmma 2 cm",
+          "note": null
         },
         "o2_percent": {
           "min": 21.1,
@@ -15748,7 +15748,7 @@
       "outcomes": [],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:89",
@@ -15839,19 +15839,19 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "pmma 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
-          "value": null,
-          "method": "unknown",
+          "value": "sphere",
+          "method": "mapped",
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
-          "quote": null,
-          "note": "no alias entry in \"geometries\" for source text \"pmma 2 cm\""
+          "review_status": "approved",
+          "quote": "pmma 2 cm",
+          "note": null
         },
         "o2_percent": {
           "min": 21.111,
@@ -15919,7 +15919,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "Flame went out when fan set to 39",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -15927,7 +15927,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:90",
@@ -16018,9 +16018,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "candle paraffin wake",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "candle",
@@ -16028,9 +16028,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "candle paraffin wake",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.111,
@@ -16091,7 +16091,7 @@
       "outcomes": [],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:91",
@@ -16182,9 +16182,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "candle paraffin wake",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "candle",
@@ -16192,9 +16192,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "candle paraffin wake",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.13,
@@ -16262,7 +16262,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "went out on its own",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -16270,7 +16270,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:92",
@@ -16361,9 +16361,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "pmma 1 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": null,
@@ -16525,9 +16525,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "pmma 1 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": null,
@@ -16605,7 +16605,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "Out when fan off",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -16704,9 +16704,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "pmma 1 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": null,
@@ -16868,9 +16868,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "candle Japan wax",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "candle",
@@ -16878,9 +16878,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "candle Japan wax",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 15.9,
@@ -16948,7 +16948,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "out at flow change",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -16956,7 +16956,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:96",
@@ -17047,9 +17047,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sphere",
@@ -17057,9 +17057,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 17.53,
@@ -17127,7 +17127,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "Extinguished on last flow change",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -17135,7 +17135,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:97",
@@ -17226,9 +17226,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sphere",
@@ -17236,9 +17236,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 17.53,
@@ -17306,7 +17306,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "Extinguished when flow off",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -17314,7 +17314,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:98",
@@ -17405,9 +17405,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sphere",
@@ -17415,9 +17415,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 20.5,
@@ -17485,7 +17485,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "out at 18:40",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -17493,7 +17493,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:99",
@@ -17584,9 +17584,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 cm sphere wake",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sphere",
@@ -17594,9 +17594,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 cm sphere wake",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 16.67,
@@ -17657,7 +17657,7 @@
       "outcomes": [],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:100",
@@ -17748,9 +17748,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 cm wake sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sphere",
@@ -17758,9 +17758,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 cm wake sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 16.67,
@@ -17828,7 +17828,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "flame self-extinguished",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -17836,7 +17836,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:101",
@@ -17927,9 +17927,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 cm wake sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sphere",
@@ -17937,9 +17937,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 cm wake sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 17.8,
@@ -18007,7 +18007,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "flame lit on 2nd try",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -18015,7 +18015,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:102",
@@ -18106,9 +18106,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "pmma slab opposed",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "slab",
@@ -18116,9 +18116,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "pmma slab opposed",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.0,
@@ -18186,7 +18186,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "winks out",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -18194,7 +18194,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:103",
@@ -18285,9 +18285,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "pmma slab oppsed",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "slab",
@@ -18295,9 +18295,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "pmma slab oppsed",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.0,
@@ -18365,7 +18365,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "winked out",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -18373,7 +18373,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:104",
@@ -18464,9 +18464,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm pmma sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sphere",
@@ -18474,9 +18474,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm pmma sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 17.34,
@@ -18544,7 +18544,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "got it ignited",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -18558,7 +18558,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "Went out at finite flow",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -18566,7 +18566,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:105",
@@ -18657,9 +18657,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm pmma sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sphere",
@@ -18667,9 +18667,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm pmma sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 17.34,
@@ -18737,7 +18737,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "shut off flow to put flame out",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -18745,7 +18745,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:106",
@@ -18836,9 +18836,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "parrafin wax candle",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "candle",
@@ -18846,9 +18846,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "parrafin wax candle",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 16.05,
@@ -18916,7 +18916,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "ignited 'concurrent'",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -18930,7 +18930,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "out 14:22:50",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -18938,7 +18938,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:107",
@@ -19029,9 +19029,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "paraffin wax candle",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "candle",
@@ -19039,9 +19039,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "paraffin wax candle",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 16.05,
@@ -19109,7 +19109,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "no ignition",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -19117,7 +19117,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:108",
@@ -19208,9 +19208,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "candle Japan wax",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "candle",
@@ -19218,9 +19218,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "candle Japan wax",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 16.3,
@@ -19288,7 +19288,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "the flame goes out",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -19296,7 +19296,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:109",
@@ -19387,9 +19387,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "paraffin wax slab",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "slab",
@@ -19397,9 +19397,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "paraffin wax slab",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 16.3,
@@ -19467,7 +19467,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "Went out on its own",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -19484,7 +19484,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "after 75 seconds",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -19492,7 +19492,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:110",
@@ -19583,9 +19583,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm pmma sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sphere",
@@ -19593,9 +19593,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm pmma sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 17.2,
@@ -19666,7 +19666,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "Short burn about 2 minutes",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -19674,7 +19674,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:111",
@@ -19765,9 +19765,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sphere",
@@ -19775,9 +19775,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 17.2,
@@ -19838,7 +19838,7 @@
       "outcomes": [],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:112",
@@ -19929,9 +19929,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sphere",
@@ -19939,9 +19939,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 17.1,
@@ -20002,7 +20002,7 @@
       "outcomes": [],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:113",
@@ -20093,9 +20093,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sphere",
@@ -20103,9 +20103,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 17.13,
@@ -20173,7 +20173,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "No ignition",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -20181,7 +20181,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:114",
@@ -20272,9 +20272,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sphere",
@@ -20282,9 +20282,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 17.17,
@@ -20345,7 +20345,7 @@
       "outcomes": [],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:115",
@@ -20436,9 +20436,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sphere",
@@ -20446,9 +20446,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 17.17,
@@ -20509,7 +20509,7 @@
       "outcomes": [],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:116",
@@ -20600,9 +20600,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sphere",
@@ -20610,9 +20610,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 17.24,
@@ -20680,7 +20680,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "went out when pot turned down to 0.29",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -20688,7 +20688,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:117",
@@ -20779,9 +20779,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sphere",
@@ -20789,9 +20789,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 17.24,
@@ -20859,7 +20859,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "Flame went out at pot 0.27",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -20867,7 +20867,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:118",
@@ -20953,14 +20953,14 @@
           "note": "Investigation-level constant: BASS and BASS-II burn solid fuel samples"
         },
         "material": {
-          "value": null,
-          "method": "unknown",
+          "value": "paraffin wax",
+          "method": "mapped",
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
-          "quote": null,
-          "note": "no alias entry in \"materials\" for source text \"flat wax slab\""
+          "review_status": "approved",
+          "quote": "flat wax slab",
+          "note": null
         },
         "geometry": {
           "value": "slab",
@@ -20968,9 +20968,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "flat wax slab",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 17.4,
@@ -21038,7 +21038,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "Sample ignited briefly",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -21052,7 +21052,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "but went out",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -21060,7 +21060,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:119",
@@ -21146,14 +21146,14 @@
           "note": "Investigation-level constant: BASS and BASS-II burn solid fuel samples"
         },
         "material": {
-          "value": null,
-          "method": "unknown",
+          "value": "paraffin wax",
+          "method": "mapped",
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
-          "quote": null,
-          "note": "no alias entry in \"materials\" for source text \"flat wax slab\""
+          "review_status": "approved",
+          "quote": "flat wax slab",
+          "note": null
         },
         "geometry": {
           "value": "slab",
@@ -21161,9 +21161,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "flat wax slab",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.18,
@@ -21224,7 +21224,7 @@
       "outcomes": [],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:120",
@@ -21310,14 +21310,14 @@
           "note": "Investigation-level constant: BASS and BASS-II burn solid fuel samples"
         },
         "material": {
-          "value": null,
-          "method": "unknown",
+          "value": "paraffin wax",
+          "method": "mapped",
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
-          "quote": null,
-          "note": "no alias entry in \"materials\" for source text \"flat wax slab\""
+          "review_status": "approved",
+          "quote": "flat wax slab",
+          "note": null
         },
         "geometry": {
           "value": "slab",
@@ -21325,9 +21325,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "flat wax slab",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.18,
@@ -21388,7 +21388,7 @@
       "outcomes": [],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:121",
@@ -21479,9 +21479,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "pmma sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sphere",
@@ -21489,9 +21489,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "pmma sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.18,
@@ -21559,7 +21559,7 @@
             "columns": [
               "as run matrix!Test Observations and Anomalies (ignited, spread, extinguished, burn time, color, etc.)"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "Good ignition",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -21567,7 +21567,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-26:bass:122",
@@ -21658,9 +21658,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "pmma sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sphere",
@@ -21668,9 +21668,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "pmma sphere",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.18,
@@ -21731,7 +21731,7 @@
       "outcomes": [],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     }
   ]
 }

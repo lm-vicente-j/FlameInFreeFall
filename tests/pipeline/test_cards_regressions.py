@@ -5,7 +5,7 @@ import unittest
 from datetime import datetime
 from pathlib import Path
 
-from pipeline.cards import _is_intent_only, _quantity_problems, finalize, validate
+from pipeline.cards import _is_intent_only, _quantity_problems, content_fingerprint, finalize, validate
 from pipeline.review.cli import main as review_main
 from pipeline.review.display import format_card
 from pipeline.storage import read_json
@@ -36,13 +36,21 @@ class CardRegressions(unittest.TestCase):
         source = evidence("Sample A used 20 % oxygen at 100 kPa; sample B used 30 % oxygen at 80 kPa.")
         self.assertTrue(_quantity_problems("claim", "Sample A used 20 % oxygen at 80 kPa.", [source]))
 
-    def test_all_saved_drafts_reproduce_pending_cards(self):
+    def test_all_saved_drafts_reproduce_saved_cards(self):
+        # Finalizing a draft always yields a pending card; the saved card may since have been
+        # reviewed. Everything but the review block must match, and an approval must still
+        # bind to exactly the content the draft produces.
         for path in sorted((ROOT / "data/drafts").glob("*.json")):
             with self.subTest(path=path.name):
                 draft = read_json(path)
                 packet = read_json(ROOT / "data/evidence" / path.name)
                 card = finalize(draft, packet, datetime.fromisoformat(draft["generation"]["generated_at"]))
-                self.assertEqual(card, read_json(ROOT / "data/cards" / path.name))
+                saved = read_json(ROOT / "data/cards" / path.name)
+                review = saved.pop("review")
+                card.pop("review")
+                self.assertEqual(card, saved)
+                if review["status"] == "approved":
+                    self.assertEqual(review["content_sha256"], content_fingerprint({**card, "review": review}))
         self.assertEqual(len(list((ROOT / "data/drafts").glob("*.json"))), 24)
 
     def test_source_limitations_require_citations(self):

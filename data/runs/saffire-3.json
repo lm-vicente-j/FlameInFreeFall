@@ -56,9 +56,9 @@
           "columns": [
             "Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "SIBAL Fabric",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sheet",
@@ -510,7 +510,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-100:saffire-3:2",
@@ -542,9 +542,9 @@
           "columns": [
             "Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "SIBAL Fabric",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sheet",
@@ -720,7 +720,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     }
   ]
 }

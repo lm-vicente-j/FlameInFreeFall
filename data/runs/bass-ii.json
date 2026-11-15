@@ -72,9 +72,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "100 micron PMMA film 2 cm wide",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "film",
@@ -82,9 +82,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "100 micron PMMA film 2 cm wide",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 22.2,
@@ -195,7 +195,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:2",
@@ -235,9 +235,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "200 micron PMMA film 2 cm wide",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "film",
@@ -245,9 +245,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "200 micron PMMA film 2 cm wide",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": null,
@@ -355,7 +355,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:3",
@@ -395,9 +395,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "100 micron film 2 cm wide",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "film",
@@ -405,9 +405,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "100 micron film 2 cm wide",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.8,
@@ -518,7 +518,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:4",
@@ -558,9 +558,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "300 micron PMMA film 2 cm wide",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "film",
@@ -568,9 +568,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "300 micron PMMA film 2 cm wide",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 22.2,
@@ -681,7 +681,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:5",
@@ -721,9 +721,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "200 micron 2 cm wide",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "film",
@@ -731,9 +731,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "200 micron 2 cm wide",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.9,
@@ -844,7 +844,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:6",
@@ -884,9 +884,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm 0.1 mm PMMA film",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "film",
@@ -894,9 +894,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm 0.1 mm PMMA film",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 20.9,
@@ -1019,7 +1019,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:7",
@@ -1059,9 +1059,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "400 micron film 2 cm wide",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "film",
@@ -1069,9 +1069,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "400 micron film 2 cm wide",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 22.1,
@@ -1182,7 +1182,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:8",
@@ -1222,9 +1222,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm 0.2 mm PMMA film",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "film",
@@ -1232,9 +1232,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm 0.2 mm PMMA film",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 20.5,
@@ -1357,7 +1357,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:9",
@@ -1397,9 +1397,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm 0.1 mm PMMA film",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "film",
@@ -1407,9 +1407,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm 0.1 mm PMMA film",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 20.9,
@@ -1520,7 +1520,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:10",
@@ -1560,9 +1560,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 cm 0.2 mm PMMA film",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "film",
@@ -1570,9 +1570,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 cm 0.2 mm PMMA film",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 20.8,
@@ -1695,7 +1695,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:11",
@@ -1735,9 +1735,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm 0.2 mm PMMA film",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "film",
@@ -1745,9 +1745,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm 0.2 mm PMMA film",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 20.7,
@@ -1870,7 +1870,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:12",
@@ -1910,9 +1910,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "300 micron film 2 cm wide",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "film",
@@ -1920,9 +1920,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "300 micron film 2 cm wide",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 22.1,
@@ -2033,7 +2033,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:13",
@@ -2073,9 +2073,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm 0.4 mm thick film",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "film",
@@ -2083,9 +2083,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm 0.4 mm thick film",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 20.5,
@@ -2208,7 +2208,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:14",
@@ -2248,9 +2248,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 cm wide 200 micron thick PMMA",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "film",
@@ -2258,9 +2258,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 cm wide 200 micron thick PMMA",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 15.0,
@@ -2298,7 +2298,7 @@
           "columns": [
             "Air display"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "5  3  2",
           "note": "velocity = 1.0066 x air display, from the footnote '*U =1.0066(AIR)' of the PSI-25 workbook 'Fan calibration data.xlsx' (SPICE fan calibration at 56 mm downstream, 36 mm from bottom, centerline) (x 1.0066); a sweep is recorded as the min and max of its readings; air display readings proposed by model"
         },
@@ -2329,7 +2329,7 @@
             "columns": [
               "Air display"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "ext",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -2386,7 +2386,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:15",
@@ -2426,9 +2426,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm 0.1 mm PMMA film",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "film",
@@ -2436,9 +2436,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm 0.1 mm PMMA film",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 20.8,
@@ -2561,7 +2561,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:16",
@@ -2601,9 +2601,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm 100 micron thick PMMA",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "film",
@@ -2611,9 +2611,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm 100 micron thick PMMA",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 17.2,
@@ -2724,7 +2724,7 @@
           "status": "ambiguous"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:17",
@@ -2764,9 +2764,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 cm wide 200 micron thick PMMA",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "film",
@@ -2774,9 +2774,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 cm wide 200 micron thick PMMA",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 17.4,
@@ -2851,7 +2851,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:18",
@@ -2891,9 +2891,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 cm wide 200 micron thick PMMA",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "film",
@@ -2901,9 +2901,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 cm wide 200 micron thick PMMA",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 17.4,
@@ -2972,7 +2972,7 @@
             "columns": [
               "Air display"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "blowoff",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -3041,7 +3041,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:19",
@@ -3081,9 +3081,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm 100 micron thick PMMA",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "film",
@@ -3091,9 +3091,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm 100 micron thick PMMA",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 17.2,
@@ -3162,7 +3162,7 @@
             "columns": [
               "Air display"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "blowoff",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -3231,7 +3231,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:20",
@@ -3271,9 +3271,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm 100 micron thick PMMA",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "film",
@@ -3281,9 +3281,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm 100 micron thick PMMA",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 17.4,
@@ -3406,7 +3406,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:21",
@@ -3446,9 +3446,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 cm wide 200 micron thick PMMA",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "film",
@@ -3456,9 +3456,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 cm wide 200 micron thick PMMA",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 20.6,
@@ -3527,7 +3527,7 @@
             "columns": [
               "Air display"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "down to ext",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -3596,7 +3596,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:22",
@@ -3636,9 +3636,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 cm wide 200 micron thick PMMA",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "film",
@@ -3646,9 +3646,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 cm wide 200 micron thick PMMA",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 20.5,
@@ -3771,7 +3771,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:23",
@@ -3811,9 +3811,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "Nomex natural (nomex III)",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "fabric sheet",
@@ -3821,9 +3821,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "Nomex natural (nomex III)",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 22.2,
@@ -3934,7 +3934,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:24",
@@ -3974,9 +3974,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "Nomex natural (nomex III)",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "fabric sheet",
@@ -3984,9 +3984,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "Nomex natural (nomex III)",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.0,
@@ -4048,7 +4048,7 @@
       "outcomes": [],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:25",
@@ -4088,9 +4088,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "Nomex natural (nomex III)",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "fabric sheet",
@@ -4098,9 +4098,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "Nomex natural (nomex III)",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.7,
@@ -4223,7 +4223,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:26",
@@ -4263,9 +4263,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "Japan Wax candle",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "candle",
@@ -4273,9 +4273,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "Japan Wax candle",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 17.4,
@@ -4313,7 +4313,7 @@
           "columns": [
             "Air display"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "3 ign",
           "note": "velocity = 1.0066 x air display, from the footnote '*U =1.0066(AIR)' of the PSI-25 workbook 'Fan calibration data.xlsx' (SPICE fan calibration at 56 mm downstream, 36 mm from bottom, centerline) (x 1.0066); a sweep is recorded as the min and max of its readings; air display readings proposed by model"
         },
@@ -4386,7 +4386,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:27",
@@ -4426,9 +4426,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 mm thick PMMA 1 sided 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "slab",
@@ -4436,9 +4436,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 mm thick PMMA 1 sided 2 cm",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.9,
@@ -4549,7 +4549,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:28",
@@ -4589,9 +4589,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "3 mm thick PMMA 1 sided 2 cm wide",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "slab",
@@ -4599,9 +4599,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "3 mm thick PMMA 1 sided 2 cm wide",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.2,
@@ -4724,7 +4724,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:29",
@@ -4764,9 +4764,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm wide 5 mm thick 1 sided PMMA",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "slab",
@@ -4774,9 +4774,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm wide 5 mm thick 1 sided PMMA",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 19.7,
@@ -4863,7 +4863,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:30",
@@ -4903,9 +4903,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "5 mm thick PMMA 2 cm wide",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "slab",
@@ -4913,9 +4913,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "5 mm thick PMMA 2 cm wide",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 19.8,
@@ -5038,7 +5038,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:31",
@@ -5078,9 +5078,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "3 mm thick PMMA 2 sided 2 cm thick",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "slab",
@@ -5088,9 +5088,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "3 mm thick PMMA 2 sided 2 cm thick",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 19.0,
@@ -5213,7 +5213,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:32",
@@ -5253,9 +5253,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 mm thick PMMA 2 cm wide",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "slab",
@@ -5263,9 +5263,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 mm thick PMMA 2 cm wide",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 20.7,
@@ -5388,7 +5388,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:33",
@@ -5428,9 +5428,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 cm wide PMMA 1 mm thick",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "slab",
@@ -5438,9 +5438,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 cm wide PMMA 1 mm thick",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 18.4,
@@ -5563,7 +5563,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:34",
@@ -5603,9 +5603,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 cm wide PMMA 2 mm thick",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "slab",
@@ -5613,9 +5613,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 cm wide PMMA 2 mm thick",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 18.2,
@@ -5762,7 +5762,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:35",
@@ -5802,9 +5802,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 cm wide PMMA 3 mm thick",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "slab",
@@ -5812,9 +5812,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 cm wide PMMA 3 mm thick",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 17.6,
@@ -5937,7 +5937,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:36",
@@ -5977,9 +5977,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "4 mm thick 1 cm wide PMMA slab",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "slab",
@@ -5987,9 +5987,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "4 mm thick 1 cm wide PMMA slab",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 18.6,
@@ -6136,7 +6136,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:37",
@@ -6176,9 +6176,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 cm wide PMMA 5 mm thick",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "slab",
@@ -6186,9 +6186,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 cm wide PMMA 5 mm thick",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 18.5,
@@ -6311,7 +6311,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:38",
@@ -6351,9 +6351,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 mm thick PMMA 2 cm wide",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "slab",
@@ -6361,9 +6361,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 mm thick PMMA 2 cm wide",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 20.4,
@@ -6498,7 +6498,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:39",
@@ -6538,9 +6538,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "4 mm thick PMMA 2 cm wide",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "slab",
@@ -6548,9 +6548,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "4 mm thick PMMA 2 cm wide",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 19.0,
@@ -6685,7 +6685,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:40",
@@ -6725,9 +6725,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2mm thick PMMA 1 sided 2 cm wide",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "slab",
@@ -6735,9 +6735,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2mm thick PMMA 1 sided 2 cm wide",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.6,
@@ -6775,7 +6775,7 @@
           "columns": [
             "Air display"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "10   ~8",
           "note": "velocity = 1.0066 x air display, from the footnote '*U =1.0066(AIR)' of the PSI-25 workbook 'Fan calibration data.xlsx' (SPICE fan calibration at 56 mm downstream, 36 mm from bottom, centerline) (x 1.0066); a sweep is recorded as the min and max of its readings; air display readings proposed by model"
         },
@@ -6848,7 +6848,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:41",
@@ -6888,9 +6888,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm 4 mm 1 sided PMMA slab",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "slab",
@@ -6898,9 +6898,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm 4 mm 1 sided PMMA slab",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 20.0,
@@ -7011,7 +7011,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:42",
@@ -7051,9 +7051,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 mm thick PMMA 2 cm wide",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "slab",
@@ -7061,9 +7061,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 mm thick PMMA 2 cm wide",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 18.7,
@@ -7198,7 +7198,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:43",
@@ -7238,9 +7238,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm wide PMMA 2 mm thick",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "slab",
@@ -7248,9 +7248,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm wide PMMA 2 mm thick",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 17.1,
@@ -7288,7 +7288,7 @@
           "columns": [
             "Air display"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "10   5   3   0",
           "note": "velocity = 1.0066 x air display, from the footnote '*U =1.0066(AIR)' of the PSI-25 workbook 'Fan calibration data.xlsx' (SPICE fan calibration at 56 mm downstream, 36 mm from bottom, centerline) (x 1.0066); a sweep is recorded as the min and max of its readings; air display readings proposed by model"
         },
@@ -7319,7 +7319,7 @@
             "columns": [
               "Fan display"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "ext",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -7333,7 +7333,7 @@
             "columns": [
               "Air display"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "ext",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -7390,7 +7390,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:44",
@@ -7430,9 +7430,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm wide PMMA 3 mm thick",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "slab",
@@ -7440,9 +7440,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm wide PMMA 3 mm thick",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 16.8,
@@ -7480,7 +7480,7 @@
           "columns": [
             "Air display"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "10   15 (brief)   10   8",
           "note": "velocity = 1.0066 x air display, from the footnote '*U =1.0066(AIR)' of the PSI-25 workbook 'Fan calibration data.xlsx' (SPICE fan calibration at 56 mm downstream, 36 mm from bottom, centerline) (x 1.0066); a sweep is recorded as the min and max of its readings; air display readings proposed by model"
         },
@@ -7565,7 +7565,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:45",
@@ -7605,9 +7605,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "4 mm thick 2 cm 2ide PMMA slab",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "slab",
@@ -7615,9 +7615,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "4 mm thick 2 cm 2ide PMMA slab",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 17.4,
@@ -7728,7 +7728,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:46",
@@ -7768,9 +7768,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "5 mm thick PMMA 2 cm wide",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "slab",
@@ -7778,9 +7778,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "5 mm thick PMMA 2 cm wide",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 17.4,
@@ -7903,7 +7903,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:47",
@@ -7943,9 +7943,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4\" clear rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "rod",
@@ -7953,9 +7953,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4\" clear rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.7,
@@ -8066,7 +8066,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:48",
@@ -8106,9 +8106,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4\" clear rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "rod",
@@ -8116,9 +8116,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4\" clear rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 21.9,
@@ -8229,7 +8229,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:49",
@@ -8269,9 +8269,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4\" clear rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "rod",
@@ -8279,9 +8279,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4\" clear rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 18.0,
@@ -8392,7 +8392,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:50",
@@ -8432,9 +8432,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4\" clear rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "rod",
@@ -8442,9 +8442,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4\" clear rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 17.7,
@@ -8555,7 +8555,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:51",
@@ -8595,9 +8595,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "3/8\"clear rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "rod",
@@ -8605,9 +8605,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "3/8\"clear rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 13.6,
@@ -8676,7 +8676,7 @@
             "columns": [
               "Fan display"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "ext",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -8690,7 +8690,7 @@
             "columns": [
               "Air display"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "down to ext",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -8747,7 +8747,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:52",
@@ -8787,9 +8787,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/2\" clear PMMA rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "rod",
@@ -8797,9 +8797,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/2\" clear PMMA rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 14.2,
@@ -8837,7 +8837,7 @@
           "columns": [
             "Air display"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "5  10  5   2   0",
           "note": "velocity = 1.0066 x air display, from the footnote '*U =1.0066(AIR)' of the PSI-25 workbook 'Fan calibration data.xlsx' (SPICE fan calibration at 56 mm downstream, 36 mm from bottom, centerline) (x 1.0066); a sweep is recorded as the min and max of its readings; air display readings proposed by model"
         },
@@ -8958,7 +8958,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:53",
@@ -8998,9 +8998,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/2\" clear PMMA rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "rod",
@@ -9008,9 +9008,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/2\" clear PMMA rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 14.1,
@@ -9121,7 +9121,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:54",
@@ -9161,9 +9161,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4\" clear rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "rod",
@@ -9171,9 +9171,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4\" clear rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 16.0,
@@ -9284,7 +9284,7 @@
           "status": "ambiguous"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:55",
@@ -9324,9 +9324,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4\" clear rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "rod",
@@ -9334,9 +9334,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4\" clear rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 15.5,
@@ -9405,7 +9405,7 @@
             "columns": [
               "Fan display"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "blowoff",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -9474,7 +9474,7 @@
           "status": "ambiguous"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:56",
@@ -9514,9 +9514,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4\" clear rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "rod",
@@ -9524,9 +9524,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4\" clear rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 15.3,
@@ -9595,7 +9595,7 @@
             "columns": [
               "Fan display"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "extinguished",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -9664,7 +9664,7 @@
           "status": "ambiguous"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:57",
@@ -9704,9 +9704,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4\" clear rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "rod",
@@ -9714,9 +9714,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4\" clear rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 15.2,
@@ -9785,7 +9785,7 @@
             "columns": [
               "Fan display"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "blowoff",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -9842,7 +9842,7 @@
           "status": "ambiguous"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:58",
@@ -9882,9 +9882,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4\" clear rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "rod",
@@ -9892,9 +9892,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4\" clear rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 14.8,
@@ -9963,7 +9963,7 @@
             "columns": [
               "Fan display"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "blowoff",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -10020,7 +10020,7 @@
           "status": "ambiguous"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:59",
@@ -10060,9 +10060,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4\" clear rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "rod",
@@ -10070,9 +10070,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4\" clear rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 16.1,
@@ -10204,7 +10204,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:60",
@@ -10244,9 +10244,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4\" black rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "rod",
@@ -10254,9 +10254,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4\" black rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 14.8,
@@ -10325,7 +10325,7 @@
             "columns": [
               "Fan display"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "blowoff",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -10339,7 +10339,7 @@
             "columns": [
               "Air display"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "blowoff",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -10396,7 +10396,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:61",
@@ -10436,9 +10436,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "3/8\" clear rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "rod",
@@ -10446,9 +10446,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "3/8\" clear rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 13.5,
@@ -10559,7 +10559,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:62",
@@ -10599,9 +10599,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/2\" clear PMMA rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "rod",
@@ -10609,9 +10609,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/2\" clear PMMA rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 14.6,
@@ -10758,7 +10758,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:63",
@@ -10798,9 +10798,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/2\" clear PMMA rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "rod",
@@ -10808,9 +10808,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/2\" clear PMMA rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 14.4,
@@ -10921,7 +10921,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:64",
@@ -10961,9 +10961,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4\" black rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "rod",
@@ -10971,9 +10971,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4\" black rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 15.3,
@@ -11042,7 +11042,7 @@
             "columns": [
               "Air display"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "down to ext",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -11111,7 +11111,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:65",
@@ -11151,9 +11151,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "3/8\" clear rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "rod",
@@ -11161,9 +11161,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "3/8\" clear rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 16.7,
@@ -11274,7 +11274,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:66",
@@ -11314,9 +11314,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "3/8\" clear rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "rod",
@@ -11324,9 +11324,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "3/8\" clear rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 15.6,
@@ -11425,7 +11425,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:67",
@@ -11465,9 +11465,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "3/8\"clear rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "rod",
@@ -11475,9 +11475,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "3/8\"clear rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 14.5,
@@ -11612,7 +11612,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:68",
@@ -11652,9 +11652,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4\" clear rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "rod",
@@ -11662,9 +11662,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4\" clear rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 14.3,
@@ -11787,7 +11787,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:69",
@@ -11827,9 +11827,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4\" clear rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "rod",
@@ -11837,9 +11837,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4\" clear rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 14.5,
@@ -11962,7 +11962,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:70",
@@ -12002,9 +12002,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4\" clear rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "rod",
@@ -12012,9 +12012,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4\" clear rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 14.6,
@@ -12083,7 +12083,7 @@
             "columns": [
               "Air display"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "down to ext",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -12152,7 +12152,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:71",
@@ -12192,9 +12192,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4\" clear rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "rod",
@@ -12202,9 +12202,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4\" clear rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 15.9,
@@ -12242,7 +12242,7 @@
           "columns": [
             "Air display"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "5   8    incr to max 38.5",
           "note": "velocity = 1.0066 x air display, from the footnote '*U =1.0066(AIR)' of the PSI-25 workbook 'Fan calibration data.xlsx' (SPICE fan calibration at 56 mm downstream, 36 mm from bottom, centerline) (x 1.0066); a sweep is recorded as the min and max of its readings; air display readings proposed by model"
         },
@@ -12266,7 +12266,7 @@
       "outcomes": [],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:72",
@@ -12306,9 +12306,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "3/8\" clear rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "rod",
@@ -12316,9 +12316,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "3/8\" clear rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 15.4,
@@ -12380,7 +12380,7 @@
       "outcomes": [],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:73",
@@ -12420,9 +12420,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/2\" clear rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "rod",
@@ -12430,9 +12430,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/2\" clear rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 14.9,
@@ -12470,7 +12470,7 @@
           "columns": [
             "Air display"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "4 incr to 26.5",
           "note": "velocity = 1.0066 x air display, from the footnote '*U =1.0066(AIR)' of the PSI-25 workbook 'Fan calibration data.xlsx' (SPICE fan calibration at 56 mm downstream, 36 mm from bottom, centerline) (x 1.0066); a sweep is recorded as the min and max of its readings; air display readings proposed by model"
         },
@@ -12501,7 +12501,7 @@
             "columns": [
               "Fan display"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "blowoff",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -12509,7 +12509,7 @@
       ],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:74",
@@ -12549,9 +12549,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4\" black rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "rod",
@@ -12559,9 +12559,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4\" black rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 17.5,
@@ -12630,7 +12630,7 @@
             "columns": [
               "Air display"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "slow decr to ext",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -12699,7 +12699,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:75",
@@ -12739,9 +12739,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4\" black rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "rod",
@@ -12749,9 +12749,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4\" black rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 17.2,
@@ -12789,7 +12789,7 @@
           "columns": [
             "Air display"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "5   2.5   2",
           "note": "velocity = 1.0066 x air display, from the footnote '*U =1.0066(AIR)' of the PSI-25 workbook 'Fan calibration data.xlsx' (SPICE fan calibration at 56 mm downstream, 36 mm from bottom, centerline) (x 1.0066); a sweep is recorded as the min and max of its readings; air display readings proposed by model"
         },
@@ -12874,7 +12874,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:76",
@@ -12914,9 +12914,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4\" clear rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "rod",
@@ -12924,9 +12924,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4\" clear rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 17.4,
@@ -13049,7 +13049,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:77",
@@ -13089,9 +13089,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4 clear rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "rod",
@@ -13099,9 +13099,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4 clear rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 16.8,
@@ -13200,7 +13200,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:78",
@@ -13240,9 +13240,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "3/8\" black rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "rod",
@@ -13250,9 +13250,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "3/8\" black rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 17.1,
@@ -13351,7 +13351,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:79",
@@ -13391,9 +13391,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "0.5\" black rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "rod",
@@ -13401,9 +13401,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "0.5\" black rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 17.6,
@@ -13472,7 +13472,7 @@
             "columns": [
               "Fan display"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "ext",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -13486,7 +13486,7 @@
             "columns": [
               "Air display"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "down to ext",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -13567,7 +13567,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:80",
@@ -13607,9 +13607,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4\" black rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "rod",
@@ -13617,9 +13617,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4\" black rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 18.5,
@@ -13718,7 +13718,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:81",
@@ -13758,9 +13758,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "3/8\" black rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "rod",
@@ -13768,9 +13768,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "3/8\" black rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 16.3,
@@ -13808,7 +13808,7 @@
           "columns": [
             "Air display"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "5   would not stay lit   10   15",
           "note": "velocity = 1.0066 x air display, from the footnote '*U =1.0066(AIR)' of the PSI-25 workbook 'Fan calibration data.xlsx' (SPICE fan calibration at 56 mm downstream, 36 mm from bottom, centerline) (x 1.0066); a sweep is recorded as the min and max of its readings; air display readings proposed by model"
         },
@@ -13832,7 +13832,7 @@
       "outcomes": [],
       "flags": [],
       "links": [],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:82",
@@ -13872,9 +13872,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "0.5\" black rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "rod",
@@ -13882,9 +13882,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "0.5\" black rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 17.1,
@@ -13953,7 +13953,7 @@
             "columns": [
               "Fan display"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "ext",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -13967,7 +13967,7 @@
             "columns": [
               "Air display"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "down to ext",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -14024,7 +14024,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:83",
@@ -14064,9 +14064,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4\" black rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "rod",
@@ -14074,9 +14074,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4\" black rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 16.4,
@@ -14145,7 +14145,7 @@
             "columns": [
               "Air display"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "extinguished",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -14166,7 +14166,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:84",
@@ -14206,9 +14206,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "3/8\" black rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "rod",
@@ -14216,9 +14216,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "3/8\" black rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 16.8,
@@ -14377,7 +14377,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:85",
@@ -14417,9 +14417,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "0.5\" black rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "rod",
@@ -14427,9 +14427,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "0.5\" black rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 19.1,
@@ -14498,7 +14498,7 @@
             "columns": [
               "Fan display"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "ext",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -14512,7 +14512,7 @@
             "columns": [
               "Air display"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "down to ext",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -14581,7 +14581,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:86",
@@ -14621,9 +14621,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "0.5\" black rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "rod",
@@ -14631,9 +14631,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "0.5\" black rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 20.2,
@@ -14702,7 +14702,7 @@
             "columns": [
               "Fan display"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "ext",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -14716,7 +14716,7 @@
             "columns": [
               "Air display"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "down to ext",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -14761,7 +14761,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:87",
@@ -14801,9 +14801,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4 blac rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "rod",
@@ -14811,9 +14811,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4 blac rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 18.0,
@@ -14924,7 +14924,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:88",
@@ -14964,9 +14964,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4 black rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "rod",
@@ -14974,9 +14974,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4 black rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 17.5,
@@ -15099,7 +15099,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:89",
@@ -15139,9 +15139,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4\" black rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "rod",
@@ -15149,9 +15149,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4\" black rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 17.4,
@@ -15274,7 +15274,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:90",
@@ -15314,9 +15314,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4\" black rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "rod",
@@ -15324,9 +15324,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4\" black rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 16.5,
@@ -15449,7 +15449,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:91",
@@ -15489,9 +15489,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4\" black rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "rod",
@@ -15499,9 +15499,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4\" black rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 19.0,
@@ -15539,7 +15539,7 @@
           "columns": [
             "Air display"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2  0  2  0",
           "note": "velocity = 1.0066 x air display, from the footnote '*U =1.0066(AIR)' of the PSI-25 workbook 'Fan calibration data.xlsx' (SPICE fan calibration at 56 mm downstream, 36 mm from bottom, centerline) (x 1.0066); a sweep is recorded as the min and max of its readings; air display readings proposed by model"
         },
@@ -15636,7 +15636,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:92",
@@ -15676,9 +15676,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4\" black rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "rod",
@@ -15686,9 +15686,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4\" black rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 16.7,
@@ -15811,7 +15811,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:93",
@@ -15851,9 +15851,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4\" black rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "rod",
@@ -15861,9 +15861,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4\" black rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 18.2,
@@ -15901,7 +15901,7 @@
           "columns": [
             "Air display"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2  0  2  0",
           "note": "velocity = 1.0066 x air display, from the footnote '*U =1.0066(AIR)' of the PSI-25 workbook 'Fan calibration data.xlsx' (SPICE fan calibration at 56 mm downstream, 36 mm from bottom, centerline) (x 1.0066); a sweep is recorded as the min and max of its readings; air display readings proposed by model"
         },
@@ -16022,7 +16022,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:94",
@@ -16062,9 +16062,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4 black rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "rod",
@@ -16072,9 +16072,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4 black rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 16.3,
@@ -16185,7 +16185,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:95",
@@ -16225,9 +16225,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4\" black rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "rod",
@@ -16235,9 +16235,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1/4\" black rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 16.3,
@@ -16336,7 +16336,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:96",
@@ -16376,9 +16376,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "3/8\" black rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "rod",
@@ -16386,9 +16386,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "3/8\" black rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": null,
@@ -16457,7 +16457,7 @@
             "columns": [
               "Fan display"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "ext",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -16471,7 +16471,7 @@
             "columns": [
               "Air display"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "down to ext",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -16537,7 +16537,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:97",
@@ -16577,9 +16577,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "3/8\" black rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "rod",
@@ -16587,9 +16587,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "3/8\" black rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": null,
@@ -16658,7 +16658,7 @@
             "columns": [
               "Fan display"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "ext",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -16672,7 +16672,7 @@
             "columns": [
               "Air display"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "down to ext",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -16726,7 +16726,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:98",
@@ -16766,9 +16766,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "3/8\" black rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "rod",
@@ -16776,9 +16776,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "3/8\" black rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 17.0,
@@ -16816,7 +16816,7 @@
           "columns": [
             "Air display"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2  0  2  0",
           "note": "velocity = 1.0066 x air display, from the footnote '*U =1.0066(AIR)' of the PSI-25 workbook 'Fan calibration data.xlsx' (SPICE fan calibration at 56 mm downstream, 36 mm from bottom, centerline) (x 1.0066); a sweep is recorded as the min and max of its readings; air display readings proposed by model"
         },
@@ -16901,7 +16901,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:99",
@@ -16941,9 +16941,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "3/8\" black rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "rod",
@@ -16951,9 +16951,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "3/8\" black rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 17.5,
@@ -16991,7 +16991,7 @@
           "columns": [
             "Air display"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2  0  2  0",
           "note": "velocity = 1.0066 x air display, from the footnote '*U =1.0066(AIR)' of the PSI-25 workbook 'Fan calibration data.xlsx' (SPICE fan calibration at 56 mm downstream, 36 mm from bottom, centerline) (x 1.0066); a sweep is recorded as the min and max of its readings; air display readings proposed by model"
         },
@@ -17100,7 +17100,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:100",
@@ -17140,9 +17140,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "3/8\" clear rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "rod",
@@ -17150,9 +17150,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "3/8\" clear rod",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 20.2,
@@ -17221,7 +17221,7 @@
             "columns": [
               "Fan display"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "ext",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -17235,7 +17235,7 @@
             "columns": [
               "Air display"
             ],
-            "review_status": "pending",
+            "review_status": "approved",
             "quote": "down to ext",
             "note": "proposed by llm (claude-sonnet-5-5); status as reviewed"
           }
@@ -17292,7 +17292,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:101",
@@ -17332,9 +17332,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm SIBAL",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "fabric sheet",
@@ -17342,9 +17342,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm SIBAL",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 18.5,
@@ -17455,7 +17455,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:102",
@@ -17495,9 +17495,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm SIBAL",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "fabric sheet",
@@ -17505,9 +17505,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm SIBAL",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 18.5,
@@ -17618,7 +17618,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:103",
@@ -17668,9 +17668,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "4 cm spherical section",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 16.8,
@@ -17857,9 +17857,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm SIBAL",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "fabric sheet",
@@ -17867,9 +17867,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm SIBAL",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 18.7,
@@ -17980,7 +17980,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:105",
@@ -18020,9 +18020,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm SIBAL",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "fabric sheet",
@@ -18030,9 +18030,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm SIBAL",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 18.8,
@@ -18143,7 +18143,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:106",
@@ -18183,9 +18183,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm SIBAL",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "fabric sheet",
@@ -18193,9 +18193,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm SIBAL",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 18.8,
@@ -18294,7 +18294,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:107",
@@ -18344,9 +18344,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "4 cm spherical section",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 17.1,
@@ -18545,9 +18545,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm SIBAL",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "fabric sheet",
@@ -18555,9 +18555,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm SIBAL",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 16.4,
@@ -18664,7 +18664,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:109",
@@ -18704,9 +18704,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm SIBAL",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "fabric sheet",
@@ -18714,9 +18714,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm SIBAL",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 16.4,
@@ -18827,7 +18827,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:110",
@@ -18867,9 +18867,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm SIBAL",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "fabric sheet",
@@ -18877,9 +18877,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm SIBAL",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 17.0,
@@ -19002,7 +19002,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:111",
@@ -19042,9 +19042,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm SIBAL",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "fabric sheet",
@@ -19052,9 +19052,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm SIBAL",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 16.8,
@@ -19165,7 +19165,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:112",
@@ -19205,9 +19205,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm SIBAL",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "fabric sheet",
@@ -19215,9 +19215,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm SIBAL",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 17.5,
@@ -19316,7 +19316,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:113",
@@ -19356,9 +19356,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm SIBAL",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "fabric sheet",
@@ -19366,9 +19366,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm SIBAL",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 16.9,
@@ -19491,7 +19491,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:114",
@@ -19531,9 +19531,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm SIBAL",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "fabric sheet",
@@ -19541,9 +19541,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm SIBAL",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 18.7,
@@ -19662,7 +19662,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:115",
@@ -19702,9 +19702,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm SIBAL",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "fabric sheet",
@@ -19712,9 +19712,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm SIBAL",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 17.5,
@@ -19825,7 +19825,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:116",
@@ -19865,9 +19865,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm SIBAL",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "fabric sheet",
@@ -19875,9 +19875,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm SIBAL",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 16.9,
@@ -19988,7 +19988,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:117",
@@ -20028,9 +20028,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm SIBAL",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "fabric sheet",
@@ -20038,9 +20038,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm SIBAL",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 17.4,
@@ -20159,7 +20159,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:118",
@@ -20199,9 +20199,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 cm SIBAL",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "fabric sheet",
@@ -20209,9 +20209,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 cm SIBAL",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 17.2,
@@ -20334,7 +20334,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:119",
@@ -20374,9 +20374,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 cm SIBAL",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "fabric sheet",
@@ -20384,9 +20384,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 cm SIBAL",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 17.2,
@@ -20509,7 +20509,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:120",
@@ -20549,9 +20549,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 cm SIBAL",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "fabric sheet",
@@ -20559,9 +20559,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 cm SIBAL",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 17.2,
@@ -20732,7 +20732,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:121",
@@ -20772,9 +20772,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 cm SIBAL",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "fabric sheet",
@@ -20782,9 +20782,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 cm SIBAL",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 17.0,
@@ -20919,7 +20919,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:122",
@@ -20959,9 +20959,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm Sibal moved igniter",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "fabric sheet",
@@ -20969,9 +20969,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm Sibal moved igniter",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 17.2,
@@ -21106,7 +21106,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:123",
@@ -21146,9 +21146,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 cm SIBAL top side ign",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "fabric sheet",
@@ -21156,9 +21156,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 cm SIBAL top side ign",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 18.2,
@@ -21281,7 +21281,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:124",
@@ -21321,9 +21321,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm SIBAL",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "fabric sheet",
@@ -21331,9 +21331,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm SIBAL",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 20.7,
@@ -21468,7 +21468,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:125",
@@ -21508,9 +21508,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm SIBAL",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "fabric sheet",
@@ -21518,9 +21518,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "2 cm SIBAL",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 20.7,
@@ -21643,7 +21643,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:126",
@@ -21683,9 +21683,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 cm SIBAL",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "fabric sheet",
@@ -21693,9 +21693,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 cm SIBAL",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 20.6,
@@ -21818,7 +21818,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:127",
@@ -21858,9 +21858,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 cm SIBAL",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "fabric sheet",
@@ -21868,9 +21868,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 cm SIBAL",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": null,
@@ -22002,7 +22002,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:128",
@@ -22042,9 +22042,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 cm SIBAL",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "fabric sheet",
@@ -22052,9 +22052,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 cm SIBAL",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": null,
@@ -22186,7 +22186,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-25:bass-ii:129",
@@ -22226,9 +22226,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 cm SIBAL",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "fabric sheet",
@@ -22236,9 +22236,9 @@
           "columns": [
             "Fuel Sample Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "1 cm SIBAL",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "o2_percent": {
           "min": 20.5,
@@ -22361,7 +22361,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     }
   ]
 }

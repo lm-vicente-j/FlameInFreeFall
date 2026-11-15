@@ -68,9 +68,9 @@
           "columns": [
             "Fuel"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "Methanol",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "droplet",
@@ -412,7 +412,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-69:flex:2",
@@ -450,9 +450,9 @@
           "columns": [
             "Fuel"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "Methanol",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "droplet",
@@ -830,7 +830,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-69:flex:10",
@@ -868,9 +868,9 @@
           "columns": [
             "Fuel"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "Methanol",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "droplet",
@@ -1075,7 +1075,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-69:flex:11",
@@ -1113,9 +1113,9 @@
           "columns": [
             "Fuel"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "Methanol",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "droplet",
@@ -1416,7 +1416,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-69:flex:94",
@@ -1454,9 +1454,9 @@
           "columns": [
             "Fuel"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "Heptane",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "droplet",
@@ -1774,7 +1774,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-69:flex:114",
@@ -1812,9 +1812,9 @@
           "columns": [
             "Fuel"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "Methanol",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "droplet",
@@ -2140,7 +2140,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-69:flex:222",
@@ -2178,9 +2178,9 @@
           "columns": [
             "Fuel"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "Methanol",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "droplet",
@@ -2510,7 +2510,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-69:flex:223",
@@ -2548,9 +2548,9 @@
           "columns": [
             "Fuel"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "Methanol",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "droplet",
@@ -2863,7 +2863,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-69:flex:226",
@@ -2901,9 +2901,9 @@
           "columns": [
             "Fuel"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "Methanol",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "droplet",
@@ -3221,7 +3221,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     }
   ]
 }

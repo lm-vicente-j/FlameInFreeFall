@@ -489,9 +489,10 @@
     "generated_at": "2026-11-15T18:16:43+00:00"
   },
   "review": {
-    "status": "pending",
-    "reviewer": null,
-    "reviewed_at": null,
-    "notes": ""
+    "status": "approved",
+    "reviewer": "Alan PV",
+    "reviewed_at": "2026-11-15T21:00:52Z",
+    "notes": "",
+    "content_sha256": "b039a07f7a79afd9ac94aaaa5cfe3c9eb707fd99cacd4cdd65a311dbc3917a85"
   }
 }

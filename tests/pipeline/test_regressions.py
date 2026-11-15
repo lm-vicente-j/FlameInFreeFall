@@ -1,11 +1,12 @@
 """Offline regressions for the integration findings in issue #42."""
 import copy
 import io
-import json
+import re
 import tempfile
 import unittest
 from contextlib import nullcontext
 from datetime import UTC, datetime
+from decimal import Decimal
 from pathlib import Path
 from unittest.mock import patch
 from urllib.error import HTTPError
@@ -181,6 +182,25 @@ class RunRegressions(unittest.TestCase):
         self.assertTrue(any("!Air display" in key for key in joined["original"]))
         self.assertTrue(any(key.endswith("!@sha256") for key in joined["original"]))
         self.assertIsNone(joined["conditions"]["flow_cm_s"]["min"])
+
+    def test_bass_ii_air_display_is_calibrated_and_free_text_stays_raw(self):
+        # A8 (#14): 2014 BASS-II readings use the workbook factor; sweeps become min/max (D2, #33).
+        runs = [r for r in read_json(ROOT / "data/runs/bass-ii.json")["records"] if r["kind"] == "run"]
+        parsed = [r for r in runs if r["conditions"]["flow_cm_s"]["method"] == "parsed"]
+        self.assertTrue(parsed)
+        for record in parsed:
+            with self.subTest(record=record["id"]):
+                flow = record["conditions"]["flow_cm_s"]
+                readings = [Decimal(x) for x in re.findall(r"\d+(?:\.\d+)?", record["original"]["Air display"])]
+                expected = (float(min(readings) * Decimal("1.0066")), float(max(readings) * Decimal("1.0066")))
+                self.assertEqual((flow["min"], flow["max"], flow["unit"]), (*expected, "cm/s"))
+                self.assertIn("Fan calibration data.xlsx", flow["note"])
+        unknown = [r for r in runs if r["conditions"]["flow_cm_s"]["method"] == "unknown"]
+        self.assertTrue(unknown)
+        for record in unknown:
+            with self.subTest(record=record["id"]):
+                self.assertIsNone(record["conditions"]["flow_cm_s"]["min"])
+                self.assertIn("Air display", record["original"])
 
 
 if __name__ == "__main__":
