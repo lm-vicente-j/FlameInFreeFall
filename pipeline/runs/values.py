@@ -11,7 +11,11 @@ from typing import Any, Literal
 Method = Literal["parsed", "mapped", "llm", "manual", "unknown"]
 ReviewStatus = Literal["rejected", "pending", "approved", "not_required"]
 Qualifier = Literal["approximate"]
-Kind = Literal["run", "note"]
+Kind = Literal["run", "range", "session", "note"]
+FlagCode = Literal[
+    "invalid_reading", "duplicate_row", "references_other_rows", "inconsistent_values", "suspected_typo"
+]
+LinkStatus = Literal["confirmed", "ambiguous"]
 Gravity = Literal["microgravity", "normal"]
 
 REVIEW_ORDER: tuple[ReviewStatus, ...] = ("rejected", "pending", "approved", "not_required")
@@ -52,15 +56,20 @@ class Quantity:
     unit: str
     qualifier: Qualifier | None
     provenance: Provenance
+    ends: tuple[float | None, float | None] | None = None
+    """(initial, final) when the source records the start and end of the run separately; None omits both."""
 
     def to_json(self) -> dict[str, Any]:
-        return {
+        document = {
             "min": self.minimum,
             "max": self.maximum,
             "unit": self.unit,
             "qualifier": self.qualifier,
             **self.provenance.to_json(),
         }
+        if self.ends is not None:
+            document["initial"], document["final"] = self.ends
+        return document
 
 
 Value = Category | Quantity
@@ -117,6 +126,45 @@ def least_reviewed(statuses: list[ReviewStatus]) -> ReviewStatus:
 
 
 @dataclass(frozen=True)
+class Flag:
+    """A data-quality problem in the source row; the flagged values are never changed."""
+
+    code: FlagCode
+    columns: tuple[str, ...]
+    detail: str
+
+    def to_json(self) -> dict[str, Any]:
+        return {"code": self.code, "columns": list(self.columns), "detail": self.detail}
+
+
+@dataclass(frozen=True)
+class FileLink:
+    """A remote PSI file a record can be traced to; ambiguous links are candidates for review."""
+
+    accession: str
+    file_id: str
+    key: str
+    version: int
+    filename: str
+    basis: str
+    status: LinkStatus
+
+    def to_json(self) -> dict[str, Any]:
+        return {
+            "target": {
+                "kind": "file",
+                "accession": self.accession,
+                "file_id": self.file_id,
+                "key": self.key,
+                "version": self.version,
+                "filename": self.filename,
+            },
+            "basis": self.basis,
+            "status": self.status,
+        }
+
+
+@dataclass(frozen=True)
 class Record:
     id: str
     kind: Kind
@@ -124,6 +172,8 @@ class Record:
     original: dict[str, str]
     conditions: Conditions
     outcomes: tuple[Outcome, ...]
+    flags: tuple[Flag, ...] = ()
+    links: tuple[FileLink, ...] = ()
 
     @property
     def review_status(self) -> ReviewStatus:
@@ -138,6 +188,8 @@ class Record:
             "original": self.original,
             "conditions": self.conditions.to_json(),
             "outcomes": [outcome.to_json() for outcome in self.outcomes],
+            "flags": [flag.to_json() for flag in self.flags],
+            "links": [link.to_json() for link in self.links],
             "review_status": self.review_status,
         }
 

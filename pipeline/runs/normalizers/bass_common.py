@@ -34,6 +34,7 @@ words of the cell and are marked in ``INFERRED_PROPOSALS``.
 """
 
 import re
+from dataclasses import replace
 from decimal import Decimal
 
 from pipeline.runs.cells import NotNumber, NullCell, NumberCell, parse_cell
@@ -110,35 +111,44 @@ def percent_from_fraction(value: float, column: str, origin: str) -> Quantity:
 
 
 def o2_initial_final(initial: str, final: str, initial_column: str, final_column: str) -> Quantity:
-    """Min/max of the calibrated initial and final O2 cells of BASS-II, with the reason when unknown."""
+    """Min/max of the calibrated initial and final O2 cells of BASS-II, with the reason when unknown.
+
+    The quantity also carries the two ends separately (``ends``); an end whose cell is "none"
+    or blank is null, and both are null when the pair is not trusted.
+    """
     columns = (initial_column, final_column)
     ends: list[Decimal] = []
+    single: dict[str, float | None] = {"initial": None, "final": None}
     qualifier = None
     missing: list[str] = []
     for label, text in (("initial", initial), ("final", final)):
         result = parse_cell(text, None)
         if isinstance(result, NotNumber):
             note = f'{label} O2 cell "{collapse(text)}" is not a number: {result.reason}'
-            return unknown_quantity("percent", note, columns)
+            return replace(unknown_quantity("percent", note, columns), ends=(None, None))
         if isinstance(result, NullCell):
             missing.append(label)
             continue
         assert isinstance(result, NumberCell)
         ends.extend((result.minimum, result.maximum))
         qualifier = result.qualifier or qualifier
+        if result.minimum == result.maximum:
+            single[label] = float(result.minimum)
     if not ends:
-        return unknown_quantity("percent", "initial and final O2 are blank or none in source", columns)
+        unknown = unknown_quantity("percent", "initial and final O2 are blank or none in source", columns)
+        return replace(unknown, ends=(None, None))
     if max(ends) - min(ends) > MAX_O2_SPAN:
         note = (
             f'initial "{collapse(initial)}" and final "{collapse(final)}" O2 differ by more than '
             f"{MAX_O2_SPAN} points; probable transcription error, not used"
         )
-        return unknown_quantity("percent", note, columns)
+        return replace(unknown_quantity("percent", note, columns), ends=(None, None))
     note = "initial to final during the test"
     if missing:
         recorded = "final" if missing == ["initial"] else "initial"
         note = f"only the {recorded} O2 is recorded ({missing[0]} is blank or none)"
-    return parsed_quantity(float(min(ends)), float(max(ends)), "percent", qualifier, columns, note)
+    quantity = parsed_quantity(float(min(ends)), float(max(ends)), "percent", qualifier, columns, note)
+    return replace(quantity, ends=(single["initial"], single["final"]))
 
 
 GEOMETRY_VOCABULARY = frozenset(

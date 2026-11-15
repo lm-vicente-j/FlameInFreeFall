@@ -3,7 +3,8 @@
 import argparse
 from pathlib import Path
 
-from pipeline.paths import DATA, EXPERIMENTAL_TABLES
+from pipeline.catalog import SnapshotMissingError
+from pipeline.paths import DATA, EXPERIMENTAL_TABLES, RES
 from pipeline.runs.aliases import AliasError, add_proposals
 from pipeline.runs.build import BuildError, build_all, collect_sources, missing_aliases
 from pipeline.runs.normalizers import bass_common
@@ -38,16 +39,23 @@ def _parser() -> argparse.ArgumentParser:
                 default=DATA / "extractions",
                 help="reviewed extraction results to apply; extraction queues are written here",
             )
+            command.add_argument(
+                "--res", type=Path, default=RES, help="saved PSI snapshot; runs are linked to its remote files"
+            )
     return parser
 
 
 def _build(args: argparse.Namespace) -> int:
-    summaries = build_all(args.tables, args.aliases, args.out, args.extractions)
+    summaries = build_all(args.tables, args.aliases, args.out, args.extractions, args.res)
     for summary in summaries:
         print(
-            f"{summary.slug}: runs={summary.runs} notes={summary.notes} empty_rows_skipped={summary.empty_rows_skipped}"
+            f"{summary.slug}: runs={summary.runs} ranges={summary.ranges} sessions={summary.sessions} "
+            f"notes={summary.notes} duplicate_rows={summary.duplicate_rows} "
+            f"links_confirmed={summary.links_confirmed} links_ambiguous={summary.links_ambiguous} "
+            f"empty_rows_skipped={summary.empty_rows_skipped}"
         )
-    print(f"{len(summaries)} tables, {sum(s.runs + s.notes for s in summaries)} records -> {args.out}")
+    records = sum(s.runs + s.ranges + s.sessions + s.notes for s in summaries)
+    print(f"{len(summaries)} tables, {records} records -> {args.out}")
     return 0
 
 
@@ -75,7 +83,7 @@ def main(argv: list[str] | None = None) -> int:
     handlers = {"build": _build, "missing-aliases": _missing, "propose-aliases": _propose}
     try:
         return handlers[args.command](args)
-    except (TableError, RegistryError, AliasError, BuildError, ExtractionError) as error:
+    except (TableError, RegistryError, AliasError, BuildError, ExtractionError, SnapshotMissingError) as error:
         print(f"error: {error}")
         return 1
 
