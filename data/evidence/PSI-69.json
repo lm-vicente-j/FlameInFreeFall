@@ -1,0 +1,1437 @@
+{
+  "investigation": "PSI-69",
+  "title": "Flame Extinguishment Experiment",
+  "acronym": "FLEX",
+  "metadata_version": 5,
+  "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-69",
+  "snapshot_retrieved_at": "2026-11-15T01:06:33.262144+00:00",
+  "coverage": "metadata_and_documents",
+  "passages": [
+    {
+      "id": "PSI-69:meta:title",
+      "locator": {
+        "kind": "metadata",
+        "field": "title"
+      },
+      "text": "Flame Extinguishment Experiment"
+    },
+    {
+      "id": "PSI-69:meta:objective",
+      "locator": {
+        "kind": "metadata",
+        "field": "objective"
+      },
+      "text": "The FLEX (Flame Extinguishment Experiment) investigation aims to map the flammability limits of liquid fuels in microgravity environments, measure the effectiveness of various gaseous fire suppressants such as CO2, He, and SF6, and develop reliable predictive models for combustion limits under reduced gravity conditions. The mission seeks to validate and improve simplified models by incorporating detailed chemical reactions, heat transfer, and material movement, using both space-based data and extensive ground-based tests. Key flight experiment goals include obtaining high-resolution measurements of droplet burning rates, flame extinction behavior, heat radiation, soot levels, and temperature profiles, while systematically analyzing the effects of different ambient conditions and suppressant concentrations. These investigations are essential for advancing the fundamental understanding of combustion processes in microgravity and enhancing fire safety protocols for future space missions."
+    },
+    {
+      "id": "PSI-69:meta:approach",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "text": "The FLEX experiments involve igniting and observing the burning behavior of relatively large droplets. A primary objective of the experiments is to determine the Limiting Oxygen Index (LOI) as a function of ambient pressure and determine how the presence of a suppressant influences the LOI .\nThe basic outline of the procedure to construct this diagram is as follows:\n  1. Select the test pressure (0.5 − 1.5 atm) for the LOI tests.\n  2. Select a smaller droplet size (≈ 3 mm)\n  3. Select an ambient oxygen mole fraction that, based on ground-based testing, will support droplets burning to completion (as opposed to extinguishing at a finite droplet size).\n  4. Perform a droplet combustion test.\n  5. Increase the droplet size or repeat the test (if finite extinction diameter at flame extinction observed).\n  6. Continue steps 4 and 5 until flame exists for only a short time after ignition (radiative extinction).\n  7. Continue steps 4 thru 6 at a decreased ambient oxygen mole fraction.\n  8. Continue step 7 to an ambient oxygen mole fraction where the droplet does not ignite.\n\nThere were ambient conditions where the extinction droplet sizes at all ambient oxygen mole fractions were too small to either be observed or measured with the available diagnostics. In this case, the determination of the LOI is similar, but more iterative. Instead of observing flame extinction, however, the procedure  involved an iterative sequence of tests (burn to completion followed by a no ignition test) with progressively smaller increments in ambient oxygen mole fraction to determine the LOI . For the slow flow tests (in the flight experiment), the configuration of the flight hardware did not allow for adequate diagnostics over the entire test for a droplet in a uniform, steady convective flow.  In these tests, the procedure will be to duplicate tests above which yield finite-sized extinction droplet diameters. Near the end of the tests, prior to flame extinction, the droplet will be subjected to a small, sub-buoyant, convective flow (imparted by translating the droplet at a slow, uniform speed).\n\nThe goal of the experiment is then to see how the presence of this flow influences the extinction process. Note, a large number of the tests involve free droplets (as opposed to fiber-supported droplets) and a number of these tests will have droplets with a slow drift velocity. Data gathered from these tests to examine the influences of a small, sub-buoyant flow on both the burning and extinction process."
+    },
+    {
+      "id": "PSI-69:meta:hypothesis",
+      "locator": {
+        "kind": "metadata",
+        "field": "hypothesis"
+      },
+      "text": "The primary hypothesis of the FLEX mission is that microgravity conditions fundamentally alter the combustion and extinction characteristics of liquid fuel droplets due to changes in species and energy transport dynamics, radiative heat loss, and chemical kinetics. Specifically, the hypothesis posits that the lack of buoyant convection in microgravity will lead to significant differences in the flammability limits and suppression efficacy of various fire suppressant agents compared to normal gravity conditions. This hypothesis underpins the design of the FLEX experiments, which aim to map flammability boundaries, quantify suppressant efficacy, and develop predictive models to improve fire safety in space environments."
+    },
+    {
+      "id": "PSI-69:meta:researchImpacts",
+      "locator": {
+        "kind": "metadata",
+        "field": "researchImpacts"
+      },
+      "text": "The research impacts and Earth benefits of the FLEX mission are significant and multifaceted. By enhancing our understanding of microgravity combustion, the mission directly contributes to improved fire safety protocols for future space missions, ensuring the safety of crew members in environments where traditional fire suppression methods may be ineffective. On Earth, the insights gained from these experiments have the potential to advance fire safety in confined and reduced-gravity environments, such as submarines or high-altitude aircraft. The mission's findings on the effectiveness of various fire suppressants, including CO2, He, and SF6, in microgravity can lead to the development of more efficient and less harmful fire suppression systems, reducing the risk of toxic byproducts during fire events. Additionally, the study of ''cool flames'' and low-temperature combustion processes observed in microgravity can inform the design of advanced combustion engines, leading to improved fuel efficiency and reduced emissions in automotive and industrial applications. Overall, the FLEX mission's contributions to combustion science have the potential to enhance both space exploration safety and terrestrial fire safety technologies."
+    },
+    {
+      "id": "PSI-69:meta:experimentHardware",
+      "locator": {
+        "kind": "metadata",
+        "field": "experimentHardware"
+      },
+      "text": "Combustion Integrated Rack (CIR)-Fluids and Combustion Facility (FCF), Multi-user Droplet Combustion Appartatus (MDCA)"
+    },
+    {
+      "id": "PSI-69:meta:publications[0].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[0].title"
+      },
+      "text": "Methanol Droplet Combustion in Oxygen-Inert Environments in Microgravity"
+    },
+    {
+      "id": "PSI-69:meta:publications[1].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[1].title"
+      },
+      "text": "Methanol Droplet Extinction in Oxygen/Carbon-dioxide/Nitrogen Mixtures in Microgravity: Results from the International Space Station Experiments"
+    },
+    {
+      "id": "PSI-69:meta:publications[2].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[2].title"
+      },
+      "text": "A Numerical Study On The Extinction Characteristics Of Droplet Combustion Under Microgravity Conditions"
+    },
+    {
+      "id": "PSI-69:meta:publications[3].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[3].title"
+      },
+      "text": "Tethered methanol droplet combustion in carbon-dioxide enriched environment under microgravity conditions"
+    },
+    {
+      "id": "PSI-69:meta:publications[4].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[4].title"
+      },
+      "text": "FLEX: A Decisive Step Forward in NASA's Combustion Research Program"
+    },
+    {
+      "id": "PSI-69:meta:publications[5].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[5].title"
+      },
+      "text": "Dynamics of Water Absorption and Evaporation During Methanol Droplet Combustion in Microgravity"
+    },
+    {
+      "id": "PSI-69:meta:publications[6].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[6].title"
+      },
+      "text": "Activation energy asymptotics for methanol droplet extinction in microgravity"
+    },
+    {
+      "id": "PSI-69:meta:publications[7].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[7].title"
+      },
+      "text": "Experimental Study of Initial Diameter Effects on Convection-free Droplet Combustion in the Standard Atmosphere for n-Heptane, n-Octane, and n-Decane: International Space Station and Ground-based Experiments"
+    },
+    {
+      "id": "PSI-69:meta:publications[8].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[8].title"
+      },
+      "text": "Isolated n-heptane droplet combustion in microgravity: “Cool Flames” – Two-stage combustion"
+    },
+    {
+      "id": "PSI-69:meta:publications[9].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[9].title"
+      },
+      "text": "Theory of the propagation dynamics of spiral edges of diffusion flames in von Kármán swirling flows"
+    },
+    {
+      "id": "PSI-69:meta:publications[10].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[10].title"
+      },
+      "text": "Analysis of the melt phase of a rotating polymer disc supporting a diffusion flame"
+    },
+    {
+      "id": "PSI-69:meta:publications[11].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[11].title"
+      },
+      "text": "Partial-Burning Regime for Quasi-Steady Droplet Combustion Supported by Cool Flames"
+    },
+    {
+      "id": "PSI-69:meta:publications[12].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[12].title"
+      },
+      "text": "Asymptotic analysis of quasi-steady n-heptane droplet combustion supported by cool-flame chemistry"
+    },
+    {
+      "id": "PSI-69:meta:publications[13].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[13].title"
+      },
+      "text": "n-Butanol droplet combustion: Numerical modeling and reduced gravity experiments"
+    },
+    {
+      "id": "PSI-69:meta:publications[14].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[14].title"
+      },
+      "text": "Droplet Combustion Experiments Aboard the International Space Station"
+    },
+    {
+      "id": "PSI-69:meta:publications[15].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[15].title"
+      },
+      "text": "Computational modeling of the effects of support fibers on evaporation of fiber-supported droplets in reduced gravity"
+    },
+    {
+      "id": "PSI-69:meta:publications[16].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[16].title"
+      },
+      "text": "Oxygen Lewis Number Effects on Reduced Gravity Combustion of Methanol and n-Heptane Droplets"
+    },
+    {
+      "id": "PSI-69:meta:publications[17].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[17].title"
+      },
+      "text": "ISS Droplet Combustion Experiments - Uncertainties in Droplet Sizes and Burning Rates"
+    },
+    {
+      "id": "PSI-69:meta:publications[18].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[18].title"
+      },
+      "text": "Combustion of n-Butanol, Gasoline, and n-Butanol/Gasoline Mixture Droplets"
+    },
+    {
+      "id": "PSI-69:meta:publications[19].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[19].title"
+      },
+      "text": "Computational Modeling of Unsupported and Fiber-Supported n-Heptane Droplet Combustion in Reduced Gravity: A Study of Fiber Effects"
+    },
+    {
+      "id": "PSI-69:meta:publications[20].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[20].title"
+      },
+      "text": "The effect of support fibers on micro-convection in droplet combustion experiments"
+    },
+    {
+      "id": "PSI-69:meta:publications[21].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[21].title"
+      },
+      "text": "Cool-flame extinction during n-alkane droplet combustion in microgravity"
+    },
+    {
+      "id": "PSI-69:meta:publications[22].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[22].title"
+      },
+      "text": "A short mechanism for the low-temperature ignition of n-heptane at high pressures"
+    },
+    {
+      "id": "PSI-69:meta:publications[23].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[23].title"
+      },
+      "text": "The role of cool-flame chemistry in quasi-steady combustion and extinction of n-heptane droplets"
+    },
+    {
+      "id": "PSI-69:meta:publications[24].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[24].title"
+      },
+      "text": "Combustion of Submillimeter Heptane/Methanol and Heptane/Ethanol Droplets in Reduced Gravity"
+    },
+    {
+      "id": "PSI-69:meta:publications[25].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[25].title"
+      },
+      "text": "Sub-millimeter sized methyl butanoate droplet combustion: Microgravity experiments and detailed numerical modeling"
+    },
+    {
+      "id": "PSI-69:meta:publications[26].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[26].title"
+      },
+      "text": "On the spherically symmetrical combustion of methyl decanoate droplets and comparisons with detailed numerical modeling"
+    },
+    {
+      "id": "PSI-69:meta:publications[27].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[27].title"
+      },
+      "text": "The spherically symmetric droplet burning characteristics of Jet-A and biofuels derived from camelina and tallow"
+    },
+    {
+      "id": "PSI-69:meta:publications[28].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[28].title"
+      },
+      "text": "Spherically symmetric droplet combustion of three and four component miscible mixtures as surrogates for Jet-A"
+    },
+    {
+      "id": "PSI-69:meta:publications[29].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[29].title"
+      },
+      "text": "AUTOMATED DATA ANALYSIS FOR CONSECUTIVE IMAGES FROM DROPLET COMBUSTION EXPERIMENTS"
+    },
+    {
+      "id": "PSI-69:meta:publications[30].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[30].title"
+      },
+      "text": "On the extinction characteristics of alcohol droplet combustion under microgravity conditions – A numerical study"
+    },
+    {
+      "id": "PSI-69:meta:publications[31].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[31].title"
+      },
+      "text": "A comparison of the spherical flame characteristics of sub-millimeter droplets of binary mixtures of n-heptane/iso-octane and n-heptane/toluene with a commercial unleaded gasoline"
+    },
+    {
+      "id": "PSI-69:meta:publications[32].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[32].title"
+      },
+      "text": "Comparison of the Burning Characteristics of Indolene and Commercial Grade Gasoline Droplets without Convection"
+    },
+    {
+      "id": "PSI-69:meta:publications[33].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[33].title"
+      },
+      "text": "Can cool flames support quasi-steady alkane droplet burning?"
+    },
+    {
+      "id": "PSI-69:meta:publications[34].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[34].title"
+      },
+      "text": "Experiments on Submillimeter Free Droplet Flame Extinction"
+    },
+    {
+      "id": "PSI-69:meta:publications[35].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[35].title"
+      },
+      "text": "Influences of support fibers on vaporizing fuel droplets"
+    },
+    {
+      "id": "PSI-69:meta:publications[36].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[36].title"
+      },
+      "text": "Numerical studies of flows over liquid droplets on cylindrical fibers"
+    },
+    {
+      "id": "PSI-69:meta:publications[37].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[37].title"
+      },
+      "text": "Interpretation of Backlit Droplet Images from ISS Droplet Combustion Experiments"
+    },
+    {
+      "id": "PSI-69:meta:publications[38].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[38].title"
+      },
+      "text": "Combustion of Methanol Droplets in Air-Diluent Environments with Reduced and Normal Gravity"
+    },
+    {
+      "id": "PSI-69:meta:publications[39].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[39].title"
+      },
+      "text": "Microgravity droplet combustion: effect of tethering fiber on burning rate and flame structure"
+    },
+    {
+      "id": "PSI-69:meta:publications[40].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[40].title"
+      },
+      "text": "Influence of Gravity and Ambient Pressure on Combustion and Flammability of n-Heptane and 1-Propanol Droplets in Air-Diluent Environments"
+    },
+    {
+      "id": "PSI-69:meta:publications[41].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[41].title"
+      },
+      "text": "Ignition and combustion of n-heptane droplets in carbon dioxide enriched environments"
+    },
+    {
+      "id": "PSI-69:meta:publications[42].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[42].title"
+      },
+      "text": "Computational modeling of n-heptane droplet combustion in air–diluent environments under reduced-gravity"
+    },
+    {
+      "id": "PSI-69:meta:publications[43].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[43].title"
+      },
+      "text": "Numerical Simulation of Unsteady Flows and Shape Oscillations in Liquid Droplets Induced by Deployment Needle Retraction"
+    },
+    {
+      "id": "PSI-69:meta:publications[44].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[44].title"
+      },
+      "text": "Nonane droplet combustion with and without buoyant convection: Flame structure, burning rate and extinction in air and helium"
+    },
+    {
+      "id": "PSI-69:meta:publications[45].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[45].title"
+      },
+      "text": "Temperature and fiber optic spectroscopy composition measurements of heated propanol–acetone droplets"
+    },
+    {
+      "id": "PSI-69:meta:publications[46].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[46].title"
+      },
+      "text": "Laser-induced fluorescence imaging of acetone inside evaporating and burning fuel droplets"
+    },
+    {
+      "id": "PSI-69:meta:publications[47].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[47].title"
+      },
+      "text": "Reduced Gravity Combustion of Propanol Droplets in Oxygen-Inert Environments"
+    },
+    {
+      "id": "PSI-69:meta:publications[48].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[48].title"
+      },
+      "text": "PROPANOL DROPLET FLAMMABILITY AND COMBUSTION IN AIR-DILUENT ENVIRONMENTS UNDER NORMAL AND REDUCED GRAVITY"
+    },
+    {
+      "id": "PSI-69:meta:publications[49].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[49].title"
+      },
+      "text": "Developing Surrogates for Liquid Transportation Fuels: The Role of Spherically Symmetric Droplet Combustion"
+    },
+    {
+      "id": "PSI-69:meta:publications[50].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[50].title"
+      },
+      "text": "Detailed results from the flame extinugishment experiment (FLEX) - March 2009 to December 2011"
+    },
+    {
+      "id": "PSI-69:pdf:684347459e44646b74028a01:v1:p1",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684347459e44646b74028a01",
+        "key": "psi-data/PSI-69/Science Documents/PSI-69_Science Documents_FLEX_Test_Plan.pdf",
+        "version": 1,
+        "filename": "PSI-69_Science Documents_FLEX_Test_Plan.pdf",
+        "sha256": "0af43477a04b05e3c44558b22c16a69cfda837a6a17fa94178ce1f9fce361dc5",
+        "page": 1
+      },
+      "text": "The\t\r  details\t\r  of\t\r  this\t\r  Test\t\r  Plan\t\r  have\t\r  been\t\r  extracted\t\r  from\t\r  the\t\r  Research\t\r  Requirements\t\r  \nDocument\t\r  for\t\r  Droplet\t\r  Flame\t\r  Extinguishment\t\r  in\t\r  Microgravity\t\r  (FLEX)\t\r  by\t\r  FA\t\r  Williams,\t\r  \nM\t\r  Hicks,\t\r  V\t\r  Nayagam,\t\r  MY\t\r  Choi,\t\r  FL\t\r  Dryer\t\r  and\t\r  BD\t\r  Shaw\t\r  and\t\r  dated\t\r  November\t\r  4,\t\r  2005.\t\r  "
+    },
+    {
+      "id": "PSI-69:pdf:684347459e44646b74028a01:v1:p2",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684347459e44646b74028a01",
+        "key": "psi-data/PSI-69/Science Documents/PSI-69_Science Documents_FLEX_Test_Plan.pdf",
+        "version": 1,
+        "filename": "PSI-69_Science Documents_FLEX_Test_Plan.pdf",
+        "sha256": "0af43477a04b05e3c44558b22c16a69cfda837a6a17fa94178ce1f9fce361dc5",
+        "page": 2
+      },
+      "text": "2.2 Agent Eﬃcacy\nThe expressions for the Damk¨ ohler number provide a convenient theoretical basis for ﬂame ex-\ntinction. Unfortunately, they are not easily used by engineers designing suppression systems or\nevaluating material ﬂammability issues. For a given material and ambient condition (pressure,\ndiluent type), there exists an oxygen mole fraction below which a steady ﬂame cannot exist. This\noxygen concentration is called the Limiting Oxygen Index ( LOI ). Using the droplet as a model\ngeometry, Figure 2 shows a hypothetical quasi-steady ﬂammability map. The graph shows oxygen\nconcentration on the ordinate and droplet diameter on the abscissa. The curve is essentially the\ncritical Damk¨ ohler number and the region inside the curve is ﬂammable and outside the region is\nnon-ﬂammable. The red branch of the curve is the extinction branch deﬁned by Law (1975) and\nthe blue branch is the radiative quench branch deﬁned by Chao et al. (1990). A typical droplet\ncombustion experiment starts by igniting a droplet at a point inside the curve (denoted by the\ngreen circle). The droplet then burns until it reaches the red curve where the ﬂame will extinguish.\nThe limiting oxygen index ( LOI ) is the point where the two curves meet, or the minimum oxygen\nconcentration that will support a quasi-steady ﬂame.\nNon-Flammable\nLOI\nOxygen Mole Fraction\nDroplet Diameter\nFlammable\nFigure 2: A conceptual ﬂammability map for a single droplet burning in an inﬁnite ambient. The\nred curve represents the extinction caused by ‘blowoﬀ’ of the ﬂame (Law, 1975), while the blue\ncurve represents the radiative extinction branch (Chao et al., 1990). The LOI is the lowest oxygen\nconcentration which will support combustion.\nThe LOI is a critical concept in ﬁre safety, and also important in developing, reﬁning and\nultimately validating detailed chemical kinetic mechanisms. For ﬁre safety, the goal of the agent in\na total ﬂooding application is to reduce the oxygen concentration below the LOI .\nThe concepts of extinction and LOI reviewed above deﬁne the framework from which to develop\na quantitative measure of suppressant agent eﬃcacy. The LOI is often recast in terms of the\nMinimum Extinction Concentration (the minimum concentration of a suppressant agent above\nwhich a quasi-steady ﬂame cannot exist, M EC ). The M EC is related to the LOI by the following\nrelationship.\n11"
+    },
+    {
+      "id": "PSI-69:pdf:684347459e44646b74028a01:v1:p3",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684347459e44646b74028a01",
+        "key": "psi-data/PSI-69/Science Documents/PSI-69_Science Documents_FLEX_Test_Plan.pdf",
+        "version": 1,
+        "filename": "PSI-69_Science Documents_FLEX_Test_Plan.pdf",
+        "sha256": "0af43477a04b05e3c44558b22c16a69cfda837a6a17fa94178ce1f9fce361dc5",
+        "page": 3
+      },
+      "text": "Table 2: Gaseous ﬁre suppression agent eﬃcacy, as measured by the M EC , for cup burner ﬂames\n(Takahashi et al., 2004).\nAgent/Env. M EC , 1 − g M EC , µg\nCO2 0.16 0.19\nHe 0.27 0.31\nN2 0.26 0.38\nLOI = 0.209 (1 − M EC) (2)\nThe M EC is a function of the fuel, agent and experimental geometry. Clearly, a more eﬀective\nagent will have a lower M EC for a given fuel and fuel geometry.\nTakahashi et al. (2004) conducted normal gravity tests and microgravity simulations of the\nsuppression of methane cup-burner ﬂames using mixtures of various suppressants in standard air.\nThe table below summarizes the ﬁndings for M EC in the two environments.\n2.3 CO 2 Suppression Studies\nThe United States module of the ISS uses CO2 as the suppressant. The eﬀectiveness of CO2 as a ﬁre\nsuppressant in a microgravity environment has been studied in the past by several authors (Honda\nand Ronney, 1998; Katta et al., 2004). Honda and Ronney (1998) studied opposed-ﬂow ﬂame spread\nrates over thin solid fuels in microgravity by adding diﬀerent inert diluents ( He , N2 , Ar, CO2 and\nSF6 ) to the standard air atmosphere. Their experimental results seem to suggest that CO2 is less\neﬀective as a ﬁre suppressant in microgravity than He in terms of the minimum O2 concentration\nthat supports combustion. Katta et al. (2004) investigated the mechanism through which CO2\ncauses ﬁre suppression using detailed numerical simulation and experiments in microgravity for a\nmethane-air diﬀusion ﬂame stabilized on a cup burner. Their results showed that a CO2 volume\nfraction greater than 19.1% is needed to destabilize the ﬂame-base in microgravity compared to\n16.4% for a normal gravity ﬂame. They also pointed out the importance of gas-phase radiation in\ndetermining extinguishment limits in microgravity.\nRadiative thermal losses from the ﬂame zone in reduced gravity environments may be signif-\nicantly altered when the surrounding gas phase is thermally participating. In most small scale\nterrestrial ﬁres, when compared with the quenching eﬀects associated with strong buoyantly driven\nconvective ﬂows, radiative quenching plays a relatively minor role in the extinguishment of ﬁres. In\nthese situations the heated gases are quickly lifted from the reaction zone and, as a consequence,\nquickly cool and provide little radiative feedback to the fuel source.\nIn the absence of buoyantly-driven convective ﬂows, however, radiative losses from the ﬂame can\nbecome a signiﬁcant fraction of the total heat loss from the reaction zone. When radiative exchanges\nbetween the ﬂame and the ambient are limited by the presence of a thermally participating gas,\nsuch as CO2 , temperatures in the proximity of the fuel source will increase. Chernovsky et al.\n(2005) demonstrated this in a recent set of experiments where fuel side temperature increases were\nreported in an ethylene ( C2H2) diﬀusion ﬂame, using a porous spherical burner, in atmospheres of\nvarying concentrations of CO2 (20% to 40%).\nThis radiative feedback eﬀect from the gas phase has been of increasing concern because of the\nimplications in the selection and evaluation of appropriate ﬁre suppressants. The use of CO2 , an\n12"
+    },
+    {
+      "id": "PSI-69:pdf:684347459e44646b74028a01:v1:p4",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684347459e44646b74028a01",
+        "key": "psi-data/PSI-69/Science Documents/PSI-69_Science Documents_FLEX_Test_Plan.pdf",
+        "version": 1,
+        "filename": "PSI-69_Science Documents_FLEX_Test_Plan.pdf",
+        "sha256": "0af43477a04b05e3c44558b22c16a69cfda837a6a17fa94178ce1f9fce361dc5",
+        "page": 4
+      },
+      "text": "5.2.8 Ambient T emperature and Pressure Measurement\nDuring each test the chamber gas temperature and pressure measurements shall be required. The\nfollowing are the speciﬁcations for this data.\nSample rate : minimum sample rate shall be at 10 Hz\nTemperature: accuracy shall be at least ± 0.5C.\nPressure: accuracy shall be at least ± 0.01 atm.\n5.2.9 Synchronization\nExperiment objectives require all data to be time-synchronized to a reference time. This will allow\naccurate interpretation of the data and evaluate droplet regression rate, ﬂame structure, and ﬂame\nextinction as a function of time.\nTime synchronization : all measurements shall be referenced to GMT with a minimum accuracy\nof ± 0.03 sec.\n5.3 Flight Experiment Test Procedures\nThe FLEX experiments involve igniting and observing the burning behavior of relatively large\ndroplets. One of the primary objectives of the experiments is to determine the LOI as a function\nof ambient pressure and determine how the presence of a suppressant inﬂuences the LOI . The\ndetermination of the LOI involves conducting a series of tests and constructing a diagram similar\nto that in Fig. 2. The basic outline of the procedure to construct this diagram is as follows:\n1. Select the test pressure (0 .5 − 1.5 atm) for the LOI tests.\n2. Select a smaller droplet size ( ≈ 3 mm)\n3. Select an ambient oxygen mole fraction that, based on ground-based testing, will support\ndroplets burning to completion (as opposed to extinguishing at a ﬁnite droplet size).\n4. Perform a droplet combustion test.\n5. Increase the droplet size or repeat the test (if ﬁnite extinction diameter at ﬂame extinction\nobserved).\n6. Continue steps 4 and 5 until ﬂame exists for only a short time after ignition (radiative ex-\ntinction).\n7. Continue steps 4 thru 6 at a decreased ambient oxygen mole fraction.\n8. Continue step 7 to an ambient oxygen mole fraction where the droplet does not ignite.\nThere will likely be ambient conditions where the extinction droplet sizes at all ambient oxygen\nmole fractions are too small to either be observed or measured with the available diagnostics. In\nthis case, the determination of the LOI is similar, but more iterative. Instead of observing ﬂame\nextinction, however, the procedure will involve an iterative sequence of tests (burn to completion\nfollowed by a no ignition test) with progressively smaller increments in ambient oxygen mole fraction\nto determine the LOI .\nFor the slow ﬂow tests (in the ﬂight experiment), the current conﬁguration of the ﬂight hardware\ndoes not allow for adequate diagnostics over the entire test for a droplet in a uniform, steady\n44"
+    },
+    {
+      "id": "PSI-69:pdf:684347459e44646b74028a01:v1:p5",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684347459e44646b74028a01",
+        "key": "psi-data/PSI-69/Science Documents/PSI-69_Science Documents_FLEX_Test_Plan.pdf",
+        "version": 1,
+        "filename": "PSI-69_Science Documents_FLEX_Test_Plan.pdf",
+        "sha256": "0af43477a04b05e3c44558b22c16a69cfda837a6a17fa94178ce1f9fce361dc5",
+        "page": 5
+      },
+      "text": "convective ﬂow7. In these tests, the procedure will be to duplicate tests above which yield ﬁnite-\nsized extinction droplet diameters. Near the end of the tests, prior to ﬂame extinction, the droplet\nwill by subjected to a small, sub-buoyant, convective ﬂow (imparted by translating the droplet at\na slow, uniform speed). The goal of the experiment is then to see how the presence of this ﬂow\ninﬂuences the extinction process. We also note that a large number of the tests will involve free\ndroplets (as opposed to ﬁber-supported droplets). A number of these tests will have droplets with\na slow drift velocity. We can also use the data gathered from these tests to examine the inﬂuences\nof a small, sub-buoyant ﬂow on both the burning and extinction process.\nThe procedure to examine the suppressant eﬃcacy will be essentially the to that used to de-\ntermine the LOI . The major diﬀerence will be that in addition to the diluent ( N2 ), the ambient\nwill contain a suppressant. The test procedure will be identical to that above; the steps described\nabove will be performed at a ﬁxed suppressant level. Subsequent series of tests will then be at\ndiﬀerent suppressant concentrations and types of suppressants.\n5.4 FLEX Test Matrix\nThe proposed test matrix is fashioned so as to meet the stated science objectives and at the same\ntime meet the constraints imposed by the hardware as well as the safety requirements of space\nexperiments. The previous section described the test procedures. The exact test matrix will\nchange during the conduct of the FLEX experiment. The initial conditions for the ﬁrst series of\nFLEX tests will be determined by extensive ground testing in the drop towers at the NASA Glenn\nResearch Center. It is important, however, for the engineering team to have a test matrix on paper\nso that it can determine consumable resource requirements and prepare for the necessary safety\nreviews. The following test matrices, then are designed to allow the engineering team to adequately\nplan for the experiment and do not represent the ﬁnal test matrix. These test matrices provide for\nan envelope in which all of the actual tests will be conducted.\nThe test matrix is broken up into a series of sub-matrices each of which is designed to highlight\nan objective of the experiment. The ﬁrst series of tests, described in Tables 6 and 7, will determine\nthe LOI as a function of pressure for heptane and methanol in quiescent and ﬂowing environments,\nrespectively. The second series of tests, described in Tables 8, 9 and 10, examines the eﬃcacy of\nCO2 , He and SF6 . The tests use the two test fuels, are over a range of pressures, oxygen mole\nfractions and suppressant mole fractions. The tests described in Table 11 examine how a slow,\nsub-buoyant ﬂow inﬂuences the eﬃcacy of a single suppressant, CO2 . Finally, the tests in Table\n12 examine the inﬂuence of a stronger radiative environment (achieved by increasing the pressure)\non the eﬃcacy of a single suppressant.\n7This will, however, be extensively studied in the complimentary ground-based program\n45"
+    },
+    {
+      "id": "PSI-69:pdf:684347459e44646b74028a01:v1:p6",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684347459e44646b74028a01",
+        "key": "psi-data/PSI-69/Science Documents/PSI-69_Science Documents_FLEX_Test_Plan.pdf",
+        "version": 1,
+        "filename": "PSI-69_Science Documents_FLEX_Test_Plan.pdf",
+        "sha256": "0af43477a04b05e3c44558b22c16a69cfda837a6a17fa94178ce1f9fce361dc5",
+        "page": 6
+      },
+      "text": "Table 6: Quiescent environment LOI test matrix.\nFuel: C7H16 , Diluent: N2 , No ﬁber\nsupport, Flow: 0 .0 cm/s, D0 = 3 , 5 mm,\nXN 2 = 1.0 − XO2.\nT est No. P (atm) XO2\n1 0.50 0.20\n2 0.50 0.30\n3 0.50 0.35\n4 0.75 0.13\n5 0.75 0.20\n6 0.75 0.28\n7 0.75 0.40\n8 1.00 0.10\n9 1.00 0.15\n10 1.00 0.21\n11 1.00 0.30\n12 1.50 0.10\n13 1.50 0.15\n14 1.50 0.21\nFuel: CH3OH\n15 0.50 0.20\n16 0.50 0.30\n17 0.50 0.35\n18 0.75 0.13\n19 0.75 0.20\n20 0.75 0.28\n21 0.75 0.40\n22 1.00 0.10\n23 1.00 0.15\n24 1.00 0.21\n25 1.00 0.30\n26 1.50 0.10\n27 1.50 0.15\n28 1.50 0.21\n46"
+    },
+    {
+      "id": "PSI-69:pdf:684347459e44646b74028a01:v1:p7",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684347459e44646b74028a01",
+        "key": "psi-data/PSI-69/Science Documents/PSI-69_Science Documents_FLEX_Test_Plan.pdf",
+        "version": 1,
+        "filename": "PSI-69_Science Documents_FLEX_Test_Plan.pdf",
+        "sha256": "0af43477a04b05e3c44558b22c16a69cfda837a6a17fa94178ce1f9fce361dc5",
+        "page": 7
+      },
+      "text": "Table 7: Slow ﬂow LOI test matrix\nFuel: C7H16 , Diluent: N2 , SiC ﬁber\nsupport, Flow: 1 .5 cm/s, D0 = 3 , 5 mm,\nXN 2 = 1.0 − XO2.\nT est No. P (atm) XO2\n29 0.50 0.20\n30 0.50 0.30\n31 0.50 0.35\n32 0.75 0.13\n33 0.75 0.20\n34 0.75 0.28\n35 0.75 0.40\n36 1.00 0.10\n37 1.00 0.15\n38 1.00 0.21\n39 1.00 0.30\nFuel: CH3OH\n40 0.50 0.20\n41 0.50 0.30\n42 0.50 0.35\n43 0.75 0.13\n44 0.75 0.20\n45 0.75 0.28\n46 0.75 0.40\n47 1.00 0.10\n48 1.00 0.15\n49 1.00 0.21\n50 1.00 0.30\n47"
+    },
+    {
+      "id": "PSI-69:pdf:684347459e44646b74028a01:v1:p8",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684347459e44646b74028a01",
+        "key": "psi-data/PSI-69/Science Documents/PSI-69_Science Documents_FLEX_Test_Plan.pdf",
+        "version": 1,
+        "filename": "PSI-69_Science Documents_FLEX_Test_Plan.pdf",
+        "sha256": "0af43477a04b05e3c44558b22c16a69cfda837a6a17fa94178ce1f9fce361dc5",
+        "page": 8
+      },
+      "text": "Table 8: CO2 suppressant eﬃcacy test matrix.\nFuel: C7H16 , Diluent: N2 , Suppressant: CO2 , No ﬁber\nsupport, Flow: 0 .0 cm/s, D0 = 3 , 5 mm,\nXN 2 = 1.0 − XO2 − XCO 2.\nT est No. P (atm) XO2 XCO 2\n51 0.70 0.25 0.15\n52 0.70 0.25 0.25\n53 0.70 0.25 0.50\n54 0.70 0.25 0.70\n55 0.70 0.30 0.15\n56 0.70 0.30 0.25\n57 0.70 0.30 0.50\n58 0.70 0.30 0.70\n59 0.85 0.25 0.15\n60 0.85 0.25 0.25\n61 0.85 0.25 0.50\n62 0.85 0.25 0.70\n63 0.85 0.30 0.15\n64 0.85 0.30 0.25\n65 0.85 0.30 0.50\n66 0.85 0.30 0.70\n67 1.00 0.10 0.15\n68 1.00 0.10 0.25\n69 1.00 0.10 0.50\n70 1.00 0.10 0.70\n71 1.00 0.15 0.15\n72 1.00 0.15 0.25\n73 1.00 0.15 0.50\n74 1.00 0.15 0.70\n75 1.00 0.21 0.15\n76 1.00 0.21 0.25\n77 1.00 0.21 0.50\n78 1.00 0.21 0.70\nFuel: CH3OH .\n79 0.70 0.25 0.15\n80 0.70 0.25 0.25\n81 0.70 0.25 0.50\n82 0.70 0.25 0.70\n83 0.70 0.30 0.15\n84 0.70 0.30 0.25\n85 0.70 0.30 0.50\n86 0.70 0.30 0.70\n87 0.85 0.25 0.15\n88 0.85 0.25 0.25\n89 0.85 0.25 0.50\n90 0.85 0.25 0.70\n48"
+    },
+    {
+      "id": "PSI-69:pdf:684347459e44646b74028a01:v1:p9",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684347459e44646b74028a01",
+        "key": "psi-data/PSI-69/Science Documents/PSI-69_Science Documents_FLEX_Test_Plan.pdf",
+        "version": 1,
+        "filename": "PSI-69_Science Documents_FLEX_Test_Plan.pdf",
+        "sha256": "0af43477a04b05e3c44558b22c16a69cfda837a6a17fa94178ce1f9fce361dc5",
+        "page": 9
+      },
+      "text": "91 0.85 0.30 0.15\n92 0.85 0.30 0.25\n93 0.85 0.30 0.50\n94 0.85 0.30 0.70\n95 1.00 0.10 0.15\n96 1.00 0.10 0.25\n97 1.00 0.10 0.50\n98 1.00 0.10 0.70\n99 1.00 0.15 0.15\n100 1.00 0.15 0.25\n101 1.00 0.15 0.50\n102 1.00 0.15 0.70\n103 1.00 0.21 0.15\n104 1.00 0.21 0.25\n105 1.00 0.21 0.50\n106 1.00 0.21 0.70\n49"
+    },
+    {
+      "id": "PSI-69:pdf:684347459e44646b74028a01:v1:p10",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684347459e44646b74028a01",
+        "key": "psi-data/PSI-69/Science Documents/PSI-69_Science Documents_FLEX_Test_Plan.pdf",
+        "version": 1,
+        "filename": "PSI-69_Science Documents_FLEX_Test_Plan.pdf",
+        "sha256": "0af43477a04b05e3c44558b22c16a69cfda837a6a17fa94178ce1f9fce361dc5",
+        "page": 10
+      },
+      "text": "Table 9: He suppressant eﬃcacy test matrix.\nFuel: C7H16 , Diluent: N2 , Suppressant: He , No ﬁber\nsupport, Flow: 0 .0 cm/s, D0 = 3 , 5 mm,\nXN 2 = 1.0 − XO2 − XHe .\nT est No. P (atm) XO2 XHe\n107 0.70 0.25 0.15\n108 0.70 0.25 0.25\n109 0.70 0.25 0.50\n110 0.70 0.25 0.70\n111 0.70 0.30 0.15\n112 0.70 0.30 0.25\n113 0.70 0.30 0.50\n114 0.70 0.30 0.70\n115 0.85 0.25 0.15\n116 0.85 0.25 0.25\n117 0.85 0.25 0.50\n118 0.85 0.25 0.70\n119 0.85 0.30 0.15\n120 0.85 0.30 0.25\n121 0.85 0.30 0.50\n122 0.85 0.30 0.70\n123 1.00 0.10 0.15\n124 1.00 0.10 0.25\n125 1.00 0.10 0.50\n126 1.00 0.10 0.70\n127 1.00 0.15 0.15\n128 1.00 0.15 0.25\n129 1.00 0.15 0.50\n130 1.00 0.15 0.70\n131 1.00 0.21 0.15\n132 1.00 0.21 0.25\n133 1.00 0.21 0.50\n134 1.00 0.21 0.70\nFuel: CH3OH\n135 0.70 0.25 0.15\n136 0.70 0.25 0.25\n137 0.70 0.25 0.50\n138 0.70 0.25 0.70\n139 0.70 0.30 0.15\n140 0.70 0.30 0.25\n141 0.70 0.30 0.50\n142 0.70 0.30 0.70\n143 0.85 0.25 0.15\n144 0.85 0.25 0.25\n145 0.85 0.25 0.50\n146 0.85 0.25 0.70\n50"
+    },
+    {
+      "id": "PSI-69:pdf:684347459e44646b74028a01:v1:p11",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684347459e44646b74028a01",
+        "key": "psi-data/PSI-69/Science Documents/PSI-69_Science Documents_FLEX_Test_Plan.pdf",
+        "version": 1,
+        "filename": "PSI-69_Science Documents_FLEX_Test_Plan.pdf",
+        "sha256": "0af43477a04b05e3c44558b22c16a69cfda837a6a17fa94178ce1f9fce361dc5",
+        "page": 11
+      },
+      "text": "147 0.85 0.30 0.15\n148 0.85 0.30 0.25\n149 0.85 0.30 0.50\n150 0.85 0.30 0.70\n151 1.00 0.10 0.15\n152 1.00 0.10 0.25\n153 1.00 0.10 0.50\n154 1.00 0.10 0.70\n155 1.00 0.15 0.15\n156 1.00 0.15 0.25\n157 1.00 0.15 0.50\n158 1.00 0.15 0.70\n159 1.00 0.21 0.15\n160 1.00 0.21 0.25\n161 1.00 0.21 0.50\n162 1.00 0.21 0.70\n51"
+    },
+    {
+      "id": "PSI-69:pdf:684347459e44646b74028a01:v1:p12",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684347459e44646b74028a01",
+        "key": "psi-data/PSI-69/Science Documents/PSI-69_Science Documents_FLEX_Test_Plan.pdf",
+        "version": 1,
+        "filename": "PSI-69_Science Documents_FLEX_Test_Plan.pdf",
+        "sha256": "0af43477a04b05e3c44558b22c16a69cfda837a6a17fa94178ce1f9fce361dc5",
+        "page": 12
+      },
+      "text": "Table 10: SF6 suppressant eﬃcacy test matrix.\nFuel: C7H16 , Diluent: N2 , Suppressant: SF6 , No ﬁber\nsupport, Flow: 0 .0 cm/s, D0 = 3 , 5 mm,\nXN 2 = 1.0 − XO2 − XSF 6.\nT est No. P (atm) XO2 XSF 6\n163 0.70 0.25 0.15\n164 0.70 0.25 0.25\n165 0.70 0.25 0.50\n166 0.70 0.25 0.70\n167 0.70 0.30 0.15\n168 0.70 0.30 0.25\n169 0.70 0.30 0.50\n170 0.70 0.30 0.70\n171 0.85 0.25 0.15\n172 0.85 0.25 0.25\n173 0.85 0.25 0.50\n174 0.85 0.25 0.70\n175 0.85 0.30 0.15\n176 0.85 0.30 0.25\n177 0.85 0.30 0.50\n178 0.85 0.30 0.70\n179 1.00 0.10 0.15\n180 1.00 0.10 0.25\n181 1.00 0.10 0.50\n182 1.00 0.10 0.70\n183 1.00 0.15 0.15\n184 1.00 0.15 0.25\n185 1.00 0.15 0.50\n186 1.00 0.15 0.70\n187 1.00 0.21 0.15\n188 1.00 0.21 0.25\n189 1.00 0.21 0.50\n190 1.00 0.21 0.70\nFuel: CH3OH\n191 0.70 0.25 0.15\n192 0.70 0.25 0.25\n193 0.70 0.25 0.50\n194 0.70 0.25 0.70\n195 0.70 0.30 0.15\n196 0.70 0.30 0.25\n197 0.70 0.30 0.50\n198 0.70 0.30 0.70\n199 0.85 0.25 0.15\n200 0.85 0.25 0.25\n201 0.85 0.25 0.50\n202 0.85 0.25 0.70\n52"
+    },
+    {
+      "id": "PSI-69:pdf:684347459e44646b74028a01:v1:p13",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684347459e44646b74028a01",
+        "key": "psi-data/PSI-69/Science Documents/PSI-69_Science Documents_FLEX_Test_Plan.pdf",
+        "version": 1,
+        "filename": "PSI-69_Science Documents_FLEX_Test_Plan.pdf",
+        "sha256": "0af43477a04b05e3c44558b22c16a69cfda837a6a17fa94178ce1f9fce361dc5",
+        "page": 13
+      },
+      "text": "203 0.85 0.30 0.15\n204 0.85 0.30 0.25\n205 0.85 0.30 0.50\n206 0.85 0.30 0.70\n207 1.00 0.10 0.15\n208 1.00 0.10 0.25\n209 1.00 0.10 0.50\n210 1.00 0.10 0.70\n211 1.00 0.15 0.15\n212 1.00 0.15 0.25\n213 1.00 0.15 0.50\n214 1.00 0.15 0.70\n215 1.00 0.21 0.15\n216 1.00 0.21 0.25\n217 1.00 0.21 0.50\n218 1.00 0.21 0.70\n53"
+    },
+    {
+      "id": "PSI-69:pdf:684347459e44646b74028a01:v1:p14",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684347459e44646b74028a01",
+        "key": "psi-data/PSI-69/Science Documents/PSI-69_Science Documents_FLEX_Test_Plan.pdf",
+        "version": 1,
+        "filename": "PSI-69_Science Documents_FLEX_Test_Plan.pdf",
+        "sha256": "0af43477a04b05e3c44558b22c16a69cfda837a6a17fa94178ce1f9fce361dc5",
+        "page": 14
+      },
+      "text": "Table 11: Suppressant eﬃcacy in a slow ﬂow test matrix.\nFuel: C7H16 , Diluent: N2 , Suppressant: CO2 , No ﬁber,\nFlow: 1 .5 cm/s, D0 = 3 , 5 mm, XN 2 = 1.0 − XO2 − XCO 2.\nT est No. P (atm) XO2 XCO 2\n219 0.70 0.10 0.15\n220 0.70 0.10 0.25\n221 0.70 0.10 0.50\n222 0.70 0.10 0.70\n223 0.70 0.21 0.15\n224 0.70 0.21 0.25\n225 0.70 0.21 0.50\n226 0.70 0.21 0.70\n227 1.00 0.10 0.15\n228 1.00 0.10 0.25\n229 1.00 0.10 0.50\n230 1.00 0.10 0.70\n231 1.00 0.15 0.15\n232 1.00 0.15 0.25\n233 1.00 0.15 0.50\n234 1.00 0.15 0.70\n235 1.00 0.21 0.15\n236 1.00 0.21 0.25\n237 1.00 0.21 0.50\n238 1.00 0.21 0.70\nFuel: CH3OH\n239 0.70 0.10 0.15\n240 0.70 0.10 0.25\n241 0.70 0.10 0.50\n242 0.70 0.10 0.70\n243 0.70 0.21 0.15\n244 0.70 0.21 0.25\n245 0.70 0.21 0.50\n246 0.70 0.21 0.70\n247 1.00 0.10 0.15\n248 1.00 0.10 0.25\n249 1.00 0.10 0.50\n250 1.00 0.10 0.70\n251 1.00 0.15 0.15\n252 1.00 0.15 0.25\n253 1.00 0.15 0.50\n254 1.00 0.15 0.70\n255 1.00 0.21 0.15\n256 1.00 0.21 0.25\n257 1.00 0.21 0.50\n258 1.00 0.21 0.70\n54"
+    },
+    {
+      "id": "PSI-69:pdf:684347459e44646b74028a01:v1:p15",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684347459e44646b74028a01",
+        "key": "psi-data/PSI-69/Science Documents/PSI-69_Science Documents_FLEX_Test_Plan.pdf",
+        "version": 1,
+        "filename": "PSI-69_Science Documents_FLEX_Test_Plan.pdf",
+        "sha256": "0af43477a04b05e3c44558b22c16a69cfda837a6a17fa94178ce1f9fce361dc5",
+        "page": 15
+      },
+      "text": "Table 12: Suppressant in a radiative environment test matrix.\nFuel: C7H16 , Diluent: N2 , Suppressant: CO2 , No ﬁber\nsupport, Flow: 0 .0 cm/s, D0 = 3 , 5 mm,\nXN 2 = 1.0 − XO2 − XCO 2.\nT est No. P (atm) XO2 XCO 2\n259 2.00 0.10 0.15\n260 2.00 0.10 0.25\n261 2.00 0.10 0.50\n262 2.00 0.10 0.70\n263 2.00 0.21 0.15\n264 2.00 0.21 0.25\n265 2.00 0.21 0.50\n266 2.00 0.21 0.70\n267 3.00 0.10 0.15\n268 3.00 0.10 0.25\n269 3.00 0.10 0.50\n270 3.00 0.10 0.70\n271 3.00 0.21 0.15\n272 3.00 0.21 0.25\n273 3.00 0.21 0.50\n274 3.00 0.21 0.70\nFuel: CH3OH\n275 2.00 0.10 0.15\n276 2.00 0.10 0.25\n277 2.00 0.10 0.50\n278 2.00 0.10 0.70\n279 2.00 0.21 0.15\n280 2.00 0.21 0.25\n281 2.00 0.21 0.50\n282 2.00 0.21 0.70\n283 3.00 0.10 0.15\n284 3.00 0.10 0.25\n285 3.00 0.10 0.50\n286 3.00 0.10 0.70\n287 3.00 0.21 0.15\n288 3.00 0.21 0.25\n289 3.00 0.21 0.50\n290 3.00 0.21 0.70\n55"
+    },
+    {
+      "id": "PSI-69:pdf:684344b89e44646b7402706b:v1:p1",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684344b89e44646b7402706b",
+        "key": "psi-data/PSI-69/Presentations/PSI-69_Presentations_20130010979.pdf",
+        "version": 1,
+        "filename": "PSI-69_Presentations_20130010979.pdf",
+        "sha256": "56e69491fe8af3a31e2f2e1732b0133d769b4de356815419d41c85651d0479d1",
+        "page": 1
+      },
+      "text": "Dynamics of Water Absorption and Evaporation \nDuring Methanol \nDroplet Combustion in Microgravity \n28th Annual  Meeting of the  \nAmerican Society for Space and Gravitational Research  \nNov. 28th – Dec. 2nd, 2012  \nMichael C. Hicks1 ,   Daniel L. Dietrich1 , Vedha Nayagam2, and Forman A. Williams3 \n \n1 NASA - Glenn Research Center \n2 National Center for Space Exploration Research \n3 University of California, San Diego \n \n \n "
+    },
+    {
+      "id": "PSI-69:pdf:684344b89e44646b7402706b:v1:p2",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684344b89e44646b7402706b",
+        "key": "psi-data/PSI-69/Presentations/PSI-69_Presentations_20130010979.pdf",
+        "version": 1,
+        "filename": "PSI-69_Presentations_20130010979.pdf",
+        "sha256": "56e69491fe8af3a31e2f2e1732b0133d769b4de356815419d41c85651d0479d1",
+        "page": 2
+      },
+      "text": "28th Annual Meeting  of the American Society of Space and Gravitational Research  \nDynamics of Water Absorption and Evaporation During Methanol Droplet \nCombustion in Microgravity \n2 of 15 \nPresentation Outline \n• Background  \n- MeOH as a proxy fuel for droplet combustion studies  \n- MeOH droplet combustion -  water absorption / evaporation theory  \n- Review of previous work  \n• Recent Analysis of ISS and Ground Tests \n- Experimental configurations  \n…  Zero Gravity Facility (ZGF) and ISS (FLEX)  \n- Measurement of incipient water evaporation  \n… LLUV camera for imaging OH* chemi-luminescence \n… ZGF drop rig color camera \n• Future Work  \n "
+    },
+    {
+      "id": "PSI-69:pdf:684344b89e44646b7402706b:v1:p3",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684344b89e44646b7402706b",
+        "key": "psi-data/PSI-69/Presentations/PSI-69_Presentations_20130010979.pdf",
+        "version": 1,
+        "filename": "PSI-69_Presentations_20130010979.pdf",
+        "sha256": "56e69491fe8af3a31e2f2e1732b0133d769b4de356815419d41c85651d0479d1",
+        "page": 3
+      },
+      "text": "28th Annual Meeting  of the American Society of Space and Gravitational Research  \nDynamics of Water Absorption and Evaporation During Methanol Droplet \nCombustion in Microgravity \n3 of 15 \nMethanol as an experimental proxy fuel \nAside from obtaining a better understanding of combustion of MeOH as a fuel in \npractical applications,  MeOH serves as an excellent experimental proxy for \nrefining our understanding of basic combustion phenomena … \n• Chemical kinetics are relatively simple … oxidation reaction is adequately captured in a \nreduced 2 step mechanism (Zhang, '96)  \n• Only trace amounts of CH3 resulting in very little soot production \n• Stoichiometry results in relatively small flame stand-off distances … minimizing radiative \neffects \n•  Water vapor produced from combustion diffuses back to the droplet surface, condenses \n(Tb= 64.7°C) … can serve as a useful model for studying condensed phase mixing and \nbi-component fuels. \n→\n→\n3 22 22\n2 22 2\n2C H O H+O H O+C O +3H +C O ( I )\nH + CO+ O H O+ CO (II)"
+    },
+    {
+      "id": "PSI-69:pdf:684344b89e44646b7402706b:v1:p4",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684344b89e44646b7402706b",
+        "key": "psi-data/PSI-69/Presentations/PSI-69_Presentations_20130010979.pdf",
+        "version": 1,
+        "filename": "PSI-69_Presentations_20130010979.pdf",
+        "sha256": "56e69491fe8af3a31e2f2e1732b0133d769b4de356815419d41c85651d0479d1",
+        "page": 4
+      },
+      "text": "28th Annual Meeting  of the American Society of Space and Gravitational Research  \nDynamics of Water Absorption and Evaporation During Methanol Droplet \nCombustion in Microgravity \n4 of 15 \nMeOH Droplet Extinction Theory  \n• Initially, water produced in the  flame diffuses back to the \ndroplet surface and condenses  \n• During the second half of the burning period the water is \nabsorbed and gradually builds up in the droplet  \n• Two “idealized” limiting cases for describing the possible \nmixing mechanisms of the binary liquid mixture  \n- diffusion limited … no internal convection in the droplet \nresulting in a thin boundary layer of water that quickly begins to \nevaporate with the fuel   \n - convection limited … binary mixture is homogenous throughout the droplet resulting in a \ngreater amount of water in the droplet and an increase in the concentration of water that \nvaporizes with the fuel   \n• At a certain mixture threshold water begins to evaporate with the fuel and is \nconvected back to the flame zone \n• As water reaches the flame zone the flame temperature decreases,  the reaction time  \nincreases, and eventually the reaction time reaches the limit beyond which the \nresidence time is insufficient to sustain the oxidation reaction … at which point  the \nflame extinguishes \n"
+    },
+    {
+      "id": "PSI-69:pdf:684344b89e44646b7402706b:v1:p5",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684344b89e44646b7402706b",
+        "key": "psi-data/PSI-69/Presentations/PSI-69_Presentations_20130010979.pdf",
+        "version": 1,
+        "filename": "PSI-69_Presentations_20130010979.pdf",
+        "sha256": "56e69491fe8af3a31e2f2e1732b0133d769b4de356815419d41c85651d0479d1",
+        "page": 5
+      },
+      "text": "28th Annual Meeting  of the American Society of Space and Gravitational Research  \nDynamics of Water Absorption and Evaporation During Methanol Droplet \nCombustion in Microgravity \n5 of 15 \nPrevious Work \n• Implications of water condensation on the surface of evaporating  MeOH droplets first \ninvestigated in the context of a theoretical study of spray evaporation (Law & Binark, '79) \n- condensation heat release could augment evaporation rates \n- water produced from combustion could \"back diffuse\" to fuel surface,  having a similar effect to \nenvironmental humidity  \n• Experiment performed on evaporation rates of suspended MeOH droplets in cold humid \nenvironments (Law et al., '87) \n- latent heat of condensation at droplet surface initially increase evaporation rates which gradually \ndecrease as the droplet becomes concentrated with water \n• The effect of water condensation and absorption at the droplet surface during rapid \nevaporation (e.g., combustion) first reported by Choi et al. ('88, '89) and extended in later \nstudies (Cho et al. '90; Lee & Law, '92;  Yang et al.'90; Dietrich et al., '96) \n•  A considerable amount of theoretical and numerical work has been performed through \nthe years increasing our basic understanding of the complicated processes occurring \nduring MeOH combustion – condensed phase transport, burning rate dependencies, \nextinction mechanisms, radiative transport, etc. (Chao et al., '90;  Marchese et al., '96; \nZhang et al., '96, '97, '98; Okai, et al., 2000;  Dwyer et al., '96, 98, Kazakov et al., '03, \nFarouk et al., '12)  "
+    },
+    {
+      "id": "PSI-69:pdf:684344b89e44646b7402706b:v1:p6",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684344b89e44646b7402706b",
+        "key": "psi-data/PSI-69/Presentations/PSI-69_Presentations_20130010979.pdf",
+        "version": 1,
+        "filename": "PSI-69_Presentations_20130010979.pdf",
+        "sha256": "56e69491fe8af3a31e2f2e1732b0133d769b4de356815419d41c85651d0479d1",
+        "page": 6
+      },
+      "text": "28th Annual Meeting  of the American Society of Space and Gravitational Research  \nDynamics of Water Absorption and Evaporation During Methanol Droplet \nCombustion in Microgravity \n6 of 15 \nZGF Experiment Configuration \n"
+    },
+    {
+      "id": "PSI-69:pdf:684344b89e44646b7402706b:v1:p7",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684344b89e44646b7402706b",
+        "key": "psi-data/PSI-69/Presentations/PSI-69_Presentations_20130010979.pdf",
+        "version": 1,
+        "filename": "PSI-69_Presentations_20130010979.pdf",
+        "sha256": "56e69491fe8af3a31e2f2e1732b0133d769b4de356815419d41c85651d0479d1",
+        "page": 7
+      },
+      "text": "28th Annual Meeting  of the American Society of Space and Gravitational Research  \nDynamics of Water Absorption and Evaporation During Methanol Droplet \nCombustion in Microgravity \n7 of 15 \nZGF Imaging Capabilities \nTest Point H-8-04 \n• 1.0 atm in 21% O2 / 35% Ar / 44% N2 \n• Methanol droplet  \n Do = 1.69 mm \n D ext =  0.79 mm (at visible flame extinction) \n• Burning rate constant, K = 0.67 m2/s \n \nBacklit  Droplet View \n \nZGF Color Camera \n \n"
+    },
+    {
+      "id": "PSI-69:pdf:684344b89e44646b7402706b:v1:p8",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684344b89e44646b7402706b",
+        "key": "psi-data/PSI-69/Presentations/PSI-69_Presentations_20130010979.pdf",
+        "version": 1,
+        "filename": "PSI-69_Presentations_20130010979.pdf",
+        "sha256": "56e69491fe8af3a31e2f2e1732b0133d769b4de356815419d41c85651d0479d1",
+        "page": 8
+      },
+      "text": "28th Annual Meeting  of the American Society of Space and Gravitational Research  \nDynamics of Water Absorption and Evaporation During Methanol Droplet \nCombustion in Microgravity \n8 of 15 \nISS Experiment Configuration \n1 \n5 \n3 7 \nRadiometers \nColor \nCamera \nLLL-UV \nColor Camera \nHiBMS \n(Soot Temp) \nHiBMs HiBMs & \nIllumination \nHiBMs \nCam \n#1 \n \n30 mm \nNew \nComp \nDCM \nS/N 2013 \nNo LCTF \nUML-8 \nDroplet View \nHiBMs \nCam \n#2 \n \n50 mm \nLCTF \nDCM \nS/N 2001 \nw/ LCTF \nUML-7 \nSoot Temp View "
+    },
+    {
+      "id": "PSI-69:pdf:684344b89e44646b7402706b:v1:p9",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684344b89e44646b7402706b",
+        "key": "psi-data/PSI-69/Presentations/PSI-69_Presentations_20130010979.pdf",
+        "version": 1,
+        "filename": "PSI-69_Presentations_20130010979.pdf",
+        "sha256": "56e69491fe8af3a31e2f2e1732b0133d769b4de356815419d41c85651d0479d1",
+        "page": 9
+      },
+      "text": "28th Annual Meeting  of the American Society of Space and Gravitational Research  \nDynamics of Water Absorption and Evaporation During Methanol Droplet \nCombustion in Microgravity \n9 of 15 \nISS Imaging Capabilities \nTest Point FLEX-145 \n• 1.0 atm in 20% O2 / 75% CO2 / 5% N2 \n• Methanol droplet  \n Do = 3.38 mm \n D ext =  1.66 (at visible flame extinction) \n• Burning rate constant, K = 0.44 m2/s \n \nHigh Bit Multi-Spectral (HiBMS-1) Camera \nused for backlit  droplet image  \n \nLow Light Level – Ultra Violet (LLUV) Camera  \nused for imaging chemiluminescence from OH*  emissions \n \nMulit-User Droplet Combustion Apparatus (MDCA) Color Camera \nused for \"real time\" operations monitoring and flame imaging  \n "
+    },
+    {
+      "id": "PSI-69:pdf:684344b89e44646b7402706b:v1:p10",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684344b89e44646b7402706b",
+        "key": "psi-data/PSI-69/Presentations/PSI-69_Presentations_20130010979.pdf",
+        "version": 1,
+        "filename": "PSI-69_Presentations_20130010979.pdf",
+        "sha256": "56e69491fe8af3a31e2f2e1732b0133d769b4de356815419d41c85651d0479d1",
+        "page": 10
+      },
+      "text": "28th Annual Meeting  of the American Society of Space and Gravitational Research  \nDynamics of Water Absorption and Evaporation During Methanol Droplet \nCombustion in Microgravity \n10 of 15 \nDroplet and flame histories showing progression from ignition �  early transient  �  quasi-steady �  extinction.     \nMeOH Burning History  \nFLEX-145 :  Pressure  = 1 atm ,   O2 20% / N2 75% / CO2 5% ,  D0 = 3.3 mm \ndroplet regression  \nflame diameter  \nflame standoff  "
+    },
+    {
+      "id": "PSI-69:pdf:684344b89e44646b7402706b:v1:p11",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684344b89e44646b7402706b",
+        "key": "psi-data/PSI-69/Presentations/PSI-69_Presentations_20130010979.pdf",
+        "version": 1,
+        "filename": "PSI-69_Presentations_20130010979.pdf",
+        "sha256": "56e69491fe8af3a31e2f2e1732b0133d769b4de356815419d41c85651d0479d1",
+        "page": 11
+      },
+      "text": "28th Annual Meeting  of the American Society of Space and Gravitational Research  \nDynamics of Water Absorption and Evaporation During Methanol Droplet \nCombustion in Microgravity \n11 of 15 \nISS FLEX MeOH Test Results \n• Recent FLEX testing with a range of O2 \nconcentrations from 13% to 21% w/ \ndiluent mixtures of CO2 / N2 .  \n• Theory1 suggests a linear relationship \nbetween extinction diameter, de , and \ninitial droplet diameter, d0  \n \n \nwater flux fraction \ndl(m) \nwater absorbed \nevaporation \n1 B.L. Zhang, J.M. Card and F.A. Williams, Combustion and Flame, 1996 \nExtinction diameter, de , plotted as a function of initial \ndiameter, d0 , in CO2/N2 diluent mixtures at 1 atm pressure. "
+    },
+    {
+      "id": "PSI-69:pdf:684344b89e44646b7402706b:v1:p12",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684344b89e44646b7402706b",
+        "key": "psi-data/PSI-69/Presentations/PSI-69_Presentations_20130010979.pdf",
+        "version": 1,
+        "filename": "PSI-69_Presentations_20130010979.pdf",
+        "sha256": "56e69491fe8af3a31e2f2e1732b0133d769b4de356815419d41c85651d0479d1",
+        "page": 12
+      },
+      "text": "28th Annual Meeting  of the American Society of Space and Gravitational Research  \nDynamics of Water Absorption and Evaporation During Methanol Droplet \nCombustion in Microgravity \n12 of 15 \nZGF Test Results \n• Similar results from tests performed in the ZGF using  Ar/N2 diluent gas mixtures \n• Ar/N2  diluent gas mixtures provide good comparisons with CO2 /N2 diluents w/o the \neffects of gas phase radiation \nTest No. O2% N2% Ar% Pressure \nH-7-62 21 29 50 1 atm \nH-7-63 21 9 70 1 atm \nH-7-65 21 9 70 1 atm \nH-7-66 21 29 50 1 atm \nH-7-67 21 54 25 1 atm \nH-7-96 21 9 70 1 atm \nH-8-02 21 0 79 .5 atm \nH-8-03 21 28 51 .5 atm \nH-8-04 21 44 35 1 atm \nH-8-05 21 56 23 1.5 atm \nH-8-07 21 16 63 1 atm \nH-8-08 21 79 0 2 atm \nH-8-09 21 34 45 1 atm \nH-8-11 21 16 63 1 atm \nH-8-12 21 54 25 1 atm \nH-8-13 21 6 73  1 atm \nO2 = 21% w/  Ar ranging from 0% to 79% \n0.0  \n0.2  \n0.4  \n0.6  \n0.8  \n1.0  \n1.2  \n1.4  \n1.0  1.2  1.4  1.6  1.8  2.0  2.2  \nDe  (mm)\nDo  (mm)\nDext"
+    },
+    {
+      "id": "PSI-69:pdf:684344b89e44646b7402706b:v1:p13",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684344b89e44646b7402706b",
+        "key": "psi-data/PSI-69/Presentations/PSI-69_Presentations_20130010979.pdf",
+        "version": 1,
+        "filename": "PSI-69_Presentations_20130010979.pdf",
+        "sha256": "56e69491fe8af3a31e2f2e1732b0133d769b4de356815419d41c85651d0479d1",
+        "page": 13
+      },
+      "text": "28th Annual Meeting  of the American Society of Space and Gravitational Research  \nDynamics of Water Absorption and Evaporation During Methanol Droplet \nCombustion in Microgravity \n13 of 15 \nFLEX - OH* Chemiluminescence  \nwater flux fraction \ndl(m) \nwater absorption \nevaporation \n de  \n dc  \nLLUV camera OH* chemiluminesence showing a line intensity \nprofile  across the flame … flame boundaries are the result of \ndifferent intensity thresholds  OH* chemiluminesence profile during flame history \nwater flux fraction as a function of regressing droplet "
+    },
+    {
+      "id": "PSI-69:pdf:684344b89e44646b7402706b:v1:p14",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684344b89e44646b7402706b",
+        "key": "psi-data/PSI-69/Presentations/PSI-69_Presentations_20130010979.pdf",
+        "version": 1,
+        "filename": "PSI-69_Presentations_20130010979.pdf",
+        "sha256": "56e69491fe8af3a31e2f2e1732b0133d769b4de356815419d41c85651d0479d1",
+        "page": 14
+      },
+      "text": "28th Annual Meeting  of the American Society of Space and Gravitational Research  \nDynamics of Water Absorption and Evaporation During Methanol Droplet \nCombustion in Microgravity \n14 of 15 \nZGF Image Analysis  \nFlame emission intensity profile versus flame history \nobtained from color camera \n0 \n10 \n20 \n30 \n40 \n50 \n60 \n0 1 2 3 4 5 \nBlue Flame Pixel Intensity \n \nt(s) \nCONDENSATION \nEVAPORATION \nTest H-08-04 \nO2  21 %  /  Ar  35% /  N2  44% \nP = 1 atm \n0 \n0.2 \n0.4 \n0.6 \n0.8 \n1 \n1.2 \n1.4 \n1.6 \n1.8 \n2 \n0 0.5 1 1.5 2 2.5 \ndc , de  (mm) \nDo (mm) \nPlot of dc (point of water flux transition) and de (extinction \ndiameter) as a function of intial droplet diameter, d0 , using \ninformation from 8 bit color camera from ZGF drop rig. \n• Preliminary analysis suggests that  intensity measurements from ZGF 8-bit color \ncamera  may provide similar information \n \n \nZGFTests -  MeOH w/ 21% O2 and   \nAr / N2 diluent mixtures  "
+    },
+    {
+      "id": "PSI-69:pdf:684344b89e44646b7402706b:v1:p15",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684344b89e44646b7402706b",
+        "key": "psi-data/PSI-69/Presentations/PSI-69_Presentations_20130010979.pdf",
+        "version": 1,
+        "filename": "PSI-69_Presentations_20130010979.pdf",
+        "sha256": "56e69491fe8af3a31e2f2e1732b0133d769b4de356815419d41c85651d0479d1",
+        "page": 15
+      },
+      "text": "28th Annual Meeting  of the American Society of Space and Gravitational Research  \nDynamics of Water Absorption and Evaporation During Methanol Droplet \nCombustion in Microgravity \n15 of 15 \nSummary  \n• Flame intensity measurements using OH* chemiluminescence images from the FLEX \nLLUV camera provide information of the water flux transition point in MeOH droplet \ncombustion studies \n• Similar analysis using a simple color camera may provide reasonable approximation \nof the same phenomena \n \n \n \nFuture work  \n• Extend image analysis technique to full range of FLEX MeOH experimental data  \n• Refine image analyses techniques for correlation with water flux transition point     \n• Compare experimental results with theory   \n \n "
+    },
+    {
+      "id": "PSI-69:pdf:684347449e44646b740289fe:v1:p1",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684347449e44646b740289fe",
+        "key": "psi-data/PSI-69/Engineering Documents/PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "version": 1,
+        "filename": "PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "sha256": "a96a47878d2d9e4451f3d889f742571aa2d89c48ba9e9d84b6c698a4cb39486c",
+        "page": 1
+      },
+      "text": "FLX-REQ-0001 \n \nFLEX-2 Engineering Requirements \nDocument \n \nFluids and Combustion Facility (FCF) \nFlame Extinguishment Experiment 2 \n(FLEX-2) \n \n \n \nFinal \nFebruary 04, 2010 \n \nAUTHORIZED by CM when under FORMAL \nConfiguration Control \nDate Signature \n02/16/10 /s/ Lori Yost \n \nAvailability: \n \n[   ]  Public (No Restriction) [ X ]  Export Controlled \n \n \n \n \n \n \n \n \nNational Aeronautics and Space Administration \nJohn H. Glenn Research Center \nExploration Systems Division \nCleveland, Ohio 44135 \nThis document contains information controlled by the \nExport Administration Regulations (EAR) 15 CFR ET. \nSEQ., and has been classified as EAR 99/No License \nRequired.  Export to embargoed countries, in violation of \nEAR regulations, is prohibited by law. \n"
+    },
+    {
+      "id": "PSI-69:pdf:684347449e44646b740289fe:v1:p2",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684347449e44646b740289fe",
+        "key": "psi-data/PSI-69/Engineering Documents/PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "version": 1,
+        "filename": "PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "sha256": "a96a47878d2d9e4451f3d889f742571aa2d89c48ba9e9d84b6c698a4cb39486c",
+        "page": 2
+      },
+      "text": "FLX-REQ-0001 \nFebruary 04, 2010 \nPREFACE \nThe National Aeronautics and Space Administration (NASA) has developed a modular, multi-\nuser experimentation mini-facility for conducting droplet combustion science experiments in the \nmicrogravity environment of the International Space Station (ISS).  This facility, called the \nMulti-user Droplet Combustion Apparatus (MDCA), resides in Combustion Integrated Rack \n(CIR), a component of the Fluids and Combustion Facility (FCF) on-board the ISS.  The Flame \nExtinguishment Experiment 2 (FLEX-2) uses the MDCA platform to conduct droplet \ncombustion tests. \nThis document will define the engineering and science requirements necessary to successfully \ncomplete the FLEX-2 experiments. \n ii FLEX-2 Engineering Requirements \n  Document "
+    },
+    {
+      "id": "PSI-69:pdf:684347449e44646b740289fe:v1:p3",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684347449e44646b740289fe",
+        "key": "psi-data/PSI-69/Engineering Documents/PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "version": 1,
+        "filename": "PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "sha256": "a96a47878d2d9e4451f3d889f742571aa2d89c48ba9e9d84b6c698a4cb39486c",
+        "page": 3
+      },
+      "text": "FLX-REQ-0001 \nFebruary 04, 2010 \nSIGNATURE PAGE \nFLEX-2 ENGINEERING REQUIREMENTS DOCUMENT \nFOR THE \nFLUIDS COMBUSTION FACILITY (FCF) \nFLAME EXTINGUISHMENT EXPERIMENT 2 (FLEX-2) \n \n \n \nPrepared By: /s/ Jesse Robbins  Date:  02/05/10  \n Jesse Robbins \n FLEX-2 Systems Engineering Lead \n ZIN Technologies, Inc. \n \n \n \nApproved By: /s/ M. O’Toole  Date:  02/05/10  \n Martin O’Toole \n FLEX-2 Project Lead \n ZIN Technologies, Inc. \n \n \n \nApproved By: /s/ Brian Finley  Date:   02/05/10  \n Brian Finley \n SpaceDOC Manager \n ZIN Technologies, Inc. \n \n \n \nApproved By: /s/ Michael Hicks  Date:   02/16/10  \n Michael Hicks \n FLEX-2 Project Scientist \n NASA Glenn Research Center \n \n iii FLEX-2 Engineering Requirements \n  Document "
+    },
+    {
+      "id": "PSI-69:pdf:684347449e44646b740289fe:v1:p4",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684347449e44646b740289fe",
+        "key": "psi-data/PSI-69/Engineering Documents/PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "version": 1,
+        "filename": "PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "sha256": "a96a47878d2d9e4451f3d889f742571aa2d89c48ba9e9d84b6c698a4cb39486c",
+        "page": 4
+      },
+      "text": "FLX-REQ-0001 \nFebruary 04, 2010 \nREVISION PAGE \nFLEX 2 ENGINEERING REQUIREMENTS DOCUMENT \nFOR THE \nFLUIDS COMBUSTION FACILITY (FCF) \nFLAME EXTINGUISHMENT EXPERIMENT 2 (FLEX-2) \nRevision Date Description of Change or ECOs Incorporated \nContractor \nVerification \nand Date \nNASA \nVerification \nand Date \nFinal 02/04/10 Initial Release 02/05/10 02/16/10 \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n iv FLEX-2 Engineering Requirements \n  Document "
+    },
+    {
+      "id": "PSI-69:pdf:684347449e44646b740289fe:v1:p5",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684347449e44646b740289fe",
+        "key": "psi-data/PSI-69/Engineering Documents/PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "version": 1,
+        "filename": "PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "sha256": "a96a47878d2d9e4451f3d889f742571aa2d89c48ba9e9d84b6c698a4cb39486c",
+        "page": 5
+      },
+      "text": "FLX-REQ-0001 \nFebruary 04, 2010 \nTABLE OF CONTENTS \n1.0  INTRODUCTION ....................................................................................... 1 \n1.1 Pur pose ..................................................................................................... 1 \n1.2 Sc ope......................................................................................................... 1  \n2.0  DOCUMENTS............................................................................................ 2  \n2.1 Order of Precedenc e for Documents ......................................................... 2 \n2.2 Applicable Documents ............................................................................... 2 \n2.3 Reference Documents ............................................................................... 2 \n3.0  MDCA OVERVIEW.................................................................................... 4  \n3.1 Payload Descripti on................................................................................... 4  \n3.2 MDCA Mission ........................................................................................... 4 \n3.3 FLEX-2 Requirements Fl ow....................................................................... 4  \n3.4 MDCA Hardware  Description..................................................................... 6  \n3.4.1 MDCA Chamber Insert Assembly .............................................................. 6 \n3.4.1.1 Experiment Mounting Stru cture ................................................................. 6 \n3.4.1.2 Internal Apparat us ..................................................................................... 6 \n3.4.1.2.1 Fuel Dis penser System.............................................................................. 6  \n3.4.1.2.2 Deploy ment System................................................................................... 7  \n3.4.1.2.3 Fiber S upport System ................................................................................ 7 \n3.4.1.2.4 Ignition System .......................................................................................... 7  \n3.4.1.2.5 Cooling Plate System................................................................................. 8 \n3.4.1.2.6 Radi ometers .............................................................................................. 8 \n3.4.2 MDCA Avionics.......................................................................................... 8  \n3.4.2.1 Data and Control........................................................................................ 8  \n3.4.2.2 Power Contro l and Distribution .................................................................. 9 \n3.4.3 MDCA Diagnostics..................................................................................... 9  \n3.4.3.1 Color Camera Package.............................................................................. 9  \n3.4.3.2 White Light  Illumination.............................................................................. 9  \n3.5 Interf aces................................................................................................. 10  \n3.5.1 External Interfaces................................................................................... 10  \n3.5.1.1 Launch Configur ation Interfaces .............................................................. 10 \n3.5.1.2 On-Orbit Exte rnal Interfaces .................................................................... 10 \n3.5.2 Internal Interfaces .................................................................................... 10 \n4.0  REQUIREMENTS.................................................................................... 11  \n4.1 Science Re quirements............................................................................. 11  \n4.1.1 Experimental Fuels - Alc ohol ................................................................... 11 \n4.1.2 Experimental Fuel s – Hydrocarbon.......................................................... 11 \n4.1.3 Experimental Fuels – Alcohol Mixture...................................................... 11 \n4.1.4 Experimental Fuels – Hydrocarbon Mixture 1.......................................... 11  \n4.1.5 Experimental Fuels – Hydrocarbon Mixture 2.......................................... 11  \n4.1.6 Experimental Fuel s – Other Mixture ........................................................ 11 \n4.1.7 Fuel Purity................................................................................................ 11  \n v FLEX-2 Engineering Requirements \n  Document "
+    },
+    {
+      "id": "PSI-69:pdf:684347449e44646b740289fe:v1:p6",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684347449e44646b740289fe",
+        "key": "psi-data/PSI-69/Engineering Documents/PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "version": 1,
+        "filename": "PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "sha256": "a96a47878d2d9e4451f3d889f742571aa2d89c48ba9e9d84b6c698a4cb39486c",
+        "page": 6
+      },
+      "text": "FLX-REQ-0001 \nFebruary 04, 2010 \n4.1.8 Fuel Quality.............................................................................................. 11  \n4.1.9 Fuel De gassing........................................................................................ 12  \n4.1.10 Fuel Qualit y Assurance............................................................................ 12  \n4.1.11 Fuel Te mperature .................................................................................... 12 \n4.1.12 Droplet Size  Tolerance ............................................................................ 12 \n4.1.13 Droplet Size Reproducibility..................................................................... 12  \n4.1.14 Fiber  Size................................................................................................. 12  \n4.1.15 Fiber Material Thermal Diffusivity ............................................................ 12 \n4.1.16 Fiber Materi al Emissivity.......................................................................... 12  \n4.1.17 Droplet Anchoring Capabi lity ................................................................... 12 \n4.1.18  Droplet  Arrays......................................................................................... 12  \n4.1.19  Bead Material.......................................................................................... 13  \n4.1.20 Bead Shape............................................................................................. 13  \n4.1.21 Bead Size ................................................................................................ 13 \n4.1.22 Bead Su rface ........................................................................................... 13 \n4.1.23 Bead S pacing .......................................................................................... 13 \n4.1.24 Ignite in Flow............................................................................................ 13  \n4.1.25 Igniter Material ......................................................................................... 13 \n4.1.26 Ignite r on Time......................................................................................... 13  \n4.1.27 Igniti on Timing ......................................................................................... 13 \n4.1.28 Ignition Disturbance ................................................................................. 13 \n4.1.29 Igniter Posi tion Control............................................................................. 14 \n4.1.30 Igniter Retraction ..................................................................................... 14 \n4.1.31 Igniter Control .......................................................................................... 14 \n4.1.32 Hardware Exclusion................................................................................. 14  \n4.1.33 Non-Quiescent Te st Point Timing ............................................................ 14 \n4.1.34 Chamber Atmo sphere Pressure .............................................................. 14 \n4.1.35 Chamber Atmospher e Pressure Rise ...................................................... 14 \n4.1.36 Oxygen Mole  Fractions............................................................................ 14  \n4.1.37 Chamber Atmosphere Temper ature ........................................................ 14 \n4.1.38 Atmospher ic Mixing.................................................................................. 15 \n4.1.39 Atmospheric  Quiescence......................................................................... 15  \n4.1.40 Atmospheric  Humidity.............................................................................. 15  \n4.1.41 Chamber Atmosphere Test Set 1 ............................................................ 15 \n4.1.42 Chamber Atmosphere Test Set 2 ............................................................ 15 \n4.1.43 Flow Fiel d Production .............................................................................. 15 \n4.1.44 Flow Field Velocity Ranges...................................................................... 15 \n4.1.45 Flow Fiel d Control.................................................................................... 15  \n4.1.46 Test Poin t Initiation .................................................................................. 15 \n4.1.47 Display of Diagnostic Vi ews..................................................................... 15  \n4.1.48 Downlink of Chamber  Temperature Data................................................. 15 \n4.1.49 Downlink of Cham ber Pressure Data....................................................... 16 \n4.1.50 Atmospheric Fuel Vapor .......................................................................... 16 \n4.1.51 Atmospher ic Purity................................................................................... 16  \n4.1.52 G- Level .................................................................................................... 16 \n4.1.53 Microgravit y Measurement....................................................................... 16 \n vi FLEX-2 Engineering Requirements \n  Document "
+    },
+    {
+      "id": "PSI-69:pdf:684347449e44646b740289fe:v1:p7",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684347449e44646b740289fe",
+        "key": "psi-data/PSI-69/Engineering Documents/PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "version": 1,
+        "filename": "PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "sha256": "a96a47878d2d9e4451f3d889f742571aa2d89c48ba9e9d84b6c698a4cb39486c",
+        "page": 7
+      },
+      "text": "FLX-REQ-0001 \nFebruary 04, 2010 \n4.1.54 Diagnosti cs Imaging ................................................................................ 16 \n4.1.55 Droplet Imagi ng Orientation..................................................................... 16  \n4.1.56 Droplet Imaging FOV ............................................................................... 16 \n4.1.57 Droplet Imaging S patial Resolution.......................................................... 16 \n4.1.58 Droplet Imaging Te mporal Resolution ..................................................... 16 \n4.1.59 Droplet Imaging Temporal Re solution Additional Capability .................... 17 \n4.1.60 Droplet Imaging DOF............................................................................... 17  \n4.1.61 Droplet Imagi ng Illumination .................................................................... 17 \n4.1.62 OH Flame Imaging Orientat ion ................................................................ 17 \n4.1.63 OH Flame Imaging FOV .......................................................................... 17 \n4.1.64 OH Flame Im aging Emission ................................................................... 17 \n4.1.65 OH Flame Imaging Spatial Resolution..................................................... 17  \n4.1.66 OH Flame Imaging Te mporal Resolution................................................. 17 \n4.1.67 OH Flame Imaging DOF .......................................................................... 17 \n4.1.68 OH Flame Imaging Gain .......................................................................... 17 \n4.1.69 Color Imaging Orientation........................................................................ 18  \n4.1.70 Color Imaging FO V .................................................................................. 18 \n4.1.71 Color Imaging Spatial Reso lution............................................................. 18 \n4.1.72 Color Imaging Tem poral Resolution ........................................................ 18 \n4.1.73 Color Imaging DO F.................................................................................. 18  \n4.1.74 Color Imaging Z oom ................................................................................ 18 \n4.1.75 Narrow Band Radi ative Emission ............................................................ 18 \n4.1.76 Narrow and Broad Band Radiat ive Emission Sampling Rate................... 18 \n4.1.77 Narrow Band and Broad Band R adiative Emission Placement................ 18 \n4.1.78 Narrow Band and Broad Band Radiometer Isolation ............................... 18 \n4.1.79 Narrow Band and Broad Band R adiative Emission Accuracy.................. 19 \n4.1.80 Narrow Band and Broad Band Radiat ive Emission Response Time........ 19 \n4.1.81 Narrow Band and Broad Band Radiative Emission FOV ......................... 19 \n4.1.82 Broad Band Radiative Emi ssion .............................................................. 19 \n4.1.83 Soot Volume Fracti on Imaging Orientation .............................................. 19 \n4.1.84 Soot Volume Fraction Backlight............................................................... 19  \n4.1.85 Soot Volume Fracti on Temporal Resolution ............................................ 19 \n4.1.86 Soot Volume Fracti on Spatial Resolution................................................. 19 \n4.1.87 Soot Volume Frac tion Field of View......................................................... 19  \n4.1.88 Soot/Fiber Temperat ure Imaging Orientation........................................... 20 \n4.1.89 Soot/Fiber Temper ature Field of View ..................................................... 20 \n4.1.90 Soot/Fiber Temperature Temporal Resolution of Liquid Crystal Tunable \nFilter......................................................................................................... 20  \n4.1.91 Soot/Fiber Temperat ure Spatial Resolution............................................. 20  \n4.1.92 Flow Veloci ty Measurement..................................................................... 20  \n4.1.93 Flow Field Sampling Rate........................................................................ 20  \n4.1.94 Chamber Temperature M easurement Sampling Frequency.................... 20 \n4.1.95 Chamber Pressure Meas urement Sampling Frequency .......................... 20 \n4.1.96 Pressure Measurement A ccuracy............................................................ 20  \n4.1.97 Temperature Meas urement Accuracy...................................................... 21 \n4.1.98 Synchronization of Measurements........................................................... 21 \n vii FLEX-2 Engineering Requirements \n  Document "
+    },
+    {
+      "id": "PSI-69:pdf:684347449e44646b740289fe:v1:p8",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684347449e44646b740289fe",
+        "key": "psi-data/PSI-69/Engineering Documents/PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "version": 1,
+        "filename": "PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "sha256": "a96a47878d2d9e4451f3d889f742571aa2d89c48ba9e9d84b6c698a4cb39486c",
+        "page": 8
+      },
+      "text": "FLX-REQ-0001 \nFebruary 04, 2010 \n viii FLEX-2 Engineering Requirements \n  Document \n4.2 Derived Re quirements ............................................................................. 21 \n4.2.1 Fuel Dispe nser System............................................................................ 21  \n4.2.1.1 Fuel Mixtur e Ratio Accuracy .................................................................... 21 \n4.2.1.2 Fuel Material  Compatibility....................................................................... 21 \n4.2.1.3 Purity Degradation ................................................................................... 21 \n4.2.2 Atmospheric  Conditions........................................................................... 21  \n4.2.2.1 CO Removal ............................................................................................ 22 \n4.2.2.2 CO 2 Removal........................................................................................... 22  \n4.2.2.3 Water Vapor Remo val.............................................................................. 22 \n4.2.2.4 Fuel Va por Removal ................................................................................ 22 \n4.2.3 Internal  Apparatus ................................................................................... 22 \n4.2.3.1 Oxygen Co mpatibility............................................................................... 22  \n4.2.3.2 Igniter Co mpatibility ................................................................................. 22 \n4.2.3.3 Igniter Hoop Diameter.............................................................................. 22  \n4.2.3.4 Fiber Alignm ent with Needles .................................................................. 22 \n4.2.3.5 Fiber Positioning ...................................................................................... 23 \n4.2.3.6 Fiber  Beads ............................................................................................. 23 \n4.2.4 Diag nostics .............................................................................................. 23 \n4.2.4.1 Droplet View Filter ................................................................................... 23 \n4.2.5 Flight Un it Hardware ................................................................................ 23 \n4.2.5.1 Flight Unit Packaging, Handling, and Transportation............................... 23 \n5.0  CARRIER CAPABILITIES....................................................................... 24 \n \nLIST OF APPENDICES \nAPPENDIX A ACRONYMS AND ABBREVIATIONS.......................................... 27 \nA.1 Scope....................................................................................................... 27  \nA.2 List of Acronyms and Abbreviations......................................................... 27 \nAPPENDIX B DEFINITIONS ............................................................................... 29 \nB.1 Scope....................................................................................................... 29  \nB.2 List of Definitions ..................................................................................... 29 \n \nLIST OF TABLES \nTABLE I. Previously Verified MDCA/FLEX Requirements from MDC-REQ-0005A. 24 \n \nLIST OF FIGURES \nFigure 1 FLEX-2 Requirements Flow .............................................................................. 5 \n "
+    },
+    {
+      "id": "PSI-69:pdf:684347449e44646b740289fe:v1:p9",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684347449e44646b740289fe",
+        "key": "psi-data/PSI-69/Engineering Documents/PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "version": 1,
+        "filename": "PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "sha256": "a96a47878d2d9e4451f3d889f742571aa2d89c48ba9e9d84b6c698a4cb39486c",
+        "page": 9
+      },
+      "text": "FLX-REQ-0001 \nFebruary 04, 2010 \n1.0 INTRODUCTION \n1.1  Purpose \nThis document will define the engineering requirements necessary to successfully complete the \nscience and safety requirements.  This document will be used by the FLEX-2 design engineers to \ndevelop the systems necessary for FLEX-2.  Interface and carrier requirements levied on FLEX-\n2 are documented in the CIR-MDCA Interface Control Document (FCF-ICD-CIR-MDCA).  \nFLEX-2 will use the existing Multi-User Droplet Combustion Apparatus (MDCA) hardware and \nsoftware platform already developed as a baseline for meeting many of the requirements found in \nthis document.  Safety requirements are documented in the CIR/MDCA Integrated Hazard \nReports and the MDCA Hazard Reports (Re-Flight). \n1.2  Scope \nThis FLEX-2 Engineering Requirements Document (ERD) serves to document two sets of \nrequirements:  Science Requirements and Derived Engineering Requirements.  The FLEX-2 \nScience Requirements Document (SRD) is created by the experiment’s Principle Investigators \n(PI’s) and defines the requirements that are necessary to accomplish the FLEX-2 science \nobjectives.  The purpose of this document is to provide traceability to the SRD and to formalize \nthese requirements.  Also, it defines the engineering requirements derived to establish the \ncapabilities for a system that achieves the science requirements in conjunction with existing CIR \nand MDCA capabilities.       \n 1 FLEX-2 Engineering Requirements \n  Document "
+    },
+    {
+      "id": "PSI-69:pdf:684347449e44646b740289fe:v1:p10",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684347449e44646b740289fe",
+        "key": "psi-data/PSI-69/Engineering Documents/PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "version": 1,
+        "filename": "PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "sha256": "a96a47878d2d9e4451f3d889f742571aa2d89c48ba9e9d84b6c698a4cb39486c",
+        "page": 10
+      },
+      "text": "FLX-REQ-0001 \nFebruary 04, 2010 \n2.0 DOCUMENTS \nThis section lists specifications, models, standards, guidelines, handbooks, and other special \npublications.  These documents have been grouped into two categories:  applicable documents \nand reference documents. \n2.1  Order of Precedence for Documents \nIn the event of a conflict between this document and other documents specified herein, the \nrequirements of this document shall apply.  In the event of a conflict between this document and \nthe contract, the contractual requirements shall take precedence over this document.  In the event \nof a conflict between this document and higher-level documents, the higher-level documents \nshall take precedence over this document. \nAll documents used, applicable or reference, are to be the versions defined in the current version \nof the SpaceDOC contract.  Nothing in this document supersedes applicable laws and regulations \nunless a specific exemption has been obtained. \n2.2  Applicable Documents \nThe documents in the following table are applicable to the FLEX-2 Project to the extent \nspecified herein. \n \nFCF-ICD-CIR-\nMDCA CIR FLEX-2 Interface Control Document \nFLX-PLN-0002 FLEX-2 Science Engineering Verification Plan \nN/A \nScience Requirements Document, Fundamental Studies in Droplet \nCombustion and Flame Extinguishment in Micro-gravity (FLEX-2) \nDecember 6, 2009 \nMDC-REQ-0005 MDCA Engineering Requirements Document \nNPR 6000.1 \nRequirements for Packaging, Handling, and Transportation for \nAeronautical and Space Systems, Equipment, and Associated \nComponents \n2.3  Reference Documents \nThe documents in the following table are provided only as reference material for background \ninformation and are not imposed as requirements. \n \nFCF-IA-MV-MDCA Flame Extinguishment Experiment Integration Agreement - Main Body \n 2 FLEX-2 Engineering Requirements \n  Document "
+    },
+    {
+      "id": "PSI-69:pdf:684347449e44646b740289fe:v1:p11",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684347449e44646b740289fe",
+        "key": "psi-data/PSI-69/Engineering Documents/PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "version": 1,
+        "filename": "PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "sha256": "a96a47878d2d9e4451f3d889f742571aa2d89c48ba9e9d84b6c698a4cb39486c",
+        "page": 11
+      },
+      "text": "FLX-REQ-0001 \nFebruary 04, 2010 \nFCF-ICD-0076 FCF Software Interface Control Document \nKHB 1700.7 Space Shuttle Payload Ground Safety Handbook \nMSFC-HDBK-\n527/JSC 09604 Materials Selection List for Space Hardware Systems \nMSFC-SPEC-522 Design Criteria for Stress Corrosion Cracking \nMDC-DOC-1364 MDCA Baseline Systems Description \nNSTS 13830 Implementation Procedure for NSTS Payloads System Safety \nRequirements \nNSTS 14046 Payload Verification Requirements \nNSTS 1700.7 Safety Policy and Requirements for Payloads Using the Space \nTransportation System \nNSTS 1700.7 \nISS Addendum \nSafety Policy and Requirements for Payloads Using the International \nSpace Station \nNSTS 18798A \nMA2-95-048 Interpretation of NSTS Payload Safety Requirements \nSSP 50005 International Space Station Flight Crew Integration Standard \nSSP 52005 International Space Station Payload Flight Equipment Requirements and \nGuidelines for Safety-Critical Structures \n \n 3 FLEX-2 Engineering Requirements \n  Document "
+    },
+    {
+      "id": "PSI-69:pdf:684347449e44646b740289fe:v1:p12",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684347449e44646b740289fe",
+        "key": "psi-data/PSI-69/Engineering Documents/PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "version": 1,
+        "filename": "PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "sha256": "a96a47878d2d9e4451f3d889f742571aa2d89c48ba9e9d84b6c698a4cb39486c",
+        "page": 12
+      },
+      "text": "FLX-REQ-0001 \nFebruary 04, 2010 \n3.0 MDCA OVERVIEW \n3.1  Payload Description \nThe Multi-user Droplet Combustion Apparatus is a mini-facility designed to support Principal \nInvestigators (PI) interested in studying various aspects of droplet combustion in a microgravity \nenvironment.  MDCA will be integrated into the Fluids and Combustion Facility’s (FCF) \nCombustion Integrated Rack (CIR) onboard the International Space Station (ISS).  Currently, the \nFlame Extinguishment Experiment (FLEX) and the Flame Extinguishment Experiment 2 (FLEX-\n2) have been selected for use in the MDCA. \n3.2  MDCA Mission \nThe MDCA mission is to perform microgravity experiments to study fire suppression/flame \nextinguishment investigations using the CIR.  The MDCA will allow investigation using pure \nliquid fuels and mixtures of liquid fuels at various chamber atmosphere pressures, compositions, \nand oxygen concentrations.  The microgravity environment allows for measurement and \nobservation of flame extinguishment processes that cannot be made in sustained gravity.  The \nmodular design of the MDCA allows for flexibility in configuring for specific experiments and \neasy maintainability of the hardware.  This hardware will provide the apparatus for dispensing, \ndeploying and igniting fuel droplets.  When new droplet experiments are proposed, the additional \nexperiment specific hardware will be provided.  This requirements document reflects such a \ncase, including only the requirements of the FLEX-2 investigation. \n3.3  FLEX-2 Requirements Flow \nFigure 1 represents the requirements flow for all of the FLEX-2 requirements.  The requirements \nin the Science Requirements Document (SRD) are agreed upon by the FLEX-2 Principle \nInvestigators (PI’s), and this document serves as the top level source of those requirements \nnecessary to achieve the FLEX-2 science objectives.  Derived requirements come from \nengineering requirements and are set by the FLEX-2 Project Team.  These two sets of \nrequirements are incorporated into this the FLEX-2 Engineering Requirements Document (FLX-\nREQ-0001).  \nSafety requirements are contained in the updated FLEX-2 safety review hazard reports from the \nPayload Safety Review Panel (PSRP).  The carrier requirements are found in the CIR/FLEX-2 \nInterface Control Document (FCF-ICD-CIR-MDCA).   \n 4 FLEX-2 Engineering Requirements \n  Document "
+    },
+    {
+      "id": "PSI-69:pdf:684347449e44646b740289fe:v1:p13",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684347449e44646b740289fe",
+        "key": "psi-data/PSI-69/Engineering Documents/PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "version": 1,
+        "filename": "PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "sha256": "a96a47878d2d9e4451f3d889f742571aa2d89c48ba9e9d84b6c698a4cb39486c",
+        "page": 13
+      },
+      "text": "FLX-REQ-0001 \nFebruary 04, 2010 \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nFLEX-2 \nScience \nRequirement \nDocument \n(SRD) \nFLEX-2 Engineering \nRequirements  \nDocument                   \nFLX-REQ-0001 \nCIR/FLEX-2 Interface \nControl Document \nFCF-ICD-CIR-MDCA \nDerived \nEngineering \nRequirements \nFLEX-2 Phase III \nHazard Reports \n \nSSP 57000 \nCIR \nRequirements \nFLEX-2 Phase III \nRe-Flight Review \nCIR/MDCA \nIntegrated Safety \nReview \nCIR/MDCA \nHazard Reports \nFLEX-2 Responsibility CIR Responsibility FLEX-2 Responsibility \n \nSSP Safety \nDocuments \n \nFigure 1 FLEX-2 Requirements Flow \n \n 5 FLEX-2 Engineering Requirements \n  Document "
+    },
+    {
+      "id": "PSI-69:pdf:684347449e44646b740289fe:v1:p14",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684347449e44646b740289fe",
+        "key": "psi-data/PSI-69/Engineering Documents/PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "version": 1,
+        "filename": "PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "sha256": "a96a47878d2d9e4451f3d889f742571aa2d89c48ba9e9d84b6c698a4cb39486c",
+        "page": 14
+      },
+      "text": "FLX-REQ-0001 \nFebruary 04, 2010 \n3.4  MDCA Hardware Description \nThe FLEX-2 investigation will be using the existing MDCA hardware and software.  MDCA \nshould be considered the platform on which the FLEX-2 experiments are carried out.  The \nMDCA hardware consists of three hardware domains:  the Chamber Insert Assembly (CIA), the \nAvionics Package, and MDCA Diagnostics.  The CIA provides the mechanism for the \ncombustion event.  The Avionics Package is the center of the control and power distribution for \nthe FLEX-2.  The FLEX-2 hardware is discussed in detail below.  If more detail is desired, \nplease refer to MDC-DOC-1364, MDCA Baseline Systems Description. \n3.4.1  MDCA Chamber Insert Assembly \nThe MDCA Chamber Insert Assembly provides all the necessary hardware and interfaces to \nperform science on one platform.  Most experimental functions occur within the CIA structure \nand many associated systems are found on the CIA.  The CIA consists of the Internal Apparatus \n(IA), which is the functional hardware and the Experiment Mounting Structure (EMS) upon \nwhich the IA is structurally based.  Other subsystems found on the CIA include the Droplet \nDispensing System, the Droplet Deployment System, the Fiber Support System, and the Ignition \nSystem. \n3.4.1.1  Experiment Mounting Structure \nThe EMS provides the main structure for the CIA and acts as the primary mechanical interface \nwith the CIR combustion chamber.  It consists of two endplates, the support structure, and the \nremovable shrouds to protect the IA during crew activity. \n3.4.1.2  Internal Apparatus \nThe IA provides the primary mounting platform for all experiment specific hardware and \nfunctions such as droplet dispensing, deployment and ignition.  The IA encompasses all motors \nused in MDCA, as well as a cooling plate, radiometers, and some avionics hardware.  The IA is \nalso available for future add-on hardware for different PIs. \n3.4.1.2.1  Fuel Dispenser System \nThere are two separate fuel dispenser systems on the CIA.  Each fuel dispenser system consists \nof a motor housing and a replaceable reservoir.  The motor housing is permanently fixed to the \nIA and contains the motor, encoder, and lead screw assembly.  The encoder verifies position of \nthe motor and allows ground operators to keep account of fuel usage.  The replaceable reservoir \nis composed of the syringe, the latching solenoid valve, the reservoir housing, and a transparent \nLexan cover.  The replaceable reservoir assembly is located on top of the motor housing.  The \nsyringe is covered in a Tygon sleeve and contained in aluminum housing.  The syringe is \nconnected directly to a fuel isolation, latching, solenoid valve.  The polytetraflouroethylene \n(PTFE) fuel line tubing is attached to the valve with a removable fitting to disconnect the \n 6 FLEX-2 Engineering Requirements \n  Document "
+    },
+    {
+      "id": "PSI-69:pdf:684347449e44646b740289fe:v1:p15",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684347449e44646b740289fe",
+        "key": "psi-data/PSI-69/Engineering Documents/PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "version": 1,
+        "filename": "PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "sha256": "a96a47878d2d9e4451f3d889f742571aa2d89c48ba9e9d84b6c698a4cb39486c",
+        "page": 15
+      },
+      "text": "FLX-REQ-0001 \nFebruary 04, 2010 \ndeployment needles from the fuel system.  Fuel is dispensed by moving the lead screw using a \nstepper motor, which in turn pushes the plunger on the syringe. \n3.4.1.2.2  Deployment System \nThe deployment system consists of two deployment needles made from .010-inch O.D. stainless \nsteel tubing supported by a ceramic sleeve.  Each needle tip is flared to aid in the droplet \ndeployment.  The needles are mounted to individual rotary servomotors with a specially designed \ncoupling that allows replacement of the needles and maintains the precise alignment of the \nsystem.  The motors rotate the needles to a pre-determined location where they are nearly tip-to-\ntip.  Metered fuel from the dispenser is routed via the PTFE tubing to one needle forming a \ndroplet of very precise volume.  The deployment motors then actuate again, creating a slight gap \nbetween the needles.  This causes the droplet to center itself between the needle tips and \nminimizes the contact area with the needles.  Finally, the needles are rapidly accelerated apart, \ndeploying the droplet off the needle tips.  The rapid acceleration leaves the droplet in place with \nlittle or no residual motion. \n3.4.1.2.3  Fiber Support System \nThe fiber mechanism consists of a 235 mm long, 79μm diameter silicon carbide fiber fastened \nbetween two arms with epoxy to a tension of 15000 psi.  There is a succession of small stainless \nsteel beads secured to the fiber at 12mm intervals.  The use of the fiber mechanism allows fuel \ndroplets to be deployed onto, and thus tethered to, the beaded fiber at specific locations during \nexperimental burn and observation.  The beads act to constrain the position of the droplets on the \nfiber, which is especially necessary for the FLEX-2 droplet linear array experiments, where two \ndroplets are burned simultaneously.  When used, the fiber is rotated 68o into the deployment area \nusing a rotary stepping gear motor.  To deploy a linear array of droplets and to provide a clean \nportion of the fiber for successive burns, linear translation of the fiber through the deployment \nzone is achievable using a similar gear motor driving a pinion gear attached to a rack on the fiber \nmechanism assembly.  This translation can also be used to provide a low velocity flow over a \nsingle burning droplet. \n3.4.1.2.4  Ignition System \nThe ignition system uses the original MDCA configuration for single droplet ignition and for the \narray experiments, modified dual droplet igniter tips are employed.  The original MDCA ignition \nsystem consists of two hot wire igniters opposed 180o, controlled by individual actuators.  These \nignition wires are 4mm diameter loops of Kanthal A-1 wire, 30 AWG.  These loops are mounted \ninto ceramic tubes and comprise the igniter tip assembly.  This assembly has two pins that mate \nwith sockets on the igniter-mounting interface.  This interface is fixed to the igniter motors, \nwhich move the igniters into the deployment area linearly in precise steps and quickly retract the \nigniters after ignition.  The MDCA igniter tips are designed to be crew replaceable and for the \narray experiments these will be replaced with the dual droplet igniter tips, which are based on the \noriginal MDCA design and comply with all MDCA requirements. \n 7 FLEX-2 Engineering Requirements \n  Document "
+    },
+    {
+      "id": "PSI-69:pdf:684347449e44646b740289fe:v1:p16",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684347449e44646b740289fe",
+        "key": "psi-data/PSI-69/Engineering Documents/PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "version": 1,
+        "filename": "PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "sha256": "a96a47878d2d9e4451f3d889f742571aa2d89c48ba9e9d84b6c698a4cb39486c",
+        "page": 16
+      },
+      "text": "FLX-REQ-0001 \nFebruary 04, 2010 \n3.4.1.2.5  Cooling Plate System \nA cooling plate is provided to conductively cool the IA.  The tubing is a stainless steel 3/8-inch \nO.D. with .028-inch wall thickness.  CIR compatible quick disconnect coupling fittings will \nconnect the cold plate to the EMS endplate.  A flexible conductive lined Teflon hose with \nstainless steel braiding will provide the coupling from the MDCA CIA to the CIR Interface \nResource Ring (IRR).  Mating Preece connectors will be used for this interface with CIR’s IRR.  \nCIR’s color coding scheme will be maintained by MDCA for the inlet and outlet connectors.   \nThe cooling system will circulate ISS cooling water flow controlled by CIR to satisfy FLEX-2 \nrequirements.  Prior to launch, the cooling system will be pre-filled to capacity with cooling \nwater.  A gaseous nitrogen charged accumulator bottle installed inline will provide automatic \nCIA protection from fluid over expansion in the system specifically during storage periods where \nambient temperatures may significantly change. \n3.4.1.2.6  Radiometers \nThe Radiometers will provide relative measure of flame radiation and emissions through the \ncombustion event.  The Radiometer Package consists of two Radiometers contained in a single \nhousing, mounted on the CIA, providing a direct view of the combustion event.  The Broad-Band \nRadiometer will measure total flame energy from combustion over a wavelength range covering \n0.6 μm – 5.0 μm, while the Narrow-Band Radiometer will provide spectrally filtered \nmeasurements for specific H20 emissions at 1.87 μm, using a narrow bandpass filter.  Power to \nthe Radiometer Package is provided by MDCA Avionics. \n3.4.2  MDCA Avionics \nThe Avionics Package provides power conditioning and power distribution, system control, data \nacquisition, and operator interface for the MDCA.  The Avionics Package will house the main \nelectronics for the MDCA hardware and will be mounted on the CIR Optics Bench. \n3.4.2.1  Data and Control \nA processor is responsible for automating the sequencing of operational events along with \nacquiring, downlinking, and storing experiment data.  Experiment control and sequencing will be \nautomated by the MDCA software, which is resident on the main processor.  The main processor \ncommunicates with the CIR Input/Output Processor (IOP).  The interface to the CIR IOP is \nnecessary for transferring commands, downlinked data, and images and to receive the ISS video \nand health and science (H&S) data. \n 8 FLEX-2 Engineering Requirements \n  Document "
+    },
+    {
+      "id": "PSI-69:pdf:684347449e44646b740289fe:v1:p17",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684347449e44646b740289fe",
+        "key": "psi-data/PSI-69/Engineering Documents/PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "version": 1,
+        "filename": "PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "sha256": "a96a47878d2d9e4451f3d889f742571aa2d89c48ba9e9d84b6c698a4cb39486c",
+        "page": 17
+      },
+      "text": "FLX-REQ-0001 \nFebruary 04, 2010 \n3.4.2.2  Power Control and Distribution \nMDCA receives its direct current, 28-Volt power from the CIR’s Electrical Power Control Unit \n(EPCU) through the Avionics Package.  In the Avionics Package, the power is conditioned by \nfilters and dc-dc converters for use by the processor, eight Axis Motor Controller, A/D and \nSignal Conditioning Boards, and CIA interface board. \n3.4.3  MDCA Diagnostics \nMDCA Diagnostics provide acquisition and storage of all optical information concerning droplet \ndeployment and combustion. \n3.4.3.1  Color Camera Package \nThe MDCA Color Camera Package will provide an overhead view of the combustion event.  The \nColor Camera Package consists of a Sony FCB-EX470L CCD camera, which includes a built-in \nZoom Lens with RS-232 controllable zoom and focus functions.  The camera is completely \nenclosed in a housing container and mounted to the CIA upper structure, internal to the chamber.  \nAn aluminum broadband coated turning mirror is used to fold the view from the experiment to \nthe color camera.  The Color Camera Package analog video output is converted to twisted pair, \nvia the Color Camera Interface Package, which then routes the output to the CIR Image \nProcessing and Storage Unit (IPSU-A) for viewing and storage.  Power to the Color Camera \nPackage is supplied by MDCA Avionics. \n3.4.3.2  White Light Illumination \nThe White Light Illumination Package supports the Color Camera Package prior to and \nfollowing the experiment event, to provide direct overhead lighting of the droplet deployment \narea during dispensing, deployment and ignition for troubleshooting purposes.  The White Light \nIllumination is powered off upon droplet ignition, as the experiment provides its own light.  The \npackage consists of two clusters of nine White Light LEDs mounted on the CIA upper structure.  \nPower to the White Light Illumination is supplied by MDCA Avionics. \n \n 9 FLEX-2 Engineering Requirements \n  Document "
+    },
+    {
+      "id": "PSI-69:pdf:684347449e44646b740289fe:v1:p18",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684347449e44646b740289fe",
+        "key": "psi-data/PSI-69/Engineering Documents/PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "version": 1,
+        "filename": "PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "sha256": "a96a47878d2d9e4451f3d889f742571aa2d89c48ba9e9d84b6c698a4cb39486c",
+        "page": 18
+      },
+      "text": "FLX-REQ-0001 \nFebruary 04, 2010 \n3.5  Interfaces \n3.5.1  External Interfaces \n3.5.1.1  Launch Configuration Interfaces \nFLEX-2 provided hardware is non-operational for launch.  FLEX-2 hardware will be stowed in \nstandard containers provided by FLEX-2 and will only have physical and structural interfaces \nwith the containers.  \n3.5.1.2  On-Orbit External Interfaces \nFLEX-2 has no direct external interfaces on-orbit.  All interfaces with the FCF, US LAB, ISS \nand the ground are indirectly through CIR. \n3.5.2  Internal Interfaces \nThe internal interfaces between MDCA and CIR are listed below and the requirements for these \ninterfaces will be defined in FCF-ICD-CIR-MDCA, Multi-User Droplet Combustion Apparatus \nInterface Control Document. \n• Structural/Mechanical and Stowage \n• Electrical Power \n• Command and Data Handling \n• Payload and Diagnostics \n• Thermal Control \n• Exhaust Vent \n• FOMA Gas Delivery \n• Environmental \n \n 10 FLEX-2 Engineering Requirements \n  Document "
+    },
+    {
+      "id": "PSI-69:pdf:684347449e44646b740289fe:v1:p19",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684347449e44646b740289fe",
+        "key": "psi-data/PSI-69/Engineering Documents/PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "version": 1,
+        "filename": "PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "sha256": "a96a47878d2d9e4451f3d889f742571aa2d89c48ba9e9d84b6c698a4cb39486c",
+        "page": 19
+      },
+      "text": "FLX-REQ-0001 \nFebruary 04, 2010 \n4.0 REQUIREMENTS \nThis section details all science and derived engineering requirements that have been levied upon \nFLEX-2.  Verifications for these requirements are documented in the FLEX-2 SEVP (FLX-PLN-\n0002). \n4.1  Science Requirements \n This section is a flowdown of the science requirements from the FLEX-2 SRD dated December \n6, 2009.  Upon being signed, this FLEX-2 ERD becomes the formal FLEX-2 project requirement \ndocument. \n4.1.1  Experimental Fuels - Alcohol  \nFLEX-2 shall require the use of ethanol. \n4.1.2  Experimental Fuels – Hydrocarbon \nFLEX-2 shall require the use of decane. \n4.1.3  Experimental Fuels – Alcohol Mixture \nFLEX-2 shall require the use of a propanol/glycerol mixture. \n4.1.4  Experimental Fuels – Hydrocarbon Mixture 1 \nFLEX-2 shall require the use of a heptane/hexadecane mixture. \n4.1.5  Experimental Fuels – Hydrocarbon Mixture 2 \nFLEX-2 shall require the use of a heptane/octane mixture. \n4.1.6  Experimental Fuels – Other Mixture \nFLEX-2 shall require the use of a decane/propylbenzene mixture. \n4.1.7  Fuel Purity \nFLEX-2 shall use fuels of research grade with purity greater than 99.5% by volume. \n4.1.8  Fuel Quality \nFLEX-2 fuels shall be anhydrous prior to loading into fuel reservoirs.  \n 11 FLEX-2 Engineering Requirements \n  Document "
+    },
+    {
+      "id": "PSI-69:pdf:684347449e44646b740289fe:v1:p20",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684347449e44646b740289fe",
+        "key": "psi-data/PSI-69/Engineering Documents/PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "version": 1,
+        "filename": "PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "sha256": "a96a47878d2d9e4451f3d889f742571aa2d89c48ba9e9d84b6c698a4cb39486c",
+        "page": 20
+      },
+      "text": "FLX-REQ-0001 \nFebruary 04, 2010 \n4.1.9  Fuel Degassing \nFLEX-2 pure fuels shall be degassed prior to loading into fuel reservoirs.   \n4.1.10  Fuel Quality Assurance \nCertification of test samples shall be provided prior to flight. \n4.1.11  Fuel Temperature \nThe fuel temperature at the start of each test shall be in the range of 18 ºC – 27 ºC.  \n4.1.12  Droplet Size Tolerance \nFLEX-2 shall dispense droplets with diameters of 1.5 – 5 mm with a tolerance ± 0.25 mm. \n4.1.13  Droplet Size Reproducibility \nFLEX-2 shall dispense droplets with diameters of 1.5 – 5 mm with a reproducibility of ± 5%. \n4.1.14  Fiber Size \nFLEX-2 shall provide a support fiber with a diameter < 100 µm.   \n4.1.15  Fiber Material Thermal Diffusivity \nFLEX-2 shall provide a fiber material with a thermal diffusivity no greater than 2.3 cm2/s.   \n4.1.16  Fiber Material Emissivity \nFLEX-2 shall provide a fiber material with an emissivity comparable to that of 80 micron. \ndiameter Silicon Carbide.   \n4.1.17  Droplet Anchoring Capability \nFLEX-2 shall provide a support fiber capable of anchoring a fuel droplet at a fixed location by \nuse of bead structures. \n \n4.1.18  Droplet Arrays \nFLEX-2 shall provide the capability to create droplet arrays in a binary linear configuration with \nbead spacing of 12mm and 24mm. \n \n 12 FLEX-2 Engineering Requirements \n  Document "
+    },
+    {
+      "id": "PSI-69:pdf:684347449e44646b740289fe:v1:p21",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684347449e44646b740289fe",
+        "key": "psi-data/PSI-69/Engineering Documents/PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "version": 1,
+        "filename": "PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "sha256": "a96a47878d2d9e4451f3d889f742571aa2d89c48ba9e9d84b6c698a4cb39486c",
+        "page": 21
+      },
+      "text": "FLX-REQ-0001 \nFebruary 04, 2010 \n4.1.19  Bead Material  \nFLEX-2 shall ensure that the beads are made of an impervious material. \n4.1.20  Bead Shape \nFLEX-2 shall ensure that the beads are of a shape that is as close to spherical as possible. \n4.1.21  Bead Size \nFLEX-2 shall ensure that the beads have a diameter that is as small as possible, but of sufficient \nsize as to allow consistent droplet deployment and positioning for the full range of initial droplet \ndiameters. \n4.1.22  Bead Surface \nFLEX-2 shall ensure that the surface of the beads and the fiber interface contain no pores or \nareas where gas can be trapped. \n4.1.23  Bead Spacing \nFLEX-2 shall provide the capability to create droplet arrays in a binary linear configuration with \na bead spacing of 12mm. \n4.1.24  Ignite in Flow \nFLEX-2 shall provide the capability to ignite a droplet in a quiescent atmosphere and with gas \nflowing past. \n4.1.25  Igniter Material \nFLEX-2 shall provide hot wire igniters as the droplet ignition source. \n4.1.26  Igniter on Time \nFLEX-2 shall provide the capability to power on the igniters for between 1 to 5 second durations. \n4.1.27  Ignition Timing \nFLEX-2 shall wait 10 seconds after deployment of a droplet before initiating the ignition \nsequence to allow for droplet deployment induced oscillations to damp adequately. \n4.1.28  Ignition Disturbance \nFLEX-2 shall provide the command controllable ability to apply the minimum necessary energy \ninput to the droplet during ignition. \n 13 FLEX-2 Engineering Requirements \n  Document "
+    },
+    {
+      "id": "PSI-69:pdf:684347449e44646b740289fe:v1:p22",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684347449e44646b740289fe",
+        "key": "psi-data/PSI-69/Engineering Documents/PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "version": 1,
+        "filename": "PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "sha256": "a96a47878d2d9e4451f3d889f742571aa2d89c48ba9e9d84b6c698a4cb39486c",
+        "page": 22
+      },
+      "text": "FLX-REQ-0001 \nFebruary 04, 2010 \n4.1.29  Igniter Position Control \nFLEX-2 shall provide capability to reposition the igniter tip between tests to 1 – 5 initial droplet \ndiameters from the droplet surface, ± 0.5 mm. \n4.1.30  Igniter Retraction \nFLEX-2 shall provide the capability to retract the igniter tips from the field of view of the droplet \nview diagnostic after ignition of the droplet. \n4.1.31  Igniter Control \nFLEX-2 shall provide the capability to change the igniter position, power, and duration of \noperation by command.  \n4.1.32  Hardware Exclusion  \nFLEX-2 shall provide for removal of all objects (except the fiber) inside the spherical boundary \nof a radius of 10 initial droplet diameters from the deployment site after ignition during all tests. \n4.1.33  Non-Quiescent Test Point Timing \nWhen running a non-quiescent test point, the translation of the support fiber shall begin at the \nsame time as igniter retraction. \n4.1.34  Chamber Atmosphere Pressure \nFLEX-2 shall provide ambient pressure ranges from 0.5 – 3 atm, with a tolerance of ± 0.05 atm.   \n4.1.35  Chamber Atmosphere Pressure Rise \nFLEX-2 shall maintain the chamber pressure throughout any given test point to within ± 10% of \nthe initial chamber pressure.  \n4.1.36  Oxygen Mole Fractions \nFLEX-2 shall provide oxygen mole fractions ranging from 0.1 to 0.4 with a tolerance on the \ninitial charge of ± 0.005 for O2. \n4.1.37  Chamber Atmosphere Temperature \nFLEX-2 shall provide ambient temperature within the range of 18 – 27 °C. \n 14 FLEX-2 Engineering Requirements \n  Document "
+    },
+    {
+      "id": "PSI-69:pdf:684347449e44646b740289fe:v1:p23",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684347449e44646b740289fe",
+        "key": "psi-data/PSI-69/Engineering Documents/PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "version": 1,
+        "filename": "PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "sha256": "a96a47878d2d9e4451f3d889f742571aa2d89c48ba9e9d84b6c698a4cb39486c",
+        "page": 23
+      },
+      "text": "FLX-REQ-0001 \nFebruary 04, 2010 \n4.1.38  Atmospheric Mixing \nFLEX-2 shall provide well-mixed chamber gasses before ignition. \n4.1.39  Atmospheric Quiescence \nFLEX-2 shall provide quiescent gasses prior to ignition. \n4.1.40  Atmospheric Humidity \nAtmosphere shall have a Relative Humidity of < 10% for all tests. \n4.1.41  Chamber Atmosphere Test Set 1 \nFLEX-2 shall provide gas mixtures of O2/N2. \n4.1.42  Chamber Atmosphere Test Set 2 \nFLEX-2 shall provide gas mixtures of O2/He. \n4.1.43  Flow Field Production \nFLEX-2 shall provide relative motion between the drop and the ambient gas by translating the \nfiber. \n4.1.44  Flow Field Velocity Ranges \nFLEX-2 shall provide flow velocity ranges from 0.1 to 5cm/s with an accuracy of ±1%.   \n4.1.45  Flow Field Control \nFLEX-2 shall provide for control of the acceleration and deceleration of the flow field. \n4.1.46  Test Point Initiation \nFLEX-2 shall wait at least two (2) minutes after a chamber atmospheric fill before beginning a \ntest point to ensure the gas, temperature and pressure to stabilize. \n4.1.47  Display of Diagnostic Views \nFLEX-2 shall provide the capability to downlink the color camera view in near real time. \n4.1.48  Downlink of Chamber Temperature Data \nFLEX-2 shall provide near real time downlink of the chamber temperature data. \n 15 FLEX-2 Engineering Requirements \n  Document "
+    },
+    {
+      "id": "PSI-69:pdf:684347449e44646b740289fe:v1:p24",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684347449e44646b740289fe",
+        "key": "psi-data/PSI-69/Engineering Documents/PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "version": 1,
+        "filename": "PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "sha256": "a96a47878d2d9e4451f3d889f742571aa2d89c48ba9e9d84b6c698a4cb39486c",
+        "page": 24
+      },
+      "text": "FLX-REQ-0001 \nFebruary 04, 2010 \n4.1.49  Downlink of Chamber Pressure Data \nFLEX-2 shall provide near real time downlink of the chamber pressure data. \n4.1.50  Atmospheric Fuel Vapor \nThe test atmosphere prior to each test point shall have fuel vapor mole fraction of < 0.005. \n4.1.51  Atmospheric Purity \nThe test atmosphere prior to each test shall consist of < 0.02 mole fraction (for each product \nspecies) CO, CO2, and any other by-products of combustion. \n4.1.52  G-Level \nFLEX-2 shall ensure acceleration levels are < 1 x 10-4 m/s2 on three (3) axes. \n4.1.53  Microgravity Measurement \nFLEX-2 shall provide capability to measure acceleration near the CIR with an accuracy of 1 x \n10-6 m/s2.  Frequency range shall be 0.01 – 125 Hz.  Sampling rate shall be 1 – 5 times the \nfrequency. \n4.1.54  Diagnostics Imaging  \nAll MDCA diagnostics shall acquire images pre-ignition, during ignition, at droplet extinction \nand post-extinction.  \n4.1.55  Droplet Imaging Orientation \nFLEX-2 shall provide a droplet view with the focal plane parallel to the support fiber and \ncoplanar with the droplet. \n4.1.56  Droplet Imaging FOV \nFLEX-2 shall provide FOV of 3.0 cm diameter centered about the deployment site for the droplet \nview.     \n4.1.57  Droplet Imaging Spatial Resolution \nFLEX-2 shall provide spatial resolution of 30 µm over the entire FOV for the droplet view. \n4.1.58  Droplet Imaging Temporal Resolution \nFLEX-2 shall provide a nominal minimum framing rate of 30 fps for the droplet view.   \n 16 FLEX-2 Engineering Requirements \n  Document "
+    },
+    {
+      "id": "PSI-69:pdf:684347449e44646b740289fe:v1:p25",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684347449e44646b740289fe",
+        "key": "psi-data/PSI-69/Engineering Documents/PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "version": 1,
+        "filename": "PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "sha256": "a96a47878d2d9e4451f3d889f742571aa2d89c48ba9e9d84b6c698a4cb39486c",
+        "page": 25
+      },
+      "text": "FLX-REQ-0001 \nFebruary 04, 2010 \n4.1.59  Droplet Imaging Temporal Resolution Additional Capability \nThe FLEX-2 droplet view camera shall have the ability to use a framing rate of between 60 to \n100 fps at a resolution of 60 µm. \n4.1.60  Droplet Imaging DOF \nFLEX-2 shall provide a DOF ≥ 3.0 cm for the droplet view.   \n4.1.61  Droplet Imaging Illumination \nFLEX-2 shall provide capability to back light the droplet with a uniform, collimated light source \nof sufficient intensity to allow the droplet’s edges to be clearly detected. \n4.1.62  OH Flame Imaging Orientation \nFLEX-2 shall provide a flame view with a focal plane parallel to the support fiber. \n4.1.63  OH Flame Imaging FOV \nFLEX-2 shall provide FOV ≥ 5.0 cm centered about the deployment site for the OH flame view.   \n4.1.64  OH Flame Imaging Emission \nFLEX-2 shall provide color imaging detection with emission centered for wavelengths of 310 \nnm (± 5 nm). \n4.1.65  OH Flame Imaging Spatial Resolution \nFLEX-2 shall provide a spatial resolution of 150μm over the entire FOV for the OH flame view. \n4.1.66  OH Flame Imaging Temporal Resolution \nFLEX-2 shall provide framing rate of 30 fps for the OH flame view.   \n4.1.67  OH Flame Imaging DOF \nFLEX-2 shall provide a DOF no less than 5mm for the OH flame view.   \n4.1.68  OH Flame Imaging Gain \nThe gain on the OH flame imager shall be adjustable prior to each test point. \n 17 FLEX-2 Engineering Requirements \n  Document "
+    },
+    {
+      "id": "PSI-69:pdf:684347449e44646b740289fe:v1:p26",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684347449e44646b740289fe",
+        "key": "psi-data/PSI-69/Engineering Documents/PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "version": 1,
+        "filename": "PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "sha256": "a96a47878d2d9e4451f3d889f742571aa2d89c48ba9e9d84b6c698a4cb39486c",
+        "page": 26
+      },
+      "text": "FLX-REQ-0001 \nFebruary 04, 2010 \n4.1.69  Color Imaging Orientation \nFLEX-2 shall ensure the MDCA color camera provides a full view of the droplet and flame with \nthe focal plane parallel to the fiber providing viewing of the droplet dispensing and deployment \nsequence.  \n4.1.70  Color Imaging FOV \nFLEX-2 shall provide a FOV  ≥ 5.0 cm diameter, positioned so the entire flame is imaged for the \nMDCA color camera.  \n4.1.71  Color Imaging Spatial Resolution \nFLEX-2 shall provide a spatial resolution of 100μm for the MDCA color camera.  \n4.1.72  Color Imaging Temporal Resolution \nFLEX-2 shall provide framing rate of 30 fps for the MDCA color camera. \n4.1.73  Color Imaging DOF \nFLEX-2 shall provide a DOF of no less than 5.0 mm for the MDCA color camera. \n4.1.74  Color Imaging Zoom \nFLEX-2 shall provide a zoom capability with the MDCA color camera, upon request of the PI, in \norder to adjust the FOV. \n4.1.75  Narrow Band Radiative Emission \nFLEX-2 shall provide a narrow band radiometer to measure radiant emissions in the luminous \nand non-luminous flames at a wavelength in the H2O band centered at 1.87 µm. \n4.1.76  Narrow and Broad Band Radiative Emission Sampling Rate  \nFLEX-2 shall provide a narrowband and broadband radiometer sampling rate of 30 Hz.   \n4.1.77  Narrow Band and Broad Band Ra diative Emission Placement \nFLEX-2 shall place the narrowband and broadband radiometer at least 15 cm from the droplet. \n4.1.78  Narrow Band and Broad Band Radiometer Isolation \nFLEX-2 shall shield the narrowband and broadband radiometers from igniter wire radiation, both \nreflected and direct. \n 18 FLEX-2 Engineering Requirements \n  Document "
+    },
+    {
+      "id": "PSI-69:pdf:684347449e44646b740289fe:v1:p27",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684347449e44646b740289fe",
+        "key": "psi-data/PSI-69/Engineering Documents/PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "version": 1,
+        "filename": "PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "sha256": "a96a47878d2d9e4451f3d889f742571aa2d89c48ba9e9d84b6c698a4cb39486c",
+        "page": 27
+      },
+      "text": "FLX-REQ-0001 \nFebruary 04, 2010 \n4.1.79  Narrow Band and Broad Band Ra diative Emission Accuracy \nThe FLEX-2 narrow band and broad band radiative emission accuracy shall be 5% of full scale \nincident radiation. \n4.1.80  Narrow Band and Broad Band Radi ative Emission Response Time \nThe FLEX-2 narrow band and broad band radiative emission shall have a response time constant \nof less than 40 ms. \n4.1.81  Narrow Band and Broad Band Radiative Emission FOV \nFLEX-2 shall provide a narrowband and broadband radiometer FOV of 65 mm in diameter, \ncentered about the deployment site.   \n4.1.82  Broad Band Radiative Emission \nFLEX-2 shall employ a broad band radiometer to measure radiant emissions in the luminous and \nnon-luminous flames in the wavelength range of 0.6-5.0 µm. \n4.1.83  Soot Volume Fraction Imaging Orientation \nFLEX-2 shall provide a full view of the droplet and flame with a preferred orientation such that \nthe focal plane is parallel to the fiber and coplanar with the droplet. \n4.1.84  Soot Volume Fraction Backlight \nFLEX-2 shall provide a collimated backlit soot volume fraction diagnostic with the backlight at a \nwavelength of 660 nm and a Full Width Half Maximum of 5 nm. \n4.1.85  Soot Volume Fraction Temporal Resolution \nFLEX-2 shall provide a soot volume fraction diagnostic with a framing rate of ≥ 15 fps. \n4.1.86  Soot Volume Fraction Spatial Resolution \nFLEX-2 shall provide a soot volume fraction diagnostic with a resolution of 50 μm over the \nentire FOV. \n4.1.87  Soot Volume Fraction Field of View \nFLEX-2 shall provide a soot volume fraction diagnostic with a full view of the droplet and \nflame, having a FOV ≥ 5.0 cm centered on the droplet deployment site. \n 19 FLEX-2 Engineering Requirements \n  Document "
+    },
+    {
+      "id": "PSI-69:pdf:684347449e44646b740289fe:v1:p28",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684347449e44646b740289fe",
+        "key": "psi-data/PSI-69/Engineering Documents/PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "version": 1,
+        "filename": "PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "sha256": "a96a47878d2d9e4451f3d889f742571aa2d89c48ba9e9d84b6c698a4cb39486c",
+        "page": 28
+      },
+      "text": "FLX-REQ-0001 \nFebruary 04, 2010 \n4.1.88  Soot/Fiber Temperature Imaging Orientation \nFLEX-2 shall provide a full view of the droplet and flame with a preferred orientation such that \nthe focal plane is parallel to the fiber and coplanar with and centered on the droplet. \n \n4.1.89  Soot/Fiber Temperature Field of View \nFLEX-2 shall provide a soot /fiber temperature diagnostic with a full view of the droplet and \nflame, having a FOV ≥ 5.0 cm centered on the droplet deployment site. \n4.1.90  Soot/Fiber Temperature Temporal Resolution of Liquid Crystal \nTunable Filter \nFLEX-2 shall provide the capability of alternating the two tuned wavelengths of the filter, 700 \nnm and 800 nm, at a frequency that results in even numbered frames being exposed to one of the \ntwo wavelengths, and odd frames exposed to the other.  This shall result in an effective frame \nrate of at least 7fps for each wavelength. \n4.1.91  Soot/Fiber Temperature Spatial Resolution \nFLEX-2 shall provide a soot /fiber temperature diagnostic with a resolution of 50 μm over the \nentire FOV. \n4.1.92  Flow Velocity Measurement \nFLEX-2 shall record all flow velocity measurements. \n4.1.93  Flow Field Sampling Rate \nFLEX-2 shall provide for the sampling of the translated motion of the FLEX-2 support fiber at a \nrate ≥ 30 Hz. \n4.1.94  Chamber Temperature Measurement Sampling Frequency \nFLEX-2 shall provide a sampling frequency of the chamber temperature of at least 10 Hz. \n4.1.95  Chamber Pressure Measure ment Sampling Frequency \nFLEX-2 shall provide a sampling frequency of the chamber pressure of at least 10 Hz. \n4.1.96  Pressure Measurement Accuracy \nFLEX-2 shall provide pressure measurement accuracy to within ± 0.01 atm in the range of 0.5-\n3.0 atm. \n 20 FLEX-2 Engineering Requirements \n  Document "
+    },
+    {
+      "id": "PSI-69:pdf:684347449e44646b740289fe:v1:p29",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684347449e44646b740289fe",
+        "key": "psi-data/PSI-69/Engineering Documents/PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "version": 1,
+        "filename": "PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "sha256": "a96a47878d2d9e4451f3d889f742571aa2d89c48ba9e9d84b6c698a4cb39486c",
+        "page": 29
+      },
+      "text": "FLX-REQ-0001 \nFebruary 04, 2010 \n4.1.97  Temperature Measurement Accuracy \nFLEX-2 shall provide ambient temperature measurement accuracy to within ±0.5 C in the range \nof 18-27º C. \n4.1.98  Synchronization of Measurements \nFLEX-2 shall reference time measurements to Greenwich Mean Time (GMT) and have all data \ntime stamped and synchronized to within ± 0.03 sec. \n4.2   Derived Requirements \nThis section specifies the additional derived requirements needed to support the training, testing, \noperations, design, and development of the FLEX-2 project within the MDCA and CIR carriers.  \n4.2.1  Fuel Dispenser System \nThe following requirements refer specifically to the MDCA/FLEX-2 fuel dispenser system. \n4.2.1.1  Fuel Mixture Ratio Accuracy \nFLEX-2 shall develop a procedure to ensure that accurate fuel mixtures are loaded into the fuel \nreservoirs.  Mixture ratios shall be accurate to within ±0.5%.   \n4.2.1.2  Fuel Material Compatibility \nThe materials exposed to the fuels within the dispensing system shall be compatible with FLEX-\n2 identified fuels as follows: \n1. Ethanol \n2. Decane \n3. Heptane \n4. Hexadecane \n5. Octane \n6. Propylbenzene \n7. Glycerol \n8. Propanol \n4.2.1.3  Purity Degradation \nPurity degradation is in direct correlation to the fuels’ exposure to outside environments.  Fuel \npurity degradation shall be ensured by sealing the fuel reservoir assembly to a maximum leak \nrate of 1 x 10-6 scc/sec of gaseous helium.  \n4.2.2  Atmospheric Conditions \nThe following requirements refer specifically to FLEX-2 chamber atmospheric conditions. \n 21 FLEX-2 Engineering Requirements \n  Document "
+    },
+    {
+      "id": "PSI-69:pdf:684347449e44646b740289fe:v1:p30",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684347449e44646b740289fe",
+        "key": "psi-data/PSI-69/Engineering Documents/PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "version": 1,
+        "filename": "PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "sha256": "a96a47878d2d9e4451f3d889f742571aa2d89c48ba9e9d84b6c698a4cb39486c",
+        "page": 30
+      },
+      "text": "FLX-REQ-0001 \nFebruary 04, 2010 \n4.2.2.1  CO Removal \nFLEX-2 shall provide the means to remove CO from the chamber atmosphere to the acceptable \nlevels detailed in the Science Requirements section, requirement 4.1.51. \n4.2.2.2  CO 2 Removal \nFLEX-2 shall provide the means to remove CO2 from the chamber atmosphere to the acceptable \nlevels detailed in the Science Requirements section, requirement 4.1.51. \n4.2.2.3  Water Vapor Removal \nFLEX-2 shall provide the means to remove water vapor from the chamber atmosphere to the \nacceptable levels detailed in the Science Requirements section, requirement 4.1.40. \n4.2.2.4  Fuel Vapor Removal \nFLEX-2 shall provide the means to remove fuel vapor from the chamber atmosphere to the \nacceptable levels detailed in the Science Requirements section, requirement 4.1.50. \n4.2.3  Internal Apparatus \nThe following requirements refer specifically to the hardware components found on the MDCA \nInternal Apparatus. \n4.2.3.1  Oxygen Compatibility \nAll components developed for FLEX-2 located in the CIR chamber shall be compatible with \n40% oxygen at 3 atm. \n4.2.3.2  Igniter Compatibility \nFLEX-2 shall provide igniter tips that comply with the existing MDCA igniter drive circuitry.  \nThe igniter shall be constructed of 26 AWG Kanthal type A1 wire 75.8 mm long with a total DC \nresistance of 1 Ω ± 0.250Ω at 20°C.  \n4.2.3.3  Igniter Hoop Diameter \nThe igniter hoop diameter shall be able to radiatively heat droplets spaced up to 24mm apart. \n4.2.3.4  Fiber Alignment with Needles \nThe fiber shall be oriented orthogonal to the needle line of action within ± 5 degrees.  This value \nshall be maintained for all replaceable units (when a component is replaced, it shall have the \nsame alignment). \n 22 FLEX-2 Engineering Requirements \n  Document "
+    },
+    {
+      "id": "PSI-69:pdf:684347449e44646b740289fe:v1:p31",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684347449e44646b740289fe",
+        "key": "psi-data/PSI-69/Engineering Documents/PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "version": 1,
+        "filename": "PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "sha256": "a96a47878d2d9e4451f3d889f742571aa2d89c48ba9e9d84b6c698a4cb39486c",
+        "page": 31
+      },
+      "text": "FLX-REQ-0001 \nFebruary 04, 2010 \n4.2.3.5  Fiber Positioning \nThe fiber shall be positioned within a spherical segment tolerance band located 0.5 mm above \nthe theoretical center point of deployment, with a radius of 0.25 mm.  This value shall be \nmaintained for all replaceable units (when a component is replaced, it shall have the same \nalignment) and shall not consider bead shape for beaded fibers. \n4.2.3.6  Fiber Beads \nFiber beads must not generate localized boiling in the droplet prior to flame contraction.  Porous \nbeads are known to generate such disturbances in burning droplets. \n4.2.4  Diagnostics \nThe following requirements refer specifically to the MDCA/FLEX-2 diagnostic packages. \n4.2.4.1  Droplet View Filter \nFLEX-2 shall provide a HiBMS camera for the backlit droplet view fitted with a narrow band \nfilter compensator with the following properties: \n1. A center wavelength of 653 nm and a bandwidth of less than 12 nm.    \n2.  A peak transmission (%T) of at least 80%. \n3. Out of Band Blocking of less than 1% over the range of 400nm-1100nm. \n4.2.5  Flight Unit Hardware \nThe following requirements refer specifically to the MDCA Flight Unit Hardware. \n4.2.5.1  Flight Unit Packaging, Handling, and Transportation \nPackaging, Handling, and Transportation of all flight hardware developed by FLEX-2 shall be in \naccordance with NPR 6000.1. \n \n \n \n \n 23 FLEX-2 Engineering Requirements \n  Document "
+    },
+    {
+      "id": "PSI-69:pdf:684347449e44646b740289fe:v1:p32",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684347449e44646b740289fe",
+        "key": "psi-data/PSI-69/Engineering Documents/PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "version": 1,
+        "filename": "PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "sha256": "a96a47878d2d9e4451f3d889f742571aa2d89c48ba9e9d84b6c698a4cb39486c",
+        "page": 32
+      },
+      "text": "FLX-REQ-0001 \nFebruary 04, 2010 \n5.0   CARRIER CAPABILITIES \nTable I lists the capabilities of the CIR/MDCA carriers utilized by the FLEX-2 project in order to \nachieve its science objectives.  These capabilities are documented in the MDCA/FLEX \nEngineering Requirements Document, MDC-REQ-0005A and have previously been verified by \nthe MDCA/FLEX verification process. \nTABLE I. Previously Verified MDCA/FL EX Requirements from MDC-REQ-0005A \n \nRequirement # Requirement Title \n4.3.1.2.1 Determine Change in Oxygen Concentration \n4.3.1.2.6 Chamber Atmosphere Mixing \n4.3.1.2.7 Chamber Atmosphere Quiescence \n4.3.1.3.7 Alignment Verification \n4.3.1.3.10 Needle Cover \n4.3.1.3.11 Fiber Translation Accuracy \n4.3.1.3.13 Fiber Arm Installation/Removal \n4.3.1.3.14 Fiber Arm Positioning \n4.3.1.3.15 Zone of Exclusion \n4.3.1.3.22 Igniter Hoop Alignment \n4.3.1.3.28 Needle Symmetry \n4.3.1.3.24 Igniter Acceleration \n4.3.1.3.26 Needle Positioning Accuracy \n4.3.1.3.27 Needle Alignment \n4.3.1.3.23 Igniter Positioning Accuracy \n4.3.1.4.1 Diagnostics \n4.3.1.4.2 MDCA Color Camera Imaging \n4.3.1.4.3 MDCA Color Camera Spatial Resolution \n 24 FLEX-2 Engineering Requirements \n  Document "
+    },
+    {
+      "id": "PSI-69:pdf:684347449e44646b740289fe:v1:p33",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684347449e44646b740289fe",
+        "key": "psi-data/PSI-69/Engineering Documents/PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "version": 1,
+        "filename": "PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "sha256": "a96a47878d2d9e4451f3d889f742571aa2d89c48ba9e9d84b6c698a4cb39486c",
+        "page": 33
+      },
+      "text": "FLX-REQ-0001 \nFebruary 04, 2010 \n4.3.1.4.4 MDCA Color Camera Temporal Resolution \n4.3.1.4.5 CIA Deployment Site Alignment \n4.3.1.4.6 CIA Rail Bearing Assembly Alignment \n4.3.1.4.7 Radiometer Calibration \n4.3.1.4.8 Chamber Illumination \n4.3.1.4.9 Diagnostics System Availability \n4.3.1.5.1 Flight Software \n4.3.1.5.2 Software Design Document \n4.3.1.5.3 Deployment Motor Synchronicity \n4.3.1.5.4 Igniter Motor Synchronicity \n4.3.1.5.5 Needle Position for Removal \n4.3.1.5.7 Experiment Calculated Data \n4.3.1.5.8 Commands and Data \n4.3.1.5.9 MDCA Embedded Code \n4.3.1.5.11 MDCA Main Computer Time Sync \n4.3.1.5.12 Fiber Insertion and Retraction \n4.3.1.5.13 Automated Sequence \n4.3.1.5.14 Automated Sequence Elements \n4.3.1.5.15 Automated Sequence Parameters \n4.3.1.5.16 Igniter Position \n4.3.1.5.17 Test Point Parameter Limits \n4.3.1.5.18 Diagnostic and Illumination Timing \n4.3.1.5.23 Health Monitoring Data \n4.3.1.5.25 Telemetry Sampling for 1 Hz \n 25 FLEX-2 Engineering Requirements \n  Document "
+    },
+    {
+      "id": "PSI-69:pdf:684347449e44646b740289fe:v1:p34",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684347449e44646b740289fe",
+        "key": "psi-data/PSI-69/Engineering Documents/PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "version": 1,
+        "filename": "PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "sha256": "a96a47878d2d9e4451f3d889f742571aa2d89c48ba9e9d84b6c698a4cb39486c",
+        "page": 34
+      },
+      "text": "FLX-REQ-0001 \nFebruary 04, 2010 \n4.3.1.5.26 Motor Control \n4.3.1.5.27 Software Initialization \n4.3.1.5.28 Main Computer Modules \n4.3.1.5.29 Hardware Safing and Shutdown \n4.3.1.5.38 Needle Motor Drive Parameters \n4.3.1.5.31 Dispense Small Increment of Fuel \n4.3.1.5.32 MDCA Software Inhibit \n4.3.1.5.33 Disable Test Point Inhibit \n4.3.1.5.34 Modify the Needle Dispense Positions \n4.3.1.5.35 Test Condition Alert \n4.3.1.5.36 Message Log \n4.3.1.5.37 Droplet Diameter \n4.3.1.5.30 Main Computer Shutdown Sequence \n4.3.1.5.40 Test Sequence Timing \n4.3.1.5.39 Dispenser Motor Driver Parameters \n4.3.1.5.41 Main Computer to IOP Transactions \n4.3.1.5.42 Main Computer Downlink \n4.3.1.7.4 Igniter Power Symmetry \n4.3.1.7.6 Avionics System Availability \n4.3.1.8 CIA Assembly \n4.3.1.8.2 CIA System Availability \n4.3.1.10 CIA Volume \n4.3.1.11 Flight Unit Hardware Availability \n \n 26 FLEX-2 Engineering Requirements \n  Document "
+    },
+    {
+      "id": "PSI-69:pdf:684347449e44646b740289fe:v1:p35",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684347449e44646b740289fe",
+        "key": "psi-data/PSI-69/Engineering Documents/PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "version": 1,
+        "filename": "PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "sha256": "a96a47878d2d9e4451f3d889f742571aa2d89c48ba9e9d84b6c698a4cb39486c",
+        "page": 35
+      },
+      "text": "FLX-REQ-0001 \nFebruary 04, 2010 \nAPPENDIX A ACRONYMS AND ABBREVIATIONS \nA.1 Scope \nThis appendix lists the acronyms and abbreviations used in this document. \nA.2 List of Acronyms and Abbreviations \nARIS..................Active Rack Isolation System \nAS .....................Automated Sequence \nAWG..................American Wire Gauge \nCIA ....................Chamber Insert Assembly \nCIL.....................Critical Items List \nCIR....................Combustion Integration Rack \nCM.....................Configuration Management \nCPP...................Contractor  Project Plan \ndc ......................Direct Current \nDCM..................Diag nostic Control Module \nDOF...................Depth of Field \nEMI....................Electr omagnetic Interference \nEMS ..................Experiment Mounting Structure \nEPCU ................Electrical Power Control Unit \nERD...................Engineering Requirements Document \nFCF ...................Fluids and Combustion Facility \nFLEX .................Flame Extinguishment Experiment \nFLEX-2 ..............Flame Extinguishment Experiment 2 \nFMEA ................Failure Modes and Effects Analysis \nFOMA................Fuel/Oxidizer Management Assembly \nFOV...................Field of View \nFPS ...................Frames per Second \nFWHM...............Full Width-Half Maximum \nGMT ..................Greenwich Mean Time \nGRC ..................Glenn Research Center \nGSE...................Ground Support Equipment \nH&S...................Health  and Science \nIA.......................Internal  Apparatus \nICD....................Interface C ontrol Document \nIFOV..................Instantaneous Field of View \nIOP....................Input/Output Processor \nIRR....................Interface Resource Ring \nISPR..................Inter national Standard Payload Rack \nISS ....................International Space Station \nIVA ....................Intra-Vehicular Activity \nLED ...................Light Emitting Diode \nLOS...................Loss of Signal \nMAPTIS.............Materials and Processes Technical Information Systems \n 27 FLEX-2 Engineering Requirements \n  Document "
+    },
+    {
+      "id": "PSI-69:pdf:684347449e44646b740289fe:v1:p36",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684347449e44646b740289fe",
+        "key": "psi-data/PSI-69/Engineering Documents/PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "version": 1,
+        "filename": "PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "sha256": "a96a47878d2d9e4451f3d889f742571aa2d89c48ba9e9d84b6c698a4cb39486c",
+        "page": 36
+      },
+      "text": "FLX-REQ-0001 \nFebruary 04, 2010 \nMDCA................Multi-user Droplet Combustion Apparatus \nMDP ..................Maximum Design Pressure \nMPLM................Multi-Purpos e Logistics Module \nMRDOC.............Microgravity Research Development and Operations Contract \nNASA ................National Aeronautics and Space Administration \nNSTS.................National Space Transportation System \nO.D....................Outer Diameter \nPFE ...................Portable Fire Extinguisher \nPI.......................Princi pal Investigator \nPL......................Pa yload \nPTFE.................Po lytetraflouroethylene \nQD.....................Quick Disconnect \nRH.....................Relative  Humidity \nSCC...................Stress Corrosion Cracking \nSEE...................Si ngle Event Effect \nSMAC................Spacecraft Maximum A llowable Concentrations \nSpaceDOC ........Space Flight Systems Development & Operations Contract \nSRD...................Science Requirements Document \nSSC...................Stati on Support Computer \nTBD...................To Be  Determined \nTSC...................Tele science Support Center \nUML...................Universal Mounting Location \nUSL ...................United States Laboratory \nUV .....................Ultra-Violet \nWBS…………….Work Breakdown Structure \n \n 28 FLEX-2 Engineering Requirements \n  Document "
+    },
+    {
+      "id": "PSI-69:pdf:684347449e44646b740289fe:v1:p37",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-69",
+        "file_id": "684347449e44646b740289fe",
+        "key": "psi-data/PSI-69/Engineering Documents/PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "version": 1,
+        "filename": "PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+        "sha256": "a96a47878d2d9e4451f3d889f742571aa2d89c48ba9e9d84b6c698a4cb39486c",
+        "page": 37
+      },
+      "text": "FLX-REQ-0001 \nFebruary 04, 2010 \n 29 FLEX-2 Engineering Requirements \n  Document \nAPPENDIX B DEFINITIONS  \nB.1 Scope \nThis appendix defines special terminology used in this document. \nB.2 List of Definitions \nChamber Insert Assembly (CIA) – Configured equipment placed inside the combustion \nchamber to perform an experiment.  Usually consists of an experiment mounting structure and an \ninternal apparatus. \nCritical Items List (CIL) – For critical failure modes, the CIL contains specific rationale, which \njustifies the retention of the critical item in the system.   \nExperiment Mounting Structure (EMS) – Hardware that provides the structural interface from \nthe combustion chamber to the internal apparatus. \nFailure Modes and Effects Analysis (FMEA) – Procedure by which each credible failure mode \nis analyzed (failure mode occurrence, methods of detection the failure, corrective action) to \ndetermine the effects on the system and to classify each potential failure mode in accordance \nwith the severity of its effect. \nInternal Apparatus (IA) – The IA provides the primary mounting platform for all experiment \nspecific hardware and functions such as droplet dispensing, deployment and ignition.  The IA \nencompasses all motors used in MDCA, as well as a cooling plate, radiometers and some \navionics hardware.  The IA is also available for future add-on hardware for different PIs. \nTelescience Support Center (TSC) – The NASA ground facility that provides the capability to \nexecute ground support operations of on-orbit ISS and Space Shuttle Payloads from the Glenn \nReseach Center (GRC). \n \n "
+    }
+  ],
+  "documents": [
+    {
+      "accession": "PSI-69",
+      "file_id": "684347459e44646b74028a01",
+      "key": "psi-data/PSI-69/Science Documents/PSI-69_Science Documents_FLEX_Test_Plan.pdf",
+      "version": 1,
+      "filename": "PSI-69_Science Documents_FLEX_Test_Plan.pdf",
+      "sha256": "0af43477a04b05e3c44558b22c16a69cfda837a6a17fa94178ce1f9fce361dc5",
+      "status": "extracted",
+      "page_count": 15
+    },
+    {
+      "accession": "PSI-69",
+      "file_id": "684344b89e44646b7402706b",
+      "key": "psi-data/PSI-69/Presentations/PSI-69_Presentations_20130010979.pdf",
+      "version": 1,
+      "filename": "PSI-69_Presentations_20130010979.pdf",
+      "sha256": "56e69491fe8af3a31e2f2e1732b0133d769b4de356815419d41c85651d0479d1",
+      "status": "extracted",
+      "page_count": 15
+    },
+    {
+      "accession": "PSI-69",
+      "file_id": "684347449e44646b740289fe",
+      "key": "psi-data/PSI-69/Engineering Documents/PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+      "version": 1,
+      "filename": "PSI-69_Engineering Documents_FLEX Engineering Requirements Document.pdf",
+      "sha256": "a96a47878d2d9e4451f3d889f742571aa2d89c48ba9e9d84b6c698a4cb39486c",
+      "status": "extracted",
+      "page_count": 37
+    }
+  ]
+}

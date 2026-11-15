@@ -1,0 +1,412 @@
+{
+  "investigation": "PSI-23",
+  "title": "Advanced Combustion via Microgravity Experiments-Structure and Response of Spherical Diffusion Flames",
+  "acronym": "ACME s-Flame",
+  "metadata_version": 4,
+  "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-23",
+  "snapshot_retrieved_at": "2026-11-15T01:06:23.288439+00:00",
+  "coverage": "metadata_only",
+  "passages": [
+    {
+      "id": "PSI-23:meta:title",
+      "locator": {
+        "kind": "metadata",
+        "field": "title"
+      },
+      "text": "Advanced Combustion via Microgravity Experiments-Structure and Response of Spherical Diffusion Flames"
+    },
+    {
+      "id": "PSI-23:meta:objective",
+      "locator": {
+        "kind": "metadata",
+        "field": "objective"
+      },
+      "text": "A series of experiments is proposed with the following specific objectives, in both soot-free and sooty flames, to compare with detailed computational simulation to assess transport properties and detailed chemical kinetics (including chemiluminescence):\n    Objective A. Measure and characterize the transient structure (such as temperature and species distribution) of diffusion flames established at initially non-steady, spherical flame structures for mixtures of different H2/CH4/diluent ratios   (soot-free) and different C2H4/diluent ratios (sooty), for different flow rates.\n    Objective B. Determine the quasi-steady convective/chemical-kinetic extinction limits (low system Damköhler numbers) and radiative/chemical-kinetic extinction limits (high system Damköhler numbers) for mixtures of different H2/CH4/diluent ratios (soot-free) and different C2H4/diluent ratios (sooty).\n    Objective C. Determine the existence (for different Zeldovich number, Ze), onset (as a function Da), and nature (i.e. mode, frequency, amplitude) of pulsating instabilities theoretically predicted to occur in transient spherical diffusion flames using fuel/diluent mixtures that are above a critical Lewis number."
+    },
+    {
+      "id": "PSI-23:meta:approach",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "text": "A series of experiments is proposed in which mixtures of various gaseous fuels and diluents will be issued into an oxidizing environment through a spherical porous burner and ignited to obtain, nominally, a spherical, one-dimensional stabilized flame. Synchronized measurements are to be made including spectrally resolved images, flame and burner temperatures, radiative flux measurements, and system operating conditions (including reactant flow rates, ambient temperatures, pressures and acceleration levels, etc.). These data are to be used for comparisons of flame behavior and structure with detailed numerical simulations of the flames.\nConventional gaseous fuels including hydrogen, methane, and ethylene will be used. Hydrogen is the simplest fuel and its reaction mechanism is also reasonably established. Methane is the simplest hydrocarbon and extensive studies have been conducted on its combustion chemistry. Ethylene is a typical sooty fuel and is also an important intermediate for the oxidation of higher hydrocarbons. Diluents mixed with fuel are to include nitrogen and helium to adjust mixture diffusivities, and carbon dioxide to influence flame radiation characteristics."
+    },
+    {
+      "id": "PSI-23:meta:hypothesis",
+      "locator": {
+        "kind": "metadata",
+        "field": "hypothesis"
+      },
+      "text": "The transient numerical simulation of spherical flames developed as part of this program includes detailed chemistry and transport models, especially radiation mechanisms. Each description of the flames obtained from the experiment, including measurements of aspects of the flame structure, growth or flame front velocities, and the specific test conditions where steady state flames, flame extinctions, flame front instabilities, soot suppression limits, etc., comprise a rigorous test of the detailed model. Together they provide a measure of the comprehensiveness of the chemical kinetic and transport models.\nThe numerical simulation is also being used as a predictive tool to develop the science requirements for this experiment, especially the collection of test conditions and most aspects of the measurement systems. Due to time and g-jitter limitations, little of the planned test matrix can be adequately explored in the ground based test facilities, and the flight experiment definition will rely on the best effort in the modeling work."
+    },
+    {
+      "id": "PSI-23:meta:researchImpacts",
+      "locator": {
+        "kind": "metadata",
+        "field": "researchImpacts"
+      },
+      "text": "The impact of this work consists of both practical and fundamental aspects. Practically, with diffusion flame burning as the basis in many combustion engines and devices, understanding the underlying dynamics and chemistry of diffusion flames is important in improving performance in terms of power, efficiency, pollutant emissions, and reliability. Fundamentally, the unique buoyancy-free environment offered by microgravity affords simple aerodynamic flow fields to acquire diffusion flame data of high fidelity, with the prospect of understanding unit thermochemical processes as well as quantifying the associated physico-chemical parameters."
+    },
+    {
+      "id": "PSI-23:meta:experimentHardware",
+      "locator": {
+        "kind": "metadata",
+        "field": "experimentHardware"
+      },
+      "text": "Combustion Integrated Rack (CIR), ACME"
+    },
+    {
+      "id": "PSI-23:meta:publications[0].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[0].title"
+      },
+      "text": "Opportunities and challenges of combustion in microgravity"
+    },
+    {
+      "id": "PSI-23:meta:publications[1].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[1].title"
+      },
+      "text": "On burner-stabilized cylindrical premixed flames in microgravity"
+    },
+    {
+      "id": "PSI-23:meta:publications[2].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[2].title"
+      },
+      "text": "On the structure, stabilization, and dual response of flat-burner flames"
+    },
+    {
+      "id": "PSI-23:meta:publications[3].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[3].title"
+      },
+      "text": "Extinction mechanisms of near-limit premixed flames and extended limits of flammability"
+    },
+    {
+      "id": "PSI-23:meta:publications[4].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[4].title"
+      },
+      "text": "On the spreading of unsteady cylindrical diffusion flames"
+    },
+    {
+      "id": "PSI-23:meta:publications[5].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[5].title"
+      },
+      "text": "On the response of spherical premixed flames under rotation"
+    },
+    {
+      "id": "PSI-23:meta:publications[6].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[6].title"
+      },
+      "text": "Role of flamefront motion and criterion for global quasi-steadiness in droplet burning"
+    },
+    {
+      "id": "PSI-23:meta:publications[7].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[7].title"
+      },
+      "text": "On micro-buoyancy spherical diffusion flames and a double luminous zone structure of the hydrogen/methane flame"
+    },
+    {
+      "id": "PSI-23:meta:publications[8].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[8].title"
+      },
+      "text": "Structure, aerodynamics, and geometry of premixed flamelets"
+    },
+    {
+      "id": "PSI-23:meta:publications[9].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[9].title"
+      },
+      "text": "Microgravity burner-generated spherical diffusion flames: experiment and computation‡‡Currently at Department of Mechanical and Aerospace Engineering, Case Western Reserve University, Cleveland, OH 44106."
+    },
+    {
+      "id": "PSI-23:meta:publications[10].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[10].title"
+      },
+      "text": "Chemiluminescent OH* and CH* flame structure and aerodynamic scaling of weakly buoyant, nearly spherical diffusion flames"
+    },
+    {
+      "id": "PSI-23:meta:publications[11].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[11].title"
+      },
+      "text": "Oscillatory extinction of spherical diffusion flames: Micro-buoyancy experiment and computation"
+    },
+    {
+      "id": "PSI-23:meta:publications[12].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[12].title"
+      },
+      "text": "Development of Comprehensive Detailed and Reduced Reaction Mechanisms for Combustion Modeling"
+    },
+    {
+      "id": "PSI-23:meta:publications[13].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[13].title"
+      },
+      "text": "Response of spherical diffusion flames under rotation with general Lewis numbers"
+    },
+    {
+      "id": "PSI-23:meta:publications[14].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[14].title"
+      },
+      "text": "Porous spherical burner for combustion experimentation"
+    },
+    {
+      "id": "PSI-23:meta:publications[15].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[15].title"
+      },
+      "text": "On intrinsic oscillation in radiation-affected diffusion flames"
+    },
+    {
+      "id": "PSI-23:meta:publications[16].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[16].title"
+      },
+      "text": "Effects of variable density on response of spherical diffusion flames under rotation"
+    },
+    {
+      "id": "PSI-23:meta:publications[17].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[17].title"
+      },
+      "text": "A mechanistic study of Soret diffusion in hydrogen–air flames"
+    },
+    {
+      "id": "PSI-23:meta:publications[18].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[18].title"
+      },
+      "text": "Self-similar accelerative propagation of expanding wrinkled flames and explosion triggering"
+    },
+    {
+      "id": "PSI-23:meta:publications[19].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[19].title"
+      },
+      "text": "Response of spherical diffusion flames subjected to rotation: Microgravity experimentation and computational simulation"
+    },
+    {
+      "id": "PSI-23:meta:publications[20].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[20].title"
+      },
+      "text": "Fuel Options for Next-Generation Chemical Propulsion"
+    },
+    {
+      "id": "PSI-23:meta:publications[21].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[21].title"
+      },
+      "text": "A mechanistic evaluation of Soret diffusion in heptane/air flames"
+    },
+    {
+      "id": "PSI-23:meta:publications[22].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[22].title"
+      },
+      "text": "An experimental investigation on self-acceleration of cellular spherical flames"
+    },
+    {
+      "id": "PSI-23:meta:publications[23].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[23].title"
+      },
+      "text": "Initiation and propagation of laminar premixed cool flames"
+    },
+    {
+      "id": "PSI-23:meta:publications[24].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[24].title"
+      },
+      "text": "On colliding spherical flames: Morphology, corner dynamics, and flame-generated vorticity"
+    },
+    {
+      "id": "PSI-23:meta:publications[25].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[25].title"
+      },
+      "text": "Extended flammability limits of n-heptane/air mixtures with cool flames"
+    },
+    {
+      "id": "PSI-23:meta:publications[26].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[26].title"
+      },
+      "text": "Theory of first-stage ignition delay in hydrocarbon NTC chemistry"
+    },
+    {
+      "id": "PSI-23:meta:publications[27].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[27].title"
+      },
+      "text": "Direct Numerical Simulation of turbulent nonpremixed “cool” flames: Applicability of flamelet models"
+    },
+    {
+      "id": "PSI-23:meta:publications[28].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[28].title"
+      },
+      "text": "On Radical-Induced Ignition in Combustion Systems"
+    },
+    {
+      "id": "PSI-23:meta:publications[29].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[29].title"
+      },
+      "text": "Binary collision of a burning droplet and a non-burning droplet of xylene: Outcome regimes and flame dynamics"
+    },
+    {
+      "id": "PSI-23:meta:publications[30].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[30].title"
+      },
+      "text": "Stabilization mechanisms and burning rates of cylindrical burner flames"
+    },
+    {
+      "id": "PSI-23:meta:publications[31].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[31].title"
+      },
+      "text": "On burner-supported, spherical diffusion flames under micro-buoyancy conditions"
+    },
+    {
+      "id": "PSI-23:meta:publications[32].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[32].title"
+      },
+      "text": "Microgravity burner-generated spherical diffusion flames - Experiment and computation"
+    },
+    {
+      "id": "PSI-23:meta:publications[33].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[33].title"
+      },
+      "text": "Thin-Flame Theory for Droplet Combustion at Low Grashof Numbers"
+    },
+    {
+      "id": "PSI-23:meta:publications[34].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[34].title"
+      },
+      "text": "Nonlinear Analysis of Pulsating Instabilities in Diffusion Flames"
+    },
+    {
+      "id": "PSI-23:meta:publications[35].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[35].title"
+      },
+      "text": "An Experimental Study on the Response of Spherical Diffusion Flames Subjected to Rotation and Nonequidiffusion"
+    },
+    {
+      "id": "PSI-23:meta:publications[36].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[36].title"
+      },
+      "text": "A  Mechanistic Study of Soret Diffusion in Hydrogen-Air Flames"
+    },
+    {
+      "id": "PSI-23:meta:publications[37].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[37].title"
+      },
+      "text": "A comprehensive evaluation of soret diffusion in heptane-air flames"
+    },
+    {
+      "id": "PSI-23:meta:publications[38].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[38].title"
+      },
+      "text": "Dynamics and morphology of spherical diffusion flames under rotation"
+    },
+    {
+      "id": "PSI-23:meta:publications[39].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[39].title"
+      },
+      "text": "Dynamics and morphology of colliding spherical flames"
+    },
+    {
+      "id": "PSI-23:meta:publications[40].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[40].title"
+      },
+      "text": "On the structure and dynamics of stationary and rotating spherical diffusion flames"
+    },
+    {
+      "id": "PSI-23:meta:publications[41].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[41].title"
+      },
+      "text": "Weakly Buoyant Spherical Diffusion Flames: Properties of Hydrogen-CO Ethylene Flames"
+    },
+    {
+      "id": "PSI-23:meta:publications[42].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[42].title"
+      },
+      "text": "Computational Simulation of Spherical Diffusion Flame Dynamics and Extinction in Microgravity"
+    },
+    {
+      "id": "PSI-23:meta:publications[43].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[43].title"
+      },
+      "text": "Combustion Science: A Researcher&#x27;s Guide to International Space Station"
+    }
+  ],
+  "documents": []
+}

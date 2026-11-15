@@ -1,0 +1,129 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://flameinfreefall.local/schemas/research-card-draft.schema.json",
+  "title": "Research-card draft written by the research-card skill",
+  "description": "Same shape as a research card, but evidence is referenced by local ids (E1, E2, ...) and carries only passage_id and excerpt. Hashes, source URLs, locators, title, version, coverage and review state are filled in by pipeline.cards finalize from the evidence packet.",
+  "type": "object",
+  "required": ["accession", "summary", "safety_categories", "comparison", "claims", "findings", "limitations", "modeling_resources", "evidence", "generation"],
+  "additionalProperties": false,
+  "properties": {
+    "accession": {"$ref": "common.schema.json#/$defs/accession"},
+    "summary": {"$ref": "#/$defs/citedText"},
+    "safety_categories": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["category", "evidence_ids"],
+        "additionalProperties": false,
+        "properties": {
+          "category": {"$ref": "research-card.schema.json#/$defs/safetyCategory"},
+          "evidence_ids": {"$ref": "#/$defs/refs"}
+        }
+      }
+    },
+    "comparison": {
+      "type": "object",
+      "required": ["fuels", "geometry", "oxygen", "pressure", "flow", "gravity", "measurements", "hardware"],
+      "additionalProperties": false,
+      "properties": {
+        "fuels": {"$ref": "#/$defs/attribute"},
+        "geometry": {"$ref": "#/$defs/attribute"},
+        "oxygen": {"$ref": "#/$defs/attribute"},
+        "pressure": {"$ref": "#/$defs/attribute"},
+        "flow": {"$ref": "#/$defs/attribute"},
+        "gravity": {"$ref": "#/$defs/attribute"},
+        "measurements": {"$ref": "#/$defs/attribute"},
+        "hardware": {"$ref": "#/$defs/attribute"}
+      }
+    },
+    "claims": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "type", "text", "evidence_ids"],
+        "additionalProperties": false,
+        "properties": {
+          "id": {"type": "string", "pattern": "^C[0-9]+$"},
+          "type": {"enum": ["objective", "hypothesis", "reported_observation", "potential_application"]},
+          "text": {"$ref": "common.schema.json#/$defs/nonEmptyText"},
+          "evidence_ids": {"$ref": "#/$defs/refs"}
+        }
+      }
+    },
+    "findings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["observation", "conditions", "implication", "category"],
+        "additionalProperties": false,
+        "properties": {
+          "observation": {"type": "string", "pattern": "^C[0-9]+$"},
+          "conditions": {"$ref": "#/$defs/citedText"},
+          "implication": {"type": "string", "pattern": "^C[0-9]+$"},
+          "category": {"$ref": "research-card.schema.json#/$defs/safetyCategory"}
+        }
+      }
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["text", "basis", "evidence_ids"],
+        "additionalProperties": false,
+        "properties": {
+          "text": {"$ref": "common.schema.json#/$defs/nonEmptyText"},
+          "basis": {"enum": ["source", "coverage"]},
+          "evidence_ids": {"type": "array", "items": {"$ref": "#/$defs/ref"}, "uniqueItems": true}
+        }
+      }
+    },
+    "modeling_resources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["description", "file_keys", "evidence_ids"],
+        "additionalProperties": false,
+        "properties": {
+          "description": {"$ref": "common.schema.json#/$defs/nonEmptyText"},
+          "file_keys": {"type": "array", "items": {"type": "string", "pattern": "^psi-data/PSI-[0-9]+/.+"}, "uniqueItems": true},
+          "evidence_ids": {"$ref": "#/$defs/refs"}
+        }
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "passage_id", "excerpt"],
+        "additionalProperties": false,
+        "properties": {
+          "id": {"$ref": "#/$defs/ref"},
+          "passage_id": {"type": "string", "minLength": 1},
+          "excerpt": {"$ref": "common.schema.json#/$defs/nonEmptyText"}
+        }
+      }
+    },
+    "generation": {
+      "type": "object",
+      "required": ["model"],
+      "additionalProperties": false,
+      "properties": {"model": {"type": "string", "minLength": 1}}
+    }
+  },
+  "$defs": {
+    "ref": {"type": "string", "pattern": "^E[0-9]+$", "description": "Local evidence reference defined in this draft's evidence array."},
+    "refs": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"$ref": "#/$defs/ref"}},
+    "citedText": {
+      "type": "object",
+      "required": ["text", "evidence_ids"],
+      "additionalProperties": false,
+      "properties": {
+        "text": {"$ref": "common.schema.json#/$defs/nonEmptyText"},
+        "evidence_ids": {"$ref": "#/$defs/refs"}
+      }
+    },
+    "attribute": {"oneOf": [{"$ref": "#/$defs/citedText"}, {"type": "null"}]}
+  }
+}

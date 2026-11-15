@@ -1,0 +1,324 @@
+{
+  "investigation": "PSI-10",
+  "title": "Advanced Combustion via Microgravity Experiments / Flame Design",
+  "acronym": "ACME/Flame Design",
+  "metadata_version": 1,
+  "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-10",
+  "snapshot_retrieved_at": "2026-11-15T01:06:16.098859+00:00",
+  "coverage": "metadata_only",
+  "passages": [
+    {
+      "id": "PSI-10:meta:title",
+      "locator": {
+        "kind": "metadata",
+        "field": "title"
+      },
+      "text": "Advanced Combustion via Microgravity Experiments / Flame Design"
+    },
+    {
+      "id": "PSI-10:meta:objective",
+      "locator": {
+        "kind": "metadata",
+        "field": "objective"
+      },
+      "text": "The primary objectives of this flight experiment are:\nA. Obtain soot-inception limits of quasi-steady normal and inverse spherical diffusion flames as functions of flow rate, Zst, amount of inert (N2 or CO2), and pressure for C2H4 and CH4 flames. Identify the corresponding temperatures in hot regions. Obtain similar limits and temperatures for inverse and normal coflow flames.\nB. Obtain detailed measurements in quasi-steady normal and inverse spherical diffusion flames for C2H4 and CH4. Determine the effects of flow rate, Zst, amount of N2, and pressure on flame temperature, size, color, and soot volume fraction. Evaluate the possible existence of steady flames.\nC. Obtain extinction limits as functions of Zst, amount of N2, and pressure for normal and inverse spherical C2H4 and CH4 flames. Identify the corresponding temperatures in hot regions. Identify the presence of radiative or kinetic extinction. Evaluate whether pseudo-flammability limits can be obtained for these flames."
+    },
+    {
+      "id": "PSI-10:meta:approach",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "text": "Perform spherical diffusion flame tests in drop towers and aboard the International Space Station. Consider a broad range of reactant dilutions, flow rates and pressures for normal and inverse convection directions. Observe the flames with a broad suite of cameras, radiometers, photomultiplier tubes, and thermocouples."
+    },
+    {
+      "id": "PSI-10:meta:hypothesis",
+      "locator": {
+        "kind": "metadata",
+        "field": "hypothesis"
+      },
+      "text": "1. Soot formation requires a region where local C/O ratio and T exceed their critical values, and where strain rate is sufficiently low.\n2. Microgravity spherical diffusion flames extinguish when the peak temperature first decreases below 1130 K.\n3. Steady-state spherical diffusion flames are possible."
+    },
+    {
+      "id": "PSI-10:meta:researchImpacts",
+      "locator": {
+        "kind": "metadata",
+        "field": "researchImpacts"
+      },
+      "text": "This project has the potential for improving efficiency and reducing pollutant emissions in terrestrial combustors. For example, it is contributing to novel designs of future coal power plants."
+    },
+    {
+      "id": "PSI-10:meta:experimentHardware",
+      "locator": {
+        "kind": "metadata",
+        "field": "experimentHardware"
+      },
+      "text": "Advanced Combustion via Microgravity Experiments (ACME), Combustion Integrated Rack (CIR), Reconfiguration of Combustion Integrated Rack (CIR)"
+    },
+    {
+      "id": "PSI-10:meta:publications[0].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[0].title"
+      },
+      "text": "The kinetics and warm flame chemistry associated with radiative extinction of spherical diffusion flames"
+    },
+    {
+      "id": "PSI-10:meta:publications[1].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[1].title"
+      },
+      "text": "Soot Formation in Spherical Diffusion Flames"
+    },
+    {
+      "id": "PSI-10:meta:publications[2].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[2].title"
+      },
+      "text": "On the existence of steady-state gaseous microgravity spherical diffusion flames in the presence of radiation heat loss"
+    },
+    {
+      "id": "PSI-10:meta:publications[3].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[3].title"
+      },
+      "text": "Critical temperature and reactant mass flux for radiative extinction of ethylene microgravity spherical diffusion flames at 1 bar"
+    },
+    {
+      "id": "PSI-10:meta:publications[4].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[4].title"
+      },
+      "text": "An investigation of thermal radiation from laminar diffusion flames in a tri-coflow burner with central oxygen"
+    },
+    {
+      "id": "PSI-10:meta:publications[5].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[5].title"
+      },
+      "text": "SPHERICAL DIFFUSION FLAME IN MICROGRAVITY CONDITIONS: FIRST RESULTS OF JOINT RUSSIAN-AMERICAN SPACE EXPERIMENT FLAME DESIGN - ADAMANT"
+    },
+    {
+      "id": "PSI-10:meta:publications[6].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[6].title"
+      },
+      "text": "Observations of long duration microgravity spherical diffusion flames aboard the International Space Station"
+    },
+    {
+      "id": "PSI-10:meta:publications[7].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[7].title"
+      },
+      "text": "Double blue zones in inverse and normal laminar jet diffusion flames"
+    },
+    {
+      "id": "PSI-10:meta:publications[8].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[8].title"
+      },
+      "text": "Dilution effects on laminar jet diffusion flame lengths"
+    },
+    {
+      "id": "PSI-10:meta:publications[9].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[9].title"
+      },
+      "text": "A new method of flame temperature measurement utilizing the acoustic emissions from laser-induced plasmas"
+    },
+    {
+      "id": "PSI-10:meta:publications[10].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[10].title"
+      },
+      "text": "Structure and extinction of spherical burner-stabilized diffusion flames that are attached to the burner surface"
+    },
+    {
+      "id": "PSI-10:meta:publications[11].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[11].title"
+      },
+      "text": "Effects of Inert Placement (Z st) on Soot and Radiative Heat Flux in Turbulent Diffusion Flames"
+    },
+    {
+      "id": "PSI-10:meta:publications[12].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[12].title"
+      },
+      "text": "Observation of water–gas shift equilibrium in diffusion flames"
+    },
+    {
+      "id": "PSI-10:meta:publications[13].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[13].title"
+      },
+      "text": "An Approach to Thermocouple Measurements That Reduces Uncertainties in High-Temperature Environments"
+    },
+    {
+      "id": "PSI-10:meta:publications[14].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[14].title"
+      },
+      "text": "Modeled quenching limits of spherical hydrogen diffusion flames"
+    },
+    {
+      "id": "PSI-10:meta:publications[15].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[15].title"
+      },
+      "text": "Simplifying the complexity of diffusion flames through interpretation in C/O ratio space"
+    },
+    {
+      "id": "PSI-10:meta:publications[16].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[16].title"
+      },
+      "text": "Numerical study of flame structure and soot inception interpreted in carbon-to-oxygen atom ratio space"
+    },
+    {
+      "id": "PSI-10:meta:publications[17].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[17].title"
+      },
+      "text": "Stability of spray combustion for water/alcohols mixtures in oxygen-enriched air"
+    },
+    {
+      "id": "PSI-10:meta:publications[18].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[18].title"
+      },
+      "text": "Numerical investigation of spherical diffusion flames at their sooting limits"
+    },
+    {
+      "id": "PSI-10:meta:publications[19].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[19].title"
+      },
+      "text": "Kinetic and radiative extinctions of spherical burner-stabilized diffusion flames"
+    },
+    {
+      "id": "PSI-10:meta:publications[20].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[20].title"
+      },
+      "text": "Extremely weak hydrogen flames"
+    },
+    {
+      "id": "PSI-10:meta:publications[21].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[21].title"
+      },
+      "text": "Characteristics of non-premixed oxygen-enhanced combustion: II. Flame structure effects on soot precursor kinetics resulting in soot-free flames"
+    },
+    {
+      "id": "PSI-10:meta:publications[22].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[22].title"
+      },
+      "text": "Characteristics of non-premixed oxygen-enhanced combustion: I. The presence of appreciable oxygen at the location of maximum temperature"
+    },
+    {
+      "id": "PSI-10:meta:publications[23].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[23].title"
+      },
+      "text": "Soot inception limits in laminar diffusion flames with application to oxy–fuel combustion"
+    },
+    {
+      "id": "PSI-10:meta:publications[24].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[24].title"
+      },
+      "text": "Radiative extinction of gaseous spherical diffusion flames in microgravity"
+    },
+    {
+      "id": "PSI-10:meta:publications[25].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[25].title"
+      },
+      "text": "Numerical and experimental observations of spherical diffusion flames"
+    },
+    {
+      "id": "PSI-10:meta:publications[26].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[26].title"
+      },
+      "text": "The effects of elevated pressure on the kinetics and extinction of hot, warm, and cool gaseous ethylene spherical diffusion flames"
+    },
+    {
+      "id": "PSI-10:meta:publications[27].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[27].title"
+      },
+      "text": "On Soot Inception in Nonpremixed Flames and the Effects of Flame Structure"
+    },
+    {
+      "id": "PSI-10:meta:publications[28].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[28].title"
+      },
+      "text": "Measurement and analysis of soot inception limits of oxygen-enriched coflow flames"
+    },
+    {
+      "id": "PSI-10:meta:publications[29].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[29].title"
+      },
+      "text": "Scalar dissipation rate at extinction and the effects of oxygen-enriched combustion"
+    },
+    {
+      "id": "PSI-10:meta:publications[30].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[30].title"
+      },
+      "text": "A theoretical study on soot inception in spherical burner-stabilized diffusion flames"
+    },
+    {
+      "id": "PSI-10:meta:publications[31].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[31].title"
+      },
+      "text": "SOOTING LIMITS OF MICROGRAVITY SPHERICAL DIFFUSION FLAMES IN OXYGEN-ENRICHED AIR AND DILUTED FUEL"
+    },
+    {
+      "id": "PSI-10:meta:publications[32].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[32].title"
+      },
+      "text": "Effects of structure and hydrodynamics on the sooting behavior of spherical microgravity diffusion flames"
+    }
+  ],
+  "documents": []
+}

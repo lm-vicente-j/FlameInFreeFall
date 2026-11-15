@@ -1,0 +1,132 @@
+{
+  "investigation": "PSI-117",
+  "title": "Effect of External Thermo-Convective Perturbation on Cool Flame Dynamics: A Multidimensional Multi-Physics CFD Analysis",
+  "acronym": "",
+  "metadata_version": 2,
+  "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-117",
+  "snapshot_retrieved_at": "2026-11-15T01:06:38.635301+00:00",
+  "coverage": "metadata_only",
+  "passages": [
+    {
+      "id": "PSI-117:meta:title",
+      "locator": {
+        "kind": "metadata",
+        "field": "title"
+      },
+      "text": "Effect of External Thermo-Convective Perturbation on Cool Flame Dynamics: A Multidimensional Multi-Physics CFD Analysis"
+    },
+    {
+      "id": "PSI-117:meta:objective",
+      "locator": {
+        "kind": "metadata",
+        "field": "objective"
+      },
+      "text": "The objective of this ground investigation was to use flight data obtained from PSI through NASA’s Flame Extinguishment Experiment (FLEX) to quantify how externally imposed thermal and convective perturbations regulated the dynamics and ultimate fate of already established droplet cool flames, and to explain run-to-run variability by isolating the roles of deliberate heating and unintentional drift-induced convection. Focusing on both small and large droplets, the work mapped stability windows for ignition, sustained oscillation, transitions to hot ignition and warm-flame behavior, and extinction under microgravity. By leveraging and extending the FLEX data in the PSI, this study produced reusable models and sensitivity analyses that coupled low-temperature chemistry with transport and radiative effects."
+    },
+    {
+      "id": "PSI-117:meta:approach",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "text": "OpenFOAM was used to develop a 3-D CFD model of n-alkane droplet cool flames in microgravity, coupling variable-density Navier–Stokes flow with low-temperature combustion chemistry, coupled heat and mass transfer, and radiation. Model fidelity was established against ISS FLEX measurements, after which controlled simulations examined three forcing modes (i) convection alone to mimic droplet drift, (ii) imposed heat flux, and (iii) combined convection plus heating applied to both large (1–4 mm) and sub-millimeter (~0.5 mm) droplets.\n\nTo accelerate progress, the study began with simplified chemistry and transitioned to reduced mechanisms for parameter sweeps over forcing amplitude and frequency, ambient composition (including ozone-assisted cases), and pressure. From each case, predictive observables were extracted (ignition delay, oscillation frequency and amplitude, stand-off and extinction diameters), and were used to construct stability maps that delineated conditions for cool-flame onset, persistence, and quenching. These maps were reconciled with FLEX observations and were used to guide next-generation test matrices for both large- and small-droplet experiments."
+    },
+    {
+      "id": "PSI-117:meta:hypothesis",
+      "locator": {
+        "kind": "metadata",
+        "field": "hypothesis"
+      },
+      "text": "External thermo-convective perturbations (imposed temperature gradients, non-uniform heating, oscillatory/shear inflow) were expected to govern cool-flame ignition, oscillation, transition to hot ignition, and extinction by shifting residence time and scalar dissipation. In microgravity, where buoyancy was suppressed, this forcing was anticipated to dominate transport. A multidimensional, multi-physics CFD model was used to map perturbation-dependent stability boundaries and predict observables for comparison with FLEX data."
+    },
+    {
+      "id": "PSI-117:meta:researchImpacts",
+      "locator": {
+        "kind": "metadata",
+        "field": "researchImpacts"
+      },
+      "text": "Space Benefits: Potential to improve spacecraft fire-safety modeling by resolving cool-flame/extinction behavior in microgravity; leverages FLEX to define safer operating envelopes/materials.\nEarth Benefits: Advances low-temperature combustion understanding relevant to engine knock, efficiency, and emissions; delivers validated CFD tools transferrable to practical combustors."
+    },
+    {
+      "id": "PSI-117:meta:publications[0].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[0].title"
+      },
+      "text": "Extinction characteristics of isolated n-alkane fuel droplets during low temperature cool flame burning in air (2023)"
+    },
+    {
+      "id": "PSI-117:meta:publications[1].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[1].title"
+      },
+      "text": "Sub-millimeter sized multi-component jet fuel surrogate droplet combustion: Physicochemical preferential vaporization effects (2021)"
+    },
+    {
+      "id": "PSI-117:meta:publications[2].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[2].title"
+      },
+      "text": "Initial diameter effects on combustion of unsupported equi-volume n-heptane/iso-octane mixture droplets and the transition to cool flame behavior: Experimental observations and detailed numerical modeling (2020)"
+    },
+    {
+      "id": "PSI-117:meta:publications[3].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[3].title"
+      },
+      "text": "Oscillatory cool flame combustion behavior of submillimeter sized n-alkane droplet under near limit conditions (2019)"
+    },
+    {
+      "id": "PSI-117:meta:publications[4].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[4].title"
+      },
+      "text": "Investigating the role of preferential vaporization during submillimeter sized multicomponent jet fuel surrogate droplet combustion (2019)"
+    },
+    {
+      "id": "PSI-117:meta:publications[5].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[5].title"
+      },
+      "text": "Multi-component jet fuel surrogate droplet combustion: Preferential vaporization behaviors under spray relevant conditions and effects on combustion behaviors (2019)"
+    },
+    {
+      "id": "PSI-117:meta:publications[6].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[6].title"
+      },
+      "text": "Cool Flame Combustion of Sub-Millimeter Sized Higher n-Alkane Droplets at Atmospheric Condition (2017)"
+    },
+    {
+      "id": "PSI-117:meta:publications[7].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[7].title"
+      },
+      "text": "Non-Premixed - Partially Premixed to Diffusive Burning: Initial Transient of Direct Cool Flame Burn (2017)"
+    },
+    {
+      "id": "PSI-117:meta:publications[8].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[8].title"
+      },
+      "text": "Oscillatory Cool Flame Combustion Behavior of Submillimeter Sized n-Alkane Droplet under Near Limit Conditions (2018)"
+    },
+    {
+      "id": "PSI-117:meta:publications[9].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[9].title"
+      },
+      "text": "Dynamics of cool flames (2019)"
+    }
+  ],
+  "documents": []
+}

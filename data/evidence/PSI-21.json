@@ -1,0 +1,204 @@
+{
+  "investigation": "PSI-21",
+  "title": "Advanced Combustion via Microgravity Experiments / Coflow Laminar Diffusion Flame",
+  "acronym": "ACME CLD Flame",
+  "metadata_version": 4,
+  "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-21",
+  "snapshot_retrieved_at": "2026-11-15T01:06:15.664796+00:00",
+  "coverage": "metadata_only",
+  "passages": [
+    {
+      "id": "PSI-21:meta:title",
+      "locator": {
+        "kind": "metadata",
+        "field": "title"
+      },
+      "text": "Advanced Combustion via Microgravity Experiments / Coflow Laminar Diffusion Flame"
+    },
+    {
+      "id": "PSI-21:meta:objective",
+      "locator": {
+        "kind": "metadata",
+        "field": "objective"
+      },
+      "text": "In order to provide the experimental data needed to allow rigorous testing of computational models at the extremes of the fuel dilution spectrum, we have the following objectives:\nA) Characterize the behavior of weak coflow diffusion flames of methane and ethylene, as a function of velocity and fuel dilution, through measurement of flame shape, lift-off heights, temperatures and extinction limits.\nB) Characterize the sooting tendencies of diffusion flames with long residence times, as a function of velocity and fuel dilution, through measurement of flame shape, gas temperatures in the soot-free portion of the flame, soot luminosity, soot temperatures, and soot volume fractions."
+    },
+    {
+      "id": "PSI-21:meta:approach",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "text": "ACME CLD Flame project goals include the generation of improved computational models with improved soot sub-models that are effective for both dilute flames and sooting flames that vary from low to high soot loading levels. The enhanced time and spatial scales in a microgravity environment will be important for achieving both goals. Experimentally, we plan to study methane and ethylene diffusion flames over a wide range of test conditions. For the more dilute flames, measurements will be made of flame chemiluminesence of OH* and CH* to observe variations in lift-off height and flame shape as extinction limits are approached. The sooting tendencies of the more fuel-rich flames will be investigated using soot luminosity and laser extinction measurements to determine soot temperatures and soot volume fractions. Flame temperatures in non-sooting regions will be measured using thin-filament pyrometry. Based on observations, modifications can be made to the kinetics and soot model to match better the experimental results. If the overall agreement of the measurements and computations is good, the results of the computations can be “mined” to provide insight on species (and hence chemical processes) that cannot be measured directly using the diagnostics available for the proposed experiment."
+    },
+    {
+      "id": "PSI-21:meta:hypothesis",
+      "locator": {
+        "kind": "metadata",
+        "field": "hypothesis"
+      },
+      "text": "This investigation was focused on gathering bench mark data to validate the hypothesis of computation models, the details of which are available within the following publications:\n\n    1)  Smooke, M.D., Hall, R.J., Colket, M.B., Fielding, J., Long, M.B., McEnally, C.S., and Pfefferle, L.D., Investigation of the transition from lightly sooting towards heavily sooting co-flow ethylene diffusion\n  flames. Combustion Theory and Modelling, 2004. 8(3): p. 593-606. https://doi.org/10.1088/1364-7830/8/3/009\n    2)  Luque, J., Jeffries, J.B., Smith, G.P., Crosley, D.R., Walsh, K.T., Long, M.B., and Smooke, M.D., CH(A-X) and OH(A-X) optical emission in an axisymmetric laminar diffusion flame. Combustion and Flame,\n  2000. 122(1/2): p. 172-175. https://doi.org/10.1016/S0010-2180(00)00112-7\n    3) Walsh, K.T., Fielding, J., Smooke, M.D., and Long, M.B., Experimental and computational study of temperature, species, and soot in buoyant and non-buoyant coflow laminar diffusion flames. Proceedings\n  of the Combustion Institute, 2000. 28: p. 1973-1979. https://doi.org/10.1016/S0082-0784(00)80603-7\n    4) Walsh, K.T., Long, M.B., Tanoff, M.A., and Smooke, M.D., Experimental and computational study of CH, CH*, and OH* in an axisymmetric laminar diffusion flame.  Proceedings of the Combustion Institute,\n  1998. 27(Vol. 1): p. 615-623. https://doi.org/10.1016/S0082-0784(98)80453-0"
+    },
+    {
+      "id": "PSI-21:meta:researchImpacts",
+      "locator": {
+        "kind": "metadata",
+        "field": "researchImpacts"
+      },
+      "text": "Diffusion flames are the flame type of most practical combustion devices. The ability to predict the coupled effects of complex transport phenomena with detailed chemical kinetics in such systems is critical in the modeling of turbulent reacting flows and in understanding the processes by which soot formation and radiative transfer take place. In addition, an understanding of those factors that affect flame extinction in diffusion flames is critical in the suppression of fires and in improving engine efficiency. While normal gravity combustion studies can provide important information on combustion processes, the effects of gravitational forces often complicate the interpretation of both computational and experimental results. Momentum effects dominate most practical combustion devices, but the contribution of buoyancy forces is hard to eliminate in normal gravity. A goal of the study will be to apply sophisticated numerical tools and quantitative diagnostic techniques to the study of hydrocarbon diffusion flames in a microgravity environment. This will lead to a more detailed understanding of the interaction of convection, diffusion and chemistry under momentum-dominated conditions."
+    },
+    {
+      "id": "PSI-21:meta:experimentHardware",
+      "locator": {
+        "kind": "metadata",
+        "field": "experimentHardware"
+      },
+      "text": "Combustion Integrated Rack (CIR), ACME"
+    },
+    {
+      "id": "PSI-21:meta:publications[0].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[0].title"
+      },
+      "text": "Analysis of CH* concentration and flame heat release rate in laminar coflow diffusion flames under microgravity and normal gravity"
+    },
+    {
+      "id": "PSI-21:meta:publications[1].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[1].title"
+      },
+      "text": "Signal-to-noise ratio improvements in laser flow diagnostics using time-resolved image averaging and high dynamic range imaging"
+    },
+    {
+      "id": "PSI-21:meta:publications[2].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[2].title"
+      },
+      "text": "A computational and experimental study of coflow laminar methane/air diffusion flames: Effects of fuel dilution, inlet velocity, and gravity"
+    },
+    {
+      "id": "PSI-21:meta:publications[3].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[3].title"
+      },
+      "text": "A Combined Experimental and Computational Study of Soot Formation in Normal and Microgravity Conditions"
+    },
+    {
+      "id": "PSI-21:meta:publications[4].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[4].title"
+      },
+      "text": "Constrained-temperature solutions of coflow laminar diffusion flames"
+    },
+    {
+      "id": "PSI-21:meta:publications[5].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[5].title"
+      },
+      "text": "Effects of pressure and fuel dilution on coflow laminar methane–air diffusion flames: A computational and experimental study"
+    },
+    {
+      "id": "PSI-21:meta:publications[6].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[6].title"
+      },
+      "text": "Effect of soot self-absorption on color-ratio pyrometry in laminar coflow diffusion flames"
+    },
+    {
+      "id": "PSI-21:meta:publications[7].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[7].title"
+      },
+      "text": "A computational and experimental study of coflow laminar methane/air diffusion flames: Effects of fuel dilution, inlet velocity, and gravity"
+    },
+    {
+      "id": "PSI-21:meta:publications[8].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[8].title"
+      },
+      "text": "An experimental and computational study of soot formation in a coflow jet flame under microgravity and normal gravity"
+    },
+    {
+      "id": "PSI-21:meta:publications[9].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[9].title"
+      },
+      "text": "Absolute light calibration using S-type thermocouples"
+    },
+    {
+      "id": "PSI-21:meta:publications[10].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[10].title"
+      },
+      "text": "A comparison of Raman signatures and laser-induced incandescence with direct numerical simulation of soot growth in non-premixed ethylene/air flames"
+    },
+    {
+      "id": "PSI-21:meta:publications[11].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[11].title"
+      },
+      "text": "Soot and thin-filament pyrometry using a color digital camera"
+    },
+    {
+      "id": "PSI-21:meta:publications[12].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[12].title"
+      },
+      "text": "IMAGING FLAMES: FROM ADVANCED LASER DIAGNOSTICS TO SNAPSHOTS"
+    },
+    {
+      "id": "PSI-21:meta:publications[13].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[13].title"
+      },
+      "text": "A paradigm shift in the interaction of experiments and computations in combustion research"
+    },
+    {
+      "id": "PSI-21:meta:publications[14].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[14].title"
+      },
+      "text": "Computational and experimental investigation of the interaction of soot and NO in coflow diffusion flames"
+    },
+    {
+      "id": "PSI-21:meta:publications[15].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[15].title"
+      },
+      "text": "Distributed-memory parallel computation of a forced, time-dependent, sooting, ethylene/air coflow diffusion flame"
+    },
+    {
+      "id": "PSI-21:meta:publications[16].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[16].title"
+      },
+      "text": "Measurements and calculations of formaldehyde concentrations in a methane/N2/air, non-premixed flame: Implications for heat release rate"
+    },
+    {
+      "id": "PSI-21:meta:publications[17].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[17].title"
+      },
+      "text": "Computational and experimental study of a forced, time-dependent, methane–air coflow diffusion flame"
+    }
+  ],
+  "documents": []
+}
