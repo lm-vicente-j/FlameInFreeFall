@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://flameinfreefall.local/schemas/alias-dictionary.schema.json",
+  "title": "Reviewed mappings from repeated source text to canonical values",
+  "description": "A model or a person may propose an entry; only entries a person approved count as mapped values.",
+  "type": "object",
+  "required": ["name", "entries"],
+  "additionalProperties": false,
+  "properties": {
+    "name": {"type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"},
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["source", "canonical", "proposed_by", "review"],
+        "additionalProperties": false,
+        "properties": {
+          "source": {"type": "string", "minLength": 1, "description": "Cell text with surrounding whitespace removed and inner whitespace collapsed."},
+          "canonical": {"type": "string", "minLength": 1},
+          "proposed_by": {"enum": ["llm", "manual"]},
+          "review": {"$ref": "common.schema.json#/$defs/review"}
+        }
+      }
+    }
+  }
+}
