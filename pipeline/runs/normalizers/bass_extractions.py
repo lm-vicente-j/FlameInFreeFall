@@ -22,6 +22,7 @@ min/max of the readings x 1.0066 (the fan calibration factor) with method "llm".
 of ``fan_display`` are validated but not converted: there is no calibration for them.
 """
 
+import re
 from dataclasses import dataclass, replace
 from decimal import Decimal
 from pathlib import Path
@@ -84,7 +85,11 @@ def _outcome(item: dict[str, Any], column: str, proposed: dict[str, Any]) -> Out
         value = Quantity(float(result["min"]), float(result["max"]), result["unit"], result["qualifier"], provenance)
     else:
         value = Category(result["value"], provenance)
-    return Outcome(proposed["type"], proposed["gravity"], value)
+    kind = proposed["type"]
+    if (isinstance(value, Category) and kind in ("ignition", "extinction", "blowoff")
+            and re.search(r"\b(?:no|not|never|without)\b", value.value or "", re.IGNORECASE)):
+        kind = "observation"
+    return Outcome(kind, proposed["gravity"], value)
 
 
 def _flow(item: dict[str, Any], column: str, readings: list[dict[str, Any]]) -> Quantity:
@@ -100,7 +105,7 @@ def _flow(item: dict[str, Any], column: str, readings: list[dict[str, Any]]) -> 
 def _check_item(path: Path, item: dict[str, Any], cells: list[QueueCell]) -> QueueCell:
     record_id = item["record_id"]
     text = item["source_text"]
-    matching = [cell for cell in cells if cell.source_text == text]
+    matching = [cell for cell in cells if cell.source_text == text and cell.column == item["column"]]
     if not cells:
         raise _fail(path, record_id, "the queue has no free-text cell for this record")
     if not matching:
@@ -157,10 +162,13 @@ def apply_extractions(records: list[Record], directory: Path | None, name: str, 
         conditions = record.conditions
         air = [r for r in item["proposal"]["readings"] if r["instrument"] == "air_display"]
         if air:
+            if cell.column.rsplit("!", 1)[-1] != "Air display":
+                raise _fail(path, record_id, "air_display reading must come from the Air display column")
             if conditions.flow_cm_s.provenance.method != "unknown":
                 raise _fail(path, record_id, "air display readings given but flow_cm_s is already established")
             if any(reading["min"] > reading["max"] for reading in air):
                 raise _fail(path, record_id, "a reading has min greater than max")
-            conditions = replace(conditions, flow_cm_s=_flow(item, cell.column, air))
+            if record_id.startswith("PSI-25:"):
+                conditions = replace(conditions, flow_cm_s=_flow(item, cell.column, air))
         updated[record_id] = replace(record, conditions=conditions, outcomes=record.outcomes + outcomes)
     return [updated[record.id] for record in records]

@@ -73,7 +73,7 @@ def load_files(res_dir: Path, accession: str) -> list[RemoteFile]:
             restricted=bool(item["restricted"]),
             visible=bool(item["visible"]),
         )
-        for item in flatten_files(listing)  # type: ignore[no-untyped-call]
+        for item in flatten_files(listing)
     ]
 
 

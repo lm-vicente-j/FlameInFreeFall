@@ -24,10 +24,11 @@
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["record_id", "source_text", "proposed_by", "model", "proposal", "review"],
+        "required": ["record_id", "column", "source_text", "proposed_by", "model", "proposal", "review"],
         "additionalProperties": false,
         "properties": {
           "record_id": {"type": "string", "pattern": "^PSI-[0-9]+:[a-z0-9]+(-[a-z0-9]+)*:[0-9]+$"},
+          "column": {"type": "string", "minLength": 1, "description": "Exact column identifier from the extraction queue."},
           "source_text": {"type": "string", "minLength": 1, "description": "The cell exactly as written in the source."},
           "proposed_by": {"enum": ["llm", "manual"]},
           "model": {"type": ["string", "null"]},

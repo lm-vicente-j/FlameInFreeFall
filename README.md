@@ -205,6 +205,23 @@ Start with the [HTTP contract](docs/contracts/API.md), [OpenAPI 3.1 document](do
 
 Run `python docs/contracts/validate.py` offline with the existing `jsonschema` and `referencing` packages. See [validation commands and results](docs/contracts/API.md#validation) for scope and limitations. No dependencies or runtime endpoints are added by this handoff.
 
+### Prepare and verify pipeline data
+
+The metadata collector uses only the Python standard library. The pipeline requires Python 3.11+ and the packages in `pipeline/requirements.txt`:
+
+```bash
+python -m pip install -r pipeline/requirements.txt
+python -m pipeline.samples --dry-run
+python -m pipeline.runs build
+python -m unittest discover -s tests/pipeline -v
+```
+
+Downloads count API responses, retries, and file bytes against a cumulative 250 MB maximum. Reuse the same manifest between runs. Legacy manifests without a complete budget ledger permit verified cache use but disable further transfers; their earlier total cannot be reconstructed safely. Each new manifest records source URLs and the saved metadata/file-list hashes. Signed URLs are not retained.
+
+Normalized BASS records preserve the joined spreadsheet values and physical cell coordinates. BASS velocity stays unknown until the 2014 calibration is verified for its 2012–2013 tests. FLEX's ambiguous `Burning rate; mm` header does not produce a numeric rate. Negative event statements remain verbatim observations, and rejected or conflicting file identifiers never become confirmed links.
+
+Regression tests are explicitly tracked despite the existing `test_*` rule; the ignore rule is unchanged. Ruff and Mypy settings are in `pyproject.toml`. Mypy checks the pipeline and skips following the unchanged legacy metadata collector; this does not suppress errors in pipeline modules.
+
 
 ## Growth and Limits
 
