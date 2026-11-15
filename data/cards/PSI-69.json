@@ -5,7 +5,7 @@
   "acronym": "FLEX",
   "coverage": "metadata_and_documents",
   "summary": {
-    "text": "FLEX (Flame Extinguishment Experiment) aims to map the flammability limits of liquid fuels in microgravity and measure the effectiveness of gaseous fire suppressants such as CO2, He, and SF6. The only measured result found in the processed documents is for a methanol droplet in a CO2/N2 atmosphere (a presentation on water absorption and evaporation in methanol droplet combustion); no document processed here reports measured suppressant effectiveness for He or SF6.",
+    "text": "FLEX (Flame Extinguishment Experiment) aims to map the flammability limits of liquid fuels in microgravity and measure the effectiveness of gaseous fire suppressants such as CO2, He, and SF6. Recorded results include one methanol test point in a CO2/N2 atmosphere from a presentation, and individual rows of the official FLEX experimental table; no processed document reports measured suppressant effectiveness for SF6.",
     "evidence_ids": [
       "PSI-69:meta:objective#f4c7ee946a30",
       "PSI-69:pdf:684344b89e44646b7402706b:v1:p9#f5989ce99b46"
@@ -114,6 +114,22 @@
       "evidence_ids": [
         "PSI-69:pdf:684347459e44646b74028a01:v1:p2#39c353309798"
       ]
+    },
+    {
+      "id": "C6",
+      "type": "reported_observation",
+      "text": "FLEX test #226 (identifier H03M101) in the FLEX experimental table records a methanol droplet at 759.2 mmHg in an ambient with 0.18 O mole fraction, 0.67 N and 0.15 He (CO column 0), with an initial droplet diameter of 2.79 mm, a visible flame extinction diameter of 1.3 mm, a burn time of 12.5 s, and test end recorded as Extinction.",
+      "evidence_ids": [
+        "PSI-69:table:6792be99b7b6ff8e65037e3a:v1:r226#e7fbbb4c6b46"
+      ]
+    },
+    {
+      "id": "C7",
+      "type": "reported_observation",
+      "text": "FLEX test #94 (identifier C08H101) in the FLEX experimental table records a heptane droplet at 533.6 mmHg in an ambient with 0.24 O mole fraction, 0.56 N and 0.2 in the column labeled 'CO initial ambient composition' (He 0), with an initial droplet diameter of 3.53 mm, a visible flame extinction diameter of 2.76 mm, a burn time of 10.1 s, and test end recorded as Extinction.",
+      "evidence_ids": [
+        "PSI-69:table:6792be99b7b6ff8e65037e3a:v1:r94#87b010373304"
+      ]
     }
   ],
   "findings": [
@@ -128,19 +144,43 @@
       },
       "implication": "C5",
       "category": "suppression"
+    },
+    {
+      "observation": "C6",
+      "conditions": {
+        "text": "Methanol droplet at 759.2 mmHg with 0.18 O, 0.67 N and 0.15 He mole fractions (FLEX test #226).",
+        "evidence_ids": [
+          "PSI-69:table:6792be99b7b6ff8e65037e3a:v1:r226#e7fbbb4c6b46"
+        ]
+      },
+      "implication": "C5",
+      "category": "suppression"
+    },
+    {
+      "observation": "C7",
+      "conditions": {
+        "text": "Heptane droplet at 533.6 mmHg with 0.24 O, 0.56 N and 0.2 in the CO-labeled column (FLEX test #94).",
+        "evidence_ids": [
+          "PSI-69:table:6792be99b7b6ff8e65037e3a:v1:r94#87b010373304"
+        ]
+      },
+      "implication": "C5",
+      "category": "suppression"
     }
   ],
   "limitations": [
     {
-      "text": "The reported extinction result covers one methanol test point in CO2/N2; the presentation lists extending the analysis to the full range of FLEX methanol data as future work.",
+      "text": "The presentation's extinction result covers one methanol test point in CO2/N2; the presentation lists extending the analysis to the full range of FLEX methanol data as future work. The table rows cited here (FLEX tests #226 and #94) are single recorded runs; no trend across runs is stated or claimed.",
       "basis": "source",
       "evidence_ids": [
         "PSI-69:pdf:684344b89e44646b7402706b:v1:p9#f5989ce99b46",
-        "PSI-69:pdf:684344b89e44646b7402706b:v1:p15#8704ccab71a5"
+        "PSI-69:pdf:684344b89e44646b7402706b:v1:p15#8704ccab71a5",
+        "PSI-69:table:6792be99b7b6ff8e65037e3a:v1:r226#e7fbbb4c6b46",
+        "PSI-69:table:6792be99b7b6ff8e65037e3a:v1:r94#87b010373304"
       ]
     },
     {
-      "text": "No processed document reports measured FLEX suppressant effectiveness for He or SF6. The MEC table in the test plan is from cup burner flames (Takahashi et al., 2004), not a FLEX result.",
+      "text": "No processed document text reports measured FLEX suppressant effectiveness for SF6 (He appears only as an ambient component in individual table rows). The MEC table in the test plan is from cup burner flames (Takahashi et al., 2004), not a FLEX result.",
       "basis": "source",
       "evidence_ids": [
         "PSI-69:pdf:684347459e44646b74028a01:v1:p3#b3b22c98d983",
@@ -169,7 +209,9 @@
         "psi-data/PSI-69/Experimental table/PSI-69_Experimental table_FLEX.csv"
       ],
       "evidence_ids": [
-        "PSI-69:meta:objective#54b21e8c5671"
+        "PSI-69:meta:objective#54b21e8c5671",
+        "PSI-69:table:6792be99b7b6ff8e65037e3a:v1:r226#e7fbbb4c6b46",
+        "PSI-69:table:6792be99b7b6ff8e65037e3a:v1:r94#87b010373304"
       ]
     }
   ],
@@ -414,13 +456,49 @@
         "page": 14
       },
       "excerpt": "Preliminary analysis suggests that intensity measurements from ZGF 8-bit color camera may provide similar information"
+    },
+    {
+      "id": "PSI-69:table:6792be99b7b6ff8e65037e3a:v1:r226#e7fbbb4c6b46",
+      "passage_id": "PSI-69:table:6792be99b7b6ff8e65037e3a:v1:r226",
+      "investigation": "PSI-69",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-69",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-69",
+        "file_id": "6792be99b7b6ff8e65037e3a",
+        "key": "psi-data/PSI-69/Experimental table/PSI-69_Experimental table_FLEX.csv",
+        "version": 1,
+        "filename": "PSI-69_Experimental table_FLEX.csv",
+        "sha256": "37c88ce8ae9391b7544ff630a45ce87543d04d317cdbfbed104fe7d5c27e1b96",
+        "row": 226,
+        "record_id": "PSI-69:flex:226"
+      },
+      "excerpt": "FLEX Test #: 226 | FLEX Identifier: H03M101 | Test Date: 9/22/2011 | Test GMT: 0:02:52 | Fuel: Methanol | Ambient pressure; mmHg: 759.2 | O initial ambient composition; mole fraction: 0.18 | N initial ambient composition; mole fraction: 0.67 | CO initial ambient composition; mole fraction: 0 | He initial ambient composition; mole fraction: 0.15 | Droplet initial diameter; mm: 2.79 | Visible flame extinction diameter; mm: 1.3 | Burning rate; mm: 0.51 | Burn time; s: 12.5 | Test end: Extinction"
+    },
+    {
+      "id": "PSI-69:table:6792be99b7b6ff8e65037e3a:v1:r94#87b010373304",
+      "passage_id": "PSI-69:table:6792be99b7b6ff8e65037e3a:v1:r94",
+      "investigation": "PSI-69",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-69",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-69",
+        "file_id": "6792be99b7b6ff8e65037e3a",
+        "key": "psi-data/PSI-69/Experimental table/PSI-69_Experimental table_FLEX.csv",
+        "version": 1,
+        "filename": "PSI-69_Experimental table_FLEX.csv",
+        "sha256": "37c88ce8ae9391b7544ff630a45ce87543d04d317cdbfbed104fe7d5c27e1b96",
+        "row": 94,
+        "record_id": "PSI-69:flex:94"
+      },
+      "excerpt": "FLEX Test #: 94 | FLEX Identifier: C08H101 | Test Date: 6/15/2010 | Test GMT: 2:10:43 | Fuel: Heptane | Ambient pressure; mmHg: 533.6 | O initial ambient composition; mole fraction: 0.24 | N initial ambient composition; mole fraction: 0.56 | CO initial ambient composition; mole fraction: 0.2 | He initial ambient composition; mole fraction: 0 | Droplet initial diameter; mm: 3.53 | Visible flame extinction diameter; mm: 2.76 | Burning rate; mm: 0.51 | Burn time; s: 10.1 | Test end: Extinction"
     }
   ],
   "generation": {
     "method": "skill",
     "skill": "research-card",
     "model": "claude-sonnet-5-5",
-    "generated_at": "2026-11-15T01:50:13+00:00"
+    "generated_at": "2026-11-15T01:54:49+00:00"
   },
   "review": {
     "status": "pending",
