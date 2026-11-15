@@ -34,7 +34,7 @@
       ]
     },
     "pressure": {
-      "text": "Pressures from 0.25 atm to 5 atm stated as an objective; the approach states a gas mixture delivered at 0.25 to 0.5 atm.",
+      "text": "Pressures from 0.25 atm to 5 atm are stated as an objective. The approach states a gas mixture delivered at 0.25 to 0.5 atm.",
       "evidence_ids": [
         "PSI-39:meta:objective#474d006cf9b9",
         "PSI-39:meta:approach#3d0c95392d89"
@@ -94,7 +94,7 @@
   "findings": [],
   "limitations": [
     {
-      "text": "The metadata gives two different pressure ranges (0.25 atm to 5 atm in the objectives, 0.25 to 0.5 atm in the approach) and no measured result.",
+      "text": "The metadata gives two different pressure ranges and no measured result. The objectives state 0.25 atm to 5 atm. The approach states 0.25 to 0.5 atm.",
       "basis": "source",
       "evidence_ids": [
         "PSI-39:meta:objective#474d006cf9b9",
@@ -259,7 +259,7 @@
     "method": "skill",
     "skill": "research-card",
     "model": "claude-sonnet-5-5",
-    "generated_at": "2026-11-15T18:12:15+00:00"
+    "generated_at": "2026-11-15T18:13:52+00:00"
   },
   "review": {
     "status": "pending",

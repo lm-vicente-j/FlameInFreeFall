@@ -25,7 +25,8 @@ import re
 import sys
 import unicodedata
 from collections.abc import Iterator
-from datetime import datetime, timezone
+from dataclasses import dataclass, field
+from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 
@@ -37,11 +38,6 @@ CORE_INVESTIGATIONS = ("PSI-25", "PSI-98", "PSI-101", "PSI-69")
 MIN_EXCERPT_CHARACTERS = 20
 _INTENT_FIELDS = ("objective", "hypothesis", "researchImpacts")
 
-# A number is digits not glued to an identifier: not preceded by a letter, by
-# "letter-hyphen" (FLEX-2, PSI-25), by another digit, or by a decimal point.
-_NUMBER = re.compile(r"(?<![A-Za-z0-9.])(?<![A-Za-z]-)(\d+(?:[.,]\d+)*|\.\d+)")
-
-
 class CardError(ValueError):
     """A draft or card is invalid; ``problems`` lists every issue found."""
 
@@ -51,6 +47,7 @@ class CardError(ValueError):
 
 
 def normalize_text(text: str) -> str:
+    """NFKC plus collapsed whitespace. For *comparing* text only; never stored or hashed."""
     return " ".join(unicodedata.normalize("NFKC", text).split())
 
 
@@ -107,9 +104,221 @@ def locate_excerpt(passage_text: str, excerpt: str) -> str | None:
     return passage_text[spans[start][0] : spans[start + len(needle) - 1][1] + 1]
 
 
+# ------------------------------------------------------------------- numbers
+#
+# The number rule compares *quantities*, not bare digit strings. A quantity is a
+# signed value, in one canonical spelling for exponents, with the unit written
+# right after it when there is one:
+#   -5 != 5;  1e-6 == 1E-6 == 10^-6 == 1x10-6;  3.5 mm needs 3.5 with unit mm.
+# Digits glued to letters (CO2, O2, H03M101) and identifier numbers in
+# UPPERCASE-n codes (FLEX-145, PSI-25, NASA-STD-6001) are not quantities.
+# Table rows write units in the header ("Burn time; s: 10.1"), so a cell inherits
+# the unit of its header.
+
+_SUPERSCRIPT_RUN = re.compile("[\u2070\u00b9\u00b2\u00b3\u2074-\u207b]+")
+_QUANTITY = re.compile(
+    r"""
+    (?:(?<![A-Za-z0-9.)%\]])(?P<sign>[-+]))?
+    (?<![A-Za-z0-9.])(?<![A-Z]{2}-)
+    (?:
+        (?P<ten>10)\^\s?\{?(?P<e4>[-+]?\d+)\}?
+      |
+        (?P<mant>\d+(?:[.,]\d+)*|\.\d+)
+        (?:[eE](?P<e1>[-+]?\d+)
+          |\s?[x\u00d7*\u00b7\u22c5]\s?10(?:\^\s?\{?(?P<e2>[-+]?\d+)\}?|(?P<e3>[-+]\d+)))?
+    )
+    """,
+    re.VERBOSE,
+)
+_UNIT_AFTER = re.compile(
+    r"[ -]?(?P<unit>%|\u00b0\s?C|mm\s?Hg|[A-Za-z\u03bc]+(?:\^?[-+]?\d)?(?:/[A-Za-z\u03bc]+(?:\^?[-+]?\d)?)?)"
+)
+_HEADER_UNIT = re.compile(r"[;(]\s*(?P<unit>[^;()]+?)\s*\)?\s*$")
+_UNITS = {
+    "%": "%", "percent": "%",
+    "kPa": "kPa", "MPa": "MPa", "Pa": "Pa", "atm": "atm", "psia": "psia", "psi": "psi",
+    "mmHg": "mmHg", "torr": "mmHg", "Torr": "mmHg", "bar": "bar", "mbar": "mbar",
+    "s": "s", "sec": "s", "second": "s", "seconds": "s", "ms": "ms",
+    "min": "min", "minute": "min", "minutes": "min",
+    "h": "h", "hr": "h", "hrs": "h", "hour": "h", "hours": "h",
+    "nm": "nm", "um": "um", "\u03bcm": "um", "micron": "um", "microns": "um",
+    "mm": "mm", "cm": "cm", "m": "m", "km": "km",
+    "K": "K", "\u00b0C": "degC", "degC": "degC",
+    "g": "g", "mg": "mg", "kg": "kg", "ppm": "ppm", "sccm": "sccm", "slpm": "slpm",
+    "W": "W", "kW": "kW", "J": "J", "V": "V", "Hz": "Hz", "L": "L", "mL": "mL",
+    "micrometer": "um", "micrometers": "um", "micrometre": "um", "micrometres": "um",
+    "millimeter": "mm", "millimeters": "mm", "millimetre": "mm", "millimetres": "mm",
+    "centimeter": "cm", "centimeters": "cm", "centimetre": "cm", "centimetres": "cm",
+}  # fmt: skip
+_ABBREVIATIONS = frozenset(
+    {"al", "fig", "figs", "approx", "eq", "eqs", "vs", "no", "ref", "refs", "cf", "ca", "e.g", "i.e"}
+)
+_LABEL_BEFORE = re.compile(r"\b(?:tables?|figures?|figs?|eqs?|equations?|sections?|pages?|pp?)\.?\s*$", re.IGNORECASE)
+_WORD = re.compile(r"[A-Za-z\u03bc%\u00b0]{2,}")
+_SENTENCE_END = re.compile(r"[.!?]\s+(?=[A-Z(\"'])")
+
+
+@dataclass(frozen=True)
+class Quantity:
+    value: str  # signed canonical number, for example "-5", "0.5", "1e-6"
+    unit: str | None  # canonical unit written right after the number, if any
+    label: bool = field(default=False, compare=False)  # "Table 1", "Fig. 3": a reference, not a quantity
+
+    def __str__(self) -> str:
+        if self.unit is None:
+            return self.value
+        return f"{self.value}{self.unit}" if self.unit == "%" else f"{self.value} {self.unit}"
+
+
+def _prepare(text: str) -> str:
+    """Spell superscripts as ``^n``, unify minus signs, NFKC, collapse whitespace."""
+    text = _SUPERSCRIPT_RUN.sub(lambda match: "^" + unicodedata.normalize("NFKC", match.group()), text)
+    text = unicodedata.normalize("NFKC", text)
+    text = text.replace("\u2212", "-").replace("\u2010", "-").replace("\u2011", "-")
+    return " ".join(text.split())
+
+
+def _canonical_unit(token: str) -> str | None:
+    token = token.replace("^", "").replace(" ", "")
+    if token in _UNITS:
+        return _UNITS[token]
+    if "/" in token:
+        numerator, _, denominator = token.partition("/")
+        return f"{_UNITS.get(numerator, numerator)}/{_UNITS.get(denominator, denominator)}"
+    return None
+
+
+def _quantities(prepared: str) -> list[Quantity]:
+    found = []
+    for match in _QUANTITY.finditer(prepared):
+        if match["ten"]:
+            value = f"1e{int(match['e4'])}"
+        else:
+            mantissa = "0" + match["mant"] if match["mant"].startswith(".") else match["mant"]
+            exponent = match["e1"] or match["e2"] or match["e3"]
+            value = mantissa if exponent is None else f"{mantissa}e{int(exponent)}"
+        unit_match = _UNIT_AFTER.match(prepared, match.end())
+        unit = _canonical_unit(unit_match["unit"]) if unit_match else None
+        label = _LABEL_BEFORE.search(prepared, 0, match.start()) is not None
+        found.append(Quantity((match["sign"] or "") + value, unit, label))
+    return found
+
+
+def quantities_in(text: str) -> list[Quantity]:
+    """Quantities of ``text`` in order of appearance, duplicates included."""
+    return _quantities(_prepare(text))
+
+
 def numbers_in(text: str) -> set[str]:
-    """Numeric tokens of ``text``; ``.5`` and ``0.5`` are the same token."""
-    return {("0" + token if token.startswith(".") else token) for token in _NUMBER.findall(normalize_text(text))}
+    """Signed numeric tokens of ``text``; ``.5`` and ``0.5`` are the same token."""
+    return {quantity.value for quantity in quantities_in(text)}
+
+
+@dataclass(frozen=True)
+class _Support:
+    """What one excerpt can back.
+
+    ``values``: every number in it. ``pairs``: numbers with the unit they carry
+    (written after them, or in a table header). ``bare``: numbers with no unit at
+    all, such as table cells whose unit sits in a caption. ``mentions``: units named
+    anywhere in the text (multi-letter spellings only, so "'s" is not a second).
+    """
+
+    values: frozenset[str]
+    pairs: frozenset[tuple[str, str]]
+    bare: frozenset[str]
+    mentions: frozenset[str]
+
+    def has(self, quantity: Quantity, mentions: frozenset[str]) -> bool:
+        """``mentions`` are the units named by all excerpts the statement cites."""
+        if quantity.unit is None:
+            return quantity.value in self.values
+        if (quantity.value, quantity.unit) in self.pairs:
+            return True
+        return quantity.value in self.bare and quantity.unit in mentions
+
+
+def _support(excerpt: str) -> _Support:
+    prepared = _prepare(excerpt)
+    values: set[str] = set()
+    pairs: set[tuple[str, str]] = set()
+    bare: set[str] = set()
+
+    def add(quantity: Quantity, header_unit: str | None = None) -> None:
+        values.add(quantity.value)
+        unit = quantity.unit or header_unit
+        if unit is None:
+            bare.add(quantity.value)
+        else:
+            pairs.add((quantity.value, unit))
+
+    inherited: set[tuple[str, str]] = set()
+    for part in prepared.split(" | "):  # table rows: "<header; unit>: <cell>"
+        head, colon, cell = part.partition(":")
+        header = _HEADER_UNIT.search(head) if colon else None
+        if header is None:
+            continue
+        unit = _canonical_unit(header["unit"]) or ("degC" if header["unit"].strip() == "C" else None)
+        if unit is not None:
+            for quantity in _quantities(cell.strip()):
+                if quantity.unit is None:
+                    inherited.add((quantity.value, unit))
+    for quantity in _quantities(prepared):
+        add(quantity)
+    for value, unit in inherited:
+        bare.discard(value)
+        pairs.add((value, unit))
+    mentions = {unit for word in _WORD.findall(prepared) if (unit := _canonical_unit(word))}
+    return _Support(frozenset(values), frozenset(pairs), frozenset(bare), frozenset(mentions))
+
+
+def _sentences(prepared: str) -> list[str]:
+    sentences, start = [], 0
+    for match in _SENTENCE_END.finditer(prepared):
+        words = prepared[start : match.start()].split()
+        if words and words[-1].lower().strip("(") in _ABBREVIATIONS:
+            continue
+        sentences.append(prepared[start : match.start() + 1])
+        start = match.end()
+    sentences.append(prepared[start:])
+    return sentences
+
+
+def _quantity_problems(label: str, text: str, known: list[dict[str, Any]]) -> list[str]:
+    """Number rule for one statement; every message names the statement and the number."""
+    supports = [_support(item["excerpt"]) for item in known]
+    mentions = frozenset().union(*(support.mentions for support in supports))
+    problems = []
+    unsupported: set[Quantity] = set()
+    for quantity in sorted(set(quantities_in(text)), key=str):
+        if any(support.has(quantity, mentions) for support in supports):
+            continue
+        unsupported.add(quantity)
+        if quantity.unit is not None and any(quantity.value in support.values for support in supports):
+            found = sorted({unit for s in supports for value, unit in s.pairs if value == quantity.value})
+            problems.append(
+                f"{label}: number {quantity} does not occur with unit {quantity.unit} in any excerpt it cites "
+                f"({quantity.value} appears there {'with ' + ', '.join(found) if found else 'without a unit'})"
+            )
+            continue
+        hint = ""
+        bare = quantity.value.lstrip("+-")
+        if bare != quantity.value and any(bare in s.values for s in supports):
+            hint = f" (an excerpt has {bare} without that sign)"
+        elif any(f"-{quantity.value}" in s.values or f"+{quantity.value}" in s.values for s in supports):
+            hint = " (an excerpt has that number with a different sign)"
+        problems.append(f"{label}: number {quantity} does not occur in any excerpt it cites{hint}")
+    for sentence in _sentences(_prepare(text)):
+        together = sorted({q for q in _quantities(sentence) if not q.label}, key=str)
+        if len({quantity.value for quantity in together}) < 2 or unsupported.intersection(together):
+            continue
+        if not any(all(support.has(quantity, mentions) for quantity in together) for support in supports):
+            listed = ", ".join(str(quantity) for quantity in together)
+            problems.append(
+                f"{label}: numbers {listed} are stated in one sentence but no single cited excerpt contains "
+                f"all of them (sentence: {sentence[:80]!r}); split the sentence or cite one excerpt that has them"
+            )
+    return problems
 
 
 # ---------------------------------------------------------------- statements
@@ -180,9 +389,7 @@ def _statement_problems(card: dict[str, Any], by_id: dict[str, dict[str, Any]]) 
         known = [by_id[i] for i in ids if i in by_id]
         for missing in sorted(set(ids) - set(by_id)):
             problems.append(f"{label}: cites unknown evidence id {missing}")
-        supported = set().union(*(numbers_in(item["excerpt"]) for item in known)) if known else set()
-        for number in sorted(numbers_in(text) - supported):
-            problems.append(f"{label}: number {number} does not occur in any excerpt it cites")
+        problems.extend(_quantity_problems(label, text, known))
     return problems
 
 
@@ -258,8 +465,8 @@ def validate(card: dict[str, Any], packet: dict[str, Any]) -> list[str]:
 
 
 def _timestamp(moment: datetime) -> str:
-    aware = moment if moment.tzinfo else moment.replace(tzinfo=timezone.utc)
-    return aware.astimezone(timezone.utc).replace(microsecond=0).isoformat()
+    aware = moment if moment.tzinfo else moment.replace(tzinfo=UTC)
+    return aware.astimezone(UTC).replace(microsecond=0).isoformat()
 
 
 def _rewrite_refs(value: Any, mapping: dict[str, str], problems: list[str]) -> Any:
@@ -356,7 +563,7 @@ def _cmd_finalize(args: argparse.Namespace) -> int:
     draft = read_json(args.draft)
     try:
         packet = _load_packet(args.packets, str(draft.get("accession")))
-        card = finalize(draft, packet, datetime.now(timezone.utc))
+        card = finalize(draft, packet, datetime.now(UTC))
     except CardError as error:
         print(f"{args.draft}: {len(error.problems)} problem(s)")
         for problem in error.problems:

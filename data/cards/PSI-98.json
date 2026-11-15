@@ -161,7 +161,7 @@
       ]
     },
     {
-      "text": "The table lists Sample Length (cm) as 40.6 and Sample Width (cm) as 94, while the metadata describes the sample as approximately 0.94 meters long and 0.4 meters wide; the two sources label the dimensions differently.",
+      "text": "The table lists Sample Length (cm) as 40.6 and Sample Width (cm) as 94. The metadata describes the sample as approximately 0.94 meters long and 0.4 meters wide; the two sources label the dimensions differently.",
       "basis": "source",
       "evidence_ids": [
         "PSI-98:table:6792c46eb7b6ff8e65037f3e:v1:r1#dc11145cc4ed",
@@ -181,7 +181,7 @@
   ],
   "modeling_resources": [
     {
-      "description": "PSI experimental table for Saffire-1 with per-sample burn time, thickness, air flow, O2 and flow direction; could support future predictive modeling.",
+      "description": "PSI experimental table for Saffire-I with per-sample burn time, thickness, air flow, O2 and flow direction; could support future predictive modeling.",
       "file_keys": [
         "psi-data/PSI-98/Experimental table/PSI-98_Experimental table_SAFFIRE-1.csv"
       ],
@@ -383,7 +383,7 @@
     "method": "skill",
     "skill": "research-card",
     "model": "claude-sonnet-5-5",
-    "generated_at": "2026-11-15T18:12:19+00:00"
+    "generated_at": "2026-11-15T18:13:55+00:00"
   },
   "review": {
     "status": "pending",

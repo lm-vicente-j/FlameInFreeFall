@@ -30,8 +30,8 @@ Write the draft to `res/drafts/<ACCESSION>.json`, then run from the repository r
 
 ## Rules
 
-1. Evidence items are `{"id": "E<n>", "passage_id": ..., "excerpt": ...}`. The excerpt is copied character for character from that passage's `text` (whitespace differences are tolerated, nothing else), is at least 20 characters long, and is as short as possible while still supporting the statement. Never paraphrase inside an excerpt.
-2. Every statement (summary, claim, finding conditions, comparison attribute, limitation with basis "source", modeling resource) cites the `E<n>` refs that support it. Every number you write must appear in an excerpt cited by that same statement. If it does not, remove the number.
+1. Evidence items are `{"id": "E<n>", "passage_id": ..., "excerpt": ...}`. The excerpt is copied character for character from that passage's `text` (whitespace and ligature differences are tolerated when locating it, and finalize stores the exact text of the passage), is at least 20 characters long, and is as short as possible while still supporting the statement. Never paraphrase inside an excerpt.
+2. Every statement (summary, claim, finding conditions, comparison attribute, limitation with basis "source", modeling resource) cites the `E<n>` refs that support it. Every number you write must appear in an excerpt cited by that same statement. If it does not, remove the number. Numbers are checked as quantities, not as digit strings: the sign counts (`-5` is not `5`), an exponent is part of the number (`1e-6`, `10^-6` and `x10-6` are one quantity), a unit written right after a number (kPa, mmHg, %, s, mm, cm/s, ...) must be the unit the excerpt gives that number (table headers such as `Burn time; s` count), and all numbers in one sentence must occur together in one single cited excerpt. So write one group of values per sentence and never mix values from two table rows or two pages in one sentence; a sentence about test #94 must not carry numbers that only appear in the row of test #226.
 3. Claim types:
    - `objective`: what the investigation set out to do.
    - `hypothesis`: what it expected or proposed to test.

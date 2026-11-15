@@ -78,7 +78,7 @@
     {
       "id": "C3",
       "type": "reported_observation",
-      "text": "In baseline runs, Table 1 reports the diameter of average mass increasing with 720 s aging: Kapton from 0.106 to 0.169 micrometers and Pyrell from 0.377 to 0.529 micrometers.",
+      "text": "In baseline runs, Table 1 reports the diameter of average mass after 720 s aging. For Kapton it increased from 0.106 to 0.169 micrometers. For Pyrell it increased from 0.377 to 0.529 micrometers.",
       "evidence_ids": [
         "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p4#5ac9a253037d",
         "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p5#f1752d14ed65",
@@ -88,7 +88,7 @@
     {
       "id": "C4",
       "type": "reported_observation",
-      "text": "In baseline runs, Table 1 reports unaged diameters of average mass of 0.106 micrometers for Kapton and 0.173 micrometers for Teflon, compared with 0.271 micrometers for lampwick and 0.468 micrometers for silicone; the report states the Teflon and Kapton particles were very small.",
+      "text": "In baseline runs, Table 1 reports an unaged diameter of average mass of 0.106 micrometers for Kapton. It reports 0.173 micrometers for Teflon. It reports 0.271 micrometers for lampwick. It reports 0.468 micrometers for silicone. The report states the Teflon and Kapton particles were very small.",
       "evidence_ids": [
         "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p4#5ac9a253037d",
         "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p5#960ec7619876",
@@ -127,7 +127,7 @@
     {
       "observation": "C4",
       "conditions": {
-        "text": "Baseline runs at 8 cm/s air flow, with sample temperature selected to produce 1 to 2 mg of weight loss in 60 seconds; unaged diameters in micrometers.",
+        "text": "Baseline runs used 8 cm/s air flow. The sample temperature was selected to produce 1 to 2 mg of weight loss in 60 seconds. The unaged diameters are in micrometers.",
         "evidence_ids": [
           "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p4#eef9ec5159fd",
           "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p4#b272075d4659",
@@ -563,7 +563,7 @@
     "method": "skill",
     "skill": "research-card",
     "model": "claude-sonnet-5-5",
-    "generated_at": "2026-11-15T18:12:03+00:00"
+    "generated_at": "2026-11-15T18:13:44+00:00"
   },
   "review": {
     "status": "pending",

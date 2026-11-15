@@ -98,17 +98,17 @@
     {
       "id": "C3",
       "type": "reported_observation",
-      "text": "In opposed-flow tests of PMMA samples, extinction velocities were found to be about 1 cm/s for thicknesses of 100, 200, and 300 µm and about 1.5 cm/s for 400 µm. In a test on a 100-µm sample with gradually reduced flow, the flame extinguished at an indicated flow velocity of about 1.1 cm/s.",
+      "text": "In opposed-flow tests of PMMA samples, extinction velocities were found to be about 1 cm/s for thicknesses of 100, 200, and 300 µm and about 1.5 cm/s for 400 µm. In a second test on a 100-µm sample, with the flow gradually reduced from 3 cm/s, the flame extinguished at an indicated flow velocity of about 1.1 cm/s.",
       "evidence_ids": [
         "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p31#3f6ca2225cd5",
-        "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p31#ed87668dda80",
+        "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p31#a67dcc104236",
         "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p29#a1bd2d0c9ce0"
       ]
     },
     {
       "id": "C4",
       "type": "reported_observation",
-      "text": "At a lower O2 level of about 16 percent, extinction velocities were found to be about 2.6 cm/s for 100 µm and about 4 cm/s for 200 µm samples. The source states that the extinction velocity significantly increases as the O2 level is reduced.",
+      "text": "Tests were also conducted at a lower O2 level of about 16 percent for two thicknesses. The extinction velocities were found to be about 2.6 cm/s for 100 µm and about 4 cm/s for 200 µm. The source states that the extinction velocity significantly increases as the O2 level is reduced.",
       "evidence_ids": [
         "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p31#a9562d348641",
         "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p33#1a81c5be6250",
@@ -132,7 +132,7 @@
         "text": "PMMA samples 100 to 400 µm thick, 20 mm wide and about 95 mm long, burned in opposed flow in a 76-mm square duct aboard the ISS; flow was gradually reduced until the flame extinguished.",
         "evidence_ids": [
           "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p29#a1bd2d0c9ce0",
-          "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p31#ed87668dda80"
+          "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p31#a67dcc104236"
         ]
       },
       "implication": "C5",
@@ -141,7 +141,7 @@
     {
       "observation": "C4",
       "conditions": {
-        "text": "Opposed-flow tests on PMMA samples at a lower O2 level of about 16 percent, with 100-µm and 200-µm samples, aboard the ISS; sample widths differed between the two thicknesses.",
+        "text": "Opposed-flow tests on PMMA samples at a lower O2 level of about 16 percent, aboard the ISS. The samples were 100-µm and 200-µm thick; sample widths differed between the two thicknesses.",
         "evidence_ids": [
           "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p31#a9562d348641",
           "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p33#1a81c5be6250",
@@ -228,7 +228,7 @@
       "excerpt": "the extinction velocities are found to \nbe about 1 cm/s for 100, 200, and 300 µm and about 1.5 cm/s for 400 µm."
     },
     {
-      "id": "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p31#ed87668dda80",
+      "id": "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p31#a67dcc104236",
       "passage_id": "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p31",
       "investigation": "PSI-25",
       "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-25",
@@ -242,7 +242,7 @@
         "sha256": "5ffa911fd9b6356f204646003fb9342e341810dcdfdf5cb15756e7f01ec5f770",
         "page": 31
       },
-      "excerpt": "The fan voltage at that time indicates a flow velocity of about \n1.1 cm/s."
+      "excerpt": "In the first test, a steady flame was established over a \n100-µm sample. After the flame propagated across half the sample length at a steady spread rate of \n2.2 mm/s, the flow was abruptly cut off and the flame was observed to extinguish within 2 s. To pin down \nthe extinction flow velocity, a second test was done under the same conditions except the flow velocity \nwas set at 3 cm/s and after the flame propagated about half the sample length, the flow was gradually \nreduced. The flame spread rate of the leading edge, as plotted in Figure 2.8, shows that the flame \nextinguishes at about 30 s after ignition. The fan voltage at that time indicates a flow velocity of about \n1.1 cm/s."
     },
     {
       "id": "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p29#a1bd2d0c9ce0",
@@ -463,7 +463,7 @@
     "method": "skill",
     "skill": "research-card",
     "model": "claude-sonnet-5-5",
-    "generated_at": "2026-11-15T18:12:13+00:00"
+    "generated_at": "2026-11-15T18:13:51+00:00"
   },
   "review": {
     "status": "pending",
