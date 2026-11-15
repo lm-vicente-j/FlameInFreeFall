@@ -1,0 +1,96 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://flameinfreefall.local/schemas/llm-extraction.schema.json",
+  "title": "Model-proposed values from free-text cells, each awaiting human review",
+  "description": "Every proposed value quotes an exact substring of its source cell. Only items a person approved reach the run records.",
+  "type": "object",
+  "required": ["name", "task", "source", "items"],
+  "additionalProperties": false,
+  "properties": {
+    "name": {"type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"},
+    "task": {"type": "string", "minLength": 10, "description": "The fixed instruction the model followed, stated in one paragraph."},
+    "source": {
+      "type": "object",
+      "required": ["filename", "sha256", "sheet", "column"],
+      "additionalProperties": false,
+      "properties": {
+        "filename": {"type": "string"},
+        "sha256": {"$ref": "common.schema.json#/$defs/sha256"},
+        "sheet": {"type": ["string", "null"]},
+        "column": {"type": "string"}
+      }
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["record_id", "source_text", "proposed_by", "model", "proposal", "review"],
+        "additionalProperties": false,
+        "properties": {
+          "record_id": {"type": "string", "pattern": "^PSI-[0-9]+:[a-z0-9]+(-[a-z0-9]+)*:[0-9]+$"},
+          "source_text": {"type": "string", "minLength": 1, "description": "The cell exactly as written in the source."},
+          "proposed_by": {"enum": ["llm", "manual"]},
+          "model": {"type": ["string", "null"]},
+          "proposal": {
+            "type": "object",
+            "required": ["outcomes", "readings"],
+            "additionalProperties": false,
+            "properties": {
+              "outcomes": {"type": "array", "items": {"$ref": "#/$defs/proposedOutcome"}},
+              "readings": {
+                "description": "Instrument readings named in the cell, such as a sequence of air display settings during a flow sweep.",
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": ["instrument", "min", "max", "quote"],
+                  "additionalProperties": false,
+                  "properties": {
+                    "instrument": {"enum": ["air_display", "fan_display"]},
+                    "min": {"type": "number"},
+                    "max": {"type": "number"},
+                    "quote": {"type": "string", "minLength": 1}
+                  }
+                }
+              }
+            }
+          },
+          "review": {"$ref": "common.schema.json#/$defs/review"}
+        }
+      }
+    }
+  },
+  "$defs": {
+    "proposedOutcome": {
+      "type": "object",
+      "required": ["type", "gravity", "result", "quote"],
+      "additionalProperties": false,
+      "properties": {
+        "type": {"$ref": "run-table.schema.json#/$defs/outcome/properties/type"},
+        "gravity": {"enum": ["microgravity", "normal"]},
+        "result": {
+          "oneOf": [
+            {
+              "type": "object",
+              "required": ["kind", "min", "max", "unit", "qualifier"],
+              "additionalProperties": false,
+              "properties": {
+                "kind": {"const": "quantity"},
+                "min": {"type": "number"},
+                "max": {"type": "number"},
+                "unit": {"type": "string", "minLength": 1},
+                "qualifier": {"enum": [null, "approximate"]}
+              }
+            },
+            {
+              "type": "object",
+              "required": ["kind", "value"],
+              "additionalProperties": false,
+              "properties": {"kind": {"const": "category"}, "value": {"type": "string", "minLength": 1}}
+            }
+          ]
+        },
+        "quote": {"type": "string", "minLength": 1, "description": "Exact substring of source_text supporting this outcome."}
+      }
+    }
+  }
+}
