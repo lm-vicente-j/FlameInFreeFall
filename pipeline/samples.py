@@ -44,6 +44,9 @@ ALLOWED_EXTENSIONS = frozenset({".pdf", ".xlsx", ".xls", ".csv"})
 ARCHIVE_EXTENSIONS = frozenset({".zip", ".tar", ".gz", ".tgz", ".bz2", ".xz", ".7z", ".rar"})
 VIDEO_EXTENSIONS = frozenset({".mp4", ".avi", ".mov", ".mkv", ".wmv", ".mpg", ".mpeg", ".m4v", ".webm", ".flv"})
 
+MAX_PDFS = 20
+"""PLAN.md: up to 20 readable PDFs. Human review time, not storage, is the limit."""
+
 TIMEOUT_SECONDS = 120.0
 
 Clock = Callable[[], datetime]
@@ -129,6 +132,9 @@ def plan(selection: dict[str, Any], res_dir: Path) -> list[PlannedItem]:
             continue
         local_paths[slot] = label
         items.append(PlannedItem(remote, entry["purpose"], entry["reason"]))
+    pdfs = sum(1 for entry in selection["files"] if entry["key"].lower().endswith(".pdf"))
+    if pdfs > MAX_PDFS:
+        problems.append(f"selection lists {pdfs} PDFs; the limit is {MAX_PDFS}")
     if problems:
         raise SelectionError("Selection rejected:\n  " + "\n  ".join(problems))
     declared = sum(item.file.bytes or 0 for item in items)
