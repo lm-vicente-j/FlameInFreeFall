@@ -92,7 +92,7 @@ def _excerpts(ids: Iterable[str], evidence: Mapping[str, str]) -> list[str]:
     return lines
 
 
-def format_card(card: Mapping[str, Any]) -> str:
+def format_card(card: Mapping[str, Any], packet: Mapping[str, Any] | None = None) -> str:
     evidence = {e["id"]: e["excerpt"] for e in card["evidence"]}
     lines = [
         f"card  {card['accession']}  {card['title']}",
@@ -117,4 +117,30 @@ def format_card(card: Mapping[str, Any]) -> str:
         lines.append(f"    ({limitation['basis']}) {limitation['text']}")
     if not card["limitations"]:
         lines.append("    (none)")
+    lines.append("  comparison:")
+    for name, value in card["comparison"].items():
+        lines.append(f"    {name}: {value['text'] if value else '(unknown)'}")
+        if value:
+            lines.extend(_excerpts(value["evidence_ids"], evidence))
+    lines.append("  safety categories:")
+    for category in card["safety_categories"]:
+        lines.append(f"    {category['category']}")
+        lines.extend(_excerpts(category["evidence_ids"], evidence))
+    lines.append("  modeling resources:")
+    for resource in card["modeling_resources"]:
+        lines.append(f"    {resource['description']}")
+        lines.extend(f"      file: {key}" for key in resource["file_keys"])
+        lines.extend(_excerpts(resource["evidence_ids"], evidence))
+    if packet is not None:
+        passages = {p["id"]: p for p in packet["passages"]}
+        lines.append("  source passage context:")
+        for item in card["evidence"]:
+            passage = passages.get(item["passage_id"])
+            if passage is None:
+                lines.append(f"    MISSING: {item['passage_id']}")
+                continue
+            start = passage["text"].find(item["excerpt"])
+            context = passage["text"][max(0, start - 240):max(0, start) + len(item["excerpt"]) + 240]
+            lines.append(f"    {item['id']} locator={item['locator']}")
+            lines.append("      " + mark_quotes(context, [item["excerpt"]]))
     return "\n".join(lines)

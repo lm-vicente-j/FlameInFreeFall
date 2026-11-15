@@ -160,17 +160,17 @@
           "type": "burning_rate",
           "gravity": "microgravity",
           "result": {
-            "min": 0.52,
-            "max": 0.52,
-            "unit": "mm",
+            "min": null,
+            "max": null,
+            "unit": "unknown",
             "qualifier": null,
-            "method": "parsed",
+            "method": "unknown",
             "columns": [
               "Burning rate; mm"
             ],
             "review_status": "not_required",
             "quote": null,
-            "note": "unit as written in source header"
+            "note": "Source header 'Burning rate; mm' does not establish a rate unit; original cell retained"
           }
         },
         {
@@ -542,17 +542,17 @@
           "type": "burning_rate",
           "gravity": "microgravity",
           "result": {
-            "min": 0.6,
-            "max": 0.6,
-            "unit": "mm",
+            "min": null,
+            "max": null,
+            "unit": "unknown",
             "qualifier": null,
-            "method": "parsed",
+            "method": "unknown",
             "columns": [
               "Burning rate; mm"
             ],
             "review_status": "not_required",
             "quote": null,
-            "note": "unit as written in source header"
+            "note": "Source header 'Burning rate; mm' does not establish a rate unit; original cell retained"
           }
         },
         {
@@ -943,17 +943,17 @@
           "type": "burning_rate",
           "gravity": "microgravity",
           "result": {
-            "min": 0.37,
-            "max": 0.37,
-            "unit": "mm",
+            "min": null,
+            "max": null,
+            "unit": "unknown",
             "qualifier": null,
-            "method": "parsed",
+            "method": "unknown",
             "columns": [
               "Burning rate; mm"
             ],
             "review_status": "not_required",
             "quote": null,
-            "note": "unit as written in source header"
+            "note": "Source header 'Burning rate; mm' does not establish a rate unit; original cell retained"
           }
         },
         {
@@ -1188,17 +1188,17 @@
           "type": "burning_rate",
           "gravity": "microgravity",
           "result": {
-            "min": 0.4,
-            "max": 0.4,
-            "unit": "mm",
+            "min": null,
+            "max": null,
+            "unit": "unknown",
             "qualifier": null,
-            "method": "parsed",
+            "method": "unknown",
             "columns": [
               "Burning rate; mm"
             ],
             "review_status": "not_required",
             "quote": null,
-            "note": "unit as written in source header"
+            "note": "Source header 'Burning rate; mm' does not establish a rate unit; original cell retained"
           }
         },
         {
@@ -1546,17 +1546,17 @@
           "type": "burning_rate",
           "gravity": "microgravity",
           "result": {
-            "min": 0.51,
-            "max": 0.51,
-            "unit": "mm",
+            "min": null,
+            "max": null,
+            "unit": "unknown",
             "qualifier": null,
-            "method": "parsed",
+            "method": "unknown",
             "columns": [
               "Burning rate; mm"
             ],
             "review_status": "not_required",
             "quote": null,
-            "note": "unit as written in source header"
+            "note": "Source header 'Burning rate; mm' does not establish a rate unit; original cell retained"
           }
         },
         {
@@ -1904,17 +1904,17 @@
           "type": "burning_rate",
           "gravity": "microgravity",
           "result": {
-            "min": 0.42,
-            "max": 0.42,
-            "unit": "mm",
+            "min": null,
+            "max": null,
+            "unit": "unknown",
             "qualifier": null,
-            "method": "parsed",
+            "method": "unknown",
             "columns": [
               "Burning rate; mm"
             ],
             "review_status": "not_required",
             "quote": null,
-            "note": "unit as written in source header"
+            "note": "Source header 'Burning rate; mm' does not establish a rate unit; original cell retained"
           }
         },
         {
@@ -2270,17 +2270,17 @@
           "type": "burning_rate",
           "gravity": "microgravity",
           "result": {
-            "min": 0.51,
-            "max": 0.51,
-            "unit": "mm",
+            "min": null,
+            "max": null,
+            "unit": "unknown",
             "qualifier": null,
-            "method": "parsed",
+            "method": "unknown",
             "columns": [
               "Burning rate; mm"
             ],
             "review_status": "not_required",
             "quote": null,
-            "note": "unit as written in source header"
+            "note": "Source header 'Burning rate; mm' does not establish a rate unit; original cell retained"
           }
         },
         {
@@ -2619,6 +2619,23 @@
         }
       },
       "outcomes": [
+        {
+          "type": "burning_rate",
+          "gravity": "microgravity",
+          "result": {
+            "min": null,
+            "max": null,
+            "unit": "unknown",
+            "qualifier": null,
+            "method": "unknown",
+            "columns": [
+              "Burning rate; mm"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": "Source header 'Burning rate; mm' does not establish a rate unit; original cell retained"
+          }
+        },
         {
           "type": "burn_time",
           "gravity": "microgravity",
@@ -2976,17 +2993,17 @@
           "type": "burning_rate",
           "gravity": "microgravity",
           "result": {
-            "min": 0.51,
-            "max": 0.51,
-            "unit": "mm",
+            "min": null,
+            "max": null,
+            "unit": "unknown",
             "qualifier": null,
-            "method": "parsed",
+            "method": "unknown",
             "columns": [
               "Burning rate; mm"
             ],
             "review_status": "not_required",
             "quote": null,
-            "note": "unit as written in source header"
+            "note": "Source header 'Burning rate; mm' does not establish a rate unit; original cell retained"
           }
         },
         {

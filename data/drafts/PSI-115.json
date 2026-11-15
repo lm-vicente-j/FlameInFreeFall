@@ -1,0 +1,142 @@
+{
+  "accession": "PSI-115",
+  "summary": {
+    "text": "This investigation aims to use numerical simulation to explore how gravity influences pyrolysis smoke growth, simulating dibutyl-phthalate (DBP) particles in Earth gravity and microgravity.",
+    "evidence_ids": [
+      "E1",
+      "E2"
+    ]
+  },
+  "safety_categories": [
+    {
+      "category": "detection",
+      "evidence_ids": [
+        "E4"
+      ]
+    },
+    {
+      "category": "prevention",
+      "evidence_ids": [
+        "E4"
+      ]
+    }
+  ],
+  "comparison": {
+    "fuels": null,
+    "geometry": {
+      "text": "Geometry is similar to that considered in the SAME experiments.",
+      "evidence_ids": [
+        "E6"
+      ]
+    },
+    "oxygen": null,
+    "pressure": null,
+    "flow": {
+      "text": "Two cross-flow velocities were considered, low enough that buoyancy cannot be neglected in the presence of gravity.",
+      "evidence_ids": [
+        "E5"
+      ]
+    },
+    "gravity": {
+      "text": "Earth gravity and microgravity were simulated.",
+      "evidence_ids": [
+        "E2"
+      ]
+    },
+    "measurements": null,
+    "hardware": null
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "type": "objective",
+      "text": "The investigation aims to use numerical simulation to explore the influence of gravity on pyrolysis smoke growth.",
+      "evidence_ids": [
+        "E1"
+      ]
+    },
+    {
+      "id": "C2",
+      "type": "hypothesis",
+      "text": "The investigation proposes that without buoyancy, mixing and heat transfer are reduced.",
+      "evidence_ids": [
+        "E3"
+      ]
+    },
+    {
+      "id": "C3",
+      "type": "potential_application",
+      "text": "The metadata states that models and tools characterizing smoke particles could lead to better smoke detection devices and help prevent fires (stated as a research impact, not as a result).",
+      "evidence_ids": [
+        "E4"
+      ]
+    }
+  ],
+  "findings": [],
+  "limitations": [
+    {
+      "text": "The work is a numerical simulation study; the metadata describes the simulations but states no simulation result.",
+      "basis": "source",
+      "evidence_ids": [
+        "E2"
+      ]
+    },
+    {
+      "text": "This draft cites PSI metadata; no PDF text or experimental-table passages were processed for this investigation.",
+      "basis": "coverage",
+      "evidence_ids": []
+    }
+  ],
+  "modeling_resources": [
+    {
+      "description": "Simulation output files comparing Earth-gravity and microgravity particle size distributions and number density. No model validation is claimed.",
+      "file_keys": [
+        "psi-data/PSI-115/Analyzed Data/PSI-115_Analyzed Data_8cmGravityPSD.dat",
+        "psi-data/PSI-115/Analyzed Data/PSI-115_Analyzed Data_8cmGravityNumDen.dat",
+        "psi-data/PSI-115/Analyzed Data/PSI-115_Analyzed Data_10cmGravityPSD.dat",
+        "psi-data/PSI-115/Analyzed Data/PSI-115_Analyzed Data_10cmNoGravityPSD.dat",
+        "psi-data/PSI-115/Analyzed Data/PSI-115_Analyzed Data_10cmGravityNumDen.dat",
+        "psi-data/PSI-115/Analyzed Data/PSI-115_Analyzed Data_10cmNoGravityNumDen.dat"
+      ],
+      "evidence_ids": [
+        "E2"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E1",
+      "passage_id": "PSI-115:meta:objective",
+      "excerpt": "to use numerical simulation to explore the influence of gravity on pyrolysis smoke growth from a fundamental perspective"
+    },
+    {
+      "id": "E2",
+      "passage_id": "PSI-115:meta:approach",
+      "excerpt": "The formation and growth of dibutyl-phthalate (DBP) particles in Earth gravity and microgravity environments was simulated."
+    },
+    {
+      "id": "E3",
+      "passage_id": "PSI-115:meta:hypothesis",
+      "excerpt": "Without buoyancy, mixing and heat transfer are reduced"
+    },
+    {
+      "id": "E4",
+      "passage_id": "PSI-115:meta:researchImpacts",
+      "excerpt": "This would directly lead to better smoke detection devices and prevent fires"
+    },
+    {
+      "id": "E5",
+      "passage_id": "PSI-115:meta:approach",
+      "excerpt": "This study considered two cross-flow velocities of sufficiently low speed that buoyancy cannot be neglected in the presence of gravity."
+    },
+    {
+      "id": "E6",
+      "passage_id": "PSI-115:meta:approach",
+      "excerpt": "in a geometry similar to that considered in the SAME experiments"
+    }
+  ],
+  "generation": {
+    "model": "claude-sonnet-5-5",
+    "generated_at": "2026-11-15T18:12:07+00:00"
+  }
+}

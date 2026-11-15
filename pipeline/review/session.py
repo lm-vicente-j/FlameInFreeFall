@@ -11,6 +11,7 @@ from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 
+from pipeline.review.display import format_card
 from pipeline.review.kinds import Item, Kind
 from pipeline.schema import schema_errors
 from pipeline.storage import read_json, write_json_atomic
@@ -115,7 +116,10 @@ def _decide(item: Item, status: str, note: str, env: Environment, fingerprint: s
 
 def _review_item(path: Path, kind: Kind, document: dict[str, Any], item: Item, env: Environment, tally: Tally) -> None:
     env.say("")
-    env.say(kind.render(document, item, env.impact() if kind.name == "aliases" else {}))
+    if kind.name == "cards":
+        env.say(format_card(item, read_json(env.packets_dir / f"{item['accession']}.json")))
+    else:
+        env.say(kind.render(document, item, env.impact() if kind.name == "aliases" else {}))
     note = item["review"]["notes"]
     prompt = f"[a]pprove [r]eject {'[e]dit ' if kind.editable else ''}[n]ote [s]kip [q]uit > "
     while True:

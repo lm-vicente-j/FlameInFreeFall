@@ -28,6 +28,7 @@ import unicodedata
 from collections.abc import Iterator
 from dataclasses import dataclass, field
 from datetime import UTC, datetime
+from functools import lru_cache
 from pathlib import Path
 from typing import Any
 
@@ -38,6 +39,7 @@ from pipeline.storage import read_json, write_json_atomic
 CORE_INVESTIGATIONS = ("PSI-25", "PSI-98", "PSI-101", "PSI-69")
 MIN_EXCERPT_CHARACTERS = 20
 _INTENT_FIELDS = ("objective", "hypothesis", "researchImpacts")
+_RESULT_WORDS = re.compile(r"\b(?:observed|measured|reported|demonstrated|showed|found|results? indicate)\b", re.I)
 
 class CardError(ValueError):
     """A draft or card is invalid; ``problems`` lists every issue found."""
@@ -178,11 +180,40 @@ class Quantity:
     value: str  # signed canonical number, for example "-5", "0.5", "1e-6"
     unit: str | None  # canonical unit written right after the number, if any
     label: bool = field(default=False, compare=False)  # "Table 1", "Fig. 3": a reference, not a quantity
+    comparator: str | None = None
 
     def __str__(self) -> str:
         if self.unit is None:
-            return self.value
-        return f"{self.value}{self.unit}" if self.unit == "%" else f"{self.value} {self.unit}"
+            return (self.comparator or "") + self.value
+        prefix = self.comparator or ""
+        return f"{prefix}{self.value}{self.unit}" if self.unit == "%" else f"{prefix}{self.value} {self.unit}"
+
+
+_SMALL_WORDS = [
+    "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven",
+    "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen",
+]
+_WORD_VALUES = {word: index for index, word in enumerate(_SMALL_WORDS)}
+_WORD_VALUES.update(dict(zip(
+    ["twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety"], range(20, 100, 10), strict=True,
+)))
+_WORD_VALUES.update({"hundred": 100, "thousand": 1000, "million": 1000000})
+_NUMBER_WORD = "(?:" + "|".join(_WORD_VALUES) + ")"
+_WORD_NUMBER = re.compile(r"\b" + _NUMBER_WORD + r"(?:[ -]+" + _NUMBER_WORD + r")*\b", re.I)
+
+
+def _spell_number(match: re.Match[str]) -> str:
+    total, group = 0, 0
+    for word in re.split(r"[ -]+", match.group().lower()):
+        value = _WORD_VALUES[word]
+        if value == 100:
+            group = max(1, group) * value
+        elif value >= 1000:
+            total += max(1, group) * value
+            group = 0
+        else:
+            group += value
+    return str(total + group)
 
 
 def _prepare(text: str) -> str:
@@ -190,6 +221,15 @@ def _prepare(text: str) -> str:
     text = _SUPERSCRIPT_RUN.sub(lambda match: "^" + unicodedata.normalize("NFKC", match.group()), text)
     text = unicodedata.normalize("NFKC", text)
     text = text.replace("\u2212", "-").replace("\u2010", "-").replace("\u2011", "-")
+    text = re.sub(r"\b(hundred|thousand|million)\s+and\s+(?=" + _NUMBER_WORD + r"\b)", r"\1 ", text, flags=re.I)
+    text = _WORD_NUMBER.sub(
+        lambda match: match.group() if match.group().lower() == "zero" and
+        re.match(r"\s+Gravity\s+Facility\b", text[match.end():]) else _spell_number(match), text
+    )
+    for phrase, comparator in [("less than or equal to", "<="), ("greater than or equal to", ">="),
+                               ("at least", ">="), ("at most", "<="), ("less than", "<"), ("greater than", ">")]:
+        text = re.sub(r"\b" + phrase + r"\s+", comparator, text, flags=re.I)
+    text = text.replace("\u2264", "<=").replace("\u2265", ">=")
     return " ".join(text.split())
 
 
@@ -215,7 +255,8 @@ def _quantities(prepared: str) -> list[Quantity]:
         unit_match = _UNIT_AFTER.match(prepared, match.end())
         unit = _canonical_unit(unit_match["unit"]) if unit_match else None
         label = _LABEL_BEFORE.search(prepared, 0, match.start()) is not None
-        found.append(Quantity((match["sign"] or "") + value, unit, label))
+        comparison = re.search(r"(<=|>=|<|>|=)\s*$", prepared[:match.start()])
+        found.append(Quantity((match["sign"] or "") + value, unit, label, comparison.group(1) if comparison else None))
     return found
 
 
@@ -243,9 +284,13 @@ class _Support:
     pairs: frozenset[tuple[str, str]]
     bare: frozenset[str]
     mentions: frozenset[str]
+    comparisons: frozenset[tuple[str, str | None, str]]
 
     def has(self, quantity: Quantity, mentions: frozenset[str]) -> bool:
         """``mentions`` are the units named by all excerpts the statement cites."""
+        if (quantity.comparator is not None
+                and (quantity.value, quantity.unit, quantity.comparator) not in self.comparisons):
+            return False
         if quantity.unit is None:
             return quantity.value in self.values
         if (quantity.value, quantity.unit) in self.pairs:
@@ -258,10 +303,13 @@ def _support(excerpt: str) -> _Support:
     values: set[str] = set()
     pairs: set[tuple[str, str]] = set()
     bare: set[str] = set()
+    comparisons: set[tuple[str, str | None, str]] = set()
 
     def add(quantity: Quantity, header_unit: str | None = None) -> None:
         values.add(quantity.value)
         unit = quantity.unit or header_unit
+        if quantity.comparator is not None:
+            comparisons.add((quantity.value, unit, quantity.comparator))
         if unit is None:
             bare.add(quantity.value)
         else:
@@ -284,7 +332,7 @@ def _support(excerpt: str) -> _Support:
         bare.discard(value)
         pairs.add((value, unit))
     mentions = {unit for word in _WORD.findall(prepared) if (unit := _canonical_unit(word))}
-    return _Support(frozenset(values), frozenset(pairs), frozenset(bare), frozenset(mentions))
+    return _Support(frozenset(values), frozenset(pairs), frozenset(bare), frozenset(mentions), frozenset(comparisons))
 
 
 def _sentences(prepared: str) -> list[str]:
@@ -333,6 +381,18 @@ def _quantity_problems(label: str, text: str, known: list[dict[str, Any]]) -> li
                 f"{label}: numbers {listed} are stated in one sentence but no single cited excerpt contains "
                 f"all of them (sentence: {sentence[:80]!r}); split the sentence or cite one excerpt that has them"
             )
+    boundary = r";|\b(?:whereas|while|but)\b|\band\s+(?=(?:sample|test|run|specimen)\b)"
+    source_clauses = [part for item in known
+                      for sentence in ([ _prepare(item["excerpt"]) ] if item["locator"]["kind"] == "table"
+                                       else _sentences(_prepare(item["excerpt"])))
+                      for part in ([sentence] if item["locator"]["kind"] == "table" else re.split(boundary, sentence))]
+    for sentence in _sentences(_prepare(text)):
+        for clause in re.split(boundary, sentence):
+            group = [q for q in _quantities(clause) if not q.label]
+            if len(group) >= 2 and not any(
+                all(_support(source).has(q, mentions) for q in group) for source in source_clauses
+            ):
+                problems.append(f"{label}: quantities in clause {clause.strip()!r} do not share one source clause")
     return problems
 
 
@@ -395,7 +455,9 @@ def _evidence_problems(
 
 def _is_intent_only(item: dict[str, Any]) -> bool:
     locator = item["locator"]
-    return locator["kind"] == "metadata" and locator["field"] in _INTENT_FIELDS
+    if locator["kind"] in ("pdf", "table"):
+        return False
+    return locator["field"] not in ("description", "approach") or not _RESULT_WORDS.search(item["excerpt"])
 
 
 def _statement_problems(card: dict[str, Any], by_id: dict[str, dict[str, Any]]) -> list[str]:
@@ -405,6 +467,13 @@ def _statement_problems(card: dict[str, Any], by_id: dict[str, dict[str, Any]]) 
         for missing in sorted(set(ids) - set(by_id)):
             problems.append(f"{label}: cites unknown evidence id {missing}")
         problems.extend(_quantity_problems(label, text, known))
+        result_field = label == "summary" or label.startswith("comparison.") or label.endswith(".conditions")
+        no_result = re.search(r"\b(?:no|not)\b.*\b(?:measured|reported|observed|result)\b", text, re.I)
+        if (result_field and not no_result and (_RESULT_WORDS.search(text) or label.endswith(".conditions"))
+                and all(_is_intent_only(e) for e in known)):
+            problems.append(
+                f"{label}: a reported result requires result-bearing evidence, not intent or title metadata"
+            )
     return problems
 
 
@@ -461,6 +530,13 @@ def _structure_problems(card: dict[str, Any], packet: dict[str, Any]) -> list[st
     return problems
 
 
+@lru_cache(maxsize=32)
+def _file_keys(accession: str) -> frozenset[str]:
+    inventory = paths.ROOT / "metadata-info" / f"{accession}.md"
+    return frozenset(line.split("|")[1].strip() for line in inventory.read_text(encoding="utf-8").splitlines()
+                     if line.startswith("| psi-data/"))
+
+
 def validate(card: dict[str, Any], packet: dict[str, Any]) -> list[str]:
     """Return every problem found; an empty list means the card is valid."""
     problems = schema_errors(card, "research-card")
@@ -476,6 +552,15 @@ def validate(card: dict[str, Any], packet: dict[str, Any]) -> list[str]:
         problems.extend(_evidence_problems(item, passages, packet))
     problems.extend(_statement_problems(card, by_id))
     problems.extend(_claim_problems(card, by_id))
+    for index, limitation in enumerate(card["limitations"]):
+        if limitation["basis"] == "source" and not limitation["evidence_ids"]:
+            problems.append(f"limitations[{index}]: a source limitation requires evidence")
+    for index, resource in enumerate(card["modeling_resources"]):
+        for key in resource["file_keys"]:
+            if key not in _file_keys(card["accession"]):
+                problems.append(
+                    f"modeling_resources[{index}]: file key is not in this investigation's saved inventory: {key}"
+                )
     for orphan in sorted(set(by_id) - _referenced_ids(card)):
         problems.append(f"evidence {orphan} is not referenced by any statement")
     for index, entry in enumerate(card["safety_categories"]):
@@ -586,7 +671,8 @@ def _cmd_finalize(args: argparse.Namespace) -> int:
     draft = read_json(args.draft)
     try:
         packet = _load_packet(args.packets, str(draft.get("accession")))
-        card = finalize(draft, packet, datetime.now(UTC))
+        stamp = draft.get("generation", {}).get("generated_at")
+        card = finalize(draft, packet, datetime.fromisoformat(stamp) if stamp else datetime.now(UTC))
     except CardError as error:
         print(f"{args.draft}: {len(error.problems)} problem(s)")
         for problem in error.problems:

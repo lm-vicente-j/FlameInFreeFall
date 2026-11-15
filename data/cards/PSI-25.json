@@ -98,7 +98,7 @@
     {
       "id": "C3",
       "type": "reported_observation",
-      "text": "In opposed-flow tests of PMMA samples, extinction velocities were found to be about 1 cm/s for thicknesses of 100, 200, and 300 µm and about 1.5 cm/s for 400 µm. In a second test on a 100-µm sample, with the flow gradually reduced from 3 cm/s, the flame extinguished at an indicated flow velocity of about 1.1 cm/s.",
+      "text": "In opposed-flow tests of PMMA samples, extinction velocities were found to be about 1 cm/s for thicknesses of 100, 200, and 300 µm and about 1.5 cm/s for 400 µm. The source describes a second test in which flow was gradually reduced. The fan voltage at extinction indicated a flow velocity of about 1.1 cm/s.",
       "evidence_ids": [
         "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p31#3f6ca2225cd5",
         "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p31#a67dcc104236",
@@ -141,7 +141,7 @@
     {
       "observation": "C4",
       "conditions": {
-        "text": "Opposed-flow tests on PMMA samples at a lower O2 level of about 16 percent, aboard the ISS. The samples were 100-µm and 200-µm thick; sample widths differed between the two thicknesses.",
+        "text": "Opposed-flow tests on PMMA samples at a lower O2 level of about 16 percent, aboard the ISS. The samples were 100-µm and 200-µm thick; sample widths differed between thicknesses.",
         "evidence_ids": [
           "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p31#a9562d348641",
           "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p33#1a81c5be6250",
@@ -161,7 +161,7 @@
       ]
     },
     {
-      "text": "The lower-O2 data are limited: the source notes insufficient data at the lower O2 level, and sample width differed between the two thicknesses tested (20 mm for 100 µm, 10 mm for 200 µm).",
+      "text": "The lower-O2 data are limited: the source notes insufficient data at the lower O2 level, and sample width differed between thicknesses tested (20 mm for 100 µm, 10 mm for 200 µm).",
       "basis": "source",
       "evidence_ids": [
         "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p33#e9baa09269e5",

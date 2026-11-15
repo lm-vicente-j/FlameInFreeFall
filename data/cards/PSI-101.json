@@ -9,7 +9,8 @@
     "evidence_ids": [
       "PSI-101:meta:objective#53315b73942a",
       "PSI-101:meta:approach#3c4c60a83b17",
-      "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p4#6bbdd52677cb"
+      "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p4#6bbdd52677cb",
+      "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p9#e57e2b3fa51c"
     ]
   },
   "safety_categories": [
@@ -119,7 +120,8 @@
       "type": "potential_application",
       "text": "The report states that the larger particle diameters observed in zero-flow conditions are important to consider in the development of improved fire detection equipment for space vehicles.",
       "evidence_ids": [
-        "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p9#9dcaef1e9da0"
+        "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p9#9dcaef1e9da0",
+        "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p9#e57e2b3fa51c"
       ]
     }
   ],
@@ -140,11 +142,12 @@
     {
       "observation": "C6",
       "conditions": {
-        "text": "Zero-flow tests (no airflow while the sample was heated) were examined for 11 tests and compared with flow tests; the report states this condition is unique to low-gravity scenarios.",
+        "text": "Zero-flow tests had no airflow while the sample was heated. The report examined 11 tests and compared them with flow tests; it states that this condition is unique to low-gravity scenarios.",
         "evidence_ids": [
           "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p4#eef9ec5159fd",
           "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p9#08e50384435c",
-          "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p9#78d4d4be980a"
+          "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p9#78d4d4be980a",
+          "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p9#e57e2b3fa51c"
         ]
       },
       "implication": "C7",
@@ -156,7 +159,8 @@
       "text": "In the zero-flow tests, approximately half the smoke was lost from the system, so total particle counts were lower than normal.",
       "basis": "source",
       "evidence_ids": [
-        "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p9#7974c0983ce4"
+        "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p9#7974c0983ce4",
+        "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p9#e57e2b3fa51c"
       ]
     },
     {

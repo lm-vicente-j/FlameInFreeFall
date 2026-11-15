@@ -34,7 +34,7 @@
       ]
     },
     "gravity": {
-      "text": "Flames are observed in a microgravity environment aboard the ISS.",
+      "text": "The investigation aims to observe flames in a microgravity environment aboard the ISS.",
       "evidence_ids": [
         "PSI-107:meta:objective#295b4ba74d9a"
       ]
@@ -89,7 +89,7 @@
       ]
     },
     {
-      "text": "Only PSI metadata was examined; no document text was processed, so statements are limited to what the metadata fields say.",
+      "text": "This draft cites PSI metadata and no PDF text. The packet also includes official table passages whose findings have not been incorporated or reviewed.",
       "basis": "coverage",
       "evidence_ids": []
     }

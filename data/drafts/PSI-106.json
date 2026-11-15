@@ -1,0 +1,181 @@
+{
+  "accession": "PSI-106",
+  "summary": {
+    "text": "SLICE is a microgravity investigation that aims to better understand the structure and stability of laminar diffusion flames, using fan-driven flow duct hardware with exchangeable burner tubes.",
+    "evidence_ids": [
+      "E1",
+      "E7"
+    ]
+  },
+  "safety_categories": [],
+  "comparison": {
+    "fuels": {
+      "text": "Methane, ethylene, and nitrogen-diluted mixtures.",
+      "evidence_ids": [
+        "E6"
+      ]
+    },
+    "geometry": {
+      "text": "Exchangeable burner tubes in a fan-driven flow duct; burner diameter is a studied factor.",
+      "evidence_ids": [
+        "E7",
+        "E4"
+      ]
+    },
+    "oxygen": null,
+    "pressure": null,
+    "flow": {
+      "text": "Controlled coflow air conditions; coflow velocity is a studied factor.",
+      "evidence_ids": [
+        "E8",
+        "E4"
+      ]
+    },
+    "gravity": {
+      "text": "Microgravity, compared with normal gravity.",
+      "evidence_ids": [
+        "E1",
+        "E3"
+      ]
+    },
+    "measurements": {
+      "text": "Integrated sensors for flow rates and temperature; high resolution camera still images with overlaid sensor data.",
+      "evidence_ids": [
+        "E7",
+        "E9"
+      ]
+    },
+    "hardware": {
+      "text": "SLICE apparatus: fan-driven flow duct, exchangeable burner tubes, integrated sensors.",
+      "evidence_ids": [
+        "E7"
+      ]
+    }
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "type": "objective",
+      "text": "The investigation aims to better understand the structure and stability of laminar diffusion flames in microgravity.",
+      "evidence_ids": [
+        "E1"
+      ]
+    },
+    {
+      "id": "C2",
+      "type": "objective",
+      "text": "The investigation aims to determine liftoff velocity limits for different fuels and burner diameters.",
+      "evidence_ids": [
+        "E2"
+      ]
+    },
+    {
+      "id": "C3",
+      "type": "objective",
+      "text": "The investigation aims to quantify the effects of microgravity on flame length and radiative heat loss compared to normal gravity conditions.",
+      "evidence_ids": [
+        "E3"
+      ]
+    },
+    {
+      "id": "C4",
+      "type": "objective",
+      "text": "The investigation aims to validate numerical models for flame dynamics, soot production, and thermal radiation in non-premixed flames.",
+      "evidence_ids": [
+        "E5"
+      ]
+    },
+    {
+      "id": "C5",
+      "type": "hypothesis",
+      "text": "The investigation hypothesizes that flame structure and stability in microgravity are significantly influenced by burner diameter, coflow velocity, and fuel composition.",
+      "evidence_ids": [
+        "E4"
+      ]
+    },
+    {
+      "id": "C6",
+      "type": "potential_application",
+      "text": "The source states that insights into flame stability and behavior are intended to enhance fire safety.",
+      "evidence_ids": [
+        "E10"
+      ]
+    }
+  ],
+  "findings": [],
+  "limitations": [
+    {
+      "text": "This draft cites PSI metadata and no PDF text. The packet also includes official table passages whose findings have not been incorporated or reviewed.",
+      "basis": "coverage",
+      "evidence_ids": []
+    }
+  ],
+  "modeling_resources": [
+    {
+      "description": "An experimental table file may document test parameters; the metadata names fuels, burner diameter and coflow velocity as factors of interest. No model is claimed to exist or be validated.",
+      "file_keys": [
+        "psi-data/PSI-106/Experimental table/PSI-106_Experimental table_Slice.csv"
+      ],
+      "evidence_ids": [
+        "E4",
+        "E5"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E1",
+      "passage_id": "PSI-106:meta:objective",
+      "excerpt": "better understand the structure and stability of laminar diffusion flames in microgravity"
+    },
+    {
+      "id": "E2",
+      "passage_id": "PSI-106:meta:objective",
+      "excerpt": "Determine the liftoff velocity limits for different fuels and burner diameters."
+    },
+    {
+      "id": "E3",
+      "passage_id": "PSI-106:meta:objective",
+      "excerpt": "Quantify the effects of microgravity on flame length and radiative heat loss compared to normal gravity conditions."
+    },
+    {
+      "id": "E4",
+      "passage_id": "PSI-106:meta:hypothesis",
+      "excerpt": "structure and stability of laminar diffusion flames in microgravity are significantly influenced by burner diameter, coflow velocity, and fuel composition"
+    },
+    {
+      "id": "E5",
+      "passage_id": "PSI-106:meta:objective",
+      "excerpt": "Validate numerical models for flame dynamics, soot production, and thermal radiation in non-premixed flames."
+    },
+    {
+      "id": "E6",
+      "passage_id": "PSI-106:meta:approach",
+      "excerpt": "This setup used several fuels such as methane, ethylene, and nitrogen-diluted mixtures."
+    },
+    {
+      "id": "E7",
+      "passage_id": "PSI-106:meta:approach",
+      "excerpt": "The SLICE apparatus consisted of a fan-driven flow duct, exchangeable burner tubes, and integrated sensors to measure flow rates and temperature."
+    },
+    {
+      "id": "E8",
+      "passage_id": "PSI-106:meta:approach",
+      "excerpt": "Flames were then manually ignited and observed under controlled coflow air conditions."
+    },
+    {
+      "id": "E9",
+      "passage_id": "PSI-106:meta:approach",
+      "excerpt": "A high resolution camera captured still images while sensor data was overlaid on these images."
+    },
+    {
+      "id": "E10",
+      "passage_id": "PSI-106:meta:researchImpacts",
+      "excerpt": "Insights into flame stability and behavior to enhance fire safety."
+    }
+  ],
+  "generation": {
+    "model": "claude-sonnet-5-5",
+    "generated_at": "2026-11-15T18:12:05+00:00"
+  }
+}

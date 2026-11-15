@@ -89,7 +89,7 @@
       ]
     },
     {
-      "text": "Only PSI metadata was examined; no document text was processed, so statements are limited to what the metadata fields say.",
+      "text": "This draft cites PSI metadata; no PDF text or experimental-table passages were processed for this investigation.",
       "basis": "coverage",
       "evidence_ids": []
     }

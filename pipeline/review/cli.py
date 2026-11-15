@@ -1,7 +1,7 @@
 """Command line: ``python -m pipeline.review <aliases|extractions|cards> --reviewer NAME``.
 
-PLAN.md requires a person to approve every alias, extracted value and card before
-import. There is deliberately no default reviewer, so a decision is always attributed
+PLAN.md permits pending development data but requires human approval before using
+it as reviewed scientific results. There is no default reviewer, so a decision is attributed
 to someone who typed their own name.
 """
 
@@ -56,7 +56,7 @@ def main(
     for path in files:
         try:
             tally = review_file(path, kind, env, args.all)
-        except ReviewError as error:
+        except (ReviewError, OSError, ValueError, KeyError, TypeError) as error:
             say(f"error: {error}")
             status = 1
             continue

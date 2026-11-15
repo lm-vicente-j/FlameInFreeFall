@@ -94,7 +94,7 @@
   "findings": [],
   "limitations": [
     {
-      "text": "The metadata gives two different pressure ranges and no measured result. The objectives state 0.25 atm to 5 atm. The approach states 0.25 to 0.5 atm.",
+      "text": "The metadata gives different pressure ranges and no measured result. The objectives state 0.25 atm to 5 atm. The approach states 0.25 to 0.5 atm.",
       "basis": "source",
       "evidence_ids": [
         "PSI-39:meta:objective#474d006cf9b9",
@@ -102,7 +102,7 @@
       ]
     },
     {
-      "text": "Only PSI metadata was examined and no document text was processed.",
+      "text": "This draft cites PSI metadata and no PDF text. The packet also includes official table passages whose findings have not been incorporated or reviewed.",
       "basis": "coverage",
       "evidence_ids": []
     }

@@ -5,7 +5,7 @@
   "acronym": "FLEX",
   "coverage": "metadata_and_documents",
   "summary": {
-    "text": "FLEX (Flame Extinguishment Experiment) aims to map the flammability limits of liquid fuels in microgravity and measure the effectiveness of gaseous fire suppressants such as CO2, He, and SF6. Recorded results include one methanol test point in a CO2/N2 atmosphere from a presentation, and individual rows of the official FLEX experimental table; no processed document reports measured suppressant effectiveness for SF6.",
+    "text": "FLEX (Flame Extinguishment Experiment) aims to map the flammability limits of liquid fuels in microgravity and measure the effectiveness of gaseous fire suppressants such as CO2, He, and SF6. Recorded results include a methanol test point in a CO2/N2 atmosphere from a presentation, and individual rows of the official FLEX experimental table; no processed document reports measured suppressant effectiveness for SF6.",
     "evidence_ids": [
       "PSI-69:meta:objective#f4c7ee946a30",
       "PSI-69:pdf:684344b89e44646b7402706b:v1:p9#f5989ce99b46"
@@ -149,7 +149,7 @@
   ],
   "limitations": [
     {
-      "text": "The presentation's extinction result covers one methanol test point in CO2/N2; the presentation lists extending the analysis to the full range of FLEX methanol data as future work. The table row for FLEX test #226 is a single recorded run. The row for FLEX test #94 is likewise a single recorded run; no trend across runs is stated or claimed. A table row ending in Extinction records how that test ended; the source does not state it as evidence of an agent effect.",
+      "text": "The presentation's extinction result covers a methanol test point in CO2/N2; the presentation lists extending the analysis to the full range of FLEX methanol data as future work. The table row for FLEX test #226 is a single recorded run. The row for FLEX test #94 is likewise a single recorded run; no trend across runs is stated or claimed. A table row ending in Extinction records how that test ended; the source does not state it as evidence of an agent effect.",
       "basis": "source",
       "evidence_ids": [
         "PSI-69:pdf:684344b89e44646b7402706b:v1:p9#f5989ce99b46",

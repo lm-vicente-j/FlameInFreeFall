@@ -26,13 +26,13 @@
       ]
     },
     "oxygen": {
-      "text": "Atmospheres to be examined include 21 % oxygen, 26.5 % and 34 % oxygen.",
+      "text": "A planned atmosphere has 21 % oxygen. Another has 26.5 % oxygen. A further atmosphere has 34 % oxygen.",
       "evidence_ids": [
         "PSI-20:meta:objective#15c40194255f"
       ]
     },
     "pressure": {
-      "text": "Atmospheres to be examined include 14.7 psia, 10.2 psia and 8.2 psia.",
+      "text": "A planned atmosphere has 14.7 psia. Another has 10.2 psia. A further atmosphere has 8.2 psia.",
       "evidence_ids": [
         "PSI-20:meta:objective#15c40194255f"
       ]
@@ -75,7 +75,7 @@
     {
       "id": "C2",
       "type": "objective",
-      "text": "The investigation aims to examine atmospheres of 14.7 psia with 21 % oxygen, 10.2 psia with 26.5 % oxygen, and 8.2 psia with 34 % oxygen.",
+      "text": "The investigation aims to examine an atmosphere of 14.7 psia with 21 % oxygen. Another planned atmosphere has 10.2 psia with 26.5 % oxygen. A further planned atmosphere has 8.2 psia with 34 % oxygen.",
       "evidence_ids": [
         "PSI-20:meta:objective#15c40194255f"
       ]
@@ -122,7 +122,7 @@
       ]
     },
     {
-      "text": "Only PSI metadata was examined; no document text was processed.",
+      "text": "This draft cites PSI metadata and no PDF text. The packet also includes official table passages whose findings have not been incorporated or reviewed.",
       "basis": "coverage",
       "evidence_ids": []
     }

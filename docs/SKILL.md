@@ -20,10 +20,10 @@ You turn ONE evidence packet into ONE research-card draft. Your output is read b
 
 ## Output
 
-Write the draft to `res/drafts/<ACCESSION>.json`, then run from the repository root:
+Write the draft to `data/drafts/<ACCESSION>.json`, then run from the repository root:
 
 ```
-<python> -m pipeline.cards finalize res/drafts/<ACCESSION>.json
+<python> -m pipeline.cards finalize data/drafts/<ACCESSION>.json
 ```
 
 `<python>` is the project's Python with `pipeline/requirements.txt` installed. If finalize reports problems, fix the draft and run it again until it writes `data/cards/<ACCESSION>.json`. Never edit `data/cards/` by hand.
@@ -41,9 +41,9 @@ Write the draft to `res/drafts/<ACCESSION>.json`, then run from the repository r
 4. `safety_categories`: prevention, detection, or suppression, each only when an excerpt supports it.
 5. `findings`: link a reported observation claim, the conditions under which it was observed (cited), and a potential application claim. For PSI-25, PSI-98, PSI-101, and PSI-69, include at least one finding. If the packet holds no reported result, stop and report that instead of inventing one.
 6. `comparison`: fill fuels, geometry, oxygen, pressure, flow, gravity, measurements, and hardware only when the packet documents them. Otherwise use `null`. Unknown stays unknown.
-7. `limitations`: state source limitations with `basis: "source"` and citations. When the packet `coverage` is `metadata_only`, add one limitation with `basis: "coverage"` and empty `evidence_ids`, stating that only PSI metadata was examined and no document text was processed.
+7. `limitations`: state source limitations with `basis: "source"` and citations. `coverage: metadata_only` means no PDF text was processed; it does not exclude experimental-table passages. Describe which sources the draft actually cites. If it cites only metadata while the packet also contains tables, state that table-based findings have not been incorporated or reviewed. Do not claim that the packet contains only metadata.
 8. `modeling_resources`: name measurements or remote files that could support future predictive modeling, using exact `psi-data/...` keys from the inventory. Never claim that a model exists or was validated.
-9. `generation`: `{"model": "<your exact model id>"}`.
+9. `generation`: `{"model": "<your exact model id>"}`. Preserve the optional `generated_at` timestamp when regenerating an existing draft so its preparation is reproducible.
 10. Use plain, precise English and no marketing language. Keep source spellings and units as written.
 
 ## Finish

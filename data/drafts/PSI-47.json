@@ -1,0 +1,141 @@
+{
+  "accession": "PSI-47",
+  "summary": {
+    "text": "DAFT / DAFT-2 tests whether a modified TSI P-Trak particle counter works accurately in microgravity, by comparison with a DustTrak, to reduce risk for the Smoke Aerosol Measurement Experiment.",
+    "evidence_ids": [
+      "E1",
+      "E7"
+    ]
+  },
+  "safety_categories": [
+    {
+      "category": "detection",
+      "evidence_ids": [
+        "E8"
+      ]
+    }
+  ],
+  "comparison": {
+    "fuels": null,
+    "geometry": null,
+    "oxygen": null,
+    "pressure": null,
+    "flow": null,
+    "gravity": null,
+    "measurements": {
+      "text": "Aerosol particle counts from the modified P-Trak compared with the DustTrak CNC, using Arizona Red Dust aerosol in 15-liter Mylar bags.",
+      "evidence_ids": [
+        "E7",
+        "E5",
+        "E6"
+      ]
+    },
+    "hardware": {
+      "text": "TSI P-Trak modified with a capillary-force condenser tube and without the mercury switch; DustTrak CNC as comparison instrument.",
+      "evidence_ids": [
+        "E4",
+        "E7"
+      ]
+    }
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "type": "objective",
+      "text": "DAFT / DAFT-2 aims to test that a modified P-Trak particulate counter would be accurate in microgravity.",
+      "evidence_ids": [
+        "E1"
+      ]
+    },
+    {
+      "id": "C2",
+      "type": "objective",
+      "text": "The investigation aims to compare the TSI P-Trak performance against the DustTrak control.",
+      "evidence_ids": [
+        "E2"
+      ]
+    },
+    {
+      "id": "C3",
+      "type": "hypothesis",
+      "text": "The investigation hypothesizes that the P-Trak, as modified for use in SAME, would function normally in microgravity.",
+      "evidence_ids": [
+        "E3"
+      ]
+    }
+  ],
+  "findings": [],
+  "limitations": [
+    {
+      "text": "The metadata states objectives, hypotheses and approach but no measured result of the P-Trak versus DustTrak comparison.",
+      "basis": "source",
+      "evidence_ids": [
+        "E3",
+        "E7"
+      ]
+    },
+    {
+      "text": "This draft cites PSI metadata and no PDF text. The packet also includes official table passages whose findings have not been incorporated or reviewed.",
+      "basis": "coverage",
+      "evidence_ids": []
+    }
+  ],
+  "modeling_resources": [
+    {
+      "description": "Analyzed flight data files for the P-Trak and DustTrak comparison listed in the PSI file inventory.",
+      "file_keys": [
+        "psi-data/PSI-47/Analyzed Data/PSI-47_Analyzed Data_flight data 063.xls",
+        "psi-data/PSI-47/Analyzed Data/PSI-47_Analyzed Data_flight data 063_DTrk0002.xls"
+      ],
+      "evidence_ids": [
+        "E7"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E1",
+      "passage_id": "PSI-47:meta:objective",
+      "excerpt": "DAFT / DAFT-2 tests that a modified P-Trak particulate counter would be accurate in microgravity."
+    },
+    {
+      "id": "E2",
+      "passage_id": "PSI-47:meta:objective",
+      "excerpt": "Compare the TSI P-Trak Performance against the DustTrak control"
+    },
+    {
+      "id": "E3",
+      "passage_id": "PSI-47:meta:hypothesis",
+      "excerpt": "that the P-Trak, as modified for use in SAME, would function normally in microgravity."
+    },
+    {
+      "id": "E4",
+      "passage_id": "PSI-47:meta:approach",
+      "excerpt": "TSI P-Trak was modified for use in microgravity by redesigning the condenser tube to use capillary forces for recycling isopropyl alcohol and removing the mercury switch responsible for detecting instrument orientation."
+    },
+    {
+      "id": "E5",
+      "passage_id": "PSI-47:meta:approach",
+      "excerpt": "Arizona Red Dust (ARD) was chosen as an aerosol standard due to its ease of dispersion."
+    },
+    {
+      "id": "E6",
+      "passage_id": "PSI-47:meta:approach",
+      "excerpt": "The aerosol was contained within 15-liter Mylar bags."
+    },
+    {
+      "id": "E7",
+      "passage_id": "PSI-47:meta:approach",
+      "excerpt": "The modified P-Trak gathered data from counting aerosol particles and these data were compared to the DustTrak CNC specifically designed to work in microgravity."
+    },
+    {
+      "id": "E8",
+      "passage_id": "PSI-47:meta:researchImpacts",
+      "excerpt": "This research will impact the development of novel fire and smoke detection systems for the International Space Station and future spacecrafts."
+    }
+  ],
+  "generation": {
+    "model": "claude-sonnet-5-5",
+    "generated_at": "2026-11-15T18:12:15+00:00"
+  }
+}

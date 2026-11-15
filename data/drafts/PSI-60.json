@@ -1,0 +1,129 @@
+{
+  "accession": "PSI-60",
+  "summary": {
+    "text": "A ground investigation that aims to integrate computational and experimental methods to derive temperature distributions and soot volume fractions from existing SPICE data, to improve understanding of soot formation in normal gravity and microgravity flames.",
+    "evidence_ids": [
+      "E1",
+      "E2"
+    ]
+  },
+  "safety_categories": [
+    {
+      "category": "detection",
+      "evidence_ids": [
+        "E6"
+      ]
+    },
+    {
+      "category": "suppression",
+      "evidence_ids": [
+        "E6"
+      ]
+    }
+  ],
+  "comparison": {
+    "fuels": null,
+    "geometry": {
+      "text": "Simulations for Yale and ACME burner configurations.",
+      "evidence_ids": [
+        "E5"
+      ]
+    },
+    "oxygen": null,
+    "pressure": null,
+    "flow": null,
+    "gravity": {
+      "text": "Normal gravity and microgravity conditions.",
+      "evidence_ids": [
+        "E5"
+      ]
+    },
+    "measurements": {
+      "text": "Soot temperature fields from color-ratio pyrometry of raw Nikon NEF images, and soot volume fractions.",
+      "evidence_ids": [
+        "E4",
+        "E1"
+      ]
+    },
+    "hardware": null
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "type": "objective",
+      "text": "The investigation aims to integrate computational and experimental methods to derive temperature distributions and soot volume fractions from the Smoke Point in Coflow Experiment (SPICE) data available in PSI.",
+      "evidence_ids": [
+        "E1"
+      ]
+    },
+    {
+      "id": "C2",
+      "type": "objective",
+      "text": "The investigation aims to reconcile microgravity and normal gravity flame behavior and identify key physical and chemical processes influencing smoke point development.",
+      "evidence_ids": [
+        "E2"
+      ]
+    },
+    {
+      "id": "C3",
+      "type": "hypothesis",
+      "text": "The investigation hypothesizes that microgravity conditions would produce longer, more diffuse flames with lower temperatures and increased soot concentrations compared to normal gravity, and that integrating experimental temperature fields into the simulations would reduce discrepancies between measured and predicted soot distributions.",
+      "evidence_ids": [
+        "E3"
+      ]
+    }
+  ],
+  "findings": [],
+  "limitations": [
+    {
+      "text": "The investigation works from existing SPICE data available in PSI, and the metadata states no measured or computed result.",
+      "basis": "source",
+      "evidence_ids": [
+        "E1",
+        "E3"
+      ]
+    },
+    {
+      "text": "This draft cites PSI metadata; no PDF text or experimental-table passages were processed for this investigation.",
+      "basis": "coverage",
+      "evidence_ids": []
+    }
+  ],
+  "modeling_resources": [],
+  "evidence": [
+    {
+      "id": "E1",
+      "passage_id": "PSI-60:meta:objective",
+      "excerpt": "derive temperature distributions and soot volume fractions from the Smoke Point in Coflow Experiment (SPICE) data available in PSI."
+    },
+    {
+      "id": "E2",
+      "passage_id": "PSI-60:meta:objective",
+      "excerpt": "The work further aimed to reconcile microgravity and normal gravity flame behavior, identify key physical and chemical processes influencing smoke point development"
+    },
+    {
+      "id": "E3",
+      "passage_id": "PSI-60:meta:hypothesis",
+      "excerpt": "Microgravity conditions would produce longer, more diffuse flames with lower temperatures and increased soot concentrations compared to normal gravity, and that careful integration of experimental temperature fields into the simulations would reduce discrepancies between measured and predicted soot distributions."
+    },
+    {
+      "id": "E4",
+      "passage_id": "PSI-60:meta:approach",
+      "excerpt": "Raw Nikon NEF images were decoded into three color channels and analyzed using color-ratio pyrometry to extract soot temperature fields."
+    },
+    {
+      "id": "E5",
+      "passage_id": "PSI-60:meta:approach",
+      "excerpt": "Simulations were performed for both Yale and ACME burner configurations under normal and microgravity conditions."
+    },
+    {
+      "id": "E6",
+      "passage_id": "PSI-60:meta:researchImpacts",
+      "excerpt": "For space applications, the results support safer fire detection, suppression, and cleaner combustion technologies critical for long-duration missions."
+    }
+  ],
+  "generation": {
+    "model": "claude-sonnet-5-5",
+    "generated_at": "2026-11-15T18:12:16+00:00"
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "accession": "PSI-68",
+  "summary": {
+    "text": "FLEX-2 is a microgravity droplet combustion investigation that aims to extend FLEX-1 results to fuels and conditions resembling real combustors, including bi-component fuel droplets.",
+    "evidence_ids": [
+      "E1",
+      "E8"
+    ]
+  },
+  "safety_categories": [],
+  "comparison": {
+    "fuels": {
+      "text": "Bi-component fuel droplets are a stated focus.",
+      "evidence_ids": [
+        "E8"
+      ]
+    },
+    "geometry": null,
+    "oxygen": {
+      "text": "Chamber O2 concentration varied between 0.1 and 0.4 mole fraction, with diluent gas as the balance.",
+      "evidence_ids": [
+        "E3"
+      ]
+    },
+    "pressure": {
+      "text": "Chamber pressure varied between 0.5 atm and 3.0 atm.",
+      "evidence_ids": [
+        "E3"
+      ]
+    },
+    "flow": {
+      "text": "Droplet translation velocity (and acceleration) is listed as an independently varied parameter.",
+      "evidence_ids": [
+        "E6"
+      ]
+    },
+    "gravity": {
+      "text": "Experiments are conducted in a microgravity environment, where buoyancy effects are minimized.",
+      "evidence_ids": [
+        "E4"
+      ]
+    },
+    "measurements": {
+      "text": "High speed photography tracks flame evolution; chamber pressure and temperature data were recorded.",
+      "evidence_ids": [
+        "E7",
+        "E10"
+      ]
+    },
+    "hardware": {
+      "text": "Combustion Integrated Rack (CIR) and Multi-user Droplet Combustion Appartatus (MDCA).",
+      "evidence_ids": [
+        "E5"
+      ]
+    }
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "type": "objective",
+      "text": "The investigation aims to extend FLEX-1 results to fuels and environmental conditions that mimic real combustor conditions.",
+      "evidence_ids": [
+        "E1"
+      ]
+    },
+    {
+      "id": "C2",
+      "type": "objective",
+      "text": "The investigation aims to study flame extinction mechanisms and their boundaries.",
+      "evidence_ids": [
+        "E2"
+      ]
+    },
+    {
+      "id": "C3",
+      "type": "objective",
+      "text": "The investigation aims to investigate the role of liquid-phase mixing on the burning characteristics of bi-component fuel droplets.",
+      "evidence_ids": [
+        "E8"
+      ]
+    },
+    {
+      "id": "C4",
+      "type": "objective",
+      "text": "The investigation aims to provide benchmark experimental data on bi-component droplet combustion over a wide range of initial conditions to validate numerical simulations.",
+      "evidence_ids": [
+        "E9"
+      ]
+    },
+    {
+      "id": "C5",
+      "type": "hypothesis",
+      "text": "The investigation hypothesizes that conducting experiments in microgravity, where buoyancy effects are minimized, allows clearer observation of fundamental combustion processes.",
+      "evidence_ids": [
+        "E4"
+      ]
+    }
+  ],
+  "findings": [],
+  "limitations": [
+    {
+      "text": "This draft cites PSI metadata and no PDF text. The packet also includes official table passages whose findings have not been incorporated or reviewed.",
+      "basis": "coverage",
+      "evidence_ids": []
+    }
+  ],
+  "modeling_resources": [
+    {
+      "description": "An experimental table file may document test parameters; the metadata lists the independently varied parameters including pressure and O2 concentration. No model is claimed to exist or be validated.",
+      "file_keys": [
+        "psi-data/PSI-68/Experimental table/PSI-68_Experimental table_Flex2.csv"
+      ],
+      "evidence_ids": [
+        "E3",
+        "E9"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E1",
+      "passage_id": "PSI-68:meta:objective",
+      "excerpt": "The primary goal of the FLEX-2 flight experiments is to extend the results of FLEX-1 to fuels and environmental conditions that mimic real combustor conditions"
+    },
+    {
+      "id": "E2",
+      "passage_id": "PSI-68:meta:objective",
+      "excerpt": "Study flame extinction mechanisms and their boundaries."
+    },
+    {
+      "id": "E3",
+      "passage_id": "PSI-68:meta:approach",
+      "excerpt": "varied in pressure between 0.5 atm to 3.0 atm and O2 concentration between 0.1 to 0.4 mole fraction with the diluent gas making up the balance"
+    },
+    {
+      "id": "E4",
+      "passage_id": "PSI-68:meta:hypothesis",
+      "excerpt": "By conducting these experiments in a microgravity environment, the effects of buoyancy are minimized"
+    },
+    {
+      "id": "E5",
+      "passage_id": "PSI-68:meta:experimentHardware",
+      "excerpt": "Combustion Integrated Rack (CIR), Multi-user Droplet Combustion Appartatus (MDCA)"
+    },
+    {
+      "id": "E6",
+      "passage_id": "PSI-68:meta:approach",
+      "excerpt": "Droplet translation velocity (and acceleration)"
+    },
+    {
+      "id": "E7",
+      "passage_id": "PSI-68:meta:approach",
+      "excerpt": "Monitor combustions and track flame evolution using high speed photography."
+    },
+    {
+      "id": "E8",
+      "passage_id": "PSI-68:meta:objective",
+      "excerpt": "Investigate the role of liquid-phase mixing on the burning characteristics of bi-component fuel droplets."
+    },
+    {
+      "id": "E9",
+      "passage_id": "PSI-68:meta:objective",
+      "excerpt": "provide benchmark experimental data on bi-component droplet combustion over a wide range of initial conditions in order to validate numerical simulations"
+    },
+    {
+      "id": "E10",
+      "passage_id": "PSI-68:meta:approach",
+      "excerpt": "Pressure and temperature data of the chamber environment was also recorded in near real time."
+    }
+  ],
+  "generation": {
+    "model": "claude-sonnet-5-5",
+    "generated_at": "2026-11-15T18:12:18+00:00"
+  }
+}

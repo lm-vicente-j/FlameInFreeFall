@@ -1,0 +1,193 @@
+{
+  "accession": "PSI-20",
+  "summary": {
+    "text": "The BRE flight program plans to observe burning of CH4/N2 and C2H4/N2 mixtures on porous circular burners in long-duration microgravity, under several O2/N2 atmospheres.",
+    "evidence_ids": [
+      "E1",
+      "E2"
+    ]
+  },
+  "safety_categories": [],
+  "comparison": {
+    "fuels": {
+      "text": "CH4/N2 and C2H4/N2 mixtures.",
+      "evidence_ids": [
+        "E1"
+      ]
+    },
+    "geometry": {
+      "text": "Porous circular burners of 25 and 50 mm diameter.",
+      "evidence_ids": [
+        "E1"
+      ]
+    },
+    "oxygen": {
+      "text": "A planned atmosphere has 21 % oxygen. Another has 26.5 % oxygen. A further atmosphere has 34 % oxygen.",
+      "evidence_ids": [
+        "E2"
+      ]
+    },
+    "pressure": {
+      "text": "A planned atmosphere has 14.7 psia. Another has 10.2 psia. A further atmosphere has 8.2 psia.",
+      "evidence_ids": [
+        "E2"
+      ]
+    },
+    "flow": {
+      "text": "Fuel flow rate is to be reduced in small increments until extinction is observed.",
+      "evidence_ids": [
+        "E6"
+      ]
+    },
+    "gravity": {
+      "text": "Long-duration microgravity; ignition limit tests are to be explored under normal gravity.",
+      "evidence_ids": [
+        "E1",
+        "E5"
+      ]
+    },
+    "measurements": {
+      "text": "Burner surface temperature and heat flux.",
+      "evidence_ids": [
+        "E9"
+      ]
+    },
+    "hardware": {
+      "text": "Combustion Integrated Rack (CIR) and ACME.",
+      "evidence_ids": [
+        "E7"
+      ]
+    }
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "type": "objective",
+      "text": "The investigation aims to observe burning behavior in long-duration microgravity for CH4/N2 and C2H4/N2 mixtures on porous circular burners of 25 and 50 mm diameter.",
+      "evidence_ids": [
+        "E1"
+      ]
+    },
+    {
+      "id": "C2",
+      "type": "objective",
+      "text": "The investigation aims to examine an atmosphere of 14.7 psia with 21 % oxygen. Another planned atmosphere has 10.2 psia with 26.5 % oxygen. A further planned atmosphere has 8.2 psia with 34 % oxygen.",
+      "evidence_ids": [
+        "E2"
+      ]
+    },
+    {
+      "id": "C3",
+      "type": "objective",
+      "text": "The investigation aims to consider these conditions for extinction limits.",
+      "evidence_ids": [
+        "E3"
+      ]
+    },
+    {
+      "id": "C4",
+      "type": "hypothesis",
+      "text": "The BRE investigation hypothesizes that there can exist a regime of quasi-steady burning in microgravity as a function of materials properties.",
+      "evidence_ids": [
+        "E4"
+      ]
+    },
+    {
+      "id": "C5",
+      "type": "hypothesis",
+      "text": "The source also states that steady burning may never be achieved and that only slowly changing unsteady flames may be possible.",
+      "evidence_ids": [
+        "E10"
+      ]
+    }
+  ],
+  "findings": [],
+  "limitations": [
+    {
+      "text": "Ignition limit tests are not proposed for microgravity.",
+      "basis": "source",
+      "evidence_ids": [
+        "E5"
+      ]
+    },
+    {
+      "text": "The source describes its own results as preliminary; this card records no result from them.",
+      "basis": "source",
+      "evidence_ids": [
+        "E8"
+      ]
+    },
+    {
+      "text": "This draft cites PSI metadata and no PDF text. The packet also includes official table passages whose findings have not been incorporated or reviewed.",
+      "basis": "coverage",
+      "evidence_ids": []
+    }
+  ],
+  "modeling_resources": [
+    {
+      "description": "Experimental table for the BRE investigation, relevant to burner surface temperature and heat flux measurements.",
+      "file_keys": [
+        "psi-data/PSI-20/Experimental table/PSI-20_Experimental table_ACME BRE.csv"
+      ],
+      "evidence_ids": [
+        "E9"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E1",
+      "passage_id": "PSI-20:meta:objective",
+      "excerpt": "Observe burning behavior in long-duration microgravity for CH4/N2 and C2H4/N2mixtures on porous circular burners of 25  and 50 mm diameter."
+    },
+    {
+      "id": "E2",
+      "passage_id": "PSI-20:meta:objective",
+      "excerpt": "NASA - considered atmosphere for human space missions will be examined: 14.7 psia, 21 % oxygen: 10.2 psia, 26.5 %; and 8.2 psia, 34 % oxygen."
+    },
+    {
+      "id": "E3",
+      "passage_id": "PSI-20:meta:objective",
+      "excerpt": "Consider the conditions of Objectives 1 – 2 for extinction limits."
+    },
+    {
+      "id": "E4",
+      "passage_id": "PSI-20:meta:hypothesis",
+      "excerpt": "The BRE investigation hypothesizes that there can exist a regime of quasi-steady burning in microgravity as a function of materials properties."
+    },
+    {
+      "id": "E5",
+      "passage_id": "PSI-20:meta:approach",
+      "excerpt": "Ignition limit tests are not proposed for microgravity, but we will explore these under normal gravity."
+    },
+    {
+      "id": "E6",
+      "passage_id": "PSI-20:meta:approach",
+      "excerpt": "At that state, the flow rate can be reduced in small increments, until extinction is observed and the flow rate shut off."
+    },
+    {
+      "id": "E7",
+      "passage_id": "PSI-20:meta:experimentHardware",
+      "excerpt": "Combustion Integrated Rack (CIR), ACME"
+    },
+    {
+      "id": "E8",
+      "passage_id": "PSI-20:meta:researchImpacts",
+      "excerpt": "While BRE’s results are still preliminary"
+    },
+    {
+      "id": "E9",
+      "passage_id": "PSI-20:meta:approach",
+      "excerpt": "Because burner surface temperature and heat flux will vary, this will allow a broad range of conditions to be observed during a single test."
+    },
+    {
+      "id": "E10",
+      "passage_id": "PSI-20:meta:hypothesis",
+      "excerpt": "Steady burning may never be achieved, and only slowly changing unsteady flames are possible."
+    }
+  ],
+  "generation": {
+    "model": "claude-sonnet-5-5",
+    "generated_at": "2026-11-15T18:12:10+00:00"
+  }
+}

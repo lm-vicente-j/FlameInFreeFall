@@ -1,0 +1,308 @@
+{
+  "accession": "PSI-101",
+  "summary": {
+    "text": "SAME-R, flown on the SAME hardware already on orbit, aims to quantify the sizes that liquid smoke particulate achieves in low gravity and to relate the droplet size distribution to smoke generation and transport conditions. The final report gives smoke particle diameters for Kapton, lamp wick, silicone, Teflon and Pyrell samples, including effects of aging and of zero air flow.",
+    "evidence_ids": [
+      "E1",
+      "E2",
+      "E3",
+      "E17"
+    ]
+  },
+  "safety_categories": [
+    {
+      "category": "detection",
+      "evidence_ids": [
+        "E13",
+        "E18"
+      ]
+    }
+  ],
+  "comparison": {
+    "fuels": {
+      "text": "Samples of 6 materials: Teflon, Kapton, Pyrell, silicone rubber, cellulose (lamp wick), and dibutyl-phthalate deposited on a porous wick.",
+      "evidence_ids": [
+        "E3"
+      ]
+    },
+    "geometry": null,
+    "oxygen": null,
+    "pressure": null,
+    "flow": {
+      "text": "Baseline air flow rate was 8 cm/s, with runs down to 2 cm/s and a limited set with no airflow while the sample was heated.",
+      "evidence_ids": [
+        "E4"
+      ]
+    },
+    "gravity": {
+      "text": "The investigation aims to quantify smoke particle sizes in low gravity.",
+      "evidence_ids": [
+        "E1"
+      ]
+    },
+    "measurements": {
+      "text": "Diameter measurements from moment instruments (geometric mean, count mean and diameter of average mass); the approach also introduced the M-pass instrument alongside a DustTrak and an ionization detector.",
+      "evidence_ids": [
+        "E5",
+        "E6"
+      ]
+    },
+    "hardware": {
+      "text": "SAME hardware used on-orbit; experiment hardware listed as Comparitive Soot Diagnostic Hardware.",
+      "evidence_ids": [
+        "E2",
+        "E7"
+      ]
+    }
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "type": "objective",
+      "text": "The primary objective of SAME-R was to quantify the sizes that liquid smoke particulate achieves in low gravity and to relate the droplet size distribution to the smoke generation and smoke transport conditions.",
+      "evidence_ids": [
+        "E1"
+      ]
+    },
+    {
+      "id": "C2",
+      "type": "hypothesis",
+      "text": "SAME-R hypothesizes that liquid aerosol smokes produced in microgravity will exhibit substantially larger droplet sizes than under the same conditions in normal gravity.",
+      "evidence_ids": [
+        "E8"
+      ]
+    },
+    {
+      "id": "C3",
+      "type": "reported_observation",
+      "text": "In baseline runs, Table 1 reports the diameter of average mass after 720 s aging. For Kapton it increased from 0.106 to 0.169 micrometers. For Pyrell it increased from 0.377 to 0.529 micrometers.",
+      "evidence_ids": [
+        "E9",
+        "E10",
+        "E11"
+      ]
+    },
+    {
+      "id": "C4",
+      "type": "reported_observation",
+      "text": "In baseline runs, Table 1 reports an unaged diameter of average mass of 0.106 micrometers for Kapton. It reports 0.173 micrometers for Teflon. It reports 0.271 micrometers for lampwick. It reports 0.468 micrometers for silicone. The report states the Teflon and Kapton particles were very small.",
+      "evidence_ids": [
+        "E9",
+        "E11",
+        "E12",
+        "E13",
+        "E14"
+      ]
+    },
+    {
+      "id": "C5",
+      "type": "potential_application",
+      "text": "The report states that the much smaller Kapton and Teflon diameters will make detection of this smoke challenging for light scattering devices, and that detection will require a system capable of measuring more than one moment of the particle size distribution.",
+      "evidence_ids": [
+        "E15",
+        "E16"
+      ]
+    },
+    {
+      "id": "C6",
+      "type": "reported_observation",
+      "text": "The report states that for all of the materials the diameter of average mass was 30 % to 40 % larger in the zero-flow tests than in the flow tests.",
+      "evidence_ids": [
+        "E17"
+      ]
+    },
+    {
+      "id": "C7",
+      "type": "potential_application",
+      "text": "The report states that the larger particle diameters observed in zero-flow conditions are important to consider in the development of improved fire detection equipment for space vehicles.",
+      "evidence_ids": [
+        "E18",
+        "E17"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "observation": "C4",
+      "conditions": {
+        "text": "Baseline runs used 8 cm/s air flow. The sample temperature was selected to produce 1 to 2 mg of weight loss in 60 seconds. The unaged diameters are in micrometers.",
+        "evidence_ids": [
+          "E4",
+          "E19",
+          "E11"
+        ]
+      },
+      "implication": "C5",
+      "category": "detection"
+    },
+    {
+      "observation": "C6",
+      "conditions": {
+        "text": "Zero-flow tests had no airflow while the sample was heated. The report examined 11 tests and compared them with flow tests; it states that this condition is unique to low-gravity scenarios.",
+        "evidence_ids": [
+          "E4",
+          "E20",
+          "E21",
+          "E17"
+        ]
+      },
+      "implication": "C7",
+      "category": "detection"
+    }
+  ],
+  "limitations": [
+    {
+      "text": "In the zero-flow tests, approximately half the smoke was lost from the system, so total particle counts were lower than normal.",
+      "basis": "source",
+      "evidence_ids": [
+        "E22",
+        "E17"
+      ]
+    },
+    {
+      "text": "The repeatability of the diameter measurements is estimated to be +/- 15%.",
+      "basis": "source",
+      "evidence_ids": [
+        "E23"
+      ]
+    }
+  ],
+  "modeling_resources": [
+    {
+      "description": "Analyzed data for Kapton Run 62 and Pyrell Run 63, the runs shown in the report's TEM images of aging effects.",
+      "file_keys": [
+        "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_214_10_kapton_run62.xls",
+        "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_235_9_pyrell_run63.xls"
+      ],
+      "evidence_ids": [
+        "E24"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E1",
+      "passage_id": "PSI-101:meta:objective",
+      "excerpt": "the primary objective of the SAME-R investigation was to quantify the sizes that the liquid smoke particulate achieves in low gravity and to relate the droplet size distribution to the smoke generation and smoke transport conditions in the experiment."
+    },
+    {
+      "id": "E2",
+      "passage_id": "PSI-101:meta:approach",
+      "excerpt": "SAME-R utilized the SAME hardware used on-orbit."
+    },
+    {
+      "id": "E3",
+      "passage_id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p4",
+      "excerpt": "These were comprised of samples of 6 materials: Teflon™, Kapton™, \nPyrell™, silicone rubber, cellulose (lamp wick), and dibutyl-phthalate deposited on a porous wick."
+    },
+    {
+      "id": "E4",
+      "passage_id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p4",
+      "excerpt": "The baseline air flow rate was 8 cm/s with \nruns conducted at rates down to 2 cm/s with a limited set conducted with no airflow while the sample was heated."
+    },
+    {
+      "id": "E5",
+      "passage_id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p4",
+      "excerpt": "Geometric mean, count mean, and average mass diameter re sults from the moment instruments for baseline runs"
+    },
+    {
+      "id": "E6",
+      "passage_id": "PSI-101:meta:approach",
+      "excerpt": "a new instrument, M-pass, developed in-house GRC, was used to replace one of the two Commercial Diagnostic Enclosures that includes a DustTrak and an ionization detector used in SAME."
+    },
+    {
+      "id": "E7",
+      "passage_id": "PSI-101:meta:experimentHardware",
+      "excerpt": "Comparitive Soot Diagnostic Hardware; Refer to final report"
+    },
+    {
+      "id": "E8",
+      "passage_id": "PSI-101:meta:hypothesis",
+      "excerpt": "it is hypothesized that liquid aerosol smokes produced in microgravity will exhibit substantially larger droplet sizes than under the same conditions in normal gravity"
+    },
+    {
+      "id": "E9",
+      "passage_id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p4",
+      "excerpt": "Kapton  Unaged  0.047 0.062 0.106  2.072\nAged 720 s  0.102 0.121 0.169  1.790"
+    },
+    {
+      "id": "E10",
+      "passage_id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p5",
+      "excerpt": "Pyrell  Unaged  0.177 0.227 0.377  2.032\nAged 720 s  0.348 0.400 0.529  1.697"
+    },
+    {
+      "id": "E11",
+      "passage_id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p5",
+      "excerpt": "Table 1: Diameter results for baseline runs for each material (Diameters are in micrometers)."
+    },
+    {
+      "id": "E12",
+      "passage_id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p5",
+      "excerpt": "Lampwick  Unaged  0.103 0.142 0.271  2.232"
+    },
+    {
+      "id": "E13",
+      "passage_id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p5",
+      "excerpt": "Overall, the Teflon and Kapton particles were very small."
+    },
+    {
+      "id": "E14",
+      "passage_id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p5",
+      "excerpt": "Silicone  Unaged  0.152 0.221 0.468  2.382\nAged 720 s  0.320 0.400 0.628  1.956\nTeflon  Unaged  0.093 0.111 0.173  2.081"
+    },
+    {
+      "id": "E15",
+      "passage_id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p5",
+      "excerpt": "will make detection of this smoke challenging for light scattering devices"
+    },
+    {
+      "id": "E16",
+      "passage_id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p5",
+      "excerpt": "will require a detection system capable of measuring more than one moment of the particle"
+    },
+    {
+      "id": "E17",
+      "passage_id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p9",
+      "excerpt": "It is found for all of the materials the diameter of \naverage mass is 30 % to 40 % larger for the zero-flow tests compared to the flow tests."
+    },
+    {
+      "id": "E18",
+      "passage_id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p9",
+      "excerpt": "the larger particle \ndiameters observed in these zero-flow conditions are important to consider in the development of improved fire \ndetection equipment for space vehicles."
+    },
+    {
+      "id": "E19",
+      "passage_id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p4",
+      "excerpt": "The \nbaseline temperature was selected to produce 1 to 2 mg of weight loss in 60 seconds"
+    },
+    {
+      "id": "E20",
+      "passage_id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p9",
+      "excerpt": "was examined for 11 tests by \nmodifying the valve operation in the SAME hardware."
+    },
+    {
+      "id": "E21",
+      "passage_id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p9",
+      "excerpt": "It is important to recognize that this condition is unique to low-gravity scenarios."
+    },
+    {
+      "id": "E22",
+      "passage_id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p9",
+      "excerpt": "approximately half the smoke was lost from the system because it diffused out of the inlet into \nthe MSG volume."
+    },
+    {
+      "id": "E23",
+      "passage_id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p5",
+      "excerpt": "The repeatability of the diameter measurements is estimated to be +/- 15%."
+    },
+    {
+      "id": "E24",
+      "passage_id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p8",
+      "excerpt": "Figure 12: TEM images showing the effect of aging for Kapton (Run 62) and Pyrell (Run 63)."
+    }
+  ],
+  "generation": {
+    "model": "claude-sonnet-5-5",
+    "generated_at": "2026-11-15T18:13:44+00:00"
+  }
+}
