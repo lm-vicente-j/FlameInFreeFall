@@ -16,7 +16,7 @@
       "category": "suppression",
       "evidence_ids": [
         "PSI-69:meta:objective#f4c7ee946a30",
-        "PSI-69:pdf:684347459e44646b74028a01:v1:p2#39c353309798"
+        "PSI-69:pdf:684347459e44646b74028a01:v1:p2#7fce5d925a72"
       ]
     }
   ],
@@ -112,7 +112,7 @@
       "type": "potential_application",
       "text": "The test plan states that for fire safety the goal of an agent in a total flooding application is to reduce the oxygen concentration below the LOI, so extinction data of this kind could inform suppression design.",
       "evidence_ids": [
-        "PSI-69:pdf:684347459e44646b74028a01:v1:p2#39c353309798"
+        "PSI-69:pdf:684347459e44646b74028a01:v1:p2#7fce5d925a72"
       ]
     },
     {
@@ -183,7 +183,7 @@
       "text": "No processed document text reports measured FLEX suppressant effectiveness for SF6 (He appears only as an ambient component in individual table rows). The MEC table in the test plan is from cup burner flames (Takahashi et al., 2004), not a FLEX result.",
       "basis": "source",
       "evidence_ids": [
-        "PSI-69:pdf:684347459e44646b74028a01:v1:p3#b3b22c98d983",
+        "PSI-69:pdf:684347459e44646b74028a01:v1:p3#b2332b40a067",
         "PSI-69:meta:objective#f4c7ee946a30"
       ]
     },
@@ -253,7 +253,7 @@
         "sha256": "56e69491fe8af3a31e2f2e1732b0133d769b4de356815419d41c85651d0479d1",
         "page": 9
       },
-      "excerpt": "Test Point FLEX-145 • 1.0 atm in 20% O2 / 75% CO2 / 5% N2 • Methanol droplet Do = 3.38 mm D ext = 1.66 (at visible flame extinction) • Burning rate constant, K = 0.44 m2/s"
+      "excerpt": "Test Point FLEX-145 \n• 1.0 atm in 20% O2 / 75% CO2 / 5% N2 \n• Methanol droplet  \n Do = 3.38 mm \n D ext =  1.66 (at visible flame extinction) \n• Burning rate constant, K = 0.44 m2/s"
     },
     {
       "id": "PSI-69:pdf:684344b89e44646b7402706b:v1:p11#5f9c3c2010e4",
@@ -270,7 +270,7 @@
         "sha256": "56e69491fe8af3a31e2f2e1732b0133d769b4de356815419d41c85651d0479d1",
         "page": 11
       },
-      "excerpt": "Recent FLEX testing with a range of O2 concentrations from 13% to 21% w/ diluent mixtures of CO2 / N2 ."
+      "excerpt": "Recent FLEX testing with a range of O2 \nconcentrations from 13% to 21% w/ \ndiluent mixtures of CO2 / N2 ."
     },
     {
       "id": "PSI-69:pdf:684344b89e44646b7402706b:v1:p15#b99beda63e48",
@@ -287,10 +287,10 @@
         "sha256": "56e69491fe8af3a31e2f2e1732b0133d769b4de356815419d41c85651d0479d1",
         "page": 15
       },
-      "excerpt": "Flame intensity measurements using OH* chemiluminescence images from the FLEX LLUV camera provide information of the water flux transition point in MeOH droplet combustion studies"
+      "excerpt": "Flame intensity measurements using OH* chemiluminescence images from the FLEX \nLLUV camera provide information of the water flux transition point in MeOH droplet \ncombustion studies"
     },
     {
-      "id": "PSI-69:pdf:684347459e44646b74028a01:v1:p2#39c353309798",
+      "id": "PSI-69:pdf:684347459e44646b74028a01:v1:p2#7fce5d925a72",
       "passage_id": "PSI-69:pdf:684347459e44646b74028a01:v1:p2",
       "investigation": "PSI-69",
       "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-69",
@@ -304,7 +304,7 @@
         "sha256": "0af43477a04b05e3c44558b22c16a69cfda837a6a17fa94178ce1f9fce361dc5",
         "page": 2
       },
-      "excerpt": "For fire safety, the goal of the agent in a total flooding application is to reduce the oxygen concentration below the LOI ."
+      "excerpt": "For ﬁre safety, the goal of the agent in\na total ﬂooding application is to reduce the oxygen concentration below the LOI ."
     },
     {
       "id": "PSI-69:meta:approach#c5f83aa9d7b8",
@@ -365,7 +365,7 @@
         "sha256": "56e69491fe8af3a31e2f2e1732b0133d769b4de356815419d41c85651d0479d1",
         "page": 9
       },
-      "excerpt": "High Bit Multi-Spectral (HiBMS-1) Camera used for backlit droplet image"
+      "excerpt": "High Bit Multi-Spectral (HiBMS-1) Camera \nused for backlit  droplet image"
     },
     {
       "id": "PSI-69:pdf:684344b89e44646b7402706b:v1:p9#42c93ad019ef",
@@ -382,10 +382,10 @@
         "sha256": "56e69491fe8af3a31e2f2e1732b0133d769b4de356815419d41c85651d0479d1",
         "page": 9
       },
-      "excerpt": "Low Light Level – Ultra Violet (LLUV) Camera used for imaging chemiluminescence from OH* emissions"
+      "excerpt": "Low Light Level – Ultra Violet (LLUV) Camera  \nused for imaging chemiluminescence from OH*  emissions"
     },
     {
-      "id": "PSI-69:pdf:684347459e44646b74028a01:v1:p3#b3b22c98d983",
+      "id": "PSI-69:pdf:684347459e44646b74028a01:v1:p3#b2332b40a067",
       "passage_id": "PSI-69:pdf:684347459e44646b74028a01:v1:p3",
       "investigation": "PSI-69",
       "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-69",
@@ -399,7 +399,7 @@
         "sha256": "0af43477a04b05e3c44558b22c16a69cfda837a6a17fa94178ce1f9fce361dc5",
         "page": 3
       },
-      "excerpt": "Table 2: Gaseous fire suppression agent efficacy, as measured by the M EC , for cup burner flames (Takahashi et al., 2004)."
+      "excerpt": "Table 2: Gaseous ﬁre suppression agent eﬃcacy, as measured by the M EC , for cup burner ﬂames\n(Takahashi et al., 2004)."
     },
     {
       "id": "PSI-69:pdf:684344b89e44646b7402706b:v1:p15#8704ccab71a5",
@@ -455,7 +455,7 @@
         "sha256": "56e69491fe8af3a31e2f2e1732b0133d769b4de356815419d41c85651d0479d1",
         "page": 14
       },
-      "excerpt": "Preliminary analysis suggests that intensity measurements from ZGF 8-bit color camera may provide similar information"
+      "excerpt": "Preliminary analysis suggests that  intensity measurements from ZGF 8-bit color \ncamera  may provide similar information"
     },
     {
       "id": "PSI-69:table:6792be99b7b6ff8e65037e3a:v1:r226#e7fbbb4c6b46",
@@ -498,7 +498,7 @@
     "method": "skill",
     "skill": "research-card",
     "model": "claude-sonnet-5-5",
-    "generated_at": "2026-11-15T01:54:49+00:00"
+    "generated_at": "2026-11-15T18:12:18+00:00"
   },
   "review": {
     "status": "pending",

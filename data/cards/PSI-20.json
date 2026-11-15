@@ -148,7 +148,7 @@
         "kind": "metadata",
         "field": "objective"
       },
-      "excerpt": "Observe burning behavior in long-duration microgravity for CH4/N2 and C2H4/N2mixtures on porous circular burners of 25 and 50 mm diameter."
+      "excerpt": "Observe burning behavior in long-duration microgravity for CH4/N2 and C2H4/N2mixtures on porous circular burners of 25  and 50 mm diameter."
     },
     {
       "id": "PSI-20:meta:objective#15c40194255f",
@@ -254,7 +254,7 @@
     "method": "skill",
     "skill": "research-card",
     "model": "claude-sonnet-5-5",
-    "generated_at": "2026-11-15T01:50:26+00:00"
+    "generated_at": "2026-11-15T18:12:10+00:00"
   },
   "review": {
     "status": "pending",

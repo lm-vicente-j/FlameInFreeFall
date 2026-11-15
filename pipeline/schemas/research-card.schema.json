@@ -136,12 +136,12 @@
       "required": ["id", "passage_id", "investigation", "source_url", "locator", "excerpt"],
       "additionalProperties": false,
       "properties": {
-        "id": {"$ref": "#/$defs/evidenceId", "description": "passage_id + '#' + first 12 hex of SHA-256 of the whitespace-normalized excerpt."},
+        "id": {"$ref": "#/$defs/evidenceId", "description": "passage_id + '#' + first 12 hex of SHA-256 (UTF-8) of the excerpt with whitespace collapsed by \" \".join(excerpt.split()); no Unicode normalization."},
         "passage_id": {"type": "string"},
         "investigation": {"$ref": "common.schema.json#/$defs/accession"},
         "source_url": {"type": "string", "format": "uri"},
         "locator": {"$ref": "evidence-packet.schema.json#/$defs/locator"},
-        "excerpt": {"$ref": "common.schema.json#/$defs/nonEmptyText"}
+        "excerpt": {"$ref": "common.schema.json#/$defs/nonEmptyText", "description": "Exact substring of the packet passage text, character for character."}
       }
     }
   }

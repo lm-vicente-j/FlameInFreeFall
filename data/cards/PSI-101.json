@@ -9,7 +9,7 @@
     "evidence_ids": [
       "PSI-101:meta:objective#53315b73942a",
       "PSI-101:meta:approach#3c4c60a83b17",
-      "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p4#92769f0ecada"
+      "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p4#6bbdd52677cb"
     ]
   },
   "safety_categories": [
@@ -25,7 +25,7 @@
     "fuels": {
       "text": "Samples of 6 materials: Teflon, Kapton, Pyrell, silicone rubber, cellulose (lamp wick), and dibutyl-phthalate deposited on a porous wick.",
       "evidence_ids": [
-        "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p4#92769f0ecada"
+        "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p4#6bbdd52677cb"
       ]
     },
     "geometry": null,
@@ -203,7 +203,7 @@
       "excerpt": "SAME-R utilized the SAME hardware used on-orbit."
     },
     {
-      "id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p4#92769f0ecada",
+      "id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p4#6bbdd52677cb",
       "passage_id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p4",
       "investigation": "PSI-101",
       "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-101",
@@ -217,7 +217,7 @@
         "sha256": "65381e2715eb7379113dd1b9c550baaa5fa5a247dba00419123143aa98ef80d6",
         "page": 4
       },
-      "excerpt": "These were comprised of samples of 6 materials: TeflonTM, KaptonTM, PyrellTM, silicone rubber, cellulose (lamp wick), and dibutyl-phthalate deposited on a porous wick."
+      "excerpt": "These were comprised of samples of 6 materials: Teflon™, Kapton™, \nPyrell™, silicone rubber, cellulose (lamp wick), and dibutyl-phthalate deposited on a porous wick."
     },
     {
       "id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p4#eef9ec5159fd",
@@ -234,7 +234,7 @@
         "sha256": "65381e2715eb7379113dd1b9c550baaa5fa5a247dba00419123143aa98ef80d6",
         "page": 4
       },
-      "excerpt": "The baseline air flow rate was 8 cm/s with runs conducted at rates down to 2 cm/s with a limited set conducted with no airflow while the sample was heated."
+      "excerpt": "The baseline air flow rate was 8 cm/s with \nruns conducted at rates down to 2 cm/s with a limited set conducted with no airflow while the sample was heated."
     },
     {
       "id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p4#7127c3989556",
@@ -301,7 +301,7 @@
         "sha256": "65381e2715eb7379113dd1b9c550baaa5fa5a247dba00419123143aa98ef80d6",
         "page": 4
       },
-      "excerpt": "Kapton Unaged 0.047 0.062 0.106 2.072 Aged 720 s 0.102 0.121 0.169 1.790"
+      "excerpt": "Kapton  Unaged  0.047 0.062 0.106  2.072\nAged 720 s  0.102 0.121 0.169  1.790"
     },
     {
       "id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p5#f1752d14ed65",
@@ -318,7 +318,7 @@
         "sha256": "65381e2715eb7379113dd1b9c550baaa5fa5a247dba00419123143aa98ef80d6",
         "page": 5
       },
-      "excerpt": "Pyrell Unaged 0.177 0.227 0.377 2.032 Aged 720 s 0.348 0.400 0.529 1.697"
+      "excerpt": "Pyrell  Unaged  0.177 0.227 0.377  2.032\nAged 720 s  0.348 0.400 0.529  1.697"
     },
     {
       "id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p5#960ec7619876",
@@ -335,7 +335,7 @@
         "sha256": "65381e2715eb7379113dd1b9c550baaa5fa5a247dba00419123143aa98ef80d6",
         "page": 5
       },
-      "excerpt": "Table 1: Diameter results for baseline runs for each material (Diameters are in micrometers)."
+      "excerpt": "Table 1: Diameter results for baseline runs for each material (Diameters are in micrometers)."
     },
     {
       "id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p5#f1ea32513a50",
@@ -352,7 +352,7 @@
         "sha256": "65381e2715eb7379113dd1b9c550baaa5fa5a247dba00419123143aa98ef80d6",
         "page": 5
       },
-      "excerpt": "Lampwick Unaged 0.103 0.142 0.271 2.232"
+      "excerpt": "Lampwick  Unaged  0.103 0.142 0.271  2.232"
     },
     {
       "id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p5#a12500d0d3e7",
@@ -386,7 +386,7 @@
         "sha256": "65381e2715eb7379113dd1b9c550baaa5fa5a247dba00419123143aa98ef80d6",
         "page": 5
       },
-      "excerpt": "Silicone Unaged 0.152 0.221 0.468 2.382 Aged 720 s 0.320 0.400 0.628 1.956 Teflon Unaged 0.093 0.111 0.173 2.081"
+      "excerpt": "Silicone  Unaged  0.152 0.221 0.468  2.382\nAged 720 s  0.320 0.400 0.628  1.956\nTeflon  Unaged  0.093 0.111 0.173  2.081"
     },
     {
       "id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p5#e94d329e85f0",
@@ -437,7 +437,7 @@
         "sha256": "65381e2715eb7379113dd1b9c550baaa5fa5a247dba00419123143aa98ef80d6",
         "page": 9
       },
-      "excerpt": "It is found for all of the materials the diameter of average mass is 30 % to 40 % larger for the zero-flow tests compared to the flow tests."
+      "excerpt": "It is found for all of the materials the diameter of \naverage mass is 30 % to 40 % larger for the zero-flow tests compared to the flow tests."
     },
     {
       "id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p9#9dcaef1e9da0",
@@ -454,7 +454,7 @@
         "sha256": "65381e2715eb7379113dd1b9c550baaa5fa5a247dba00419123143aa98ef80d6",
         "page": 9
       },
-      "excerpt": "the larger particle diameters observed in these zero-flow conditions are important to consider in the development of improved fire detection equipment for space vehicles."
+      "excerpt": "the larger particle \ndiameters observed in these zero-flow conditions are important to consider in the development of improved fire \ndetection equipment for space vehicles."
     },
     {
       "id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p4#b272075d4659",
@@ -471,7 +471,7 @@
         "sha256": "65381e2715eb7379113dd1b9c550baaa5fa5a247dba00419123143aa98ef80d6",
         "page": 4
       },
-      "excerpt": "The baseline temperature was selected to produce 1 to 2 mg of weight loss in 60 seconds"
+      "excerpt": "The \nbaseline temperature was selected to produce 1 to 2 mg of weight loss in 60 seconds"
     },
     {
       "id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p9#08e50384435c",
@@ -488,7 +488,7 @@
         "sha256": "65381e2715eb7379113dd1b9c550baaa5fa5a247dba00419123143aa98ef80d6",
         "page": 9
       },
-      "excerpt": "was examined for 11 tests by modifying the valve operation in the SAME hardware."
+      "excerpt": "was examined for 11 tests by \nmodifying the valve operation in the SAME hardware."
     },
     {
       "id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p9#78d4d4be980a",
@@ -522,7 +522,7 @@
         "sha256": "65381e2715eb7379113dd1b9c550baaa5fa5a247dba00419123143aa98ef80d6",
         "page": 9
       },
-      "excerpt": "approximately half the smoke was lost from the system because it diffused out of the inlet into the MSG volume."
+      "excerpt": "approximately half the smoke was lost from the system because it diffused out of the inlet into \nthe MSG volume."
     },
     {
       "id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p5#1a923d369cd8",
@@ -563,7 +563,7 @@
     "method": "skill",
     "skill": "research-card",
     "model": "claude-sonnet-5-5",
-    "generated_at": "2026-11-15T01:49:55+00:00"
+    "generated_at": "2026-11-15T18:12:03+00:00"
   },
   "review": {
     "status": "pending",

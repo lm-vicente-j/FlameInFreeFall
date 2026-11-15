@@ -9,7 +9,7 @@
     "evidence_ids": [
       "PSI-25:meta:objective#72a40e33f18b",
       "PSI-25:meta:hypothesis#14efa82d3fba",
-      "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p31#2ced9760e29f",
+      "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p31#3f6ca2225cd5",
       "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p33#c5f99d1506bf"
     ]
   },
@@ -37,13 +37,13 @@
     "fuels": {
       "text": "PMMA fuel samples, 20 mm wide and about 95 mm long, with thickness ranging from 100 to 400 µm, in the extinction-velocity tests.",
       "evidence_ids": [
-        "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p29#99a7179d5ac0"
+        "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p29#a1bd2d0c9ce0"
       ]
     },
     "geometry": {
       "text": "A 76-mm square duct with PMMA samples burned in an opposed-flow configuration.",
       "evidence_ids": [
-        "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p29#99a7179d5ac0"
+        "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p29#a1bd2d0c9ce0"
       ]
     },
     "oxygen": {
@@ -100,9 +100,9 @@
       "type": "reported_observation",
       "text": "In opposed-flow tests of PMMA samples, extinction velocities were found to be about 1 cm/s for thicknesses of 100, 200, and 300 µm and about 1.5 cm/s for 400 µm. In a test on a 100-µm sample with gradually reduced flow, the flame extinguished at an indicated flow velocity of about 1.1 cm/s.",
       "evidence_ids": [
-        "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p31#2ced9760e29f",
+        "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p31#3f6ca2225cd5",
         "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p31#ed87668dda80",
-        "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p29#99a7179d5ac0"
+        "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p29#a1bd2d0c9ce0"
       ]
     },
     {
@@ -111,7 +111,7 @@
       "text": "At a lower O2 level of about 16 percent, extinction velocities were found to be about 2.6 cm/s for 100 µm and about 4 cm/s for 200 µm samples. The source states that the extinction velocity significantly increases as the O2 level is reduced.",
       "evidence_ids": [
         "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p31#a9562d348641",
-        "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p33#c905951d93f1",
+        "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p33#1a81c5be6250",
         "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p33#c5f99d1506bf"
       ]
     },
@@ -131,7 +131,7 @@
       "conditions": {
         "text": "PMMA samples 100 to 400 µm thick, 20 mm wide and about 95 mm long, burned in opposed flow in a 76-mm square duct aboard the ISS; flow was gradually reduced until the flame extinguished.",
         "evidence_ids": [
-          "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p29#99a7179d5ac0",
+          "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p29#a1bd2d0c9ce0",
           "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p31#ed87668dda80"
         ]
       },
@@ -144,8 +144,8 @@
         "text": "Opposed-flow tests on PMMA samples at a lower O2 level of about 16 percent, with 100-µm and 200-µm samples, aboard the ISS; sample widths differed between the two thicknesses.",
         "evidence_ids": [
           "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p31#a9562d348641",
-          "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p33#c905951d93f1",
-          "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p33#f4853d10ba42"
+          "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p33#1a81c5be6250",
+          "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p33#e9baa09269e5"
         ]
       },
       "implication": "C5",
@@ -164,7 +164,7 @@
       "text": "The lower-O2 data are limited: the source notes insufficient data at the lower O2 level, and sample width differed between the two thicknesses tested (20 mm for 100 µm, 10 mm for 200 µm).",
       "basis": "source",
       "evidence_ids": [
-        "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p33#f4853d10ba42",
+        "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p33#e9baa09269e5",
         "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p33#5e13fea375e9"
       ]
     },
@@ -183,7 +183,7 @@
         "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv"
       ],
       "evidence_ids": [
-        "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p29#99a7179d5ac0"
+        "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p29#a1bd2d0c9ce0"
       ]
     }
   ],
@@ -211,7 +211,7 @@
       "excerpt": "materials in microgravity, with adequate ventilation, burn as well if not better than the same material in normal gravity"
     },
     {
-      "id": "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p31#2ced9760e29f",
+      "id": "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p31#3f6ca2225cd5",
       "passage_id": "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p31",
       "investigation": "PSI-25",
       "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-25",
@@ -225,7 +225,7 @@
         "sha256": "5ffa911fd9b6356f204646003fb9342e341810dcdfdf5cb15756e7f01ec5f770",
         "page": 31
       },
-      "excerpt": "the extinction velocities are found to be about 1 cm/s for 100, 200, and 300 μm and about 1.5 cm/s for 400 μm."
+      "excerpt": "the extinction velocities are found to \nbe about 1 cm/s for 100, 200, and 300 µm and about 1.5 cm/s for 400 µm."
     },
     {
       "id": "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p31#ed87668dda80",
@@ -242,10 +242,10 @@
         "sha256": "5ffa911fd9b6356f204646003fb9342e341810dcdfdf5cb15756e7f01ec5f770",
         "page": 31
       },
-      "excerpt": "The fan voltage at that time indicates a flow velocity of about 1.1 cm/s."
+      "excerpt": "The fan voltage at that time indicates a flow velocity of about \n1.1 cm/s."
     },
     {
-      "id": "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p29#99a7179d5ac0",
+      "id": "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p29#a1bd2d0c9ce0",
       "passage_id": "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p29",
       "investigation": "PSI-25",
       "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-25",
@@ -259,7 +259,7 @@
         "sha256": "5ffa911fd9b6356f204646003fb9342e341810dcdfdf5cb15756e7f01ec5f770",
         "page": 29
       },
-      "excerpt": "a 76-mm square duct, where the PMMA fuel samples, 20 mm wide and about 95 mm long with the thickness ranging from 100 to 400 μm, are burned in an opposed-flow configuration."
+      "excerpt": "a 76-mm square duct, where the PMMA fuel samples, 20 mm wide \nand about 95 mm long with the thickness ranging from 100 to 400 µm, are burned in an opposed-flow \nconfiguration."
     },
     {
       "id": "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p31#a9562d348641",
@@ -276,10 +276,10 @@
         "sha256": "5ffa911fd9b6356f204646003fb9342e341810dcdfdf5cb15756e7f01ec5f770",
         "page": 31
       },
-      "excerpt": "Tests were also conducted at a lower O2 level of about 16 percent for two different thicknesses and the extinction"
+      "excerpt": "Tests were also \nconducted at a lower O2 level of about 16 percent for two different thicknesses and the extinction"
     },
     {
-      "id": "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p33#c905951d93f1",
+      "id": "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p33#1a81c5be6250",
       "passage_id": "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p33",
       "investigation": "PSI-25",
       "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-25",
@@ -293,7 +293,7 @@
         "sha256": "5ffa911fd9b6356f204646003fb9342e341810dcdfdf5cb15756e7f01ec5f770",
         "page": 33
       },
-      "excerpt": "velocities are found to be about 2.6 cm/s for 100 μm and about 4 cm/s for 200 μm."
+      "excerpt": "velocities are found to be about 2.6 cm/s for 100 µm and about 4 cm/s for 200 µm."
     },
     {
       "id": "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p31#1a0770b08d8f",
@@ -310,7 +310,7 @@
         "sha256": "5ffa911fd9b6356f204646003fb9342e341810dcdfdf5cb15756e7f01ec5f770",
         "page": 31
       },
-      "excerpt": "there are significant uncertainties in these values as the calibration at such low velocity has high error bars."
+      "excerpt": "there are significant uncertainties in these values as the calibration at such low velocity \nhas high error bars."
     },
     {
       "id": "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p33#c5f99d1506bf",
@@ -327,10 +327,10 @@
         "sha256": "5ffa911fd9b6356f204646003fb9342e341810dcdfdf5cb15756e7f01ec5f770",
         "page": 33
       },
-      "excerpt": "it is clear that the extinction velocity significantly increases as the O2 level is reduced"
+      "excerpt": "it is clear that the extinction velocity \nsignificantly increases as the O2 level is reduced"
     },
     {
-      "id": "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p33#f4853d10ba42",
+      "id": "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p33#e9baa09269e5",
       "passage_id": "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p33",
       "investigation": "PSI-25",
       "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-25",
@@ -344,7 +344,7 @@
         "sha256": "5ffa911fd9b6356f204646003fb9342e341810dcdfdf5cb15756e7f01ec5f770",
         "page": 33
       },
-      "excerpt": "the width of the sample was different, 20 mm for the 100-μm sample and 10 mm for the 200-μm sample."
+      "excerpt": "the width of the sample was different, 20 mm for the 100-µm sample and 10 mm for the 200-µm \nsample."
     },
     {
       "id": "PSI-25:meta:objective#018f6e59b025",
@@ -383,7 +383,7 @@
         "sha256": "5ffa911fd9b6356f204646003fb9342e341810dcdfdf5cb15756e7f01ec5f770",
         "page": 29
       },
-      "excerpt": "The O2 level can be adjusted to 21 percent or below and the flow velocity can range from 0 to 50 cm/s."
+      "excerpt": "The O2 level \ncan be adjusted to 21 percent or below and the flow velocity can range from 0 to 50 cm/s."
     },
     {
       "id": "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p29#13d307ab2563",
@@ -400,7 +400,7 @@
         "sha256": "5ffa911fd9b6356f204646003fb9342e341810dcdfdf5cb15756e7f01ec5f770",
         "page": 29
       },
-      "excerpt": "the flame is photographed with a high-resolution digital still camera with a frame rate of 1 per second. A radiometer is used to confirm flame extinction when the visible flame goes out."
+      "excerpt": "the flame is photographed with a high-resolution digital still camera with a frame rate of \n1 per second. A radiometer is used to confirm flame extinction when the visible flame goes out."
     },
     {
       "id": "PSI-25:meta:approach#2b2b9035334b",
@@ -456,14 +456,14 @@
         "sha256": "5ffa911fd9b6356f204646003fb9342e341810dcdfdf5cb15756e7f01ec5f770",
         "page": 27
       },
-      "excerpt": "Results from the recently conducted limited number of space-based tests"
+      "excerpt": "Results from the recently conducted limited number of space-based \ntests"
     }
   ],
   "generation": {
     "method": "skill",
     "skill": "research-card",
     "model": "claude-sonnet-5-5",
-    "generated_at": "2026-11-15T01:49:41+00:00"
+    "generated_at": "2026-11-15T18:12:13+00:00"
   },
   "review": {
     "status": "pending",

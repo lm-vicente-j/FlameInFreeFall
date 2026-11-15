@@ -201,7 +201,7 @@
         "kind": "metadata",
         "field": "objective"
       },
-      "excerpt": "(1) determine how rapidly a large scale fire grows in low-gravity and (2) investigate the low-g flammability limits compared to those obtained in NASA’s normal gravity material flammability screening test."
+      "excerpt": "(1) determine how rapidly a large scale fire grows in low-gravity and (2) investigate the low-g flammability limits compared to those obtained in NASA’s normal\ngravity material flammability screening test."
     },
     {
       "id": "PSI-98:meta:hypothesis#88e40c9f1326",
@@ -276,7 +276,7 @@
         "sha256": "6cff0b55b8f1416f5b5b768b7fd22ae31991791ef633865471b72ff19ff4159b",
         "page": 1
       },
-      "excerpt": "The overall objective of this project is to reduce the uncertainty and risk associated with the design of spacecraft fire safety systems for NASA’s exploration missions."
+      "excerpt": "The overall objective of this project is to \nreduce the uncertainty and risk associated with the \ndesign of spacecraft fire safety systems for NASA’s \nexploration missions."
     },
     {
       "id": "PSI-98:meta:approach#2740bcbb2403",
@@ -359,7 +359,7 @@
         "sha256": "6cff0b55b8f1416f5b5b768b7fd22ae31991791ef633865471b72ff19ff4159b",
         "page": 4
       },
-      "excerpt": "Saffire-I is scheduled to operate a few hours afterwards."
+      "excerpt": "Saffire-I is scheduled to operate a few hours \nafterwards."
     },
     {
       "id": "PSI-98:pdf:683f4a57746db1c87dcebee8:v1:p5#815ea9fc9bf4",
@@ -376,14 +376,14 @@
         "sha256": "6cff0b55b8f1416f5b5b768b7fd22ae31991791ef633865471b72ff19ff4159b",
         "page": 5
       },
-      "excerpt": "a relatively small number of tests will be conducted (two large samples and nine smaller samples)"
+      "excerpt": "a relatively small \nnumber of tests will be conducted (two large samples \nand nine smaller samples)"
     }
   ],
   "generation": {
     "method": "skill",
     "skill": "research-card",
     "model": "claude-sonnet-5-5",
-    "generated_at": "2026-11-15T01:55:35+00:00"
+    "generated_at": "2026-11-15T18:12:19+00:00"
   },
   "review": {
     "status": "pending",

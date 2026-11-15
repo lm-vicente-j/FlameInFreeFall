@@ -7,13 +7,16 @@ fact that can be computed or copied from the evidence packet (ids, locators,
 source URL, title, version, coverage), so the model cannot get them wrong.
 
 ``validate`` is the audit gate. Beyond the JSON schema it enforces that:
-- every excerpt really occurs in the cited passage (after normalization),
+- every excerpt occurs EXACTLY (character for character) in the cited passage,
 - every number in a statement occurs in an excerpt that statement cites,
 - observations are not supported only by intent text (objective, hypothesis,
   expected impacts), because PLAN.md forbids presenting those as measured results.
 
-Normalization (NFKC, collapsed whitespace) is applied to both sides of every
-comparison because pypdf output contains line breaks and ligatures.
+``finalize`` locates a draft excerpt in the passage tolerantly (NFKC and collapsed
+whitespace, because the skill cannot reproduce pypdf line breaks and ligatures) but
+stores the exact original substring of the passage. The evidence id suffix is the
+backend contract's recipe (docs/contracts/STORAGE.md, PR #39): collapse whitespace
+with ``" ".join(excerpt.split())``, UTF-8, SHA-256, first 12 hex characters; no NFKC.
 """
 import argparse
 import copy
@@ -52,8 +55,56 @@ def normalize_text(text: str) -> str:
 
 
 def evidence_id(passage_id: str, excerpt: str) -> str:
-    digest = hashlib.sha256(normalize_text(excerpt).encode("utf-8")).hexdigest()
+    """``passage_id#`` plus the first 12 hex of SHA-256 of the whitespace-collapsed excerpt.
+
+    This is exactly the backend recipe (STORAGE.md, "Validation before import",
+    step 3): no Unicode normalization, only ``" ".join(excerpt.split())``.
+    """
+    digest = hashlib.sha256(" ".join(excerpt.split()).encode("utf-8")).hexdigest()
     return f"{passage_id}#{digest[:12]}"
+
+
+def _fold(text: str) -> tuple[str, list[tuple[int, int]]]:
+    """NFKC-fold ``text`` one character at a time, collapsing whitespace runs to one space.
+
+    Returns the folded text and, for each folded character, the inclusive span of
+    original indexes it came from. Folding per character keeps the mapping exact
+    even where NFKC changes the length (ligatures, ``TM``, superscripts).
+    """
+    chars: list[str] = []
+    spans: list[tuple[int, int]] = []
+    for index, char in enumerate(text):
+        for piece in unicodedata.normalize("NFKC", char):
+            if piece.isspace():
+                if chars and chars[-1] == " ":
+                    spans[-1] = (spans[-1][0], index)
+                else:
+                    chars.append(" ")
+                    spans.append((index, index))
+            else:
+                chars.append(piece)
+                spans.append((index, index))
+    return "".join(chars), spans
+
+
+def locate_excerpt(passage_text: str, excerpt: str) -> str | None:
+    """Return the exact substring of ``passage_text`` that ``excerpt`` stands for, or None.
+
+    An excerpt that already occurs verbatim is returned unchanged. Otherwise it is
+    located after NFKC and whitespace folding (pypdf line breaks, ligatures) and the
+    original characters of the first match are returned.
+    """
+    stripped = excerpt.strip()
+    if stripped and stripped in passage_text:
+        return stripped
+    needle = _fold(stripped)[0].strip()
+    if not needle:
+        return None
+    folded, spans = _fold(passage_text)
+    start = folded.find(needle)
+    if start < 0:
+        return None
+    return passage_text[spans[start][0] : spans[start + len(needle) - 1][1] + 1]
 
 
 def numbers_in(text: str) -> set[str]:
@@ -110,11 +161,11 @@ def _evidence_problems(
         problems.append(f"evidence {name}: source_url differs from the packet")
     if item["investigation"] != packet["investigation"]:
         problems.append(f"evidence {name}: investigation differs from the packet")
-    excerpt = normalize_text(item["excerpt"])
-    if len(excerpt) < MIN_EXCERPT_CHARACTERS:
-        problems.append(f"evidence {name}: excerpt has {len(excerpt)} characters, minimum is {MIN_EXCERPT_CHARACTERS}")
-    if excerpt not in normalize_text(passage["text"]):
-        problems.append(f"evidence {name}: excerpt does not occur in passage {item['passage_id']}")
+    length = len(" ".join(item["excerpt"].split()))
+    if length < MIN_EXCERPT_CHARACTERS:
+        problems.append(f"evidence {name}: excerpt has {length} characters, minimum is {MIN_EXCERPT_CHARACTERS}")
+    if item["excerpt"] not in passage["text"]:
+        problems.append(f"evidence {name}: excerpt does not occur exactly in passage {item['passage_id']}")
     return problems
 
 
@@ -250,7 +301,10 @@ def finalize(draft: dict[str, Any], packet: dict[str, Any], now: datetime) -> di
         if passage is None:
             problems.append(f"evidence {item['id']}: passage {item['passage_id']} is not in the evidence packet")
             continue
-        excerpt = normalize_text(item["excerpt"])
+        excerpt = locate_excerpt(passage["text"], item["excerpt"])
+        if excerpt is None:
+            problems.append(f"evidence {item['id']}: excerpt does not occur in passage {item['passage_id']}")
+            continue
         mapping[item["id"]] = evidence_id(item["passage_id"], excerpt)
         if all(existing["id"] != mapping[item["id"]] for existing in evidence):
             evidence.append(

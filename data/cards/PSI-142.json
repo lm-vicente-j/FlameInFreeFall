@@ -130,7 +130,7 @@
         "kind": "metadata",
         "field": "approach"
       },
-      "excerpt": "(a) spark-assisted flame propagation of a n-heptane/air mixture, (b) one dimensional freely-propagating dimethyl ether (DME) flames using an arc-length continuation method and (c) simulated cool flame regimes and burning limits at elevated pressure (up to 20 atm) using DME/air mixtures"
+      "excerpt": "(a) spark-assisted flame propagation of a n-heptane/air mixture, (b) one dimensional freely-propagating dimethyl ether (DME) flames using an arc-length continuation method and (c) simulated cool flame regimes and burning limits at elevated pressure (up to 20 atm) using DME/air mixtures"
     },
     {
       "id": "PSI-142:meta:objective#0398e46bb623",
@@ -192,7 +192,7 @@
     "method": "skill",
     "skill": "research-card",
     "model": "claude-sonnet-5-5",
-    "generated_at": "2026-11-15T01:49:57+00:00"
+    "generated_at": "2026-11-15T18:12:08+00:00"
   },
   "review": {
     "status": "pending",
