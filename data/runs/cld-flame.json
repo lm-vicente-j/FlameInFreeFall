@@ -1,0 +1,3037 @@
+{
+  "table": "cld-flame",
+  "investigation": "PSI-21",
+  "source": {
+    "filename": "PSI-21_Experimental table_CLD Flame.csv",
+    "sha256": "9fafbc5b3dddaf715ce8025ed9154ce297803f7b69a935f077ec26c8249e44c0",
+    "encoding": "utf-8",
+    "columns": [
+      "Test Type",
+      "Test Day",
+      "Fuel MFC",
+      "N2 MFC",
+      "Fuel Bottle",
+      "Fuel conc. Range",
+      "Flames ignited",
+      "Notes"
+    ]
+  },
+  "counts": {
+    "runs": 0,
+    "ranges": 0,
+    "sessions": 32,
+    "notes": 0,
+    "duplicate_rows": 0,
+    "empty_rows_skipped": 0
+  },
+  "records": [
+    {
+      "id": "PSI-21:cld-flame:1",
+      "kind": "session",
+      "row": 1,
+      "original": {
+        "Test Type": "Methane based test",
+        "Test Day": "17319",
+        "Fuel MFC": "0.1",
+        "N2 MFC": "0.1",
+        "Fuel Bottle": "40% CH4",
+        "Fuel conc. Range": "30%-40%",
+        "Flames ignited": "10",
+        "Notes": "Test Day - includes the year as the first two digits followed by the 3-digit day of the year (where any late-hour transition to the next day is neglected). MFC - identifies the maximum flow rate of the specified ACME Mass Flow Controller (MFC) in slpm on a nitrogen basis. Fuel conc. - (as diluted with nitrogen on a volume basis) was varied between tests and sometimes during tests where the listing here accounts for both. However, it does not account for extinction that sometimes occurred before the flame fully reached the lowest concentration. Flames ignited is the number ignited on that test day."
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "flags": [],
+      "links": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-21:cld-flame:2",
+      "kind": "session",
+      "row": 2,
+      "original": {
+        "Test Type": "Methane based test",
+        "Test Day": "17324",
+        "Fuel MFC": "0.1",
+        "N2 MFC": "0.1",
+        "Fuel Bottle": "40% CH5",
+        "Fuel conc. Range": "30%-40%",
+        "Flames ignited": "5",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "flags": [],
+      "links": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-21:cld-flame:3",
+      "kind": "session",
+      "row": 3,
+      "original": {
+        "Test Type": "Methane based test",
+        "Test Day": "17342",
+        "Fuel MFC": "0.1",
+        "N2 MFC": "0.1",
+        "Fuel Bottle": "40% CH6",
+        "Fuel conc. Range": "40%",
+        "Flames ignited": "8",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "flags": [],
+      "links": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-21:cld-flame:4",
+      "kind": "session",
+      "row": 4,
+      "original": {
+        "Test Type": "Methane based test",
+        "Test Day": "17356",
+        "Fuel MFC": "0.1",
+        "N2 MFC": "0.1",
+        "Fuel Bottle": "40% CH7",
+        "Fuel conc. Range": "30%-40%",
+        "Flames ignited": "3",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "flags": [],
+      "links": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-21:cld-flame:5",
+      "kind": "session",
+      "row": 5,
+      "original": {
+        "Test Type": "Methane based test",
+        "Test Day": "18003",
+        "Fuel MFC": "0.1",
+        "N2 MFC": "0.1",
+        "Fuel Bottle": "40% CH8",
+        "Fuel conc. Range": "25%-40%",
+        "Flames ignited": "9",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "flags": [],
+      "links": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-21:cld-flame:6",
+      "kind": "session",
+      "row": 6,
+      "original": {
+        "Test Type": "Methane based test",
+        "Test Day": "18005",
+        "Fuel MFC": "0.1",
+        "N2 MFC": "0.1",
+        "Fuel Bottle": "40% CH9",
+        "Fuel conc. Range": "30%-40%",
+        "Flames ignited": "7",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "flags": [],
+      "links": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-21:cld-flame:7",
+      "kind": "session",
+      "row": 7,
+      "original": {
+        "Test Type": "Methane based test",
+        "Test Day": "18008",
+        "Fuel MFC": "0.1",
+        "N2 MFC": "0.1",
+        "Fuel Bottle": "40% CH10",
+        "Fuel conc. Range": "25%-40%",
+        "Flames ignited": "8",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "flags": [],
+      "links": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-21:cld-flame:8",
+      "kind": "session",
+      "row": 8,
+      "original": {
+        "Test Type": "Methane based test",
+        "Test Day": "18011",
+        "Fuel MFC": "0.1",
+        "N2 MFC": "0.1",
+        "Fuel Bottle": "40% CH11",
+        "Fuel conc. Range": "25%-40%",
+        "Flames ignited": "14",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "flags": [],
+      "links": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-21:cld-flame:9",
+      "kind": "session",
+      "row": 9,
+      "original": {
+        "Test Type": "Methane based test",
+        "Test Day": "18022",
+        "Fuel MFC": "0.1",
+        "N2 MFC": "0.1",
+        "Fuel Bottle": "40% CH12",
+        "Fuel conc. Range": "30%-40%",
+        "Flames ignited": "3",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "flags": [],
+      "links": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-21:cld-flame:10",
+      "kind": "session",
+      "row": 10,
+      "original": {
+        "Test Type": "Methane based test",
+        "Test Day": "18026",
+        "Fuel MFC": "0.1",
+        "N2 MFC": "0.1",
+        "Fuel Bottle": "40% CH13",
+        "Fuel conc. Range": "25%-40%",
+        "Flames ignited": "16",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "flags": [],
+      "links": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-21:cld-flame:11",
+      "kind": "session",
+      "row": 11,
+      "original": {
+        "Test Type": "Methane based test",
+        "Test Day": "18032",
+        "Fuel MFC": "0.1",
+        "N2 MFC": "0.1",
+        "Fuel Bottle": "40% CH14",
+        "Fuel conc. Range": "30%-40%",
+        "Flames ignited": "13",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "flags": [],
+      "links": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-21:cld-flame:12",
+      "kind": "session",
+      "row": 12,
+      "original": {
+        "Test Type": "Methane based test",
+        "Test Day": "18039",
+        "Fuel MFC": "0.1",
+        "N2 MFC": "0.05",
+        "Fuel Bottle": "100% CH4",
+        "Fuel conc. Range": "50%-80%",
+        "Flames ignited": "8",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "flags": [],
+      "links": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-21:cld-flame:13",
+      "kind": "session",
+      "row": 13,
+      "original": {
+        "Test Type": "Methane based test",
+        "Test Day": "18043",
+        "Fuel MFC": "0.1",
+        "N2 MFC": "0.05",
+        "Fuel Bottle": "100% CH5",
+        "Fuel conc. Range": "50%-100%",
+        "Flames ignited": "10",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "flags": [],
+      "links": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-21:cld-flame:14",
+      "kind": "session",
+      "row": 14,
+      "original": {
+        "Test Type": "Methane based test",
+        "Test Day": "18053",
+        "Fuel MFC": "0.1",
+        "N2 MFC": "0.02",
+        "Fuel Bottle": "100% CH6",
+        "Fuel conc. Range": "30%-40%",
+        "Flames ignited": "16",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "flags": [],
+      "links": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-21:cld-flame:15",
+      "kind": "session",
+      "row": 15,
+      "original": {
+        "Test Type": "Ethylene based test",
+        "Test Day": "18145",
+        "Fuel MFC": "0.2",
+        "N2 MFC": "0.1",
+        "Fuel Bottle": "100% C2H4",
+        "Fuel conc. Range": "80%-100%",
+        "Flames ignited": "3",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "flags": [],
+      "links": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-21:cld-flame:16",
+      "kind": "session",
+      "row": 16,
+      "original": {
+        "Test Type": "Ethylene based test",
+        "Test Day": "18151",
+        "Fuel MFC": "0.2",
+        "N2 MFC": "0.1",
+        "Fuel Bottle": "100% C2H5",
+        "Fuel conc. Range": "100%",
+        "Flames ignited": "2",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "flags": [],
+      "links": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-21:cld-flame:17",
+      "kind": "session",
+      "row": 17,
+      "original": {
+        "Test Type": "Ethylene based test",
+        "Test Day": "18177",
+        "Fuel MFC": "0.2",
+        "N2 MFC": "0.1",
+        "Fuel Bottle": "100% C2H6",
+        "Fuel conc. Range": "80%-100%",
+        "Flames ignited": "9",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "flags": [],
+      "links": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-21:cld-flame:18",
+      "kind": "session",
+      "row": 18,
+      "original": {
+        "Test Type": "Ethylene based test",
+        "Test Day": "18186",
+        "Fuel MFC": "0.2",
+        "N2 MFC": "0.1",
+        "Fuel Bottle": "100% C2H7",
+        "Fuel conc. Range": "60%-100%",
+        "Flames ignited": "14",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "flags": [],
+      "links": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-21:cld-flame:19",
+      "kind": "session",
+      "row": 19,
+      "original": {
+        "Test Type": "Ethylene based test",
+        "Test Day": "18192",
+        "Fuel MFC": "0.2",
+        "N2 MFC": "0.1",
+        "Fuel Bottle": "100% C2H8",
+        "Fuel conc. Range": "50%-60%",
+        "Flames ignited": "10",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "flags": [],
+      "links": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-21:cld-flame:20",
+      "kind": "session",
+      "row": 20,
+      "original": {
+        "Test Type": "Ethylene based test",
+        "Test Day": "18199",
+        "Fuel MFC": "0.2",
+        "N2 MFC": "0.1",
+        "Fuel Bottle": "100% C2H9",
+        "Fuel conc. Range": "40%-100%",
+        "Flames ignited": "16",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "flags": [],
+      "links": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-21:cld-flame:21",
+      "kind": "session",
+      "row": 21,
+      "original": {
+        "Test Type": "Ethylene based test",
+        "Test Day": "18214",
+        "Fuel MFC": "0.2",
+        "N2 MFC": "0.05",
+        "Fuel Bottle": "100% C2H10",
+        "Fuel conc. Range": "100%",
+        "Flames ignited": "13",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "flags": [],
+      "links": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-21:cld-flame:22",
+      "kind": "session",
+      "row": 22,
+      "original": {
+        "Test Type": "Ethylene based test",
+        "Test Day": "18218",
+        "Fuel MFC": "0.2",
+        "N2 MFC": "0.05",
+        "Fuel Bottle": "100% C2H11",
+        "Fuel conc. Range": "80%",
+        "Flames ignited": "18",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "flags": [],
+      "links": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-21:cld-flame:23",
+      "kind": "session",
+      "row": 23,
+      "original": {
+        "Test Type": "Ethylene based test",
+        "Test Day": "18235",
+        "Fuel MFC": "0.2",
+        "N2 MFC": "0.1",
+        "Fuel Bottle": "50% C2H4",
+        "Fuel conc. Range": "50%",
+        "Flames ignited": "16",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "flags": [],
+      "links": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-21:cld-flame:24",
+      "kind": "session",
+      "row": 24,
+      "original": {
+        "Test Type": "Ethylene based test",
+        "Test Day": "18239",
+        "Fuel MFC": "0.2",
+        "N2 MFC": "0.1",
+        "Fuel Bottle": "50% C2H5",
+        "Fuel conc. Range": "40%",
+        "Flames ignited": "14",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "flags": [],
+      "links": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-21:cld-flame:25",
+      "kind": "session",
+      "row": 25,
+      "original": {
+        "Test Type": "Ethylene based test",
+        "Test Day": "18241",
+        "Fuel MFC": "0.1",
+        "N2 MFC": "0.2",
+        "Fuel Bottle": "50% C2H6",
+        "Fuel conc. Range": "10%-20%",
+        "Flames ignited": "6",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "flags": [],
+      "links": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-21:cld-flame:26",
+      "kind": "session",
+      "row": 26,
+      "original": {
+        "Test Type": "Ethylene based test",
+        "Test Day": "18249",
+        "Fuel MFC": "0.1",
+        "N2 MFC": "0.2",
+        "Fuel Bottle": "50% C2H7",
+        "Fuel conc. Range": "10%-30%",
+        "Flames ignited": "12",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "flags": [],
+      "links": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-21:cld-flame:27",
+      "kind": "session",
+      "row": 27,
+      "original": {
+        "Test Type": "Ethylene based test",
+        "Test Day": "18253",
+        "Fuel MFC": "0.1",
+        "N2 MFC": "0.2",
+        "Fuel Bottle": "50% C2H8",
+        "Fuel conc. Range": "15%-30%",
+        "Flames ignited": "14",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "flags": [],
+      "links": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-21:cld-flame:28",
+      "kind": "session",
+      "row": 28,
+      "original": {
+        "Test Type": "Ethylene based test",
+        "Test Day": "18257",
+        "Fuel MFC": "0.1",
+        "N2 MFC": "0.2",
+        "Fuel Bottle": "50% C2H9",
+        "Fuel conc. Range": "15%-20%",
+        "Flames ignited": "15",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "flags": [],
+      "links": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-21:cld-flame:29",
+      "kind": "session",
+      "row": 29,
+      "original": {
+        "Test Type": "Improved coflow tests",
+        "Test Day": "21041",
+        "Fuel MFC": "0.2",
+        "N2 MFC": "0.2",
+        "Fuel Bottle": "30% C2H4",
+        "Fuel conc. Range": "0%-30%",
+        "Flames ignited": "9",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "flags": [],
+      "links": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-21:cld-flame:30",
+      "kind": "session",
+      "row": 30,
+      "original": {
+        "Test Type": "Improved coflow tests",
+        "Test Day": "21046",
+        "Fuel MFC": "0.2",
+        "N2 MFC": "0.2",
+        "Fuel Bottle": "30% C2H5",
+        "Fuel conc. Range": "15%-20%",
+        "Flames ignited": "16",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "flags": [],
+      "links": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-21:cld-flame:31",
+      "kind": "session",
+      "row": 31,
+      "original": {
+        "Test Type": "Improved coflow tests",
+        "Test Day": "21050",
+        "Fuel MFC": "0.2",
+        "N2 MFC": "0.2",
+        "Fuel Bottle": "40% CH4",
+        "Fuel conc. Range": "20%-40%",
+        "Flames ignited": "16",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "flags": [],
+      "links": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-21:cld-flame:32",
+      "kind": "session",
+      "row": 32,
+      "original": {
+        "Test Type": "Improved coflow tests",
+        "Test Day": "21062",
+        "Fuel MFC": "0.2",
+        "N2 MFC": "0.2",
+        "Fuel Bottle": "40% CH5",
+        "Fuel conc. Range": "30%-40%",
+        "Flames ignited": "11",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "flags": [],
+      "links": [],
+      "review_status": "not_required"
+    }
+  ]
+}

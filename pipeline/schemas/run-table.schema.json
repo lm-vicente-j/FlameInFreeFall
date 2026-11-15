@@ -22,11 +22,14 @@
     },
     "counts": {
       "type": "object",
-      "required": ["runs", "notes", "empty_rows_skipped"],
+      "required": ["runs", "ranges", "sessions", "notes", "duplicate_rows", "empty_rows_skipped"],
       "additionalProperties": false,
       "properties": {
-        "runs": {"type": "integer", "minimum": 0},
+        "runs": {"type": "integer", "minimum": 0, "description": "Records of kind run, including duplicate rows."},
+        "ranges": {"type": "integer", "minimum": 0},
+        "sessions": {"type": "integer", "minimum": 0},
         "notes": {"type": "integer", "minimum": 0},
+        "duplicate_rows": {"type": "integer", "minimum": 0, "description": "Records flagged duplicate_row; a reader counting distinct tests subtracts these."},
         "empty_rows_skipped": {"type": "integer", "minimum": 0}
       }
     },
@@ -35,7 +38,7 @@
   "$defs": {
     "slug": {"type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"},
     "method": {
-      "description": "parsed: read directly from a cell. mapped: through a reviewed alias dictionary. llm: proposed by a language model and reviewed. manual: entered by a person. unknown: not recorded.",
+      "description": "parsed: read directly from a cell. mapped: through a reviewed alias dictionary. llm: proposed by a language model; review_status is pending until a person approves it, so a consumer must not present a pending llm value as reviewed (rejected proposals are never in a record). manual: entered by a person. unknown: not recorded.",
       "enum": ["parsed", "mapped", "llm", "manual", "unknown"]
     },
     "provenance": {
@@ -47,7 +50,26 @@
         "review_status": {"$ref": "common.schema.json#/$defs/reviewStatus"},
         "quote": {"type": ["string", "null"], "description": "Exact source text an llm or manual value is based on."},
         "note": {"type": ["string", "null"]}
-      }
+      },
+      "allOf": [
+        {
+          "description": "An llm value quotes its source text and is either pending or approved; rejected proposals are not applied and not_required would present it as a plain parse.",
+          "if": {"properties": {"method": {"const": "llm"}}, "required": ["method"]},
+          "then": {
+            "properties": {"quote": {"type": "string", "minLength": 1}, "review_status": {"enum": ["pending", "approved"]}}
+          }
+        },
+        {
+          "description": "A direct parse needs no review.",
+          "if": {"properties": {"method": {"const": "parsed"}}, "required": ["method"]},
+          "then": {"properties": {"review_status": {"const": "not_required"}}}
+        },
+        {
+          "description": "A value mapped through an alias dictionary is pending or approved, never not_required.",
+          "if": {"properties": {"method": {"const": "mapped"}}, "required": ["method"]},
+          "then": {"properties": {"review_status": {"enum": ["pending", "approved"]}}}
+        }
+      ]
     },
     "category": {
       "allOf": [{"$ref": "#/$defs/provenance"}],
@@ -66,7 +88,9 @@
         "min": {"type": ["number", "null"]},
         "max": {"type": ["number", "null"]},
         "unit": {"type": "string"},
-        "qualifier": {"enum": [null, "approximate"]}
+        "qualifier": {"enum": [null, "approximate"]},
+        "initial": {"type": ["number", "null"], "description": "Value at the start of the run, when the source records start and end separately."},
+        "final": {"type": ["number", "null"], "description": "Value at the end of the run, when the source records start and end separately."}
       }
     },
     "conditions": {
@@ -96,13 +120,59 @@
         "result": {"oneOf": [{"$ref": "#/$defs/quantity"}, {"$ref": "#/$defs/category"}]}
       }
     },
+    "flag": {
+      "description": "A data-quality problem in the source row. Flags never change source values; invalid readings are already unknown in conditions.",
+      "type": "object",
+      "required": ["code", "columns", "detail"],
+      "additionalProperties": false,
+      "properties": {
+        "code": {
+          "description": "invalid_reading: physically impossible value. duplicate_row: every cell equals an earlier row (detail names it). references_other_rows: the row defers to other rows, e.g. 'same conditions as 1-4'. inconsistent_values: values in the row contradict each other. suspected_typo: a value that looks mistyped; it is kept as written.",
+          "enum": ["invalid_reading", "duplicate_row", "references_other_rows", "inconsistent_values", "suspected_typo"]
+        },
+        "columns": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+        "detail": {"$ref": "common.schema.json#/$defs/nonEmptyText"}
+      }
+    },
+    "link": {
+      "description": "A source a run can be traced to beyond its table row. ambiguous links are candidates for review and must not be shown as confirmed.",
+      "type": "object",
+      "required": ["target", "basis", "status"],
+      "additionalProperties": false,
+      "properties": {
+        "target": {
+          "oneOf": [
+            {
+              "allOf": [{"$ref": "common.schema.json#/$defs/remoteFile"}],
+              "type": "object",
+              "required": ["kind", "filename"],
+              "unevaluatedProperties": false,
+              "properties": {"kind": {"const": "file"}, "filename": {"type": "string"}}
+            },
+            {
+              "type": "object",
+              "required": ["kind", "passage_id"],
+              "additionalProperties": false,
+              "properties": {"kind": {"const": "passage"}, "passage_id": {"type": "string"}}
+            }
+          ]
+        },
+        "basis": {"$ref": "common.schema.json#/$defs/nonEmptyText", "description": "The identifiers that matched, e.g. 'sample 205 and test O3a in filename'."},
+        "status": {"enum": ["confirmed", "ambiguous"]}
+      }
+    },
     "record": {
       "type": "object",
-      "required": ["id", "kind", "row", "original", "conditions", "outcomes", "review_status"],
+      "required": ["id", "kind", "row", "original", "conditions", "outcomes", "flags", "links", "review_status"],
       "additionalProperties": false,
       "properties": {
         "id": {"type": "string", "pattern": "^PSI-[0-9]+:[a-z0-9]+(-[a-z0-9]+)*:[0-9]+$", "description": "accession:table:row."},
-        "kind": {"enum": ["run", "note"], "description": "note: a source row that annotates other rows instead of describing a run."},
+        "kind": {
+          "enum": ["run", "range", "session", "note"],
+          "description": "run: one test. range: condition ranges shared by several tests (e.g. FLEX-2). session: a summary of a test day or session (e.g. ACME tables). note: annotates other rows. Only kind run counts as an individual test."
+        },
+        "flags": {"type": "array", "items": {"$ref": "#/$defs/flag"}},
+        "links": {"type": "array", "items": {"$ref": "#/$defs/link"}},
         "row": {"type": "integer", "minimum": 1, "description": "1-based data row, counting from the first row after the header."},
         "original": {"type": "object", "additionalProperties": {"type": "string"}, "description": "Every cell of the row, keyed by its exact header."},
         "conditions": {"$ref": "#/$defs/conditions"},

@@ -1,0 +1,282 @@
+[
+  {
+    "record_id": "PSI-26:bass:3",
+    "column": "as run matrix!Air display",
+    "source_text": "10, 3-4"
+  },
+  {
+    "record_id": "PSI-26:bass:6",
+    "column": "as run matrix!Fan display",
+    "source_text": "66 ign, 52 burn"
+  },
+  {
+    "record_id": "PSI-26:bass:7",
+    "column": "as run matrix!Fan display",
+    "source_text": "66 ign, 46 burn"
+  },
+  {
+    "record_id": "PSI-26:bass:7",
+    "column": "as run matrix!Air display",
+    "source_text": "10,2-3"
+  },
+  {
+    "record_id": "PSI-26:bass:8",
+    "column": "as run matrix!Air display",
+    "source_text": "10, 1-2"
+  },
+  {
+    "record_id": "PSI-26:bass:10",
+    "column": "as run matrix!Air display",
+    "source_text": "6, 3-2, 1-0"
+  },
+  {
+    "record_id": "PSI-26:bass:11",
+    "column": "as run matrix!Fan display",
+    "source_text": "42 > 41, max, off"
+  },
+  {
+    "record_id": "PSI-26:bass:11",
+    "column": "as run matrix!Air display",
+    "source_text": "1 , 0.5?, 26?"
+  },
+  {
+    "record_id": "PSI-26:bass:15",
+    "column": "as run matrix!Fan display",
+    "source_text": "61, 40 late"
+  },
+  {
+    "record_id": "PSI-26:bass:18",
+    "column": "as run matrix!Air display",
+    "source_text": "7,  0 (slow)"
+  },
+  {
+    "record_id": "PSI-26:bass:23",
+    "column": "as run matrix!Fan display",
+    "source_text": "49, 41>40.5ish"
+  },
+  {
+    "record_id": "PSI-26:bass:41",
+    "column": "as run matrix!Air display",
+    "source_text": "left vm and resent message"
+  },
+  {
+    "record_id": "PSI-26:bass:47",
+    "column": "as run matrix!Air display",
+    "source_text": "10, etc"
+  },
+  {
+    "record_id": "PSI-26:bass:48",
+    "column": "as run matrix!Air display",
+    "source_text": "7, etc"
+  },
+  {
+    "record_id": "PSI-26:bass:55",
+    "column": "as run matrix!Fan display",
+    "source_text": "51, then max"
+  },
+  {
+    "record_id": "PSI-26:bass:56",
+    "column": "as run matrix!Fan display",
+    "source_text": "51, 71, max"
+  },
+  {
+    "record_id": "PSI-26:bass:61",
+    "column": "as run matrix!Fan display",
+    "source_text": "53, max"
+  },
+  {
+    "record_id": "PSI-26:bass:70",
+    "column": "as run matrix!Fan display",
+    "source_text": "pot 0.53, .45,.4, .35, 0.32 (out)"
+  },
+  {
+    "record_id": "PSI-26:bass:71",
+    "column": "as run matrix!Fan display",
+    "source_text": "pot 0.53, .45,.4, .35, 0.32, 0.31 (out)"
+  },
+  {
+    "record_id": "PSI-26:bass:72",
+    "column": "as run matrix!Fan display",
+    "source_text": "Pot 0.53, 0.45,  incr to 0.55 (did not complete before extinction"
+  },
+  {
+    "record_id": "PSI-26:bass:73",
+    "column": "as run matrix!Fan display",
+    "source_text": "0.53, 0.45, 0.4, 0.35, 0.33, 0.32, 0.31 (extinguished)"
+  },
+  {
+    "record_id": "PSI-26:bass:75",
+    "column": "as run matrix!Fan display",
+    "source_text": "0.53, 0.40, 0.35, 0.31 (out)"
+  },
+  {
+    "record_id": "PSI-26:bass:76",
+    "column": "as run matrix!Fan display",
+    "source_text": "0.53, 0.4, 0.35, 0.32, 0.31, off (out)"
+  },
+  {
+    "record_id": "PSI-26:bass:77",
+    "column": "as run matrix!Air display",
+    "source_text": "1-0"
+  },
+  {
+    "record_id": "PSI-26:bass:83",
+    "column": "as run matrix!Fan display",
+    "source_text": "68, 51,  slowly to zero"
+  },
+  {
+    "record_id": "PSI-26:bass:87",
+    "column": "as run matrix!Fan display",
+    "source_text": "62, 0.4, 0.38, 0.32 pot"
+  },
+  {
+    "record_id": "PSI-26:bass:87",
+    "column": "as run matrix!Air display",
+    "source_text": "8, <1 flow"
+  },
+  {
+    "record_id": "PSI-26:bass:88",
+    "column": "as run matrix!Fan display",
+    "source_text": "62,  98, 62, 42, off"
+  },
+  {
+    "record_id": "PSI-26:bass:91",
+    "column": "as run matrix!Air display",
+    "source_text": "3,?, 0"
+  },
+  {
+    "record_id": "PSI-26:bass:92",
+    "column": "as run matrix!Fan display",
+    "source_text": " ign at 62, then pots:  0.5, 0.45, 0.40, 0.39, 0.33"
+  },
+  {
+    "record_id": "PSI-26:bass:93",
+    "column": "as run matrix!Fan display",
+    "source_text": "62, pot 0.4, 0.35, , off"
+  },
+  {
+    "record_id": "PSI-26:bass:94",
+    "column": "as run matrix!Fan display",
+    "source_text": "52, pot 0.4, 0.35 "
+  },
+  {
+    "record_id": "PSI-26:bass:97",
+    "column": "as run matrix!Air display",
+    "source_text": "5,2,1, <1"
+  },
+  {
+    "record_id": "PSI-26:bass:98",
+    "column": "as run matrix!Air display",
+    "source_text": "5,1, <1"
+  },
+  {
+    "record_id": "PSI-26:bass:104",
+    "column": "as run matrix!Fan display",
+    "source_text": "pot 3, 1, 0.32"
+  },
+  {
+    "record_id": "PSI-26:bass:104",
+    "column": "as run matrix!Air display",
+    "source_text": "8,4,<1"
+  },
+  {
+    "record_id": "PSI-26:bass:105",
+    "column": "as run matrix!Fan display",
+    "source_text": "pot 3, pot 0.67, 0.33, 0.3, 0"
+  },
+  {
+    "record_id": "PSI-26:bass:105",
+    "column": "as run matrix!Air display",
+    "source_text": "8, 2, <1"
+  },
+  {
+    "record_id": "PSI-26:bass:106",
+    "column": "as run matrix!Fan display",
+    "source_text": "51, pots 0.5, 0.4, 0.35, 0.33, 0.32"
+  },
+  {
+    "record_id": "PSI-26:bass:106",
+    "column": "as run matrix!Air display",
+    "source_text": "5, 2, 1.5, etc"
+  },
+  {
+    "record_id": "PSI-26:bass:107",
+    "column": "as run matrix!Fan display",
+    "source_text": "pot 1.5 ign, 3.5"
+  },
+  {
+    "record_id": "PSI-26:bass:108",
+    "column": "as run matrix!Fan display",
+    "source_text": "Pots 1.5, 1 0.5, 0.4"
+  },
+  {
+    "record_id": "PSI-26:bass:108",
+    "column": "as run matrix!Air display",
+    "source_text": "5,3, 2, etc"
+  },
+  {
+    "record_id": "PSI-26:bass:109",
+    "column": "as run matrix!Fan display",
+    "source_text": "Pots 1.5, 1 0.5, 0.4"
+  },
+  {
+    "record_id": "PSI-26:bass:112",
+    "column": "as run matrix!Fan display",
+    "source_text": "pots 3.4 for ign, 1.5, then 0.5"
+  },
+  {
+    "record_id": "PSI-26:bass:113",
+    "column": "as run matrix!Fan display",
+    "source_text": "pot 3.4"
+  },
+  {
+    "record_id": "PSI-26:bass:114",
+    "column": "as run matrix!Fan display",
+    "source_text": "pots 4.0, 2.6, 0.5, 0"
+  },
+  {
+    "record_id": "PSI-26:bass:114",
+    "column": "as run matrix!Air display",
+    "source_text": "10, 7, <1"
+  },
+  {
+    "record_id": "PSI-26:bass:115",
+    "column": "as run matrix!Fan display",
+    "source_text": "pots 4.0, 1.0, 0.4, 0"
+  },
+  {
+    "record_id": "PSI-26:bass:116",
+    "column": "as run matrix!Fan display",
+    "source_text": "pots 4.0, 2.6, 0.35, 0.29"
+  },
+  {
+    "record_id": "PSI-26:bass:117",
+    "column": "as run matrix!Fan display",
+    "source_text": "pots, 4.0, 1.0, 0.4, 0.35, then oscillating high low for a few times.  Then turn down until it goes out, very slowly."
+  },
+  {
+    "record_id": "PSI-26:bass:118",
+    "column": "as run matrix!Fan display",
+    "source_text": "pot 3.4"
+  },
+  {
+    "record_id": "PSI-26:bass:119",
+    "column": "as run matrix!Fan display",
+    "source_text": "pot 3.4"
+  },
+  {
+    "record_id": "PSI-26:bass:120",
+    "column": "as run matrix!Fan display",
+    "source_text": "pot 3.4"
+  },
+  {
+    "record_id": "PSI-26:bass:121",
+    "column": "as run matrix!Fan display",
+    "source_text": " pot 3, then variable"
+  },
+  {
+    "record_id": "PSI-26:bass:122",
+    "column": "as run matrix!Fan display",
+    "source_text": "pot 3 then variable"
+  }
+]

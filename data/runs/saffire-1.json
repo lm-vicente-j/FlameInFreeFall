@@ -1,0 +1,952 @@
+{
+  "table": "saffire-1",
+  "investigation": "PSI-98",
+  "source": {
+    "filename": "PSI-98_Experimental table_SAFFIRE-1.csv",
+    "sha256": "c01f29c62455f0a3b512290ab85e5687ecded326733189f002f580368402308d",
+    "encoding": "utf-8",
+    "columns": [
+      "Sample Number ",
+      "Material",
+      "Sample Thickness (cm)",
+      "Sample Length (cm)",
+      "Sample Width (cm)",
+      "Air Flow (cm/s)",
+      "Percent O2",
+      "Ignition Power (W)",
+      "Ignition Time (s)",
+      "Burn Time (s)",
+      "Flow Direction ",
+      "Camera 1",
+      "Camera 2"
+    ]
+  },
+  "counts": {
+    "runs": 2,
+    "ranges": 0,
+    "sessions": 0,
+    "notes": 2,
+    "duplicate_rows": 0,
+    "empty_rows_skipped": 0
+  },
+  "records": [
+    {
+      "id": "PSI-98:saffire-1:1",
+      "kind": "run",
+      "row": 1,
+      "original": {
+        "Sample Number ": "S1",
+        "Material": "SIBAL Fabric",
+        "Sample Thickness (cm)": "0.37",
+        "Sample Length (cm)": "40.6",
+        "Sample Width (cm)": "94",
+        "Air Flow (cm/s)": "20",
+        "Percent O2": "21.5 - 21.7",
+        "Ignition Power (W)": "182",
+        "Ignition Time (s)": "8",
+        "Burn Time (s)": "420",
+        "Flow Direction ": "Concurrent",
+        "Camera 1": "S1C1",
+        "Camera 2": "S1C2"
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": "solid",
+          "method": "manual",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "Investigation-level constant: Saffire burns solid fuel samples"
+        },
+        "material": {
+          "value": "cotton-fiberglass fabric (sibal)",
+          "method": "mapped",
+          "columns": [
+            "Material"
+          ],
+          "review_status": "pending",
+          "quote": "SIBAL Fabric",
+          "note": "alias proposed by llm; not yet reviewed"
+        },
+        "geometry": {
+          "value": "sheet",
+          "method": "manual",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "Investigation-level constant: Saffire burns flat sheet and fabric samples"
+        },
+        "o2_percent": {
+          "min": 21.5,
+          "max": 21.7,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "parsed",
+          "columns": [
+            "Percent O2"
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": null
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table has no pressure column"
+        },
+        "flow_cm_s": {
+          "min": 20.0,
+          "max": 20.0,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "parsed",
+          "columns": [
+            "Air Flow (cm/s)"
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "unit taken from the column header"
+        },
+        "flow_direction": {
+          "value": "concurrent",
+          "method": "parsed",
+          "columns": [
+            "Flow Direction "
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": null
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table has no diluent column"
+        }
+      },
+      "outcomes": [
+        {
+          "type": "burn_time",
+          "gravity": "microgravity",
+          "result": {
+            "min": 420.0,
+            "max": 420.0,
+            "unit": "s",
+            "qualifier": null,
+            "method": "parsed",
+            "columns": [
+              "Burn Time (s)"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": "unit taken from the column header"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-98",
+            "file_id": "683f4a56746db1c87dcebed3",
+            "key": "psi-data/PSI-98/Raw Data/PSI-98_Raw Data_SAFFIRE_I_S1C1_JPEG_Mapped_part1.zip",
+            "version": 1,
+            "filename": "PSI-98_Raw Data_SAFFIRE_I_S1C1_JPEG_Mapped_part1.zip"
+          },
+          "basis": "Camera 1 S1C1 matches \"S1C1\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-98",
+            "file_id": "683f4a56746db1c87dcebed4",
+            "key": "psi-data/PSI-98/Raw Data/PSI-98_Raw Data_SAFFIRE_I_S1C1_JPEG_Mapped_part2.zip",
+            "version": 1,
+            "filename": "PSI-98_Raw Data_SAFFIRE_I_S1C1_JPEG_Mapped_part2.zip"
+          },
+          "basis": "Camera 1 S1C1 matches \"S1C1\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-98",
+            "file_id": "683f4a56746db1c87dcebed5",
+            "key": "psi-data/PSI-98/Raw Data/PSI-98_Raw Data_SAFFIRE_I_S1C1_JPEG_Mapped_part3.zip",
+            "version": 1,
+            "filename": "PSI-98_Raw Data_SAFFIRE_I_S1C1_JPEG_Mapped_part3.zip"
+          },
+          "basis": "Camera 1 S1C1 matches \"S1C1\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-98",
+            "file_id": "683f4a54746db1c87dcebec0",
+            "key": "psi-data/PSI-98/Raw Data/PSI-98_Raw Data_SAFFIRE_I_S1C1_Raw2TIFF_Complete.zip",
+            "version": 1,
+            "filename": "PSI-98_Raw Data_SAFFIRE_I_S1C1_Raw2TIFF_Complete.zip"
+          },
+          "basis": "Camera 1 S1C1 matches \"S1C1\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-98",
+            "file_id": "683f4a54746db1c87dcebec2",
+            "key": "psi-data/PSI-98/Raw Data/PSI-98_Raw Data_SAFFIRE_I_S1C1_Raw2TIFF_Mapped_JPEGS.zip",
+            "version": 1,
+            "filename": "PSI-98_Raw Data_SAFFIRE_I_S1C1_Raw2TIFF_Mapped_JPEGS.zip"
+          },
+          "basis": "Camera 1 S1C1 matches \"S1C1\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-98",
+            "file_id": "683f4a54746db1c87dcebebf",
+            "key": "psi-data/PSI-98/Raw Data/PSI-98_Raw Data_SAFFIRE_I_S1C1_Raw_DistroMaster.zip",
+            "version": 1,
+            "filename": "PSI-98_Raw Data_SAFFIRE_I_S1C1_Raw_DistroMaster.zip"
+          },
+          "basis": "Camera 1 S1C1 matches \"S1C1\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-98",
+            "file_id": "683f4a56746db1c87dcebed8",
+            "key": "psi-data/PSI-98/Raw Data/PSI-98_Raw Data_SAFFIRE_I_S1C1_jpeg2png_icmad_part1.zip",
+            "version": 1,
+            "filename": "PSI-98_Raw Data_SAFFIRE_I_S1C1_jpeg2png_icmad_part1.zip"
+          },
+          "basis": "Camera 1 S1C1 matches \"S1C1\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-98",
+            "file_id": "683f4a56746db1c87dcebed6",
+            "key": "psi-data/PSI-98/Raw Data/PSI-98_Raw Data_SAFFIRE_I_S1C1_jpeg2png_icmad_part2.zip",
+            "version": 1,
+            "filename": "PSI-98_Raw Data_SAFFIRE_I_S1C1_jpeg2png_icmad_part2.zip"
+          },
+          "basis": "Camera 1 S1C1 matches \"S1C1\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-98",
+            "file_id": "683f4a56746db1c87dcebed7",
+            "key": "psi-data/PSI-98/Raw Data/PSI-98_Raw Data_SAFFIRE_I_S1C1_jpeg2png_icmad_part3.zip",
+            "version": 1,
+            "filename": "PSI-98_Raw Data_SAFFIRE_I_S1C1_jpeg2png_icmad_part3.zip"
+          },
+          "basis": "Camera 1 S1C1 matches \"S1C1\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-98",
+            "file_id": "683f4a55746db1c87dcebed2",
+            "key": "psi-data/PSI-98/Raw Data/PSI-98_Raw Data_SAFFIRE_I_S1C1_jpeg_part1.zip",
+            "version": 1,
+            "filename": "PSI-98_Raw Data_SAFFIRE_I_S1C1_jpeg_part1.zip"
+          },
+          "basis": "Camera 1 S1C1 matches \"S1C1\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-98",
+            "file_id": "683f4a55746db1c87dcebed1",
+            "key": "psi-data/PSI-98/Raw Data/PSI-98_Raw Data_SAFFIRE_I_S1C1_jpeg_part2.zip",
+            "version": 1,
+            "filename": "PSI-98_Raw Data_SAFFIRE_I_S1C1_jpeg_part2.zip"
+          },
+          "basis": "Camera 1 S1C1 matches \"S1C1\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-98",
+            "file_id": "683f4a55746db1c87dcebed0",
+            "key": "psi-data/PSI-98/Raw Data/PSI-98_Raw Data_SAFFIRE_I_S1C1_jpeg_part3.zip",
+            "version": 1,
+            "filename": "PSI-98_Raw Data_SAFFIRE_I_S1C1_jpeg_part3.zip"
+          },
+          "basis": "Camera 1 S1C1 matches \"S1C1\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-98",
+            "file_id": "683f4a57746db1c87dcebede",
+            "key": "psi-data/PSI-98/Raw Data/PSI-98_Raw Data_SAFFIRE_I_S1C2_JPEG_Mapped_Part1.zip",
+            "version": 1,
+            "filename": "PSI-98_Raw Data_SAFFIRE_I_S1C2_JPEG_Mapped_Part1.zip"
+          },
+          "basis": "Camera 2 S1C2 matches \"S1C2\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-98",
+            "file_id": "683f4a57746db1c87dcebedf",
+            "key": "psi-data/PSI-98/Raw Data/PSI-98_Raw Data_SAFFIRE_I_S1C2_JPEG_Mapped_part2.zip",
+            "version": 1,
+            "filename": "PSI-98_Raw Data_SAFFIRE_I_S1C2_JPEG_Mapped_part2.zip"
+          },
+          "basis": "Camera 2 S1C2 matches \"S1C2\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-98",
+            "file_id": "683f4a56746db1c87dcebedc",
+            "key": "psi-data/PSI-98/Raw Data/PSI-98_Raw Data_SAFFIRE_I_S1C2_JPEG_Mapped_part3.zip",
+            "version": 1,
+            "filename": "PSI-98_Raw Data_SAFFIRE_I_S1C2_JPEG_Mapped_part3.zip"
+          },
+          "basis": "Camera 2 S1C2 matches \"S1C2\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-98",
+            "file_id": "683f4a56746db1c87dcebedd",
+            "key": "psi-data/PSI-98/Raw Data/PSI-98_Raw Data_SAFFIRE_I_S1C2_JPEG_Mapped_part4.zip",
+            "version": 1,
+            "filename": "PSI-98_Raw Data_SAFFIRE_I_S1C2_JPEG_Mapped_part4.zip"
+          },
+          "basis": "Camera 2 S1C2 matches \"S1C2\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-98",
+            "file_id": "683f4a54746db1c87dcebec5",
+            "key": "psi-data/PSI-98/Raw Data/PSI-98_Raw Data_SAFFIRE_I_S1C2_RAW2TIFF_Complete_icmad.zip",
+            "version": 1,
+            "filename": "PSI-98_Raw Data_SAFFIRE_I_S1C2_RAW2TIFF_Complete_icmad.zip"
+          },
+          "basis": "Camera 2 S1C2 matches \"S1C2\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-98",
+            "file_id": "683f4a54746db1c87dcebec4",
+            "key": "psi-data/PSI-98/Raw Data/PSI-98_Raw Data_SAFFIRE_I_S1C2_Raw2TIFF_Complete.zip",
+            "version": 1,
+            "filename": "PSI-98_Raw Data_SAFFIRE_I_S1C2_Raw2TIFF_Complete.zip"
+          },
+          "basis": "Camera 2 S1C2 matches \"S1C2\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-98",
+            "file_id": "683f4a57746db1c87dcebee0",
+            "key": "psi-data/PSI-98/Raw Data/PSI-98_Raw Data_SAFFIRE_I_S1C2_jpeg2png_icmad_part1.zip",
+            "version": 1,
+            "filename": "PSI-98_Raw Data_SAFFIRE_I_S1C2_jpeg2png_icmad_part1.zip"
+          },
+          "basis": "Camera 2 S1C2 matches \"S1C2\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-98",
+            "file_id": "683f4a57746db1c87dcebee2",
+            "key": "psi-data/PSI-98/Raw Data/PSI-98_Raw Data_SAFFIRE_I_S1C2_jpeg2png_icmad_part2.zip",
+            "version": 1,
+            "filename": "PSI-98_Raw Data_SAFFIRE_I_S1C2_jpeg2png_icmad_part2.zip"
+          },
+          "basis": "Camera 2 S1C2 matches \"S1C2\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-98",
+            "file_id": "683f4a57746db1c87dcebee1",
+            "key": "psi-data/PSI-98/Raw Data/PSI-98_Raw Data_SAFFIRE_I_S1C2_jpeg2png_icmad_part3.zip",
+            "version": 1,
+            "filename": "PSI-98_Raw Data_SAFFIRE_I_S1C2_jpeg2png_icmad_part3.zip"
+          },
+          "basis": "Camera 2 S1C2 matches \"S1C2\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-98",
+            "file_id": "683f4a56746db1c87dcebed9",
+            "key": "psi-data/PSI-98/Raw Data/PSI-98_Raw Data_SAFFIRE_I_S1C2_jpeg_part1.zip",
+            "version": 1,
+            "filename": "PSI-98_Raw Data_SAFFIRE_I_S1C2_jpeg_part1.zip"
+          },
+          "basis": "Camera 2 S1C2 matches \"S1C2\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-98",
+            "file_id": "683f4a56746db1c87dcebeda",
+            "key": "psi-data/PSI-98/Raw Data/PSI-98_Raw Data_SAFFIRE_I_S1C2_jpeg_part2.zip",
+            "version": 1,
+            "filename": "PSI-98_Raw Data_SAFFIRE_I_S1C2_jpeg_part2.zip"
+          },
+          "basis": "Camera 2 S1C2 matches \"S1C2\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-98",
+            "file_id": "683f4a56746db1c87dcebedb",
+            "key": "psi-data/PSI-98/Raw Data/PSI-98_Raw Data_SAFFIRE_I_S1C2_jpeg_part3.zip",
+            "version": 1,
+            "filename": "PSI-98_Raw Data_SAFFIRE_I_S1C2_jpeg_part3.zip"
+          },
+          "basis": "Camera 2 S1C2 matches \"S1C2\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-98",
+            "file_id": "683f4a54746db1c87dcebec6",
+            "key": "psi-data/PSI-98/Raw Data/PSI-98_Raw Data_SAFFIRE_S1C2_RAW2TIFF_Mapped_JPEGS.zip",
+            "version": 1,
+            "filename": "PSI-98_Raw Data_SAFFIRE_S1C2_RAW2TIFF_Mapped_JPEGS.zip"
+          },
+          "basis": "Camera 2 S1C2 matches \"S1C2\" in the file name",
+          "status": "confirmed"
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "PSI-98:saffire-1:2",
+      "kind": "run",
+      "row": 2,
+      "original": {
+        "Sample Number ": "S2",
+        "Material": "SIBAL Fabric",
+        "Sample Thickness (cm)": "0.37",
+        "Sample Length (cm)": "40.6",
+        "Sample Width (cm)": "94",
+        "Air Flow (cm/s)": "20",
+        "Percent O2": "~ 21.5",
+        "Ignition Power (W)": "182",
+        "Ignition Time (s)": "8",
+        "Burn Time (s)": "70",
+        "Flow Direction ": "Opposed",
+        "Camera 1": "S2C1",
+        "Camera 2": "S2C2"
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": "solid",
+          "method": "manual",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "Investigation-level constant: Saffire burns solid fuel samples"
+        },
+        "material": {
+          "value": "cotton-fiberglass fabric (sibal)",
+          "method": "mapped",
+          "columns": [
+            "Material"
+          ],
+          "review_status": "pending",
+          "quote": "SIBAL Fabric",
+          "note": "alias proposed by llm; not yet reviewed"
+        },
+        "geometry": {
+          "value": "sheet",
+          "method": "manual",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "Investigation-level constant: Saffire burns flat sheet and fabric samples"
+        },
+        "o2_percent": {
+          "min": 21.5,
+          "max": 21.5,
+          "unit": "percent",
+          "qualifier": "approximate",
+          "method": "parsed",
+          "columns": [
+            "Percent O2"
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": null
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table has no pressure column"
+        },
+        "flow_cm_s": {
+          "min": 20.0,
+          "max": 20.0,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "parsed",
+          "columns": [
+            "Air Flow (cm/s)"
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "unit taken from the column header"
+        },
+        "flow_direction": {
+          "value": "opposed",
+          "method": "parsed",
+          "columns": [
+            "Flow Direction "
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": null
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table has no diluent column"
+        }
+      },
+      "outcomes": [
+        {
+          "type": "burn_time",
+          "gravity": "microgravity",
+          "result": {
+            "min": 70.0,
+            "max": 70.0,
+            "unit": "s",
+            "qualifier": null,
+            "method": "parsed",
+            "columns": [
+              "Burn Time (s)"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": "unit taken from the column header"
+          }
+        }
+      ],
+      "flags": [],
+      "links": [
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-98",
+            "file_id": "683f4a55746db1c87dcebec9",
+            "key": "psi-data/PSI-98/Raw Data/PSI-98_Raw Data_S2C1-1465938171811_icmad.zip",
+            "version": 1,
+            "filename": "PSI-98_Raw Data_S2C1-1465938171811_icmad.zip"
+          },
+          "basis": "Camera 1 S2C1 matches \"S2C1\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-98",
+            "file_id": "683f4a57746db1c87dcebee3",
+            "key": "psi-data/PSI-98/Raw Data/PSI-98_Raw Data_SAFFIRE_I_S2C1_JPEG_Mapped.zip",
+            "version": 1,
+            "filename": "PSI-98_Raw Data_SAFFIRE_I_S2C1_JPEG_Mapped.zip"
+          },
+          "basis": "Camera 1 S2C1 matches \"S2C1\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-98",
+            "file_id": "683f4a55746db1c87dcebeca",
+            "key": "psi-data/PSI-98/Raw Data/PSI-98_Raw Data_SAFFIRE_I_S2C1_Raw2TIFF_Complete_JPEGS.zip",
+            "version": 1,
+            "filename": "PSI-98_Raw Data_SAFFIRE_I_S2C1_Raw2TIFF_Complete_JPEGS.zip"
+          },
+          "basis": "Camera 1 S2C1 matches \"S2C1\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-98",
+            "file_id": "683f4a55746db1c87dcebecb",
+            "key": "psi-data/PSI-98/Raw Data/PSI-98_Raw Data_SAFFIRE_I_S2C1_Raw2TIFF_Mapped_JPEGS.zip",
+            "version": 1,
+            "filename": "PSI-98_Raw Data_SAFFIRE_I_S2C1_Raw2TIFF_Mapped_JPEGS.zip"
+          },
+          "basis": "Camera 1 S2C1 matches \"S2C1\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-98",
+            "file_id": "683f4a55746db1c87dcebec8",
+            "key": "psi-data/PSI-98/Raw Data/PSI-98_Raw Data_SAFFIRE_I_S2C1_Raw_DistroMaster.zip",
+            "version": 1,
+            "filename": "PSI-98_Raw Data_SAFFIRE_I_S2C1_Raw_DistroMaster.zip"
+          },
+          "basis": "Camera 1 S2C1 matches \"S2C1\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-98",
+            "file_id": "683f4a54746db1c87dcebec7",
+            "key": "psi-data/PSI-98/Raw Data/PSI-98_Raw Data_SAFFIRE_I_S2C1_jpeg.zip",
+            "version": 1,
+            "filename": "PSI-98_Raw Data_SAFFIRE_I_S2C1_jpeg.zip"
+          },
+          "basis": "Camera 1 S2C1 matches \"S2C1\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-98",
+            "file_id": "683f4a57746db1c87dcebee4",
+            "key": "psi-data/PSI-98/Raw Data/PSI-98_Raw Data_SAFFIRE_I_S2C1_jpeg2png_icmad.zip",
+            "version": 1,
+            "filename": "PSI-98_Raw Data_SAFFIRE_I_S2C1_jpeg2png_icmad.zip"
+          },
+          "basis": "Camera 1 S2C1 matches \"S2C1\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-98",
+            "file_id": "683f4a57746db1c87dcebee6",
+            "key": "psi-data/PSI-98/Raw Data/PSI-98_Raw Data_SAFFIRE_I_S2C2_JPEG_Mapped.zip",
+            "version": 1,
+            "filename": "PSI-98_Raw Data_SAFFIRE_I_S2C2_JPEG_Mapped.zip"
+          },
+          "basis": "Camera 2 S2C2 matches \"S2C2\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-98",
+            "file_id": "683f4a55746db1c87dcebece",
+            "key": "psi-data/PSI-98/Raw Data/PSI-98_Raw Data_SAFFIRE_I_S2C2_Raw2TIFF_Complete.zip",
+            "version": 1,
+            "filename": "PSI-98_Raw Data_SAFFIRE_I_S2C2_Raw2TIFF_Complete.zip"
+          },
+          "basis": "Camera 2 S2C2 matches \"S2C2\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-98",
+            "file_id": "683f4a55746db1c87dcebecd",
+            "key": "psi-data/PSI-98/Raw Data/PSI-98_Raw Data_SAFFIRE_I_S2C2_Raw2TIFF_Complete_icmad.zip",
+            "version": 1,
+            "filename": "PSI-98_Raw Data_SAFFIRE_I_S2C2_Raw2TIFF_Complete_icmad.zip"
+          },
+          "basis": "Camera 2 S2C2 matches \"S2C2\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-98",
+            "file_id": "683f4a55746db1c87dcebecf",
+            "key": "psi-data/PSI-98/Raw Data/PSI-98_Raw Data_SAFFIRE_I_S2C2_Raw2TIFF_Mapped.zip",
+            "version": 1,
+            "filename": "PSI-98_Raw Data_SAFFIRE_I_S2C2_Raw2TIFF_Mapped.zip"
+          },
+          "basis": "Camera 2 S2C2 matches \"S2C2\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-98",
+            "file_id": "683f4a55746db1c87dcebecc",
+            "key": "psi-data/PSI-98/Raw Data/PSI-98_Raw Data_SAFFIRE_I_S2C2_Raw_DistroMaster.zip",
+            "version": 1,
+            "filename": "PSI-98_Raw Data_SAFFIRE_I_S2C2_Raw_DistroMaster.zip"
+          },
+          "basis": "Camera 2 S2C2 matches \"S2C2\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-98",
+            "file_id": "683f4a57746db1c87dcebee5",
+            "key": "psi-data/PSI-98/Raw Data/PSI-98_Raw Data_SAFFIRE_I_S2C2_jpeg.zip",
+            "version": 1,
+            "filename": "PSI-98_Raw Data_SAFFIRE_I_S2C2_jpeg.zip"
+          },
+          "basis": "Camera 2 S2C2 matches \"S2C2\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-98",
+            "file_id": "683f4a57746db1c87dcebee7",
+            "key": "psi-data/PSI-98/Raw Data/PSI-98_Raw Data_SAFFIRE_I_S2C2_jpeg2png_icmad.zip",
+            "version": 1,
+            "filename": "PSI-98_Raw Data_SAFFIRE_I_S2C2_jpeg2png_icmad.zip"
+          },
+          "basis": "Camera 2 S2C2 matches \"S2C2\" in the file name",
+          "status": "confirmed"
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "PSI-98:saffire-1:3",
+      "kind": "note",
+      "row": 3,
+      "original": {
+        "Sample Number ": "F1C1/F1C2",
+        "Material": "Pre-test flow visulation data for sample 1",
+        "Sample Thickness (cm)": "",
+        "Sample Length (cm)": "",
+        "Sample Width (cm)": "",
+        "Air Flow (cm/s)": "",
+        "Percent O2": "",
+        "Ignition Power (W)": "",
+        "Ignition Time (s)": "",
+        "Burn Time (s)": "",
+        "Flow Direction ": "",
+        "Camera 1": "",
+        "Camera 2": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "pre-test flow visualization reference row, not a run"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "pre-test flow visualization reference row, not a run"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "pre-test flow visualization reference row, not a run"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "pre-test flow visualization reference row, not a run"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "pre-test flow visualization reference row, not a run"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "pre-test flow visualization reference row, not a run"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "pre-test flow visualization reference row, not a run"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "pre-test flow visualization reference row, not a run"
+        }
+      },
+      "outcomes": [],
+      "flags": [],
+      "links": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-98:saffire-1:4",
+      "kind": "note",
+      "row": 4,
+      "original": {
+        "Sample Number ": "F2C1/F2C2",
+        "Material": "Pre-test flow visulation data for sample 2",
+        "Sample Thickness (cm)": "",
+        "Sample Length (cm)": "",
+        "Sample Width (cm)": "",
+        "Air Flow (cm/s)": "",
+        "Percent O2": "",
+        "Ignition Power (W)": "",
+        "Ignition Time (s)": "",
+        "Burn Time (s)": "",
+        "Flow Direction ": "",
+        "Camera 1": "",
+        "Camera 2": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "pre-test flow visualization reference row, not a run"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "pre-test flow visualization reference row, not a run"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "pre-test flow visualization reference row, not a run"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "pre-test flow visualization reference row, not a run"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "pre-test flow visualization reference row, not a run"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "pre-test flow visualization reference row, not a run"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "pre-test flow visualization reference row, not a run"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "pre-test flow visualization reference row, not a run"
+        }
+      },
+      "outcomes": [],
+      "flags": [],
+      "links": [],
+      "review_status": "not_required"
+    }
+  ]
+}

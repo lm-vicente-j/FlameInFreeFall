@@ -1,0 +1,1079 @@
+{
+  "table": "slice",
+  "investigation": "PSI-106",
+  "source": {
+    "filename": "PSI-106_Experimental table_Slice.csv",
+    "sha256": "89ef980810ca6d9aa8be817b42e36cd2adff23f5e9058361b5a33d18b4363f4d",
+    "encoding": "utf-8",
+    "columns": [
+      "Test Date",
+      "Fuel Type"
+    ]
+  },
+  "counts": {
+    "runs": 0,
+    "ranges": 0,
+    "sessions": 12,
+    "notes": 0,
+    "duplicate_rows": 0,
+    "empty_rows_skipped": 0
+  },
+  "records": [
+    {
+      "id": "PSI-106:slice:1",
+      "kind": "session",
+      "row": 1,
+      "original": {
+        "Test Date": "2012-FEB-09",
+        "Fuel Type": "100% CH4"
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "flags": [],
+      "links": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-106:slice:2",
+      "kind": "session",
+      "row": 2,
+      "original": {
+        "Test Date": "2012-FEB-13 SLICE testing with ",
+        "Fuel Type": "40% CH4 (balance N2) including 2 pyrometry calibration tests and 2 fan calibrations"
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "flags": [],
+      "links": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-106:slice:3",
+      "kind": "session",
+      "row": 3,
+      "original": {
+        "Test Date": "2012-FEB-17",
+        "Fuel Type": "70% CH4 (balance N2) including 1 pyrometry calibration test"
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "flags": [],
+      "links": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-106:slice:4",
+      "kind": "session",
+      "row": 4,
+      "original": {
+        "Test Date": "2012-FEB-20 ",
+        "Fuel Type": "20% C2H4 (balance N2)"
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "flags": [],
+      "links": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-106:slice:5",
+      "kind": "session",
+      "row": 5,
+      "original": {
+        "Test Date": "2012-FEB-27 ",
+        "Fuel Type": "100% CH4"
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "flags": [],
+      "links": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-106:slice:6",
+      "kind": "session",
+      "row": 6,
+      "original": {
+        "Test Date": "2012-MAR-01",
+        "Fuel Type": "40% CH4 (balance N2)"
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "flags": [],
+      "links": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-106:slice:7",
+      "kind": "session",
+      "row": 7,
+      "original": {
+        "Test Date": "2012-MAR-05 SLICE testing with ",
+        "Fuel Type": "70% CH4 (balance N2) where the fuel bottle was not emptied (in contrast to most days)"
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "flags": [],
+      "links": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-106:slice:8",
+      "kind": "session",
+      "row": 8,
+      "original": {
+        "Test Date": "2012-MAR-09  ",
+        "Fuel Type": "100% C2H6"
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "flags": [],
+      "links": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-106:slice:9",
+      "kind": "session",
+      "row": 9,
+      "original": {
+        "Test Date": "2012-MAR-12 ",
+        "Fuel Type": " 100% CH4"
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "flags": [],
+      "links": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-106:slice:10",
+      "kind": "session",
+      "row": 10,
+      "original": {
+        "Test Date": "2012-MAR-15 ",
+        "Fuel Type": " 20% C2H4 (balance N2)"
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "flags": [],
+      "links": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-106:slice:11",
+      "kind": "session",
+      "row": 11,
+      "original": {
+        "Test Date": "2012-MAR-19 SLICE testing with ",
+        "Fuel Type": "70% CH4 (balance N2) including 1 pyrometry calibration test and 2 fan calibrations"
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "flags": [],
+      "links": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-106:slice:12",
+      "kind": "session",
+      "row": 12,
+      "original": {
+        "Test Date": "2012-MAR-23 Last day of testing: SPICE testing with 100% C3H8 and then 100%",
+        "Fuel Type": "100% C2H4"
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "flags": [],
+      "links": [],
+      "review_status": "not_required"
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "table": "daft",
+  "investigation": "PSI-47",
+  "source": {
+    "filename": "PSI-47_Experimental table_DAFT.csv",
+    "sha256": "d9d1a436c6e7bbc410b433e04575fe7dedaff763b5237d688089929b7393b5c0",
+    "encoding": "utf-8",
+    "columns": [
+      "Session Name",
+      "Actual Day",
+      "Hardware Description",
+      "Sample Material",
+      "Sampled Location"
+    ]
+  },
+  "counts": {
+    "runs": 0,
+    "ranges": 0,
+    "sessions": 2,
+    "notes": 0,
+    "duplicate_rows": 0,
+    "empty_rows_skipped": 0
+  },
+  "records": [
+    {
+      "id": "PSI-47:daft:1",
+      "kind": "session",
+      "row": 1,
+      "original": {
+        "Session Name": "D1",
+        "Actual Day": "GMT 54 (2005)",
+        "Hardware Description": "Contained the modified P-Trak with Alcohol Wick and batteries",
+        "Sample Material": "Arizona Road Dust (ARD Fine) in combination with ISS GN2 to create an aerosol for measurement purposes.",
+        "Sampled Location": "Sampled air near Express rack 4"
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "flags": [],
+      "links": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-47:daft:2",
+      "kind": "session",
+      "row": 2,
+      "original": {
+        "Session Name": "D2",
+        "Actual Day": "GMT 63 (2005)",
+        "Hardware Description": "Contained DustTrak and batteries",
+        "Sample Material": "Arizona Road Dust (ARD Fine) in combination with ISS GN2 to create an aerosol for measurement purposes.",
+        "Sampled Location": "Sampled separated Velcro and the air near Port rack 6 and in Node 1"
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "flags": [],
+      "links": [],
+      "review_status": "not_required"
+    }
+  ]
+}

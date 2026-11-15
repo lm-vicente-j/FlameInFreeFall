@@ -1,0 +1,2705 @@
+{
+  "name": "bass-ii-flow-text",
+  "task": "Propose structured values from free-text flow cells for human review: air display readings (min and max of the stated settings, only when both ends are stated) from Air display cells, fan display readings from Fan display cells, and extinction or blowoff outcomes when the cell states them, each with an exact quote and nothing inferred from other rows, calibration data or general knowledge.",
+  "source": {
+    "filename": "PSI-25_Experimental table_BASS-II.csv",
+    "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+    "sheet": null,
+    "column": "Fan display / Air display"
+  },
+  "items": [
+    {
+      "record_id": "PSI-25:bass-ii:6",
+      "source_text": "3   5   approaching 10",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:8",
+      "source_text": "1.4    incr to 10.0",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:8",
+      "source_text": "10   max",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:9",
+      "source_text": "2   <1",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:10",
+      "source_text": "1.7 (52)   1.25   0.9   0.6   0.4   0.35",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:11",
+      "source_text": "2.5 (59)   1.3   0.7   0.5   0.35",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:11",
+      "source_text": "5   3   1   <1",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:13",
+      "source_text": "3.5 (68)    1.7   1.25   0.9   0.6   0.4   0.35",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:14",
+      "source_text": "pot 0.9   0.5 and down",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:14",
+      "source_text": "5  3  2   ext",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [
+          {
+            "type": "extinction",
+            "gravity": "microgravity",
+            "result": {
+              "kind": "category",
+              "value": "extinction at end of flow sweep"
+            },
+            "quote": "ext"
+          }
+        ],
+        "readings": [
+          {
+            "instrument": "air_display",
+            "min": 2,
+            "max": 5,
+            "quote": "5  3  2"
+          }
+        ]
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:15",
+      "source_text": "1.4 (50) incr to 10.0 pot",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:15",
+      "source_text": "10   max",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:16",
+      "source_text": "44 (pot 0.68)",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": [
+          {
+            "instrument": "fan_display",
+            "min": 44,
+            "max": 44,
+            "quote": "44"
+          }
+        ]
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:16",
+      "source_text": "3  0.5 pot   0.4 pot",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:17",
+      "source_text": "pot 1.2 (48)    0.9   0.4 ",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:17",
+      "source_text": "5   3    pot 0.4",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:18",
+      "source_text": "pot 1.02 (47)   incr to 7.0",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:18",
+      "source_text": "10   blowoff",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [
+          {
+            "type": "blowoff",
+            "gravity": "microgravity",
+            "result": {
+              "kind": "category",
+              "value": "blowoff"
+            },
+            "quote": "blowoff"
+          }
+        ],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:19",
+      "source_text": "47 (pot 1.05)   incr to pot 6.0",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": [
+          {
+            "instrument": "fan_display",
+            "min": 47,
+            "max": 47,
+            "quote": "47"
+          }
+        ]
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:19",
+      "source_text": "10   blowoff",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [
+          {
+            "type": "blowoff",
+            "gravity": "microgravity",
+            "result": {
+              "kind": "category",
+              "value": "blowoff"
+            },
+            "quote": "blowoff"
+          }
+        ],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:20",
+      "source_text": "48   pot 0.9   0.5",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:20",
+      "source_text": "5   3      pot 0.5",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:21",
+      "source_text": "53   and down",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:21",
+      "source_text": "5 down to ext",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [
+          {
+            "type": "extinction",
+            "gravity": "microgravity",
+            "result": {
+              "kind": "category",
+              "value": "extinction at end of flow sweep"
+            },
+            "quote": "down to ext"
+          }
+        ],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:26",
+      "source_text": "see notes",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:26",
+      "source_text": "3 ign",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": [
+          {
+            "instrument": "air_display",
+            "min": 3,
+            "max": 3,
+            "quote": "3 ign"
+          }
+        ]
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:28",
+      "source_text": "116 (pot 9.3)    89   80   84",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": [
+          {
+            "instrument": "fan_display",
+            "min": 80,
+            "max": 116,
+            "quote": "116 (pot 9.3)    89   80   84"
+          }
+        ]
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:34",
+      "source_text": "3.3   1.6  1.0   decr",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:34",
+      "source_text": "10   5>7  5 decr",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:36",
+      "source_text": "75   105   94/91   72/69   63/61  (4.4   8.0   6.6/6.3   4.0/3.7   3/0/2.7)",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": [
+          {
+            "instrument": "fan_display",
+            "min": 61,
+            "max": 105,
+            "quote": "75   105   94/91   72/69   63/61"
+          }
+        ]
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:38",
+      "source_text": "<1",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:40",
+      "source_text": "pot 2.4   1.87  (54)",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:40",
+      "source_text": "10   ~8",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": [
+          {
+            "instrument": "air_display",
+            "min": 8,
+            "max": 10,
+            "quote": "10   ~8"
+          }
+        ]
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:41",
+      "source_text": "ignited 10   adjusted down then up to 20   down in incrments to 15",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:42",
+      "source_text": "73  57  59  48  45  43  75 (4.2  2.2  2.4  1.2  0.8  0.5  4.4)",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": [
+          {
+            "instrument": "fan_display",
+            "min": 43,
+            "max": 75,
+            "quote": "73  57  59  48  45  43  75"
+          }
+        ]
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:43",
+      "source_text": "Fan pot 3.7   1.7   1.5   1.3   0.8   0.6   0.5   0.3ext",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [
+          {
+            "type": "extinction",
+            "gravity": "microgravity",
+            "result": {
+              "kind": "category",
+              "value": "extinction at end of flow sweep"
+            },
+            "quote": "ext"
+          }
+        ],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:43",
+      "source_text": "10   5   3   0ext",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [
+          {
+            "type": "extinction",
+            "gravity": "microgravity",
+            "result": {
+              "kind": "category",
+              "value": "extinction at end of flow sweep"
+            },
+            "quote": "ext"
+          }
+        ],
+        "readings": [
+          {
+            "instrument": "air_display",
+            "min": 0,
+            "max": 10,
+            "quote": "10   5   3   0"
+          }
+        ]
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:44",
+      "source_text": "Fan pot 3.5   5 (brief)   3  5   2.2",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:44",
+      "source_text": "10   15 (brief)   10   8",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": [
+          {
+            "instrument": "air_display",
+            "min": 8,
+            "max": 15,
+            "quote": "10   15 (brief)   10   8"
+          }
+        ]
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:45",
+      "source_text": "75  105  94  75  77  79  59  61  57  55  53 (4.4  8.0  6.6  4.4  4.6  4.8  2.5  2.7  2.2  2.0  1.8)",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": [
+          {
+            "instrument": "fan_display",
+            "min": 53,
+            "max": 105,
+            "quote": "75  105  94  75  77  79  59  61  57  55  53"
+          }
+        ]
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:48",
+      "source_text": ".54 pot   0.45 pot",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:50",
+      "source_text": "5  3  2  1  low",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:51",
+      "source_text": "5   0.7   0.5   0.4   0.36 ext",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [
+          {
+            "type": "extinction",
+            "gravity": "microgravity",
+            "result": {
+              "kind": "category",
+              "value": "extinction at end of flow sweep"
+            },
+            "quote": "ext"
+          }
+        ],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:51",
+      "source_text": "5   down to ext",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [
+          {
+            "type": "extinction",
+            "gravity": "microgravity",
+            "result": {
+              "kind": "category",
+              "value": "extinction at end of flow sweep"
+            },
+            "quote": "down to ext"
+          }
+        ],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:52",
+      "source_text": "1.3   2.7   1.3   0.7   0.45. 4.0",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:52",
+      "source_text": "5  10  5   2   0 (49   62   49   44   42)",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": [
+          {
+            "instrument": "air_display",
+            "min": 0,
+            "max": 10,
+            "quote": "5  10  5   2   0"
+          }
+        ]
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:53",
+      "source_text": "49   5 cm/s",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:54",
+      "source_text": "5   .36  .32  .31  .305   out .275",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:54",
+      "source_text": "see fan",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:55",
+      "source_text": "5   .36  .32  ..305   blowoff fan max 10",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [
+          {
+            "type": "blowoff",
+            "gravity": "microgravity",
+            "result": {
+              "kind": "category",
+              "value": "blowoff"
+            },
+            "quote": "blowoff"
+          }
+        ],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:56",
+      "source_text": "5   .36  .32  .31   extinguished",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [
+          {
+            "type": "extinction",
+            "gravity": "microgravity",
+            "result": {
+              "kind": "category",
+              "value": "extinction at end of flow sweep"
+            },
+            "quote": "extinguished"
+          }
+        ],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:57",
+      "source_text": "5  .36  .32  .31 blowoff fan pot 6.0",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [
+          {
+            "type": "blowoff",
+            "gravity": "microgravity",
+            "result": {
+              "kind": "category",
+              "value": "blowoff"
+            },
+            "quote": "blowoff"
+          }
+        ],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:58",
+      "source_text": "5   .36  .32 blowoff pt 4.0",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [
+          {
+            "type": "blowoff",
+            "gravity": "microgravity",
+            "result": {
+              "kind": "category",
+              "value": "blowoff"
+            },
+            "quote": "blowoff"
+          }
+        ],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:59",
+      "source_text": "49  44  41   122 (1.3   0.7   0.4   0.36   0.32   10)",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": [
+          {
+            "instrument": "fan_display",
+            "min": 41,
+            "max": 122,
+            "quote": "49  44  41   122"
+          }
+        ]
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:59",
+      "source_text": "5  2   0   max",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:60",
+      "source_text": "ign 5   0.36   0.32   0.31   0.305   blowoff 6.0",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [
+          {
+            "type": "blowoff",
+            "gravity": "microgravity",
+            "result": {
+              "kind": "category",
+              "value": "blowoff"
+            },
+            "quote": "blowoff"
+          }
+        ],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:60",
+      "source_text": "5   down then blowoff",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [
+          {
+            "type": "blowoff",
+            "gravity": "microgravity",
+            "result": {
+              "kind": "category",
+              "value": "blowoff"
+            },
+            "quote": "blowoff"
+          }
+        ],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:61",
+      "source_text": "pots 1.4   3   0.9   0.7",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:61",
+      "source_text": "no ign at any flow",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:62",
+      "source_text": "49  44  42  41  41  40.5 (5   2   0)",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:63",
+      "source_text": "7   4? (49   ?)",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:64",
+      "source_text": "52   and down",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:64",
+      "source_text": "5 down to ext",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [
+          {
+            "type": "extinction",
+            "gravity": "microgravity",
+            "result": {
+              "kind": "category",
+              "value": "extinction at end of flow sweep"
+            },
+            "quote": "down to ext"
+          }
+        ],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:65",
+      "source_text": "57.5   47   42   41 (2.3   1.0   0.5   0.35   0.32)",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": [
+          {
+            "instrument": "fan_display",
+            "min": 41,
+            "max": 57.5,
+            "quote": "57.5   47   42   41"
+          }
+        ]
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:66",
+      "source_text": "57.5   42   41   40 (2.3   0.5   0.35   0.34   0.33   0.32   0.31   0.30   0.29   0.28   0.27)",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": [
+          {
+            "instrument": "fan_display",
+            "min": 40,
+            "max": 57.5,
+            "quote": "57.5   42   41   40"
+          }
+        ]
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:67",
+      "source_text": "60 (2.6)",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": [
+          {
+            "instrument": "fan_display",
+            "min": 60,
+            "max": 60,
+            "quote": "60"
+          }
+        ]
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:68",
+      "source_text": "49   46.5   44   42  41  72   decr (1.3   1.0   0.7   0.5   0.4   4.0   decr )",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:69",
+      "source_text": "57  51  47  72  51  72  51  47 (2.3   1.5   1.0   4.0   1.5   4.0   1.5   1.0)",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": [
+          {
+            "instrument": "fan_display",
+            "min": 47,
+            "max": 72,
+            "quote": "57  51  47  72  51  72  51  47"
+          }
+        ]
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:70",
+      "source_text": "52   and down",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:70",
+      "source_text": "5 down to ext",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [
+          {
+            "type": "extinction",
+            "gravity": "microgravity",
+            "result": {
+              "kind": "category",
+              "value": "extinction at end of flow sweep"
+            },
+            "quote": "down to ext"
+          }
+        ],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:71",
+      "source_text": "49 (1.3 pot)   pots 7   8  9   10",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": [
+          {
+            "instrument": "fan_display",
+            "min": 49,
+            "max": 49,
+            "quote": "49"
+          }
+        ]
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:71",
+      "source_text": "5   8    incr to max 38.5",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": [
+          {
+            "instrument": "air_display",
+            "min": 5,
+            "max": 38.5,
+            "quote": "5   8    incr to max 38.5"
+          }
+        ]
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:72",
+      "source_text": "46 (pot 0.8)    pot 7   10",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": [
+          {
+            "instrument": "fan_display",
+            "min": 46,
+            "max": 46,
+            "quote": "46"
+          }
+        ]
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:72",
+      "source_text": "incr to 28",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:73",
+      "source_text": "49 (pot 1.1)   blowoff pot 5   out at fan 87",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [
+          {
+            "type": "blowoff",
+            "gravity": "microgravity",
+            "result": {
+              "kind": "category",
+              "value": "blowoff"
+            },
+            "quote": "blowoff"
+          }
+        ],
+        "readings": [
+          {
+            "instrument": "fan_display",
+            "min": 49,
+            "max": 87,
+            "quote": "49 (pot 1.1)   blowoff pot 5   out at fan 87"
+          }
+        ]
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:73",
+      "source_text": "4 incr to 26.5",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": [
+          {
+            "instrument": "air_display",
+            "min": 4,
+            "max": 26.5,
+            "quote": "4 incr to 26.5"
+          }
+        ]
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:74",
+      "source_text": "5  2   slow decr to ext",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [
+          {
+            "type": "extinction",
+            "gravity": "microgravity",
+            "result": {
+              "kind": "category",
+              "value": "extinction at end of flow sweep"
+            },
+            "quote": "slow decr to ext"
+          }
+        ],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:75",
+      "source_text": "5   2.5   2 (pot .9   .5   .35.  .33)",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": [
+          {
+            "instrument": "air_display",
+            "min": 2,
+            "max": 5,
+            "quote": "5   2.5   2"
+          }
+        ]
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:76",
+      "source_text": "5   2.5 (1.15   .5   .35   .33. .32   .315   .31   .3)",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:77",
+      "source_text": "5   very low (0.85   0.32   0.31   0.305   0.30   0.295)",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:78",
+      "source_text": "5   pots 0.4   0.36   0.32   0.308   .3   off",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:79",
+      "source_text": "Fan pot 1.5 (5cm/s)   0.9   0.4   0.36   0.32   0.308   0.3   0.29   0.28   0 ext",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [
+          {
+            "type": "extinction",
+            "gravity": "microgravity",
+            "result": {
+              "kind": "category",
+              "value": "extinction at end of flow sweep"
+            },
+            "quote": "ext"
+          }
+        ],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:79",
+      "source_text": "5 down to ext",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [
+          {
+            "type": "extinction",
+            "gravity": "microgravity",
+            "result": {
+              "kind": "category",
+              "value": "extinction at end of flow sweep"
+            },
+            "quote": "down to ext"
+          }
+        ],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:80",
+      "source_text": "5   pots 0.4   0.36   0.32   0.31   off",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:81",
+      "source_text": "5   would not stay lit   10   15 ibid",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": [
+          {
+            "instrument": "air_display",
+            "min": 5,
+            "max": 15,
+            "quote": "5   would not stay lit   10   15"
+          }
+        ]
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:82",
+      "source_text": "Fan pot 1.5 (5cm/s)   0.9   0.4   0.36   0.32   0.3   0.28 ext",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [
+          {
+            "type": "extinction",
+            "gravity": "microgravity",
+            "result": {
+              "kind": "category",
+              "value": "extinction at end of flow sweep"
+            },
+            "quote": "ext"
+          }
+        ],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:82",
+      "source_text": "5 down to ext",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [
+          {
+            "type": "extinction",
+            "gravity": "microgravity",
+            "result": {
+              "kind": "category",
+              "value": "extinction at end of flow sweep"
+            },
+            "quote": "down to ext"
+          }
+        ],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:83",
+      "source_text": "5   pots 0.4   0.36   0.32   0.31   0.30 extinguished",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [
+          {
+            "type": "extinction",
+            "gravity": "microgravity",
+            "result": {
+              "kind": "category",
+              "value": "extinction at end of flow sweep"
+            },
+            "quote": "extinguished"
+          }
+        ],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:84",
+      "source_text": "60  52  48  44.5  42  41.5  41 (2.6  1.6  1.2  .75  .5  .4  .36  0.34)",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": [
+          {
+            "instrument": "fan_display",
+            "min": 41,
+            "max": 60,
+            "quote": "60  52  48  44.5  42  41.5  41"
+          }
+        ]
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:84",
+      "source_text": "5   3  2  1   0.5   lower",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:85",
+      "source_text": "Fan pot 1.1 (5cm/s)   0.4   0.36   0.32   0.3   0.28   0.26   0 ext",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [
+          {
+            "type": "extinction",
+            "gravity": "microgravity",
+            "result": {
+              "kind": "category",
+              "value": "extinction at end of flow sweep"
+            },
+            "quote": "ext"
+          }
+        ],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:85",
+      "source_text": "5 down to ext",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [
+          {
+            "type": "extinction",
+            "gravity": "microgravity",
+            "result": {
+              "kind": "category",
+              "value": "extinction at end of flow sweep"
+            },
+            "quote": "down to ext"
+          }
+        ],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:86",
+      "source_text": "Fan pot 1.3 (5cm/s)   0.4   0.36   0.32 ext",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [
+          {
+            "type": "extinction",
+            "gravity": "microgravity",
+            "result": {
+              "kind": "category",
+              "value": "extinction at end of flow sweep"
+            },
+            "quote": "ext"
+          }
+        ],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:86",
+      "source_text": "5 down to ext",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [
+          {
+            "type": "extinction",
+            "gravity": "microgravity",
+            "result": {
+              "kind": "category",
+              "value": "extinction at end of flow sweep"
+            },
+            "quote": "down to ext"
+          }
+        ],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:87",
+      "source_text": "5   low (.85   .4   .32)",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:88",
+      "source_text": "5   (0.36)",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:89",
+      "source_text": "49  62  44  41.5  41 (pots 1.3   2.8   0.7   0.4   0.36   0.32)",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": [
+          {
+            "instrument": "fan_display",
+            "min": 41,
+            "max": 62,
+            "quote": "49  62  44  41.5  41"
+          }
+        ]
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:89",
+      "source_text": "5  8  2  low",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:90",
+      "source_text": "60  52  48  233  48  41 (2.6   1.6   1.2   10   1.2   0.36   0.34)",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": [
+          {
+            "instrument": "fan_display",
+            "min": 41,
+            "max": 233,
+            "quote": "60  52  48  233  48  41"
+          }
+        ]
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:90",
+      "source_text": "5   3   2   22   2   low",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:91",
+      "source_text": "55  47  etc (pot 1  2  1  2   etc)",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:91",
+      "source_text": "2  0  2  0  etc",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": [
+          {
+            "instrument": "air_display",
+            "min": 0,
+            "max": 2,
+            "quote": "2  0  2  0"
+          }
+        ]
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:92",
+      "source_text": "49  62  44  41.5  122   41 (pots 1.3   2.8   0.7   0.4   0.36   10.   0.32)",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": [
+          {
+            "instrument": "fan_display",
+            "min": 41,
+            "max": 122,
+            "quote": "49  62  44  41.5  122   41"
+          }
+        ]
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:92",
+      "source_text": "5  8  2  max   0",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:93",
+      "source_text": "55  47  etc (pot 1  2  1  2   etc)",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:93",
+      "source_text": "2  0  2  0  etc",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": [
+          {
+            "instrument": "air_display",
+            "min": 0,
+            "max": 2,
+            "quote": "2  0  2  0"
+          }
+        ]
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:96",
+      "source_text": "5   0.36   0.32 ext after some time",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [
+          {
+            "type": "extinction",
+            "gravity": "microgravity",
+            "result": {
+              "kind": "category",
+              "value": "extinction at end of flow sweep"
+            },
+            "quote": "ext"
+          }
+        ],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:96",
+      "source_text": "5   down to ext",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [
+          {
+            "type": "extinction",
+            "gravity": "microgravity",
+            "result": {
+              "kind": "category",
+              "value": "extinction at end of flow sweep"
+            },
+            "quote": "down to ext"
+          }
+        ],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:97",
+      "source_text": "5   p.36   0.34   0.33   0.32   0.31 ext",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [
+          {
+            "type": "extinction",
+            "gravity": "microgravity",
+            "result": {
+              "kind": "category",
+              "value": "extinction at end of flow sweep"
+            },
+            "quote": "ext"
+          }
+        ],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:97",
+      "source_text": "5 down to ext",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [
+          {
+            "type": "extinction",
+            "gravity": "microgravity",
+            "result": {
+              "kind": "category",
+              "value": "extinction at end of flow sweep"
+            },
+            "quote": "down to ext"
+          }
+        ],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:98",
+      "source_text": "55  47  etc (pot 1  2  1  2   etc)",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:98",
+      "source_text": "2  0  2  0  etc",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": [
+          {
+            "instrument": "air_display",
+            "min": 0,
+            "max": 2,
+            "quote": "2  0  2  0"
+          }
+        ]
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:99",
+      "source_text": "55  47  etc (pot 1  2  1  2   etc)",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:99",
+      "source_text": "2  0  2  0  etc",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": [
+          {
+            "instrument": "air_display",
+            "min": 0,
+            "max": 2,
+            "quote": "2  0  2  0"
+          }
+        ]
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:100",
+      "source_text": "5   p.36   0.34   0.33   0.32   0.31 ext",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [
+          {
+            "type": "extinction",
+            "gravity": "microgravity",
+            "result": {
+              "kind": "category",
+              "value": "extinction at end of flow sweep"
+            },
+            "quote": "ext"
+          }
+        ],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:100",
+      "source_text": "5 down to ext",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [
+          {
+            "type": "extinction",
+            "gravity": "microgravity",
+            "result": {
+              "kind": "category",
+              "value": "extinction at end of flow sweep"
+            },
+            "quote": "down to ext"
+          }
+        ],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:106",
+      "source_text": "5  2  1   <1",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:107",
+      "source_text": "10   5  3  1   decr",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:108",
+      "source_text": "pot 2.5",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:109",
+      "source_text": "pot 1.1",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:111",
+      "source_text": "pot 1.1",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:118",
+      "source_text": "68.5   pot 3.6",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": [
+          {
+            "instrument": "fan_display",
+            "min": 68.5,
+            "max": 68.5,
+            "quote": "68.5"
+          }
+        ]
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:120",
+      "source_text": "1.6 pot   52",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": [
+          {
+            "instrument": "fan_display",
+            "min": 52,
+            "max": 52,
+            "quote": "52"
+          }
+        ]
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Fan display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:120",
+      "source_text": "11   max(47)",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    },
+    {
+      "record_id": "PSI-25:bass-ii:129",
+      "source_text": "5   2(?)",
+      "proposed_by": "llm",
+      "model": "claude-sonnet-5-5",
+      "proposal": {
+        "outcomes": [],
+        "readings": []
+      },
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      },
+      "column": "Air display"
+    }
+  ]
+}

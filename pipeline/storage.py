@@ -33,7 +33,8 @@ def write_bytes_atomic(path: Path, content: bytes) -> None:
 
 def dump_json(value: Any) -> str:
     """Serialize deterministically so regenerated files produce minimal diffs."""
-    return json.dumps(value, indent=2, ensure_ascii=False) + "\n"
+    rendered = json.dumps(value, indent=2, ensure_ascii=False, allow_nan=False) + "\n"
+    return rendered.encode("utf-8", errors="backslashreplace").decode("utf-8")
 
 
 def write_json_atomic(path: Path, value: Any) -> None:
