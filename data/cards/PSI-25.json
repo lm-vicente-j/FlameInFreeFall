@@ -1,0 +1,474 @@
+{
+  "accession": "PSI-25",
+  "source_version": 4,
+  "title": "Burning and Suppression of Solids - II",
+  "acronym": "BASS-II",
+  "coverage": "metadata_and_documents",
+  "summary": {
+    "text": "BASS-II (Burning and Suppression of Solids - II) burned solid fuel samples in a small flow duct aboard the International Space Station, in the Microgravity Science Glovebox. The cited result is the opposed-flow velocity at which flames over thin PMMA sheets extinguished, and how that velocity changed with reduced O2.",
+    "evidence_ids": [
+      "PSI-25:meta:objective#72a40e33f18b",
+      "PSI-25:meta:hypothesis#14efa82d3fba",
+      "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p31#3f6ca2225cd5",
+      "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p33#c5f99d1506bf"
+    ]
+  },
+  "safety_categories": [
+    {
+      "category": "suppression",
+      "evidence_ids": [
+        "PSI-25:meta:objective#018f6e59b025"
+      ]
+    },
+    {
+      "category": "detection",
+      "evidence_ids": [
+        "PSI-25:meta:objective#018f6e59b025"
+      ]
+    },
+    {
+      "category": "prevention",
+      "evidence_ids": [
+        "PSI-25:meta:researchImpacts#41340d9519a5"
+      ]
+    }
+  ],
+  "comparison": {
+    "fuels": {
+      "text": "PMMA fuel samples, 20 mm wide and about 95 mm long, with thickness ranging from 100 to 400 µm, in the extinction-velocity tests.",
+      "evidence_ids": [
+        "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p29#a1bd2d0c9ce0"
+      ]
+    },
+    "geometry": {
+      "text": "A 76-mm square duct with PMMA samples burned in an opposed-flow configuration.",
+      "evidence_ids": [
+        "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p29#a1bd2d0c9ce0"
+      ]
+    },
+    "oxygen": {
+      "text": "The O2 level can be adjusted to 21 percent or below.",
+      "evidence_ids": [
+        "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p29#bb18ba9409ec"
+      ]
+    },
+    "pressure": null,
+    "flow": {
+      "text": "Flow velocity can range from 0 to 50 cm/s.",
+      "evidence_ids": [
+        "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p29#bb18ba9409ec"
+      ]
+    },
+    "gravity": {
+      "text": "Microgravity combustion tests performed aboard the International Space Station.",
+      "evidence_ids": [
+        "PSI-25:meta:approach#2b2b9035334b"
+      ]
+    },
+    "measurements": {
+      "text": "Flames were photographed with a high-resolution digital still camera at a frame rate of 1 per second, and a radiometer was used to confirm flame extinction.",
+      "evidence_ids": [
+        "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p29#13d307ab2563"
+      ]
+    },
+    "hardware": {
+      "text": "Microgravity Science Glovebox (MSG).",
+      "evidence_ids": [
+        "PSI-25:meta:experimentHardware#4129335e38aa"
+      ]
+    }
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "type": "objective",
+      "text": "The investigation aims to study the ignition, flame growth, flame spread, and extinction limits for solid fuels burning in low-velocity forced flows in microgravity.",
+      "evidence_ids": [
+        "PSI-25:meta:objective#72a40e33f18b"
+      ]
+    },
+    {
+      "id": "C2",
+      "type": "hypothesis",
+      "text": "The investigation hypothesizes that materials in microgravity, with adequate ventilation, burn as well if not better than the same material in normal gravity.",
+      "evidence_ids": [
+        "PSI-25:meta:hypothesis#14efa82d3fba"
+      ]
+    },
+    {
+      "id": "C3",
+      "type": "reported_observation",
+      "text": "In opposed-flow tests of PMMA samples, extinction velocities were found to be about 1 cm/s for thicknesses of 100, 200, and 300 µm and about 1.5 cm/s for 400 µm. The source describes a second test in which flow was gradually reduced. The fan voltage at extinction indicated a flow velocity of about 1.1 cm/s.",
+      "evidence_ids": [
+        "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p31#3f6ca2225cd5",
+        "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p31#a67dcc104236",
+        "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p29#a1bd2d0c9ce0"
+      ]
+    },
+    {
+      "id": "C4",
+      "type": "reported_observation",
+      "text": "Tests were also conducted at a lower O2 level of about 16 percent for two thicknesses. The extinction velocities were found to be about 2.6 cm/s for 100 µm and about 4 cm/s for 200 µm. The source states that the extinction velocity significantly increases as the O2 level is reduced.",
+      "evidence_ids": [
+        "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p31#a9562d348641",
+        "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p33#1a81c5be6250",
+        "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p33#c5f99d1506bf"
+      ]
+    },
+    {
+      "id": "C5",
+      "type": "potential_application",
+      "text": "Measured extinction flow velocities and their dependence on O2 level are candidate inputs to the combustion computational models that the source says are used in designing fire detection and suppression systems in microgravity and on Earth.",
+      "evidence_ids": [
+        "PSI-25:meta:objective#018f6e59b025",
+        "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p33#c5f99d1506bf"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "observation": "C3",
+      "conditions": {
+        "text": "PMMA samples 100 to 400 µm thick, 20 mm wide and about 95 mm long, burned in opposed flow in a 76-mm square duct aboard the ISS; flow was gradually reduced until the flame extinguished.",
+        "evidence_ids": [
+          "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p29#a1bd2d0c9ce0",
+          "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p31#a67dcc104236"
+        ]
+      },
+      "implication": "C5",
+      "category": "suppression"
+    },
+    {
+      "observation": "C4",
+      "conditions": {
+        "text": "Opposed-flow tests on PMMA samples at a lower O2 level of about 16 percent, aboard the ISS. The samples were 100-µm and 200-µm thick; sample widths differed between thicknesses.",
+        "evidence_ids": [
+          "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p31#a9562d348641",
+          "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p33#1a81c5be6250",
+          "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p33#e9baa09269e5"
+        ]
+      },
+      "implication": "C5",
+      "category": "suppression"
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The source states there are significant uncertainties in the low extinction velocity values because calibration at such low velocity has high error bars.",
+      "basis": "source",
+      "evidence_ids": [
+        "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p31#1a0770b08d8f"
+      ]
+    },
+    {
+      "text": "The lower-O2 data are limited: the source notes insufficient data at the lower O2 level, and sample width differed between thicknesses tested (20 mm for 100 µm, 10 mm for 200 µm).",
+      "basis": "source",
+      "evidence_ids": [
+        "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p33#e9baa09269e5",
+        "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p33#5e13fea375e9"
+      ]
+    },
+    {
+      "text": "The space-based extinction results come from a limited number of tests.",
+      "basis": "source",
+      "evidence_ids": [
+        "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p27#0f08a037612e"
+      ]
+    }
+  ],
+  "modeling_resources": [
+    {
+      "description": "Experimental table of BASS-II run records that may hold run conditions for the opposed-flow PMMA tests; its contents were not examined for this card.",
+      "file_keys": [
+        "psi-data/PSI-25/Experimental table/PSI-25_Experimental table_BASS-II.csv"
+      ],
+      "evidence_ids": [
+        "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p29#a1bd2d0c9ce0"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "PSI-25:meta:objective#72a40e33f18b",
+      "passage_id": "PSI-25:meta:objective",
+      "investigation": "PSI-25",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-25",
+      "locator": {
+        "kind": "metadata",
+        "field": "objective"
+      },
+      "excerpt": "Study the ignition, flame growth, flame spread, and extinction limits for solid fuels burning in low-velocity forced flows in microgravity."
+    },
+    {
+      "id": "PSI-25:meta:hypothesis#14efa82d3fba",
+      "passage_id": "PSI-25:meta:hypothesis",
+      "investigation": "PSI-25",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-25",
+      "locator": {
+        "kind": "metadata",
+        "field": "hypothesis"
+      },
+      "excerpt": "materials in microgravity, with adequate ventilation, burn as well if not better than the same material in normal gravity"
+    },
+    {
+      "id": "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p31#3f6ca2225cd5",
+      "passage_id": "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p31",
+      "investigation": "PSI-25",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-25",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-25",
+        "file_id": "6924805f7f6aa6a83021067c",
+        "key": "psi-data/PSI-25/Reports/PSI-25_Reports_BASS-II Summary Report.pdf",
+        "version": 2,
+        "filename": "PSI-25_Reports_BASS-II Summary Report.pdf",
+        "sha256": "5ffa911fd9b6356f204646003fb9342e341810dcdfdf5cb15756e7f01ec5f770",
+        "page": 31
+      },
+      "excerpt": "the extinction velocities are found to \nbe about 1 cm/s for 100, 200, and 300 µm and about 1.5 cm/s for 400 µm."
+    },
+    {
+      "id": "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p31#a67dcc104236",
+      "passage_id": "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p31",
+      "investigation": "PSI-25",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-25",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-25",
+        "file_id": "6924805f7f6aa6a83021067c",
+        "key": "psi-data/PSI-25/Reports/PSI-25_Reports_BASS-II Summary Report.pdf",
+        "version": 2,
+        "filename": "PSI-25_Reports_BASS-II Summary Report.pdf",
+        "sha256": "5ffa911fd9b6356f204646003fb9342e341810dcdfdf5cb15756e7f01ec5f770",
+        "page": 31
+      },
+      "excerpt": "In the first test, a steady flame was established over a \n100-µm sample. After the flame propagated across half the sample length at a steady spread rate of \n2.2 mm/s, the flow was abruptly cut off and the flame was observed to extinguish within 2 s. To pin down \nthe extinction flow velocity, a second test was done under the same conditions except the flow velocity \nwas set at 3 cm/s and after the flame propagated about half the sample length, the flow was gradually \nreduced. The flame spread rate of the leading edge, as plotted in Figure 2.8, shows that the flame \nextinguishes at about 30 s after ignition. The fan voltage at that time indicates a flow velocity of about \n1.1 cm/s."
+    },
+    {
+      "id": "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p29#a1bd2d0c9ce0",
+      "passage_id": "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p29",
+      "investigation": "PSI-25",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-25",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-25",
+        "file_id": "6924805f7f6aa6a83021067c",
+        "key": "psi-data/PSI-25/Reports/PSI-25_Reports_BASS-II Summary Report.pdf",
+        "version": 2,
+        "filename": "PSI-25_Reports_BASS-II Summary Report.pdf",
+        "sha256": "5ffa911fd9b6356f204646003fb9342e341810dcdfdf5cb15756e7f01ec5f770",
+        "page": 29
+      },
+      "excerpt": "a 76-mm square duct, where the PMMA fuel samples, 20 mm wide \nand about 95 mm long with the thickness ranging from 100 to 400 µm, are burned in an opposed-flow \nconfiguration."
+    },
+    {
+      "id": "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p31#a9562d348641",
+      "passage_id": "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p31",
+      "investigation": "PSI-25",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-25",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-25",
+        "file_id": "6924805f7f6aa6a83021067c",
+        "key": "psi-data/PSI-25/Reports/PSI-25_Reports_BASS-II Summary Report.pdf",
+        "version": 2,
+        "filename": "PSI-25_Reports_BASS-II Summary Report.pdf",
+        "sha256": "5ffa911fd9b6356f204646003fb9342e341810dcdfdf5cb15756e7f01ec5f770",
+        "page": 31
+      },
+      "excerpt": "Tests were also \nconducted at a lower O2 level of about 16 percent for two different thicknesses and the extinction"
+    },
+    {
+      "id": "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p33#1a81c5be6250",
+      "passage_id": "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p33",
+      "investigation": "PSI-25",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-25",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-25",
+        "file_id": "6924805f7f6aa6a83021067c",
+        "key": "psi-data/PSI-25/Reports/PSI-25_Reports_BASS-II Summary Report.pdf",
+        "version": 2,
+        "filename": "PSI-25_Reports_BASS-II Summary Report.pdf",
+        "sha256": "5ffa911fd9b6356f204646003fb9342e341810dcdfdf5cb15756e7f01ec5f770",
+        "page": 33
+      },
+      "excerpt": "velocities are found to be about 2.6 cm/s for 100 µm and about 4 cm/s for 200 µm."
+    },
+    {
+      "id": "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p31#1a0770b08d8f",
+      "passage_id": "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p31",
+      "investigation": "PSI-25",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-25",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-25",
+        "file_id": "6924805f7f6aa6a83021067c",
+        "key": "psi-data/PSI-25/Reports/PSI-25_Reports_BASS-II Summary Report.pdf",
+        "version": 2,
+        "filename": "PSI-25_Reports_BASS-II Summary Report.pdf",
+        "sha256": "5ffa911fd9b6356f204646003fb9342e341810dcdfdf5cb15756e7f01ec5f770",
+        "page": 31
+      },
+      "excerpt": "there are significant uncertainties in these values as the calibration at such low velocity \nhas high error bars."
+    },
+    {
+      "id": "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p33#c5f99d1506bf",
+      "passage_id": "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p33",
+      "investigation": "PSI-25",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-25",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-25",
+        "file_id": "6924805f7f6aa6a83021067c",
+        "key": "psi-data/PSI-25/Reports/PSI-25_Reports_BASS-II Summary Report.pdf",
+        "version": 2,
+        "filename": "PSI-25_Reports_BASS-II Summary Report.pdf",
+        "sha256": "5ffa911fd9b6356f204646003fb9342e341810dcdfdf5cb15756e7f01ec5f770",
+        "page": 33
+      },
+      "excerpt": "it is clear that the extinction velocity \nsignificantly increases as the O2 level is reduced"
+    },
+    {
+      "id": "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p33#e9baa09269e5",
+      "passage_id": "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p33",
+      "investigation": "PSI-25",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-25",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-25",
+        "file_id": "6924805f7f6aa6a83021067c",
+        "key": "psi-data/PSI-25/Reports/PSI-25_Reports_BASS-II Summary Report.pdf",
+        "version": 2,
+        "filename": "PSI-25_Reports_BASS-II Summary Report.pdf",
+        "sha256": "5ffa911fd9b6356f204646003fb9342e341810dcdfdf5cb15756e7f01ec5f770",
+        "page": 33
+      },
+      "excerpt": "the width of the sample was different, 20 mm for the 100-µm sample and 10 mm for the 200-µm \nsample."
+    },
+    {
+      "id": "PSI-25:meta:objective#018f6e59b025",
+      "passage_id": "PSI-25:meta:objective",
+      "investigation": "PSI-25",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-25",
+      "locator": {
+        "kind": "metadata",
+        "field": "objective"
+      },
+      "excerpt": "BASS-II results contribute to the combustion computational models used in the design of fire detection and suppression systems in microgravity and on Earth."
+    },
+    {
+      "id": "PSI-25:meta:researchImpacts#41340d9519a5",
+      "passage_id": "PSI-25:meta:researchImpacts",
+      "investigation": "PSI-25",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-25",
+      "locator": {
+        "kind": "metadata",
+        "field": "researchImpacts"
+      },
+      "excerpt": "BASS-II helps engineers select the safest materials and improve firefighting methods on future space missions."
+    },
+    {
+      "id": "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p29#bb18ba9409ec",
+      "passage_id": "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p29",
+      "investigation": "PSI-25",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-25",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-25",
+        "file_id": "6924805f7f6aa6a83021067c",
+        "key": "psi-data/PSI-25/Reports/PSI-25_Reports_BASS-II Summary Report.pdf",
+        "version": 2,
+        "filename": "PSI-25_Reports_BASS-II Summary Report.pdf",
+        "sha256": "5ffa911fd9b6356f204646003fb9342e341810dcdfdf5cb15756e7f01ec5f770",
+        "page": 29
+      },
+      "excerpt": "The O2 level \ncan be adjusted to 21 percent or below and the flow velocity can range from 0 to 50 cm/s."
+    },
+    {
+      "id": "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p29#13d307ab2563",
+      "passage_id": "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p29",
+      "investigation": "PSI-25",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-25",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-25",
+        "file_id": "6924805f7f6aa6a83021067c",
+        "key": "psi-data/PSI-25/Reports/PSI-25_Reports_BASS-II Summary Report.pdf",
+        "version": 2,
+        "filename": "PSI-25_Reports_BASS-II Summary Report.pdf",
+        "sha256": "5ffa911fd9b6356f204646003fb9342e341810dcdfdf5cb15756e7f01ec5f770",
+        "page": 29
+      },
+      "excerpt": "the flame is photographed with a high-resolution digital still camera with a frame rate of \n1 per second. A radiometer is used to confirm flame extinction when the visible flame goes out."
+    },
+    {
+      "id": "PSI-25:meta:approach#2b2b9035334b",
+      "passage_id": "PSI-25:meta:approach",
+      "investigation": "PSI-25",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-25",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "excerpt": "microgravity combustion tests were performed aboard the International Space Station."
+    },
+    {
+      "id": "PSI-25:meta:experimentHardware#4129335e38aa",
+      "passage_id": "PSI-25:meta:experimentHardware",
+      "investigation": "PSI-25",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-25",
+      "locator": {
+        "kind": "metadata",
+        "field": "experimentHardware"
+      },
+      "excerpt": "Microgravity Science Glovebox (MSG)"
+    },
+    {
+      "id": "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p33#5e13fea375e9",
+      "passage_id": "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p33",
+      "investigation": "PSI-25",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-25",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-25",
+        "file_id": "6924805f7f6aa6a83021067c",
+        "key": "psi-data/PSI-25/Reports/PSI-25_Reports_BASS-II Summary Report.pdf",
+        "version": 2,
+        "filename": "PSI-25_Reports_BASS-II Summary Report.pdf",
+        "sha256": "5ffa911fd9b6356f204646003fb9342e341810dcdfdf5cb15756e7f01ec5f770",
+        "page": 33
+      },
+      "excerpt": "Even though there is insufficient data at the lower O2 level"
+    },
+    {
+      "id": "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p27#0f08a037612e",
+      "passage_id": "PSI-25:pdf:6924805f7f6aa6a83021067c:v2:p27",
+      "investigation": "PSI-25",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-25",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-25",
+        "file_id": "6924805f7f6aa6a83021067c",
+        "key": "psi-data/PSI-25/Reports/PSI-25_Reports_BASS-II Summary Report.pdf",
+        "version": 2,
+        "filename": "PSI-25_Reports_BASS-II Summary Report.pdf",
+        "sha256": "5ffa911fd9b6356f204646003fb9342e341810dcdfdf5cb15756e7f01ec5f770",
+        "page": 27
+      },
+      "excerpt": "Results from the recently conducted limited number of space-based \ntests"
+    }
+  ],
+  "generation": {
+    "method": "skill",
+    "skill": "research-card",
+    "model": "claude-sonnet-5-5",
+    "generated_at": "2026-11-15T18:13:51+00:00"
+  },
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "notes": ""
+  }
+}

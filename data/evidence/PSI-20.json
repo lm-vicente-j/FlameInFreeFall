@@ -1,0 +1,469 @@
+{
+  "investigation": "PSI-20",
+  "title": "Advanced Combustion via Microgravity Experiments - Burning Rate Emulator",
+  "acronym": "ACME BRE",
+  "metadata_version": 4,
+  "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-20",
+  "snapshot_retrieved_at": "2026-11-15T01:06:14.977083+00:00",
+  "coverage": "metadata_only",
+  "passages": [
+    {
+      "id": "PSI-20:meta:title",
+      "locator": {
+        "kind": "metadata",
+        "field": "title"
+      },
+      "text": "Advanced Combustion via Microgravity Experiments - Burning Rate Emulator"
+    },
+    {
+      "id": "PSI-20:meta:objective",
+      "locator": {
+        "kind": "metadata",
+        "field": "objective"
+      },
+      "text": "The BRE flight program seeks to establish the burning conditions in a quiescent microgravity ambient in terms of material properties.\nThe specific flight objectives are as follows.\n  1. Observe burning behavior in long-duration microgravity for CH4/N2 and C2H4/N2mixtures on porous circular burners of 25  and 50 mm diameter. Consider O2/N2 ambients with various pressures and ambient O2 concentrations and pressures. NASA - considered atmosphere for human space missions will be examined: 14.7 psia, 21 % oxygen: 10.2 psia, 26.5 %; and 8.2 psia, 34 % oxygen. Emphasize fuel conditions that can be related to a diverse range of condensed fuels.\n  2. Consider the conditions of Objective 1 for ambients of O2/CO2 (desired).\n  3. Consider the conditions of Objectives 1 – 2 for extinction limits."
+    },
+    {
+      "id": "PSI-20:meta:approach",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "text": "To accomplish the above objectives, flight experiments are proposed. Additionally, preliminary flight tests will be performed to verify the experiment operations and for comparison with ground-based tests.\n\nFor each test, conditions will be established for the chamber contents, namely choice of diluent, oxygen concentration, and pressure. Fuel flow will commence followed by ignition. The flames will initially be observed without varying the fuel flow rate. Because burner surface temperature and heat flux will vary, this will allow a broad range of conditions to be observed during a single test. As the surface temperature of the burner increases, and the flame remains steady, a continuous set of data is produced for the flammability map. Eventually either the flame will extinguish, the surface temperature of the burner will equilibrate, or the temperature limit of the heat flux sensor will be reached. At this time the fuel flow will be terminated. So a test should terminate for a given flow rate at extinction, and for continued burning when the burner surface temperature has steadied or the temperature limit of the heat flux sensor is neared.\n\nThe extinction limit could be found once the burner temperature has steadied, and the heat flux sensor has not exceeded its limit. At that state, the flow rate can be reduced in small increments, until extinction is observed and the flow rate shut off. Again, in this process, new data is being produced for the flammability map. Ignition limit tests are not proposed for microgravity, but we will explore these under normal gravity. We believe there is better control on Earth-based ignition testing and that these results should carry over to microgravity conditions.\n\nIn addition to the flight experiments, in normal gravity testing will continue. These tests will involve gaseous, liquid, and solid fuels. These experiments will further establish the validation of the BRE for 1-g applications and show its usefulness to establish 1-g ignition and extinction limits. As available, drop facility testing will be used to refine procedures, test instrumentation, and help to establish viable flow conditions.\n\nWe will also pursue a CFD model for the quiescent microgravity burning. This will also guide us in the flight experiments, and potentially provide a predictive methodology."
+    },
+    {
+      "id": "PSI-20:meta:hypothesis",
+      "locator": {
+        "kind": "metadata",
+        "field": "hypothesis"
+      },
+      "text": "The BRE investigation hypothesizes that there can exist a regime of quasi-steady burning in microgravity as a function of materials properties. Steady burning may never be achieved, and only slowly changing unsteady flames are possible. The proposed tests aboard the ISS aims to query this hypothesis by establishing a range of quasi-steady burning conditions for condensed fuels in the microgravity environment. It is hypothesized that BRE can determine a range of burning conditions in microgravity as a function of heat of gasification, reradiation heat flux, applied radiant heat flux, heat of combustion and smoke point. This could enable the Cone Calorimeter (NASA Test 2) test as a basis for establishing flammability maps for real materials.\n\nThe key hypothesis is that the heat of combustion, smoke point, and heat of gasification of the fuel mixture will represent a real solid fuel (or liquid fuel absorbed in an inert matrix). Thus achieved steady burning would represent the potential for real solid fuels to achieve steady burning in microgravity. Other than a candle flame, this has not been shown before."
+    },
+    {
+      "id": "PSI-20:meta:researchImpacts",
+      "locator": {
+        "kind": "metadata",
+        "field": "researchImpacts"
+      },
+      "text": "BRE yielded important data relevant to spacecraft fire safety. Quasi-steady burning corresponding to various condensed-phase materials (such as PMMA and Nylon) was observed in microgravity despite the absence of air flow, where the cessation of ventilation is an established step in putting out spacecraft fires. The ongoing combustion without air flow was notably seen in elevated-oxygen atmospheres which are being considered for use in future spacecraft, whereas such flames in a normal atmosphere of 21% oxygen self-extinguished in a short time. While BRE’s results are still preliminary, they suggest that NASA may want to increase use of its alternative flammability Test 2, with the cone calorimeter, where that test can measure material properties corresponding to the microgravity flames observed with the BRE burner."
+    },
+    {
+      "id": "PSI-20:meta:experimentHardware",
+      "locator": {
+        "kind": "metadata",
+        "field": "experimentHardware"
+      },
+      "text": "Combustion Integrated Rack (CIR), ACME"
+    },
+    {
+      "id": "PSI-20:meta:publications[0].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[0].title"
+      },
+      "text": "Burning on flat wicks at various orientations"
+    },
+    {
+      "id": "PSI-20:meta:publications[1].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[1].title"
+      },
+      "text": "A Gas Burner to Emulate Condensed-Phase Burning"
+    },
+    {
+      "id": "PSI-20:meta:publications[2].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[2].title"
+      },
+      "text": "Experimental Investigation of Liquid and Gas Fueled Flames Towards the Development of a Burning Rate Emulator (BRE) for Microgravity Applications"
+    },
+    {
+      "id": "PSI-20:meta:publications[3].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[3].title"
+      },
+      "text": "Burning in microgravity: Experimental results and analysis"
+    },
+    {
+      "id": "PSI-20:meta:publications[4].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[4].title"
+      },
+      "text": "Transient dynamics of radiative extinction in low-momentum microgravity diffusion flames"
+    },
+    {
+      "id": "PSI-20:meta:publications[5].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[5].title"
+      },
+      "text": "Emulation of condensed fuel flames with gaseous fuels supplied through a porous copper calorimeter"
+    },
+    {
+      "id": "PSI-20:meta:publications[6].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[6].title"
+      },
+      "text": "Radiative Extinction of Laminar Diffusion Flame above the Flat Porous Burner in Microgravity: A Computational Study"
+    },
+    {
+      "id": "PSI-20:meta:publications[7].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[7].title"
+      },
+      "text": "Transient ellipsoidal combustion model for a porous burner in microgravity"
+    },
+    {
+      "id": "PSI-20:meta:publications[8].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[8].title"
+      },
+      "text": "Measuring heat flux to a porous burner in microgravity"
+    },
+    {
+      "id": "PSI-20:meta:publications[9].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[9].title"
+      },
+      "text": "Analysis of extinction and sustained ignition"
+    },
+    {
+      "id": "PSI-20:meta:publications[10].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[10].title"
+      },
+      "text": "A Burning Rate Emulator (BRE) for study of condensed fuel burning in microgravity"
+    },
+    {
+      "id": "PSI-20:meta:publications[11].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[11].title"
+      },
+      "text": "Study of ignition and extinction of small-scale fires in experiments with an emulating gas burner"
+    },
+    {
+      "id": "PSI-20:meta:publications[12].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[12].title"
+      },
+      "text": "Emulation of condensed fuel flames with gases in microgravity"
+    },
+    {
+      "id": "PSI-20:meta:publications[13].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[13].title"
+      },
+      "text": "Flammability maps for microgravity burning of a small flat material in a quiescent ambient"
+    },
+    {
+      "id": "PSI-20:meta:publications[14].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[14].title"
+      },
+      "text": "Demonstrating steady burning for small flat materials in microgravity in a quiescent ambient"
+    },
+    {
+      "id": "PSI-20:meta:publications[15].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[15].title"
+      },
+      "text": "Theoretical analysis and predictions of burning in microgravity using a burning emulator"
+    },
+    {
+      "id": "PSI-20:table:67900e38b7b6ff8e6502900c:v1:r1",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-20",
+        "file_id": "67900e38b7b6ff8e6502900c",
+        "key": "psi-data/PSI-20/Experimental table/PSI-20_Experimental table_ACME BRE.csv",
+        "version": 1,
+        "filename": "PSI-20_Experimental table_ACME BRE.csv",
+        "sha256": "4aa5d3f98708ceacced5c620d46858b9965f8d4d941b203229f46467d53e5ab7",
+        "row": 1,
+        "record_id": "PSI-20:acme-bre:1"
+      },
+      "text": "Year: 2019 | Month: Feb | Date: 8 | Burner Size (mm): 25 | Fuel Bottle: 100% C2H4 | Oxygen Conc (percent): 21; 26.5; 40 | Flames Ignited: 10 | Notes: Oxygen Conc. (as diluted with nitrogen on a volume basis) was varied between tests where approximate concentrations for tests that ignited are listed. The chamber pressures were also varied but are not identified in this summary table."
+    },
+    {
+      "id": "PSI-20:table:67900e38b7b6ff8e6502900c:v1:r2",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-20",
+        "file_id": "67900e38b7b6ff8e6502900c",
+        "key": "psi-data/PSI-20/Experimental table/PSI-20_Experimental table_ACME BRE.csv",
+        "version": 1,
+        "filename": "PSI-20_Experimental table_ACME BRE.csv",
+        "sha256": "4aa5d3f98708ceacced5c620d46858b9965f8d4d941b203229f46467d53e5ab7",
+        "row": 2,
+        "record_id": "PSI-20:acme-bre:2"
+      },
+      "text": "Year: 2019 | Month: Feb | Date: 20 | Burner Size (mm): 25 | Fuel Bottle: 100% C2H4 | Oxygen Conc (percent): 26.5; 34 | Flames Ignited: 8 | Notes: Flames Ignited is the number ignited on that day (neglecting the day change on ISS)."
+    },
+    {
+      "id": "PSI-20:table:67900e38b7b6ff8e6502900c:v1:r3",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-20",
+        "file_id": "67900e38b7b6ff8e6502900c",
+        "key": "psi-data/PSI-20/Experimental table/PSI-20_Experimental table_ACME BRE.csv",
+        "version": 1,
+        "filename": "PSI-20_Experimental table_ACME BRE.csv",
+        "sha256": "4aa5d3f98708ceacced5c620d46858b9965f8d4d941b203229f46467d53e5ab7",
+        "row": 3,
+        "record_id": "PSI-20:acme-bre:3"
+      },
+      "text": "Year: 2019 | Month: Feb | Date: 25 | Burner Size (mm): 25 | Fuel Bottle: 50% C2H4 | Oxygen Conc (percent): 21; 26.5; 34; 40 | Flames Ignited: 8"
+    },
+    {
+      "id": "PSI-20:table:67900e38b7b6ff8e6502900c:v1:r4",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-20",
+        "file_id": "67900e38b7b6ff8e6502900c",
+        "key": "psi-data/PSI-20/Experimental table/PSI-20_Experimental table_ACME BRE.csv",
+        "version": 1,
+        "filename": "PSI-20_Experimental table_ACME BRE.csv",
+        "sha256": "4aa5d3f98708ceacced5c620d46858b9965f8d4d941b203229f46467d53e5ab7",
+        "row": 4,
+        "record_id": "PSI-20:acme-bre:4"
+      },
+      "text": "Year: 2019 | Month: March | Date: 4 | Burner Size (mm): 25 | Fuel Bottle: 50% C2H4 | Oxygen Conc (percent): 26.5; 40 | Flames Ignited: 6"
+    },
+    {
+      "id": "PSI-20:table:67900e38b7b6ff8e6502900c:v1:r5",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-20",
+        "file_id": "67900e38b7b6ff8e6502900c",
+        "key": "psi-data/PSI-20/Experimental table/PSI-20_Experimental table_ACME BRE.csv",
+        "version": 1,
+        "filename": "PSI-20_Experimental table_ACME BRE.csv",
+        "sha256": "4aa5d3f98708ceacced5c620d46858b9965f8d4d941b203229f46467d53e5ab7",
+        "row": 5,
+        "record_id": "PSI-20:acme-bre:5"
+      },
+      "text": "Year: 2019 | Month: March | Date: 7 | Burner Size (mm): 25 | Fuel Bottle: 50% C2H4 | Oxygen Conc (percent): 3400% | Flames Ignited: 6"
+    },
+    {
+      "id": "PSI-20:table:67900e38b7b6ff8e6502900c:v1:r6",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-20",
+        "file_id": "67900e38b7b6ff8e6502900c",
+        "key": "psi-data/PSI-20/Experimental table/PSI-20_Experimental table_ACME BRE.csv",
+        "version": 1,
+        "filename": "PSI-20_Experimental table_ACME BRE.csv",
+        "sha256": "4aa5d3f98708ceacced5c620d46858b9965f8d4d941b203229f46467d53e5ab7",
+        "row": 6,
+        "record_id": "PSI-20:acme-bre:6"
+      },
+      "text": "Year: 2019 | Month: March | Date: 11 | Burner Size (mm): 25 | Fuel Bottle: 50% C2H4 | Oxygen Conc (percent): 26.5; 34 | Flames Ignited: 7"
+    },
+    {
+      "id": "PSI-20:table:67900e38b7b6ff8e6502900c:v1:r7",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-20",
+        "file_id": "67900e38b7b6ff8e6502900c",
+        "key": "psi-data/PSI-20/Experimental table/PSI-20_Experimental table_ACME BRE.csv",
+        "version": 1,
+        "filename": "PSI-20_Experimental table_ACME BRE.csv",
+        "sha256": "4aa5d3f98708ceacced5c620d46858b9965f8d4d941b203229f46467d53e5ab7",
+        "row": 7,
+        "record_id": "PSI-20:acme-bre:7"
+      },
+      "text": "Year: 2019 | Month: March | Date: 28 | Burner Size (mm): 25 | Fuel Bottle: 100%C2H4 | Oxygen Conc (percent): 26.5; 34 | Flames Ignited: 8"
+    },
+    {
+      "id": "PSI-20:table:67900e38b7b6ff8e6502900c:v1:r8",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-20",
+        "file_id": "67900e38b7b6ff8e6502900c",
+        "key": "psi-data/PSI-20/Experimental table/PSI-20_Experimental table_ACME BRE.csv",
+        "version": 1,
+        "filename": "PSI-20_Experimental table_ACME BRE.csv",
+        "sha256": "4aa5d3f98708ceacced5c620d46858b9965f8d4d941b203229f46467d53e5ab7",
+        "row": 8,
+        "record_id": "PSI-20:acme-bre:8"
+      },
+      "text": "Year: 2019 | Month: April | Date: 1 | Burner Size (mm): 25 | Fuel Bottle: 100%C2H4 | Oxygen Conc (percent): 2100% | Flames Ignited: 0"
+    },
+    {
+      "id": "PSI-20:table:67900e38b7b6ff8e6502900c:v1:r9",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-20",
+        "file_id": "67900e38b7b6ff8e6502900c",
+        "key": "psi-data/PSI-20/Experimental table/PSI-20_Experimental table_ACME BRE.csv",
+        "version": 1,
+        "filename": "PSI-20_Experimental table_ACME BRE.csv",
+        "sha256": "4aa5d3f98708ceacced5c620d46858b9965f8d4d941b203229f46467d53e5ab7",
+        "row": 9,
+        "record_id": "PSI-20:acme-bre:9"
+      },
+      "text": "Year: 2019 | Month: April | Date: 4 | Burner Size (mm): 25 | Fuel Bottle: 100%C2H4 | Oxygen Conc (percent): 21; 26.5; 34 | Flames Ignited: 9"
+    },
+    {
+      "id": "PSI-20:table:67900e38b7b6ff8e6502900c:v1:r10",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-20",
+        "file_id": "67900e38b7b6ff8e6502900c",
+        "key": "psi-data/PSI-20/Experimental table/PSI-20_Experimental table_ACME BRE.csv",
+        "version": 1,
+        "filename": "PSI-20_Experimental table_ACME BRE.csv",
+        "sha256": "4aa5d3f98708ceacced5c620d46858b9965f8d4d941b203229f46467d53e5ab7",
+        "row": 10,
+        "record_id": "PSI-20:acme-bre:10"
+      },
+      "text": "Year: 2020 | Month: Sept | Date: 3 | Burner Size (mm): 50 | Fuel Bottle: 100% C2H4 | Oxygen Conc (percent): 25; 34; 40 | Flames Ignited: 13"
+    },
+    {
+      "id": "PSI-20:table:67900e38b7b6ff8e6502900c:v1:r11",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-20",
+        "file_id": "67900e38b7b6ff8e6502900c",
+        "key": "psi-data/PSI-20/Experimental table/PSI-20_Experimental table_ACME BRE.csv",
+        "version": 1,
+        "filename": "PSI-20_Experimental table_ACME BRE.csv",
+        "sha256": "4aa5d3f98708ceacced5c620d46858b9965f8d4d941b203229f46467d53e5ab7",
+        "row": 11,
+        "record_id": "PSI-20:acme-bre:11"
+      },
+      "text": "Year: 2020 | Month: Oct | Date: 17 | Burner Size (mm): 25 | Fuel Bottle: 100% C2H4 | Oxygen Conc (percent): 26.5; 34 | Flames Ignited: 13"
+    },
+    {
+      "id": "PSI-20:table:67900e38b7b6ff8e6502900c:v1:r12",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-20",
+        "file_id": "67900e38b7b6ff8e6502900c",
+        "key": "psi-data/PSI-20/Experimental table/PSI-20_Experimental table_ACME BRE.csv",
+        "version": 1,
+        "filename": "PSI-20_Experimental table_ACME BRE.csv",
+        "sha256": "4aa5d3f98708ceacced5c620d46858b9965f8d4d941b203229f46467d53e5ab7",
+        "row": 12,
+        "record_id": "PSI-20:acme-bre:12"
+      },
+      "text": "Year: 2020 | Month: Dec | Date: 5 | Burner Size (mm): 25 | Fuel Bottle: 100% CH4 | Oxygen Conc (percent): 25; 34; 40 | Flames Ignited: 21"
+    },
+    {
+      "id": "PSI-20:table:67900e38b7b6ff8e6502900c:v1:r13",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-20",
+        "file_id": "67900e38b7b6ff8e6502900c",
+        "key": "psi-data/PSI-20/Experimental table/PSI-20_Experimental table_ACME BRE.csv",
+        "version": 1,
+        "filename": "PSI-20_Experimental table_ACME BRE.csv",
+        "sha256": "4aa5d3f98708ceacced5c620d46858b9965f8d4d941b203229f46467d53e5ab7",
+        "row": 13,
+        "record_id": "PSI-20:acme-bre:13"
+      },
+      "text": "Year: 2020 | Month: Dec | Date: 4 | Burner Size (mm): 25 | Fuel Bottle: 100% CH4 | Oxygen Conc (percent): 25; 40 | Flames Ignited: 18"
+    },
+    {
+      "id": "PSI-20:table:67900e38b7b6ff8e6502900c:v1:r14",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-20",
+        "file_id": "67900e38b7b6ff8e6502900c",
+        "key": "psi-data/PSI-20/Experimental table/PSI-20_Experimental table_ACME BRE.csv",
+        "version": 1,
+        "filename": "PSI-20_Experimental table_ACME BRE.csv",
+        "sha256": "4aa5d3f98708ceacced5c620d46858b9965f8d4d941b203229f46467d53e5ab7",
+        "row": 14,
+        "record_id": "PSI-20:acme-bre:14"
+      },
+      "text": "Year: 2020 | Month: Dec | Date: 11 | Burner Size (mm): 25 | Fuel Bottle: 50% C2H4 | Oxygen Conc (percent): 25; 40 | Flames Ignited: 12"
+    },
+    {
+      "id": "PSI-20:table:67900e38b7b6ff8e6502900c:v1:r15",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-20",
+        "file_id": "67900e38b7b6ff8e6502900c",
+        "key": "psi-data/PSI-20/Experimental table/PSI-20_Experimental table_ACME BRE.csv",
+        "version": 1,
+        "filename": "PSI-20_Experimental table_ACME BRE.csv",
+        "sha256": "4aa5d3f98708ceacced5c620d46858b9965f8d4d941b203229f46467d53e5ab7",
+        "row": 15,
+        "record_id": "PSI-20:acme-bre:15"
+      },
+      "text": "Year: 2020 | Month: Dec | Date: 17 | Burner Size (mm): 25 | Fuel Bottle: 100% C2H4 | Oxygen Conc (percent): 34; 40 | Flames Ignited: 10"
+    },
+    {
+      "id": "PSI-20:table:67900e38b7b6ff8e6502900c:v1:r16",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-20",
+        "file_id": "67900e38b7b6ff8e6502900c",
+        "key": "psi-data/PSI-20/Experimental table/PSI-20_Experimental table_ACME BRE.csv",
+        "version": 1,
+        "filename": "PSI-20_Experimental table_ACME BRE.csv",
+        "sha256": "4aa5d3f98708ceacced5c620d46858b9965f8d4d941b203229f46467d53e5ab7",
+        "row": 16,
+        "record_id": "PSI-20:acme-bre:16"
+      },
+      "text": "Year: 2020 | Month: Dec | Date: 23 | Burner Size (mm): 25 | Fuel Bottle: 100% C2H4 | Oxygen Conc (percent): 25; 34; 40 | Flames Ignited: 17"
+    },
+    {
+      "id": "PSI-20:table:67900e38b7b6ff8e6502900c:v1:r17",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-20",
+        "file_id": "67900e38b7b6ff8e6502900c",
+        "key": "psi-data/PSI-20/Experimental table/PSI-20_Experimental table_ACME BRE.csv",
+        "version": 1,
+        "filename": "PSI-20_Experimental table_ACME BRE.csv",
+        "sha256": "4aa5d3f98708ceacced5c620d46858b9965f8d4d941b203229f46467d53e5ab7",
+        "row": 17,
+        "record_id": "PSI-20:acme-bre:17"
+      },
+      "text": "Year: 2021 | Month: Jan | Date: 20 | Burner Size (mm): 25 | Fuel Bottle: 100% C2H4 | Oxygen Conc (percent): 21; 26.5; 34 | Flames Ignited: 15"
+    },
+    {
+      "id": "PSI-20:table:67900e38b7b6ff8e6502900c:v1:r18",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-20",
+        "file_id": "67900e38b7b6ff8e6502900c",
+        "key": "psi-data/PSI-20/Experimental table/PSI-20_Experimental table_ACME BRE.csv",
+        "version": 1,
+        "filename": "PSI-20_Experimental table_ACME BRE.csv",
+        "sha256": "4aa5d3f98708ceacced5c620d46858b9965f8d4d941b203229f46467d53e5ab7",
+        "row": 18,
+        "record_id": "PSI-20:acme-bre:18"
+      },
+      "text": "Year: 2021 | Month: Jan | Date: 28 | Burner Size (mm): 50 | Fuel Bottle: 100% C2H4 | Oxygen Conc (percent): 25; 34; 40 | Flames Ignited: 13"
+    }
+  ],
+  "documents": [],
+  "tables": [
+    {
+      "accession": "PSI-20",
+      "file_id": "67900e38b7b6ff8e6502900c",
+      "key": "psi-data/PSI-20/Experimental table/PSI-20_Experimental table_ACME BRE.csv",
+      "version": 1,
+      "filename": "PSI-20_Experimental table_ACME BRE.csv",
+      "sha256": "4aa5d3f98708ceacced5c620d46858b9965f8d4d941b203229f46467d53e5ab7",
+      "rows": 18
+    }
+  ]
+}

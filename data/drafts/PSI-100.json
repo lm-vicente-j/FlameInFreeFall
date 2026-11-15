@@ -1,0 +1,145 @@
+{
+  "accession": "PSI-100",
+  "summary": {
+    "text": "SAFFIRE-III is a spacecraft fire experiment run on a Cygnus vehicle that aims to determine large-scale fire growth rate and flammability limits in low gravity.",
+    "evidence_ids": [
+      "E1",
+      "E2"
+    ]
+  },
+  "safety_categories": [],
+  "comparison": {
+    "fuels": {
+      "text": "SIBAL used as the sample material.",
+      "evidence_ids": [
+        "E4"
+      ]
+    },
+    "geometry": null,
+    "oxygen": null,
+    "pressure": null,
+    "flow": {
+      "text": "Flow velocity of 30 cm/s, concurrent or opposed; Saffire I used 20 cm/s.",
+      "evidence_ids": [
+        "E5"
+      ]
+    },
+    "gravity": {
+      "text": "Low-gravity conditions.",
+      "evidence_ids": [
+        "E1"
+      ]
+    },
+    "measurements": {
+      "text": "Thermocouples (flow, flame, plume temperatures), radiometers (flame radiation), solid state sensors (pressure, CO2 and O2 mole faction), and anemometers (flow velocity).",
+      "evidence_ids": [
+        "E6"
+      ]
+    },
+    "hardware": {
+      "text": "Saffire III enclosure in Cygnus.",
+      "evidence_ids": [
+        "E7"
+      ]
+    }
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "type": "objective",
+      "text": "The investigation aims to determine how rapidly a large scale fire grows in low-gravity.",
+      "evidence_ids": [
+        "E1"
+      ]
+    },
+    {
+      "id": "C2",
+      "type": "objective",
+      "text": "The investigation aims to investigate low-g flammability limits compared to those obtained in the normal gravity material flammability screening test.",
+      "evidence_ids": [
+        "E2"
+      ]
+    },
+    {
+      "id": "C3",
+      "type": "hypothesis",
+      "text": "The investigation hypothesizes that using terrestrial fires and fire standards to design spacecraft fire safety systems presents an inherent risk because of the significant level of uncertainty.",
+      "evidence_ids": [
+        "E3"
+      ]
+    }
+  ],
+  "findings": [],
+  "limitations": [
+    {
+      "text": "Sample and experimental parameter details are held in a separate Experimental Details file that is not part of the metadata text.",
+      "basis": "source",
+      "evidence_ids": [
+        "E8"
+      ]
+    },
+    {
+      "text": "This draft cites PSI metadata and no PDF text. The packet also includes official table passages whose findings have not been incorporated or reviewed.",
+      "basis": "coverage",
+      "evidence_ids": []
+    }
+  ],
+  "modeling_resources": [
+    {
+      "description": "Experimental table and raw sensor telemetry (temperature, radiation, pressure, CO2 and O2, flow velocity) could support future predictive modeling. No model is claimed to exist or be validated.",
+      "file_keys": [
+        "psi-data/PSI-100/Experimental table/PSI-100_Experimental table_SAFFIRE-3.csv",
+        "psi-data/PSI-100/Raw Data/PSI-100_Raw Data_Raw telemetry file.csv"
+      ],
+      "evidence_ids": [
+        "E6"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E1",
+      "passage_id": "PSI-100:meta:objective",
+      "excerpt": "determine how rapidly a large scale fire grows in low-gravity"
+    },
+    {
+      "id": "E2",
+      "passage_id": "PSI-100:meta:objective",
+      "excerpt": "investigate the low-g flammability limits compared to those obtained in NASA"
+    },
+    {
+      "id": "E3",
+      "passage_id": "PSI-100:meta:hypothesis",
+      "excerpt": "the use of terrestrial fires and fire standards to design spacecraft fire safety systems presents an inherent risk to the vehicle because of the significant level of uncertainty"
+    },
+    {
+      "id": "E4",
+      "passage_id": "PSI-100:meta:approach",
+      "excerpt": "the Saffire III investigation also used SIBAL as the sample material"
+    },
+    {
+      "id": "E5",
+      "passage_id": "PSI-100:meta:approach",
+      "excerpt": "the experiments were conducted at a flow velocity of 30 cm/s compared to 20 cm/s during Saffire I. The flow was either concurrent or opposed."
+    },
+    {
+      "id": "E6",
+      "passage_id": "PSI-100:meta:approach",
+      "excerpt": "thermocouples provided flow, flame, and plume temperatures, two radiometers recorded flame radiation, solid state sensors were used to measure pressure, CO2 and O2 mole faction, and two anemometer tracked flow velocity"
+    },
+    {
+      "id": "E7",
+      "passage_id": "PSI-100:meta:experimentHardware",
+      "excerpt": "Saffire III enclosure in Cygnus"
+    },
+    {
+      "id": "E8",
+      "passage_id": "PSI-100:meta:approach",
+      "excerpt": "Details related to samples and experimental parameters are provided in the Experimental Details file in the Science document folder."
+    }
+  ],
+  "generation": {
+    "model": "claude-sonnet-5-5",
+    "generated_at": "2026-11-15T18:12:03+00:00"
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "accession": "PSI-99",
+  "source_version": 5,
+  "title": "Spacecraft Fire Experiment-II",
+  "acronym": "SAFFIRE-II",
+  "coverage": "metadata_only",
+  "summary": {
+    "text": "SAFFIRE-II is a spacecraft fire experiment run on a Cygnus vehicle that aims to determine large-scale fire growth rate and flammability limits in low gravity.",
+    "evidence_ids": [
+      "PSI-99:meta:objective#570526682dbf",
+      "PSI-99:meta:objective#59042543c221"
+    ]
+  },
+  "safety_categories": [],
+  "comparison": {
+    "fuels": {
+      "text": "Samples include SIBAL, silicone, structure PMMA, flat PMMA, and PMMA with Nomex.",
+      "evidence_ids": [
+        "PSI-99:meta:approach#37ec6fd4cd9b"
+      ]
+    },
+    "geometry": {
+      "text": "A sample card containing 9 samples, each 5 cm x 29 cm, is installed in the middle of a large flow duct.",
+      "evidence_ids": [
+        "PSI-99:meta:approach#bb56f825d5b0",
+        "PSI-99:meta:approach#4b24b72a3478"
+      ]
+    },
+    "oxygen": null,
+    "pressure": null,
+    "flow": {
+      "text": "Air flow velocity of either 20 or 30 cm/s depending on sample material, concurrent or opposed.",
+      "evidence_ids": [
+        "PSI-99:meta:approach#9845c3d384be"
+      ]
+    },
+    "gravity": {
+      "text": "Low-gravity conditions.",
+      "evidence_ids": [
+        "PSI-99:meta:objective#570526682dbf"
+      ]
+    },
+    "measurements": {
+      "text": "Thermocouples (flow, flame, plume temperatures), radiometers (flame radiation), solid state sensors (pressure, CO2 and O2 mole faction), and anemometers (flow velocity).",
+      "evidence_ids": [
+        "PSI-99:meta:approach#55408a1bf55d"
+      ]
+    },
+    "hardware": {
+      "text": "Cygnus Pressurized Cargo Module, SAFFIRE.",
+      "evidence_ids": [
+        "PSI-99:meta:experimentHardware#74b0ffd819f8"
+      ]
+    }
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "type": "objective",
+      "text": "The investigation aims to determine how rapidly a large scale fire grows in low-gravity.",
+      "evidence_ids": [
+        "PSI-99:meta:objective#570526682dbf"
+      ]
+    },
+    {
+      "id": "C2",
+      "type": "objective",
+      "text": "The investigation aims to investigate low-g flammability limits compared to those obtained in the normal gravity material flammability screening test.",
+      "evidence_ids": [
+        "PSI-99:meta:objective#59042543c221"
+      ]
+    },
+    {
+      "id": "C3",
+      "type": "hypothesis",
+      "text": "The investigation hypothesizes that using terrestrial fires and fire standards to design spacecraft fire safety systems presents an inherent risk because of the significant level of uncertainty.",
+      "evidence_ids": [
+        "PSI-99:meta:hypothesis#265a497897a0"
+      ]
+    }
+  ],
+  "findings": [],
+  "limitations": [
+    {
+      "text": "Sample and experimental parameter details are held in a separate Experimental Details file that is not part of the metadata text.",
+      "basis": "source",
+      "evidence_ids": [
+        "PSI-99:meta:approach#84ecc5764493"
+      ]
+    },
+    {
+      "text": "This draft cites PSI metadata and no PDF text. The packet also includes official table passages whose findings have not been incorporated or reviewed.",
+      "basis": "coverage",
+      "evidence_ids": []
+    }
+  ],
+  "modeling_resources": [
+    {
+      "description": "Experimental table and instrument data (temperature, radiation, pressure, CO2 and O2, flow velocity) could support future predictive modeling. No model is claimed to exist or be validated.",
+      "file_keys": [
+        "psi-data/PSI-99/Experimental table/PSI-99_Experimental table_SAFFIRE-2.csv"
+      ],
+      "evidence_ids": [
+        "PSI-99:meta:approach#55408a1bf55d"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "PSI-99:meta:objective#570526682dbf",
+      "passage_id": "PSI-99:meta:objective",
+      "investigation": "PSI-99",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-99",
+      "locator": {
+        "kind": "metadata",
+        "field": "objective"
+      },
+      "excerpt": "determine how rapidly a large scale fire grows in low-gravity"
+    },
+    {
+      "id": "PSI-99:meta:objective#59042543c221",
+      "passage_id": "PSI-99:meta:objective",
+      "investigation": "PSI-99",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-99",
+      "locator": {
+        "kind": "metadata",
+        "field": "objective"
+      },
+      "excerpt": "investigate the low-g flammability limits compared to those obtained in NASA"
+    },
+    {
+      "id": "PSI-99:meta:hypothesis#265a497897a0",
+      "passage_id": "PSI-99:meta:hypothesis",
+      "investigation": "PSI-99",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-99",
+      "locator": {
+        "kind": "metadata",
+        "field": "hypothesis"
+      },
+      "excerpt": "the use of terrestrial fires and fire standards to design spacecraft fire safety systems presents an inherent risk to the vehicle because of the significant level of uncertainty"
+    },
+    {
+      "id": "PSI-99:meta:approach#bb56f825d5b0",
+      "passage_id": "PSI-99:meta:approach",
+      "investigation": "PSI-99",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-99",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "excerpt": "Saffire-II has a sample card that contains 9 samples, each 5 cm x 29 cm."
+    },
+    {
+      "id": "PSI-99:meta:approach#9845c3d384be",
+      "passage_id": "PSI-99:meta:approach",
+      "investigation": "PSI-99",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-99",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "excerpt": "Depending on the sample material, the Saffire-II was conducted at an air flow velocity of either 20 or 30 cm/s, the flow being either concurrent or opposed."
+    },
+    {
+      "id": "PSI-99:meta:approach#55408a1bf55d",
+      "passage_id": "PSI-99:meta:approach",
+      "investigation": "PSI-99",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-99",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "excerpt": "thermocouples provided flow, flame, and plume temperatures, two radiometers recorded flame radiation, solid state sensors were used to measure pressure, CO2 and O2 mole faction, and two anemometer tracked flow velocity"
+    },
+    {
+      "id": "PSI-99:meta:experimentHardware#74b0ffd819f8",
+      "passage_id": "PSI-99:meta:experimentHardware",
+      "investigation": "PSI-99",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-99",
+      "locator": {
+        "kind": "metadata",
+        "field": "experimentHardware"
+      },
+      "excerpt": "Cygnus Pressurized Cargo Module, SAFFIRE"
+    },
+    {
+      "id": "PSI-99:meta:approach#37ec6fd4cd9b",
+      "passage_id": "PSI-99:meta:approach",
+      "investigation": "PSI-99",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-99",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "excerpt": "added more samples including SIBAL, silicone, structure PMMA, flat PMMA, and PMMA with Nomex"
+    },
+    {
+      "id": "PSI-99:meta:approach#4b24b72a3478",
+      "passage_id": "PSI-99:meta:approach",
+      "investigation": "PSI-99",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-99",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "excerpt": "sample card installed in the middle of a large flow duct"
+    },
+    {
+      "id": "PSI-99:meta:approach#84ecc5764493",
+      "passage_id": "PSI-99:meta:approach",
+      "investigation": "PSI-99",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-99",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "excerpt": "Details related to samples and experimental parameters are provided in the Experimental Details file in the Science document folder."
+    }
+  ],
+  "generation": {
+    "method": "skill",
+    "skill": "research-card",
+    "model": "claude-sonnet-5-5",
+    "generated_at": "2026-11-15T18:12:20+00:00"
+  },
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "notes": ""
+  }
+}

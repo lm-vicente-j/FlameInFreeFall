@@ -1,0 +1,179 @@
+{
+  "accession": "PSI-23",
+  "summary": {
+    "text": "The investigation proposes experiments with hydrogen, methane and ethylene mixtures burned on a spherical porous burner to compare flame structure and extinction behavior with detailed numerical simulation.",
+    "evidence_ids": [
+      "E5",
+      "E7",
+      "E4"
+    ]
+  },
+  "safety_categories": [],
+  "comparison": {
+    "fuels": {
+      "text": "Hydrogen, methane, and ethylene, with nitrogen, helium and carbon dioxide diluents.",
+      "evidence_ids": [
+        "E7",
+        "E8"
+      ]
+    },
+    "geometry": {
+      "text": "Spherical porous burner producing a nominally spherical, one-dimensional stabilized flame.",
+      "evidence_ids": [
+        "E5"
+      ]
+    },
+    "oxygen": null,
+    "pressure": null,
+    "flow": {
+      "text": "Different flow rates are listed as a varied parameter; no values are given.",
+      "evidence_ids": [
+        "E12"
+      ]
+    },
+    "gravity": {
+      "text": "Microgravity, described as a buoyancy-free environment.",
+      "evidence_ids": [
+        "E11"
+      ]
+    },
+    "measurements": {
+      "text": "Spectrally resolved images, flame and burner temperatures, radiative flux, and system operating conditions.",
+      "evidence_ids": [
+        "E6"
+      ]
+    },
+    "hardware": {
+      "text": "Combustion Integrated Rack (CIR) and ACME.",
+      "evidence_ids": [
+        "E10"
+      ]
+    }
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "type": "objective",
+      "text": "The investigation aims to measure and characterize the transient structure of diffusion flames established at initially non-steady, spherical flame structures.",
+      "evidence_ids": [
+        "E1"
+      ]
+    },
+    {
+      "id": "C2",
+      "type": "objective",
+      "text": "The investigation aims to determine the quasi-steady convective/chemical-kinetic extinction limits.",
+      "evidence_ids": [
+        "E2"
+      ]
+    },
+    {
+      "id": "C3",
+      "type": "objective",
+      "text": "The investigation aims to determine the existence, onset, and nature of pulsating instabilities theoretically predicted to occur in transient spherical diffusion flames.",
+      "evidence_ids": [
+        "E3"
+      ]
+    },
+    {
+      "id": "C4",
+      "type": "hypothesis",
+      "text": "The investigation proposes that flame descriptions obtained from the experiment, including flame structure, extinctions and instabilities, comprise a rigorous test of the detailed numerical model.",
+      "evidence_ids": [
+        "E4"
+      ]
+    }
+  ],
+  "findings": [],
+  "limitations": [
+    {
+      "text": "The source states that little of the planned test matrix can be adequately explored in ground based test facilities because of time and g-jitter limitations.",
+      "basis": "source",
+      "evidence_ids": [
+        "E9"
+      ]
+    },
+    {
+      "text": "This draft cites PSI metadata and no PDF text. The packet also includes official table passages whose findings have not been incorporated or reviewed.",
+      "basis": "coverage",
+      "evidence_ids": []
+    }
+  ],
+  "modeling_resources": [
+    {
+      "description": "Experimental table for the s-Flame investigation, relevant to temperature, imaging and radiative flux measurements.",
+      "file_keys": [
+        "psi-data/PSI-23/Experimental table/PSI-23_Experimental table_ACME s-Flame.csv"
+      ],
+      "evidence_ids": [
+        "E6"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E1",
+      "passage_id": "PSI-23:meta:objective",
+      "excerpt": "Measure and characterize the transient structure (such as temperature and species distribution) of diffusion flames established at initially non-steady, spherical flame structures"
+    },
+    {
+      "id": "E2",
+      "passage_id": "PSI-23:meta:objective",
+      "excerpt": "Determine the quasi-steady convective/chemical-kinetic extinction limits"
+    },
+    {
+      "id": "E3",
+      "passage_id": "PSI-23:meta:objective",
+      "excerpt": "Determine the existence (for different Zeldovich number, Ze), onset (as a function Da), and nature (i.e. mode, frequency, amplitude) of pulsating instabilities theoretically predicted to occur in transient spherical diffusion flames"
+    },
+    {
+      "id": "E4",
+      "passage_id": "PSI-23:meta:hypothesis",
+      "excerpt": "Each description of the flames obtained from the experiment, including measurements of aspects of the flame structure, growth or flame front velocities, and the specific test conditions where steady state flames, flame extinctions, flame front instabilities, soot suppression limits, etc., comprise a rigorous test of the detailed model."
+    },
+    {
+      "id": "E5",
+      "passage_id": "PSI-23:meta:approach",
+      "excerpt": "mixtures of various gaseous fuels and diluents will be issued into an oxidizing environment through a spherical porous burner and ignited to obtain, nominally, a spherical, one-dimensional stabilized flame."
+    },
+    {
+      "id": "E6",
+      "passage_id": "PSI-23:meta:approach",
+      "excerpt": "Synchronized measurements are to be made including spectrally resolved images, flame and burner temperatures, radiative flux measurements, and system operating conditions"
+    },
+    {
+      "id": "E7",
+      "passage_id": "PSI-23:meta:approach",
+      "excerpt": "Conventional gaseous fuels including hydrogen, methane, and ethylene will be used."
+    },
+    {
+      "id": "E8",
+      "passage_id": "PSI-23:meta:approach",
+      "excerpt": "Diluents mixed with fuel are to include nitrogen and helium to adjust mixture diffusivities, and carbon dioxide to influence flame radiation characteristics."
+    },
+    {
+      "id": "E9",
+      "passage_id": "PSI-23:meta:hypothesis",
+      "excerpt": "Due to time and g-jitter limitations, little of the planned test matrix can be adequately explored in the ground based test facilities"
+    },
+    {
+      "id": "E10",
+      "passage_id": "PSI-23:meta:experimentHardware",
+      "excerpt": "Combustion Integrated Rack (CIR), ACME"
+    },
+    {
+      "id": "E11",
+      "passage_id": "PSI-23:meta:researchImpacts",
+      "excerpt": "the unique buoyancy-free environment offered by microgravity"
+    },
+    {
+      "id": "E12",
+      "passage_id": "PSI-23:meta:objective",
+      "excerpt": "different C2H4/diluent ratios (sooty), for different flow rates."
+    }
+  ],
+  "generation": {
+    "model": "claude-sonnet-5-5",
+    "generated_at": "2026-11-15T18:12:12+00:00"
+  }
+}

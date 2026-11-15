@@ -1,0 +1,203 @@
+{
+  "accession": "PSI-142",
+  "source_version": 2,
+  "title": "Quantitative Studies of Cool Flame Transitions at Radiation / Stretch Extinction Using Counterflow Flames",
+  "acronym": "",
+  "coverage": "metadata_only",
+  "summary": {
+    "text": "This investigation aims to conduct simulations and ground-based experiments with ozone-sensitized counterflow flames, and hypothesizes that oxygen concentration, dilution, pressure, diffusion, and convection affect the cool flame transition.",
+    "evidence_ids": [
+      "PSI-142:meta:objective#d9dd5186bfaa",
+      "PSI-142:meta:hypothesis#03db92a5dc90"
+    ]
+  },
+  "safety_categories": [],
+  "comparison": {
+    "fuels": {
+      "text": "n-heptane/air mixture and dimethyl ether (DME)/air mixtures in the modeling schemes.",
+      "evidence_ids": [
+        "PSI-142:meta:approach#1a2f53207127"
+      ]
+    },
+    "geometry": {
+      "text": "One-dimensional geometry is to be maintained, using counterflow flames.",
+      "evidence_ids": [
+        "PSI-142:meta:objective#d9dd5186bfaa",
+        "PSI-142:meta:objective#67c84e58cb51"
+      ]
+    },
+    "oxygen": {
+      "text": "Oxygen concentration effects on cool-flame extinction limits were studied with three numerical modeling schemes.",
+      "evidence_ids": [
+        "PSI-142:meta:approach#39dc2b94408d"
+      ]
+    },
+    "pressure": {
+      "text": "Cool flame regimes and burning limits were simulated at elevated pressure (up to 20 atm).",
+      "evidence_ids": [
+        "PSI-142:meta:approach#1a2f53207127"
+      ]
+    },
+    "flow": null,
+    "gravity": null,
+    "measurements": {
+      "text": "Objective: obtain quantitative data of extinction limit, flame temperature, and species distribution (intended measurements).",
+      "evidence_ids": [
+        "PSI-142:meta:objective#0398e46bb623"
+      ]
+    },
+    "hardware": {
+      "text": "Principal Investigator Laboratory Hardware.",
+      "evidence_ids": [
+        "PSI-142:meta:experimentHardware#11270df6b4b0"
+      ]
+    }
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "type": "objective",
+      "text": "The grant aims to conduct new simulations and ground-based experiments using ozone-sensitized counterflow flames.",
+      "evidence_ids": [
+        "PSI-142:meta:objective#d9dd5186bfaa"
+      ]
+    },
+    {
+      "id": "C2",
+      "type": "hypothesis",
+      "text": "The investigation hypothesizes that oxygen concentration, dilution, pressure, diffusion, and convection transport processes affect the cool flame transition.",
+      "evidence_ids": [
+        "PSI-142:meta:hypothesis#03db92a5dc90"
+      ]
+    }
+  ],
+  "findings": [],
+  "limitations": [
+    {
+      "text": "The metadata field for research impacts contains statements phrased as results (for example, a warm flame double reaction zone structure). These were not recorded as reported observations because they appear in an impacts field, not in a document or an observation field.",
+      "basis": "source",
+      "evidence_ids": [
+        "PSI-142:meta:researchImpacts#b397fa2badb4"
+      ]
+    },
+    {
+      "text": "This draft cites PSI metadata and no PDF text. The packet also includes official table passages whose findings have not been incorporated or reviewed.",
+      "basis": "coverage",
+      "evidence_ids": []
+    }
+  ],
+  "modeling_resources": [
+    {
+      "description": "Candidate data for modeling: data summary table and workbook linked to the quantitative extinction, temperature and species data that the objectives set out to obtain. No model validation is claimed.",
+      "file_keys": [
+        "psi-data/PSI-142/Experimental table/PSI-142_Experimental table_Data Summary Table.csv",
+        "psi-data/PSI-142/Analyzed Data/PSI-142_Analyzed Data_PSI data summary Princeton with links.xlsx"
+      ],
+      "evidence_ids": [
+        "PSI-142:meta:objective#0398e46bb623"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "PSI-142:meta:objective#d9dd5186bfaa",
+      "passage_id": "PSI-142:meta:objective",
+      "investigation": "PSI-142",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-142",
+      "locator": {
+        "kind": "metadata",
+        "field": "objective"
+      },
+      "excerpt": "to conduct new simulations and ground-based experiments using ozone-sensitized counterflow flames"
+    },
+    {
+      "id": "PSI-142:meta:hypothesis#03db92a5dc90",
+      "passage_id": "PSI-142:meta:hypothesis",
+      "investigation": "PSI-142",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-142",
+      "locator": {
+        "kind": "metadata",
+        "field": "hypothesis"
+      },
+      "excerpt": "The investigation hypothesizes that factors such as oxygen concentration, dilution, pressure, diffusion, and convection transport processes affect the cool flame transition."
+    },
+    {
+      "id": "PSI-142:meta:approach#1a2f53207127",
+      "passage_id": "PSI-142:meta:approach",
+      "investigation": "PSI-142",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-142",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "excerpt": "(a) spark-assisted flame propagation of a n-heptane/air mixture, (b) one dimensional freely-propagating dimethyl ether (DME) flames using an arc-length continuation method and (c) simulated cool flame regimes and burning limits at elevated pressure (up to 20 atm) using DME/air mixtures"
+    },
+    {
+      "id": "PSI-142:meta:objective#0398e46bb623",
+      "passage_id": "PSI-142:meta:objective",
+      "investigation": "PSI-142",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-142",
+      "locator": {
+        "kind": "metadata",
+        "field": "objective"
+      },
+      "excerpt": "Obtain new, quantitative data of extinction limit, flame temperature, and species distribution"
+    },
+    {
+      "id": "PSI-142:meta:experimentHardware#11270df6b4b0",
+      "passage_id": "PSI-142:meta:experimentHardware",
+      "investigation": "PSI-142",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-142",
+      "locator": {
+        "kind": "metadata",
+        "field": "experimentHardware"
+      },
+      "excerpt": "Principal Investigator Laboratory Hardware"
+    },
+    {
+      "id": "PSI-142:meta:objective#67c84e58cb51",
+      "passage_id": "PSI-142:meta:objective",
+      "investigation": "PSI-142",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-142",
+      "locator": {
+        "kind": "metadata",
+        "field": "objective"
+      },
+      "excerpt": "while maintaining a one-dimensional geometry"
+    },
+    {
+      "id": "PSI-142:meta:approach#39dc2b94408d",
+      "passage_id": "PSI-142:meta:approach",
+      "investigation": "PSI-142",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-142",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "excerpt": "comparative studies of the oxygen concentration effects on the extinction limits of cool flames was conducted using three different numerical modeling schemes"
+    },
+    {
+      "id": "PSI-142:meta:researchImpacts#b397fa2badb4",
+      "passage_id": "PSI-142:meta:researchImpacts",
+      "investigation": "PSI-142",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-142",
+      "locator": {
+        "kind": "metadata",
+        "field": "researchImpacts"
+      },
+      "excerpt": "The results showed that the warm flame has a double reaction zone structure"
+    }
+  ],
+  "generation": {
+    "method": "skill",
+    "skill": "research-card",
+    "model": "claude-sonnet-5-5",
+    "generated_at": "2026-11-15T18:12:08+00:00"
+  },
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "notes": ""
+  }
+}

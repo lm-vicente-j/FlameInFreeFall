@@ -1,0 +1,352 @@
+{
+  "investigation": "PSI-99",
+  "title": "Spacecraft Fire Experiment-II",
+  "acronym": "SAFFIRE-II",
+  "metadata_version": 5,
+  "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-99",
+  "snapshot_retrieved_at": "2026-11-15T01:06:31.149797+00:00",
+  "coverage": "metadata_only",
+  "passages": [
+    {
+      "id": "PSI-99:meta:title",
+      "locator": {
+        "kind": "metadata",
+        "field": "title"
+      },
+      "text": "Spacecraft Fire Experiment-II"
+    },
+    {
+      "id": "PSI-99:meta:objective",
+      "locator": {
+        "kind": "metadata",
+        "field": "objective"
+      },
+      "text": "The objectives of SAFFIRE-II are to determine how rapidly a large scale fire grows in low-gravity and to investigate the low-g flammability limits compared to those obtained in NASA’s normal gravity material flammability screening test."
+    },
+    {
+      "id": "PSI-99:meta:approach",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "text": "The Saffire-II experiment was performed on the Orbital Science’s Cygnus resupply vehicle after it deberthed from the ISS. As a follow on to the Saffire-I investigation, the Saffire-II investigation added more samples including SIBAL, silicone, structure PMMA, flat PMMA, and PMMA with Nomex. The Saffire-1I flight unit had a sample card installed in the middle of a large flow duct. Air is drawn through the flow duct by fans located at the top of the duct with flow straighteners at the bottom of the experiment module. Saffire-II has a sample card that contains 9 samples, each 5 cm x 29 cm. Depending on the sample material, the Saffire-II was conducted at an air flow velocity of either 20 or 30 cm/s, the flow being either concurrent or opposed.  Once the sample was ignited flame images were captured using two cameras. In addition, thermocouples provided flow, flame, and plume temperatures, two radiometers recorded flame radiation, solid state sensors were used to measure pressure, CO2 and O2 mole faction, and two anemometer tracked flow velocity. All data was compressed, and subsequently downlinked. Details related to samples and experimental parameters are provided in the Experimental Details file in the Science document folder."
+    },
+    {
+      "id": "PSI-99:meta:hypothesis",
+      "locator": {
+        "kind": "metadata",
+        "field": "hypothesis"
+      },
+      "text": "This investigation hypothesizes that due to large differences between fire behavior in normal and reduced gravity, the use of terrestrial fires and fire standards to design spacecraft fire safety systems presents an inherent risk to the vehicle because of the significant level of uncertainty. While this approach has been successful thus far, the uncertainty and risk will increase as exploration missions venture further from earth with considerably longer transit times for a safe return. There is a significant lack of microgravity data available for spacecraft designers on which to base their fire safety designs and procedures. To address this knowledge gap, this investigation proposed to conduct large-scale fire safety experiments in an expendable spacecraft without risk to a crew."
+    },
+    {
+      "id": "PSI-99:meta:researchImpacts",
+      "locator": {
+        "kind": "metadata",
+        "field": "researchImpacts"
+      },
+      "text": "The Saffire-II experiment provides a new way to study a realistic fire on an exploration vehicle, which has not been possible in the past because the risks are too high. Instruments on an unmanned cargo vessel measure oxygen, carbon dioxide, heat, pressure and flame growth, and two video cameras provide views of the flame. Results determine microgravity flammability limits for several spacecraft materials, help to validate NASA’s material selection criteria, and how microgravity and limited oxygen affect flame size. The investigation is crucial for the safety of current and future space missions. Studying fire in small, sealed environments such as the Cygnus cargo supply vehicle benefits fire safety and prevention efforts on Earth, including inside mines, airplanes, or submarines."
+    },
+    {
+      "id": "PSI-99:meta:experimentHardware",
+      "locator": {
+        "kind": "metadata",
+        "field": "experimentHardware"
+      },
+      "text": "Cygnus Pressurized Cargo Module, SAFFIRE"
+    },
+    {
+      "id": "PSI-99:meta:publications[0].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[0].title"
+      },
+      "text": "Buoyant Effects on the Flammability of Silicone Samples Planned for the Spacecraft Fire Experiment (Saffire), Conference: 45th International Conference on Environmental Systems ICES-2015-[293] 12-16 July 2015, Bellevue, Washington"
+    },
+    {
+      "id": "PSI-99:meta:publications[1].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[1].title"
+      },
+      "text": "The Spacecraft Fire Experiment (Saffire) - Objectives, Development and Status"
+    },
+    {
+      "id": "PSI-99:meta:publications[2].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[2].title"
+      },
+      "text": "Flame spread: Effects of microgravity and scale"
+    },
+    {
+      "id": "PSI-99:meta:publications[3].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[3].title"
+      },
+      "text": "Buoyancy effects on concurrent flame spread over thick PMMA"
+    },
+    {
+      "id": "PSI-99:meta:publications[4].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[4].title"
+      },
+      "text": "Concurrent Flame Spread Over Two-Sided Thick PMMA Slabs in Microgravity"
+    },
+    {
+      "id": "PSI-99:meta:publications[5].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[5].title"
+      },
+      "text": "Transient flame growth and spread processes over a large solid fabric in concurrent low-speed flows in microgravity – Model versus experiment"
+    },
+    {
+      "id": "PSI-99:meta:publications[6].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[6].title"
+      },
+      "text": "Evaluation of gas and particle sensors for detecting spacecraft-relevant fire emissions"
+    },
+    {
+      "id": "PSI-99:table:6792d000b7b6ff8e650380fc:v1:r1",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-99",
+        "file_id": "6792d000b7b6ff8e650380fc",
+        "key": "psi-data/PSI-99/Experimental table/PSI-99_Experimental table_SAFFIRE-2.csv",
+        "version": 1,
+        "filename": "PSI-99_Experimental table_SAFFIRE-2.csv",
+        "sha256": "3c24390b9ef86f3d1ebaab911a1a3cc95a8759aebf42062371370e6d4b31b8ac",
+        "row": 1,
+        "record_id": "PSI-99:saffire-2:1"
+      },
+      "text": "Sample Number: 2-1 | Material: Silicone | Samle Thickness: 0.27 mm | Sample Length: 29 cm | Sample Width (cm): 5 cm | Air Flow (cm/s): 20 cm/s | Percent O2 (Note 1): ~ 21.5 | Ignition Power (W): 80 W | Ignition Time (s): 9.2 s | Burn Time (s): Insignificant | Flow Direction: Concurrent | ?-g Burn Length: ~ 0 | ?-g Spread Length: n/a | 1-g Burn Length: Complete | 1-g Spread Rate: Acceleratory | Camera 1: S1C1 | Camera 2: S1C2"
+    },
+    {
+      "id": "PSI-99:table:6792d000b7b6ff8e650380fc:v1:r2",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-99",
+        "file_id": "6792d000b7b6ff8e650380fc",
+        "key": "psi-data/PSI-99/Experimental table/PSI-99_Experimental table_SAFFIRE-2.csv",
+        "version": 1,
+        "filename": "PSI-99_Experimental table_SAFFIRE-2.csv",
+        "sha256": "3c24390b9ef86f3d1ebaab911a1a3cc95a8759aebf42062371370e6d4b31b8ac",
+        "row": 2,
+        "record_id": "PSI-99:saffire-2:2"
+      },
+      "text": "Sample Number: 2-2 | Material: Silicone | Samle Thickness: 0.61 mm | Sample Length: 29 cm | Sample Width (cm): 5 cm | Air Flow (cm/s): 20 cm/s | Percent O2 (Note 1): ~ 22.1 | Ignition Power (W): 80 W | Ignition Time (s): 9.2 s | Burn Time (s): Insignificant | Flow Direction: Concurrent | ?-g Burn Length: ~ 0 | ?-g Spread Length: n/a | 1-g Burn Length: 7.6 cm | 1-g Spread Rate: 1.2 mm/s | Camera 1: n/a | Camera 2: S2C2"
+    },
+    {
+      "id": "PSI-99:table:6792d000b7b6ff8e650380fc:v1:r3",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-99",
+        "file_id": "6792d000b7b6ff8e650380fc",
+        "key": "psi-data/PSI-99/Experimental table/PSI-99_Experimental table_SAFFIRE-2.csv",
+        "version": 1,
+        "filename": "PSI-99_Experimental table_SAFFIRE-2.csv",
+        "sha256": "3c24390b9ef86f3d1ebaab911a1a3cc95a8759aebf42062371370e6d4b31b8ac",
+        "row": 3,
+        "record_id": "PSI-99:saffire-2:3"
+      },
+      "text": "Sample Number: 2-3 | Material: Silicone | Samle Thickness: 1.03 mm | Sample Length: 29 cm | Sample Width (cm): 5 cm | Air Flow (cm/s): 20 cm/s | Percent O2 (Note 1): ~ 22.1 | Ignition Power (W): 80 W | Ignition Time (s): 9.2 s | Burn Time (s): Insignificant | Flow Direction: Concurrent | ?-g Burn Length: ~ 0 | ?-g Spread Length: n/a | 1-g Burn Length: ~ 0 | 1-g Spread Rate: n/a | Camera 2: S3C2"
+    },
+    {
+      "id": "PSI-99:table:6792d000b7b6ff8e650380fc:v1:r4",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-99",
+        "file_id": "6792d000b7b6ff8e650380fc",
+        "key": "psi-data/PSI-99/Experimental table/PSI-99_Experimental table_SAFFIRE-2.csv",
+        "version": 1,
+        "filename": "PSI-99_Experimental table_SAFFIRE-2.csv",
+        "sha256": "3c24390b9ef86f3d1ebaab911a1a3cc95a8759aebf42062371370e6d4b31b8ac",
+        "row": 4,
+        "record_id": "PSI-99:saffire-2:4"
+      },
+      "text": "Sample Number: 2-4 | Material: Silicone | Samle Thickness: 037 mm | Sample Length: 29 cm | Sample Width (cm): 5 cm | Air Flow (cm/s): 20 cm/s | Percent O2 (Note 1): ~ 22.1 | Ignition Power (W): 80 W | Ignition Time (s): 9.2 s | Burn Time (s): Insignificant | Flow Direction: Opposed | ?-g Burn Length: ~ 0 | ?-g Spread Length: n/a | 1-g Burn Length: Complete | 1-g Spread Rate: 0.6 mm/s | Camera 1: S4C1 | Camera 2: S4C1"
+    },
+    {
+      "id": "PSI-99:table:6792d000b7b6ff8e650380fc:v1:r5",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-99",
+        "file_id": "6792d000b7b6ff8e650380fc",
+        "key": "psi-data/PSI-99/Experimental table/PSI-99_Experimental table_SAFFIRE-2.csv",
+        "version": 1,
+        "filename": "PSI-99_Experimental table_SAFFIRE-2.csv",
+        "sha256": "3c24390b9ef86f3d1ebaab911a1a3cc95a8759aebf42062371370e6d4b31b8ac",
+        "row": 5,
+        "record_id": "PSI-99:saffire-2:5"
+      },
+      "text": "Sample Number: 2-5 | Material: Cotton-Fiberglass (SIBAL) | Samle Thickness: 037 mm | Sample Length: 29 cm | Sample Width (cm): 5 cm | Air Flow (cm/s): 20 cm/s | Percent O2 (Note 1): ~ 22.1 | Ignition Power (W): 80 W | Ignition Time (s): 9.2 s | Burn Time (s): 145 s | Flow Direction: Concurrent | ?-g Burn Length: 29 cm | ?-g Spread Length: 2.1 mm/s | 1-g Burn Length: Complete | 1-g Spread Rate: Acceleratory | Camera 1: S5C1 | Camera 2: S5C2"
+    },
+    {
+      "id": "PSI-99:table:6792d000b7b6ff8e650380fc:v1:r6",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-99",
+        "file_id": "6792d000b7b6ff8e650380fc",
+        "key": "psi-data/PSI-99/Experimental table/PSI-99_Experimental table_SAFFIRE-2.csv",
+        "version": 1,
+        "filename": "PSI-99_Experimental table_SAFFIRE-2.csv",
+        "sha256": "3c24390b9ef86f3d1ebaab911a1a3cc95a8759aebf42062371370e6d4b31b8ac",
+        "row": 6,
+        "record_id": "PSI-99:saffire-2:6"
+      },
+      "text": "Sample Number: 2-6 | Samle Thickness: 037 mm | Sample Length: 29 cm | Sample Width (cm): 5 cm | Air Flow (cm/s): 20 cm/s | Percent O2 (Note 1): ~ 22.1 | Ignition Power (W): 80 W | Ignition Time (s): 9.2 s | Burn Time (s): 115 s | Flow Direction: Concurrent | ?-g Burn Length: 29 cm | ?-g Spread Length: 2.6 mm/s | 1-g Burn Length: Complete | 1-g Spread Rate: Acceleratory | Camera 1: S6C1 | Camera 2: S56C2"
+    },
+    {
+      "id": "PSI-99:table:6792d000b7b6ff8e650380fc:v1:r7",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-99",
+        "file_id": "6792d000b7b6ff8e650380fc",
+        "key": "psi-data/PSI-99/Experimental table/PSI-99_Experimental table_SAFFIRE-2.csv",
+        "version": 1,
+        "filename": "PSI-99_Experimental table_SAFFIRE-2.csv",
+        "sha256": "3c24390b9ef86f3d1ebaab911a1a3cc95a8759aebf42062371370e6d4b31b8ac",
+        "row": 7,
+        "record_id": "PSI-99:saffire-2:7"
+      },
+      "text": "Sample Number: 2-7 | Material: PMMA & Nomex | Samle Thickness: 0.85 and 0.37 mm | Sample Length: 5 and 24 cm | Sample Width (cm): 5 cm | Air Flow (cm/s): 20 cm/s | Percent O2 (Note 1): ~ 22.1 | Ignition Power (W): 80 W | Ignition Time (s): 9.2 s | Burn Time (s): 140 s | Flow Direction: Concurrent | ?-g Burn Length: 5 cm & 0 (note 2) | ?-g Spread Length: n/a (Nomex) | 1-g Burn Length: ~ 0 (Nomex) | 1-g Spread Rate: n/a (Nomex) | Camera 1: S7C1 | Camera 2: n/a"
+    },
+    {
+      "id": "PSI-99:table:6792d000b7b6ff8e650380fc:v1:r8",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-99",
+        "file_id": "6792d000b7b6ff8e650380fc",
+        "key": "psi-data/PSI-99/Experimental table/PSI-99_Experimental table_SAFFIRE-2.csv",
+        "version": 1,
+        "filename": "PSI-99_Experimental table_SAFFIRE-2.csv",
+        "sha256": "3c24390b9ef86f3d1ebaab911a1a3cc95a8759aebf42062371370e6d4b31b8ac",
+        "row": 8,
+        "record_id": "PSI-99:saffire-2:8"
+      },
+      "text": "Sample Number: 2-8 | Material: PMMA | Samle Thickness: See Fig. 5 | Sample Length: 29 cm | Sample Width (cm): 5 cm | Air Flow (cm/s): 20 cm/s | Percent O2 (Note 1): 22.1 to 22.0 | Ignition Power (W): 97 W | Ignition Time (s): 30 s | Burn Time (s): 600 s | Flow Direction: Concurrent | ?-g Burn Length: ~ 10 cm (note 3) | ?-g Spread Length: Note 4 | 1-g Burn Length: Complete | 1-g Spread Rate: Acceleratory | Camera 1: S8C1 | Camera 2: n/a"
+    },
+    {
+      "id": "PSI-99:table:6792d000b7b6ff8e650380fc:v1:r9",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-99",
+        "file_id": "6792d000b7b6ff8e650380fc",
+        "key": "psi-data/PSI-99/Experimental table/PSI-99_Experimental table_SAFFIRE-2.csv",
+        "version": 1,
+        "filename": "PSI-99_Experimental table_SAFFIRE-2.csv",
+        "sha256": "3c24390b9ef86f3d1ebaab911a1a3cc95a8759aebf42062371370e6d4b31b8ac",
+        "row": 9,
+        "record_id": "PSI-99:saffire-2:9"
+      },
+      "text": "Sample Number: 2-9 | Samle Thickness: 1 cm | Sample Length: 29 cm | Sample Width (cm): 5 cm | Air Flow (cm/s): 20 cm/s | Percent O2 (Note 1): 22.0 to 21.9 | Ignition Power (W): 97 W | Ignition Time (s): 30 s | Burn Time (s): 900 s | Flow Direction: Concurrent | ?-g Burn Length: ~ 10 cm (note 4) | ?-g Spread Length: Note 4 | 1-g Burn Length: Complete | 1-g Spread Rate: Acceleratory | Camera 1: S9C1 | Camera 2: n/a"
+    },
+    {
+      "id": "PSI-99:table:6792d000b7b6ff8e650380fc:v1:r10",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-99",
+        "file_id": "6792d000b7b6ff8e650380fc",
+        "key": "psi-data/PSI-99/Experimental table/PSI-99_Experimental table_SAFFIRE-2.csv",
+        "version": 1,
+        "filename": "PSI-99_Experimental table_SAFFIRE-2.csv",
+        "sha256": "3c24390b9ef86f3d1ebaab911a1a3cc95a8759aebf42062371370e6d4b31b8ac",
+        "row": 10,
+        "record_id": "PSI-99:saffire-2:10"
+      },
+      "text": "Sample Number: F1C1/F1C2 | Material: Pre-test flow visulation data for sample 2-1"
+    },
+    {
+      "id": "PSI-99:table:6792d000b7b6ff8e650380fc:v1:r11",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-99",
+        "file_id": "6792d000b7b6ff8e650380fc",
+        "key": "psi-data/PSI-99/Experimental table/PSI-99_Experimental table_SAFFIRE-2.csv",
+        "version": 1,
+        "filename": "PSI-99_Experimental table_SAFFIRE-2.csv",
+        "sha256": "3c24390b9ef86f3d1ebaab911a1a3cc95a8759aebf42062371370e6d4b31b8ac",
+        "row": 11,
+        "record_id": "PSI-99:saffire-2:11"
+      },
+      "text": "Sample Number: F2C1/F2C2 | Material: Pre-test flow visulation data for sample 2-2"
+    },
+    {
+      "id": "PSI-99:table:6792d000b7b6ff8e650380fc:v1:r12",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-99",
+        "file_id": "6792d000b7b6ff8e650380fc",
+        "key": "psi-data/PSI-99/Experimental table/PSI-99_Experimental table_SAFFIRE-2.csv",
+        "version": 1,
+        "filename": "PSI-99_Experimental table_SAFFIRE-2.csv",
+        "sha256": "3c24390b9ef86f3d1ebaab911a1a3cc95a8759aebf42062371370e6d4b31b8ac",
+        "row": 12,
+        "record_id": "PSI-99:saffire-2:12"
+      },
+      "text": "Sample Number: Note 1 Derived from measured CO2 production and referenced to initial O2 concentration reported by ISS."
+    },
+    {
+      "id": "PSI-99:table:6792d000b7b6ff8e650380fc:v1:r13",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-99",
+        "file_id": "6792d000b7b6ff8e650380fc",
+        "key": "psi-data/PSI-99/Experimental table/PSI-99_Experimental table_SAFFIRE-2.csv",
+        "version": 1,
+        "filename": "PSI-99_Experimental table_SAFFIRE-2.csv",
+        "sha256": "3c24390b9ef86f3d1ebaab911a1a3cc95a8759aebf42062371370e6d4b31b8ac",
+        "row": 13,
+        "record_id": "PSI-99:saffire-2:13"
+      },
+      "text": "Sample Number: Note 2 The PMMA portion was completely consumed but the Nomex was not ignited."
+    },
+    {
+      "id": "PSI-99:table:6792d000b7b6ff8e650380fc:v1:r14",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-99",
+        "file_id": "6792d000b7b6ff8e650380fc",
+        "key": "psi-data/PSI-99/Experimental table/PSI-99_Experimental table_SAFFIRE-2.csv",
+        "version": 1,
+        "filename": "PSI-99_Experimental table_SAFFIRE-2.csv",
+        "sha256": "3c24390b9ef86f3d1ebaab911a1a3cc95a8759aebf42062371370e6d4b31b8ac",
+        "row": 14,
+        "record_id": "PSI-99:saffire-2:14"
+      },
+      "text": "Sample Number: Note 3 This is the length of fuel with significant visible damage."
+    },
+    {
+      "id": "PSI-99:table:6792d000b7b6ff8e650380fc:v1:r15",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-99",
+        "file_id": "6792d000b7b6ff8e650380fc",
+        "key": "psi-data/PSI-99/Experimental table/PSI-99_Experimental table_SAFFIRE-2.csv",
+        "version": 1,
+        "filename": "PSI-99_Experimental table_SAFFIRE-2.csv",
+        "sha256": "3c24390b9ef86f3d1ebaab911a1a3cc95a8759aebf42062371370e6d4b31b8ac",
+        "row": 15,
+        "record_id": "PSI-99:saffire-2:15"
+      },
+      "text": "Sample Number: Note 4 The flames remain anchored at the base of the sample which has a very slow regression rate (0.01 to 0.04 mm/s)"
+    }
+  ],
+  "documents": [],
+  "tables": [
+    {
+      "accession": "PSI-99",
+      "file_id": "6792d000b7b6ff8e650380fc",
+      "key": "psi-data/PSI-99/Experimental table/PSI-99_Experimental table_SAFFIRE-2.csv",
+      "version": 1,
+      "filename": "PSI-99_Experimental table_SAFFIRE-2.csv",
+      "sha256": "3c24390b9ef86f3d1ebaab911a1a3cc95a8759aebf42062371370e6d4b31b8ac",
+      "rows": 15
+    }
+  ]
+}

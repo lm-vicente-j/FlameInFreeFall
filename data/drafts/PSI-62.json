@@ -1,0 +1,156 @@
+{
+  "accession": "PSI-62",
+  "summary": {
+    "text": "A modeling investigation that aims to develop and validate flamelet generated manifold techniques for concurrent flame spread in microgravity, using BASS and BASS-II experiments as benchmarks.",
+    "evidence_ids": [
+      "E1",
+      "E2"
+    ]
+  },
+  "safety_categories": [
+    {
+      "category": "prevention",
+      "evidence_ids": [
+        "E8"
+      ]
+    }
+  ],
+  "comparison": {
+    "fuels": {
+      "text": "Polymethyl methacrylate (PMMA) rod samples and wax cylinders, among BASS geometries.",
+      "evidence_ids": [
+        "E5"
+      ]
+    },
+    "geometry": {
+      "text": "BASS geometries including flat sheets, spheres, rod-shaped PMMA samples and wax cylinders.",
+      "evidence_ids": [
+        "E5"
+      ]
+    },
+    "oxygen": null,
+    "pressure": null,
+    "flow": {
+      "text": "Concurrent flame spread.",
+      "evidence_ids": [
+        "E1"
+      ]
+    },
+    "gravity": {
+      "text": "Microgravity.",
+      "evidence_ids": [
+        "E1"
+      ]
+    },
+    "measurements": {
+      "text": "Flame geometry, temperature distribution, soot volume fraction and flame spread rate, with soot and temperature fields reconstructed by two-color tomography from DSLR imagery.",
+      "evidence_ids": [
+        "E7",
+        "E6"
+      ]
+    },
+    "hardware": {
+      "text": "DSLR cameras used for two-color tomography of existing BASS and BASS-II imagery.",
+      "evidence_ids": [
+        "E6"
+      ]
+    }
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "type": "objective",
+      "text": "The research aims to develop and validate new flamelet generated manifold (FGM) modeling techniques for concurrent flame spread in microgravity.",
+      "evidence_ids": [
+        "E1"
+      ]
+    },
+    {
+      "id": "C2",
+      "type": "objective",
+      "text": "The research aims to use the BASS and BASS-II experiments as benchmarks.",
+      "evidence_ids": [
+        "E2"
+      ]
+    },
+    {
+      "id": "C3",
+      "type": "hypothesis",
+      "text": "The investigation hypothesizes that the unsteady flamelet generated manifold (UFGM) approach can accurately reproduce concurrent flame spread in microgravity.",
+      "evidence_ids": [
+        "E4"
+      ]
+    },
+    {
+      "id": "C4",
+      "type": "potential_application",
+      "text": "The stated long-term goal is to enable accurate prediction of flammability limits for spacecraft materials.",
+      "evidence_ids": [
+        "E3"
+      ]
+    }
+  ],
+  "findings": [],
+  "limitations": [
+    {
+      "text": "The investigation is computational and uses existing BASS and BASS-II imagery; the metadata states no validation result.",
+      "basis": "source",
+      "evidence_ids": [
+        "E6",
+        "E4"
+      ]
+    },
+    {
+      "text": "This draft cites PSI metadata; no PDF text or experimental-table passages were processed for this investigation.",
+      "basis": "coverage",
+      "evidence_ids": []
+    }
+  ],
+  "modeling_resources": [],
+  "evidence": [
+    {
+      "id": "E1",
+      "passage_id": "PSI-62:meta:objective",
+      "excerpt": "The objective of this research was to develop and validate new flamelet generated manifold (FGM) modeling techniques for concurrent flame spread in microgravity."
+    },
+    {
+      "id": "E2",
+      "passage_id": "PSI-62:meta:objective",
+      "excerpt": "using the NASA Burning and Suppression of Solids (BASS and BASS-II) experiments as benchmarks"
+    },
+    {
+      "id": "E3",
+      "passage_id": "PSI-62:meta:objective",
+      "excerpt": "the long-term goal was to enable accurate prediction of flammability limits for spacecraft materials"
+    },
+    {
+      "id": "E4",
+      "passage_id": "PSI-62:meta:hypothesis",
+      "excerpt": "The unsteady flamelet generated manifold (UFGM) approach was believed to be able to accurately reproduce concurrent flame spread in microgravity"
+    },
+    {
+      "id": "E5",
+      "passage_id": "PSI-62:meta:approach",
+      "excerpt": "the unsteady FGM method was implemented and tested on various BASS geometries, including flat sheets, spheres, and rod-shaped polymethyl methacrylate (PMMA) samples, as well as wax cylinders."
+    },
+    {
+      "id": "E6",
+      "passage_id": "PSI-62:meta:approach",
+      "excerpt": "Experimental imagery found in PSI from the BASS and BASS-II investigations was post-processed using newly developed two-color tomography methods with DSLR cameras, enabling 3D reconstructions of soot and temperature fields for direct comparison to model predictions."
+    },
+    {
+      "id": "E7",
+      "passage_id": "PSI-62:meta:approach",
+      "excerpt": "The evaluation metrics included flame geometry, temperature distribution, soot volume fraction, and flame spread rate"
+    },
+    {
+      "id": "E8",
+      "passage_id": "PSI-62:meta:researchImpacts",
+      "excerpt": "The computational methods being refined have the potential to enable more effective fire prevention and mitigation strategies"
+    }
+  ],
+  "generation": {
+    "model": "claude-sonnet-5-5",
+    "generated_at": "2026-11-15T18:12:17+00:00"
+  }
+}

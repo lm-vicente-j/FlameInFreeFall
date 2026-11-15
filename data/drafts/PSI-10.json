@@ -1,0 +1,170 @@
+{
+  "accession": "PSI-10",
+  "summary": {
+    "text": "The investigation plans spherical diffusion flame tests of C2H4 and CH4 flames in drop towers and aboard the International Space Station to obtain soot-inception and extinction limits.",
+    "evidence_ids": [
+      "E1",
+      "E2",
+      "E5"
+    ]
+  },
+  "safety_categories": [],
+  "comparison": {
+    "fuels": {
+      "text": "C2H4 and CH4 flames.",
+      "evidence_ids": [
+        "E1"
+      ]
+    },
+    "geometry": {
+      "text": "Normal and inverse spherical diffusion flames.",
+      "evidence_ids": [
+        "E1"
+      ]
+    },
+    "oxygen": null,
+    "pressure": {
+      "text": "Pressure is listed as a varied parameter; no values are given.",
+      "evidence_ids": [
+        "E1"
+      ]
+    },
+    "flow": {
+      "text": "Flow rate is listed as a varied parameter; no values are given.",
+      "evidence_ids": [
+        "E1",
+        "E7"
+      ]
+    },
+    "gravity": {
+      "text": "Tests are planned in drop towers and aboard the International Space Station.",
+      "evidence_ids": [
+        "E5"
+      ]
+    },
+    "measurements": {
+      "text": "Cameras, radiometers, photomultiplier tubes, and thermocouples.",
+      "evidence_ids": [
+        "E6"
+      ]
+    },
+    "hardware": {
+      "text": "Advanced Combustion via Microgravity Experiments (ACME) and Combustion Integrated Rack (CIR).",
+      "evidence_ids": [
+        "E8"
+      ]
+    }
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "type": "objective",
+      "text": "The investigation aims to obtain soot-inception limits of quasi-steady normal and inverse spherical diffusion flames as functions of flow rate, Zst, amount of inert (N2 or CO2), and pressure for C2H4 and CH4 flames.",
+      "evidence_ids": [
+        "E1"
+      ]
+    },
+    {
+      "id": "C2",
+      "type": "objective",
+      "text": "The investigation aims to obtain extinction limits as functions of Zst, amount of N2, and pressure for normal and inverse spherical C2H4 and CH4 flames.",
+      "evidence_ids": [
+        "E2"
+      ]
+    },
+    {
+      "id": "C3",
+      "type": "hypothesis",
+      "text": "The investigation hypothesizes that microgravity spherical diffusion flames extinguish when the peak temperature first decreases below 1130 K.",
+      "evidence_ids": [
+        "E3"
+      ]
+    },
+    {
+      "id": "C4",
+      "type": "hypothesis",
+      "text": "The investigation hypothesizes that steady-state spherical diffusion flames are possible.",
+      "evidence_ids": [
+        "E4"
+      ]
+    }
+  ],
+  "findings": [],
+  "limitations": [
+    {
+      "text": "The stated research impact concerns terrestrial combustors, not spacecraft fire safety.",
+      "basis": "source",
+      "evidence_ids": [
+        "E9"
+      ]
+    },
+    {
+      "text": "This draft cites PSI metadata and no PDF text. The packet also includes official table passages whose findings have not been incorporated or reviewed.",
+      "basis": "coverage",
+      "evidence_ids": []
+    }
+  ],
+  "modeling_resources": [
+    {
+      "description": "Experimental tables for normal and inverse flame runs, relevant to the planned flame measurements.",
+      "file_keys": [
+        "psi-data/PSI-10/Experimental table/PSI-10_Experimental table_Flame Design_Inverse Flame.csv",
+        "psi-data/PSI-10/Experimental table/PSI-10_Experimental table_Flame Design_Normal Flame.csv"
+      ],
+      "evidence_ids": [
+        "E6"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E1",
+      "passage_id": "PSI-10:meta:objective",
+      "excerpt": "Obtain soot-inception limits of quasi-steady normal and inverse spherical diffusion flames as functions of flow rate, Zst, amount of inert (N2 or CO2), and pressure for C2H4 and CH4 flames."
+    },
+    {
+      "id": "E2",
+      "passage_id": "PSI-10:meta:objective",
+      "excerpt": "Obtain extinction limits as functions of Zst, amount of N2, and pressure for normal and inverse spherical C2H4 and CH4 flames."
+    },
+    {
+      "id": "E3",
+      "passage_id": "PSI-10:meta:hypothesis",
+      "excerpt": "Microgravity spherical diffusion flames extinguish when the peak temperature first decreases below 1130 K."
+    },
+    {
+      "id": "E4",
+      "passage_id": "PSI-10:meta:hypothesis",
+      "excerpt": "Steady-state spherical diffusion flames are possible."
+    },
+    {
+      "id": "E5",
+      "passage_id": "PSI-10:meta:approach",
+      "excerpt": "Perform spherical diffusion flame tests in drop towers and aboard the International Space Station."
+    },
+    {
+      "id": "E6",
+      "passage_id": "PSI-10:meta:approach",
+      "excerpt": "Observe the flames with a broad suite of cameras, radiometers, photomultiplier tubes, and thermocouples."
+    },
+    {
+      "id": "E7",
+      "passage_id": "PSI-10:meta:approach",
+      "excerpt": "Consider a broad range of reactant dilutions, flow rates and pressures for normal and inverse convection directions."
+    },
+    {
+      "id": "E8",
+      "passage_id": "PSI-10:meta:experimentHardware",
+      "excerpt": "Advanced Combustion via Microgravity Experiments (ACME), Combustion Integrated Rack (CIR)"
+    },
+    {
+      "id": "E9",
+      "passage_id": "PSI-10:meta:researchImpacts",
+      "excerpt": "improving efficiency and reducing pollutant emissions in terrestrial combustors"
+    }
+  ],
+  "generation": {
+    "model": "claude-sonnet-5-5",
+    "generated_at": "2026-11-15T18:12:02+00:00"
+  }
+}

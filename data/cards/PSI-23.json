@@ -1,0 +1,263 @@
+{
+  "accession": "PSI-23",
+  "source_version": 4,
+  "title": "Advanced Combustion via Microgravity Experiments-Structure and Response of Spherical Diffusion Flames",
+  "acronym": "ACME s-Flame",
+  "coverage": "metadata_only",
+  "summary": {
+    "text": "The investigation proposes experiments with hydrogen, methane and ethylene mixtures burned on a spherical porous burner to compare flame structure and extinction behavior with detailed numerical simulation.",
+    "evidence_ids": [
+      "PSI-23:meta:approach#dacdfa2d4eb6",
+      "PSI-23:meta:approach#e7353dea942b",
+      "PSI-23:meta:hypothesis#420e8e18c54b"
+    ]
+  },
+  "safety_categories": [],
+  "comparison": {
+    "fuels": {
+      "text": "Hydrogen, methane, and ethylene, with nitrogen, helium and carbon dioxide diluents.",
+      "evidence_ids": [
+        "PSI-23:meta:approach#e7353dea942b",
+        "PSI-23:meta:approach#3c101200e3ac"
+      ]
+    },
+    "geometry": {
+      "text": "Spherical porous burner producing a nominally spherical, one-dimensional stabilized flame.",
+      "evidence_ids": [
+        "PSI-23:meta:approach#dacdfa2d4eb6"
+      ]
+    },
+    "oxygen": null,
+    "pressure": null,
+    "flow": {
+      "text": "Different flow rates are listed as a varied parameter; no values are given.",
+      "evidence_ids": [
+        "PSI-23:meta:objective#8be6cc3acbc6"
+      ]
+    },
+    "gravity": {
+      "text": "Microgravity, described as a buoyancy-free environment.",
+      "evidence_ids": [
+        "PSI-23:meta:researchImpacts#f526b87128bf"
+      ]
+    },
+    "measurements": {
+      "text": "Spectrally resolved images, flame and burner temperatures, radiative flux, and system operating conditions.",
+      "evidence_ids": [
+        "PSI-23:meta:approach#851262ab6eee"
+      ]
+    },
+    "hardware": {
+      "text": "Combustion Integrated Rack (CIR) and ACME.",
+      "evidence_ids": [
+        "PSI-23:meta:experimentHardware#d0db0f02f378"
+      ]
+    }
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "type": "objective",
+      "text": "The investigation aims to measure and characterize the transient structure of diffusion flames established at initially non-steady, spherical flame structures.",
+      "evidence_ids": [
+        "PSI-23:meta:objective#3ab083fce1a3"
+      ]
+    },
+    {
+      "id": "C2",
+      "type": "objective",
+      "text": "The investigation aims to determine the quasi-steady convective/chemical-kinetic extinction limits.",
+      "evidence_ids": [
+        "PSI-23:meta:objective#c44beda6bbdb"
+      ]
+    },
+    {
+      "id": "C3",
+      "type": "objective",
+      "text": "The investigation aims to determine the existence, onset, and nature of pulsating instabilities theoretically predicted to occur in transient spherical diffusion flames.",
+      "evidence_ids": [
+        "PSI-23:meta:objective#19f49ece5379"
+      ]
+    },
+    {
+      "id": "C4",
+      "type": "hypothesis",
+      "text": "The investigation proposes that flame descriptions obtained from the experiment, including flame structure, extinctions and instabilities, comprise a rigorous test of the detailed numerical model.",
+      "evidence_ids": [
+        "PSI-23:meta:hypothesis#420e8e18c54b"
+      ]
+    }
+  ],
+  "findings": [],
+  "limitations": [
+    {
+      "text": "The source states that little of the planned test matrix can be adequately explored in ground based test facilities because of time and g-jitter limitations.",
+      "basis": "source",
+      "evidence_ids": [
+        "PSI-23:meta:hypothesis#836bafc882a4"
+      ]
+    },
+    {
+      "text": "This draft cites PSI metadata and no PDF text. The packet also includes official table passages whose findings have not been incorporated or reviewed.",
+      "basis": "coverage",
+      "evidence_ids": []
+    }
+  ],
+  "modeling_resources": [
+    {
+      "description": "Experimental table for the s-Flame investigation, relevant to temperature, imaging and radiative flux measurements.",
+      "file_keys": [
+        "psi-data/PSI-23/Experimental table/PSI-23_Experimental table_ACME s-Flame.csv"
+      ],
+      "evidence_ids": [
+        "PSI-23:meta:approach#851262ab6eee"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "PSI-23:meta:objective#3ab083fce1a3",
+      "passage_id": "PSI-23:meta:objective",
+      "investigation": "PSI-23",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-23",
+      "locator": {
+        "kind": "metadata",
+        "field": "objective"
+      },
+      "excerpt": "Measure and characterize the transient structure (such as temperature and species distribution) of diffusion flames established at initially non-steady, spherical flame structures"
+    },
+    {
+      "id": "PSI-23:meta:objective#c44beda6bbdb",
+      "passage_id": "PSI-23:meta:objective",
+      "investigation": "PSI-23",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-23",
+      "locator": {
+        "kind": "metadata",
+        "field": "objective"
+      },
+      "excerpt": "Determine the quasi-steady convective/chemical-kinetic extinction limits"
+    },
+    {
+      "id": "PSI-23:meta:objective#19f49ece5379",
+      "passage_id": "PSI-23:meta:objective",
+      "investigation": "PSI-23",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-23",
+      "locator": {
+        "kind": "metadata",
+        "field": "objective"
+      },
+      "excerpt": "Determine the existence (for different Zeldovich number, Ze), onset (as a function Da), and nature (i.e. mode, frequency, amplitude) of pulsating instabilities theoretically predicted to occur in transient spherical diffusion flames"
+    },
+    {
+      "id": "PSI-23:meta:hypothesis#420e8e18c54b",
+      "passage_id": "PSI-23:meta:hypothesis",
+      "investigation": "PSI-23",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-23",
+      "locator": {
+        "kind": "metadata",
+        "field": "hypothesis"
+      },
+      "excerpt": "Each description of the flames obtained from the experiment, including measurements of aspects of the flame structure, growth or flame front velocities, and the specific test conditions where steady state flames, flame extinctions, flame front instabilities, soot suppression limits, etc., comprise a rigorous test of the detailed model."
+    },
+    {
+      "id": "PSI-23:meta:approach#dacdfa2d4eb6",
+      "passage_id": "PSI-23:meta:approach",
+      "investigation": "PSI-23",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-23",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "excerpt": "mixtures of various gaseous fuels and diluents will be issued into an oxidizing environment through a spherical porous burner and ignited to obtain, nominally, a spherical, one-dimensional stabilized flame."
+    },
+    {
+      "id": "PSI-23:meta:approach#851262ab6eee",
+      "passage_id": "PSI-23:meta:approach",
+      "investigation": "PSI-23",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-23",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "excerpt": "Synchronized measurements are to be made including spectrally resolved images, flame and burner temperatures, radiative flux measurements, and system operating conditions"
+    },
+    {
+      "id": "PSI-23:meta:approach#e7353dea942b",
+      "passage_id": "PSI-23:meta:approach",
+      "investigation": "PSI-23",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-23",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "excerpt": "Conventional gaseous fuels including hydrogen, methane, and ethylene will be used."
+    },
+    {
+      "id": "PSI-23:meta:approach#3c101200e3ac",
+      "passage_id": "PSI-23:meta:approach",
+      "investigation": "PSI-23",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-23",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "excerpt": "Diluents mixed with fuel are to include nitrogen and helium to adjust mixture diffusivities, and carbon dioxide to influence flame radiation characteristics."
+    },
+    {
+      "id": "PSI-23:meta:hypothesis#836bafc882a4",
+      "passage_id": "PSI-23:meta:hypothesis",
+      "investigation": "PSI-23",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-23",
+      "locator": {
+        "kind": "metadata",
+        "field": "hypothesis"
+      },
+      "excerpt": "Due to time and g-jitter limitations, little of the planned test matrix can be adequately explored in the ground based test facilities"
+    },
+    {
+      "id": "PSI-23:meta:experimentHardware#d0db0f02f378",
+      "passage_id": "PSI-23:meta:experimentHardware",
+      "investigation": "PSI-23",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-23",
+      "locator": {
+        "kind": "metadata",
+        "field": "experimentHardware"
+      },
+      "excerpt": "Combustion Integrated Rack (CIR), ACME"
+    },
+    {
+      "id": "PSI-23:meta:researchImpacts#f526b87128bf",
+      "passage_id": "PSI-23:meta:researchImpacts",
+      "investigation": "PSI-23",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-23",
+      "locator": {
+        "kind": "metadata",
+        "field": "researchImpacts"
+      },
+      "excerpt": "the unique buoyancy-free environment offered by microgravity"
+    },
+    {
+      "id": "PSI-23:meta:objective#8be6cc3acbc6",
+      "passage_id": "PSI-23:meta:objective",
+      "investigation": "PSI-23",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-23",
+      "locator": {
+        "kind": "metadata",
+        "field": "objective"
+      },
+      "excerpt": "different C2H4/diluent ratios (sooty), for different flow rates."
+    }
+  ],
+  "generation": {
+    "method": "skill",
+    "skill": "research-card",
+    "model": "claude-sonnet-5-5",
+    "generated_at": "2026-11-15T18:12:12+00:00"
+  },
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "notes": ""
+  }
+}

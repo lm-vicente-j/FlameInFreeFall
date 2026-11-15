@@ -1,0 +1,287 @@
+{
+  "investigation": "PSI-142",
+  "title": "Quantitative Studies of Cool Flame Transitions at Radiation / Stretch Extinction Using Counterflow Flames",
+  "acronym": "",
+  "metadata_version": 2,
+  "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-142",
+  "snapshot_retrieved_at": "2026-11-15T01:06:39.600650+00:00",
+  "coverage": "metadata_only",
+  "passages": [
+    {
+      "id": "PSI-142:meta:title",
+      "locator": {
+        "kind": "metadata",
+        "field": "title"
+      },
+      "text": "Quantitative Studies of Cool Flame Transitions at Radiation / Stretch Extinction Using Counterflow Flames"
+    },
+    {
+      "id": "PSI-142:meta:objective",
+      "locator": {
+        "kind": "metadata",
+        "field": "objective"
+      },
+      "text": "By using the Flame Extinguishment (FLEX) experimental data from the Physical Sciences Informatics (PSI) system of combustion science, the purpose of this grant was to conduct new simulations and ground-based experiments using ozone-sensitized counterflow flames to:\n    1) Develop a new diagram of the flammability limits of diffusional cool flames affected by radiation, diffusion, and convection.\n    2) Bridge the knowledge gap between the flammability limits and extinction limits of hot flames and cool flames.\n    3) Verify the phenomena observed on the ISS flame extinguishment experiments.\n    4) Obtain new, quantitative data of extinction limit, flame temperature, and species distribution for the validation of kinetic and radiation models involving cool flames.\n    5) Extend the cool flame experiments from the original ISS droplet experiments to a more general ground-based combustion system involving radiation, diffusion, convection, and low-temperature chemistry while maintaining a one-dimensional geometry."
+    },
+    {
+      "id": "PSI-142:meta:approach",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "text": "Using the experimental conditions of FLEX flight, a comparative studies of the oxygen concentration effects on the extinction limits of cool flames was conducted using three different numerical modeling schemes, (a) spark-assisted flame propagation of a n-heptane/air mixture, (b) one dimensional freely-propagating dimethyl ether (DME) flames using an arc-length continuation method and (c) simulated cool flame regimes and burning limits at elevated pressure (up to 20 atm) using DME/air mixtures.\n\nSpecific research details are outlined in the publication, ''Dynamics of cool flames'' [https://doi.org/10.1016/j.pecs.2019.100787]; '' Understanding Cool Flames and Warm Flames'', [https://doi.org/10.1016/j.proci.2020.09.019] and ''Study of the low-temperature reactivity of large n-alkanes through cool diffusion flame extinction'', [https://doi.org/10.1016/j.combustflame.2017.01.028]."
+    },
+    {
+      "id": "PSI-142:meta:hypothesis",
+      "locator": {
+        "kind": "metadata",
+        "field": "hypothesis"
+      },
+      "text": "This investigation attempts to answer the critical question as to what conditions causes the hot flames transfer to cool flames and how the cool flame flammable region is related to hot flame flammability limit and extinction limit. The investigation hypothesizes that factors such as oxygen concentration, dilution, pressure, diffusion, and convection transport processes affect the cool flame transition."
+    },
+    {
+      "id": "PSI-142:meta:researchImpacts",
+      "locator": {
+        "kind": "metadata",
+        "field": "researchImpacts"
+      },
+      "text": "Obtaining a fundamental understanding of the warm diffusion flame is particularly relevant to combustion in highly turbulent flow fields and in microgravity environments, owing to the possibility of long residence times. The results showed that the warm flame has a double reaction zone structure and plays a critical role in the transition between cool flames and hot flames. At elevated pressures, it was found that the flammable region of warm flames and cool flames expands due to the increase in low-temperature and intermediate-temperature reactivity with pressure. Since many real engines operate in the 20-40 atm pressure range, therefore, cool flames and warm flames are relevant and important flame regimes for high-pressure near-limit combustion applications. These calculations from this investigation will serve to advance the understanding of near-limit flame dynamics and provide guidance for experimental observation of different flame regimes."
+    },
+    {
+      "id": "PSI-142:meta:experimentHardware",
+      "locator": {
+        "kind": "metadata",
+        "field": "experimentHardware"
+      },
+      "text": "Principal Investigator Laboratory Hardware"
+    },
+    {
+      "id": "PSI-142:meta:publications[0].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[0].title"
+      },
+      "text": "Dynamics of cool flames"
+    },
+    {
+      "id": "PSI-142:meta:publications[1].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[1].title"
+      },
+      "text": "The radical index and the effect of oxygen concentration on non-premixed cool flame extinction of large n-alkanes"
+    },
+    {
+      "id": "PSI-142:meta:publications[2].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[2].title"
+      },
+      "text": "On the propagation limits and speeds of premixed cool flames at elevated pressures"
+    },
+    {
+      "id": "PSI-142:meta:publications[3].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[3].title"
+      },
+      "text": "Study of the low-temperature reactivity of large n-alkanes through cool diffusion flame extinction"
+    },
+    {
+      "id": "PSI-142:meta:publications[4].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[4].title"
+      },
+      "text": "Counterflow flame experiments and chemical kinetic modeling of dimethyl ether/methane mixtures"
+    },
+    {
+      "id": "PSI-142:meta:publications[5].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[5].title"
+      },
+      "text": "Low-temperature multistage warm diffusion flames"
+    },
+    {
+      "id": "PSI-142:meta:publications[6].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[6].title"
+      },
+      "text": "Dynamics and burning limits of near-limit hot, warm, and cool diffusion flames of dimethyl ether at elevated pressures"
+    },
+    {
+      "id": "PSI-142:meta:publications[7].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[7].title"
+      },
+      "text": "On the chemical characteristics and dynamics of n-alkane low-temperature multistage diffusion flames"
+    },
+    {
+      "id": "PSI-142:meta:publications[8].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[8].title"
+      },
+      "text": "Quantitative measurements of HO 2 /H 2 O 2 and intermediate species in low and intermediate temperature oxidation of dimethyl ether"
+    },
+    {
+      "id": "PSI-142:meta:publications[9].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[9].title"
+      },
+      "text": "SUPPLEMENTARY MATERIAL\nThe radical index and the effect of oxygen concentration on non-premixed cool flame extinction of large n-alkanes"
+    },
+    {
+      "id": "PSI-142:meta:publications[10].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[10].title"
+      },
+      "text": "Pressure and Radiation Effects on the Dynamics of Hot and Cool Diffusion Flames"
+    },
+    {
+      "id": "PSI-142:meta:publications[11].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[11].title"
+      },
+      "text": "Transient interactions between a premixed double flame and a vortex"
+    },
+    {
+      "id": "PSI-142:table:67c9ea87ccb9559f59bfc700:v1:r1",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-142",
+        "file_id": "67c9ea87ccb9559f59bfc700",
+        "key": "psi-data/PSI-142/Experimental table/PSI-142_Experimental table_Data Summary Table.csv",
+        "version": 1,
+        "filename": "PSI-142_Experimental table_Data Summary Table.csv",
+        "sha256": "c66d135b0053590d239f06b9e8627d826e3d726b8443fd2cbccc37484b6a8e7f",
+        "row": 1,
+        "record_id": "PSI-142:data-summary-table:1"
+      },
+      "text": "Data ID: 1 | Data Description: CFE limit with ozone | Reference Publication Link: http://dx.doi.org/10.1016/j.combustflame.2017.01.028 | Figure ID in Reference: 4"
+    },
+    {
+      "id": "PSI-142:table:67c9ea87ccb9559f59bfc700:v1:r2",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-142",
+        "file_id": "67c9ea87ccb9559f59bfc700",
+        "key": "psi-data/PSI-142/Experimental table/PSI-142_Experimental table_Data Summary Table.csv",
+        "version": 1,
+        "filename": "PSI-142_Experimental table_Data Summary Table.csv",
+        "sha256": "c66d135b0053590d239f06b9e8627d826e3d726b8443fd2cbccc37484b6a8e7f",
+        "row": 2,
+        "record_id": "PSI-142:data-summary-table:2"
+      },
+      "text": "Data ID: 2 | Data Description: CFE limit without ozone | Reference Publication Link: http://dx.doi.org/10.1016/j.combustflame.2017.01.028 | Figure ID in Reference: 5"
+    },
+    {
+      "id": "PSI-142:table:67c9ea87ccb9559f59bfc700:v1:r3",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-142",
+        "file_id": "67c9ea87ccb9559f59bfc700",
+        "key": "psi-data/PSI-142/Experimental table/PSI-142_Experimental table_Data Summary Table.csv",
+        "version": 1,
+        "filename": "PSI-142_Experimental table_Data Summary Table.csv",
+        "sha256": "c66d135b0053590d239f06b9e8627d826e3d726b8443fd2cbccc37484b6a8e7f",
+        "row": 3,
+        "record_id": "PSI-142:data-summary-table:3"
+      },
+      "text": "Data ID: 3 | Data Description: CFE and HFE Predicted vs Measured | Reference Publication Link: http://dx.doi.org/10.1016/j.combustflame.2017.01.028 | Figure ID in Reference: 7"
+    },
+    {
+      "id": "PSI-142:table:67c9ea87ccb9559f59bfc700:v1:r4",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-142",
+        "file_id": "67c9ea87ccb9559f59bfc700",
+        "key": "psi-data/PSI-142/Experimental table/PSI-142_Experimental table_Data Summary Table.csv",
+        "version": 1,
+        "filename": "PSI-142_Experimental table_Data Summary Table.csv",
+        "sha256": "c66d135b0053590d239f06b9e8627d826e3d726b8443fd2cbccc37484b6a8e7f",
+        "row": 4,
+        "record_id": "PSI-142:data-summary-table:4"
+      },
+      "text": "Data ID: 4 | Data Description: Measured and computed DME/O2/O3 CFE and HFE | Reference Publication Link: https://doi.org/10.1016/j.proci.2018.07.050 | Figure ID in Reference: 2"
+    },
+    {
+      "id": "PSI-142:table:67c9ea87ccb9559f59bfc700:v1:r5",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-142",
+        "file_id": "67c9ea87ccb9559f59bfc700",
+        "key": "psi-data/PSI-142/Experimental table/PSI-142_Experimental table_Data Summary Table.csv",
+        "version": 1,
+        "filename": "PSI-142_Experimental table_Data Summary Table.csv",
+        "sha256": "c66d135b0053590d239f06b9e8627d826e3d726b8443fd2cbccc37484b6a8e7f",
+        "row": 5,
+        "record_id": "PSI-142:data-summary-table:5"
+      },
+      "text": "Data ID: 5 | Data Description: CH2O PLIF and thermometry | Reference Publication Link: https://doi.org/10.1016/j.combustflame.2018.03.013 | Figure ID in Reference: 8"
+    },
+    {
+      "id": "PSI-142:table:67c9ea87ccb9559f59bfc700:v1:r6",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-142",
+        "file_id": "67c9ea87ccb9559f59bfc700",
+        "key": "psi-data/PSI-142/Experimental table/PSI-142_Experimental table_Data Summary Table.csv",
+        "version": 1,
+        "filename": "PSI-142_Experimental table_Data Summary Table.csv",
+        "sha256": "c66d135b0053590d239f06b9e8627d826e3d726b8443fd2cbccc37484b6a8e7f",
+        "row": 6,
+        "record_id": "PSI-142:data-summary-table:6"
+      },
+      "text": "Data ID: 6 | Data Description: nC7/nC10/nC12 chemiluminescence | Reference Publication Link: https://doi.org/10.1016/j.proci.2018.06.161 | Figure ID in Reference: 2"
+    },
+    {
+      "id": "PSI-142:table:67c9ea87ccb9559f59bfc700:v1:r7",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-142",
+        "file_id": "67c9ea87ccb9559f59bfc700",
+        "key": "psi-data/PSI-142/Experimental table/PSI-142_Experimental table_Data Summary Table.csv",
+        "version": 1,
+        "filename": "PSI-142_Experimental table_Data Summary Table.csv",
+        "sha256": "c66d135b0053590d239f06b9e8627d826e3d726b8443fd2cbccc37484b6a8e7f",
+        "row": 7,
+        "record_id": "PSI-142:data-summary-table:7"
+      },
+      "text": "Data ID: 7 | Data Description: nC12 chemiluminescence | Reference Publication Link: https://doi.org/10.1016/j.proci.2018.06.162 | Figure ID in Reference: 7"
+    },
+    {
+      "id": "PSI-142:table:67c9ea87ccb9559f59bfc700:v1:r8",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-142",
+        "file_id": "67c9ea87ccb9559f59bfc700",
+        "key": "psi-data/PSI-142/Experimental table/PSI-142_Experimental table_Data Summary Table.csv",
+        "version": 1,
+        "filename": "PSI-142_Experimental table_Data Summary Table.csv",
+        "sha256": "c66d135b0053590d239f06b9e8627d826e3d726b8443fd2cbccc37484b6a8e7f",
+        "row": 8,
+        "record_id": "PSI-142:data-summary-table:8"
+      },
+      "text": "Data ID: 8 | Data Description: nC12 thermometry | Reference Publication Link: https://doi.org/10.1016/j.proci.2018.06.163 | Figure ID in Reference: 9"
+    }
+  ],
+  "documents": [],
+  "tables": [
+    {
+      "accession": "PSI-142",
+      "file_id": "67c9ea87ccb9559f59bfc700",
+      "key": "psi-data/PSI-142/Experimental table/PSI-142_Experimental table_Data Summary Table.csv",
+      "version": 1,
+      "filename": "PSI-142_Experimental table_Data Summary Table.csv",
+      "sha256": "c66d135b0053590d239f06b9e8627d826e3d726b8443fd2cbccc37484b6a8e7f",
+      "rows": 8
+    }
+  ]
+}

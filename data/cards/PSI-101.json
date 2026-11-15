@@ -1,0 +1,578 @@
+{
+  "accession": "PSI-101",
+  "source_version": 4,
+  "title": "Smoke Aerosol Measurement Experiment-Reflight",
+  "acronym": "SAME-R",
+  "coverage": "metadata_and_documents",
+  "summary": {
+    "text": "SAME-R, flown on the SAME hardware already on orbit, aims to quantify the sizes that liquid smoke particulate achieves in low gravity and to relate the droplet size distribution to smoke generation and transport conditions. The final report gives smoke particle diameters for Kapton, lamp wick, silicone, Teflon and Pyrell samples, including effects of aging and of zero air flow.",
+    "evidence_ids": [
+      "PSI-101:meta:objective#53315b73942a",
+      "PSI-101:meta:approach#3c4c60a83b17",
+      "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p4#6bbdd52677cb",
+      "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p9#e57e2b3fa51c"
+    ]
+  },
+  "safety_categories": [
+    {
+      "category": "detection",
+      "evidence_ids": [
+        "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p5#a12500d0d3e7",
+        "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p9#9dcaef1e9da0"
+      ]
+    }
+  ],
+  "comparison": {
+    "fuels": {
+      "text": "Samples of 6 materials: Teflon, Kapton, Pyrell, silicone rubber, cellulose (lamp wick), and dibutyl-phthalate deposited on a porous wick.",
+      "evidence_ids": [
+        "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p4#6bbdd52677cb"
+      ]
+    },
+    "geometry": null,
+    "oxygen": null,
+    "pressure": null,
+    "flow": {
+      "text": "Baseline air flow rate was 8 cm/s, with runs down to 2 cm/s and a limited set with no airflow while the sample was heated.",
+      "evidence_ids": [
+        "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p4#eef9ec5159fd"
+      ]
+    },
+    "gravity": {
+      "text": "The investigation aims to quantify smoke particle sizes in low gravity.",
+      "evidence_ids": [
+        "PSI-101:meta:objective#53315b73942a"
+      ]
+    },
+    "measurements": {
+      "text": "Diameter measurements from moment instruments (geometric mean, count mean and diameter of average mass); the approach also introduced the M-pass instrument alongside a DustTrak and an ionization detector.",
+      "evidence_ids": [
+        "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p4#7127c3989556",
+        "PSI-101:meta:approach#af4cff67790a"
+      ]
+    },
+    "hardware": {
+      "text": "SAME hardware used on-orbit; experiment hardware listed as Comparitive Soot Diagnostic Hardware.",
+      "evidence_ids": [
+        "PSI-101:meta:approach#3c4c60a83b17",
+        "PSI-101:meta:experimentHardware#03d7614a5c6f"
+      ]
+    }
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "type": "objective",
+      "text": "The primary objective of SAME-R was to quantify the sizes that liquid smoke particulate achieves in low gravity and to relate the droplet size distribution to the smoke generation and smoke transport conditions.",
+      "evidence_ids": [
+        "PSI-101:meta:objective#53315b73942a"
+      ]
+    },
+    {
+      "id": "C2",
+      "type": "hypothesis",
+      "text": "SAME-R hypothesizes that liquid aerosol smokes produced in microgravity will exhibit substantially larger droplet sizes than under the same conditions in normal gravity.",
+      "evidence_ids": [
+        "PSI-101:meta:hypothesis#33db3878f29e"
+      ]
+    },
+    {
+      "id": "C3",
+      "type": "reported_observation",
+      "text": "In baseline runs, Table 1 reports the diameter of average mass after 720 s aging. For Kapton it increased from 0.106 to 0.169 micrometers. For Pyrell it increased from 0.377 to 0.529 micrometers.",
+      "evidence_ids": [
+        "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p4#5ac9a253037d",
+        "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p5#f1752d14ed65",
+        "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p5#960ec7619876"
+      ]
+    },
+    {
+      "id": "C4",
+      "type": "reported_observation",
+      "text": "In baseline runs, Table 1 reports an unaged diameter of average mass of 0.106 micrometers for Kapton. It reports 0.173 micrometers for Teflon. It reports 0.271 micrometers for lampwick. It reports 0.468 micrometers for silicone. The report states the Teflon and Kapton particles were very small.",
+      "evidence_ids": [
+        "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p4#5ac9a253037d",
+        "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p5#960ec7619876",
+        "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p5#f1ea32513a50",
+        "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p5#a12500d0d3e7",
+        "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p5#d6253dcd8a21"
+      ]
+    },
+    {
+      "id": "C5",
+      "type": "potential_application",
+      "text": "The report states that the much smaller Kapton and Teflon diameters will make detection of this smoke challenging for light scattering devices, and that detection will require a system capable of measuring more than one moment of the particle size distribution.",
+      "evidence_ids": [
+        "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p5#e94d329e85f0",
+        "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p5#db08a8135cea"
+      ]
+    },
+    {
+      "id": "C6",
+      "type": "reported_observation",
+      "text": "The report states that for all of the materials the diameter of average mass was 30 % to 40 % larger in the zero-flow tests than in the flow tests.",
+      "evidence_ids": [
+        "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p9#e57e2b3fa51c"
+      ]
+    },
+    {
+      "id": "C7",
+      "type": "potential_application",
+      "text": "The report states that the larger particle diameters observed in zero-flow conditions are important to consider in the development of improved fire detection equipment for space vehicles.",
+      "evidence_ids": [
+        "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p9#9dcaef1e9da0",
+        "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p9#e57e2b3fa51c"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "observation": "C4",
+      "conditions": {
+        "text": "Baseline runs used 8 cm/s air flow. The sample temperature was selected to produce 1 to 2 mg of weight loss in 60 seconds. The unaged diameters are in micrometers.",
+        "evidence_ids": [
+          "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p4#eef9ec5159fd",
+          "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p4#b272075d4659",
+          "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p5#960ec7619876"
+        ]
+      },
+      "implication": "C5",
+      "category": "detection"
+    },
+    {
+      "observation": "C6",
+      "conditions": {
+        "text": "Zero-flow tests had no airflow while the sample was heated. The report examined 11 tests and compared them with flow tests; it states that this condition is unique to low-gravity scenarios.",
+        "evidence_ids": [
+          "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p4#eef9ec5159fd",
+          "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p9#08e50384435c",
+          "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p9#78d4d4be980a",
+          "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p9#e57e2b3fa51c"
+        ]
+      },
+      "implication": "C7",
+      "category": "detection"
+    }
+  ],
+  "limitations": [
+    {
+      "text": "In the zero-flow tests, approximately half the smoke was lost from the system, so total particle counts were lower than normal.",
+      "basis": "source",
+      "evidence_ids": [
+        "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p9#7974c0983ce4",
+        "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p9#e57e2b3fa51c"
+      ]
+    },
+    {
+      "text": "The repeatability of the diameter measurements is estimated to be +/- 15%.",
+      "basis": "source",
+      "evidence_ids": [
+        "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p5#1a923d369cd8"
+      ]
+    }
+  ],
+  "modeling_resources": [
+    {
+      "description": "Analyzed data for Kapton Run 62 and Pyrell Run 63, the runs shown in the report's TEM images of aging effects.",
+      "file_keys": [
+        "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_214_10_kapton_run62.xls",
+        "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_235_9_pyrell_run63.xls"
+      ],
+      "evidence_ids": [
+        "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p8#8a2c77ad3d1e"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "PSI-101:meta:objective#53315b73942a",
+      "passage_id": "PSI-101:meta:objective",
+      "investigation": "PSI-101",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-101",
+      "locator": {
+        "kind": "metadata",
+        "field": "objective"
+      },
+      "excerpt": "the primary objective of the SAME-R investigation was to quantify the sizes that the liquid smoke particulate achieves in low gravity and to relate the droplet size distribution to the smoke generation and smoke transport conditions in the experiment."
+    },
+    {
+      "id": "PSI-101:meta:approach#3c4c60a83b17",
+      "passage_id": "PSI-101:meta:approach",
+      "investigation": "PSI-101",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-101",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "excerpt": "SAME-R utilized the SAME hardware used on-orbit."
+    },
+    {
+      "id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p4#6bbdd52677cb",
+      "passage_id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p4",
+      "investigation": "PSI-101",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-101",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-101",
+        "file_id": "683dc530b8656d2315bf508c",
+        "key": "psi-data/PSI-101/Reports/PSI-101_Reports_SAME-R_Final Report.pdf",
+        "version": 1,
+        "filename": "PSI-101_Reports_SAME-R_Final Report.pdf",
+        "sha256": "65381e2715eb7379113dd1b9c550baaa5fa5a247dba00419123143aa98ef80d6",
+        "page": 4
+      },
+      "excerpt": "These were comprised of samples of 6 materials: Teflon™, Kapton™, \nPyrell™, silicone rubber, cellulose (lamp wick), and dibutyl-phthalate deposited on a porous wick."
+    },
+    {
+      "id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p4#eef9ec5159fd",
+      "passage_id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p4",
+      "investigation": "PSI-101",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-101",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-101",
+        "file_id": "683dc530b8656d2315bf508c",
+        "key": "psi-data/PSI-101/Reports/PSI-101_Reports_SAME-R_Final Report.pdf",
+        "version": 1,
+        "filename": "PSI-101_Reports_SAME-R_Final Report.pdf",
+        "sha256": "65381e2715eb7379113dd1b9c550baaa5fa5a247dba00419123143aa98ef80d6",
+        "page": 4
+      },
+      "excerpt": "The baseline air flow rate was 8 cm/s with \nruns conducted at rates down to 2 cm/s with a limited set conducted with no airflow while the sample was heated."
+    },
+    {
+      "id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p4#7127c3989556",
+      "passage_id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p4",
+      "investigation": "PSI-101",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-101",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-101",
+        "file_id": "683dc530b8656d2315bf508c",
+        "key": "psi-data/PSI-101/Reports/PSI-101_Reports_SAME-R_Final Report.pdf",
+        "version": 1,
+        "filename": "PSI-101_Reports_SAME-R_Final Report.pdf",
+        "sha256": "65381e2715eb7379113dd1b9c550baaa5fa5a247dba00419123143aa98ef80d6",
+        "page": 4
+      },
+      "excerpt": "Geometric mean, count mean, and average mass diameter re sults from the moment instruments for baseline runs"
+    },
+    {
+      "id": "PSI-101:meta:approach#af4cff67790a",
+      "passage_id": "PSI-101:meta:approach",
+      "investigation": "PSI-101",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-101",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "excerpt": "a new instrument, M-pass, developed in-house GRC, was used to replace one of the two Commercial Diagnostic Enclosures that includes a DustTrak and an ionization detector used in SAME."
+    },
+    {
+      "id": "PSI-101:meta:experimentHardware#03d7614a5c6f",
+      "passage_id": "PSI-101:meta:experimentHardware",
+      "investigation": "PSI-101",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-101",
+      "locator": {
+        "kind": "metadata",
+        "field": "experimentHardware"
+      },
+      "excerpt": "Comparitive Soot Diagnostic Hardware; Refer to final report"
+    },
+    {
+      "id": "PSI-101:meta:hypothesis#33db3878f29e",
+      "passage_id": "PSI-101:meta:hypothesis",
+      "investigation": "PSI-101",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-101",
+      "locator": {
+        "kind": "metadata",
+        "field": "hypothesis"
+      },
+      "excerpt": "it is hypothesized that liquid aerosol smokes produced in microgravity will exhibit substantially larger droplet sizes than under the same conditions in normal gravity"
+    },
+    {
+      "id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p4#5ac9a253037d",
+      "passage_id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p4",
+      "investigation": "PSI-101",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-101",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-101",
+        "file_id": "683dc530b8656d2315bf508c",
+        "key": "psi-data/PSI-101/Reports/PSI-101_Reports_SAME-R_Final Report.pdf",
+        "version": 1,
+        "filename": "PSI-101_Reports_SAME-R_Final Report.pdf",
+        "sha256": "65381e2715eb7379113dd1b9c550baaa5fa5a247dba00419123143aa98ef80d6",
+        "page": 4
+      },
+      "excerpt": "Kapton  Unaged  0.047 0.062 0.106  2.072\nAged 720 s  0.102 0.121 0.169  1.790"
+    },
+    {
+      "id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p5#f1752d14ed65",
+      "passage_id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p5",
+      "investigation": "PSI-101",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-101",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-101",
+        "file_id": "683dc530b8656d2315bf508c",
+        "key": "psi-data/PSI-101/Reports/PSI-101_Reports_SAME-R_Final Report.pdf",
+        "version": 1,
+        "filename": "PSI-101_Reports_SAME-R_Final Report.pdf",
+        "sha256": "65381e2715eb7379113dd1b9c550baaa5fa5a247dba00419123143aa98ef80d6",
+        "page": 5
+      },
+      "excerpt": "Pyrell  Unaged  0.177 0.227 0.377  2.032\nAged 720 s  0.348 0.400 0.529  1.697"
+    },
+    {
+      "id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p5#960ec7619876",
+      "passage_id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p5",
+      "investigation": "PSI-101",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-101",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-101",
+        "file_id": "683dc530b8656d2315bf508c",
+        "key": "psi-data/PSI-101/Reports/PSI-101_Reports_SAME-R_Final Report.pdf",
+        "version": 1,
+        "filename": "PSI-101_Reports_SAME-R_Final Report.pdf",
+        "sha256": "65381e2715eb7379113dd1b9c550baaa5fa5a247dba00419123143aa98ef80d6",
+        "page": 5
+      },
+      "excerpt": "Table 1: Diameter results for baseline runs for each material (Diameters are in micrometers)."
+    },
+    {
+      "id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p5#f1ea32513a50",
+      "passage_id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p5",
+      "investigation": "PSI-101",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-101",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-101",
+        "file_id": "683dc530b8656d2315bf508c",
+        "key": "psi-data/PSI-101/Reports/PSI-101_Reports_SAME-R_Final Report.pdf",
+        "version": 1,
+        "filename": "PSI-101_Reports_SAME-R_Final Report.pdf",
+        "sha256": "65381e2715eb7379113dd1b9c550baaa5fa5a247dba00419123143aa98ef80d6",
+        "page": 5
+      },
+      "excerpt": "Lampwick  Unaged  0.103 0.142 0.271  2.232"
+    },
+    {
+      "id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p5#a12500d0d3e7",
+      "passage_id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p5",
+      "investigation": "PSI-101",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-101",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-101",
+        "file_id": "683dc530b8656d2315bf508c",
+        "key": "psi-data/PSI-101/Reports/PSI-101_Reports_SAME-R_Final Report.pdf",
+        "version": 1,
+        "filename": "PSI-101_Reports_SAME-R_Final Report.pdf",
+        "sha256": "65381e2715eb7379113dd1b9c550baaa5fa5a247dba00419123143aa98ef80d6",
+        "page": 5
+      },
+      "excerpt": "Overall, the Teflon and Kapton particles were very small."
+    },
+    {
+      "id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p5#d6253dcd8a21",
+      "passage_id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p5",
+      "investigation": "PSI-101",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-101",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-101",
+        "file_id": "683dc530b8656d2315bf508c",
+        "key": "psi-data/PSI-101/Reports/PSI-101_Reports_SAME-R_Final Report.pdf",
+        "version": 1,
+        "filename": "PSI-101_Reports_SAME-R_Final Report.pdf",
+        "sha256": "65381e2715eb7379113dd1b9c550baaa5fa5a247dba00419123143aa98ef80d6",
+        "page": 5
+      },
+      "excerpt": "Silicone  Unaged  0.152 0.221 0.468  2.382\nAged 720 s  0.320 0.400 0.628  1.956\nTeflon  Unaged  0.093 0.111 0.173  2.081"
+    },
+    {
+      "id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p5#e94d329e85f0",
+      "passage_id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p5",
+      "investigation": "PSI-101",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-101",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-101",
+        "file_id": "683dc530b8656d2315bf508c",
+        "key": "psi-data/PSI-101/Reports/PSI-101_Reports_SAME-R_Final Report.pdf",
+        "version": 1,
+        "filename": "PSI-101_Reports_SAME-R_Final Report.pdf",
+        "sha256": "65381e2715eb7379113dd1b9c550baaa5fa5a247dba00419123143aa98ef80d6",
+        "page": 5
+      },
+      "excerpt": "will make detection of this smoke challenging for light scattering devices"
+    },
+    {
+      "id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p5#db08a8135cea",
+      "passage_id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p5",
+      "investigation": "PSI-101",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-101",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-101",
+        "file_id": "683dc530b8656d2315bf508c",
+        "key": "psi-data/PSI-101/Reports/PSI-101_Reports_SAME-R_Final Report.pdf",
+        "version": 1,
+        "filename": "PSI-101_Reports_SAME-R_Final Report.pdf",
+        "sha256": "65381e2715eb7379113dd1b9c550baaa5fa5a247dba00419123143aa98ef80d6",
+        "page": 5
+      },
+      "excerpt": "will require a detection system capable of measuring more than one moment of the particle"
+    },
+    {
+      "id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p9#e57e2b3fa51c",
+      "passage_id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p9",
+      "investigation": "PSI-101",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-101",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-101",
+        "file_id": "683dc530b8656d2315bf508c",
+        "key": "psi-data/PSI-101/Reports/PSI-101_Reports_SAME-R_Final Report.pdf",
+        "version": 1,
+        "filename": "PSI-101_Reports_SAME-R_Final Report.pdf",
+        "sha256": "65381e2715eb7379113dd1b9c550baaa5fa5a247dba00419123143aa98ef80d6",
+        "page": 9
+      },
+      "excerpt": "It is found for all of the materials the diameter of \naverage mass is 30 % to 40 % larger for the zero-flow tests compared to the flow tests."
+    },
+    {
+      "id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p9#9dcaef1e9da0",
+      "passage_id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p9",
+      "investigation": "PSI-101",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-101",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-101",
+        "file_id": "683dc530b8656d2315bf508c",
+        "key": "psi-data/PSI-101/Reports/PSI-101_Reports_SAME-R_Final Report.pdf",
+        "version": 1,
+        "filename": "PSI-101_Reports_SAME-R_Final Report.pdf",
+        "sha256": "65381e2715eb7379113dd1b9c550baaa5fa5a247dba00419123143aa98ef80d6",
+        "page": 9
+      },
+      "excerpt": "the larger particle \ndiameters observed in these zero-flow conditions are important to consider in the development of improved fire \ndetection equipment for space vehicles."
+    },
+    {
+      "id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p4#b272075d4659",
+      "passage_id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p4",
+      "investigation": "PSI-101",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-101",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-101",
+        "file_id": "683dc530b8656d2315bf508c",
+        "key": "psi-data/PSI-101/Reports/PSI-101_Reports_SAME-R_Final Report.pdf",
+        "version": 1,
+        "filename": "PSI-101_Reports_SAME-R_Final Report.pdf",
+        "sha256": "65381e2715eb7379113dd1b9c550baaa5fa5a247dba00419123143aa98ef80d6",
+        "page": 4
+      },
+      "excerpt": "The \nbaseline temperature was selected to produce 1 to 2 mg of weight loss in 60 seconds"
+    },
+    {
+      "id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p9#08e50384435c",
+      "passage_id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p9",
+      "investigation": "PSI-101",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-101",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-101",
+        "file_id": "683dc530b8656d2315bf508c",
+        "key": "psi-data/PSI-101/Reports/PSI-101_Reports_SAME-R_Final Report.pdf",
+        "version": 1,
+        "filename": "PSI-101_Reports_SAME-R_Final Report.pdf",
+        "sha256": "65381e2715eb7379113dd1b9c550baaa5fa5a247dba00419123143aa98ef80d6",
+        "page": 9
+      },
+      "excerpt": "was examined for 11 tests by \nmodifying the valve operation in the SAME hardware."
+    },
+    {
+      "id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p9#78d4d4be980a",
+      "passage_id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p9",
+      "investigation": "PSI-101",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-101",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-101",
+        "file_id": "683dc530b8656d2315bf508c",
+        "key": "psi-data/PSI-101/Reports/PSI-101_Reports_SAME-R_Final Report.pdf",
+        "version": 1,
+        "filename": "PSI-101_Reports_SAME-R_Final Report.pdf",
+        "sha256": "65381e2715eb7379113dd1b9c550baaa5fa5a247dba00419123143aa98ef80d6",
+        "page": 9
+      },
+      "excerpt": "It is important to recognize that this condition is unique to low-gravity scenarios."
+    },
+    {
+      "id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p9#7974c0983ce4",
+      "passage_id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p9",
+      "investigation": "PSI-101",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-101",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-101",
+        "file_id": "683dc530b8656d2315bf508c",
+        "key": "psi-data/PSI-101/Reports/PSI-101_Reports_SAME-R_Final Report.pdf",
+        "version": 1,
+        "filename": "PSI-101_Reports_SAME-R_Final Report.pdf",
+        "sha256": "65381e2715eb7379113dd1b9c550baaa5fa5a247dba00419123143aa98ef80d6",
+        "page": 9
+      },
+      "excerpt": "approximately half the smoke was lost from the system because it diffused out of the inlet into \nthe MSG volume."
+    },
+    {
+      "id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p5#1a923d369cd8",
+      "passage_id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p5",
+      "investigation": "PSI-101",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-101",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-101",
+        "file_id": "683dc530b8656d2315bf508c",
+        "key": "psi-data/PSI-101/Reports/PSI-101_Reports_SAME-R_Final Report.pdf",
+        "version": 1,
+        "filename": "PSI-101_Reports_SAME-R_Final Report.pdf",
+        "sha256": "65381e2715eb7379113dd1b9c550baaa5fa5a247dba00419123143aa98ef80d6",
+        "page": 5
+      },
+      "excerpt": "The repeatability of the diameter measurements is estimated to be +/- 15%."
+    },
+    {
+      "id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p8#8a2c77ad3d1e",
+      "passage_id": "PSI-101:pdf:683dc530b8656d2315bf508c:v1:p8",
+      "investigation": "PSI-101",
+      "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-101",
+      "locator": {
+        "kind": "pdf",
+        "accession": "PSI-101",
+        "file_id": "683dc530b8656d2315bf508c",
+        "key": "psi-data/PSI-101/Reports/PSI-101_Reports_SAME-R_Final Report.pdf",
+        "version": 1,
+        "filename": "PSI-101_Reports_SAME-R_Final Report.pdf",
+        "sha256": "65381e2715eb7379113dd1b9c550baaa5fa5a247dba00419123143aa98ef80d6",
+        "page": 8
+      },
+      "excerpt": "Figure 12: TEM images showing the effect of aging for Kapton (Run 62) and Pyrell (Run 63)."
+    }
+  ],
+  "generation": {
+    "method": "skill",
+    "skill": "research-card",
+    "model": "claude-sonnet-5-5",
+    "generated_at": "2026-11-15T18:13:44+00:00"
+  },
+  "review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null,
+    "notes": ""
+  }
+}

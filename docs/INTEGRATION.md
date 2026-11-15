@@ -36,3 +36,13 @@ The `test_*` ignore rule is unchanged. Regression tests are added explicitly so 
 The source tables and PDFs remain downloaded inputs under ignored `res/`. Preparation commands require those saved inputs. Structural validation of committed contracts and fixtures runs offline without them.
 
 PR #40 verification: 17 regression tests pass; Ruff passes; Mypy reports no errors in 31 pipeline modules. The regenerated output preserves 2,009 records across 22 tables. BASS-II has 567 confirmed links and 11 ambiguous candidates after excluding files that explicitly identify another test. No alias or extraction review status was promoted.
+
+## Research cards and review
+
+Card validation checks numbers written as words, comparator direction and quantity attribution within source clauses. Title metadata cannot turn objectives into reported observations; summaries, comparisons and finding conditions follow the same result-evidence rule. Source limitations need citations, and modeling file keys must belong to the investigation inventory.
+
+The review screen includes comparison fields, safety categories, modeling resources, source locators and passage context. Malformed review files return an error without a traceback. The 24 pending cards describe available table evidence accurately. Their preparation drafts are committed under data/drafts/; the recorded generation timestamp allows deterministic finalization without inventing a new review.
+
+Regenerate a card with `python -X utf8 -m pipeline.cards finalize data/drafts/PSI-69.json`. Validate all cards with `python -X utf8 -m pipeline.cards validate`. Regenerate the development subset with `python -m pipeline.fixtures`. Historical S0 fixtures retain their original schema pin and are separate from current pipeline fixtures.
+
+PR #41 verification: the 17 download/normalization regressions and nine card/review regressions pass. All 24 saved drafts reproduce their committed cards, including timestamps and pending review. Ruff passes; Mypy reports no errors in 40 pipeline modules. The development fixtures regenerate successfully. These checks do not approve any scientific claim.

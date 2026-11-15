@@ -1,0 +1,283 @@
+{
+  "investigation": "PSI-106",
+  "title": "Structure and Liftoff In Combustion Experiment",
+  "acronym": "SLICE",
+  "metadata_version": 3,
+  "source_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-106",
+  "snapshot_retrieved_at": "2026-11-15T01:06:55.180340+00:00",
+  "coverage": "metadata_only",
+  "passages": [
+    {
+      "id": "PSI-106:meta:title",
+      "locator": {
+        "kind": "metadata",
+        "field": "title"
+      },
+      "text": "Structure and Liftoff In Combustion Experiment"
+    },
+    {
+      "id": "PSI-106:meta:objective",
+      "locator": {
+        "kind": "metadata",
+        "field": "objective"
+      },
+      "text": "Objective: The objective of this investigation is to better understand the structure and stability of laminar diffusion flames in microgravity.\n\nSpecific objectives of this investigation were:\n1. To investigate the structure of laminar diffusion flames in microgravity to understand the stabilizing mechanisms at the flames base.\n2. Determine the liftoff velocity limits for different fuels and burner diameters.\n3. Evaluate the impact of fuel dilution with nitrogen on soot formation and flame stability.\n4. Quantify the effects of microgravity on flame length and radiative heat loss compared to normal gravity conditions.\n5. Validate numerical models for flame dynamics, soot production, and thermal radiation in non-premixed flames."
+    },
+    {
+      "id": "PSI-106:meta:approach",
+      "locator": {
+        "kind": "metadata",
+        "field": "approach"
+      },
+      "text": "The SLICE apparatus consisted of a fan-driven flow duct, exchangeable burner tubes, and integrated sensors to measure flow rates and temperature. This setup used several fuels such as methane, ethylene, and nitrogen-diluted mixtures. Flames were then manually ignited and observed under controlled coflow air conditions. A high resolution camera captured still images while sensor data was overlaid on these images. Calibration tests for airflow velocity, soot measurement, and the fans were conducted to ensure the accuracy of the results. More than 4,000 high-resolution images were captured across 13 testing experiments. Data was then analyzed to correlate flame structure with stability with flow dynamics and fuel properties."
+    },
+    {
+      "id": "PSI-106:meta:hypothesis",
+      "locator": {
+        "kind": "metadata",
+        "field": "hypothesis"
+      },
+      "text": "The hypothesis is that the structure and stability of laminar diffusion flames in microgravity are significantly influenced by burner diameter, coflow velocity, and fuel composition and are fundamentally different than flames observed on Earth."
+    },
+    {
+      "id": "PSI-106:meta:researchImpacts",
+      "locator": {
+        "kind": "metadata",
+        "field": "researchImpacts"
+      },
+      "text": "1. Improved numerical models for flame behavior lead to more efficient combustion technologies on Earth.\n2. Understanding soot formation aids in designing combustion systems with minimum emissions.\n3. Insights into flame stability and behavior to enhance fire safety.\n4. Findings will inform the development of cleaner, more efficient engines and industrial burners."
+    },
+    {
+      "id": "PSI-106:meta:publications[0].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[0].title"
+      },
+      "text": "A computational and experimental study of coflow laminar methane/air diffusion flames: Effects of fuel dilution, inlet velocity, and gravity"
+    },
+    {
+      "id": "PSI-106:meta:publications[1].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[1].title"
+      },
+      "text": "A Combined Experimental and Computational Study of Soot Formation in Normal and Microgravity Conditions"
+    },
+    {
+      "id": "PSI-106:meta:publications[2].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[2].title"
+      },
+      "text": "Effects of Fuel Dilution and Gravity on Laminar Coflow Methane-Air Diffusion Flames: A Computational and Experimental Investigation"
+    },
+    {
+      "id": "PSI-106:meta:publications[3].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[3].title"
+      },
+      "text": "An experimental and computational study of soot formation in a coflow jet flame under microgravity and normal gravity"
+    },
+    {
+      "id": "PSI-106:meta:publications[4].title",
+      "locator": {
+        "kind": "metadata",
+        "field": "publications[4].title"
+      },
+      "text": "Analysis of CH* concentration and flame heat release rate in laminar coflow diffusion flames under microgravity and normal gravity"
+    },
+    {
+      "id": "PSI-106:table:67a4e6f009ed061032c19847:v1:r1",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-106",
+        "file_id": "67a4e6f009ed061032c19847",
+        "key": "psi-data/PSI-106/Experimental table/PSI-106_Experimental table_Slice.csv",
+        "version": 1,
+        "filename": "PSI-106_Experimental table_Slice.csv",
+        "sha256": "89ef980810ca6d9aa8be817b42e36cd2adff23f5e9058361b5a33d18b4363f4d",
+        "row": 1,
+        "record_id": "PSI-106:slice:1"
+      },
+      "text": "Test Date: 2012-FEB-09 | Fuel Type: 100% CH4"
+    },
+    {
+      "id": "PSI-106:table:67a4e6f009ed061032c19847:v1:r2",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-106",
+        "file_id": "67a4e6f009ed061032c19847",
+        "key": "psi-data/PSI-106/Experimental table/PSI-106_Experimental table_Slice.csv",
+        "version": 1,
+        "filename": "PSI-106_Experimental table_Slice.csv",
+        "sha256": "89ef980810ca6d9aa8be817b42e36cd2adff23f5e9058361b5a33d18b4363f4d",
+        "row": 2,
+        "record_id": "PSI-106:slice:2"
+      },
+      "text": "Test Date: 2012-FEB-13 SLICE testing with | Fuel Type: 40% CH4 (balance N2) including 2 pyrometry calibration tests and 2 fan calibrations"
+    },
+    {
+      "id": "PSI-106:table:67a4e6f009ed061032c19847:v1:r3",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-106",
+        "file_id": "67a4e6f009ed061032c19847",
+        "key": "psi-data/PSI-106/Experimental table/PSI-106_Experimental table_Slice.csv",
+        "version": 1,
+        "filename": "PSI-106_Experimental table_Slice.csv",
+        "sha256": "89ef980810ca6d9aa8be817b42e36cd2adff23f5e9058361b5a33d18b4363f4d",
+        "row": 3,
+        "record_id": "PSI-106:slice:3"
+      },
+      "text": "Test Date: 2012-FEB-17 | Fuel Type: 70% CH4 (balance N2) including 1 pyrometry calibration test"
+    },
+    {
+      "id": "PSI-106:table:67a4e6f009ed061032c19847:v1:r4",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-106",
+        "file_id": "67a4e6f009ed061032c19847",
+        "key": "psi-data/PSI-106/Experimental table/PSI-106_Experimental table_Slice.csv",
+        "version": 1,
+        "filename": "PSI-106_Experimental table_Slice.csv",
+        "sha256": "89ef980810ca6d9aa8be817b42e36cd2adff23f5e9058361b5a33d18b4363f4d",
+        "row": 4,
+        "record_id": "PSI-106:slice:4"
+      },
+      "text": "Test Date: 2012-FEB-20 | Fuel Type: 20% C2H4 (balance N2)"
+    },
+    {
+      "id": "PSI-106:table:67a4e6f009ed061032c19847:v1:r5",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-106",
+        "file_id": "67a4e6f009ed061032c19847",
+        "key": "psi-data/PSI-106/Experimental table/PSI-106_Experimental table_Slice.csv",
+        "version": 1,
+        "filename": "PSI-106_Experimental table_Slice.csv",
+        "sha256": "89ef980810ca6d9aa8be817b42e36cd2adff23f5e9058361b5a33d18b4363f4d",
+        "row": 5,
+        "record_id": "PSI-106:slice:5"
+      },
+      "text": "Test Date: 2012-FEB-27 | Fuel Type: 100% CH4"
+    },
+    {
+      "id": "PSI-106:table:67a4e6f009ed061032c19847:v1:r6",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-106",
+        "file_id": "67a4e6f009ed061032c19847",
+        "key": "psi-data/PSI-106/Experimental table/PSI-106_Experimental table_Slice.csv",
+        "version": 1,
+        "filename": "PSI-106_Experimental table_Slice.csv",
+        "sha256": "89ef980810ca6d9aa8be817b42e36cd2adff23f5e9058361b5a33d18b4363f4d",
+        "row": 6,
+        "record_id": "PSI-106:slice:6"
+      },
+      "text": "Test Date: 2012-MAR-01 | Fuel Type: 40% CH4 (balance N2)"
+    },
+    {
+      "id": "PSI-106:table:67a4e6f009ed061032c19847:v1:r7",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-106",
+        "file_id": "67a4e6f009ed061032c19847",
+        "key": "psi-data/PSI-106/Experimental table/PSI-106_Experimental table_Slice.csv",
+        "version": 1,
+        "filename": "PSI-106_Experimental table_Slice.csv",
+        "sha256": "89ef980810ca6d9aa8be817b42e36cd2adff23f5e9058361b5a33d18b4363f4d",
+        "row": 7,
+        "record_id": "PSI-106:slice:7"
+      },
+      "text": "Test Date: 2012-MAR-05 SLICE testing with | Fuel Type: 70% CH4 (balance N2) where the fuel bottle was not emptied (in contrast to most days)"
+    },
+    {
+      "id": "PSI-106:table:67a4e6f009ed061032c19847:v1:r8",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-106",
+        "file_id": "67a4e6f009ed061032c19847",
+        "key": "psi-data/PSI-106/Experimental table/PSI-106_Experimental table_Slice.csv",
+        "version": 1,
+        "filename": "PSI-106_Experimental table_Slice.csv",
+        "sha256": "89ef980810ca6d9aa8be817b42e36cd2adff23f5e9058361b5a33d18b4363f4d",
+        "row": 8,
+        "record_id": "PSI-106:slice:8"
+      },
+      "text": "Test Date: 2012-MAR-09 | Fuel Type: 100% C2H6"
+    },
+    {
+      "id": "PSI-106:table:67a4e6f009ed061032c19847:v1:r9",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-106",
+        "file_id": "67a4e6f009ed061032c19847",
+        "key": "psi-data/PSI-106/Experimental table/PSI-106_Experimental table_Slice.csv",
+        "version": 1,
+        "filename": "PSI-106_Experimental table_Slice.csv",
+        "sha256": "89ef980810ca6d9aa8be817b42e36cd2adff23f5e9058361b5a33d18b4363f4d",
+        "row": 9,
+        "record_id": "PSI-106:slice:9"
+      },
+      "text": "Test Date: 2012-MAR-12 | Fuel Type: 100% CH4"
+    },
+    {
+      "id": "PSI-106:table:67a4e6f009ed061032c19847:v1:r10",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-106",
+        "file_id": "67a4e6f009ed061032c19847",
+        "key": "psi-data/PSI-106/Experimental table/PSI-106_Experimental table_Slice.csv",
+        "version": 1,
+        "filename": "PSI-106_Experimental table_Slice.csv",
+        "sha256": "89ef980810ca6d9aa8be817b42e36cd2adff23f5e9058361b5a33d18b4363f4d",
+        "row": 10,
+        "record_id": "PSI-106:slice:10"
+      },
+      "text": "Test Date: 2012-MAR-15 | Fuel Type: 20% C2H4 (balance N2)"
+    },
+    {
+      "id": "PSI-106:table:67a4e6f009ed061032c19847:v1:r11",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-106",
+        "file_id": "67a4e6f009ed061032c19847",
+        "key": "psi-data/PSI-106/Experimental table/PSI-106_Experimental table_Slice.csv",
+        "version": 1,
+        "filename": "PSI-106_Experimental table_Slice.csv",
+        "sha256": "89ef980810ca6d9aa8be817b42e36cd2adff23f5e9058361b5a33d18b4363f4d",
+        "row": 11,
+        "record_id": "PSI-106:slice:11"
+      },
+      "text": "Test Date: 2012-MAR-19 SLICE testing with | Fuel Type: 70% CH4 (balance N2) including 1 pyrometry calibration test and 2 fan calibrations"
+    },
+    {
+      "id": "PSI-106:table:67a4e6f009ed061032c19847:v1:r12",
+      "locator": {
+        "kind": "table",
+        "accession": "PSI-106",
+        "file_id": "67a4e6f009ed061032c19847",
+        "key": "psi-data/PSI-106/Experimental table/PSI-106_Experimental table_Slice.csv",
+        "version": 1,
+        "filename": "PSI-106_Experimental table_Slice.csv",
+        "sha256": "89ef980810ca6d9aa8be817b42e36cd2adff23f5e9058361b5a33d18b4363f4d",
+        "row": 12,
+        "record_id": "PSI-106:slice:12"
+      },
+      "text": "Test Date: 2012-MAR-23 Last day of testing: SPICE testing with 100% C3H8 and then 100% | Fuel Type: 100% C2H4"
+    }
+  ],
+  "documents": [],
+  "tables": [
+    {
+      "accession": "PSI-106",
+      "file_id": "67a4e6f009ed061032c19847",
+      "key": "psi-data/PSI-106/Experimental table/PSI-106_Experimental table_Slice.csv",
+      "version": 1,
+      "filename": "PSI-106_Experimental table_Slice.csv",
+      "sha256": "89ef980810ca6d9aa8be817b42e36cd2adff23f5e9058361b5a33d18b4363f4d",
+      "rows": 12
+    }
+  ]
+}

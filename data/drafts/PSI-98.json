@@ -1,0 +1,266 @@
+{
+  "accession": "PSI-98",
+  "summary": {
+    "text": "Saffire-I aims to study a large scale fire in low-gravity aboard the Cygnus vehicle after it deberthed from the ISS. PSI's experimental table records burn times for a large SIBAL fabric sample under concurrent and opposed flow.",
+    "evidence_ids": [
+      "E1",
+      "E10",
+      "E3",
+      "E4"
+    ]
+  },
+  "safety_categories": [
+    {
+      "category": "prevention",
+      "evidence_ids": [
+        "E5"
+      ]
+    }
+  ],
+  "comparison": {
+    "fuels": {
+      "text": "SIBAL, a composite fabric of cotton on a fiberglass substrate (75% cotton, 25% fiberglass by weight).",
+      "evidence_ids": [
+        "E7"
+      ]
+    },
+    "geometry": {
+      "text": "Sample described as approximately 0.94 meters long and 0.4 meters wide, simulating a large piece of flammable fabric.",
+      "evidence_ids": [
+        "E8"
+      ]
+    },
+    "oxygen": {
+      "text": "The experimental table records Percent O2 as 21.5 - 21.7 for sample S1 and ~ 21.5 for sample S2.",
+      "evidence_ids": [
+        "E3",
+        "E4"
+      ]
+    },
+    "pressure": null,
+    "flow": {
+      "text": "Air flow velocity of 20 cm/s; flow direction recorded as Concurrent for sample S1 and Opposed for sample S2.",
+      "evidence_ids": [
+        "E9",
+        "E3",
+        "E4"
+      ]
+    },
+    "gravity": {
+      "text": "Low-gravity, performed on the Cygnus resupply vehicle after it deberthed from the ISS.",
+      "evidence_ids": [
+        "E10",
+        "E1"
+      ]
+    },
+    "measurements": {
+      "text": "Thermocouples for flow, flame, and plume temperatures, two radiometers for flame radiation, solid state sensors for pressure, CO2 and O2 mole fraction, and two anemometers for flow velocity.",
+      "evidence_ids": [
+        "E11"
+      ]
+    },
+    "hardware": {
+      "text": "Saffire 1 enclosure in Cygnus.",
+      "evidence_ids": [
+        "E12"
+      ]
+    }
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "type": "objective",
+      "text": "The investigation aims to determine how rapidly a large scale fire grows in low-gravity and to investigate the low-g flammability limits compared to those obtained in NASA's normal gravity material flammability screening test.",
+      "evidence_ids": [
+        "E1"
+      ]
+    },
+    {
+      "id": "C2",
+      "type": "hypothesis",
+      "text": "The investigation hypothesizes that, because fire behavior differs greatly between normal and reduced gravity, using terrestrial fires and fire standards to design spacecraft fire safety systems presents an inherent risk because of significant uncertainty.",
+      "evidence_ids": [
+        "E2"
+      ]
+    },
+    {
+      "id": "C3",
+      "type": "reported_observation",
+      "text": "The PSI experimental table records a burn time of 420 s for sample S1 (SIBAL Fabric, sample thickness 0.37 cm, air flow 20 cm/s, Percent O2 21.5 - 21.7, concurrent flow).",
+      "evidence_ids": [
+        "E3"
+      ]
+    },
+    {
+      "id": "C4",
+      "type": "reported_observation",
+      "text": "The PSI experimental table records a burn time of 70 s for sample S2 (SIBAL Fabric, sample thickness 0.37 cm, air flow 20 cm/s, Percent O2 ~ 21.5, opposed flow).",
+      "evidence_ids": [
+        "E4"
+      ]
+    },
+    {
+      "id": "C5",
+      "type": "potential_application",
+      "text": "Material flammability data of this kind could potentially help validate NASA's material selection criteria and reduce uncertainty in the design of spacecraft fire safety systems.",
+      "evidence_ids": [
+        "E5",
+        "E6"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "observation": "C3",
+      "conditions": {
+        "text": "SIBAL Fabric, sample thickness 0.37 cm, air flow 20 cm/s, Percent O2 21.5 - 21.7, concurrent flow direction, as recorded in the same table row.",
+        "evidence_ids": [
+          "E3"
+        ]
+      },
+      "implication": "C5",
+      "category": "prevention"
+    },
+    {
+      "observation": "C4",
+      "conditions": {
+        "text": "SIBAL Fabric, sample thickness 0.37 cm, air flow 20 cm/s, Percent O2 ~ 21.5, opposed flow direction, as recorded in the same table row.",
+        "evidence_ids": [
+          "E4"
+        ]
+      },
+      "implication": "C5",
+      "category": "prevention"
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The science paper was written before the flight and describes Saffire-I operation as scheduled (future tense); it reports no results. Reported observations come only from the experimental table rows.",
+      "basis": "source",
+      "evidence_ids": [
+        "E13"
+      ]
+    },
+    {
+      "text": "The experimental table gives a burn time for concurrent flow and a burn time for opposed flow. The source states no comparison, trend, or cause, and none is drawn here.",
+      "basis": "source",
+      "evidence_ids": [
+        "E3",
+        "E4"
+      ]
+    },
+    {
+      "text": "The source acknowledges that a relatively small number of tests is conducted (two large samples and nine smaller samples).",
+      "basis": "source",
+      "evidence_ids": [
+        "E14"
+      ]
+    },
+    {
+      "text": "The table lists Sample Length (cm) as 40.6 and Sample Width (cm) as 94. The metadata describes the sample as approximately 0.94 meters long and 0.4 meters wide; the sources label the dimensions differently.",
+      "basis": "source",
+      "evidence_ids": [
+        "E3",
+        "E8"
+      ]
+    },
+    {
+      "text": "The document 'SAFFIRE Offgassing Testing Strategy' was not downloaded, so its content was not examined.",
+      "basis": "coverage",
+      "evidence_ids": []
+    },
+    {
+      "text": "The Raw Data document on thermocouple placement for the Saffire flight units has no extractable text, so its content was not examined.",
+      "basis": "coverage",
+      "evidence_ids": []
+    }
+  ],
+  "modeling_resources": [
+    {
+      "description": "PSI experimental table for Saffire-I with per-sample burn time, thickness, air flow, O2 and flow direction; could support future predictive modeling.",
+      "file_keys": [
+        "psi-data/PSI-98/Experimental table/PSI-98_Experimental table_SAFFIRE-1.csv"
+      ],
+      "evidence_ids": [
+        "E3",
+        "E4"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E1",
+      "passage_id": "PSI-98:meta:objective",
+      "excerpt": "(1) determine how rapidly a large scale fire grows in low-gravity and (2) investigate the low-g flammability limits compared to those obtained in NASA’s normal\ngravity material flammability screening test."
+    },
+    {
+      "id": "E2",
+      "passage_id": "PSI-98:meta:hypothesis",
+      "excerpt": "This investigation hypothesizes that due to large differences between fire behavior in normal and reduced gravity, the use of terrestrial fires and fire standards to design spacecraft fire safety systems presents an inherent risk to the vehicle because of the significant level of uncertainty."
+    },
+    {
+      "id": "E3",
+      "passage_id": "PSI-98:table:6792c46eb7b6ff8e65037f3e:v1:r1",
+      "excerpt": "Sample Number: S1 | Material: SIBAL Fabric | Sample Thickness (cm): 0.37 | Sample Length (cm): 40.6 | Sample Width (cm): 94 | Air Flow (cm/s): 20 | Percent O2: 21.5 - 21.7 | Ignition Power (W): 182 | Ignition Time (s): 8 | Burn Time (s): 420 | Flow Direction: Concurrent"
+    },
+    {
+      "id": "E4",
+      "passage_id": "PSI-98:table:6792c46eb7b6ff8e65037f3e:v1:r2",
+      "excerpt": "Sample Number: S2 | Material: SIBAL Fabric | Sample Thickness (cm): 0.37 | Sample Length (cm): 40.6 | Sample Width (cm): 94 | Air Flow (cm/s): 20 | Percent O2: ~ 21.5 | Ignition Power (W): 182 | Ignition Time (s): 8 | Burn Time (s): 70 | Flow Direction: Opposed"
+    },
+    {
+      "id": "E5",
+      "passage_id": "PSI-98:meta:researchImpacts",
+      "excerpt": "Results determine microgravity flammability limits for several spacecraft materials, help to validate NASA’s material selection criteria"
+    },
+    {
+      "id": "E6",
+      "passage_id": "PSI-98:pdf:683f4a57746db1c87dcebee8:v1:p1",
+      "excerpt": "The overall objective of this project is to \nreduce the uncertainty and risk associated with the \ndesign of spacecraft fire safety systems for NASA’s \nexploration missions."
+    },
+    {
+      "id": "E7",
+      "passage_id": "PSI-98:meta:approach",
+      "excerpt": "The sample material for Saffire-I is a composite fabric called Sibal consisting of cotton on a fiberglass substrate (75% cotton, 25% fiberglass by weight)."
+    },
+    {
+      "id": "E8",
+      "passage_id": "PSI-98:meta:approach",
+      "excerpt": "The sample was approximately 0.94 meters long and 0.4 meters wide, simulating a large piece of flammable fabric."
+    },
+    {
+      "id": "E9",
+      "passage_id": "PSI-98:meta:approach",
+      "excerpt": "Saffire-I was conducted at an air flow velocity of 20 cm/s."
+    },
+    {
+      "id": "E10",
+      "passage_id": "PSI-98:meta:approach",
+      "excerpt": "The Saffire-1 experiments was performed on the Orbital Science’s Cygnus resupply vehicle after it deberthed from the ISS."
+    },
+    {
+      "id": "E11",
+      "passage_id": "PSI-98:meta:approach",
+      "excerpt": "thermocouples provided flow, flame, and plume temperatures, two radiometers recorded flame radiation, solid state sensors were used to measure pressure, CO2 and O2 mole faction, and two anemometer tracked flow velocity."
+    },
+    {
+      "id": "E12",
+      "passage_id": "PSI-98:meta:experimentHardware",
+      "excerpt": "Saffire 1 enclosure in Cygnus"
+    },
+    {
+      "id": "E13",
+      "passage_id": "PSI-98:pdf:683f4a57746db1c87dcebee8:v1:p4",
+      "excerpt": "Saffire-I is scheduled to operate a few hours \nafterwards."
+    },
+    {
+      "id": "E14",
+      "passage_id": "PSI-98:pdf:683f4a57746db1c87dcebee8:v1:p5",
+      "excerpt": "a relatively small \nnumber of tests will be conducted (two large samples \nand nine smaller samples)"
+    }
+  ],
+  "generation": {
+    "model": "claude-sonnet-5-5",
+    "generated_at": "2026-11-15T18:13:55+00:00"
+  }
+}

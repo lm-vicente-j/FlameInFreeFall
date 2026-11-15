@@ -1,0 +1,176 @@
+{
+  "accession": "PSI-26",
+  "summary": {
+    "text": "BASS aims to relate normal-gravity material flammability testing to flames burning in microgravity aboard the ISS, and to assess an inert gaseous extinguishing agent over different materials, geometries, preheating and flow.",
+    "evidence_ids": [
+      "E1",
+      "E2",
+      "E9"
+    ]
+  },
+  "safety_categories": [
+    {
+      "category": "suppression",
+      "evidence_ids": [
+        "E3"
+      ]
+    }
+  ],
+  "comparison": {
+    "fuels": {
+      "text": "Fabric samples of 75% cotton and 25% fiberglass (by mass), Nomex fabric and Ultem.",
+      "evidence_ids": [
+        "E4"
+      ]
+    },
+    "geometry": {
+      "text": "Fabric samples in a 76 mm x 76 mm cross-section flow duct; other sample shapes included spheres and cylinders.",
+      "evidence_ids": [
+        "E6",
+        "E7"
+      ]
+    },
+    "oxygen": null,
+    "pressure": null,
+    "flow": {
+      "text": "Variable speed fan, airflow speeds up to 40 cm/s, in opposed or concurrent direction relative to flame spread.",
+      "evidence_ids": [
+        "E5",
+        "E8"
+      ]
+    },
+    "gravity": null,
+    "measurements": {
+      "text": "Flame size, shape, color, spread rate and potential flame quenching, observed in top and edge profiles.",
+      "evidence_ids": [
+        "E10"
+      ]
+    },
+    "hardware": {
+      "text": "Microgravity Science Glovebox aboard the International Space Station.",
+      "evidence_ids": [
+        "E9",
+        "E11"
+      ]
+    }
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "type": "objective",
+      "text": "BASS aims to begin to bridge the gap between the normal gravity NASA-STD-6001 Test#1 method, ground-based microgravity tests, and actual material flammability in microgravity.",
+      "evidence_ids": [
+        "E2"
+      ]
+    },
+    {
+      "id": "C2",
+      "type": "objective",
+      "text": "BASS aims to assess the effectiveness of an inert, gaseous extinguishing agent (similar to that used on ISS) in putting out flames over different materials, geometries, preheating, and flow.",
+      "evidence_ids": [
+        "E1"
+      ]
+    },
+    {
+      "id": "C3",
+      "type": "hypothesis",
+      "text": "BASS hypothesizes that materials in microgravity, with adequate ventilation, burn as well if not better than the same material in normal gravity.",
+      "evidence_ids": [
+        "E12"
+      ]
+    }
+  ],
+  "findings": [],
+  "limitations": [
+    {
+      "text": "The metadata describes the objectives, hypothesis and approach but states no measured result, so no observation is recorded on this card.",
+      "basis": "source",
+      "evidence_ids": [
+        "E12",
+        "E10"
+      ]
+    },
+    {
+      "text": "This draft cites PSI metadata and no PDF text. The packet also includes official table passages whose findings have not been incorporated or reviewed.",
+      "basis": "coverage",
+      "evidence_ids": []
+    }
+  ],
+  "modeling_resources": [
+    {
+      "description": "Experimental table for BASS listed in the PSI file inventory; flame size, shape, spread rate and quenching were collected according to the approach.",
+      "file_keys": [
+        "psi-data/PSI-26/Experimental table/PSI-26_Experimental table_BASS.csv"
+      ],
+      "evidence_ids": [
+        "E10"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E1",
+      "passage_id": "PSI-26:meta:objective",
+      "excerpt": "Assess the effectiveness of an inert, gaseous extinguishing agent (similar to that used on ISS) in putting out flames over different materials, geometries, preheating, and flow."
+    },
+    {
+      "id": "E2",
+      "passage_id": "PSI-26:meta:objective",
+      "excerpt": "Begin to bridge the gap between the normal gravity NASA-STD-6001 Test#1 method, ground-based microgravity tests, and actual material flammability in microgravity."
+    },
+    {
+      "id": "E3",
+      "passage_id": "PSI-26:meta:researchImpacts",
+      "excerpt": "Using nitrogen as a flame suppressant in microgravity provides a direct link to current and planned extinguishment techniques."
+    },
+    {
+      "id": "E4",
+      "passage_id": "PSI-26:meta:approach",
+      "excerpt": "Custom-made fabric samples consisting of 75% cotton and 25% fiberglass (by mass) measuring were used as a fuel source as well as Nomex fabric and Ultem."
+    },
+    {
+      "id": "E5",
+      "passage_id": "PSI-26:meta:approach",
+      "excerpt": "Airflow was controlled using a variable speed fan, with airflow speeds reaching as high as 40 cm/s."
+    },
+    {
+      "id": "E6",
+      "passage_id": "PSI-26:meta:approach",
+      "excerpt": "The samples were placed in a small flow duct (76 mm x 76 mm cross section) that allowed for airflow across the fabric."
+    },
+    {
+      "id": "E7",
+      "passage_id": "PSI-26:meta:approach",
+      "excerpt": "Other sample shapes were utilized as well including spheres and cylinders."
+    },
+    {
+      "id": "E8",
+      "passage_id": "PSI-26:meta:approach",
+      "excerpt": "The airflow was directed along the fuel surface in either the opposed or concurrent direction."
+    },
+    {
+      "id": "E9",
+      "passage_id": "PSI-26:meta:approach",
+      "excerpt": "The experiment was conducted aboard the International Space Station (ISS) inside the Microgravity Glove Box (MSG)."
+    },
+    {
+      "id": "E10",
+      "passage_id": "PSI-26:meta:approach",
+      "excerpt": "Flames were observed in the top and edge profiles and data was collected on flame size, shape, color, spread rate, and potential flame quenching."
+    },
+    {
+      "id": "E11",
+      "passage_id": "PSI-26:meta:experimentHardware",
+      "excerpt": "Microgravity Science Glovebox"
+    },
+    {
+      "id": "E12",
+      "passage_id": "PSI-26:meta:hypothesis",
+      "excerpt": "BASS experiments were based on the hypothesis that materials in microgravity, with adequate ventilation, burn as well if not better than the same material in normal gravity"
+    }
+  ],
+  "generation": {
+    "model": "claude-sonnet-5-5",
+    "generated_at": "2026-11-15T18:12:14+00:00"
+  }
+}
