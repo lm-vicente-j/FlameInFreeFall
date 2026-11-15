@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://flameinfreefall.local/schemas/evidence-packet.schema.json",
+  "title": "All citable source text for one investigation",
+  "description": "Input to the research-card skill. Every card excerpt must occur inside one passage of this packet.",
+  "type": "object",
+  "required": ["investigation", "title", "acronym", "metadata_version", "source_url", "snapshot_retrieved_at", "coverage", "passages", "documents"],
+  "additionalProperties": false,
+  "properties": {
+    "investigation": {"$ref": "common.schema.json#/$defs/accession"},
+    "title": {"type": "string"},
+    "acronym": {"type": "string"},
+    "metadata_version": {"type": "integer", "minimum": 1},
+    "source_url": {"type": "string", "format": "uri"},
+    "snapshot_retrieved_at": {"$ref": "common.schema.json#/$defs/timestamp"},
+    "coverage": {
+      "description": "metadata_only: no document text was processed for this investigation.",
+      "enum": ["metadata_only", "metadata_and_documents"]
+    },
+    "passages": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/passage"}},
+    "documents": {
+      "description": "Every selected document, including those that yielded no passages.",
+      "type": "array",
+      "items": {
+        "allOf": [{"$ref": "common.schema.json#/$defs/remoteFile"}],
+        "type": "object",
+        "required": ["filename", "sha256", "status", "page_count"],
+        "unevaluatedProperties": false,
+        "properties": {
+          "filename": {"type": "string"},
+          "sha256": {"oneOf": [{"$ref": "common.schema.json#/$defs/sha256"}, {"type": "null"}]},
+          "status": {"enum": ["extracted", "no_text", "failed", "timeout", "not_downloaded"]},
+          "page_count": {"type": ["integer", "null"], "minimum": 0}
+        }
+      }
+    }
+  },
+  "$defs": {
+    "locator": {
+      "oneOf": [
+        {
+          "type": "object",
+          "required": ["kind", "field"],
+          "additionalProperties": false,
+          "properties": {
+            "kind": {"const": "metadata"},
+            "field": {"type": "string", "pattern": "^[A-Za-z]+(\\[[0-9]+\\]\\.[A-Za-z]+)?$", "description": "PSI metadata field, e.g. objective or publications[0].title."}
+          }
+        },
+        {
+          "allOf": [{"$ref": "common.schema.json#/$defs/remoteFile"}],
+          "type": "object",
+          "required": ["kind", "filename", "sha256", "page"],
+          "unevaluatedProperties": false,
+          "properties": {
+            "kind": {"const": "pdf"},
+            "filename": {"type": "string"},
+            "sha256": {"$ref": "common.schema.json#/$defs/sha256"},
+            "page": {"type": "integer", "minimum": 1}
+          }
+        }
+      ]
+    },
+    "passage": {
+      "type": "object",
+      "required": ["id", "locator", "text"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^PSI-[0-9]+:(meta:[A-Za-z]+(\\[[0-9]+\\]\\.[A-Za-z]+)?|pdf:[^:]+:v[0-9]+:p[0-9]+)$",
+          "description": "Stable: derived from the locator, never from position in the packet."
+        },
+        "locator": {"$ref": "#/$defs/locator"},
+        "text": {"$ref": "common.schema.json#/$defs/nonEmptyText"}
+      }
+    }
+  }
+}

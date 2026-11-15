@@ -1,0 +1,4 @@
+# Preserve source and artifact bytes used by the offline checksum checks.
+/docs/contracts/schemas/*.json -text
+/docs/contracts/openapi-document.schema.json -text
+/data/fixtures/s0/** -text

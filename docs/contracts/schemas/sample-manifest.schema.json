@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://flameinfreefall.local/schemas/sample-manifest.schema.json",
+  "title": "Outcome of one sample-download run",
+  "type": "object",
+  "required": ["generated_at", "budget_bytes", "transferred_bytes", "files"],
+  "additionalProperties": false,
+  "properties": {
+    "generated_at": {"$ref": "common.schema.json#/$defs/timestamp"},
+    "budget_bytes": {"type": "integer", "minimum": 1},
+    "transferred_bytes": {"type": "integer", "minimum": 0},
+    "files": {
+      "type": "array",
+      "items": {
+        "allOf": [{"$ref": "common.schema.json#/$defs/remoteFile"}],
+        "type": "object",
+        "required": ["filename", "category", "extension", "bytes", "access", "purpose", "status", "sha256", "local_path", "retrieved_at", "error"],
+        "unevaluatedProperties": false,
+        "properties": {
+          "filename": {"$ref": "common.schema.json#/$defs/nonEmptyText"},
+          "category": {"type": ["string", "null"]},
+          "extension": {"type": "string", "pattern": "^\\.[a-z0-9]+$"},
+          "bytes": {"type": "integer", "minimum": 0},
+          "access": {"enum": ["public", "restricted", "hidden"]},
+          "purpose": {"enum": ["evidence", "run-normalization"]},
+          "status": {
+            "description": "downloaded: transferred this run. cached: an existing local copy matched the size and the recorded hash. failed: transfer or verification error.",
+            "enum": ["downloaded", "cached", "failed"]
+          },
+          "sha256": {"oneOf": [{"$ref": "common.schema.json#/$defs/sha256"}, {"type": "null"}]},
+          "local_path": {"type": ["string", "null"], "description": "POSIX path relative to the repository root."},
+          "retrieved_at": {"oneOf": [{"$ref": "common.schema.json#/$defs/timestamp"}, {"type": "null"}]},
+          "error": {"type": ["string", "null"]}
+        }
+      }
+    }
+  }
+}

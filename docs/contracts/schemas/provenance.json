@@ -1,0 +1,55 @@
+{
+  "repository": "https://github.com/lm-vicente-j/FlameInFreeFall",
+  "pull_request": 38,
+  "commit": "680a9f1bbc5748c9f228cdd5bc9da61a9e2b37bf",
+  "files": [
+    {
+      "path": "schemas/common.schema.json",
+      "upstream_path": "pipeline/schemas/common.schema.json",
+      "git_blob_sha1": "c4acfcbbdf2531124a35b0da6956aa55e22cb17e",
+      "sha256": "ba89391f00d53bbe6f513f3ef3946e925bd19ff989554614f0ed0e000afe17b2"
+    },
+    {
+      "path": "schemas/sample-selection.schema.json",
+      "upstream_path": "pipeline/schemas/sample-selection.schema.json",
+      "git_blob_sha1": "89e7bb02277f00f37cc0adbaa7ada8ee4bc3a4fc",
+      "sha256": "c9488961b98778a925114a0dd2ec7afe26c0261f21abf93f11ad594b240a2ee0"
+    },
+    {
+      "path": "schemas/sample-manifest.schema.json",
+      "upstream_path": "pipeline/schemas/sample-manifest.schema.json",
+      "git_blob_sha1": "c323c1cbaf74aaf1b75d369b302bb8afe815929f",
+      "sha256": "82cb3b7bcca9a954abfaa00c4efc2d5211e7d9eec9955629b1c706265328f0f8"
+    },
+    {
+      "path": "schemas/extracted-document.schema.json",
+      "upstream_path": "pipeline/schemas/extracted-document.schema.json",
+      "git_blob_sha1": "1fb50bb86561f70ed8d67bc8dd3cbe2a0dbd337c",
+      "sha256": "65a8ea46eb1058385401922699a1fc0a08513e76f7ef25f31471b2f4f7c60651"
+    },
+    {
+      "path": "schemas/evidence-packet.schema.json",
+      "upstream_path": "pipeline/schemas/evidence-packet.schema.json",
+      "git_blob_sha1": "452133a091a00095eab51fe5f1bc0e624c59fb99",
+      "sha256": "eedcafa8d9ce6713e1a85a191de93e3d94332a38132740b61a9e18de42a630d6"
+    },
+    {
+      "path": "schemas/research-card.schema.json",
+      "upstream_path": "pipeline/schemas/research-card.schema.json",
+      "git_blob_sha1": "fa62b648a2462f6371c03dafeee9b14f41d489c5",
+      "sha256": "3507fd695de376dd1738fb313a2e425d950ed183da5224c77052e8c4b50b0b57"
+    },
+    {
+      "path": "schemas/run-table.schema.json",
+      "upstream_path": "pipeline/schemas/run-table.schema.json",
+      "git_blob_sha1": "37b86520d9fd9b802cc61b64c9cce75b4f836fed",
+      "sha256": "2b48622234c107f3853afb66f19522f006c2b171b6d0a247359e8c080aa0615a"
+    },
+    {
+      "path": "schemas/alias-dictionary.schema.json",
+      "upstream_path": "pipeline/schemas/alias-dictionary.schema.json",
+      "git_blob_sha1": "278ddc62f26be66787d753bea490d9b552cbbf24",
+      "sha256": "31460b7e205858ad2b1f02697c165c8e32c24fad16b1a52c5350ea7e073fd9e3"
+    }
+  ]
+}
