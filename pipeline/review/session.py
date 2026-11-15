@@ -82,6 +82,12 @@ def _card_problems(card: dict[str, Any], env: Environment) -> list[str]:
     return (env.validator or default_validator)(card, read_json(packet_path))
 
 
+def _fingerprint(card: dict[str, Any]) -> str:
+    from pipeline.cards import content_fingerprint  # lazy, like default_validator
+
+    return content_fingerprint(card)
+
+
 def _ask(env: Environment, text: str) -> str:
     try:
         return env.ask(text).strip()
@@ -96,13 +102,15 @@ def _save(path: Path, kind: Kind, document: dict[str, Any]) -> None:
     write_json_atomic(path, document)
 
 
-def _decide(item: Item, status: str, note: str, env: Environment) -> None:
+def _decide(item: Item, status: str, note: str, env: Environment, fingerprint: str | None = None) -> None:
     item["review"] = {
         "status": status,
         "reviewer": env.reviewer,
         "reviewed_at": utc_stamp(env.clock()),
         "notes": note,
     }
+    if fingerprint is not None:
+        item["review"]["content_sha256"] = fingerprint
 
 
 def _review_item(path: Path, kind: Kind, document: dict[str, Any], item: Item, env: Environment, tally: Tally) -> None:
@@ -136,7 +144,7 @@ def _review_item(path: Path, kind: Kind, document: dict[str, Any], item: Item, e
                 for problem in problems:
                     env.say(f"    - {problem}")
                 continue
-            _decide(item, "approved", note, env)
+            _decide(item, "approved", note, env, _fingerprint(item) if kind.name == "cards" else None)
             tally.approved += 1
             _save(path, kind, document)
             return

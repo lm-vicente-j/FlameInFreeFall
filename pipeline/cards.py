@@ -21,6 +21,7 @@ with ``" ".join(excerpt.split())``, UTF-8, SHA-256, first 12 hex characters; no 
 import argparse
 import copy
 import hashlib
+import json
 import re
 import sys
 import unicodedata
@@ -49,6 +50,20 @@ class CardError(ValueError):
 def normalize_text(text: str) -> str:
     """NFKC plus collapsed whitespace. For *comparing* text only; never stored or hashed."""
     return " ".join(unicodedata.normalize("NFKC", text).split())
+
+
+def content_fingerprint(card: dict[str, Any]) -> str:
+    """SHA-256 of the canonical JSON of the card content a reviewer approves.
+
+    Canonical JSON: sorted keys, compact separators, UTF-8, no non-finite
+    numbers. The review block (which stores this fingerprint) and
+    ``generation.generated_at`` (which changes on every regeneration) are left out;
+    everything else, including evidence and every statement, is covered.
+    """
+    content = {key: value for key, value in card.items() if key != "review"}
+    content["generation"] = {key: value for key, value in card["generation"].items() if key != "generated_at"}
+    canonical = json.dumps(content, sort_keys=True, separators=(",", ":"), ensure_ascii=False, allow_nan=False)
+    return hashlib.sha256(canonical.encode("utf-8")).hexdigest()
 
 
 def evidence_id(passage_id: str, excerpt: str) -> str:
@@ -435,6 +450,14 @@ def _structure_problems(card: dict[str, Any], packet: dict[str, Any]) -> list[st
     review = card["review"]
     if review["status"] in ("approved", "rejected") and (not review["reviewer"] or not review["reviewed_at"]):
         problems.append(f"review status {review['status']} requires reviewer and reviewed_at")
+    if review["status"] == "approved":
+        approved = review.get("content_sha256")
+        if approved is None:
+            problems.append("review status approved has no content_sha256; approve the card with pipeline.review")
+        elif approved != content_fingerprint(card):
+            problems.append(
+                "card content changed after it was approved (content_sha256 does not match); review and approve again"
+            )
     return problems
 
 

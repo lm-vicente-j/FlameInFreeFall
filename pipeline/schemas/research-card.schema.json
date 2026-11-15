@@ -115,9 +115,26 @@
         "generated_at": {"$ref": "common.schema.json#/$defs/timestamp"}
       }
     },
-    "review": {"$ref": "common.schema.json#/$defs/review"}
+    "review": {"$ref": "#/$defs/cardReview"}
   },
   "$defs": {
+    "cardReview": {
+      "type": "object",
+      "required": ["status", "reviewer", "reviewed_at", "notes"],
+      "additionalProperties": false,
+      "description": "The common review record plus an optional fingerprint of the approved content.",
+      "properties": {
+        "status": {"$ref": "common.schema.json#/$defs/reviewStatus"},
+        "reviewer": {"type": ["string", "null"]},
+        "reviewed_at": {"oneOf": [{"$ref": "common.schema.json#/$defs/timestamp"}, {"type": "null"}]},
+        "notes": {"type": "string"},
+        "content_sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$",
+          "description": "Set when status is approved: SHA-256 of the canonical JSON (sorted keys, compact separators, UTF-8) of the card without its review block and without generation.generated_at. Approval is void if the card content no longer hashes to it."
+        }
+      }
+    },
     "safetyCategory": {"enum": ["prevention", "detection", "suppression"]},
     "evidenceId": {"type": "string", "pattern": "^PSI-[0-9]+:[^#]+#[0-9a-f]{12}$"},
     "evidenceIds": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"$ref": "#/$defs/evidenceId"}},
