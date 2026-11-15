@@ -4,7 +4,7 @@ The schemas are the language-neutral data contracts shared with the backend and
 dashboard. Semantic rules that a schema cannot express, such as evidence
 resolution, live in the stage that owns the data.
 """
-from functools import lru_cache
+from functools import cache, lru_cache
 from typing import Any
 
 from jsonschema import Draft202012Validator
@@ -24,7 +24,7 @@ def _registry() -> Registry:
     return Registry().with_resources(resources)
 
 
-@lru_cache(maxsize=None)
+@cache
 def _validator(name: str) -> Draft202012Validator:
     schema = read_json(SCHEMAS / f"{name}.schema.json")
     return Draft202012Validator(schema, registry=_registry(), format_checker=Draft202012Validator.FORMAT_CHECKER)
