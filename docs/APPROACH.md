@@ -63,7 +63,7 @@ Data-quality notes:
 
 ## Accepted Decisions
 
-The [decision register in PLAN.md](../PLAN.md#accepted-decisions) records acceptance of #32, #35, #36, and #37, with links to their proposals:
+The [decision register in PLAN.md](../PLAN.md#accepted-decisions) records acceptance of all six scope proposals, #32–#37:
 
 - Normalize FLEX and Saffire-II first, then BASS and BASS-II. Prepare supported conditions and outcomes for these four investigations; preserve the remaining tables row by row. Pending proposals may remain visible in development records but cannot support reviewed findings or verified coverage.
 - Preserve gravity per outcome and omit a gravity filter from the MVP. Show Saffire-II's normal-gravity results with a visible "1 g ground test" label beside its microgravity results.
@@ -72,7 +72,9 @@ The [decision register in PLAN.md](../PLAN.md#accepted-decisions) records accept
 
 These decisions set the MVP scope. They do not approve scientific results or complete the shared schema and fixture agreement.
 
-## Open Questions
+## Accepted sweep and comparison rules
 
-- #33: how to represent and display flow sweeps, handle unknown endpoints, and match ranges to filters. Confirm calibration applicability before using the 2014 conversion for BASS's 2012–2013 readings.
-- #34: how to compare runs with different hardware, fuels, geometry, and flow definitions, and how to display incompatible or unknown conditions.
+- #33: preserve one minimum/maximum range per recorded sweep, match inclusive overlap and leave missing endpoints unknown. Preserve original text. The 2014 calibration does not establish BASS's 2012–2013 velocities.
+- #34: quantitative comparison requires known, equal fuel class, material, geometry, flow direction and hardware. Different groups are incompatible; incomplete groups are indeterminate.
+
+The backend implements these rules without approving pending scientific proposals. Search expectations and the two search synonym pairs were separately approved by the user on 2026-11-15.

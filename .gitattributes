@@ -2,3 +2,4 @@
 /docs/contracts/schemas/*.json -text
 /docs/contracts/openapi-document.schema.json -text
 /data/fixtures/s0/** -text
+/data/fixtures/backend/catalog/** -text

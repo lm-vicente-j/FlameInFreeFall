@@ -46,3 +46,13 @@ The review screen includes comparison fields, safety categories, modeling resour
 Regenerate a card with `python -X utf8 -m pipeline.cards finalize data/drafts/PSI-69.json`. Validate all cards with `python -X utf8 -m pipeline.cards validate`. Regenerate the development subset with `python -m pipeline.fixtures`. Historical S0 fixtures retain their original schema pin and are separate from current pipeline fixtures.
 
 PR #41 verification: the 17 download/normalization regressions and nine card/review regressions pass. All 24 saved drafts reproduce their committed cards, including timestamps and pending review. Ruff passes; Mypy reports no errors in 40 pipeline modules. The development fixtures regenerate successfully. These checks do not approve any scientific claim.
+
+## Backend delivery
+
+PR #44 adds Flask startup and eight GET endpoints, atomic SQLite imports, FTS5/BM25 search, RDF loading and bound SPARQL filters. D2/D3 decisions and search synonyms were approved by the user. Current HTTP responses use `docs/contracts/openapi-current.json`; the historical S0 bundle remains unchanged.
+
+The combined backend suite passes 45 tests using tracked catalog/run fixtures, including real service-to-HTTP contract checks. Ruff and Mypy pass for application, backend and build/benchmark modules. Two full catalog builds reconcile 24 investigations/cards, 261 evidence items and 60,866 files. The graph preserves all 2,009 source records. The historical validator still passes its schemas, 37 HTTP cases, 426 RDF triples and six altered-fixture rejection cases.
+
+The fixed ranking evaluation passes 11/12 top-three expectations and 3/3 unsupported-query checks. The 30-query HTTP benchmark passes with p95 775.26 ms and maximum 859.21 ms; all eight smoke routes succeed. Startup takes 52.65 s and is excluded from request latency. Committed reports are under `data/benchmarks/`; [BACKEND.md](BACKEND.md) gives reproducible commands. [CHANGED_FILES.md](CHANGED_FILES.md) lists the implementation's created and modified files.
+
+Remaining limits: #6 needs frontend agreement; #23 stays open at the user's request because the frontend index and complete workflow are absent. Scientific cards, material aliases and extractions remain pending, so verified run count is zero. Prepared-record fingerprints and source-byte hashes are checked, but there is no independent production prepared-artifact hash manifest. No additional predictive behavior, dependencies beyond Flask/rdflib and the existing pipeline, or scientific approvals are inferred.

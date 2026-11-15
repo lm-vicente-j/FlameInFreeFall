@@ -1,0 +1,140 @@
+{
+  "measured_at": "2026-11-15T20:43:17.341326+00:00",
+  "expectations": "data/search_expectations.json",
+  "supported": [
+    {
+      "query": "FLEX",
+      "expected_top3": [
+        "PSI-69"
+      ],
+      "actual_top3": [
+        "PSI-68",
+        "PSI-69"
+      ]
+    },
+    {
+      "query": "BASS-II",
+      "expected_top3": [
+        "PSI-25"
+      ],
+      "actual_top3": [
+        "PSI-25",
+        "PSI-62"
+      ]
+    },
+    {
+      "query": "SAFFIRE-II",
+      "expected_top3": [
+        "PSI-99"
+      ],
+      "actual_top3": [
+        "PSI-99",
+        "PSI-100"
+      ]
+    },
+    {
+      "query": "SAME-R",
+      "expected_top3": [
+        "PSI-101"
+      ],
+      "actual_top3": [
+        "PSI-101"
+      ]
+    },
+    {
+      "query": "DAFT",
+      "expected_top3": [
+        "PSI-47"
+      ],
+      "actual_top3": [
+        "PSI-47"
+      ]
+    },
+    {
+      "query": "Cool Flames Investigation",
+      "expected_top3": [
+        "PSI-39"
+      ],
+      "actual_top3": [
+        "PSI-117",
+        "PSI-159",
+        "PSI-142"
+      ]
+    },
+    {
+      "query": "Coflow Laminar Diffusion Flame",
+      "expected_top3": [
+        "PSI-21"
+      ],
+      "actual_top3": [
+        "PSI-21",
+        "PSI-22",
+        "PSI-106"
+      ]
+    },
+    {
+      "query": "Electric-Field Effects",
+      "expected_top3": [
+        "PSI-22"
+      ],
+      "actual_top3": [
+        "PSI-22"
+      ]
+    },
+    {
+      "query": "Burning Rate Emulator",
+      "expected_top3": [
+        "PSI-20"
+      ],
+      "actual_top3": [
+        "PSI-20"
+      ]
+    },
+    {
+      "query": "Structure Liftoff",
+      "expected_top3": [
+        "PSI-106"
+      ],
+      "actual_top3": [
+        "PSI-106"
+      ]
+    },
+    {
+      "query": "Smoke Point",
+      "expected_top3": [
+        "PSI-107"
+      ],
+      "actual_top3": [
+        "PSI-107",
+        "PSI-60"
+      ]
+    },
+    {
+      "query": "Flame Design",
+      "expected_top3": [
+        "PSI-10"
+      ],
+      "actual_top3": [
+        "PSI-10",
+        "PSI-107",
+        "PSI-100"
+      ]
+    }
+  ],
+  "unsupported": [
+    {
+      "query": "rocket propellant detonation",
+      "actual": []
+    },
+    {
+      "query": "lunar methane tank explosion",
+      "actual": []
+    },
+    {
+      "query": "Mars dust storm ignition",
+      "actual": []
+    }
+  ],
+  "supported_top3_passed": 11,
+  "unsupported_empty": 3
+}
