@@ -184,18 +184,23 @@ The following proposals are accepted for the MVP as of 2026-11-15. This records 
 | Issue and proposal | Accepted decision | Rationale and fallback |
 | --- | --- | --- |
 | [D1 #32: normalization priorities](https://github.com/lm-vicente-j/FlameInFreeFall/issues/32#issuecomment-6899222053) | Prioritize FLEX and Saffire-II, then BASS and BASS-II. Prepare recorded conditions and outcomes for these four investigations, preserving the other tables row by row. | FLEX and Saffire-II need no LLM extraction. BASS/BASS-II require more review. Keep unreviewed proposals pending if time runs out; unsupported or unreviewed results remain unknown in reviewed output. |
+| [D2 #33: flow sweeps](https://github.com/lm-vicente-j/FlameInFreeFall/issues/33) | Retain one inclusive minimum/maximum range per recorded sweep and preserve the original text. Match requested bounds by inclusive overlap. Missing endpoints remain unknown; do not invent steps or values. | The user accepted this representation on 2026-11-15. The 2014 calibration does not establish BASS's 2012–2013 velocities; unmatched readings remain uncalibrated. |
+| [D3 #34: comparison rules](https://github.com/lm-vicente-j/FlameInFreeFall/issues/34) | Quantitative comparison requires known, equal fuel class, material, geometry, flow direction and hardware. Keep different groups incompatible and incomplete groups indeterminate. | The user accepted these rules on 2026-11-15. Grouping preserves experimental differences without introducing cross-hardware equivalence or a distance score. |
 | [D4 #35: gravity](https://github.com/lm-vicente-j/FlameInFreeFall/issues/35#issuecomment-6899222696) | Preserve gravity per outcome and omit a gravity filter from the MVP. Label Saffire-II normal-gravity outcomes "1 g ground test". | The recorded 1 g comparisons are outcomes paired with microgravity results, so a run filter would mainly hide comparison results. Preserve both labels and values. |
 | [D5 #36: report scope](https://github.com/lm-vicente-j/FlameInFreeFall/issues/36#issuecomment-6899223058) | Use the existing 12-PDF sample and citable experimental-table rows. Do not collect the remaining 124 BASS-II ProofSheets. Keep the 250 MB budget, 20-PDF maximum, hour-12 cutoff, and no-OCR rule. | The sampled ProofSheet contains camera metadata, not outcomes. Record download failures and missing text layers. Use table evidence where supported, state missing evidence as a limitation, and leave unsupported outcomes unknown. Collection/extraction remains Alan's responsibility; scientific review remains shared. |
 | [D6 #37: research outside PSI](https://github.com/lm-vicente-j/FlameInFreeFall/issues/37#issuecomment-6899223409) | Keep Saffire-IV–VI and SoFIE coverage outside PSI explicitly unverified. Do not expand the MVP verification scope to that research. | The saved PSI snapshot is the evidence baseline. Any later claim about wider coverage requires a cited source; a gap in PSI does not establish a gap in all NASA research. |
 
 ### Questions for Team Review
 
-These decisions remain open:
+All six scope decisions are accepted. Scientific card, material-alias and extraction review remains separate. The shared schema/fixture agreement in S0 #6 still requires the frontend contributor's review and integration.
 
-- [D2 #33: flow sweeps](https://github.com/lm-vicente-j/FlameInFreeFall/issues/33): the current proposal uses one range per run. Agree on range versus supported steps, unknown endpoints, overlap filtering, and display. Confirm the applicability of the 2014 calibration before applying it to BASS's 2012–2013 readings; unsupported conversions remain unknown.
-- [D3 #34: cross-hardware comparisons](https://github.com/lm-vicente-j/FlameInFreeFall/issues/34): agree which fuel, geometry, hardware, and flow definitions permit comparison, and how incompatible or unknown conditions appear.
+The user approved the fixed search expectations and the two search synonym pairs on 2026-11-15. They are recorded in `data/search_expectations.json` and `data/search_synonyms.json`. Keep the failed expected match visible when reporting ranking; do not change expectations after measurement.
 
-Accepting D1, D4, D5, and D6 does not resolve D2 or D3, approve aliases or LLM extractions, or complete the shared schema/fixture agreement in S0 #6. Implementation and provenance defects tracked in #42 remain follow-up work.
+### Implementation status
+
+PRs #40 and #41 are merged into `main`; their corrections and reproducible checks are recorded in `docs/INTEGRATION.md`. The backend implementation is delivered through PR #44. Full preparation loads 24 investigations, 261 evidence records, 60,866 remote-file entries and 2,009 normalized source records. Fixed search expectations score 11/12 in the top three; three unsupported queries return no match. The real 30-query benchmark records a p95 of 775.26 ms after startup, with all eight routes checked successfully.
+
+The user requested that #23 remain open: frontend assets are not yet available for the complete workflow. Shared contract agreement #6 also remains open. Scientific cards, material aliases and extraction proposals retain their review states; there are currently zero scientifically verified runs. See `docs/BACKEND.md` and the committed `data/benchmarks/` reports for commands, results and limits.
 
 ### Scope
 

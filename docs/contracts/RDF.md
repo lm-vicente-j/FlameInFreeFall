@@ -1,5 +1,17 @@
 # RDF mapping contract
 
+## Implemented mapping
+
+`backend/graph.py` loads the current `pipeline/schemas/` run tables with rdflib. All 2,009 source records retain provenance, original cells, row kind and review status. Known supported quantities and outcomes use QUDT and SOSA; an unknown outcome or unsupported unit remains in provenance without asserting a measured observation. Current build/start commands are in [BACKEND.md](../BACKEND.md).
+
+D2 (#33) accepts inclusive overlap of one range per sweep. D3 (#34) permits quantitative comparisons only within known, equal fuel class, material, geometry, flow direction and hardware. Pending records and values cannot count as verified coverage; current verified count is zero. Missing conditions block a false absence claim. There is no gravity filter.
+
+Point values also have equal minimum/maximum parts so the same fixed query can test points and intervals. Parent quantities carry `schema:minValue` and `schema:maxValue` (`schema: <https://schema.org/>`) as query indexes of the same bounds. This avoids repeated bound joins without inventing a midpoint or changing source values. Queries are predefined and bind typed values with rdflib `initBindings`; raw user SPARQL is never accepted.
+
+The sections below and the pinned Turtle fixture retain the historical S0 mapping. Provisional decisions and absent-loader statements there describe that handoff, not the active implementation. Current HTTP behavior is defined in [API.md](API.md#implemented-contract) and `openapi-current.json`.
+
+## Historical S0 reference
+
 Map supported normalized values without asserting that a source row is a verified individual experiment. [expected/runs.ttl](../../data/fixtures/s0/expected/runs.ttl) is a Turtle fixture written in its N-Triples subset: absolute IRIs, one triple per line and escaped literals. It contains source-backed values from the two run-table fixtures; no loader is implemented.
 
 Use [SOSA/SSN](https://www.w3.org/TR/vocab-ssn/) for observations and context, [QUDT](https://www.qudt.org/doc/2025/03/DOC_SCHEMA-QUDT.html) for values and units, and [PROV-O](https://www.w3.org/TR/prov-o/) for source/extraction provenance. Dublin Core supplies descriptive identifiers and membership; RDFS/SKOS supplies labels and material concepts. The project namespace adds only fuel classes, material concepts and outcome types. Its terms do not establish a reviewed material hierarchy.

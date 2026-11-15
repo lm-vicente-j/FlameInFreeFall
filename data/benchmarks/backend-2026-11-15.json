@@ -1,0 +1,375 @@
+{
+  "method": "Flask test client; real prepared services; startup, warmup and smoke requests excluded",
+  "percentile": "nearest rank: sorted[ceil(0.95 * count) - 1]",
+  "measured_at": "2026-11-15T20:39:22.681289+00:00",
+  "inputs": {
+    "data_dir": "D:\\dev\\FlameInFreeFall\\data",
+    "res_dir": "D:\\dev\\FlameInFreeFall\\res",
+    "catalog_path": "res\\http-build-check.sqlite"
+  },
+  "python": "3.14.7",
+  "platform": "Windows-10-10.0.19044-SP0",
+  "startup_ms": 52650.09610001289,
+  "health": {
+    "catalog": "loaded",
+    "graph": "loaded",
+    "investigation_count": 24,
+    "readiness": "ready",
+    "run_record_count": 2009,
+    "snapshot_date": "2026-11-14",
+    "verified_run_count": 0
+  },
+  "query_count": 30,
+  "p95_ms": 775.255600005039,
+  "max_ms": 859.2074000043795,
+  "threshold_ms": 1000,
+  "passed": true,
+  "smoke": [
+    {
+      "endpoint": "/api/studies",
+      "status": 200,
+      "success_envelope": true
+    },
+    {
+      "endpoint": "/api/studies/PSI-10",
+      "status": 200,
+      "success_envelope": true
+    },
+    {
+      "endpoint": "/api/studies/PSI-10/files",
+      "status": 200,
+      "success_envelope": true
+    },
+    {
+      "endpoint": "/api/evidence/PSI-10%3Ameta%3Aobjective%23427e156c8857",
+      "status": 200,
+      "success_envelope": true
+    },
+    {
+      "endpoint": "/api/runs",
+      "status": 200,
+      "success_envelope": true
+    },
+    {
+      "endpoint": "/api/runs/PSI-10%3Aflame-design-inverse-flame%3A1",
+      "status": 200,
+      "success_envelope": true
+    },
+    {
+      "endpoint": "/api/coverage",
+      "status": 200,
+      "success_envelope": true
+    },
+    {
+      "endpoint": "/api/health",
+      "status": 200,
+      "success_envelope": true
+    }
+  ],
+  "samples": [
+    {
+      "iteration": 1,
+      "endpoint": "/api/studies",
+      "parameters": {
+        "q": "flame"
+      },
+      "elapsed_ms": 28.798200000892393,
+      "status": 200,
+      "total": 20
+    },
+    {
+      "iteration": 1,
+      "endpoint": "/api/studies",
+      "parameters": {
+        "q": "droplet"
+      },
+      "elapsed_ms": 23.26570000150241,
+      "status": 200,
+      "total": 6
+    },
+    {
+      "iteration": 1,
+      "endpoint": "/api/studies",
+      "parameters": {
+        "q": "smoke"
+      },
+      "elapsed_ms": 21.943300002021715,
+      "status": 200,
+      "total": 6
+    },
+    {
+      "iteration": 1,
+      "endpoint": "/api/studies",
+      "parameters": {
+        "q": "combustion"
+      },
+      "elapsed_ms": 23.397199998726137,
+      "status": 200,
+      "total": 13
+    },
+    {
+      "iteration": 1,
+      "endpoint": "/api/studies",
+      "parameters": {
+        "q": "extinction"
+      },
+      "elapsed_ms": 24.41749999707099,
+      "status": 200,
+      "total": 10
+    },
+    {
+      "iteration": 1,
+      "endpoint": "/api/studies",
+      "parameters": {
+        "q": "space"
+      },
+      "elapsed_ms": 29.407000009086914,
+      "status": 200,
+      "total": 16
+    },
+    {
+      "iteration": 1,
+      "endpoint": "/api/studies",
+      "parameters": {
+        "q": "Saffire"
+      },
+      "elapsed_ms": 21.3279000017792,
+      "status": 200,
+      "total": 3
+    },
+    {
+      "iteration": 1,
+      "endpoint": "/api/studies",
+      "parameters": {
+        "q": "FLEX"
+      },
+      "elapsed_ms": 23.562300004414283,
+      "status": 200,
+      "total": 2
+    },
+    {
+      "iteration": 1,
+      "endpoint": "/api/studies",
+      "parameters": {
+        "q": "oxygen"
+      },
+      "elapsed_ms": 27.00070000719279,
+      "status": 200,
+      "total": 4
+    },
+    {
+      "iteration": 1,
+      "endpoint": "/api/studies",
+      "parameters": {
+        "q": "pressure"
+      },
+      "elapsed_ms": 23.947499998030253,
+      "status": 200,
+      "total": 10
+    },
+    {
+      "iteration": 1,
+      "endpoint": "/api/studies",
+      "parameters": {
+        "q": "material"
+      },
+      "elapsed_ms": 24.853000009898096,
+      "status": 200,
+      "total": 9
+    },
+    {
+      "iteration": 1,
+      "endpoint": "/api/studies",
+      "parameters": {
+        "q": "flow"
+      },
+      "elapsed_ms": 32.100600001285784,
+      "status": 200,
+      "total": 19
+    },
+    {
+      "iteration": 1,
+      "endpoint": "/api/studies",
+      "parameters": {
+        "q": "suppression"
+      },
+      "elapsed_ms": 27.609500000835396,
+      "status": 200,
+      "total": 8
+    },
+    {
+      "iteration": 1,
+      "endpoint": "/api/studies",
+      "parameters": {
+        "q": "ignition"
+      },
+      "elapsed_ms": 24.1126000037184,
+      "status": 200,
+      "total": 4
+    },
+    {
+      "iteration": 1,
+      "endpoint": "/api/studies",
+      "parameters": {
+        "q": "nonexistent-psi-query"
+      },
+      "elapsed_ms": 18.979999993462116,
+      "status": 200,
+      "total": 0
+    },
+    {
+      "iteration": 1,
+      "endpoint": "/api/runs",
+      "parameters": {},
+      "elapsed_ms": 30.0987999944482,
+      "status": 200,
+      "total": 2009
+    },
+    {
+      "iteration": 1,
+      "endpoint": "/api/runs",
+      "parameters": {
+        "fuel_class": "droplet"
+      },
+      "elapsed_ms": 775.255600005039,
+      "status": 200,
+      "total": 274
+    },
+    {
+      "iteration": 1,
+      "endpoint": "/api/runs",
+      "parameters": {
+        "fuel_class": "solid"
+      },
+      "elapsed_ms": 112.67139999836218,
+      "status": 200,
+      "total": 263
+    },
+    {
+      "iteration": 1,
+      "endpoint": "/api/runs",
+      "parameters": {
+        "fuel_class": "gas"
+      },
+      "elapsed_ms": 48.09690000547562,
+      "status": 200,
+      "total": 0
+    },
+    {
+      "iteration": 1,
+      "endpoint": "/api/runs",
+      "parameters": {
+        "material": "Methanol"
+      },
+      "elapsed_ms": 48.50129999977071,
+      "status": 200,
+      "total": 0
+    },
+    {
+      "iteration": 1,
+      "endpoint": "/api/runs",
+      "parameters": {
+        "flow_direction": "concurrent"
+      },
+      "elapsed_ms": 21.53500000713393,
+      "status": 200,
+      "total": 10
+    },
+    {
+      "iteration": 1,
+      "endpoint": "/api/runs",
+      "parameters": {
+        "flow_direction": "opposed"
+      },
+      "elapsed_ms": 25.32130001054611,
+      "status": 200,
+      "total": 3
+    },
+    {
+      "iteration": 1,
+      "endpoint": "/api/runs",
+      "parameters": {
+        "flow_direction": "quiescent"
+      },
+      "elapsed_ms": 25.07639999384992,
+      "status": 200,
+      "total": 0
+    },
+    {
+      "iteration": 1,
+      "endpoint": "/api/runs",
+      "parameters": {
+        "o2_min": "15",
+        "o2_max": "21"
+      },
+      "elapsed_ms": 686.2002999987453,
+      "status": 200,
+      "total": 317
+    },
+    {
+      "iteration": 1,
+      "endpoint": "/api/runs",
+      "parameters": {
+        "o2_min": "21",
+        "o2_max": "30"
+      },
+      "elapsed_ms": 859.2074000043795,
+      "status": 200,
+      "total": 240
+    },
+    {
+      "iteration": 1,
+      "endpoint": "/api/runs",
+      "parameters": {
+        "pressure_min": "90",
+        "pressure_max": "110"
+      },
+      "elapsed_ms": 582.7671000006376,
+      "status": 200,
+      "total": 282
+    },
+    {
+      "iteration": 1,
+      "endpoint": "/api/runs",
+      "parameters": {
+        "flow_min": "0",
+        "flow_max": "5"
+      },
+      "elapsed_ms": 161.8806000042241,
+      "status": 200,
+      "total": 39
+    },
+    {
+      "iteration": 1,
+      "endpoint": "/api/runs",
+      "parameters": {
+        "outcome": "burning_rate"
+      },
+      "elapsed_ms": 15.840399995795451,
+      "status": 200,
+      "total": 0
+    },
+    {
+      "iteration": 1,
+      "endpoint": "/api/runs",
+      "parameters": {
+        "outcome": "observation"
+      },
+      "elapsed_ms": 24.697900007595308,
+      "status": 200,
+      "total": 12
+    },
+    {
+      "iteration": 1,
+      "endpoint": "/api/runs",
+      "parameters": {
+        "material": "Methanol",
+        "o2_min": "20",
+        "pressure_max": "110"
+      },
+      "elapsed_ms": 59.19020000146702,
+      "status": 200,
+      "total": 0
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # Storage and import contract
 
-This contract defines the inputs for B2 (#17), B3 (#18), B5 (#20) and B6 (#21). It specifies storage behavior; it does not implement an importer. Use the unchanged [pinned schemas](schemas/provenance.json) and the shared [development fixtures](../../data/fixtures/s0/manifest.json).
+This contract defines B2 (#17), B3 (#18), B5 (#20) and B6 (#21), implemented in `backend/catalog.py`. Active imports use `pipeline/schemas/` and current prepared data. The unchanged [pinned schemas](schemas/provenance.json) and [S0 fixtures](../../data/fixtures/s0/manifest.json) retain the historical handoff. See [build commands](../BACKEND.md).
 
 ## Entities
 
@@ -19,7 +19,7 @@ Copy the complete saved PSI file listing in a full catalog build. Access is `hid
 
 ## Validation before import
 
-1. Verify source-byte hashes and prepared-artifact hashes against their respective manifests. Validate schema structure and date/URI formats offline.
+1. Verify source-byte hashes against saved provenance and available downloaded bytes. Validate schemas, exact passages, locators, source identity and date/URI formats offline. Store canonical prepared-record fingerprints. No production prepared-artifact hash manifest is supplied; do not claim an independent prepared-artifact hash check. The historical fixture manifest remains independently checked.
 2. Require unique investigation accessions and card accessions. A card's `source_version` must equal its investigation's `metadata_version`. Reject conflicting duplicates within one batch.
 3. Resolve every evidence reference in summaries, claims, comparisons, safety categories, findings, limitations and modeling resources. Each excerpt must occur exactly in its supplied passage. Its locator and investigation must match the packet. Recompute the whitespace-normalized excerpt suffix: collapse whitespace with `" ".join(excerpt.split())`, UTF-8 encode, take SHA-256 and retain the first 12 lowercase hexadecimal characters.
 4. Require unique claim IDs within a card. Finding `observation` references a `reported_observation`; `implication` references a `potential_application`. Reject missing or mistyped claim references. Resolve modeling-resource file keys to the supplied catalog for that investigation.
@@ -42,7 +42,7 @@ FTS content is derived from the accepted current records. Rebuild or update it i
 
 Build a separate candidate database with foreign-key enforcement. Import in a transaction, build indexes, then check schema/reference validity, `PRAGMA foreign_key_check`, `PRAGMA integrity_check`, counts, representative detail lookups and FTS availability. Roll back and discard the candidate on any error.
 
-Close candidate writers before switching the active database reference. Switch only after all checks pass and coordinate reader connections so each request uses one validated database generation. Keep the previous database until the replacement opens successfully. A failed build or switch leaves the last valid database active; health reports the active generation, not candidate counts. B8 will provide the platform-specific build/start commands; this handoff does not select a deployment mechanism.
+Close candidate writers before switching the active database reference. The importer uses a validated candidate and atomic file replacement; readers open a read-only connection per operation. A failed build or Windows file switch leaves the last valid database active. Health reads the active generation. `python -m scripts.build_backend` supplies the offline build command.
 
 ## Hashes and provenance
 

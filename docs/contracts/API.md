@@ -1,5 +1,23 @@
 # HTTP contract
 
+## Implemented contract
+
+[openapi-current.json](openapi-current.json) is the active OpenAPI document and references `pipeline/schemas/`. The eight GET routes are implemented in `app.py`; [BACKEND.md](../BACKEND.md) supplies installation, offline build, startup, tests and benchmark commands. Cards and normalized records retain their source fields.
+
+D2 (#33) and D3 (#34) are accepted. Numeric run filters use inclusive interval overlap, retain one range per sweep and leave missing endpoints unknown. Quantitative comparisons require known, equal fuel class, material, geometry, flow direction and hardware. Different groups are incompatible; incomplete groups are indeterminate. The outcome filter matches known supported RDF outcomes; unknown results remain in JSON/provenance without becoming observations. Gravity stays on outcomes; a gravity parameter is rejected.
+
+Coverage reports requested oxygen/pressure bounds, counts by row kind, duplicate and quality exclusions, review states, condition groups and pairwise compatibility. It invents no bins. States distinguish `covered`, `pending_review`, `unknown_conditions` and `not_in_PSI`. Pending or unknown context prevents a false absence claim. Gaps apply only to the saved PSI snapshot; Saffire-IV–VI and SoFIE outside PSI remain unverified.
+
+Health reports actual active counts: 24 investigations and 2,009 source records after a full build. Verified run count is zero while scientific approval remains pending. Zero means an available empty set; null means unavailable. Service readiness does not certify scientific validity.
+
+The user approved the fixed 12 search questions, three unsupported questions and two synonym pairs on 2026-11-15. FTS5/BM25 returns 11/12 expected investigations in the first three results and no matches for all three unsupported queries. The failed Cool Flames Investigation expectation is retained. Reviewed synonyms are active; relevance is not risk.
+
+The complete saved file catalog has 60,866 entries. Cataloging does not establish that contents were downloaded or processed. Root `/` reports frontend unavailable while `static/index.html` is absent. Shared frontend contract agreement (#6) and end-to-end frontend integration (#23) remain separate acceptance requirements.
+
+Current contract tests validate Flask responses against `openapi-current.json`. The material below, `openapi.json`, pinned schemas and `data/fixtures/s0/` retain the historical S0 handoff and its original unresolved states. `python docs/contracts/validate.py` validates that historical bundle; current decisions above supersede its provisional filter/coverage descriptions.
+
+## Historical S0 reference
+
 [openapi.json](openapi.json) defines all eight proposed GET endpoints. Embedded cards, evidence and run records reference Alan's unchanged schemas. The contract freezes supported behavior for backend development; it remains subject to shared S0 review.
 
 The [accepted decisions in PLAN.md](../../PLAN.md#accepted-decisions) set normalization priorities, gravity display, report scope, and external-coverage limits. They do not change the pinned schemas or approve the development fixtures. Pending proposals may appear in development responses with their review status; they cannot support reviewed findings or verified coverage.

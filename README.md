@@ -182,28 +182,28 @@ Alias dictionaries contain `name` and `entries`. Each entry preserves `source`, 
 
 After the pipeline is available, structural validation uses `pipeline.schema.schema_errors(instance, name)`, where `name` is the schema filename without `.schema.json`. An empty error list confirms structural validity. Evidence resolution, scientific support, approved mappings, valid measurements and count reconciliation still require semantic checks.
 
-### Remaining contract decisions
+### Current contracts and scientific review
 
-The current run schema allows only `kind: run` or `kind: note`, with `counts.runs`, `counts.notes` and `counts.empty_rows_skipped`. It does not explicitly distinguish the ranges, session summaries and duplicates required by [PLAN.md](PLAN.md#shared-contracts), or provide dedicated fields for initial/final conditions, run-to-file links and supporting evidence IDs. Retain source data and coordinate these additions before implementing affected graph or coverage behavior.
+The active schemas under `pipeline/schemas/` include run/range/session/note classification, counts, quality flags and source links. The earlier schema table above records the historical PR #38 pin. Current fixtures live under `data/fixtures/`; `data/fixtures/s0/` and `docs/contracts/schemas/` remain the historical S0 bundle.
 
-These schemas define pipeline data. The [HTTP contract](docs/contracts/API.md), [storage contract](docs/contracts/STORAGE.md) and [RDF mapping](docs/contracts/RDF.md) define the backend interfaces, with shared FLEX/Saffire-II development fixtures. Alan and Emmanuel still need to review the contracts and fixtures before closing [S0 #6](https://github.com/lm-vicente-j/FlameInFreeFall/issues/6). Flow sweeps and comparison rules remain open in #33 and #34. The accepted #35 decision preserves outcome-level gravity and omits a gravity filter from the MVP.
+The [HTTP contract](docs/contracts/API.md), [storage contract](docs/contracts/STORAGE.md) and [RDF mapping](docs/contracts/RDF.md) define the implemented interfaces. D2 (#33) accepts inclusive overlap for recorded ranges with unknown missing endpoints. D3 (#34) requires known, equal fuel class, material, geometry, flow direction and hardware for quantitative comparison. D4 (#35) preserves outcome-level gravity and excludes a gravity filter. Scientific review and the frontend contributor's shared fixture agreement remain pending.
 
 ### S0 handoff and backend readiness
 
-Start with the [HTTP contract](docs/contracts/API.md), [OpenAPI 3.1 document](docs/contracts/openapi.json), [storage contract](docs/contracts/STORAGE.md) and [RDF mapping](docs/contracts/RDF.md). The [fixture manifest](data/fixtures/s0/manifest.json) records exact source hashes, selected rows and pending review. These are development contracts and examples; backend services remain unimplemented.
+Start with [backend setup and commands](docs/BACKEND.md), the [active OpenAPI document](docs/contracts/openapi-current.json), [storage contract](docs/contracts/STORAGE.md) and [RDF mapping](docs/contracts/RDF.md). Flask, SQLite FTS5 and the RDF graph are implemented. The [historical S0 manifest](data/fixtures/s0/manifest.json) retains its original hashes and pending shared review.
 
 | Issue | Contract readiness |
 | --- | --- |
-| B1 #16 | Health readiness, snapshot date and actual loaded counts defined. Verified experiment counts remain null. |
-| B2 #17 | Storage identities, validation, idempotent updates and replacement-database checks defined. |
-| B3 #18 | Search requests, matching evidence and pagination defined; ranking implementation/evaluation remains work. |
-| B4 #19 | Source-row provenance and supported value/outcome RDF mapping defined; classification and unsupported mappings remain blocked. |
-| B5 #20 | Study and evidence detail/list responses, IDs and missing states defined. |
-| B6 #21 | File identity, search, filters, ordering, pagination and access states defined. |
-| B7 #22 | Source-record envelopes defined; run filters, verified coverage counts and regions remain provisional. |
-| B8 #23 | Shared offline fixtures and validator supplied; backend build/start/integration commands remain implementation work. |
+| B1 #16 | Flask and actual active health counts implemented; scientific readiness remains separate. |
+| B2 #17 | Validated replacement catalog: 24 investigations, 261 evidence items and 60,866 files. |
+| B3 #18 | FTS5/BM25 and approved synonyms implemented; 11/12 top-three matches, 3/3 unsupported queries empty. |
+| B4 #19 | RDF loader preserves 2,009 records and supported values/outcomes with provenance. |
+| B5 #20 | Study/evidence routes preserve exact records and report missing/unavailable states. |
+| B6 #21 | Full file browsing, independent filters and stable pagination implemented. |
+| B7 #22 | Typed filters, inclusive overlap, comparison groups and review-aware coverage implemented. |
+| B8 #23 | Offline build/start and benchmark scripts supplied; complete frontend workflow remains pending. |
 
-Run `python docs/contracts/validate.py` offline with the existing `jsonschema` and `referencing` packages. See [validation commands and results](docs/contracts/API.md#validation) for scope and limitations. No dependencies or runtime endpoints are added by this handoff.
+Run `python docs/contracts/validate.py` for the historical S0 bundle. Install the locked root `requirements.txt` for the application and run the committed backend tests. See [validation commands](docs/BACKEND.md). Pending cards, material aliases and extractions retain their review state; root `/` explicitly reports missing frontend until its index is supplied.
 
 ### Prepare and verify pipeline data
 
