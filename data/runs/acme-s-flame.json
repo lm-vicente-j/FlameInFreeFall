@@ -1,0 +1,1701 @@
+{
+  "table": "acme-s-flame",
+  "investigation": "PSI-23",
+  "source": {
+    "filename": "PSI-23_Experimental table_ACME s-Flame.csv",
+    "sha256": "16cd10f50bd2e962887c8eb4077e5a9b3e790c78de8e0361c0b77e19300be7cf",
+    "encoding": "utf-8",
+    "columns": [
+      "Test Type",
+      "Test Day*",
+      "Year",
+      "Month",
+      "Date",
+      "Atmosphere*",
+      "Fuel Bottle",
+      "Flames Ignited*",
+      "Notes"
+    ]
+  },
+  "counts": {
+    "runs": 18,
+    "notes": 0,
+    "empty_rows_skipped": 0
+  },
+  "records": [
+    {
+      "id": "PSI-23:acme-s-flame:1",
+      "kind": "run",
+      "row": 1,
+      "original": {
+        "Test Type": "First round of tests with nitrogen-diluted fuel and oxygen",
+        "Test Day*": "19254",
+        "Year": "2019",
+        "Month": "Sept.",
+        "Date": "11",
+        "Atmosphere*": "~21% O2 with N2",
+        "Fuel Bottle": "50% C2H4 with N2",
+        "Flames Ignited*": "13",
+        "Notes": "*Test Day is formatted YYDDD where YY identfies year and DDD identifies day of year (GMT). "
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-23:acme-s-flame:2",
+      "kind": "run",
+      "row": 2,
+      "original": {
+        "Test Type": "First round of tests with nitrogen-diluted fuel and oxygen",
+        "Test Day*": "19256",
+        "Year": "2019",
+        "Month": "Sept.",
+        "Date": "13",
+        "Atmosphere*": "~21% O2 with N3",
+        "Fuel Bottle": "50% C2H4 with N3",
+        "Flames Ignited*": "16",
+        "Notes": "*Atmosphere is ~1 atm but pressure increases and O2% drops with vitiation."
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-23:acme-s-flame:3",
+      "kind": "run",
+      "row": 3,
+      "original": {
+        "Test Type": "First round of tests with nitrogen-diluted fuel and oxygen",
+        "Test Day*": "19304",
+        "Year": "2019",
+        "Month": "Oct.",
+        "Date": "31",
+        "Atmosphere*": "~21% O2 with N4",
+        "Fuel Bottle": "45% CH4 with N2",
+        "Flames Ignited*": "9",
+        "Notes": "*Flames Ignited is the number ignited on that day (neglecting the day change on ISS)."
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-23:acme-s-flame:4",
+      "kind": "run",
+      "row": 4,
+      "original": {
+        "Test Type": "First round of tests with nitrogen-diluted fuel and oxygen",
+        "Test Day*": "19308",
+        "Year": "2019",
+        "Month": "Nov.",
+        "Date": "4",
+        "Atmosphere*": "~30% O2 with N2",
+        "Fuel Bottle": "45% CH4 with N3",
+        "Flames Ignited*": "21",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-23:acme-s-flame:5",
+      "kind": "run",
+      "row": 5,
+      "original": {
+        "Test Type": "First round of tests with nitrogen-diluted fuel and oxygen",
+        "Test Day*": "19352",
+        "Year": "2019",
+        "Month": "Dec.",
+        "Date": "18",
+        "Atmosphere*": "~21% O2 with N2",
+        "Fuel Bottle": "100% H2",
+        "Flames Ignited*": "10",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-23:acme-s-flame:6",
+      "kind": "run",
+      "row": 6,
+      "original": {
+        "Test Type": "First round of tests with nitrogen-diluted fuel and oxygen",
+        "Test Day*": "20006",
+        "Year": "2020",
+        "Month": "Jan.",
+        "Date": "6",
+        "Atmosphere*": "~21% O2 with N3",
+        "Fuel Bottle": "44.4% H2 with CH4",
+        "Flames Ignited*": "17",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-23:acme-s-flame:7",
+      "kind": "run",
+      "row": 7,
+      "original": {
+        "Test Type": "First round of tests with nitrogen-diluted fuel and oxygen",
+        "Test Day*": "20013",
+        "Year": "2020",
+        "Month": "Jan.",
+        "Date": "13",
+        "Atmosphere*": "~21% O2 with N4",
+        "Fuel Bottle": "66.7% H2 with CH4",
+        "Flames Ignited*": "22",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-23:acme-s-flame:8",
+      "kind": "run",
+      "row": 8,
+      "original": {
+        "Test Type": "First round of tests with nitrogen-diluted fuel and oxygen",
+        "Test Day*": "20024",
+        "Year": "2020",
+        "Month": "Jan.",
+        "Date": "24",
+        "Atmosphere*": "~21% O2 with N5",
+        "Fuel Bottle": "100% H2",
+        "Flames Ignited*": "16",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-23:acme-s-flame:9",
+      "kind": "run",
+      "row": 9,
+      "original": {
+        "Test Type": "First round of tests with nitrogen-diluted fuel and oxygen",
+        "Test Day*": "20029",
+        "Year": "2020",
+        "Month": "Jan.",
+        "Date": "29",
+        "Atmosphere*": "~21% O2 with N6",
+        "Fuel Bottle": "50% C2H4 with N2",
+        "Flames Ignited*": "21",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-23:acme-s-flame:10",
+      "kind": "run",
+      "row": 10,
+      "original": {
+        "Test Type": "First round of tests with nitrogen-diluted fuel and oxygen",
+        "Test Day*": "20132",
+        "Year": "2020",
+        "Month": "May",
+        "Date": "11",
+        "Atmosphere*": "~21% O2 with He",
+        "Fuel Bottle": "25% H2, 20% CH4, with He",
+        "Flames Ignited*": "7",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-23:acme-s-flame:11",
+      "kind": "run",
+      "row": 11,
+      "original": {
+        "Test Type": "Second round of tests with helium-diluted fuel and oxygen",
+        "Test Day*": "20136",
+        "Year": "2020",
+        "Month": "May",
+        "Date": "15",
+        "Atmosphere*": "~21% O2 with He",
+        "Fuel Bottle": "20% H2, 25% CH4, with He",
+        "Flames Ignited*": "11",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-23:acme-s-flame:12",
+      "kind": "run",
+      "row": 12,
+      "original": {
+        "Test Type": "Second round of tests with helium-diluted fuel and oxygen",
+        "Test Day*": "20142",
+        "Year": "2020",
+        "Month": "May",
+        "Date": "21",
+        "Atmosphere*": "~30% O2 with He",
+        "Fuel Bottle": "30% H2, 15% CH4, with He",
+        "Flames Ignited*": "17",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-23:acme-s-flame:13",
+      "kind": "run",
+      "row": 13,
+      "original": {
+        "Test Type": "Second round of tests with helium-diluted fuel and oxygen",
+        "Test Day*": "20155",
+        "Year": "2020",
+        "Month": "June",
+        "Date": "3",
+        "Atmosphere*": "~30% and ~21% O2 with He",
+        "Fuel Bottle": "45% H2 with He",
+        "Flames Ignited*": "9",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-23:acme-s-flame:14",
+      "kind": "run",
+      "row": 14,
+      "original": {
+        "Test Type": "Second round of tests with helium-diluted fuel and oxygen",
+        "Test Day*": "20160",
+        "Year": "2020",
+        "Month": "June",
+        "Date": "8",
+        "Atmosphere*": "~30% and ~21% O2 with He",
+        "Fuel Bottle": "45% CH4 with He",
+        "Flames Ignited*": "12",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-23:acme-s-flame:15",
+      "kind": "run",
+      "row": 15,
+      "original": {
+        "Test Type": "Second round of tests with helium-diluted fuel and oxygen",
+        "Test Day*": "20164",
+        "Year": "2020",
+        "Month": "June",
+        "Date": "12",
+        "Atmosphere*": "~30% O2 with He",
+        "Fuel Bottle": "20% C2H4 with He",
+        "Flames Ignited*": "11",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-23:acme-s-flame:16",
+      "kind": "run",
+      "row": 16,
+      "original": {
+        "Test Type": "Second round of tests with helium-diluted fuel and oxygen",
+        "Test Day*": "20170",
+        "Year": "2020",
+        "Month": "June",
+        "Date": "18",
+        "Atmosphere*": "~30% and ~21% O2 with He",
+        "Fuel Bottle": "25% C2H4 with He",
+        "Flames Ignited*": "20",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-23:acme-s-flame:17",
+      "kind": "run",
+      "row": 17,
+      "original": {
+        "Test Type": "Second round of tests with helium-diluted fuel and oxygen",
+        "Test Day*": "20176",
+        "Year": "2020",
+        "Month": "June",
+        "Date": "24",
+        "Atmosphere*": "~30% and ~21% O2 with He",
+        "Fuel Bottle": "30% C2H4 with He",
+        "Flames Ignited*": "23",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-23:acme-s-flame:18",
+      "kind": "run",
+      "row": 18,
+      "original": {
+        "Test Type": "Second round of tests with helium-diluted fuel and oxygen",
+        "Test Day*": "20190",
+        "Year": "2020",
+        "Month": "July",
+        "Date": "8",
+        "Atmosphere*": "~30% and ~21% O2 with He",
+        "Fuel Bottle": "35% H2 with He",
+        "Flames Ignited*": "21",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "review_status": "not_required"
+    }
+  ]
+}

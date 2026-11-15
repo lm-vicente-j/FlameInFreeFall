@@ -1,0 +1,225 @@
+{
+  "table": "saffire-3",
+  "investigation": "PSI-100",
+  "source": {
+    "filename": "PSI-100_Experimental table_SAFFIRE-3.csv",
+    "sha256": "4d3c717ec20dd0247db670b2784a9fd7d746788bc54a936f80693e48eb8cd117",
+    "encoding": "utf-8",
+    "columns": [
+      "Sample Number ",
+      "Material",
+      "Sample Thickness",
+      "Sample Length",
+      "Sample Width",
+      "Air Flow ",
+      "Direction",
+      "Camera 1",
+      "Camera 2"
+    ]
+  },
+  "counts": {
+    "runs": 2,
+    "notes": 0,
+    "empty_rows_skipped": 0
+  },
+  "records": [
+    {
+      "id": "PSI-100:saffire-3:1",
+      "kind": "run",
+      "row": 1,
+      "original": {
+        "Sample Number ": "S1",
+        "Material": "SIBAL Fabric",
+        "Sample Thickness": ".33 cm",
+        "Sample Length": "94 cm",
+        "Sample Width": "40.6 cm",
+        "Air Flow ": "30 cm/s",
+        "Direction": "Concurrent ",
+        "Camera 1": "S1C1",
+        "Camera 2": "S1C2"
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": "solid",
+          "method": "manual",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "Investigation-level constant: Saffire burns solid fuel samples"
+        },
+        "material": {
+          "value": "cotton-fiberglass fabric (sibal)",
+          "method": "mapped",
+          "columns": [
+            "Material"
+          ],
+          "review_status": "pending",
+          "quote": "SIBAL Fabric",
+          "note": "alias proposed by llm; not yet reviewed"
+        },
+        "geometry": {
+          "value": "sheet",
+          "method": "manual",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "Investigation-level constant: Saffire burns flat sheet and fabric samples"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table has no oxygen column"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table has no pressure column"
+        },
+        "flow_cm_s": {
+          "min": 30.0,
+          "max": 30.0,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "parsed",
+          "columns": [
+            "Air Flow "
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": null
+        },
+        "flow_direction": {
+          "value": "concurrent",
+          "method": "parsed",
+          "columns": [
+            "Direction"
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": null
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table has no diluent column"
+        }
+      },
+      "outcomes": [],
+      "review_status": "pending"
+    },
+    {
+      "id": "PSI-100:saffire-3:2",
+      "kind": "run",
+      "row": 2,
+      "original": {
+        "Sample Number ": "S2",
+        "Material": "SIBAL Fabric",
+        "Sample Thickness": ".33 cm",
+        "Sample Length": "94 cm",
+        "Sample Width": "40.6 cm",
+        "Air Flow ": "30 cm/s",
+        "Direction": "Opposed",
+        "Camera 1": "S2C1",
+        "Camera 2": "S2C2"
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": "solid",
+          "method": "manual",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "Investigation-level constant: Saffire burns solid fuel samples"
+        },
+        "material": {
+          "value": "cotton-fiberglass fabric (sibal)",
+          "method": "mapped",
+          "columns": [
+            "Material"
+          ],
+          "review_status": "pending",
+          "quote": "SIBAL Fabric",
+          "note": "alias proposed by llm; not yet reviewed"
+        },
+        "geometry": {
+          "value": "sheet",
+          "method": "manual",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "Investigation-level constant: Saffire burns flat sheet and fabric samples"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table has no oxygen column"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table has no pressure column"
+        },
+        "flow_cm_s": {
+          "min": 30.0,
+          "max": 30.0,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "parsed",
+          "columns": [
+            "Air Flow "
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": null
+        },
+        "flow_direction": {
+          "value": "opposed",
+          "method": "parsed",
+          "columns": [
+            "Direction"
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": null
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table has no diluent column"
+        }
+      },
+      "outcomes": [],
+      "review_status": "pending"
+    }
+  ]
+}

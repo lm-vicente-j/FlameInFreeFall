@@ -1,0 +1,1682 @@
+{
+  "table": "acme-bre",
+  "investigation": "PSI-20",
+  "source": {
+    "filename": "PSI-20_Experimental table_ACME BRE.csv",
+    "sha256": "4aa5d3f98708ceacced5c620d46858b9965f8d4d941b203229f46467d53e5ab7",
+    "encoding": "utf-8",
+    "columns": [
+      "Year",
+      "Month",
+      "Date",
+      "Burner Size (mm)",
+      "Fuel Bottle",
+      "Oxygen Conc (percent)",
+      "Flames Ignited",
+      "Notes"
+    ]
+  },
+  "counts": {
+    "runs": 18,
+    "notes": 0,
+    "empty_rows_skipped": 0
+  },
+  "records": [
+    {
+      "id": "PSI-20:acme-bre:1",
+      "kind": "run",
+      "row": 1,
+      "original": {
+        "Year": "2019",
+        "Month": "Feb",
+        "Date": "8",
+        "Burner Size (mm)": "25",
+        "Fuel Bottle": "100% C2H4",
+        "Oxygen Conc (percent)": "21; 26.5; 40",
+        "Flames Ignited": "10",
+        "Notes": "Oxygen Conc. (as diluted with nitrogen on a volume basis) was varied between tests where approximate concentrations for tests that ignited are listed. The chamber pressures were also varied but are not identified in this summary table."
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-20:acme-bre:2",
+      "kind": "run",
+      "row": 2,
+      "original": {
+        "Year": "2019",
+        "Month": "Feb",
+        "Date": "20",
+        "Burner Size (mm)": "25",
+        "Fuel Bottle": "100% C2H4",
+        "Oxygen Conc (percent)": "26.5; 34",
+        "Flames Ignited": "8",
+        "Notes": "Flames Ignited is the number ignited on that day (neglecting the day change on ISS)."
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-20:acme-bre:3",
+      "kind": "run",
+      "row": 3,
+      "original": {
+        "Year": "2019",
+        "Month": "Feb",
+        "Date": "25",
+        "Burner Size (mm)": "25",
+        "Fuel Bottle": "50% C2H4",
+        "Oxygen Conc (percent)": "21; 26.5; 34; 40",
+        "Flames Ignited": "8",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-20:acme-bre:4",
+      "kind": "run",
+      "row": 4,
+      "original": {
+        "Year": "2019",
+        "Month": "March",
+        "Date": "4",
+        "Burner Size (mm)": "25",
+        "Fuel Bottle": "50% C2H4",
+        "Oxygen Conc (percent)": "26.5; 40",
+        "Flames Ignited": "6",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-20:acme-bre:5",
+      "kind": "run",
+      "row": 5,
+      "original": {
+        "Year": "2019",
+        "Month": "March",
+        "Date": "7",
+        "Burner Size (mm)": "25",
+        "Fuel Bottle": "50% C2H4",
+        "Oxygen Conc (percent)": "3400%",
+        "Flames Ignited": "6",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-20:acme-bre:6",
+      "kind": "run",
+      "row": 6,
+      "original": {
+        "Year": "2019",
+        "Month": "March",
+        "Date": "11",
+        "Burner Size (mm)": "25",
+        "Fuel Bottle": "50% C2H4",
+        "Oxygen Conc (percent)": "26.5; 34",
+        "Flames Ignited": "7",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-20:acme-bre:7",
+      "kind": "run",
+      "row": 7,
+      "original": {
+        "Year": "2019",
+        "Month": "March",
+        "Date": "28",
+        "Burner Size (mm)": "25",
+        "Fuel Bottle": "100%C2H4",
+        "Oxygen Conc (percent)": "26.5; 34",
+        "Flames Ignited": "8",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-20:acme-bre:8",
+      "kind": "run",
+      "row": 8,
+      "original": {
+        "Year": "2019",
+        "Month": "April",
+        "Date": "1",
+        "Burner Size (mm)": "25",
+        "Fuel Bottle": "100%C2H4",
+        "Oxygen Conc (percent)": "2100%",
+        "Flames Ignited": "0",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-20:acme-bre:9",
+      "kind": "run",
+      "row": 9,
+      "original": {
+        "Year": "2019",
+        "Month": "April",
+        "Date": "4",
+        "Burner Size (mm)": "25",
+        "Fuel Bottle": "100%C2H4",
+        "Oxygen Conc (percent)": "21; 26.5; 34",
+        "Flames Ignited": "9",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-20:acme-bre:10",
+      "kind": "run",
+      "row": 10,
+      "original": {
+        "Year": "2020",
+        "Month": "Sept",
+        "Date": "3",
+        "Burner Size (mm)": "50",
+        "Fuel Bottle": "100% C2H4",
+        "Oxygen Conc (percent)": "25; 34; 40",
+        "Flames Ignited": "13",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-20:acme-bre:11",
+      "kind": "run",
+      "row": 11,
+      "original": {
+        "Year": "2020",
+        "Month": "Oct",
+        "Date": "17",
+        "Burner Size (mm)": "25",
+        "Fuel Bottle": "100% C2H4",
+        "Oxygen Conc (percent)": "26.5; 34",
+        "Flames Ignited": "13",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-20:acme-bre:12",
+      "kind": "run",
+      "row": 12,
+      "original": {
+        "Year": "2020",
+        "Month": "Dec",
+        "Date": "5",
+        "Burner Size (mm)": "25",
+        "Fuel Bottle": "100% CH4",
+        "Oxygen Conc (percent)": "25; 34; 40",
+        "Flames Ignited": "21",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-20:acme-bre:13",
+      "kind": "run",
+      "row": 13,
+      "original": {
+        "Year": "2020",
+        "Month": "Dec",
+        "Date": "4",
+        "Burner Size (mm)": "25",
+        "Fuel Bottle": "100% CH4",
+        "Oxygen Conc (percent)": "25; 40",
+        "Flames Ignited": "18",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-20:acme-bre:14",
+      "kind": "run",
+      "row": 14,
+      "original": {
+        "Year": "2020",
+        "Month": "Dec",
+        "Date": "11",
+        "Burner Size (mm)": "25",
+        "Fuel Bottle": "50% C2H4",
+        "Oxygen Conc (percent)": "25; 40",
+        "Flames Ignited": "12",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-20:acme-bre:15",
+      "kind": "run",
+      "row": 15,
+      "original": {
+        "Year": "2020",
+        "Month": "Dec",
+        "Date": "17",
+        "Burner Size (mm)": "25",
+        "Fuel Bottle": "100% C2H4",
+        "Oxygen Conc (percent)": "34; 40",
+        "Flames Ignited": "10",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-20:acme-bre:16",
+      "kind": "run",
+      "row": 16,
+      "original": {
+        "Year": "2020",
+        "Month": "Dec",
+        "Date": "23",
+        "Burner Size (mm)": "25",
+        "Fuel Bottle": "100% C2H4",
+        "Oxygen Conc (percent)": "25; 34; 40",
+        "Flames Ignited": "17",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-20:acme-bre:17",
+      "kind": "run",
+      "row": 17,
+      "original": {
+        "Year": "2021",
+        "Month": "Jan",
+        "Date": "20",
+        "Burner Size (mm)": "25",
+        "Fuel Bottle": "100% C2H4",
+        "Oxygen Conc (percent)": "21; 26.5; 34",
+        "Flames Ignited": "15",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-20:acme-bre:18",
+      "kind": "run",
+      "row": 18,
+      "original": {
+        "Year": "2021",
+        "Month": "Jan",
+        "Date": "28",
+        "Burner Size (mm)": "50",
+        "Fuel Bottle": "100% C2H4",
+        "Oxygen Conc (percent)": "25; 34; 40",
+        "Flames Ignited": "13",
+        "Notes": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table not normalized yet; conditions not extracted"
+        }
+      },
+      "outcomes": [],
+      "review_status": "not_required"
+    }
+  ]
+}

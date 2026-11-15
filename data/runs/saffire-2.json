@@ -1,0 +1,2242 @@
+{
+  "table": "saffire-2",
+  "investigation": "PSI-99",
+  "source": {
+    "filename": "PSI-99_Experimental table_SAFFIRE-2.csv",
+    "sha256": "3c24390b9ef86f3d1ebaab911a1a3cc95a8759aebf42062371370e6d4b31b8ac",
+    "encoding": "utf-8",
+    "columns": [
+      "Sample Number",
+      "Material",
+      "Samle Thickness ",
+      "Sample Length ",
+      "Sample Width (cm)",
+      "Air Flow (cm/s)",
+      "Percent O2 (Note 1)",
+      "Ignition Power (W)",
+      "Ignition Time (s)",
+      "Burn Time (s)",
+      "Flow Direction",
+      "?-g Burn Length",
+      "?-g Spread Length",
+      "1-g Burn Length",
+      "1-g Spread Rate",
+      "Camera 1",
+      "Camera 2"
+    ]
+  },
+  "counts": {
+    "runs": 9,
+    "notes": 6,
+    "empty_rows_skipped": 0
+  },
+  "records": [
+    {
+      "id": "PSI-99:saffire-2:1",
+      "kind": "run",
+      "row": 1,
+      "original": {
+        "Sample Number": "2-1",
+        "Material": "Silicone",
+        "Samle Thickness ": "0.27 mm",
+        "Sample Length ": "29 cm",
+        "Sample Width (cm)": "5 cm",
+        "Air Flow (cm/s)": "20 cm/s",
+        "Percent O2 (Note 1)": "~ 21.5",
+        "Ignition Power (W)": "80 W",
+        "Ignition Time (s)": "9.2 s",
+        "Burn Time (s)": "Insignificant",
+        "Flow Direction": "Concurrent",
+        "?-g Burn Length": "~ 0",
+        "?-g Spread Length": "n/a",
+        "1-g Burn Length": "Complete",
+        "1-g Spread Rate": "Acceleratory",
+        "Camera 1": "S1C1",
+        "Camera 2": "S1C2"
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": "solid",
+          "method": "manual",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "Investigation-level constant: Saffire burns solid fuel samples"
+        },
+        "material": {
+          "value": "silicone",
+          "method": "mapped",
+          "columns": [
+            "Material"
+          ],
+          "review_status": "pending",
+          "quote": "Silicone",
+          "note": "alias proposed by llm; not yet reviewed"
+        },
+        "geometry": {
+          "value": "sheet",
+          "method": "manual",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "Investigation-level constant: Saffire burns flat sheet and fabric samples"
+        },
+        "o2_percent": {
+          "min": 21.5,
+          "max": 21.5,
+          "unit": "percent",
+          "qualifier": "approximate",
+          "method": "parsed",
+          "columns": [
+            "Percent O2 (Note 1)"
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": null
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table has no pressure column"
+        },
+        "flow_cm_s": {
+          "min": 20.0,
+          "max": 20.0,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "parsed",
+          "columns": [
+            "Air Flow (cm/s)"
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": null
+        },
+        "flow_direction": {
+          "value": "concurrent",
+          "method": "parsed",
+          "columns": [
+            "Flow Direction"
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": null
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table has no diluent column"
+        }
+      },
+      "outcomes": [
+        {
+          "type": "burn_time",
+          "gravity": "microgravity",
+          "result": {
+            "value": "Insignificant",
+            "method": "parsed",
+            "columns": [
+              "Burn Time (s)"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": "not normalized; verbatim source text"
+          }
+        },
+        {
+          "type": "burn_length",
+          "gravity": "microgravity",
+          "result": {
+            "min": 0.0,
+            "max": 0.0,
+            "unit": "cm",
+            "qualifier": "approximate",
+            "method": "parsed",
+            "columns": [
+              "?-g Burn Length"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": "unit not stated in this cell or header; taken from the other cells of the column"
+          }
+        },
+        {
+          "type": "burn_length",
+          "gravity": "normal",
+          "result": {
+            "value": "Complete",
+            "method": "parsed",
+            "columns": [
+              "1-g Burn Length"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": "not normalized; verbatim source text"
+          }
+        },
+        {
+          "type": "spread_rate",
+          "gravity": "normal",
+          "result": {
+            "value": "Acceleratory",
+            "method": "parsed",
+            "columns": [
+              "1-g Spread Rate"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": "not normalized; verbatim source text"
+          }
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "PSI-99:saffire-2:2",
+      "kind": "run",
+      "row": 2,
+      "original": {
+        "Sample Number": "2-2",
+        "Material": "Silicone",
+        "Samle Thickness ": "0.61 mm",
+        "Sample Length ": "29 cm",
+        "Sample Width (cm)": "5 cm",
+        "Air Flow (cm/s)": "20 cm/s",
+        "Percent O2 (Note 1)": "~ 22.1",
+        "Ignition Power (W)": "80 W",
+        "Ignition Time (s)": "9.2 s",
+        "Burn Time (s)": "Insignificant",
+        "Flow Direction": "Concurrent",
+        "?-g Burn Length": "~ 0",
+        "?-g Spread Length": "n/a",
+        "1-g Burn Length": "7.6 cm",
+        "1-g Spread Rate": "1.2 mm/s",
+        "Camera 1": "n/a",
+        "Camera 2": "S2C2"
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": "solid",
+          "method": "manual",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "Investigation-level constant: Saffire burns solid fuel samples"
+        },
+        "material": {
+          "value": "silicone",
+          "method": "mapped",
+          "columns": [
+            "Material"
+          ],
+          "review_status": "pending",
+          "quote": "Silicone",
+          "note": "alias proposed by llm; not yet reviewed"
+        },
+        "geometry": {
+          "value": "sheet",
+          "method": "manual",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "Investigation-level constant: Saffire burns flat sheet and fabric samples"
+        },
+        "o2_percent": {
+          "min": 22.1,
+          "max": 22.1,
+          "unit": "percent",
+          "qualifier": "approximate",
+          "method": "parsed",
+          "columns": [
+            "Percent O2 (Note 1)"
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": null
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table has no pressure column"
+        },
+        "flow_cm_s": {
+          "min": 20.0,
+          "max": 20.0,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "parsed",
+          "columns": [
+            "Air Flow (cm/s)"
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": null
+        },
+        "flow_direction": {
+          "value": "concurrent",
+          "method": "parsed",
+          "columns": [
+            "Flow Direction"
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": null
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table has no diluent column"
+        }
+      },
+      "outcomes": [
+        {
+          "type": "burn_time",
+          "gravity": "microgravity",
+          "result": {
+            "value": "Insignificant",
+            "method": "parsed",
+            "columns": [
+              "Burn Time (s)"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": "not normalized; verbatim source text"
+          }
+        },
+        {
+          "type": "burn_length",
+          "gravity": "microgravity",
+          "result": {
+            "min": 0.0,
+            "max": 0.0,
+            "unit": "cm",
+            "qualifier": "approximate",
+            "method": "parsed",
+            "columns": [
+              "?-g Burn Length"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": "unit not stated in this cell or header; taken from the other cells of the column"
+          }
+        },
+        {
+          "type": "burn_length",
+          "gravity": "normal",
+          "result": {
+            "min": 7.6,
+            "max": 7.6,
+            "unit": "cm",
+            "qualifier": null,
+            "method": "parsed",
+            "columns": [
+              "1-g Burn Length"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": null
+          }
+        },
+        {
+          "type": "spread_rate",
+          "gravity": "normal",
+          "result": {
+            "min": 1.2,
+            "max": 1.2,
+            "unit": "mm/s",
+            "qualifier": null,
+            "method": "parsed",
+            "columns": [
+              "1-g Spread Rate"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": null
+          }
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "PSI-99:saffire-2:3",
+      "kind": "run",
+      "row": 3,
+      "original": {
+        "Sample Number": "2-3",
+        "Material": "Silicone",
+        "Samle Thickness ": "1.03 mm",
+        "Sample Length ": "29 cm",
+        "Sample Width (cm)": "5 cm",
+        "Air Flow (cm/s)": "20 cm/s",
+        "Percent O2 (Note 1)": "~ 22.1",
+        "Ignition Power (W)": "80 W",
+        "Ignition Time (s)": "9.2 s",
+        "Burn Time (s)": "Insignificant",
+        "Flow Direction": "Concurrent",
+        "?-g Burn Length": "~ 0",
+        "?-g Spread Length": "n/a",
+        "1-g Burn Length": "~ 0",
+        "1-g Spread Rate": "n/a",
+        "Camera 1": "",
+        "Camera 2": "S3C2"
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": "solid",
+          "method": "manual",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "Investigation-level constant: Saffire burns solid fuel samples"
+        },
+        "material": {
+          "value": "silicone",
+          "method": "mapped",
+          "columns": [
+            "Material"
+          ],
+          "review_status": "pending",
+          "quote": "Silicone",
+          "note": "alias proposed by llm; not yet reviewed"
+        },
+        "geometry": {
+          "value": "sheet",
+          "method": "manual",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "Investigation-level constant: Saffire burns flat sheet and fabric samples"
+        },
+        "o2_percent": {
+          "min": 22.1,
+          "max": 22.1,
+          "unit": "percent",
+          "qualifier": "approximate",
+          "method": "parsed",
+          "columns": [
+            "Percent O2 (Note 1)"
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": null
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table has no pressure column"
+        },
+        "flow_cm_s": {
+          "min": 20.0,
+          "max": 20.0,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "parsed",
+          "columns": [
+            "Air Flow (cm/s)"
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": null
+        },
+        "flow_direction": {
+          "value": "concurrent",
+          "method": "parsed",
+          "columns": [
+            "Flow Direction"
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": null
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table has no diluent column"
+        }
+      },
+      "outcomes": [
+        {
+          "type": "burn_time",
+          "gravity": "microgravity",
+          "result": {
+            "value": "Insignificant",
+            "method": "parsed",
+            "columns": [
+              "Burn Time (s)"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": "not normalized; verbatim source text"
+          }
+        },
+        {
+          "type": "burn_length",
+          "gravity": "microgravity",
+          "result": {
+            "min": 0.0,
+            "max": 0.0,
+            "unit": "cm",
+            "qualifier": "approximate",
+            "method": "parsed",
+            "columns": [
+              "?-g Burn Length"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": "unit not stated in this cell or header; taken from the other cells of the column"
+          }
+        },
+        {
+          "type": "burn_length",
+          "gravity": "normal",
+          "result": {
+            "min": 0.0,
+            "max": 0.0,
+            "unit": "cm",
+            "qualifier": "approximate",
+            "method": "parsed",
+            "columns": [
+              "1-g Burn Length"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": "unit not stated in this cell or header; taken from the other cells of the column"
+          }
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "PSI-99:saffire-2:4",
+      "kind": "run",
+      "row": 4,
+      "original": {
+        "Sample Number": "2-4",
+        "Material": "Silicone",
+        "Samle Thickness ": "037 mm",
+        "Sample Length ": "29 cm",
+        "Sample Width (cm)": "5 cm",
+        "Air Flow (cm/s)": "20 cm/s",
+        "Percent O2 (Note 1)": "~ 22.1",
+        "Ignition Power (W)": "80 W",
+        "Ignition Time (s)": "9.2 s",
+        "Burn Time (s)": "Insignificant",
+        "Flow Direction": "Opposed",
+        "?-g Burn Length": "~ 0",
+        "?-g Spread Length": "n/a",
+        "1-g Burn Length": "Complete",
+        "1-g Spread Rate": "0.6 mm/s",
+        "Camera 1": "S4C1",
+        "Camera 2": "S4C1"
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": "solid",
+          "method": "manual",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "Investigation-level constant: Saffire burns solid fuel samples"
+        },
+        "material": {
+          "value": "silicone",
+          "method": "mapped",
+          "columns": [
+            "Material"
+          ],
+          "review_status": "pending",
+          "quote": "Silicone",
+          "note": "alias proposed by llm; not yet reviewed"
+        },
+        "geometry": {
+          "value": "sheet",
+          "method": "manual",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "Investigation-level constant: Saffire burns flat sheet and fabric samples"
+        },
+        "o2_percent": {
+          "min": 22.1,
+          "max": 22.1,
+          "unit": "percent",
+          "qualifier": "approximate",
+          "method": "parsed",
+          "columns": [
+            "Percent O2 (Note 1)"
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": null
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table has no pressure column"
+        },
+        "flow_cm_s": {
+          "min": 20.0,
+          "max": 20.0,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "parsed",
+          "columns": [
+            "Air Flow (cm/s)"
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": null
+        },
+        "flow_direction": {
+          "value": "opposed",
+          "method": "parsed",
+          "columns": [
+            "Flow Direction"
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": null
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table has no diluent column"
+        }
+      },
+      "outcomes": [
+        {
+          "type": "burn_time",
+          "gravity": "microgravity",
+          "result": {
+            "value": "Insignificant",
+            "method": "parsed",
+            "columns": [
+              "Burn Time (s)"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": "not normalized; verbatim source text"
+          }
+        },
+        {
+          "type": "burn_length",
+          "gravity": "microgravity",
+          "result": {
+            "min": 0.0,
+            "max": 0.0,
+            "unit": "cm",
+            "qualifier": "approximate",
+            "method": "parsed",
+            "columns": [
+              "?-g Burn Length"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": "unit not stated in this cell or header; taken from the other cells of the column"
+          }
+        },
+        {
+          "type": "burn_length",
+          "gravity": "normal",
+          "result": {
+            "value": "Complete",
+            "method": "parsed",
+            "columns": [
+              "1-g Burn Length"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": "not normalized; verbatim source text"
+          }
+        },
+        {
+          "type": "spread_rate",
+          "gravity": "normal",
+          "result": {
+            "min": 0.6,
+            "max": 0.6,
+            "unit": "mm/s",
+            "qualifier": null,
+            "method": "parsed",
+            "columns": [
+              "1-g Spread Rate"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": null
+          }
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "PSI-99:saffire-2:5",
+      "kind": "run",
+      "row": 5,
+      "original": {
+        "Sample Number": "2-5",
+        "Material": "Cotton-Fiberglass (SIBAL)",
+        "Samle Thickness ": "037 mm",
+        "Sample Length ": "29 cm",
+        "Sample Width (cm)": "5 cm",
+        "Air Flow (cm/s)": "20 cm/s",
+        "Percent O2 (Note 1)": "~ 22.1",
+        "Ignition Power (W)": "80 W",
+        "Ignition Time (s)": "9.2 s",
+        "Burn Time (s)": "145 s",
+        "Flow Direction": "Concurrent",
+        "?-g Burn Length": "29 cm",
+        "?-g Spread Length": "2.1 mm/s",
+        "1-g Burn Length": "Complete",
+        "1-g Spread Rate": "Acceleratory",
+        "Camera 1": "S5C1",
+        "Camera 2": "S5C2"
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": "solid",
+          "method": "manual",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "Investigation-level constant: Saffire burns solid fuel samples"
+        },
+        "material": {
+          "value": "cotton-fiberglass fabric (sibal)",
+          "method": "mapped",
+          "columns": [
+            "Material"
+          ],
+          "review_status": "pending",
+          "quote": "Cotton-Fiberglass (SIBAL)",
+          "note": "alias proposed by llm; not yet reviewed"
+        },
+        "geometry": {
+          "value": "sheet",
+          "method": "manual",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "Investigation-level constant: Saffire burns flat sheet and fabric samples"
+        },
+        "o2_percent": {
+          "min": 22.1,
+          "max": 22.1,
+          "unit": "percent",
+          "qualifier": "approximate",
+          "method": "parsed",
+          "columns": [
+            "Percent O2 (Note 1)"
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": null
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table has no pressure column"
+        },
+        "flow_cm_s": {
+          "min": 20.0,
+          "max": 20.0,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "parsed",
+          "columns": [
+            "Air Flow (cm/s)"
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": null
+        },
+        "flow_direction": {
+          "value": "concurrent",
+          "method": "parsed",
+          "columns": [
+            "Flow Direction"
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": null
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table has no diluent column"
+        }
+      },
+      "outcomes": [
+        {
+          "type": "burn_time",
+          "gravity": "microgravity",
+          "result": {
+            "min": 145.0,
+            "max": 145.0,
+            "unit": "s",
+            "qualifier": null,
+            "method": "parsed",
+            "columns": [
+              "Burn Time (s)"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": null
+          }
+        },
+        {
+          "type": "burn_length",
+          "gravity": "microgravity",
+          "result": {
+            "min": 29.0,
+            "max": 29.0,
+            "unit": "cm",
+            "qualifier": null,
+            "method": "parsed",
+            "columns": [
+              "?-g Burn Length"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": null
+          }
+        },
+        {
+          "type": "spread_rate",
+          "gravity": "microgravity",
+          "result": {
+            "min": 2.1,
+            "max": 2.1,
+            "unit": "mm/s",
+            "qualifier": null,
+            "method": "parsed",
+            "columns": [
+              "?-g Spread Length"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": "header reads Spread Length but values carry mm/s; read as spread_rate"
+          }
+        },
+        {
+          "type": "burn_length",
+          "gravity": "normal",
+          "result": {
+            "value": "Complete",
+            "method": "parsed",
+            "columns": [
+              "1-g Burn Length"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": "not normalized; verbatim source text"
+          }
+        },
+        {
+          "type": "spread_rate",
+          "gravity": "normal",
+          "result": {
+            "value": "Acceleratory",
+            "method": "parsed",
+            "columns": [
+              "1-g Spread Rate"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": "not normalized; verbatim source text"
+          }
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "PSI-99:saffire-2:6",
+      "kind": "run",
+      "row": 6,
+      "original": {
+        "Sample Number": "2-6",
+        "Material": "",
+        "Samle Thickness ": "037 mm",
+        "Sample Length ": "29 cm",
+        "Sample Width (cm)": "5 cm",
+        "Air Flow (cm/s)": "20 cm/s",
+        "Percent O2 (Note 1)": "~ 22.1",
+        "Ignition Power (W)": "80 W",
+        "Ignition Time (s)": "9.2 s",
+        "Burn Time (s)": "115 s",
+        "Flow Direction": "Concurrent",
+        "?-g Burn Length": "29 cm",
+        "?-g Spread Length": "2.6 mm/s",
+        "1-g Burn Length": "Complete",
+        "1-g Spread Rate": "Acceleratory",
+        "Camera 1": "S6C1",
+        "Camera 2": "S56C2"
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": "solid",
+          "method": "manual",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "Investigation-level constant: Saffire burns solid fuel samples"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [
+            "Material"
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "blank in source"
+        },
+        "geometry": {
+          "value": "sheet",
+          "method": "manual",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "Investigation-level constant: Saffire burns flat sheet and fabric samples"
+        },
+        "o2_percent": {
+          "min": 22.1,
+          "max": 22.1,
+          "unit": "percent",
+          "qualifier": "approximate",
+          "method": "parsed",
+          "columns": [
+            "Percent O2 (Note 1)"
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": null
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table has no pressure column"
+        },
+        "flow_cm_s": {
+          "min": 20.0,
+          "max": 20.0,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "parsed",
+          "columns": [
+            "Air Flow (cm/s)"
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": null
+        },
+        "flow_direction": {
+          "value": "concurrent",
+          "method": "parsed",
+          "columns": [
+            "Flow Direction"
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": null
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table has no diluent column"
+        }
+      },
+      "outcomes": [
+        {
+          "type": "burn_time",
+          "gravity": "microgravity",
+          "result": {
+            "min": 115.0,
+            "max": 115.0,
+            "unit": "s",
+            "qualifier": null,
+            "method": "parsed",
+            "columns": [
+              "Burn Time (s)"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": null
+          }
+        },
+        {
+          "type": "burn_length",
+          "gravity": "microgravity",
+          "result": {
+            "min": 29.0,
+            "max": 29.0,
+            "unit": "cm",
+            "qualifier": null,
+            "method": "parsed",
+            "columns": [
+              "?-g Burn Length"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": null
+          }
+        },
+        {
+          "type": "spread_rate",
+          "gravity": "microgravity",
+          "result": {
+            "min": 2.6,
+            "max": 2.6,
+            "unit": "mm/s",
+            "qualifier": null,
+            "method": "parsed",
+            "columns": [
+              "?-g Spread Length"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": "header reads Spread Length but values carry mm/s; read as spread_rate"
+          }
+        },
+        {
+          "type": "burn_length",
+          "gravity": "normal",
+          "result": {
+            "value": "Complete",
+            "method": "parsed",
+            "columns": [
+              "1-g Burn Length"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": "not normalized; verbatim source text"
+          }
+        },
+        {
+          "type": "spread_rate",
+          "gravity": "normal",
+          "result": {
+            "value": "Acceleratory",
+            "method": "parsed",
+            "columns": [
+              "1-g Spread Rate"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": "not normalized; verbatim source text"
+          }
+        }
+      ],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-99:saffire-2:7",
+      "kind": "run",
+      "row": 7,
+      "original": {
+        "Sample Number": "2-7",
+        "Material": "PMMA & Nomex",
+        "Samle Thickness ": "0.85 and 0.37 mm",
+        "Sample Length ": "5 and 24 cm",
+        "Sample Width (cm)": "5 cm",
+        "Air Flow (cm/s)": "20 cm/s",
+        "Percent O2 (Note 1)": "~ 22.1",
+        "Ignition Power (W)": "80 W",
+        "Ignition Time (s)": "9.2 s",
+        "Burn Time (s)": "140 s",
+        "Flow Direction": "Concurrent",
+        "?-g Burn Length": "5 cm & 0 (note 2)",
+        "?-g Spread Length": "n/a (Nomex)",
+        "1-g Burn Length": "~ 0 (Nomex)",
+        "1-g Spread Rate": "n/a (Nomex)",
+        "Camera 1": "S7C1",
+        "Camera 2": "n/a"
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": "solid",
+          "method": "manual",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "Investigation-level constant: Saffire burns solid fuel samples"
+        },
+        "material": {
+          "value": "pmma and nomex",
+          "method": "mapped",
+          "columns": [
+            "Material"
+          ],
+          "review_status": "pending",
+          "quote": "PMMA & Nomex",
+          "note": "alias proposed by llm; not yet reviewed"
+        },
+        "geometry": {
+          "value": "sheet",
+          "method": "manual",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "Investigation-level constant: Saffire burns flat sheet and fabric samples"
+        },
+        "o2_percent": {
+          "min": 22.1,
+          "max": 22.1,
+          "unit": "percent",
+          "qualifier": "approximate",
+          "method": "parsed",
+          "columns": [
+            "Percent O2 (Note 1)"
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": null
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table has no pressure column"
+        },
+        "flow_cm_s": {
+          "min": 20.0,
+          "max": 20.0,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "parsed",
+          "columns": [
+            "Air Flow (cm/s)"
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": null
+        },
+        "flow_direction": {
+          "value": "concurrent",
+          "method": "parsed",
+          "columns": [
+            "Flow Direction"
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": null
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table has no diluent column"
+        }
+      },
+      "outcomes": [
+        {
+          "type": "burn_time",
+          "gravity": "microgravity",
+          "result": {
+            "min": 140.0,
+            "max": 140.0,
+            "unit": "s",
+            "qualifier": null,
+            "method": "parsed",
+            "columns": [
+              "Burn Time (s)"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": null
+          }
+        },
+        {
+          "type": "burn_length",
+          "gravity": "microgravity",
+          "result": {
+            "value": "5 cm & 0 (note 2)",
+            "method": "parsed",
+            "columns": [
+              "?-g Burn Length"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": "not normalized; verbatim source text"
+          }
+        },
+        {
+          "type": "spread_rate",
+          "gravity": "microgravity",
+          "result": {
+            "value": "n/a (Nomex)",
+            "method": "parsed",
+            "columns": [
+              "?-g Spread Length"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": "not normalized; verbatim source text; header reads Spread Length but values carry mm/s; read as spread_rate"
+          }
+        },
+        {
+          "type": "burn_length",
+          "gravity": "normal",
+          "result": {
+            "value": "~ 0 (Nomex)",
+            "method": "parsed",
+            "columns": [
+              "1-g Burn Length"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": "not normalized; verbatim source text"
+          }
+        },
+        {
+          "type": "spread_rate",
+          "gravity": "normal",
+          "result": {
+            "value": "n/a (Nomex)",
+            "method": "parsed",
+            "columns": [
+              "1-g Spread Rate"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": "not normalized; verbatim source text"
+          }
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "PSI-99:saffire-2:8",
+      "kind": "run",
+      "row": 8,
+      "original": {
+        "Sample Number": "2-8",
+        "Material": "PMMA",
+        "Samle Thickness ": "See Fig. 5",
+        "Sample Length ": "29 cm",
+        "Sample Width (cm)": "5 cm",
+        "Air Flow (cm/s)": "20 cm/s",
+        "Percent O2 (Note 1)": "22.1 to 22.0",
+        "Ignition Power (W)": "97 W",
+        "Ignition Time (s)": "30 s",
+        "Burn Time (s)": "600 s",
+        "Flow Direction": "Concurrent",
+        "?-g Burn Length": "~ 10 cm (note 3)",
+        "?-g Spread Length": "Note 4",
+        "1-g Burn Length": "Complete",
+        "1-g Spread Rate": "Acceleratory",
+        "Camera 1": "S8C1",
+        "Camera 2": "n/a"
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": "solid",
+          "method": "manual",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "Investigation-level constant: Saffire burns solid fuel samples"
+        },
+        "material": {
+          "value": "pmma",
+          "method": "mapped",
+          "columns": [
+            "Material"
+          ],
+          "review_status": "pending",
+          "quote": "PMMA",
+          "note": "alias proposed by llm; not yet reviewed"
+        },
+        "geometry": {
+          "value": "sheet",
+          "method": "manual",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "Investigation-level constant: Saffire burns flat sheet and fabric samples"
+        },
+        "o2_percent": {
+          "min": 22.0,
+          "max": 22.1,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "parsed",
+          "columns": [
+            "Percent O2 (Note 1)"
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": null
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table has no pressure column"
+        },
+        "flow_cm_s": {
+          "min": 20.0,
+          "max": 20.0,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "parsed",
+          "columns": [
+            "Air Flow (cm/s)"
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": null
+        },
+        "flow_direction": {
+          "value": "concurrent",
+          "method": "parsed",
+          "columns": [
+            "Flow Direction"
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": null
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table has no diluent column"
+        }
+      },
+      "outcomes": [
+        {
+          "type": "burn_time",
+          "gravity": "microgravity",
+          "result": {
+            "min": 600.0,
+            "max": 600.0,
+            "unit": "s",
+            "qualifier": null,
+            "method": "parsed",
+            "columns": [
+              "Burn Time (s)"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": null
+          }
+        },
+        {
+          "type": "burn_length",
+          "gravity": "microgravity",
+          "result": {
+            "value": "~ 10 cm (note 3)",
+            "method": "parsed",
+            "columns": [
+              "?-g Burn Length"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": "not normalized; verbatim source text"
+          }
+        },
+        {
+          "type": "spread_rate",
+          "gravity": "microgravity",
+          "result": {
+            "value": "Note 4",
+            "method": "parsed",
+            "columns": [
+              "?-g Spread Length"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": "not normalized; verbatim source text; header reads Spread Length but values carry mm/s; read as spread_rate"
+          }
+        },
+        {
+          "type": "burn_length",
+          "gravity": "normal",
+          "result": {
+            "value": "Complete",
+            "method": "parsed",
+            "columns": [
+              "1-g Burn Length"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": "not normalized; verbatim source text"
+          }
+        },
+        {
+          "type": "spread_rate",
+          "gravity": "normal",
+          "result": {
+            "value": "Acceleratory",
+            "method": "parsed",
+            "columns": [
+              "1-g Spread Rate"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": "not normalized; verbatim source text"
+          }
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "PSI-99:saffire-2:9",
+      "kind": "run",
+      "row": 9,
+      "original": {
+        "Sample Number": "2-9",
+        "Material": "",
+        "Samle Thickness ": "1 cm",
+        "Sample Length ": "29 cm",
+        "Sample Width (cm)": "5 cm",
+        "Air Flow (cm/s)": "20 cm/s",
+        "Percent O2 (Note 1)": "22.0 to 21.9",
+        "Ignition Power (W)": "97 W",
+        "Ignition Time (s)": "30 s",
+        "Burn Time (s)": "900 s",
+        "Flow Direction": "Concurrent",
+        "?-g Burn Length": "~ 10 cm (note 4)",
+        "?-g Spread Length": "Note 4",
+        "1-g Burn Length": "Complete",
+        "1-g Spread Rate": "Acceleratory",
+        "Camera 1": "S9C1",
+        "Camera 2": "n/a"
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": "solid",
+          "method": "manual",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "Investigation-level constant: Saffire burns solid fuel samples"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [
+            "Material"
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "blank in source"
+        },
+        "geometry": {
+          "value": "sheet",
+          "method": "manual",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "Investigation-level constant: Saffire burns flat sheet and fabric samples"
+        },
+        "o2_percent": {
+          "min": 21.9,
+          "max": 22.0,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "parsed",
+          "columns": [
+            "Percent O2 (Note 1)"
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": null
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table has no pressure column"
+        },
+        "flow_cm_s": {
+          "min": 20.0,
+          "max": 20.0,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "parsed",
+          "columns": [
+            "Air Flow (cm/s)"
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": null
+        },
+        "flow_direction": {
+          "value": "concurrent",
+          "method": "parsed",
+          "columns": [
+            "Flow Direction"
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": null
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "table has no diluent column"
+        }
+      },
+      "outcomes": [
+        {
+          "type": "burn_time",
+          "gravity": "microgravity",
+          "result": {
+            "min": 900.0,
+            "max": 900.0,
+            "unit": "s",
+            "qualifier": null,
+            "method": "parsed",
+            "columns": [
+              "Burn Time (s)"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": null
+          }
+        },
+        {
+          "type": "burn_length",
+          "gravity": "microgravity",
+          "result": {
+            "value": "~ 10 cm (note 4)",
+            "method": "parsed",
+            "columns": [
+              "?-g Burn Length"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": "not normalized; verbatim source text"
+          }
+        },
+        {
+          "type": "spread_rate",
+          "gravity": "microgravity",
+          "result": {
+            "value": "Note 4",
+            "method": "parsed",
+            "columns": [
+              "?-g Spread Length"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": "not normalized; verbatim source text; header reads Spread Length but values carry mm/s; read as spread_rate"
+          }
+        },
+        {
+          "type": "burn_length",
+          "gravity": "normal",
+          "result": {
+            "value": "Complete",
+            "method": "parsed",
+            "columns": [
+              "1-g Burn Length"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": "not normalized; verbatim source text"
+          }
+        },
+        {
+          "type": "spread_rate",
+          "gravity": "normal",
+          "result": {
+            "value": "Acceleratory",
+            "method": "parsed",
+            "columns": [
+              "1-g Spread Rate"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": "not normalized; verbatim source text"
+          }
+        }
+      ],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-99:saffire-2:10",
+      "kind": "note",
+      "row": 10,
+      "original": {
+        "Sample Number": "F1C1/F1C2",
+        "Material": "Pre-test flow visulation data for sample 2-1",
+        "Samle Thickness ": "",
+        "Sample Length ": "",
+        "Sample Width (cm)": "",
+        "Air Flow (cm/s)": "",
+        "Percent O2 (Note 1)": "",
+        "Ignition Power (W)": "",
+        "Ignition Time (s)": "",
+        "Burn Time (s)": "",
+        "Flow Direction": "",
+        "?-g Burn Length": "",
+        "?-g Spread Length": "",
+        "1-g Burn Length": "",
+        "1-g Spread Rate": "",
+        "Camera 1": "",
+        "Camera 2": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "pre-test flow visualization reference row, not a run"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "pre-test flow visualization reference row, not a run"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "pre-test flow visualization reference row, not a run"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "pre-test flow visualization reference row, not a run"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "pre-test flow visualization reference row, not a run"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "pre-test flow visualization reference row, not a run"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "pre-test flow visualization reference row, not a run"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "pre-test flow visualization reference row, not a run"
+        }
+      },
+      "outcomes": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-99:saffire-2:11",
+      "kind": "note",
+      "row": 11,
+      "original": {
+        "Sample Number": "F2C1/F2C2",
+        "Material": "Pre-test flow visulation data for sample 2-2",
+        "Samle Thickness ": "",
+        "Sample Length ": "",
+        "Sample Width (cm)": "",
+        "Air Flow (cm/s)": "",
+        "Percent O2 (Note 1)": "",
+        "Ignition Power (W)": "",
+        "Ignition Time (s)": "",
+        "Burn Time (s)": "",
+        "Flow Direction": "",
+        "?-g Burn Length": "",
+        "?-g Spread Length": "",
+        "1-g Burn Length": "",
+        "1-g Spread Rate": "",
+        "Camera 1": "",
+        "Camera 2": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "pre-test flow visualization reference row, not a run"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "pre-test flow visualization reference row, not a run"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "pre-test flow visualization reference row, not a run"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "pre-test flow visualization reference row, not a run"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "pre-test flow visualization reference row, not a run"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "pre-test flow visualization reference row, not a run"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "pre-test flow visualization reference row, not a run"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "pre-test flow visualization reference row, not a run"
+        }
+      },
+      "outcomes": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-99:saffire-2:12",
+      "kind": "note",
+      "row": 12,
+      "original": {
+        "Sample Number": "Note 1 Derived from measured CO2 production and referenced to initial O2 concentration reported by ISS.",
+        "Material": "",
+        "Samle Thickness ": "",
+        "Sample Length ": "",
+        "Sample Width (cm)": "",
+        "Air Flow (cm/s)": "",
+        "Percent O2 (Note 1)": "",
+        "Ignition Power (W)": "",
+        "Ignition Time (s)": "",
+        "Burn Time (s)": "",
+        "Flow Direction": "",
+        "?-g Burn Length": "",
+        "?-g Spread Length": "",
+        "1-g Burn Length": "",
+        "1-g Spread Rate": "",
+        "Camera 1": "",
+        "Camera 2": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "annotation row (note), not a run"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "annotation row (note), not a run"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "annotation row (note), not a run"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "annotation row (note), not a run"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "annotation row (note), not a run"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "annotation row (note), not a run"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "annotation row (note), not a run"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "annotation row (note), not a run"
+        }
+      },
+      "outcomes": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-99:saffire-2:13",
+      "kind": "note",
+      "row": 13,
+      "original": {
+        "Sample Number": "Note 2 The PMMA portion was completely consumed but the Nomex was not ignited.",
+        "Material": "",
+        "Samle Thickness ": "",
+        "Sample Length ": "",
+        "Sample Width (cm)": "",
+        "Air Flow (cm/s)": "",
+        "Percent O2 (Note 1)": "",
+        "Ignition Power (W)": "",
+        "Ignition Time (s)": "",
+        "Burn Time (s)": "",
+        "Flow Direction": "",
+        "?-g Burn Length": "",
+        "?-g Spread Length": "",
+        "1-g Burn Length": "",
+        "1-g Spread Rate": "",
+        "Camera 1": "",
+        "Camera 2": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "annotation row (note), not a run"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "annotation row (note), not a run"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "annotation row (note), not a run"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "annotation row (note), not a run"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "annotation row (note), not a run"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "annotation row (note), not a run"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "annotation row (note), not a run"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "annotation row (note), not a run"
+        }
+      },
+      "outcomes": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-99:saffire-2:14",
+      "kind": "note",
+      "row": 14,
+      "original": {
+        "Sample Number": "Note 3 This is the length of fuel with significant visible damage.",
+        "Material": "",
+        "Samle Thickness ": "",
+        "Sample Length ": "",
+        "Sample Width (cm)": "",
+        "Air Flow (cm/s)": "",
+        "Percent O2 (Note 1)": "",
+        "Ignition Power (W)": "",
+        "Ignition Time (s)": "",
+        "Burn Time (s)": "",
+        "Flow Direction": "",
+        "?-g Burn Length": "",
+        "?-g Spread Length": "",
+        "1-g Burn Length": "",
+        "1-g Spread Rate": "",
+        "Camera 1": "",
+        "Camera 2": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "annotation row (note), not a run"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "annotation row (note), not a run"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "annotation row (note), not a run"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "annotation row (note), not a run"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "annotation row (note), not a run"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "annotation row (note), not a run"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "annotation row (note), not a run"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "annotation row (note), not a run"
+        }
+      },
+      "outcomes": [],
+      "review_status": "not_required"
+    },
+    {
+      "id": "PSI-99:saffire-2:15",
+      "kind": "note",
+      "row": 15,
+      "original": {
+        "Sample Number": "Note 4 The flames remain anchored at the base of the sample which has a very slow regression rate (0.01 to 0.04 mm/s)",
+        "Material": "",
+        "Samle Thickness ": "",
+        "Sample Length ": "",
+        "Sample Width (cm)": "",
+        "Air Flow (cm/s)": "",
+        "Percent O2 (Note 1)": "",
+        "Ignition Power (W)": "",
+        "Ignition Time (s)": "",
+        "Burn Time (s)": "",
+        "Flow Direction": "",
+        "?-g Burn Length": "",
+        "?-g Spread Length": "",
+        "1-g Burn Length": "",
+        "1-g Spread Rate": "",
+        "Camera 1": "",
+        "Camera 2": ""
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "annotation row (note), not a run"
+        },
+        "material": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "annotation row (note), not a run"
+        },
+        "geometry": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "annotation row (note), not a run"
+        },
+        "o2_percent": {
+          "min": null,
+          "max": null,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "annotation row (note), not a run"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "annotation row (note), not a run"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "annotation row (note), not a run"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "annotation row (note), not a run"
+        },
+        "diluent": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "annotation row (note), not a run"
+        }
+      },
+      "outcomes": [],
+      "review_status": "not_required"
+    }
+  ]
+}

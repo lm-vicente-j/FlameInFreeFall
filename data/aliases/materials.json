@@ -1,0 +1,82 @@
+{
+  "name": "materials",
+  "entries": [
+    {
+      "source": "Cotton-Fiberglass (SIBAL)",
+      "canonical": "cotton-fiberglass fabric (sibal)",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "Heptane",
+      "canonical": "heptane",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "Methanol",
+      "canonical": "methanol",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "PMMA",
+      "canonical": "pmma",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "PMMA & Nomex",
+      "canonical": "pmma and nomex",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "SIBAL Fabric",
+      "canonical": "cotton-fiberglass fabric (sibal)",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    },
+    {
+      "source": "Silicone",
+      "canonical": "silicone",
+      "proposed_by": "llm",
+      "review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "notes": ""
+      }
+    }
+  ]
+}
