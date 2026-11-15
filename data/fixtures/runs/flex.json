@@ -1,0 +1,2494 @@
+{
+  "table": "flex",
+  "investigation": "PSI-69",
+  "source": {
+    "filename": "PSI-69_Experimental table_FLEX.csv",
+    "sha256": "37c88ce8ae9391b7544ff630a45ce87543d04d317cdbfbed104fe7d5c27e1b96",
+    "encoding": "cp1252",
+    "columns": [
+      "FLEX Test #",
+      "FLEX Identifier",
+      "Test Date",
+      "Test GMT",
+      "Fuel",
+      "Ambient pressure; mmHg",
+      "O initial ambient composition; mole fraction",
+      "N initial ambient composition; mole fraction",
+      "CO initial ambient composition; mole fraction",
+      "He initial ambient composition; mole fraction",
+      "Droplet initial diameter; mm",
+      "Visible flame extinction diameter; mm",
+      "Burning rate; mm",
+      "Burn time; s",
+      "Test end"
+    ]
+  },
+  "counts": {
+    "runs": 7,
+    "ranges": 0,
+    "sessions": 0,
+    "notes": 0,
+    "duplicate_rows": 0,
+    "empty_rows_skipped": 0
+  },
+  "records": [
+    {
+      "id": "PSI-69:flex:1",
+      "kind": "run",
+      "row": 1,
+      "original": {
+        "FLEX Test #": "1",
+        "FLEX Identifier": "20CAL08",
+        "Test Date": "3/5/2009",
+        "Test GMT": "17:22:03",
+        "Fuel": "Methanol",
+        "Ambient pressure; mmHg": "757.7",
+        "O initial ambient composition; mole fraction": "0.21",
+        "N initial ambient composition; mole fraction": "0.79",
+        "CO initial ambient composition; mole fraction": "0",
+        "He initial ambient composition; mole fraction": "0",
+        "Droplet initial diameter; mm": "1.69",
+        "Visible flame extinction diameter; mm": "0.89",
+        "Burning rate; mm": "0.52",
+        "Burn time; s": "4.3",
+        "Test end": "Disruption"
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": "droplet",
+          "method": "manual",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "Investigation-level constant: FLEX burns isolated fuel droplets"
+        },
+        "material": {
+          "value": "methanol",
+          "method": "mapped",
+          "columns": [
+            "Fuel"
+          ],
+          "review_status": "pending",
+          "quote": "Methanol",
+          "note": "alias proposed by llm; not yet reviewed"
+        },
+        "geometry": {
+          "value": "droplet",
+          "method": "manual",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "Investigation-level constant: FLEX burns isolated fuel droplets"
+        },
+        "o2_percent": {
+          "min": 21.0,
+          "max": 21.0,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "parsed",
+          "columns": [
+            "O initial ambient composition; mole fraction"
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "mole fraction x 100"
+        },
+        "pressure_kpa": {
+          "min": 101.018373,
+          "max": 101.018373,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "parsed",
+          "columns": [
+            "Ambient pressure; mmHg"
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "converted from mmHg; NIST SP 811 (1 mmHg = 0.133322387415 kPa)"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "flow is not recorded in this table"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "flow is not recorded in this table"
+        },
+        "diluent": {
+          "value": "N2",
+          "method": "parsed",
+          "columns": [
+            "N initial ambient composition; mole fraction",
+            "CO initial ambient composition; mole fraction",
+            "He initial ambient composition; mole fraction"
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "species with nonzero mole fraction; the \"CO\" column is CO2 (subscript lost in source)"
+        }
+      },
+      "outcomes": [
+        {
+          "type": "extinction_diameter",
+          "gravity": "microgravity",
+          "result": {
+            "min": 0.89,
+            "max": 0.89,
+            "unit": "mm",
+            "qualifier": null,
+            "method": "parsed",
+            "columns": [
+              "Visible flame extinction diameter; mm"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": null
+          }
+        },
+        {
+          "type": "burning_rate",
+          "gravity": "microgravity",
+          "result": {
+            "min": 0.52,
+            "max": 0.52,
+            "unit": "mm",
+            "qualifier": null,
+            "method": "parsed",
+            "columns": [
+              "Burning rate; mm"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": "unit as written in source header"
+          }
+        },
+        {
+          "type": "burn_time",
+          "gravity": "microgravity",
+          "result": {
+            "min": 4.3,
+            "max": 4.3,
+            "unit": "s",
+            "qualifier": null,
+            "method": "parsed",
+            "columns": [
+              "Burn time; s"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": null
+          }
+        },
+        {
+          "type": "test_end",
+          "gravity": "microgravity",
+          "result": {
+            "value": "Disruption",
+            "method": "parsed",
+            "columns": [
+              "Test end"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": null
+          }
+        }
+      ],
+      "flags": [],
+      "links": [
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "6843456b9e44646b74027727",
+            "key": "psi-data/PSI-69/Calibration/PSI-69_Calibration_20CAL08.txt",
+            "version": 1,
+            "filename": "PSI-69_Calibration_20CAL08.txt"
+          },
+          "basis": "FLEX Identifier 20CAL08 matches \"20CAL08\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "6843456b9e44646b74027728",
+            "key": "psi-data/PSI-69/Calibration/PSI-69_Calibration_20CAL08_Chamber_Gases.txt",
+            "version": 1,
+            "filename": "PSI-69_Calibration_20CAL08_Chamber_Gases.txt"
+          },
+          "basis": "FLEX Identifier 20CAL08 matches \"20CAL08\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "6843456b9e44646b74027729",
+            "key": "psi-data/PSI-69/Calibration/PSI-69_Calibration_20CAL08_Chamber_Readings.txt",
+            "version": 1,
+            "filename": "PSI-69_Calibration_20CAL08_Chamber_Readings.txt"
+          },
+          "basis": "FLEX Identifier 20CAL08 matches \"20CAL08\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "6843456b9e44646b7402772a",
+            "key": "psi-data/PSI-69/Calibration/PSI-69_Calibration_20CAL08_Color_Camera_Settings.txt",
+            "version": 1,
+            "filename": "PSI-69_Calibration_20CAL08_Color_Camera_Settings.txt"
+          },
+          "basis": "FLEX Identifier 20CAL08 matches \"20CAL08\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "6843456b9e44646b7402772b",
+            "key": "psi-data/PSI-69/Calibration/PSI-69_Calibration_20CAL08_HIBMS_Camera_Settings.txt",
+            "version": 1,
+            "filename": "PSI-69_Calibration_20CAL08_HIBMS_Camera_Settings.txt"
+          },
+          "basis": "FLEX Identifier 20CAL08 matches \"20CAL08\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "6843456b9e44646b7402772c",
+            "key": "psi-data/PSI-69/Calibration/PSI-69_Calibration_20CAL08_LLLUV_Camera_Settings.txt",
+            "version": 1,
+            "filename": "PSI-69_Calibration_20CAL08_LLLUV_Camera_Settings.txt"
+          },
+          "basis": "FLEX Identifier 20CAL08 matches \"20CAL08\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "6843456b9e44646b7402772d",
+            "key": "psi-data/PSI-69/Calibration/PSI-69_Calibration_20CAL08_MDCA_Camera_Settings.txt",
+            "version": 1,
+            "filename": "PSI-69_Calibration_20CAL08_MDCA_Camera_Settings.txt"
+          },
+          "basis": "FLEX Identifier 20CAL08 matches \"20CAL08\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "6843456c9e44646b7402772e",
+            "key": "psi-data/PSI-69/Calibration/PSI-69_Calibration_20CAL08_Radiometer_Readings.txt",
+            "version": 1,
+            "filename": "PSI-69_Calibration_20CAL08_Radiometer_Readings.txt"
+          },
+          "basis": "FLEX Identifier 20CAL08 matches \"20CAL08\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "6843456c9e44646b7402772f",
+            "key": "psi-data/PSI-69/Calibration/PSI-69_Calibration_20CAL08_Testpoint_Settings.txt",
+            "version": 1,
+            "filename": "PSI-69_Calibration_20CAL08_Testpoint_Settings.txt"
+          },
+          "basis": "FLEX Identifier 20CAL08 matches \"20CAL08\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684344fa9e44646b7402730a",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_FLEX-001_ColorCamData.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_FLEX-001_ColorCamData.txt"
+          },
+          "basis": "FLEX Test # 1 matches \"FLEX-001\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684344fb9e44646b7402730d",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_FLEX-001_DataFigure.eps",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_FLEX-001_DataFigure.eps"
+          },
+          "basis": "FLEX Test # 1 matches \"FLEX-001\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684344fa9e44646b7402730c",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_FLEX-001_DropletData.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_FLEX-001_DropletData.txt"
+          },
+          "basis": "FLEX Test # 1 matches \"FLEX-001\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684344fb9e44646b7402730e",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_FLEX-001_LLUVData.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_FLEX-001_LLUVData.txt"
+          },
+          "basis": "FLEX Test # 1 matches \"FLEX-001\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684344fb9e44646b7402730f",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_FLEX-001_Summary.pdf",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_FLEX-001_Summary.pdf"
+          },
+          "basis": "FLEX Test # 1 matches \"FLEX-001\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684344fb9e44646b74027311",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_FLEX-001_TestSheet.rtf",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_FLEX-001_TestSheet.rtf"
+          },
+          "basis": "FLEX Test # 1 matches \"FLEX-001\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684344fb9e44646b74027310",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_FLEX-001_TestSheet.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_FLEX-001_TestSheet.txt"
+          },
+          "basis": "FLEX Test # 1 matches \"FLEX-001\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684344fa9e44646b7402730b",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_FLEX_001_Summary.pdf",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_FLEX_001_Summary.pdf"
+          },
+          "basis": "FLEX Test # 1 matches \"FLEX_001\" in the file name",
+          "status": "confirmed"
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "PSI-69:flex:2",
+      "kind": "run",
+      "row": 2,
+      "original": {
+        "FLEX Test #": "2",
+        "FLEX Identifier": "20CAL10",
+        "Test Date": "3/5/2009",
+        "Test GMT": "19:20:06",
+        "Fuel": "Methanol",
+        "Ambient pressure; mmHg": "762",
+        "O initial ambient composition; mole fraction": "0.21",
+        "N initial ambient composition; mole fraction": "0.79",
+        "CO initial ambient composition; mole fraction": "0",
+        "He initial ambient composition; mole fraction": "0",
+        "Droplet initial diameter; mm": "1.86",
+        "Visible flame extinction diameter; mm": "0.94",
+        "Burning rate; mm": "0.6",
+        "Burn time; s": "5",
+        "Test end": "Extinction"
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": "droplet",
+          "method": "manual",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "Investigation-level constant: FLEX burns isolated fuel droplets"
+        },
+        "material": {
+          "value": "methanol",
+          "method": "mapped",
+          "columns": [
+            "Fuel"
+          ],
+          "review_status": "pending",
+          "quote": "Methanol",
+          "note": "alias proposed by llm; not yet reviewed"
+        },
+        "geometry": {
+          "value": "droplet",
+          "method": "manual",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "Investigation-level constant: FLEX burns isolated fuel droplets"
+        },
+        "o2_percent": {
+          "min": 21.0,
+          "max": 21.0,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "parsed",
+          "columns": [
+            "O initial ambient composition; mole fraction"
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "mole fraction x 100"
+        },
+        "pressure_kpa": {
+          "min": 101.591659,
+          "max": 101.591659,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "parsed",
+          "columns": [
+            "Ambient pressure; mmHg"
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "converted from mmHg; NIST SP 811 (1 mmHg = 0.133322387415 kPa)"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "flow is not recorded in this table"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "flow is not recorded in this table"
+        },
+        "diluent": {
+          "value": "N2",
+          "method": "parsed",
+          "columns": [
+            "N initial ambient composition; mole fraction",
+            "CO initial ambient composition; mole fraction",
+            "He initial ambient composition; mole fraction"
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "species with nonzero mole fraction; the \"CO\" column is CO2 (subscript lost in source)"
+        }
+      },
+      "outcomes": [
+        {
+          "type": "extinction_diameter",
+          "gravity": "microgravity",
+          "result": {
+            "min": 0.94,
+            "max": 0.94,
+            "unit": "mm",
+            "qualifier": null,
+            "method": "parsed",
+            "columns": [
+              "Visible flame extinction diameter; mm"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": null
+          }
+        },
+        {
+          "type": "burning_rate",
+          "gravity": "microgravity",
+          "result": {
+            "min": 0.6,
+            "max": 0.6,
+            "unit": "mm",
+            "qualifier": null,
+            "method": "parsed",
+            "columns": [
+              "Burning rate; mm"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": "unit as written in source header"
+          }
+        },
+        {
+          "type": "burn_time",
+          "gravity": "microgravity",
+          "result": {
+            "min": 5.0,
+            "max": 5.0,
+            "unit": "s",
+            "qualifier": null,
+            "method": "parsed",
+            "columns": [
+              "Burn time; s"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": null
+          }
+        },
+        {
+          "type": "test_end",
+          "gravity": "microgravity",
+          "result": {
+            "value": "Extinction",
+            "method": "parsed",
+            "columns": [
+              "Test end"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": null
+          }
+        }
+      ],
+      "flags": [],
+      "links": [
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "6843456c9e44646b74027733",
+            "key": "psi-data/PSI-69/Calibration/PSI-69_Calibration_20CAL10.txt",
+            "version": 1,
+            "filename": "PSI-69_Calibration_20CAL10.txt"
+          },
+          "basis": "FLEX Identifier 20CAL10 matches \"20CAL10\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "6843456c9e44646b74027734",
+            "key": "psi-data/PSI-69/Calibration/PSI-69_Calibration_20CAL10_Chamber_Gases.txt",
+            "version": 1,
+            "filename": "PSI-69_Calibration_20CAL10_Chamber_Gases.txt"
+          },
+          "basis": "FLEX Identifier 20CAL10 matches \"20CAL10\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "6843456c9e44646b74027735",
+            "key": "psi-data/PSI-69/Calibration/PSI-69_Calibration_20CAL10_Chamber_Readings.txt",
+            "version": 1,
+            "filename": "PSI-69_Calibration_20CAL10_Chamber_Readings.txt"
+          },
+          "basis": "FLEX Identifier 20CAL10 matches \"20CAL10\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "6843456c9e44646b74027736",
+            "key": "psi-data/PSI-69/Calibration/PSI-69_Calibration_20CAL10_Color_Camera_Settings.txt",
+            "version": 1,
+            "filename": "PSI-69_Calibration_20CAL10_Color_Camera_Settings.txt"
+          },
+          "basis": "FLEX Identifier 20CAL10 matches \"20CAL10\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "6843456c9e44646b74027737",
+            "key": "psi-data/PSI-69/Calibration/PSI-69_Calibration_20CAL10_HIBMS_Camera_Settings.txt",
+            "version": 1,
+            "filename": "PSI-69_Calibration_20CAL10_HIBMS_Camera_Settings.txt"
+          },
+          "basis": "FLEX Identifier 20CAL10 matches \"20CAL10\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "6843456d9e44646b74027738",
+            "key": "psi-data/PSI-69/Calibration/PSI-69_Calibration_20CAL10_LLLUV_Camera_Settings.txt",
+            "version": 1,
+            "filename": "PSI-69_Calibration_20CAL10_LLLUV_Camera_Settings.txt"
+          },
+          "basis": "FLEX Identifier 20CAL10 matches \"20CAL10\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "6843456d9e44646b74027739",
+            "key": "psi-data/PSI-69/Calibration/PSI-69_Calibration_20CAL10_MDCA_Camera_Settings.txt",
+            "version": 1,
+            "filename": "PSI-69_Calibration_20CAL10_MDCA_Camera_Settings.txt"
+          },
+          "basis": "FLEX Identifier 20CAL10 matches \"20CAL10\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "6843456d9e44646b7402773a",
+            "key": "psi-data/PSI-69/Calibration/PSI-69_Calibration_20CAL10_Radiometer_Readings.txt",
+            "version": 1,
+            "filename": "PSI-69_Calibration_20CAL10_Radiometer_Readings.txt"
+          },
+          "basis": "FLEX Identifier 20CAL10 matches \"20CAL10\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "6843456d9e44646b7402773b",
+            "key": "psi-data/PSI-69/Calibration/PSI-69_Calibration_20CAL10_Testpoint_Settings.txt",
+            "version": 1,
+            "filename": "PSI-69_Calibration_20CAL10_Testpoint_Settings.txt"
+          },
+          "basis": "FLEX Identifier 20CAL10 matches \"20CAL10\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684344fc9e44646b74027317",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_FLEX-002_ColorCamData.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_FLEX-002_ColorCamData.txt"
+          },
+          "basis": "FLEX Test # 2 matches \"FLEX-002\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684344fc9e44646b74027319",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_FLEX-002_DropletData.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_FLEX-002_DropletData.txt"
+          },
+          "basis": "FLEX Test # 2 matches \"FLEX-002\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684344fc9e44646b74027318",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_FLEX-002_LLUVData.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_FLEX-002_LLUVData.txt"
+          },
+          "basis": "FLEX Test # 2 matches \"FLEX-002\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684344fc9e44646b7402731a",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_FLEX-002_Summary.pdf",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_FLEX-002_Summary.pdf"
+          },
+          "basis": "FLEX Test # 2 matches \"FLEX-002\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684344fc9e44646b7402731d",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_FLEX-002_TestSheet.rtf",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_FLEX-002_TestSheet.rtf"
+          },
+          "basis": "FLEX Test # 2 matches \"FLEX-002\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684344fc9e44646b7402731b",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_FLEX-002_TestSheet.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_FLEX-002_TestSheet.txt"
+          },
+          "basis": "FLEX Test # 2 matches \"FLEX-002\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684344fb9e44646b74027313",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_FLEX_002_BacklitSample.pdf",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_FLEX_002_BacklitSample.pdf"
+          },
+          "basis": "FLEX Test # 2 matches \"FLEX_002\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684344fb9e44646b74027312",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_FLEX_002_DropHist.pdf",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_FLEX_002_DropHist.pdf"
+          },
+          "basis": "FLEX Test # 2 matches \"FLEX_002\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684344fb9e44646b74027314",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_FLEX_002_Pressure_Temperature.pdf",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_FLEX_002_Pressure_Temperature.pdf"
+          },
+          "basis": "FLEX Test # 2 matches \"FLEX_002\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684344fb9e44646b74027315",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_FLEX_002_Radiometer.pdf",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_FLEX_002_Radiometer.pdf"
+          },
+          "basis": "FLEX Test # 2 matches \"FLEX_002\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684344fc9e44646b74027316",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_FLEX_002_Summary.pdf",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_FLEX_002_Summary.pdf"
+          },
+          "basis": "FLEX Test # 2 matches \"FLEX_002\" in the file name",
+          "status": "confirmed"
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "PSI-69:flex:10",
+      "kind": "run",
+      "row": 10,
+      "original": {
+        "FLEX Test #": "10",
+        "FLEX Identifier": "256F002",
+        "Test Date": "5/22/2009",
+        "Test GMT": "14:53:27",
+        "Fuel": "Methanol",
+        "Ambient pressure; mmHg": "2319.7",
+        "O initial ambient composition; mole fraction": "0.21",
+        "N initial ambient composition; mole fraction": "0.09",
+        "CO initial ambient composition; mole fraction": "0.7",
+        "He initial ambient composition; mole fraction": "0",
+        "Droplet initial diameter; mm": "3.86",
+        "Visible flame extinction diameter; mm": "",
+        "Burning rate; mm": "0.37",
+        "Burn time; s": "13.6",
+        "Test end": "Extinction"
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": "droplet",
+          "method": "manual",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "Investigation-level constant: FLEX burns isolated fuel droplets"
+        },
+        "material": {
+          "value": "methanol",
+          "method": "mapped",
+          "columns": [
+            "Fuel"
+          ],
+          "review_status": "pending",
+          "quote": "Methanol",
+          "note": "alias proposed by llm; not yet reviewed"
+        },
+        "geometry": {
+          "value": "droplet",
+          "method": "manual",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "Investigation-level constant: FLEX burns isolated fuel droplets"
+        },
+        "o2_percent": {
+          "min": 21.0,
+          "max": 21.0,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "parsed",
+          "columns": [
+            "O initial ambient composition; mole fraction"
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "mole fraction x 100"
+        },
+        "pressure_kpa": {
+          "min": 309.267942,
+          "max": 309.267942,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "parsed",
+          "columns": [
+            "Ambient pressure; mmHg"
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "converted from mmHg; NIST SP 811 (1 mmHg = 0.133322387415 kPa)"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "flow is not recorded in this table"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "flow is not recorded in this table"
+        },
+        "diluent": {
+          "value": "N2+CO2",
+          "method": "parsed",
+          "columns": [
+            "N initial ambient composition; mole fraction",
+            "CO initial ambient composition; mole fraction",
+            "He initial ambient composition; mole fraction"
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "species with nonzero mole fraction; the \"CO\" column is CO2 (subscript lost in source)"
+        }
+      },
+      "outcomes": [
+        {
+          "type": "burning_rate",
+          "gravity": "microgravity",
+          "result": {
+            "min": 0.37,
+            "max": 0.37,
+            "unit": "mm",
+            "qualifier": null,
+            "method": "parsed",
+            "columns": [
+              "Burning rate; mm"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": "unit as written in source header"
+          }
+        },
+        {
+          "type": "burn_time",
+          "gravity": "microgravity",
+          "result": {
+            "min": 13.6,
+            "max": 13.6,
+            "unit": "s",
+            "qualifier": null,
+            "method": "parsed",
+            "columns": [
+              "Burn time; s"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": null
+          }
+        },
+        {
+          "type": "test_end",
+          "gravity": "microgravity",
+          "result": {
+            "value": "Extinction",
+            "method": "parsed",
+            "columns": [
+              "Test end"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": null
+          }
+        }
+      ],
+      "flags": [],
+      "links": [
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345009e44646b7402733b",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_FLEX-010_ColorCamData.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_FLEX-010_ColorCamData.txt"
+          },
+          "basis": "FLEX Test # 10 matches \"FLEX-010\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345009e44646b7402733d",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_FLEX-010_DropletData.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_FLEX-010_DropletData.txt"
+          },
+          "basis": "FLEX Test # 10 matches \"FLEX-010\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345009e44646b7402733e",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_FLEX-010_LLUVData.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_FLEX-010_LLUVData.txt"
+          },
+          "basis": "FLEX Test # 10 matches \"FLEX-010\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345009e44646b7402733f",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_FLEX-010_Summary.pdf",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_FLEX-010_Summary.pdf"
+          },
+          "basis": "FLEX Test # 10 matches \"FLEX-010\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345019e44646b74027341",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_FLEX-010_TestSheet.rtf",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_FLEX-010_TestSheet.rtf"
+          },
+          "basis": "FLEX Test # 10 matches \"FLEX-010\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345019e44646b74027340",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_FLEX-010_TestSheet.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_FLEX-010_TestSheet.txt"
+          },
+          "basis": "FLEX Test # 10 matches \"FLEX-010\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345009e44646b7402733c",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_FLEX_010_Summary.pdf",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_FLEX_010_Summary.pdf"
+          },
+          "basis": "FLEX Test # 10 matches \"FLEX_010\" in the file name",
+          "status": "confirmed"
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "PSI-69:flex:11",
+      "kind": "run",
+      "row": 11,
+      "original": {
+        "FLEX Test #": "11",
+        "FLEX Identifier": "256R001",
+        "Test Date": "5/22/2009",
+        "Test GMT": "15:33:47",
+        "Fuel": "Methanol",
+        "Ambient pressure; mmHg": "2318.8",
+        "O initial ambient composition; mole fraction": "0.21",
+        "N initial ambient composition; mole fraction": "0.09",
+        "CO initial ambient composition; mole fraction": "0.7",
+        "He initial ambient composition; mole fraction": "0",
+        "Droplet initial diameter; mm": "3.03",
+        "Visible flame extinction diameter; mm": "",
+        "Burning rate; mm": "0.4",
+        "Burn time; s": "16.5",
+        "Test end": "Extinction"
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": "droplet",
+          "method": "manual",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "Investigation-level constant: FLEX burns isolated fuel droplets"
+        },
+        "material": {
+          "value": "methanol",
+          "method": "mapped",
+          "columns": [
+            "Fuel"
+          ],
+          "review_status": "pending",
+          "quote": "Methanol",
+          "note": "alias proposed by llm; not yet reviewed"
+        },
+        "geometry": {
+          "value": "droplet",
+          "method": "manual",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "Investigation-level constant: FLEX burns isolated fuel droplets"
+        },
+        "o2_percent": {
+          "min": 21.0,
+          "max": 21.0,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "parsed",
+          "columns": [
+            "O initial ambient composition; mole fraction"
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "mole fraction x 100"
+        },
+        "pressure_kpa": {
+          "min": 309.147952,
+          "max": 309.147952,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "parsed",
+          "columns": [
+            "Ambient pressure; mmHg"
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "converted from mmHg; NIST SP 811 (1 mmHg = 0.133322387415 kPa)"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "flow is not recorded in this table"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "flow is not recorded in this table"
+        },
+        "diluent": {
+          "value": "N2+CO2",
+          "method": "parsed",
+          "columns": [
+            "N initial ambient composition; mole fraction",
+            "CO initial ambient composition; mole fraction",
+            "He initial ambient composition; mole fraction"
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "species with nonzero mole fraction; the \"CO\" column is CO2 (subscript lost in source)"
+        }
+      },
+      "outcomes": [
+        {
+          "type": "burning_rate",
+          "gravity": "microgravity",
+          "result": {
+            "min": 0.4,
+            "max": 0.4,
+            "unit": "mm",
+            "qualifier": null,
+            "method": "parsed",
+            "columns": [
+              "Burning rate; mm"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": "unit as written in source header"
+          }
+        },
+        {
+          "type": "burn_time",
+          "gravity": "microgravity",
+          "result": {
+            "min": 16.5,
+            "max": 16.5,
+            "unit": "s",
+            "qualifier": null,
+            "method": "parsed",
+            "columns": [
+              "Burn time; s"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": null
+          }
+        },
+        {
+          "type": "test_end",
+          "gravity": "microgravity",
+          "result": {
+            "value": "Extinction",
+            "method": "parsed",
+            "columns": [
+              "Test end"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": null
+          }
+        }
+      ],
+      "flags": [],
+      "links": [
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345ae9e44646b740279d8",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_256R001.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_256R001.txt"
+          },
+          "basis": "FLEX Identifier 256R001 matches \"256R001\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345ae9e44646b740279d9",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_256R001_Chamber_Readings.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_256R001_Chamber_Readings.txt"
+          },
+          "basis": "FLEX Identifier 256R001 matches \"256R001\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345ae9e44646b740279da",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_256R001_Color_Camera_Settings.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_256R001_Color_Camera_Settings.txt"
+          },
+          "basis": "FLEX Identifier 256R001 matches \"256R001\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345ad9e44646b740279d3",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_256R001_HIBMS_Camera_Settings.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_256R001_HIBMS_Camera_Settings.txt"
+          },
+          "basis": "FLEX Identifier 256R001 matches \"256R001\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345ae9e44646b740279d4",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_256R001_LLLUV_Camera_Settings.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_256R001_LLLUV_Camera_Settings.txt"
+          },
+          "basis": "FLEX Identifier 256R001 matches \"256R001\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345ae9e44646b740279d5",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_256R001_MDCA_Camera_Settings.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_256R001_MDCA_Camera_Settings.txt"
+          },
+          "basis": "FLEX Identifier 256R001 matches \"256R001\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345ae9e44646b740279d6",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_256R001_Radiometer_Readings.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_256R001_Radiometer_Readings.txt"
+          },
+          "basis": "FLEX Identifier 256R001 matches \"256R001\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345ae9e44646b740279d7",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_256R001_Testpoint_Settings.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_256R001_Testpoint_Settings.txt"
+          },
+          "basis": "FLEX Identifier 256R001 matches \"256R001\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345019e44646b74027342",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_FLEX-011_ColorCamData.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_FLEX-011_ColorCamData.txt"
+          },
+          "basis": "FLEX Test # 11 matches \"FLEX-011\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345019e44646b74027343",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_FLEX-011_DropletData.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_FLEX-011_DropletData.txt"
+          },
+          "basis": "FLEX Test # 11 matches \"FLEX-011\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345019e44646b74027345",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_FLEX-011_LLUVData.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_FLEX-011_LLUVData.txt"
+          },
+          "basis": "FLEX Test # 11 matches \"FLEX-011\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345019e44646b74027346",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_FLEX-011_Summary.pdf",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_FLEX-011_Summary.pdf"
+          },
+          "basis": "FLEX Test # 11 matches \"FLEX-011\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345029e44646b74027348",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_FLEX-011_TestSheet.rtf",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_FLEX-011_TestSheet.rtf"
+          },
+          "basis": "FLEX Test # 11 matches \"FLEX-011\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345019e44646b74027347",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_FLEX-011_TestSheet.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_FLEX-011_TestSheet.txt"
+          },
+          "basis": "FLEX Test # 11 matches \"FLEX-011\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345019e44646b74027344",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_FLEX_011_Summary.pdf",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_FLEX_011_Summary.pdf"
+          },
+          "basis": "FLEX Test # 11 matches \"FLEX_011\" in the file name",
+          "status": "confirmed"
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "PSI-69:flex:114",
+      "kind": "run",
+      "row": 114,
+      "original": {
+        "FLEX Test #": "114",
+        "FLEX Identifier": "C11M201",
+        "Test Date": "9/6/2010",
+        "Test GMT": "19:14:22",
+        "Fuel": "Methanol",
+        "Ambient pressure; mmHg": "0",
+        "O initial ambient composition; mole fraction": "0.2",
+        "N initial ambient composition; mole fraction": "0.45",
+        "CO initial ambient composition; mole fraction": "0.35",
+        "He initial ambient composition; mole fraction": "0",
+        "Droplet initial diameter; mm": "3.23",
+        "Visible flame extinction diameter; mm": "1.68",
+        "Burning rate; mm": "0.42",
+        "Burn time; s": "18.9",
+        "Test end": "Extinction"
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": "droplet",
+          "method": "manual",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "Investigation-level constant: FLEX burns isolated fuel droplets"
+        },
+        "material": {
+          "value": "methanol",
+          "method": "mapped",
+          "columns": [
+            "Fuel"
+          ],
+          "review_status": "pending",
+          "quote": "Methanol",
+          "note": "alias proposed by llm; not yet reviewed"
+        },
+        "geometry": {
+          "value": "droplet",
+          "method": "manual",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "Investigation-level constant: FLEX burns isolated fuel droplets"
+        },
+        "o2_percent": {
+          "min": 20.0,
+          "max": 20.0,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "parsed",
+          "columns": [
+            "O initial ambient composition; mole fraction"
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "mole fraction x 100"
+        },
+        "pressure_kpa": {
+          "min": null,
+          "max": null,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [
+            "Ambient pressure; mmHg"
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "source reads \"0\" mmHg, which is not a valid pressure reading"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "flow is not recorded in this table"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "flow is not recorded in this table"
+        },
+        "diluent": {
+          "value": "N2+CO2",
+          "method": "parsed",
+          "columns": [
+            "N initial ambient composition; mole fraction",
+            "CO initial ambient composition; mole fraction",
+            "He initial ambient composition; mole fraction"
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "species with nonzero mole fraction; the \"CO\" column is CO2 (subscript lost in source)"
+        }
+      },
+      "outcomes": [
+        {
+          "type": "extinction_diameter",
+          "gravity": "microgravity",
+          "result": {
+            "min": 1.68,
+            "max": 1.68,
+            "unit": "mm",
+            "qualifier": null,
+            "method": "parsed",
+            "columns": [
+              "Visible flame extinction diameter; mm"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": null
+          }
+        },
+        {
+          "type": "burning_rate",
+          "gravity": "microgravity",
+          "result": {
+            "min": 0.42,
+            "max": 0.42,
+            "unit": "mm",
+            "qualifier": null,
+            "method": "parsed",
+            "columns": [
+              "Burning rate; mm"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": "unit as written in source header"
+          }
+        },
+        {
+          "type": "burn_time",
+          "gravity": "microgravity",
+          "result": {
+            "min": 18.9,
+            "max": 18.9,
+            "unit": "s",
+            "qualifier": null,
+            "method": "parsed",
+            "columns": [
+              "Burn time; s"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": null
+          }
+        },
+        {
+          "type": "test_end",
+          "gravity": "microgravity",
+          "result": {
+            "value": "Extinction",
+            "method": "parsed",
+            "columns": [
+              "Test end"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": null
+          }
+        }
+      ],
+      "flags": [
+        {
+          "code": "invalid_reading",
+          "columns": [
+            "Ambient pressure; mmHg"
+          ],
+          "detail": "cell \"0\": a pressure of 0 mmHg is not possible"
+        }
+      ],
+      "links": [
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345d29e44646b74027b4d",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_C11M201.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_C11M201.txt"
+          },
+          "basis": "FLEX Identifier C11M201 matches \"C11M201\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345d29e44646b74027b4e",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_C11M201_Chamber_Readings.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_C11M201_Chamber_Readings.txt"
+          },
+          "basis": "FLEX Identifier C11M201 matches \"C11M201\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345d39e44646b74027b4f",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_C11M201_Color_Camera_Settings.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_C11M201_Color_Camera_Settings.txt"
+          },
+          "basis": "FLEX Identifier C11M201 matches \"C11M201\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345d39e44646b74027b50",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_C11M201_HIBMS_Camera_Settings.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_C11M201_HIBMS_Camera_Settings.txt"
+          },
+          "basis": "FLEX Identifier C11M201 matches \"C11M201\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345d29e44646b74027b49",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_C11M201_LLLUV_Camera_Settings.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_C11M201_LLLUV_Camera_Settings.txt"
+          },
+          "basis": "FLEX Identifier C11M201 matches \"C11M201\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345d29e44646b74027b4a",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_C11M201_MDCA_Color_Camera_Settings.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_C11M201_MDCA_Color_Camera_Settings.txt"
+          },
+          "basis": "FLEX Identifier C11M201 matches \"C11M201\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345d29e44646b74027b4b",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_C11M201_MDCA_Testpoint_Settings.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_C11M201_MDCA_Testpoint_Settings.txt"
+          },
+          "basis": "FLEX Identifier C11M201 matches \"C11M201\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345d29e44646b74027b4c",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_C11M201_Radiometer_Readings.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_C11M201_Radiometer_Readings.txt"
+          },
+          "basis": "FLEX Identifier C11M201 matches \"C11M201\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345309e44646b740274d9",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_FLEX-114_ColorCamData.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_FLEX-114_ColorCamData.txt"
+          },
+          "basis": "FLEX Test # 114 matches \"FLEX-114\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345309e44646b740274da",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_FLEX-114_DropletData.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_FLEX-114_DropletData.txt"
+          },
+          "basis": "FLEX Test # 114 matches \"FLEX-114\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345319e44646b740274dc",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_FLEX-114_LLUVData.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_FLEX-114_LLUVData.txt"
+          },
+          "basis": "FLEX Test # 114 matches \"FLEX-114\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345319e44646b740274dd",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_FLEX-114_Summary.pdf",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_FLEX-114_Summary.pdf"
+          },
+          "basis": "FLEX Test # 114 matches \"FLEX-114\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345319e44646b740274df",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_FLEX-114_TestSheet.rtf",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_FLEX-114_TestSheet.rtf"
+          },
+          "basis": "FLEX Test # 114 matches \"FLEX-114\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345319e44646b740274de",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_FLEX-114_TestSheet.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_FLEX-114_TestSheet.txt"
+          },
+          "basis": "FLEX Test # 114 matches \"FLEX-114\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345309e44646b740274db",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_FLEX_114_Summary.pdf",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_FLEX_114_Summary.pdf"
+          },
+          "basis": "FLEX Test # 114 matches \"FLEX_114\" in the file name",
+          "status": "confirmed"
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "PSI-69:flex:222",
+      "kind": "run",
+      "row": 222,
+      "original": {
+        "FLEX Test #": "222",
+        "FLEX Identifier": "H01M102",
+        "Test Date": "9/9/2011",
+        "Test GMT": "17:41:47",
+        "Fuel": "Methanol",
+        "Ambient pressure; mmHg": "759.2",
+        "O initial ambient composition; mole fraction": "0.2",
+        "N initial ambient composition; mole fraction": "0.75",
+        "CO initial ambient composition; mole fraction": "0",
+        "He initial ambient composition; mole fraction": "0.05",
+        "Droplet initial diameter; mm": "2.91",
+        "Visible flame extinction diameter; mm": "1.12",
+        "Burning rate; mm": "0.51",
+        "Burn time; s": "14.4",
+        "Test end": "Extinction"
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": "droplet",
+          "method": "manual",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "Investigation-level constant: FLEX burns isolated fuel droplets"
+        },
+        "material": {
+          "value": "methanol",
+          "method": "mapped",
+          "columns": [
+            "Fuel"
+          ],
+          "review_status": "pending",
+          "quote": "Methanol",
+          "note": "alias proposed by llm; not yet reviewed"
+        },
+        "geometry": {
+          "value": "droplet",
+          "method": "manual",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "Investigation-level constant: FLEX burns isolated fuel droplets"
+        },
+        "o2_percent": {
+          "min": 20.0,
+          "max": 20.0,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "parsed",
+          "columns": [
+            "O initial ambient composition; mole fraction"
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "mole fraction x 100"
+        },
+        "pressure_kpa": {
+          "min": 101.218357,
+          "max": 101.218357,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "parsed",
+          "columns": [
+            "Ambient pressure; mmHg"
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "converted from mmHg; NIST SP 811 (1 mmHg = 0.133322387415 kPa)"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "flow is not recorded in this table"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "flow is not recorded in this table"
+        },
+        "diluent": {
+          "value": "N2+He",
+          "method": "parsed",
+          "columns": [
+            "N initial ambient composition; mole fraction",
+            "CO initial ambient composition; mole fraction",
+            "He initial ambient composition; mole fraction"
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "species with nonzero mole fraction; the \"CO\" column is CO2 (subscript lost in source)"
+        }
+      },
+      "outcomes": [
+        {
+          "type": "extinction_diameter",
+          "gravity": "microgravity",
+          "result": {
+            "min": 1.12,
+            "max": 1.12,
+            "unit": "mm",
+            "qualifier": null,
+            "method": "parsed",
+            "columns": [
+              "Visible flame extinction diameter; mm"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": null
+          }
+        },
+        {
+          "type": "burning_rate",
+          "gravity": "microgravity",
+          "result": {
+            "min": 0.51,
+            "max": 0.51,
+            "unit": "mm",
+            "qualifier": null,
+            "method": "parsed",
+            "columns": [
+              "Burning rate; mm"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": "unit as written in source header"
+          }
+        },
+        {
+          "type": "burn_time",
+          "gravity": "microgravity",
+          "result": {
+            "min": 14.4,
+            "max": 14.4,
+            "unit": "s",
+            "qualifier": null,
+            "method": "parsed",
+            "columns": [
+              "Burn time; s"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": null
+          }
+        },
+        {
+          "type": "test_end",
+          "gravity": "microgravity",
+          "result": {
+            "value": "Extinction",
+            "method": "parsed",
+            "columns": [
+              "Test end"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": null
+          }
+        }
+      ],
+      "flags": [],
+      "links": [
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345559e44646b74027645",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_FLEX-222_ColorCamData.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_FLEX-222_ColorCamData.txt"
+          },
+          "basis": "FLEX Test # 222 matches \"FLEX-222\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345559e44646b74027647",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_FLEX-222_DropletData.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_FLEX-222_DropletData.txt"
+          },
+          "basis": "FLEX Test # 222 matches \"FLEX-222\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345559e44646b74027648",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_FLEX-222_LLUVData.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_FLEX-222_LLUVData.txt"
+          },
+          "basis": "FLEX Test # 222 matches \"FLEX-222\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345559e44646b74027649",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_FLEX-222_Summary.pdf",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_FLEX-222_Summary.pdf"
+          },
+          "basis": "FLEX Test # 222 matches \"FLEX-222\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345569e44646b7402764b",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_FLEX-222_TestSheet.rtf",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_FLEX-222_TestSheet.rtf"
+          },
+          "basis": "FLEX Test # 222 matches \"FLEX-222\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345559e44646b7402764a",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_FLEX-222_TestSheet.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_FLEX-222_TestSheet.txt"
+          },
+          "basis": "FLEX Test # 222 matches \"FLEX-222\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345559e44646b74027646",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_FLEX_222_Summary.pdf",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_FLEX_222_Summary.pdf"
+          },
+          "basis": "FLEX Test # 222 matches \"FLEX_222\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345ff9e44646b74027d0e",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_H01M102.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_H01M102.txt"
+          },
+          "basis": "FLEX Identifier H01M102 matches \"H01M102\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345ff9e44646b74027d0f",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_H01M102_Chamber_Readings.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_H01M102_Chamber_Readings.txt"
+          },
+          "basis": "FLEX Identifier H01M102 matches \"H01M102\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345fe9e44646b74027d07",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_H01M102_Color_Camera_Settings.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_H01M102_Color_Camera_Settings.txt"
+          },
+          "basis": "FLEX Identifier H01M102 matches \"H01M102\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345fe9e44646b74027d08",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_H01M102_Comments.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_H01M102_Comments.txt"
+          },
+          "basis": "FLEX Identifier H01M102 matches \"H01M102\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345fe9e44646b74027d09",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_H01M102_HIBMS_Camera_Settings.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_H01M102_HIBMS_Camera_Settings.txt"
+          },
+          "basis": "FLEX Identifier H01M102 matches \"H01M102\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345fe9e44646b74027d0a",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_H01M102_LLLUV_Camera_Settings.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_H01M102_LLLUV_Camera_Settings.txt"
+          },
+          "basis": "FLEX Identifier H01M102 matches \"H01M102\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345fe9e44646b74027d0b",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_H01M102_MDCA_Color_Camera_Settings.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_H01M102_MDCA_Color_Camera_Settings.txt"
+          },
+          "basis": "FLEX Identifier H01M102 matches \"H01M102\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345fe9e44646b74027d0c",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_H01M102_MDCA_Testpoint_Settings.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_H01M102_MDCA_Testpoint_Settings.txt"
+          },
+          "basis": "FLEX Identifier H01M102 matches \"H01M102\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345fe9e44646b74027d0d",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_H01M102_Radiometer_Readings.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_H01M102_Radiometer_Readings.txt"
+          },
+          "basis": "FLEX Identifier H01M102 matches \"H01M102\" in the file name",
+          "status": "confirmed"
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "PSI-69:flex:223",
+      "kind": "run",
+      "row": 223,
+      "original": {
+        "FLEX Test #": "223",
+        "FLEX Identifier": "H01M104",
+        "Test Date": "9/9/2011",
+        "Test GMT": "18:27:14",
+        "Fuel": "Methanol",
+        "Ambient pressure; mmHg": "759.6",
+        "O initial ambient composition; mole fraction": "0.2",
+        "N initial ambient composition; mole fraction": "0.75",
+        "CO initial ambient composition; mole fraction": "0",
+        "He initial ambient composition; mole fraction": "0.05",
+        "Droplet initial diameter; mm": "",
+        "Visible flame extinction diameter; mm": "",
+        "Burning rate; mm": "",
+        "Burn time; s": "~6",
+        "Test end": "Extinction"
+      },
+      "conditions": {
+        "fuel_class": {
+          "value": "droplet",
+          "method": "manual",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "Investigation-level constant: FLEX burns isolated fuel droplets"
+        },
+        "material": {
+          "value": "methanol",
+          "method": "mapped",
+          "columns": [
+            "Fuel"
+          ],
+          "review_status": "pending",
+          "quote": "Methanol",
+          "note": "alias proposed by llm; not yet reviewed"
+        },
+        "geometry": {
+          "value": "droplet",
+          "method": "manual",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "Investigation-level constant: FLEX burns isolated fuel droplets"
+        },
+        "o2_percent": {
+          "min": 20.0,
+          "max": 20.0,
+          "unit": "percent",
+          "qualifier": null,
+          "method": "parsed",
+          "columns": [
+            "O initial ambient composition; mole fraction"
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "mole fraction x 100"
+        },
+        "pressure_kpa": {
+          "min": 101.271685,
+          "max": 101.271685,
+          "unit": "kPa",
+          "qualifier": null,
+          "method": "parsed",
+          "columns": [
+            "Ambient pressure; mmHg"
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "converted from mmHg; NIST SP 811 (1 mmHg = 0.133322387415 kPa)"
+        },
+        "flow_cm_s": {
+          "min": null,
+          "max": null,
+          "unit": "cm/s",
+          "qualifier": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "flow is not recorded in this table"
+        },
+        "flow_direction": {
+          "value": null,
+          "method": "unknown",
+          "columns": [],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "flow is not recorded in this table"
+        },
+        "diluent": {
+          "value": "N2+He",
+          "method": "parsed",
+          "columns": [
+            "N initial ambient composition; mole fraction",
+            "CO initial ambient composition; mole fraction",
+            "He initial ambient composition; mole fraction"
+          ],
+          "review_status": "not_required",
+          "quote": null,
+          "note": "species with nonzero mole fraction; the \"CO\" column is CO2 (subscript lost in source)"
+        }
+      },
+      "outcomes": [
+        {
+          "type": "burn_time",
+          "gravity": "microgravity",
+          "result": {
+            "min": 6.0,
+            "max": 6.0,
+            "unit": "s",
+            "qualifier": "approximate",
+            "method": "parsed",
+            "columns": [
+              "Burn time; s"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": null
+          }
+        },
+        {
+          "type": "test_end",
+          "gravity": "microgravity",
+          "result": {
+            "value": "Extinction",
+            "method": "parsed",
+            "columns": [
+              "Test end"
+            ],
+            "review_status": "not_required",
+            "quote": null,
+            "note": null
+          }
+        }
+      ],
+      "flags": [],
+      "links": [
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345569e44646b7402764d",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_FLEX-223_ColorCamData.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_FLEX-223_ColorCamData.txt"
+          },
+          "basis": "FLEX Test # 223 matches \"FLEX-223\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345569e44646b7402764e",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_FLEX-223_DropletData.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_FLEX-223_DropletData.txt"
+          },
+          "basis": "FLEX Test # 223 matches \"FLEX-223\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345569e44646b7402764f",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_FLEX-223_LLUVData.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_FLEX-223_LLUVData.txt"
+          },
+          "basis": "FLEX Test # 223 matches \"FLEX-223\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345569e44646b74027650",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_FLEX-223_Summary.pdf",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_FLEX-223_Summary.pdf"
+          },
+          "basis": "FLEX Test # 223 matches \"FLEX-223\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345569e44646b74027652",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_FLEX-223_TestSheet.rtf",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_FLEX-223_TestSheet.rtf"
+          },
+          "basis": "FLEX Test # 223 matches \"FLEX-223\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345569e44646b74027651",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_FLEX-223_TestSheet.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_FLEX-223_TestSheet.txt"
+          },
+          "basis": "FLEX Test # 223 matches \"FLEX-223\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345569e44646b7402764c",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_FLEX_223_Summary.pdf",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_FLEX_223_Summary.pdf"
+          },
+          "basis": "FLEX Test # 223 matches \"FLEX_223\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345ff9e44646b74027d17",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_H01M104.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_H01M104.txt"
+          },
+          "basis": "FLEX Identifier H01M104 matches \"H01M104\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684346009e44646b74027d18",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_H01M104_Chamber_Readings.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_H01M104_Chamber_Readings.txt"
+          },
+          "basis": "FLEX Identifier H01M104 matches \"H01M104\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684346009e44646b74027d19",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_H01M104_Color_Camera_Settings.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_H01M104_Color_Camera_Settings.txt"
+          },
+          "basis": "FLEX Identifier H01M104 matches \"H01M104\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684346009e44646b74027d1a",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_H01M104_Comments.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_H01M104_Comments.txt"
+          },
+          "basis": "FLEX Identifier H01M104 matches \"H01M104\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684346009e44646b74027d1b",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_H01M104_HIBMS_Camera_Settings.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_H01M104_HIBMS_Camera_Settings.txt"
+          },
+          "basis": "FLEX Identifier H01M104 matches \"H01M104\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345ff9e44646b74027d13",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_H01M104_LLLUV_Camera_Settings.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_H01M104_LLLUV_Camera_Settings.txt"
+          },
+          "basis": "FLEX Identifier H01M104 matches \"H01M104\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345ff9e44646b74027d14",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_H01M104_MDCA_Color_Camera_Settings.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_H01M104_MDCA_Color_Camera_Settings.txt"
+          },
+          "basis": "FLEX Identifier H01M104 matches \"H01M104\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345ff9e44646b74027d15",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_H01M104_MDCA_Testpoint_Settings.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_H01M104_MDCA_Testpoint_Settings.txt"
+          },
+          "basis": "FLEX Identifier H01M104 matches \"H01M104\" in the file name",
+          "status": "confirmed"
+        },
+        {
+          "target": {
+            "kind": "file",
+            "accession": "PSI-69",
+            "file_id": "684345ff9e44646b74027d16",
+            "key": "psi-data/PSI-69/Raw Data/PSI-69_Raw Data_H01M104_Radiometer_Readings.txt",
+            "version": 1,
+            "filename": "PSI-69_Raw Data_H01M104_Radiometer_Readings.txt"
+          },
+          "basis": "FLEX Identifier H01M104 matches \"H01M104\" in the file name",
+          "status": "confirmed"
+        }
+      ],
+      "review_status": "pending"
+    }
+  ]
+}
