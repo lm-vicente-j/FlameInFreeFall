@@ -72,9 +72,9 @@
           "columns": [
             "Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "Silicone",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sheet",
@@ -404,7 +404,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-99:saffire-2:2",
@@ -444,9 +444,9 @@
           "columns": [
             "Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "Silicone",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sheet",
@@ -758,7 +758,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-99:saffire-2:3",
@@ -798,9 +798,9 @@
           "columns": [
             "Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "Silicone",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sheet",
@@ -1059,7 +1059,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-99:saffire-2:4",
@@ -1099,9 +1099,9 @@
           "columns": [
             "Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "Silicone",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sheet",
@@ -1424,7 +1424,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-99:saffire-2:5",
@@ -1464,9 +1464,9 @@
           "columns": [
             "Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "Cotton-Fiberglass (SIBAL)",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sheet",
@@ -1895,7 +1895,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-99:saffire-2:6",
@@ -2293,9 +2293,9 @@
           "columns": [
             "Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "PMMA & Nomex",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sheet",
@@ -2610,7 +2610,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-99:saffire-2:8",
@@ -2650,9 +2650,9 @@
           "columns": [
             "Material"
           ],
-          "review_status": "pending",
+          "review_status": "approved",
           "quote": "PMMA",
-          "note": "alias proposed by llm; not yet reviewed"
+          "note": null
         },
         "geometry": {
           "value": "sheet",
@@ -2986,7 +2986,7 @@
           "status": "confirmed"
         }
       ],
-      "review_status": "pending"
+      "review_status": "approved"
     },
     {
       "id": "PSI-99:saffire-2:9",
