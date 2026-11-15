@@ -7,7 +7,7 @@ typed with [n]ote lives in memory until a decision saves it; skipping discards i
 
 from collections.abc import Callable, Mapping
 from dataclasses import dataclass
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 
@@ -54,8 +54,8 @@ class Tally:
 
 
 def utc_stamp(moment: datetime) -> str:
-    aware = moment if moment.tzinfo else moment.replace(tzinfo=timezone.utc)
-    return aware.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    aware = moment if moment.tzinfo else moment.replace(tzinfo=UTC)
+    return aware.astimezone(UTC).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
 def load_document(path: Path, kind: Kind) -> dict[str, Any]:

@@ -102,11 +102,13 @@ def build(data_dir: Path) -> dict[str, Any]:
         problems = schema_errors(outputs[name], "run-table")
         if problems:
             raise FixtureError(f"{name}: " + "; ".join(problems))
-    present = {record["id"] for name in ("runs/flex.json", "runs/saffire-2.json") for record in outputs[name]["records"]}
+    present = {
+        record["id"] for name in ("runs/flex.json", "runs/saffire-2.json") for record in outputs[name]["records"]
+    }
     for accession in INVESTIGATIONS:
         missing = sorted(cited_record_ids(outputs[f"cards/{accession}.json"]) - present)
         if missing:
-            raise FixtureError(f"{accession}: the card cites runs that are not in the run fixtures: {', '.join(missing)}")
+            raise FixtureError(f"{accession}: the card cites runs missing from the run fixtures: {', '.join(missing)}")
     return outputs
 
 

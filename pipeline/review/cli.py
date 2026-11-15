@@ -7,7 +7,7 @@ to someone who typed their own name.
 
 import argparse
 from collections.abc import Callable
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from functools import cache
 from pathlib import Path
 
@@ -27,7 +27,7 @@ def _parser() -> argparse.ArgumentParser:
 
 
 def _now() -> datetime:
-    return datetime.now(timezone.utc)
+    return datetime.now(UTC)
 
 
 def main(
